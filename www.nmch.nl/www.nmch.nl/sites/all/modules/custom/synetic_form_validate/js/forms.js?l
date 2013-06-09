@@ -1,0 +1,260 @@
+//Synetic forms v1.0
+
+Drupal.forms = function(options){ 
+	var defaults = { 
+		text: false,
+		textarea: false,
+		select: false,
+		radio: false,
+		checkbox: false,
+		file: false,
+		validate: false
+	};
+	var options = $.extend(defaults, options);  
+
+	if(options.text){ this.text(); }
+	if(options.file){ this.file(); }
+	if(options.radio){ this.radio(); }
+	if(options.select){ this.select(); }
+	if(options.checkbox){ this.checkbox(); }
+	if(options.textarea){ this.textarea(); }
+	if(options.validate){ this.validate(); }
+};
+
+// Validator defaults
+$.extend($.validator.messages, {
+	'required' : Drupal.t('This field is required')
+});
+
+$.validator.setDefaults({
+	highlight: function(element, errorClass, validClass) {		
+		var sClass = element.className.split(' ');
+		switch (sClass[0]){
+			case 'form-checkbox':
+				var oCheckboxes = $(element).parents('.form-checkboxes');
+				if (oCheckboxes.length > 0) {
+					oCheckboxes.removeClass(validClass).addClass(errorClass);
+				}
+				if( oCheckboxes.length <= 0){
+					$(element).prev().removeClass(validClass).addClass(errorClass);
+				}
+				break;
+			case 'form-radio':
+				$(element).parents('.form-radios').addClass(errorClass);					
+				break;				
+			case 'form-file':
+				$(element).next().next().addClass(errorClass);
+				break;
+			case 'form-select':
+				$(element).next().addClass(errorClass);
+				break;
+			default:
+				$(element).addClass(errorClass).removeClass(validClass);
+				break;
+		};
+		
+	},
+	unhighlight: function(element, errorClass, validClass) {
+		var sClass = element.className.split(' ');
+		switch (sClass[0]){
+			case 'form-checkbox':
+				var oCheckboxes = $(element).parents('.form-checkboxes');
+				if( oCheckboxes.length > 0 ){
+				 	oCheckboxes.removeClass(errorClass).addClass(validClass);	
+				}
+				if( oCheckboxes.length <= 0){
+					$(element).prev().removeClass(errorClass).addClass(validClass);	
+				}
+				break;		
+			case 'form-radio':
+				$(element).parents('.form-radios').removeClass(errorClass).addClass(validClass);	
+				break;							
+			case 'form-file':
+				$(element).next().next().removeClass(errorClass).addClass(validClass);
+				break;
+			case 'form-select':
+				$(element).next().removeClass(errorClass).addClass(validClass);
+				break;
+			default:
+				$(element).removeClass(errorClass).addClass(validClass);
+				break;
+		};
+	},
+	errorPlacement: function(error, element){
+		if(element.parents('fieldset').hasClass('collapsed')){
+			element.parents('fieldset').removeClass('collapsed');
+		}
+
+		var sClass = element[0].className.split(' ');
+		switch (sClass[0]) {
+			case 'form-file':
+			case 'form-select':
+				error.appendTo($(element[0].parentNode.parentNode));
+				break;
+			case 'form-radio':
+				error.insertBefore($(element[0].parentNode.parentNode.parentNode.parentNode.childNodes[0]));
+				break;
+			case 'form-checkbox':
+				if ($(element).parents('.form-checkboxes').length > 0) {
+					error.insertBefore($(element[0].parentNode.parentNode.parentNode.parentNode.childNodes[0]));
+				}
+				else {
+					error.insertBefore($(element[0].parentNode.childNodes[0]));
+				}
+				break;
+			default:
+				error.appendTo($(element[0].parentNode));
+				break;
+		};
+	}
+});
+jQuery.validator.addMethod("defaultvalue", function(val, el){ return !(val == '' || val == el.title); }, Drupal.t('This field is required'));
+
+// Validate forms
+Drupal.forms.prototype.validate = function(context){
+	var oFormList = $('form', context);
+	var oColMain = $('#col-main');
+	oFormList.each(function(){
+		var oRules = Drupal.settings.validation[this.id.toString().replace(/-/g,'_')] || {};
+		oRules['ignoreTitle'] = true;
+		if(typeof(oRules) == 'object' && oRules['validationstyle'] == 'summary'){
+			$('<div class="block block-systemmessages error" style="display: none;"><div class="block-content"><h2 class="block-title">'+ oRules['validationtitle'] +'</h2><p>'+ oRules['validationtext'] +'</p><ul></ul></div></div>').prependTo(oColMain);
+			var oMessages = $('.block-systemmessages', oColMain);
+						
+			oRules['errorContainer'] = oMessages;
+			oRules['errorLabelContainer'] = $('ul', oMessages);
+			oRules['wrapper'] = 'li';
+		}
+	
+		$(this).validate(oRules);
+	});
+};
+
+// Text
+Drupal.forms.prototype.text = function(context){
+	var oText = $('input.form-text', context);
+	if (oText.find('[title]').length > 0) {
+		$(oText).each(function(){if (this.value == "") {this.value = this.title;}});
+	}
+
+	$(oText).focus(onFocus);
+	$(oText).blur(onBlur);
+
+	function onFocus(oEvent){
+		if(this.value == this.title){ this.value = ""; }
+		$(this).addClass('focus');
+	}
+	function onBlur(oEvent){
+		if(this.value == ""){ this.value = this.title; }
+		$(this).removeClass('focus');
+	}		
+};
+
+// Textarea
+Drupal.forms.prototype.textarea = function(context){
+	var oText = $('textarea', context);
+	if (oText.find('[title]').length > 0) {
+		$(oText).each(function(){if (this.value == "") {this.value = this.title;}});
+	}
+
+	$(oText).focus(onFocus);
+	$(oText).blur(onBlur);
+
+	function onFocus(oEvent){
+		if(this.value == this.title){ this.value = ""; }
+		$(this).addClass('focus');
+	}
+	function onBlur(oEvent){
+		if(this.value == ""){ this.value = this.title; }
+		$(this).removeClass('focus');
+	}		
+};
+
+// Select
+Drupal.forms.prototype.select = function(context){
+	var oSelect = $('select', context);
+	if (oSelect.length > 0 && !$.isIE6) {
+		$(oSelect).change(onChange);
+		$(oSelect).focus(onFocus);
+		$(oSelect).blur(onBlur);
+	}
+	
+	function onChange(oEvent){
+		var oTarget = oEvent.target || oEvent;
+		var oParent = $(oTarget).parent();
+		var oLink = $('.select-dummy .text', oParent);
+		oLink.html($(':selected',oTarget).text());
+	}
+	
+	var iLength = oSelect.length;
+	for(i = 0; i < iLength; i++){ onChange(oSelect[i]); }
+		
+	function onFocus(oEvent){
+		$('.select-dummy', oEvent.target.parentNode).addClass('focus');
+	}
+	function onBlur(oEvent){
+		$('.select-dummy', oEvent.target.parentNode).removeClass('focus');
+	}			
+};
+
+// Radios
+Drupal.forms.prototype.radio = function(context){
+	var oRadio = $('.radio-dummy', context);	
+	if (oRadio.length > 0) {
+		oRadio.click(function(oEvent){
+			var oEl = $(this);
+			if (!(oEl.hasClass('checked'))) {
+				var oInput = oEl.next()[0];
+				$(oInput).trigger('click');
+				var oRadios = $("input[name='" + oInput.name + "']");
+				for (i = 0; i < oRadios.length; i++) {
+					$(oRadios[i]).prev().removeClass('checked');
+				}
+				oEl.addClass('checked');
+			}
+			return false;
+		});
+	};
+};
+
+// Checkboxes
+Drupal.forms.prototype.checkbox = function(context){
+	var oCheckbox = $('.checkbox-dummy', context);	
+	if (oCheckbox.length > 0) {
+		
+		var iLength = oCheckbox.length;
+		for(i = 0; i < iLength; i++){ $(oCheckbox[i]).toggleClass('checked', $(oCheckbox[i]).next()[0].checked); }
+			
+		oCheckbox.unbind().click(function(oEvent){
+			var oInput = $(this).next()[0];
+			$(oInput).trigger('click');
+			$(this).toggleClass('checked', oInput.checked);
+
+			return false;
+		});
+	};
+};
+
+// File
+Drupal.forms.prototype.file = function(context){
+	var oFile = $('input.form-file', context);
+	if (oFile.length > 0) {
+		$(oFile).hover(
+			function(){ $('a', this.parentNode).toggleClass('hover'); },
+			function(){ $('a', this.parentNode).removeClass('hover'); }
+		);
+		
+		$(oFile).change(function(oEvent){ 
+			var sFilename = $(oEvent.target).val();
+			var oParent = $(oEvent.target).parent();
+			if (sFilename === ''){ sFilename = Drupal.t('Upload uw bestand'); }
+			else{
+				sFilename = sFilename.split(/[\/\\]+/);
+				sFilename = sFilename[(sFilename.length-1)];
+			}
+			$('.fileupload-file strong',oParent).text(sFilename);
+			
+			this.blur();
+		});
+	};
+};

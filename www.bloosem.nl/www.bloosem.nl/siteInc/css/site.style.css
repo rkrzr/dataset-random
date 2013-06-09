@@ -1,0 +1,271 @@
+/* CSS Document */
+
+html, body { background-color: #66BFE5; margin: 0; padding: 0; height: 100%; }
+
+
+
+form, ul, li { padding: 0; margin: 0; }
+
+img { behavior: url(../../iepngfix.htc); border: none; margin: 0; padding: 0; }
+
+p { padding: 0; margin: 0; }
+
+a { text-decoration: none; color: #093d8d; }
+
+a:hover { text-decoration: none; color: #FFF; }
+
+
+
+table { border-collapse: collapse; font-size: 12px; border-color: #3a93cf; border-style: solid; border-width: 0; }
+
+td { border-color: #3a93cf; border-style: solid; border-width: 0; color: #093d8d; font-size: 12px; line-height: 24px; }
+
+
+
+h1 { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 1.2em; color:#093d8d; font-weight: bold; margin-top: 0px; margin-bottom: 20px;  }
+
+h1.zwart { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 1.2em; color:#000000; font-weight: bold; margin-top: 0px; margin-bottom: 6px;  }
+
+h2 { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; color:#52aae7; font-weight: bold; margin-top: 20px; margin-bottom: 2px; }
+
+
+
+hr { background: url(../../siteImg/divider_big.gif) no-repeat scroll center; width: 615px; height: 3px; border: none; }
+
+
+
+#wrapper1 { position: absolute; width: 961px; padding: 30px; margin: 0px 0px 0px -480px; left: 50%; text-align: left; background-color: #66BFE5; }
+
+#wrapper2 { position: relative; width: auto; height: 100%; padding: 20px; background-color: #FFFFFF; }
+
+#wrapper3 { position: relative; width: auto; height: 100%; background: url(../../siteImg/content_bg.gif) repeat-y; }
+
+#wrapper4 { position: relative; width: auto; height: 100%; background: url(../../siteImg/content_logo.gif) bottom right no-repeat; }
+
+#contact_pagina #wrapper4 { background: none; }
+
+#contact_pagina #content ul { margin: 6px 16px 6px 16px; }
+
+#contact_pagina #content li { color: #3a93cf; }
+
+
+
+#bannerblok { position: relative; width: 921px; height: 198px; background-color: #FFF; }
+
+#banner { position: absolute; left: 0; }
+
+#raat { position: absolute; left: 367px; }
+
+#kop { display:none; position: absolute; top: 151px; left: 10px; height: 37px; background-color: #0067B2; width: auto; padding: 0 18px 0 18px; color: #FFF; font-size: 18px; line-height: 36px; letter-spacing: 0.1em; font-weight: bold; font-family: Tahoma, Arial, Helvetica, sans-serif; }
+
+img#bij  { position: absolute; top: -64px; left: -66px; }
+
+img#logo  { position: relative; float: right; top: -20px; right: -27px; }
+
+
+
+#topmenu { padding: 10px 0 10px 0; background-color: #FFF; }
+
+#locCode1 { background-color: #9dc9e7; height: 25px; font-family: Verdana, Helvetica, sans-serif; font-size: 12px; font-weight: bold; line-height: 25px; color:#093d8d; text-align: right; }
+
+#locCode1 ul { height: 25px; float: right; }
+
+#locCode1 ul li { position: relative; display: inline; list-style: none; float: left; margin: 0 20px; }
+
+#locCode1 ul li a { display: block; float: left; text-decoration: none; color: #093d8d; }
+
+#locCode1 ul li a:hover { text-decoration: none; color: #FFF; }
+
+#locCode1 a.selected { color: #FFF; }
+
+
+
+#container { position: relative; }
+
+#side { position: relative; float: left; width: 232px; min-height: 354px; _height: 354px; padding-bottom: 130px; }
+
+#content { position: relative; float: right; width: 619px; min-height: 424px; _height: 424px; padding: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#093d8d; line-height: 24px; }
+
+#content a { color: #3a93cf; text-decoration: none; }
+
+
+
+#content a:link { color: #3a93cf; text-decoration: none; }
+
+#content a:visited { color: #3a93cf; text-decoration: none; }
+
+#content a:hover { color: #3a93cf; text-decoration: underline; }
+
+
+
+#content ul { margin-left: 16px; }
+
+
+
+/*
+
+#content a:link { color: #093d8d; text-decoration: none; }
+
+#content a:visited { color: #093d8d; text-decoration: none; }
+
+#content a:hover { color: #3a93cf; text-decoration: underline; }
+
+*/
+
+
+
+ul#submenu { position: relative; padding: 30px 10px 10px 10px; width: 212px; clear: both; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#093d8d; font-weight: bold; }
+
+ul#submenu li { list-style: none; height: 35px; text-indent: 15px; }
+
+ul#submenu li a { display: block; width: 212px;  line-height: 25px; }
+
+ul#submenu li a:hover { text-decoration: none; color: #FFF; }
+
+#submenu a.selected { text-decoration: none; color: #FFF; background: url(../../siteImg/menuwijzer.gif); }
+
+.subspacer { width: 232px; height: 25px; }
+
+.divider { position: relative; float: left; left: 10px; border: none; clear: both; }
+
+
+
+#contact { position: relative; left: 0; height: 65px; width: 232px;  }
+
+#contact img { position: absolute; top: 20px; left: 48px; }
+
+
+
+#belmij { position: relative;  height: 150px;  clear: both; }
+
+/* voor oude versie kopieer onderstaande en hernoem myCMN... naar CMN... */
+
+#myCMN_placeholder {  position: relative;  background: url(../../siteImg/bel_mij.gif) 0 0 no-repeat;  top: 38px;  left: 17px;  width: 202px;  height: 103px;  font-family: Arial, sans-serif;  font-size: 11px; color: #888; text-align: left; }
+
+#myCMN_placeholder table { position: relative; top: 36px; left: 14px; border: none; }
+
+#CMN table, #CMN tr,#CMN td { margin: 0; padding: 0; }
+
+#CMN_Input #phonenumber { text-align: right;  background-color: #e8f1f9; color: #060f15; width: 120px; border: 1px solid #3a93cf; padding-right: 3px; }
+
+#CMN_Images1 { position: relative; top: 29px; }
+
+#CMN_Button { position: relative; right: 2px;  }
+
+#CMN_InfoPopup { border: solid 1px Gray; background-color: white; width: 170px; z-index:1;}
+
+#CMN_InfoPopup table {position: relative; top: 0px; left:10px; }
+
+#CMN_InfoPopup table td {font-size: 11px; width: 150px; line-height: 16px;}
+
+
+
+
+
+#citaat img  { position: relative; padding: 14px 0 10px 0; }
+
+
+
+#cloud { position: relative; padding: 20px 10px; clear: both; text-align: justify; 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #53A3d7; line-height: 25px; font-weight: normal; }
+
+#cloud a {color: #53A3d7;}
+
+
+
+.cloud1 { font-size: 14px; }
+
+.cloud2 { font-weight: bold; font-size: 14px; }
+
+
+
+#socialmedia
+
+{
+
+	padding-top: 15px;
+
+	text-align: center;
+
+	position: relative;
+
+	clear: both;
+
+}
+
+
+
+#contact2 { position: relative; margin-top: 30px; width: 100%; height: 40px; text-align: center; }
+
+
+
+#adds { position: relative; margin: 15px 15px; padding: 10px; width: 182px; height: 145px; background-image: url(../../siteImg/accreditatie_logos3.gif); }
+
+#adds a { display: block; }
+
+#adds #pos1 { position: absolute; top: 10px; left: 10px; width: 88px; height: 86px; }
+
+#adds #pos2 { position: absolute; top: 10px; left: 104px; width: 88px; height: 86px; }
+
+#adds #pos3 { position: absolute; top: 102px; left: 10px; width: 88px; height: 41px; }
+
+#adds #pos4 { position: absolute; top: 102px; left: 104px; width: 63px; height: 66px; }
+
+
+
+#locCode2 { z-index: 500; position: absolute; bottom: 0; width: 202px; padding: 15px 15px 4px 15px; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color:#093d8d; line-height: 20px; font-weight: normal; }
+
+#locCode2 ul { margin: 0; padding: 0; position: relative; bottom: 10px; }
+
+#locCode2 ul li { display: block; list-style: none; float: left; clear: both; height: 20px; width: 202px;  }
+
+#locCode2 ul li a { display: block; float: left; }
+
+#locCode2 ul li a:hover { text-decoration: none; color: #66bfe4; }
+
+#locCode2 a.selected { color: #66bfe4; }
+
+#locCode2 span { color:#52aae7; }
+
+
+
+
+
+#footer { position: relative; height: 33px; clear: both; }
+
+#footer_blok { position: relative; height: 33px; float: right; width: 679px; background: url(../../siteImg/footer_bg.gif) repeat-x; text-align: center; }
+
+#footer_blok div { margin-top: 9px; font-family: Verdana, Helvetica, sans-serif; font-size: 12px; font-weight: bold; line-height: 23px; color:#fff; }
+
+
+
+.form_table td { vertical-align: top; }
+
+.form_table .left { text-align: right; width: 184px; padding-right: 6px; }
+
+.form_table input { background-color: #ebf4fa; border: 1px solid #3a93cf; width: 388px; }
+
+.form_table textarea { background-color: #ebf4fa; border: 1px solid #3a93cf; width: 386px; height: 83px; }
+
+.form_table input.button { float: right; width: 125px; height: 25px; border: none; }
+
+
+
+.errorField input, .errorField textarea { border: 1px solid red }
+
+
+
+#socialmedia div {
+
+	width: 190px!important;
+
+	text-align: center;
+
+	clear: both!important;
+
+	padding-left: 40px!important;
+
+	padding-bottom: 15px!important;
+
+}

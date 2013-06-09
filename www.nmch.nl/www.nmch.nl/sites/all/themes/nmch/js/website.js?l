@@ -1,0 +1,70 @@
+var oForms = null;
+
+Drupal.behaviors.website = function() {
+	$.isIE6 = !$.support.opacity && !window.XMLHttpRequest;
+	function initialize(){
+		/* theme & validate forms */
+		oForms = new Drupal.forms({ text: true, textarea: true, file: true, checkbox: true, radio: true, select: true, validate: true });
+
+		var oBlockTeam = $('.block-team');
+		if(oBlockTeam.length > 0){
+			var oBlockTeamPopup = $('.block-team-popup');
+			var oBlockTeamPopupTitle = $('h3',oBlockTeamPopup);
+			var oBlockTeamPopupText = $('p',oBlockTeamPopup);
+			var oBlockTeamPopupLink = $('a',oBlockTeamPopup);
+			$('li',oBlockTeam).mouseover(function(oEvent){
+				var oThis = $(this);
+				oBlockTeamPopupTitle[0].innerHTML = oThis.find('h3')[0].innerHTML;
+				oBlockTeamPopupText[0].innerHTML = oThis.find('.hide')[0].innerHTML;
+				oBlockTeamPopupLink[0].href = oThis.find('a')[0].href;
+
+				oBlockTeamPopup.css({'left': this.offsetLeft + 20, 'top': this.offsetTop + 20}).show();
+			});
+			oBlockTeam.mouseleave(function(oEvent){
+				oBlockTeamPopup.hide();
+			});
+		}
+		
+		var oSlider1 = $('.block-twitter');
+		if(oSlider1.length > 0){
+			oSlider1.tinycarousel({ pager: true, controls: false, interval: true, intervaltime: 5000 });
+		}
+		
+		var oMenuMain = $('#nav > li');
+		if(oMenuMain.length > 0){
+			$.ajax({
+				url: Drupal.settings.basePath + 'ajax/extra-menu-items',
+				dataType: 'json',
+				success: function(sJSON){
+					for(sID in sJSON){
+						$(oMenuMain[sID]).find('ul:first').append(sJSON[sID]);
+					}
+				}
+			});
+		}
+		
+		
+		setEvents();
+		fixIE6();
+	};
+
+	function setEvents(){
+		
+	};
+	
+	/* Decrap ie6 */
+	 function fixIE6(){
+		if($.isIE6 && typeof(DD_belatedPNG) != 'undefined'){
+			$('#nav .expanded').ieHover();
+			DD_belatedPNG.fix('.icon');
+		}
+	};		
+
+	initialize();
+};
+
+//Custom Methods
+$.fn.ieHover = function(sClass){
+	var sClass = sClass || 'hover';
+	$(this).hover(function(){$(this).addClass(sClass);}, function(){$(this).removeClass(sClass);});
+};

@@ -1,0 +1,50 @@
+.synetic_form_geo_location_map
+{
+	width	: 700px;
+	height	: 300px;
+	overflow: hidden;
+}
+.geo_location_search
+{
+	position	: absolute;
+	bottom		: 10px;
+	right		: 10px;
+	z-index		: 1;
+	padding		: 5px;
+	background	: #FFE5BF;
+	border		: 1px solid #F3B258;
+	width		: 270px;
+}
+.geo_location_search a
+{
+	background	: transparent url(../images/bg-nav.gif) no-repeat scroll 0 0;
+	
+	float		: right;
+	padding		: 2px;
+	margin		: 1px 0 0 0;
+}
+.geo_location_search a span
+{
+	background	: transparent url(../images/ico-search.gif) no-repeat scroll 0 0;
+	
+	display		: block;
+	width		: 15px;
+	height		: 16px;
+}
+
+.geo_location_search input
+{
+	border	: 1px solid #F3E058;
+	height	: 16px;
+	width	: 225px;
+	float	: left;
+}
+.geo_location_search input.input-tip
+{
+	color		: #9F9F9F;
+}
+
+#edit-field-medewerker-image-0-filefield-upload
+{
+	display: none;
+}

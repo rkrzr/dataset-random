@@ -1,0 +1,127 @@
+
+.um_get_button {    
+    width: 150px;
+    height: 43px;
+    background-image: url('../images/button.png');
+}
+
+#um_admin_content{
+    width: 73%;
+    float: left;
+}
+
+#um_admin_sidebar{
+    width: 25%;
+    float: right;
+}
+
+#um_fields_container {
+    /*padding: 2%;
+    border: 2px dotted #fff09f;
+    background: #fffef5;    */
+}
+
+.um_input {
+    width: 200px;
+}
+
+
+input[type='checkbox'].um_input,input[type='radio'].um_input {
+    width: auto;
+}
+
+.um_segment {
+    display: inline-block;
+    width: 33%;
+    padding-bottom: 20px;
+}
+
+
+.um_field_selecor {
+    display: inline-block;
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+.um_add_button {
+    cursor: pointer;
+}
+
+.um_left {
+    float: left;
+}
+
+.um_right {
+    float: right;
+}
+
+.um_block_title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.um_required {
+    color: red;
+}
+
+.um_selected_fields {
+    /*background-color: blue;*/
+    width: 50%;
+    min-height: 300px;
+    height:  auto;
+}
+
+.um_availabele_fields {
+    /*background-color: red;*/
+    width: 40%;
+    height: 300px;
+}
+
+.um_dropme {
+    padding: 5px;
+    border: 2px dotted #fff09f;
+    background: #fffef5;
+    overflow: auto;
+}
+
+.um_dropme div {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    cursor: move;
+}
+
+
+.um_highlight {
+    padding: 5px;
+    border: 2px dotted #5b6967;
+}
+
+.um_block_title {
+    margin: 0 auto;
+    display: block;
+}
+
+.um_description {
+    /*margin-top: -20px;*/
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+    text-align: left;
+    font-style: normal;    
+}
+
+#um_resetpassword_form {
+    border: 1px solid gray;
+    padding: 15px 0px 0px 185px;
+    background: aliceblue;
+    clear: both;
+}
+
+#um_resetpassword_form h2 {
+    font-size: 25px;
+    color: blue;
+}

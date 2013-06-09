@@ -1,0 +1,45 @@
+/* Tiny Carousel */
+#slider1 { height: 1%; overflow:hidden; padding: 0 0 10px;   }
+#slider1 .viewport { float: left; width: 608px; height: 200px; overflow: hidden; position: relative; }
+#slider1 .buttons { background:url("../images/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 30px 10px 0 0; background-position: 0 -38px; text-indent: -999em; float: left; width: 39px; height: 37px; overflow: hidden; position: relative; }
+#slider1 .next { background-position: 0 0; margin: 30px 0 0 10px;  }
+#slider1 .disable { visibility: hidden; }
+#slider1 .overview { list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0; }
+#slider1 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 200px; border: 1px solid #dcdcdc; width: 608px;}
+
+
+.pager{
+margin:0px;
+padding:0px;
+}
+
+.pager li{
+list-style: none;
+}
+
+.pagenum {
+background-color:white;
+width: 243px;
+height: 36px;
+display:block;
+padding-left: 30px;
+color:black;
+text-decoration:none;
+font-family: Times New Roman;
+padding-right: 12px;
+padding-top: 14px;
+font-size: 18px;
+text-align: right;
+}
+
+.active{
+background-color:black;
+background-image: url('../../../../../../images/pijl_wit_carousel.png');
+background-repeat: no-repeat;
+background-position: 15px; 20px;
+color:white;
+}
+
+body{
+background-color:gray;
+}

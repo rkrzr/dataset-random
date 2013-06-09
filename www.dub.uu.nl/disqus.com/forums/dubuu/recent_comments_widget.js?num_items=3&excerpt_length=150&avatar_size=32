@@ -1,0 +1,67 @@
+
+
+document.write(' \
+<style type="text/css" media="screen">\
+	 .dsq-widget ul.dsq-widget-list {\
+	 padding: 0;\
+	 margin: 0;\
+	 text-align: left;\
+	 }\
+	 img.dsq-widget-avatar {\
+	 width: 32px;\
+	 height: 32px;\
+	 border: 0px;\
+	 margin: 0px;\
+	 padding: 0px 3px 3px 0px;\
+	 float: left;\
+	 }\
+	 a.dsq-widget-user {\
+	 font-weight: bold;\
+	 }\
+	 a.dsq-widget-thread {\
+	 font-weight: bold;\
+	 }\
+	 p.dsq-widget-meta {\
+	 clear: both;\
+	 font-size: 80%;\
+	 padding: 0;\
+	 margin: 0;\
+	 }\
+	 li.dsq-widget-item {\
+	 margin: 15px 0;\
+	 list-style-type: none;\
+	 clear: both;\
+	 }\
+	 span.dsq-widget-clout {\
+	 padding: 0 2px;\
+	 background-color: #ff7300;\
+	 color: #fff;\
+	 }\
+	 table.dsq-widget-horiz td {\
+	 padding-right: 15px;\
+	 }\
+	 .dsq-widget-comment p {\
+	 display: inline;\
+	 }\
+	 </style>\
+	 <ul class="dsq-widget-list">\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/disqus_PksdP7P35c/"><img class="dsq-widget-avatar" src="http://mediacdn.disqus.com/uploads/users/5140/2174/avatar92.jpg?1369136992"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/disqus_PksdP7P35c/">denise</a>\
+	 <span class="dsq-widget-comment"><p>Prijs voor deze volledig gemeubileerde zolder is E 750,=/mnd</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://www.dub.uu.nl/podium/denise-harskamp/ukje/te-huur-lichte-gemeubileerde-zolder-wilhelminapark.html">Te huur lichte gemeubileerde zolder bij Wilhelminapark </a>&nbsp;&middot;&nbsp;<a href="https://www.dub.uu.nl/podium/denise-harskamp/ukje/te-huur-lichte-gemeubileerde-zolder-wilhelminapark.html#comment-903795015">1 day ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/ernstjanhamel/"><img class="dsq-widget-avatar" src="http://mediacdn.disqus.com/uploads/users/625/7269/avatar92.jpg?1369126918"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/ernstjanhamel/">Ernst-Jan  Hamel (DUB)</a>\
+	 <span class="dsq-widget-comment"><p>Is aangepast. Dank.</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://www.dub.uu.nl/artikel/nieuws/vanuit-nederland-afstuderen-amerikaanse-topuniversiteit.html">Vanuit Nederland afstuderen aan Amerikaanse topuniversiteit</a>&nbsp;&middot;&nbsp;<a href="https://www.dub.uu.nl/artikel/nieuws/vanuit-nederland-afstuderen-amerikaanse-topuniversiteit.html#comment-903721091">2 days ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="http://disqus.com/twitter-18365828/"><img class="dsq-widget-avatar" src="http://mediacdn.disqus.com/uploads/users/5135/1152/avatar92.jpg?1369083746"></a>\
+	 <a class="dsq-widget-user" href="http://disqus.com/twitter-18365828/">ericvdlist</a>\
+	 <span class="dsq-widget-comment"><p>en de juiste link is <a href="http://gatech.edu/newsroom/release.html?nid=212951" rel="nofollow">http://gatech.edu/newsroom/rel...</a> (zonder www ervoor dus(</p></span>\
+	 <p class="dsq-widget-meta"><a href="https://www.dub.uu.nl/artikel/nieuws/vanuit-nederland-afstuderen-amerikaanse-topuniversiteit.html">Vanuit Nederland afstuderen aan Amerikaanse topuniversiteit</a>&nbsp;&middot;&nbsp;<a href="https://www.dub.uu.nl/artikel/nieuws/vanuit-nederland-afstuderen-amerikaanse-topuniversiteit.html#comment-903337131">2 days ago</a></p>\
+	 </li>\
+	 </ul>\
+');

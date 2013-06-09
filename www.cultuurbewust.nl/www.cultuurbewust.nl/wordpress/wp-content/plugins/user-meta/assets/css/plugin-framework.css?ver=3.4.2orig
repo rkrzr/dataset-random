@@ -1,0 +1,140 @@
+.ui-progressbar-value {
+    background-image: url( '../images/pbar-ani.gif' );
+}
+
+.pf_trash {
+    float: right;
+    background: url('../images/trash.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.pf_label {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.pf_loading {
+    background:url(../images/pf_loading.gif) no-repeat;
+    margin:  10px; 
+}
+
+.pf_loading_fb {
+    background:url(../images/pf_loading.gif) no-repeat;
+    margin:  10px; 
+}
+
+
+.pf_required {
+    color: red;
+}
+
+.pf_divider {background-color:#fff; height:1px; overflow:hidden; border-top:1px solid #E6E6E6; border-bottom:1px solid #fff; margin:24px 0; clear:both}
+
+
+/* Various Message */
+.pf_info, .pf_success, .pf_warning, .pf_error, .pf_validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.pf_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../images/info.png');
+}
+.pf_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+}
+.pf_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../images/warning.png');
+}
+.pf_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/error.png');
+}
+.pf_validation {
+    color: #D63301;
+    background-color: #FFCCBA;
+    background-image: url('../images/validation.png');
+}
+/* End Various Message */
+
+
+/* timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+/* End timepicker */
+
+
+/* Password strength */
+.password_strength {
+    margin: 0 5px;
+	padding: 0 5px;
+	display: inline-block;
+	}
+.password_strength_1 { background-color: #fcb6b1; }
+.password_strength_2 { background-color: #fccab1; }
+.password_strength_3 { background-color: #fcfbb1; }
+.password_strength_4 { background-color: #dafcb1; }
+.password_strength_5 { background-color: #bcfcb1; }
+/* End Password strength */
+
+
+.pf_left {
+    float: left;
+}
+
+.pf_right {
+    float: right;
+}
+
+.pf_width_10 {
+    width: 10%;
+    padding: 2px;    
+}
+
+.pf_width_20 {
+    width: 20%;
+    padding: 2px;    
+}
+
+.pf_width_25 {
+    width: 25%; 
+}
+
+.pf_width_30 {
+    width: 30%;
+    padding: 2px;    
+}
+
+.pf_width_40 {
+    width: 40%;
+    padding: 2px;    
+}
+
+.pf_width_50 {
+    width: 50%;
+    padding: 2px;    
+}
+
+.pf_width_60 {
+    width: 60%;
+    padding: 2px;    
+}
+    

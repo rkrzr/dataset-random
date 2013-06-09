@@ -1,0 +1,73 @@
+$(document).ready(function()
+{
+  $('#search').attr('autocomplete','off');
+
+  $('#tagbox').submit(function(e)
+  {
+    e.preventDefault();
+    var searchterm = $('#tags').val(); 
+    searchterm = searchterm.toLowerCase();
+    searchterm = searchterm.replace(" ", "-")
+    var action = 'http://www.citylemon.com/cities/';
+    var action = action + searchterm;
+    var action = action + '/';
+    window.location = action;
+  });
+
+  $('#tagbox').keypress(function(event)
+  {
+    if (event.which == '13')
+    {
+      event.preventDefault();
+      var searchterm = $('#tags').val();
+      searchterm = searchterm.toLowerCase(); 
+      searchterm = searchterm.replace(" ", "-");
+      var action = 'http://www.citylemon.com/cities/';
+      var action = action + searchterm;
+      var action = action + '/';
+      window.location = action;      
+    }
+  });
+
+  $('#loginbutton').click(function()
+  {
+    $('#popupbg').fadeIn('slow', function() {});
+    $('#popup').fadeIn('slow', function() {});
+  });
+
+  $('#popupclose').click(function()
+  {
+    $('#popupbg').fadeOut('slow', function() {});
+    $('#popup').fadeOut('slow', function() {});
+  });
+
+  $('#logoffbutton').click(function()
+  {
+    var dataString = '&action=parseLogoff';
+    $.ajax(
+    {
+      type: "POST",
+      url: "../ajax/logoff.php",
+      data: dataString,
+      dataType: "html",
+      success: function(html)
+      {
+        $('#popupcontent').html(html);
+      }
+    });
+    return false;
+  });
+
+  $(function()
+  {
+    $("#demo-default-usage .demoControls").find('.replace').bind('click', function()
+    {
+      $(".custom-select").selectbox();
+    });
+    $("#demo-default-usage .demoControls").find('.undo').bind('click', function()
+    {
+      $(".custom-select").parents('.jquery-selectbox').unselectbox();
+    });
+    $(".custom-select").selectbox();
+  });
+});
