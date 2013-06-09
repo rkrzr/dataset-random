@@ -1,0 +1,124 @@
+/* Digest
+------------------------------
+    1. HTML markup
+    2. General rules
+    	2.1 Links policy
+    	2.2 Quotes policy
+*/
+
+/* ----------------------------------------------------------------------------*/
+  /* -------------------------------------------------------------------------------------------------->>> 1. HTML markup <<<-----------*/
+/* ----------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q { font-style:italic;}
+
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {font-size:100.1%}
+strong {font-weight: 900;}
+em {font-style: italic;}
+sup {font-size: small; vertical-align: super;}
+sub {font-size: small; vertical-align: sub;}
+abbr, acronym {
+	border-bottom: 1px dotted black;
+	cursor: help;
+	letter-spacing: .1em;
+}
+abbr {text-transform: capitalize;}
+acronym {text-transform: uppercase;}
+label, button, input[type=submit] {cursor: pointer;}
+code, pre, kbd {font-family: 'Courier New', Courier, monospace;}
+small {font-size:85%;}
+big {font-size:125%; line-height:80%;}
+blockquote, q, cite {font-family: 'Hoefler Text', 'Le Monde Courrier PTF', Garamond, 'Palatino Linotype', Georgia, sans-serif;}
+
+/* ----------------------------------------------------------------------------*/
+  /* -------------------------------------------------------------------------------------------------->>> 2. General rules <<<-----------*/
+/* ----------------------------------------------------------*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+	/* -------------------------------------------------------------------------------------------------->>> 2.1 Links policy <<<-----------*/
+
+a:link, a:visited {text-decoration:none}
+a:active, a:hover, a:focus {text-decoration:underline}
+
+a img, :link img, :visited img {border: 0;}
+
+	/* -------------------------------------------------------------------------------------------------->>> 2.2 Quotes policy <<<-----------*/
+
+:lang(af),:lang(nl),:lang(pl) {
+	quotes:'\201E' '\201D' '\201A' '\2019';
+}
+
+:lang(bg),:lang(cs),:lang(de),:lang(is),:lang(lt),:lang(sk),:lang(sr),:lang(ro) {
+	quotes:'\201E' '\201C' '\201A' '\2018';
+}
+
+:lang(da),:lang(hr) {
+	quotes:'\00BB' '\00AB' '\203A' '\2039';
+}
+
+:lang(el),:lang(es),:lang(sq),:lang(tr) {
+	quotes:'\00AB' '\00BB' '\2039' '\203A';
+}
+
+:lang(en-GB) {
+	quotes:'\2018' '\2019' '\201C' '\201D';
+}
+
+:lang(fi),:lang(sv) {
+	quotes:'\201D' '\201D' '\2019' '\2019';
+}
+
+:lang(fr) {
+	quotes:'\ab\2005' '\2005\bb' '\2039\2005' '\2005\203a';
+}
+
+*[lang|='en'] q:before {
+	content:'\201C';
+}
+
+*[lang|='en'] q:after {
+	content:'\201D';
+}
+
+*[lang|='en'] q q:before {
+	content:'\2018';
+}
+
+*[lang|='en'] q q:after {
+	content:'\2019';
+}

@@ -1,0 +1,183 @@
+/**
+Stylesheet: Slideshow.css
+	CSS for Slideshow.
+
+License:
+	MIT-style license.
+
+Copyright:
+	Copyright (c) 2008 [Aeron Glemann](http://www.electricprism.com/aeron/).
+	
+HTML:
+	<div class="slideshow">
+		<div class="slideshow-images" />
+		<div class="slideshow-captions" />
+		<div class="slideshow-controller" />
+		<div class="slideshow-loader" />
+		<div class="slideshow-thumbnails" />
+	</div>
+	
+Notes:
+	These next four rules are set by the Slideshow script.
+	You can override any of them with the !important keyword but the slideshow probably will not work as intended.
+*/
+
+.slideshow {
+	display: block;
+	position: relative;
+	z-index: 0;
+}
+.slideshow-images {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}		
+.slideshow-images img {
+	display: block;
+	position: absolute;
+	z-index: 1;
+}		
+.slideshow-thumbnails {
+	overflow: hidden;
+}
+
+/**
+Notes:
+	These are examples of user-defined styles.
+	Customize these classes to your usage of Slideshow.
+*/
+
+.slideshow {
+	width: 664px;
+	height: 504px;
+	margin: 0 auto;
+	background: url("../images/back.png") no-repeat scroll 0 0 transparent; 
+}
+.slideshow a img {
+	border: 0;
+}
+/**
+HTML:
+	<div class="slideshow-images">
+		<img />
+		<img />
+	</div>
+	
+Notes:
+	The images div is where the slides are shown.
+	Customize the visible / prev / next classes to effect the slideshow transitions: fading, wiping, etc.
+*/
+
+.slideshow-images {
+	width: 640px;
+	height: 480px;
+	left: 12px;
+	top: 12px;
+}		
+.slideshow-images-visible { 
+	opacity: 1;
+}	
+.slideshow-images-prev { 
+	opacity: 0; 
+}
+.slideshow-images-next { 
+	opacity: 0; 
+}
+.slideshow-images img {
+	float: left;
+	left: 0;
+	top: 0;
+	position: static;
+}
+/**
+HTML:
+	<div class="slideshow-thumbnails">
+		<ul>
+			<li><a class="slideshow-thumbnails-active" /></li>
+			<li><a class="slideshow-thumbnails-inactive" /></li>
+			...
+			<li><a class="slideshow-thumbnails-inactive" /></li>
+		</ul>
+	</div>
+	
+Notes:
+	Customize the active / inactive classes to affect the thumbnails animation.
+	Use the !important keyword to override FX without affecting performance.
+*/
+
+.slideshow-thumbnails * {
+	margin: 0;
+	padding: 0;
+}
+.slideshow-thumbnails li {
+	float: left;
+	list-style: none;
+	margin: 5px 5px 5px 0;
+	position: relative;
+}
+.slideshow-thumbnails a {
+	display: block;
+	float: left;
+	padding: 5px;
+	position: relative; 
+}
+.slideshow-thumbnails a:hover {
+	background-color: #FF9 !important;
+	opacity: 1 !important;
+}
+.slideshow-thumbnails img {
+	display: block;
+}
+.slideshow-thumbnails-active {
+	background-color: #9FF;
+	opacity: 1;
+}
+.slideshow-thumbnails-inactive {
+	background-color: #FFF;
+	opacity: .5;
+}.slideshow-thumbnails {
+	bottom: -110px;
+	height: 110px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+}
+.slideshow-thumbnails ul {
+	height: 90px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 1485px;
+}
+.slideshow{
+	margin-bottom:110px;
+}
+/**
+HTML:
+	<div class="slideshow-captions">
+		...
+	</div>
+	
+Notes:
+	Customize the hidden / visible classes to affect the captions animation.
+*/
+
+.slideshow-captions {
+	background: #000;
+	bottom: 12px;
+	color: #FFF;
+	font: normal 12px/22px Arial, sans-serif;
+	left: 12px;
+	overflow: hidden;
+	position: absolute;
+	padding: 0 10px;
+	width: 620px;	/* 100% */
+	z-index: 10000;
+}
+.slideshow-captions-hidden {
+	opacity: 0;
+}
+.slideshow-captions-visible {
+	opacity: .7;
+}

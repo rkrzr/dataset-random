@@ -1,0 +1,450 @@
+@media screen and (max-width: 1150px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	#pagewrap {
+		max-width: 92%;
+		padding: 2% 3% 10px;
+		margin-bottom: 10%;
+	}
+		
+	/* content */
+	#content {
+		margin: 7% 0 5%;
+	}
+	.sidebar1 #content {
+		max-width: 67.8%;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		margin: 7% 0 5%;
+		max-width: 26.2%;
+	}
+	#sidebar .secondary {
+		max-width: 47%;
+	}
+	
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2,
+	.col4-3,
+	.col3-1,
+	.col3-2,
+	.col2-1
+	{
+		margin-left: 2%;
+	}
+	.col4-1 {
+		max-width: 23%;
+	}
+	.col4-2, .col2-1 {
+		max-width: 48%;
+	}
+	.col4-3 {
+		max-width: 72%;
+	}
+	.col3-1 {
+		max-width: 31%;
+	}
+	.col3-2 {
+		max-width: 62%;
+	}
+
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/
+	/* grid4 */
+	.grid4 .post {
+		width: 23.125%;
+		margin-left: 2.5%;
+	}
+
+	/* grid3 */
+	.grid3 .post {
+		width: 31%;
+		margin-left: 3.5%;
+	}
+
+	/* grid2 */
+	.grid2 .post {
+		width: 48%;
+		margin-left: 3.75%;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	.sidebar1 #content {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+	}
+	#sidebar .secondary {
+		width: 48%;
+	}
+	
+	/************************************************************************************
+	MAIN NAV
+	*************************************************************************************/
+	.main-nav {
+		position: static !important;
+		clear: both;
+		z-index: 100;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		margin-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/
+	/* list post */
+	.list-post .post {
+		padding-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.list-post .post-meta {
+		width: 100%;
+		text-align: left;
+		position: static;
+	}
+	.list-post .post-meta span {
+		display: inline;
+		margin: 0 5px 0 0;
+	}
+	.list-post .post-icon {
+		width: 27px;
+		height: 30px;
+		display: block;
+		float: left;
+		margin: 2px 14px 5px 0;
+		border: none;
+		position: static;
+	}
+
+	/* grid4 */
+	.grid4 .post, .sidebar1.grid4 .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+
+	/* grid3 */
+	.grid3 .post, .sidebar1.grid3 .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	/************************************************************************************
+	HEADER
+	*************************************************************************************/
+	#header {
+		height: auto !important;
+		padding: 0;
+	}
+	#header hgroup {
+		text-align: left;
+	}
+
+	/* site logo */
+	#site-logo {
+		font-size: 42px;
+		text-align: left;
+		padding: 0 90px 0 0;
+		width: auto;
+		margin: 10px 0;
+	}
+	
+	/* site description */
+	#site-description {
+		text-align: left;
+		margin: 0 0 10px;
+	}
+
+	/************************************************************************************
+	MOBILE NAV BUTTON
+	*************************************************************************************/
+	.mobile-button {
+		position: relative;
+		width: 32px;
+		height: 30px;
+		margin-bottom: 3px;
+		margin-right: 3px;
+		display: block;
+		float: right;
+		cursor: pointer;
+	}
+	.mobile-button:after {
+		border: solid 1px #7a7a7a;
+		padding: 1px;
+		padding:0 \0; /* IE8 fix */
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+		z-index: -1;
+		
+		background-color: #c3c3c3;
+		background-color: transparent \0; /* IE8 fix */
+
+		background-image: -moz-linear-gradient(top,  #d8d8d8 0%, #999898 100%);
+		background-image: -webkit-linear-gradient(top,  #d8d8d8 0%,#999898 100%);
+		background-image: linear-gradient(top,  #d8d8d8 0%,#999898 100%);
+		
+		-webkit-box-shadow: inset 0 0 1px rgba(255,255,255,.4), inset 0 1px rgba(255,255,255,.5), 0 1px 2px rgba(0,0,0,.2);
+		-moz-box-shadow: inset 0 0 1px rgba(255,255,255,.4), inset 0 1px rgba(255,255,255,.5), 0 1px 2px rgba(0,0,0,.2);
+		box-shadow: inset 0 0 1px rgba(255,255,255,.4), inset 0 1px rgba(255,255,255,.5), 0 1px 2px rgba(0,0,0,.2);
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	/************************************************************************************
+	MAIN NAV (MOBILE)
+	*************************************************************************************/
+	#main-nav-wrap {
+		position: absolute;
+		top: 4px;
+		right: 0;
+		z-index: 1000;
+	}
+	
+	/* menu icon */
+	#menu-icon {
+		background: url(images/menu-icon.png) no-repeat center center;
+		background-color:#c3c3c3 \9 !important; /* IE fix */
+	}
+	
+	/* main nav */
+	#main-nav {
+		clear: both;
+		position: static;
+		width: 160px;
+		z-index: 1000;
+		padding: 10px 5px;
+		background: #fff !important;
+		border: solid 1px #999 !important;
+		display: none; /* visibility will be toggled with jquery */
+		
+		-webkit-box-shadow: 1px 2px 0 rgba(0,0,0,.2);
+		-moz-box-shadow: 1px 2px 0 rgba(0,0,0,.2);
+		box-shadow: 1px 2px 0 rgba(0,0,0,.2);
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	#main-nav li {
+		clear: both;
+		float: none;
+		margin: 5px 0 5px 10px !important;
+		padding: 0 !important;
+		border: none !important;
+
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+		
+		display:block;
+		text-align:left;
+	}
+	#main-nav a, 
+	#main-nav ul a {
+		font: inherit !important;
+		text-transform: inherit !important;
+		background: none !important;
+		width: auto !important;
+		display: inline !important;
+		padding: 0 !important;
+		color: #666 !important;
+		border: none !important;
+
+		text-shadow: none !important;
+
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+	#main-nav a:hover, 
+	#main-nav ul a:hover {
+		background: none !important;
+		color: #000 !important;
+	}
+	
+	/* dropdown */
+	#main-nav ul {
+		position: static;
+		display: block;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+		
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	/************************************************************************************
+	SEARCH FORM
+	*************************************************************************************/
+	#searchform-wrap {
+		position: absolute;
+		top: 4px;
+		right: 40px;
+		z-index: 1000;
+	}
+	#search-icon {
+		background: url(images/search-icon.png) no-repeat center center;
+		background-color:#c3c3c3 \9 !important; /* IE fix */
+	}
+	
+	#header #searchform {
+		clear: both;
+		width: auto;
+		width: 126px \0;
+		position: static;
+		overflow: hidden;
+		background: #fff;
+		border: solid 1px #999;
+		padding: 5px;
+		display: none; /* visibility will be toggled with jquery */
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	#header #searchform #s {
+		background: #ddd !important;
+		color: #444 !important;
+		padding-left: 8px;
+		width: 110px \0;
+	}
+	
+	/* social widget */
+	.social-widget {
+		position: static !important;
+		margin: 10px 0;
+		float: none;
+		padding: 0;
+	}
+
+	/************************************************************************************
+	LAYOUTS
+	*************************************************************************************/
+	/* grid4 */
+	.grid4 .post {
+		font-size: 100%;
+	}
+
+	/* grid2 */
+	.grid2 .post, .sidebar1.grid2 .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	
+	/* post title */
+	.post-title {
+		margin: 0 0 2px !important;
+		padding-top: 4px;
+		font-size: 2em !important;
+	}
+
+	/************************************************************************************
+	POST NAV
+	*************************************************************************************/
+	.post-nav .prev, .post-nav .next {
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 10px;
+	}
+	
+	/************************************************************************************
+	COMMENTS
+	*************************************************************************************/
+	.commentlist {
+		padding-left: 0;
+	}
+	.commentlist .commententry {
+		clear: left;
+	}
+	.commentlist .avatar {
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 10px 0;
+	}
+
+	/* commentlist sub-levels */
+	.commentlist ul, .commentlist ol {
+		margin: 0 0 0 7%;
+	}
+
+	/************************************************************************************
+	FOOTER NAV
+	*************************************************************************************/
+	.footer-nav {
+		margin: 0 auto 20px;
+		width: 100%;
+	}
+	.footer-nav a {
+		margin: 0 4px;
+	}
+
+}
+@media screen and (min-width: 481px) {
+
+	/* ensure #nav and #searchform is visible on desktop version */
+	#main-nav,
+	#headerwrap #searchform {
+		display: block !important;
+	}
+}

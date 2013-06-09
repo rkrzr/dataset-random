@@ -1,0 +1,749 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META NAME="Description" CONTENT="Belize Retirement information leader for those looking to retire to Belize">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Belize Retirement Guide</title>
+</head>
+
+<body>
+
+<div align="center">
+  <table id="table1" cellSpacing="0" cellPadding="0" width="806" border="0">
+    <tr>
+      <td vAlign="top" align="left" width="13" height="78">&nbsp;</td>
+      <td vAlign="top" align="left" background="images/header_bg_01.jpg" height="78">
+      <script language="JavaScript">
+<!--
+function isWhitespace(s)
+{
+   var i;
+   for (i = 0; i < s.length; i++)
+   {
+		// Check that current character isn't whitespace.
+		var c = s.charAt(i);
+		if(c!=" ")
+		return false;
+   }
+   // All characters are whitespace.
+   return true;
+}
+
+function verifylogin(f)
+{
+	if(f.Email.value == "")
+	{
+		alert("Please enter the Email Address")
+		f.Email.focus()
+		return false
+	}
+	else
+	{
+		var email1 = f.Email.value
+		var goodEmail = f.Email.value.match(/\b(^(\S+@).+((\.com)|(\.net)|(\.edu)|(\.mil)|(\.gov)|(\.org)|(\.tv)|(\.info)|(\.us)|(\..{2,2}))$)\b/gi);
+		if (goodEmail)
+		{
+		}
+		else
+		{
+			alert("Please enter a valid  Email Address.")
+			f.Email.focus()
+			return false
+		}
+	}
+	if(f.Password.value == "")
+	{
+		alert("Please enter the Password")
+		f.Password.focus()
+		return false
+	}
+	else
+	{
+		// to check the Catalog Name not a white space
+		if(isWhitespace(f.Password.value))
+		{
+			alert("Password cannot contain only spaces");
+			f.Password.focus();
+			return false;
+		}
+	}
+}
+//-->
+      </script>
+      <div align="center">
+        <table id="table2" cellSpacing="0" cellPadding="0" width="780" border="0">
+          <tr>
+            <td vAlign="top" align="left" width="15" height="24">&nbsp;</td>
+            <td vAlign="top" align="left" width="296" height="24">&nbsp;</td>
+            <td width="458" height="24">
+            <table cellSpacing="0" cellPadding="0" width="100%" border="0">
+              <tr>
+                <td width="99%" height="27">
+                <p align="right"><font face="Verdana" style="font-size: 8pt"><span class="p1">
+                <a class="p1" style="text-decoration: none" href="index.htm">
+                <font color="#FFFFFF">Home</font></a><font color="#FFFFFF">&nbsp;|&nbsp;</font><a class="p1" style="text-decoration: none" href="contact_us.htm"><font color="#FFFFFF">Contact 
+                Us </font></a><font color="#FFFFFF">| </font>
+                <a style="text-decoration: none" href="sitemap.htm">
+                <font color="#FFFFFF">Sitemap</font></a></span></font></td>
+                <td width="1%" height="27">&nbsp;</td>
+              </tr>
+              </table>
+            </td>
+            <td vAlign="top" align="left" width="11" height="24">&nbsp;</td>
+          </tr>
+          <tr>
+            <td vAlign="top" align="left" width="15" height="20">&nbsp;</td>
+            <td vAlign="top" align="left" height="20" width="296">
+            <font face="Verdana">
+            <a style="FONT-SIZE: 24px; COLOR: #ffffff; LINE-HEIGHT: 1.4; TEXT-DECORATION: none" href="http://www.belizerealestatedirectory.com/index.asp">
+            Belize Retirement Guide</a></font></td>
+            <td vAlign="top" align="right" height="20" width="458">
+            <form method="POST" action="_vti_bin/shtml.dll/index.htm" onSubmit="" webbot-action="--WEBBOT-SELF--">
+              <!--webbot bot="SaveResults" u-file="_private/form_results.csv" s-format="TEXT/CSV" s-label-fields="TRUE" b-reverse-chronology="FALSE" s-email-format="TEXT/PRE" s-email-address="contactus@belizeretirementguide.com" b-email-label-fields="TRUE" s-date-format="%A, %B %d, %Y" s-time-format="%I:%M:%S %p %Z" s-builtin-fields="REMOTE_NAME REMOTE_USER HTTP_USER_AGENT Date Time" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="0"><!--webbot bot="SaveResults" endspan i-checksum="43374" --><p style="margin-top: 0; margin-bottom: 0">
+                <font color="#FFFFFF" face="Verdana" style="font-size: 8pt">Join 
+                our contact list for new offerings &amp; opportunities in Belize.</font></p>
+              <p style="margin-top: 0; margin-bottom: 0">
+                <font color="#FFFFFF" face="Verdana" style="font-size: 8pt">
+              Name:<input type="text" name="T1" size="10">Email:<input type="text" name="T2" size="10">&nbsp; </font>
+              <input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+            </form>
+            </td>
+            <td vAlign="top" align="left" width="11" height="20">&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="78">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="198">&nbsp;</td>
+      <td vAlign="top" align="left" background="images/header_bg_02.jpg" height="198">
+      <div align="center">
+        <table id="table3" cellSpacing="0" cellPadding="4" width="100%" border="0">
+          <tr>
+            <td vAlign="top" align="left" width="4">&nbsp;</td>
+            <td align="left" width="266">
+            <div align="center">
+              <center>
+																							<table border="4" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="68%">
+                                                                                              <tr>
+                                                                                                <td width="100%">
+            <img border="0" src="images/Copy%20of%20iStock_000003972268Medium.jpg" alt="Belize Retirement Guide hammock" width="250" height="166"></td>
+                                                                                              </tr>
+                                                                                            </table>
+																							</center>
+            </div>
+            </td>
+            <td vAlign="top" align="left">
+            <div align="center">
+              <table id="table4" cellSpacing="0" cellPadding="4" width="100%" border="0">
+                <tr>
+                  <td vAlign="top" align="left" height="14">
+                  <p class="bodyheading">
+                  <font face="Verdana" style="font-size: 9pt">Welcome!</font></td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left" height="133">
+                  <p class="contentxt_gray">
+                  <font face="Verdana" style="font-size: 9pt">The Belize 
+                  Retirement Guide is 
+                  the leader for information on Belize retirement. If you are 
+                  looking to get away from escalating expenses and cold weather, 
+                  and want to retire to somewhere tropical, where the people are 
+                  friendly, the cost of living is low, and the scenery is 
+                  breathtakingly beautiful, consider joining the many Americans, 
+                  Canadians and Europeans spending their retirement years in 
+                  Belize. Retirement in Belize can be affordable, comfortable, 
+                  carefree and adventurous. Not to mention Belize is an English 
+                  speaking British Commonwealth country, only a two hour flight 
+                  from the U.S., and foreigners can<font color="#2a4d76"> <b>retire to 
+                  Belize</b></font>.</font></td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left" height="2"></td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="10">&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="198">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="57">&nbsp;</td>
+      <td vAlign="top" align="left" background="images/menu_bg.jpg" height="57">
+      <div align="center">
+        <table id="table5" cellSpacing="0" cellPadding="0" width="100%" border="0" height="44">
+          <tr>
+            <td vAlign="top" align="left" width="10" height="44">&nbsp;</td>
+            <td align="center"><b>
+            <a href="about_belize.htm" style="text-decoration: none">
+            <font face="Verdana" style="font-size: 11px" color="#2B5079">About 
+            Belize</font></a></b></td>
+            <td align="center" height="44">
+            <p align="center"><b>
+            <font face="Verdana" style="font-size: 11px" color="#2B5079">
+            <a href="relocating_to_belize.htm" style="text-decoration: none">
+            <font color="#2B5079">Relocating to Belize</font></a></font></b></td>
+            <td align="center" height="44"><b>
+            <a href="why_retire_to_belize.htm" style="text-decoration: none">
+            <font face="Verdana" style="font-size: 11px" color="#2B5079">Why 
+            Retire to Belize</font></a></b></td>
+            <td align="center" height="44"><b>
+            <a href="cost_of_living_in_belize.htm" style="text-decoration: none">
+            <font face="Verdana" style="font-size: 11px" color="#2B5079">Cost of 
+            Living</font></a></b></td>
+            <td align="center" height="44"><b>
+            <a href="links.htm" style="text-decoration: none">
+            <font face="Verdana" style="font-size: 11px" color="#2B5079">Links</font></a></b></td>
+            <td vAlign="top" align="left" width="10" height="44">&nbsp;<p>&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="57">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="93">&nbsp;</td>
+      <td vAlign="top" align="left" bgColor="#ffffff" height="93">
+      <div align="center">
+        <table id="table6" cellSpacing="0" cellPadding="0" width="780" border="0">
+          <tr>
+            <td vAlign="top" align="left" width="6">&nbsp;</td>
+            <td vAlign="top" align="left" width="749">
+            <div align="center">
+              <table id="table7" cellSpacing="0" cellPadding="0" width="733" border="0">
+                <tr>
+                  <td vAlign="top" align="center" width="12">
+                  &nbsp;</td>
+                  <td class="contactlistbg" vAlign="top" align="left" width="713">
+                  <table id="table8" cellSpacing="0" cellPadding="0" width="100%" border="0" height="93">
+                    <tr>
+                      <td vAlign="top" align="left" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td vAlign="top" align="left" height="21">
+                      <p class="contentxt_gray" style="margin-top: 0; margin-bottom: 0">
+                      <font style="FONT-SIZE: 11pt" color="#2b5079" face="Verdana">
+                      <b>Get your Free Report</b> </font>
+                      <p class="contentxt_gray" style="margin-top: 0; margin-bottom: 0">
+                      <font style="FONT-SIZE: 11pt" color="#2b5079" face="Verdana">
+                      on Top Reasons Why People are Retiring to Belize</font><p class="contentxt_gray" style="margin-top: 0; margin-bottom: 0">
+                      <font style="FONT-SIZE: 11pt" color="#2b5079" face="Verdana">
+                      when you join our contact list and we will update you on 
+                      new opportunities in Belize.</font></td>
+                    </tr>
+                    <tr>
+                      <td vAlign="top" align="left" height="21">
+                      <form method="POST" action="_vti_bin/shtml.dll/index.htm" onSubmit="" webbot-action="--WEBBOT-SELF--">
+                        <!--webbot bot="SaveResults" u-file="_private/form_results.csv" s-format="TEXT/CSV" s-label-fields="TRUE" b-reverse-chronology="FALSE" s-email-format="TEXT/PRE" s-email-address="contactus@belizeretirementguide.com" b-email-label-fields="TRUE" s-date-format="%A, %B %d, %Y" s-time-format="%I:%M:%S %p %Z" s-builtin-fields="REMOTE_NAME REMOTE_USER HTTP_USER_AGENT Date Time" startspan --><input TYPE="hidden" NAME="VTI-GROUP" VALUE="1"><!--webbot bot="SaveResults" endspan i-checksum="43406" --><p class="contentxt_gray" style="margin-top: 0; margin-bottom: 0">
+                            <font face="Verdana" style="font-size: 8pt">Your 
+                            Name:<span class="contentxt_gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Your Email Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Daytime 
+                            Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Best 
+                            Time to Contact:</font></p>
+                        <p class="contentxt_gray" style="margin-top: 0; margin-bottom: 0">
+                        <input type="text" name="YourName" size="20">&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="YourEmailAddress" size="22">&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="DaytimePhone" size="12">&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="BestTimeToContact" size="9">&nbsp;&nbsp;
+                        <select size="1" name="ContactPeriod">
+                        <option>AM</option>
+                        <option>PM</option>
+                        </select>&nbsp;&nbsp;&nbsp;
+                        <input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+                      </form>
+                      </td>
+                    </tr>
+                    </table>
+                  </td>
+                  <td vAlign="top" align="middle" width="8">
+                  &nbsp;</td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="18">
+            &nbsp;</td>
+            <td vAlign="top" align="left" width="7">&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="93">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="194">&nbsp;</td>
+      <td vAlign="top" align="left" height="194">
+      <div align="center">
+        <table id="table17" cellSpacing="0" cellPadding="4" width="100%" border="0" height="150">
+          <tr>
+            <td class="spacer2" vAlign="top" align="left" bgColor="#ffffff" colSpan="5" height="1">
+            &nbsp;</td>
+          </tr>
+          <tr>
+            <td vAlign="top" align="left" width="4" bgColor="#ffffff" height="159">&nbsp;</td>
+            <td vAlign="top" align="left" width="358" background="images/body_bg_01.jpg" height="159">
+            <div align="center">
+              <table id="table18" cellSpacing="0" cellPadding="4" width="100%" border="0">
+                <tr>
+                  <td vAlign="top" align="left">
+                  <h1>
+                  <font face="Verdana" style="font-size: 9pt" color="#2B5079">
+                  <b>Belize Retirement Information</b></font></h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left">
+                  <div align="center">
+                    <table id="table19" cellSpacing="0" cellPadding="2" width="100%" border="0" height="115">
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="purchasing property in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <a href="about_belize.htm#Purchasing" style="text-decoration: none">
+                        <font color="#353535" face="Verdana" style="font-size: 8pt">Purchasing Property in Belize</font></a></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="Belize residency information" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13"><font face="Verdana">
+                        <span style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Residency"><font color="#353535">
+                        Residency in Belize</font></a></span></font></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="9"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="facts about Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="9">
+                        <a href="about_belize.htm#Facts" style="text-decoration: none">
+                        <font color="#353535" face="Verdana" style="font-size: 8pt">Facts about Belize</font></a></td>
+                        <td align="left" width="10" height="9"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="shipping to Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="9">
+                        <a href="about_belize.htm#Shipping" style="text-decoration: none">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Shipping to Belize</font></a></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="closing costs and taxes in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Closing">
+                        <font color="#353535">Closing Costs and Taxes</font></a></font></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="medical facilities" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13">
+                        <a style="text-decoration: none" href="about_belize.htm#Medical">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Medical Facilities</font></a></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="infrastructure and utilities in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Infrastructure">
+                        <font color="#353535">Infrastructure and Utilities</font></a></font></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="traveling in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13"><font face="Verdana">
+                        <span style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Traveling"><font color="#353535">
+                        Traveling in Belize </font></a></span></font></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="entering and departing Belize bullet" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Entering">
+                        <font color="#353535">Entering and Departing Belize</font></a></font></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="things to do in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Things">
+                        <font color="#353535">Things to do in Belize</font></a></font></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="communications bullet" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Communications">
+                        <font color="#353535">Communications in Belize</font></a></font></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="building a house in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13">
+                        <a style="text-decoration: none" href="about_belize.htm#Building">
+                        <font color="#353535" style="font-size: 8pt" face="Verdana">
+                        Building a House</font></a></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="banks and financing in Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192" height="13">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="about_belize.htm#Banks">
+                        <font color="#353535">Banks and Financing in Belize</font></a></font></td>
+                        <td align="left" width="10" height="13"><font color="#353535">
+                        <img src="images/bullet.jpg" border="0" alt="Belize weather" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" height="13">
+                        <a style="text-decoration: none" href="about_belize.htm#Weather">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Weather 
+                        in Belize</font></a></td>
+                      </tr>
+                    </table>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="18" bgColor="#ffffff" height="159">&nbsp;</td>
+            <td vAlign="top" align="left" background="images/body_bg_01.jpg" height="159">
+            <div align="center">
+              <table id="table22" cellSpacing="0" cellPadding="4" width="100%" border="0">
+                <tr>
+                  <td vAlign="top" align="left">
+                  <pre><font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#2B5079">Belize Real Estate - Featured Retirement Property</font></pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left">
+                  <table cellSpacing="0" cellPadding="0" width="90%" align="center">
+                  </table>
+                  <table id="table23" cellSpacing="0" cellPadding="2" width="100%" border="0">
+                    <tr>
+                      <td vAlign="top" align="left" width="134">
+                      <a href="belize_retirement_communities.htm">
+                      <img src="images/100_0957.jpg" border="0" alt="Belize Real Estate Featured Retirement Property" width="150" height="102"></a> </td>
+                      <td class="contentxt_gray" vAlign="top" align="left">
+                      <font face="Verdana" style="font-size: 8pt"><b>
+                      <font color="#2b5079">
+                      <a href="belize_retirement_communities.htm" style="text-decoration: none">
+                      <font color="#2B5079">Belize Real Estate for Sale in 
+                      Planned Community</font></a></font></b><br>
+                      Parcels for sale in planned, gated community, improved 
+                      with roads, water, electric, gatehouse, clubhouse, <br>
+                      </font><a href="belize_retirement_communities.htm">
+                      <font face="Verdana" style="font-size: 9pt" color="#2B5079">
+                      learn more...</font></a></td>
+                    </tr>
+                  </table>
+                  <div>
+&nbsp;</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="4" bgColor="#ffffff" height="159">&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="194" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="19">&nbsp;</td>
+      <td vAlign="top" align="left" bgColor="#ffffff" height="19">&nbsp;</td>
+      <td vAlign="top" align="left" width="13" height="19">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" bgcolor="#FFFFFF" height="1">&nbsp;</td>
+      <td vAlign="top" align="left" bgColor="#ffffff" height="1">
+      <div align="center">
+        <table id="table24" cellSpacing="0" cellPadding="4" width="100%" border="0" height="1">
+          <tr>
+            <td vAlign="top" align="left" width="4" height="1"></td>
+            <td vAlign="top" align="left" width="358" background="images/body_bg_01.jpg" height="1">
+            <div align="center">
+              <table id="table27" cellSpacing="0" cellPadding="4" width="100%" border="0">
+                <tr>
+                  <td vAlign="top" align="left">
+                  <p class="contentxt_heading">
+                  <font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#2B5079">
+                  The Belize Retirement Program</font></td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left">
+                  <div align="center">
+                    <table id="table28" cellSpacing="0" cellPadding="2" width="100%" border="0">
+                      <tr>
+                        <td align="left" width="9">
+                        <img src="images/bullet.jpg" border="0"  alt="Belize Retirement Program qualifying process" width="3" height="3"></td>
+                        <td vAlign="top" align="left" width="192">
+                        <a style="text-decoration: none" href="belize_retirement_program.htm#Qualifying">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Qualifying Process</font></a></td>
+                        <td align="left" width="9">
+                        <font color="#353535" face="Verdana" style="font-size: 8pt">
+                        <img src="images/bullet.jpg" border="0" alt="Belize Retirement Program terms and conditions" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192">
+                        <a style="text-decoration: none" href="belize_retirement_program.htm#Terms">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Terms and Conditions</font></a></td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9">
+                        <img src="images/bullet.jpg" border="0" alt="Belize Retirement Program incentives and regulations" width="3" height="3"></td>
+                        <td vAlign="top" align="left" width="192">
+                        <a style="text-decoration: none" href="belize_retirement_program.htm#Incentives">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Incentives and Regulations</font></a></td>
+                        <td align="left" width="9">
+                        <font color="#353535" face="Verdana" style="font-size: 8pt">
+                        <img src="images/bullet.jpg" border="0"  alt="Belize Retirement Program application process" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192">
+                        <a style="text-decoration: none" href="belize_retirement_program.htm#Application">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Application Process</font></a></td>
+                      </tr>
+                      </table>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="17" height="1"></td>
+            <td vAlign="top" align="left" background="images/body_bg_01.jpg" height="1">
+            <div align="center">
+              <table id="table31" cellSpacing="0" cellPadding="4" width="100%" border="0">
+                <tr>
+                  <td vAlign="top" align="left">
+                  <p class="contentxt_heading">
+                  <font face="Verdana" style="font-size: 9pt" color="#2B5079">
+                  <b>Why Retire in Belize</b></font></td>
+                </tr>
+                <tr>
+                  <td vAlign="top" align="left">
+                  <div align="center">
+                    <table id="table32" cellSpacing="0" cellPadding="2" width="100%" border="0">
+                      <tr>
+                        <td align="left" width="9">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <img src="images/bullet.jpg" border="0" alt="reasons to retire to Belize" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192">
+                        <a style="text-decoration: none" href="why_retire_to_belize.htm">
+                        <font face="Verdana" style="font-size: 8pt" color="#353535">
+                        Reasons to Retire in Belize</font></a></td>
+                        <td align="left" width="10">&nbsp;</td>
+                        <td class="contentxt_gray" vAlign="top" align="left">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td align="left" width="9">
+                        <font face="Verdana" style="font-size: 8pt">
+                        <img src="images/bullet.jpg" border="0" alt="Belize news and articles" width="3" height="3"></font></td>
+                        <td vAlign="top" align="left" width="192">
+                        <font face="Verdana">
+                        <span style="font-size: 8pt">
+                        <a class="homelinks" style="text-decoration: none" href="news_and_articles.htm"><font color="#353535">News 
+                        and Articles</font></a></span></font></td>
+                        <td align="left" width="10">&nbsp;</td>
+                        <td class="contentxt_gray" vAlign="top" align="left">&nbsp;</td>
+                      </tr>
+                    </table>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </td>
+            <td vAlign="top" align="left" width="4" height="1"></td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="1"></td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" bgcolor="#FFFFFF" height="201">&nbsp;</td>
+      <td vAlign="top" align="left" height="201">
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <span style="font-weight: 700">
+      <font face="Verdana" style="font-size: 9pt" color="#2B5079">The </font>
+      </span>
+      <font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#2B5079">
+      Cost of Living in Belize</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="Verdana" style="font-size: 9pt">If you are someone who is used to 
+      prices in the U.S., Canada and Europe, retiring in Belize can be a real 
+      bargain.&nbsp; Housing in Belize is  generally a lot&nbsp; less than 
+      comparable housing in the U.S., Canada or Europe.&nbsp; Also hiring a 
+      housekeeper or a cook to help around the house is quite affordable, with a 
+      full-time housekeeper costing around US$15 - US$20 per day.&nbsp; 
+      Utilities are relatively less expensive as well, about 25% less than in 
+      North America.&nbsp; Belize's tropical climate significantly reduces 
+      expensive winter fuel bills and the sea breezes of Belize equate to less 
+      air conditioning.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="Verdana" style="font-size: 9pt">If you learn to live as 
+      Belizeans do, such as buying  produce locally, you can reduce your expenses even 
+      more.&nbsp; A retired couple in living in Belize with US$2,000 per month 
+      can live in style.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <b><font face="Verdana" style="font-size: 9pt" color="#2B5079">Why is</font></b><font face="Verdana" style="font-size: 9pt" color="#2B5079"><b> 
+      Belize different?</b></font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="Verdana" style="font-size: 9pt">Belize is a small Central 
+      American country located south of Mexico and east of Guatemala.&nbsp; The 
+      country has a stable democratic government with kind and friendly people.&nbsp; 
+      Belize also has quality healthcare at affordable prices.&nbsp; The country 
+      also boasts a growing and progressive infrastructure, and a great attitude 
+      on protecting its' pristine natural environment.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="Verdana" style="font-size: 9pt">Belize is ideally located with the Caribbean 
+      Sea to its East, has waterfalls, rivers 
+      and lagoons, and is a country with abundant water-based 
+      sports and activities for active retirees.&nbsp; These water features 
+      along with caves, mountains and rain 
+      forests, provide the splendor of beautiful terrain, wonderful climate and 
+      one of the most diverse ecosystems in the world. With so many 
+      visitors throughout the world exploring and retiring to Belize, it serves 
+      as a great location to a growing number of expatriates from the U.S., 
+      Canada and Europe. And what would you do when you get to Belize?&nbsp; 
+      Just about anything you wish. Retirees can easily meet new friends and explore 
+      any number of places Belize has to offer. Belize is the 
+      perfect destination to re-invent yourself and enjoy life at its best.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      <font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#2B5079">
+      Why choose to retire in Belize?</font></p>
+                            <p style="margin-top: 0; margin-bottom: 0">
+                            <font face="Verdana" style="font-size: 9pt">So many 
+                            people select Belize because it has the comforts of home 
+                            at a much lower price tag, but in a 
+                            relaxed tropical atmosphere.&nbsp; It is now one of 
+                            the top relocation and retirement destinations in 
+                            the world. The 
+                            friendly people and fabulous climate have attracted 
+                            many Americans, Canadians and Europeans, but 
+                            the advantages of retiring in Belize extend far beyond 
+                            its tropical  reputation.</font></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+                            <p style="margin-top: 0; margin-bottom: 0">
+                            <span style="font-weight: 700">
+                            <font face="Verdana" style="font-size: 9pt" color="#2B5079">
+                            Top </font></span>
+                            <font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#2B5079">
+                            Reasons People are Retiring to Belize</font></p>
+                            <p style="margin-top: 0; margin-bottom: 0">
+                            <span class="textmatter">
+                            <font face="Verdana" style="font-size: 9pt">A </font>
+                            </span>
+        <font face="Verdana" style="font-size: 9pt"><span class="textmatter">major draw for North Americans and 
+        Europeans is the low cost of living whether permanently relocating or 
+                            just having a second home 
+        or vacation escape. The 
+         
+        Government of Belize offers great retirement  
+        incentives.
+        Belize is the only English speaking country in Central America.&nbsp; 
+        All of the signs and government forms are in English.&nbsp;Foreigners can own 
+                            Belize real estate.
+        Belize is less than two hours by plane to the United States enabling 
+                            quick and inexpensive travel.
+        Belizeans are friendly and charming people.&nbsp; Title to Belize 
+                            property may be taken individually, jointly or in 
+                            the name of a 
+        corporation. Buyers 
+        receive fee simple title to their property when purchasing real estate in Belize.
+        
+        Financing is often available when purchasing property in Belize from 
+                            reputable, long established developers. The Belize Government 
+                            offers 
+        incentives to encourage more tourism.
+        Cruise ship tourism is up  significantly in the last five years. Belize 
+                            is on its way to becoming the  top destination for 
+        retirees and expats.
+        Belize is a British Commonwealth nation with a longstanding democratic 
+                            government and independent judiciary.
+        Belize is absolutely beautiful, with extensive natural resources 
+        and things to do such as enjoying the aqua blue waters, serene beaches,  diversity of 
+                            wildlife, Mayan ruins, waterfalls, rivers, caves 
+        and tropical forests.
+                            The country protects most of its tropical forests with over 500  
+        birds species.
+        There is a fixed, stable currency exchange rate. US$1=BZ$2.
+                            With the second largest barrier reef in the world, 
+                            Belize's waters contain some of the best diving 
+                            locations in this Hemisphere.</span></font><span class="textmatter"><font face="Verdana" style="font-size: 9pt">
+        Belize offers superb deep sea, big game and fly fishing and was</font></span><font face="Verdana" style="font-size: 9pt"><span class="textmatter"> 
+                            once a center of the ancient Mayan civilization.&nbsp; </span></font><span class="textmatter"><font face="Verdana" style="font-size: 9pt"> The 
+                            significant retirement community in Belize offers 
+                            excellent opportunities to meet and socialize with 
+                            other retirees.</font></span></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0">
+      &nbsp;</p>
+      </td>
+      <td vAlign="top" align="left" width="13" height="201">&nbsp;</td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" bgcolor="#FFFFFF" height="1">&nbsp;</td>
+      <td vAlign="top" align="left" bgColor="#2b5079" height="1">&nbsp;</td>
+      <td vAlign="top" align="left" width="13" height="1"></td>
+    </tr>
+    <tr>
+      <td vAlign="top" align="left" width="13" height="30">&nbsp;</td>
+      <td vAlign="top" align="left" bgColor="#ffffff" height="30">
+      <div align="center">
+        <table id="table33" cellSpacing="0" cellPadding="0" width="100%" border="0">
+          <tr>
+            <td vAlign="top" align="left" width="10">
+            <font face="Verdana" style="font-size: 9pt">&nbsp;</font></td>
+            <td align="left" height="30">
+            <p class="contentxt_gray">
+            <font face="Verdana" style="font-size: 8pt">Copyright © 2010 Belize 
+            Retirement Guide - All rights reserved.</font></td>
+            <td align="right">
+            <p class="contentxt_gray" style="TEXT-ALIGN: right">
+            <font color="#2b5079" face="Verdana" style="font-size: 8pt">
+            <font color="#2B5079">
+            <a href="terms_and_conditions.htm" style="text-decoration: none">
+            <font color="#2B5079">Terms and Conditions</font></a></font> |
+            <a style="text-decoration: none" href="contact_us.htm">
+            <font color="#2B5079">Contact Us</font></a> |
+            <a style="text-decoration: none" href="privacy_policy.htm">
+            <font color="#2B5079">Privacy Policy</font></a></font></td>
+            <td vAlign="top" align="left" width="10">
+            <font face="Verdana" style="font-size: 9pt" color="#2B5079">&nbsp;</font></td>
+          </tr>
+        </table>
+      </div>
+      </td>
+      <td vAlign="top" align="left" width="13" height="30">
+      &nbsp;</td>
+    </tr>
+  </table>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16035365-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

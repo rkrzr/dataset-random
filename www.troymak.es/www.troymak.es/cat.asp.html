@@ -1,0 +1,1409 @@
+<!--WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+Sitio web desarrollado por.
+Sage Logic Control - Ctra. de Prats, 122
+08208 Sabadell (Barcelona) - Tel. 937 285 400
+dptointernet@sagelogiccontrol.com
+www.sagelogiccontrol.com
+Mayo 2003
+------------------------------------------------
+Copyright Š 2003 - Todos los derechos reservados
+------------------------------------------------
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW//--> 
+
+
+<html>
+<head>
+<script language="JavaScript"  type="text/javascript">
+
+function EnviarF()
+{	if (document.all("Empresa").value=="")
+	{	alert("Informi el nom de la empresa")	;
+		document.all("Empresa").focus();
+		return false;
+	}
+	if (document.all("Cargo").value=="")
+	{	alert("Informi el cŕrrec")	;
+		document.all("Cargo").focus();
+		return false;
+	}
+	if (document.all("Apellidos").value=="")
+	{	alert("Informi els cognoms")	;
+		document.all("Apellidos").focus();
+		return false;
+	}
+	if (document.all("Nombre").value=="")
+	{	alert("Informi el nom")	;
+		document.all("Nombre").focus();
+		return false;
+	}
+	if (document.all("Ciudad").value=="")
+	{	alert("Informi la ciutat")	;
+		document.all("Ciudad").focus();
+		return false;
+	}
+	if (document.all("Telefono").value=="")
+	{	alert("Informi el telčfon")	;
+		document.all("Telefono").focus();
+		return false;
+	}
+	var r = document.Formulario.sector;
+	if (!r[0].checked && !r[1].checked && !r[2].checked)
+	{	alert("Informi el sector.");
+		return false;
+	}
+	document.Formulario.submit();
+}
+
+
+function WindowOpenCentrado(url, name, param,w, h, perc) 
+{ var winX = (screen.availWidth - w)*perc*.01;
+var winY = (screen.availHeight - h)*perc*.01;
+popupWin = window.open(url, name, 'width=' + w + ',height=' + h +',left=' + winX + ',top=' + winY + ','+param);
+}
+
+/**********************************************************************************   
+PageScroll 
+*   Copyright (C) 2001 <a href="http://www.troymak.es/dhtmlcentral/thomas_brattli.asp">Thomas Brattli</a>
+*   This script was released at DHTMLCentral.com
+*   Made by <a href="http://www.troymak.es/dhtmlcentral/thomas_brattli.asp">Thomas Brattli</a> 
+*********************************************************************************/
+function Anim(imagen) 
+{   window.event.srcElement.src = 'images/scroll/' + imagen; }
+
+function lib_bwcheck(){ //Browsercheck (needed)
+	this.ver=navigator.appVersion
+	this.agent=navigator.userAgent
+	this.dom=document.getElementById?1:0
+	this.opera5=this.agent.indexOf("Opera 5")>-1
+	this.ie5=(this.ver.indexOf("MSIE 5")>-1 && this.dom && !this.opera5)?1:0; 
+	this.ie6=(this.ver.indexOf("MSIE 6")>-1 && this.dom && !this.opera5)?1:0;
+	this.ie4=(document.all && !this.dom && !this.opera5)?1:0;
+	this.ie=this.ie4||this.ie5||this.ie6
+	this.mac=this.agent.indexOf("Mac")>-1
+	this.ns6=(this.dom && parseInt(this.ver) >= 5) ?1:0; 
+	this.ns4=(document.layers && !this.dom)?1:0;
+	this.bw=(this.ie6 || this.ie5 || this.ie4 || this.ns4 || this.ns6 || this.opera5)
+	return this
+}
+var bw=new lib_bwcheck()
+
+//The speed of the timeout between each scroll.
+timSpeed = 50
+
+//The height of the container (change this when it scrolls to much or to little)
+contHeight = 500
+
+/*********************************************************************************
+This is the object constructor function, which applies 
+methods and properties to the Cross-browser layer object
+*********************************************************************************/
+function makeScrollObj(obj,nest){
+	nest=(!nest) ? "":'document.'+nest+'.'		
+	this.el=bw.dom?document.getElementById(obj):bw.ie4?document.all[obj]:bw.ns4?eval(nest+'document.'+obj):0;
+  	this.css=bw.dom?document.getElementById(obj).style:bw.ie4?document.all[obj].style:bw.ns4?eval(nest+'document.'+obj):0;		
+	this.height=bw.ns4?this.css.document.height:this.el.offsetHeight
+	this.top=b_gettop										
+	return this
+}
+
+// A unit of measure that will be added when setting the position of a layer.
+var px = bw.ns4||window.opera?"":"px";
+
+//Getting the top for the top method
+function b_gettop(){
+	var gleft=(bw.ns4 || bw.ns6)?parseInt(this.css.top):eval(this.css.pixelTop);
+	return gleft;
+}
+
+var scrollTim = 1;
+var active = 0;
+/*********************************************************************************
+The scroll function. Checks what way to scroll and checks if the
+layer is not already on top or bottom.
+*********************************************************************************/
+function scroll(speed){
+	clearTimeout(scrollTim)
+	way = speed>0?1:0
+	if ((!way && oScroll[active].top()>-oScroll[active].height+contHeight) || (oScroll[active].top()<0 && way)){
+		oScroll[active].css.top = (oScroll[active].top()+speed)+px
+		scrollTim = setTimeout("scroll("+speed+")",timSpeed)
+	}
+}
+//Clears the timeout so the scroll stops, this is called onmouseout.
+function noScroll(){
+	clearTimeout(scrollTim)
+}
+/*********************************************************************************
+Changes the active layer. Hides the one that's visible and
+shows the "new" one. Also set's the new layers top to
+0 so it starts at top.
+*********************************************************************************/
+function changeActive(num){
+	oScroll[active].css.visibility = "hidden"
+	active = num
+	oScroll[active].css.top = 0+px
+	oScroll[active].css.visibility = "visible"
+}
+/*********************************************************************************
+Initilizes the page, makes a oScroll Array and calls the object constructor.
+Here you can add as many scrollObjects as you want
+*********************************************************************************/
+function scrollInit(){
+	oScroll = new Array()
+	
+	// You can add and remove scrollObjects here.
+	oScroll[0] = new makeScrollObj('divScroll1','divCont')
+	
+	oScroll[0].css.left = 0+px
+	oScroll[0].css.top = 0+px
+	oScroll[0].css.visibility = "visible"
+	//oControl = new makeScrollObj('divControl')
+	//oControl.css.visibility = "visible"
+}
+/*********************************************************************************
+Executes the scrollInit function on pageload.
+*********************************************************************************/
+onload = scrollInit;
+
+/***************
+Multiple Scripts
+If you have two or more scripts that use the onload event, probably only one will run (the last one).
+Here is a solution for starting multiple scripts onload:
+   1. Delete or comment out all the onload assignments, onload=initScroll and things like that.
+   2. Put the onload assignments in the body tag like in this example, note that they must have braces ().
+   Example: <body onload="initScroll(); initTooltips(); initMenu();">
+**************/
+
+function openIT(w,h) {
+	theURL="listado.asp"
+	wname ="CHROMELESSWIN"
+	W=w;
+	H=h;
+	//X= "DefaultX";
+	//Y= "DefaultY";
+	windowCERRARa 		= "../../img/close_a.gif"
+	windowCERRARd 		= "../../img/close_d.gif"
+	windowCERRARo 		= "../../img/close_o.gif"
+	windowNONEgrf 		= "../../img/none.gif"
+	windowCLOCK		= "../../img/clock.gif"
+	windowREALtit		= " Listado Completo"
+	windowTIT 	    	= "<font face=arial size=2 color=#FFFFFF>&nbsp;Listado Completo</font>"
+	windowBORDERCOLOR   	= "#000000"
+	windowBORDERCOLORsel	= "#000000"
+	windowTITBGCOLOR    	= "#0786D8"
+	windowTITBGCOLORsel 	= "#000000"
+	openchromeless(theURL, wname, W, H, /*X, Y,*/ windowCERRARa, windowCERRARd, windowCERRARo, windowNONEgrf, windowCLOCK, windowTIT, windowREALtit , windowBORDERCOLOR, windowBORDERCOLORsel, windowTITBGCOLOR, windowTITBGCOLORsel)
+}
+</script>
+<script language="JavaScript" type="text/javascript">
+/**********************************************************************************   
+PageSlideFade 
+*   Copyright (C) 2001 <a href="http://www.troymak.es/dhtmlcentral/michael_van_ouwerkerk.asp">Michael van Ouwerkerk</a>
+*   This script was released at DHTMLCentral.com
+*   Visit for more great scripts!
+*   This may be used and changed freely as long as this msg is intact!
+*   We will also appreciate any links you could give us.
+*
+*   Made by <a href="http://www.troymak.es/dhtmlcentral/michael_van_ouwerkerk.asp">Michael van Ouwerkerk</a> 
+*********************************************************************************/
+
+function lib_bwcheck(){ //Browsercheck (needed)
+	this.ver=navigator.appVersion
+	this.agent=navigator.userAgent
+	this.dom=document.getElementById?1:0
+	this.opera5=this.agent.indexOf("Opera 5")>-1
+	this.ie5=(this.ver.indexOf("MSIE 5")>-1 && this.dom && !this.opera5)?1:0; 
+	this.ie6=(this.ver.indexOf("MSIE 6")>-1 && this.dom && !this.opera5)?1:0;
+	this.ie4=(document.all && !this.dom && !this.opera5)?1:0;
+	this.ie=this.ie4||this.ie5||this.ie6
+	this.mac=this.agent.indexOf("Mac")>-1
+	this.ns6=(this.dom && parseInt(this.ver) >= 5) ?1:0; 
+	this.ns4=(document.layers && !this.dom)?1:0;
+	this.bw=(this.ie6 || this.ie5 || this.ie4 || this.ns4 || this.ns6 || this.opera5)
+	return this
+}
+var bw=new lib_bwcheck()
+
+
+/*** variables to configure... ***/
+
+var numScrollPages = 5         //Set the number of pages (layers) here. Add and remove the pages in the body too. The first layer is called dynPage0, the second is dynPage1, and so on.
+var transitionOut = 1;         //The 'out' effect... 0= no effect, 1= fade
+var transitionIn = 2;          //The 'in' effect... 0= no effect, 1= fade, 2= slide
+var slideAcceleration = 0.2;   //If you use the slide animation, set this somewhere between 0 and 1.
+var transitionOnload = 1       //Use the 'in' transition when the page first loads? If you want the transition fx only when the links are clicked, you can set it to 0.
+
+// NOTE: if you change the position of divScroller1 from absolute to relative, you can put the scroller in a table.
+// HOWEVER it will no longer work in netscape 4. If you wish to support netscape 4, you have to use absolute positioning.
+
+// Please note that there are no effects available in ns4 and ie4, or explorers on the Mac!
+
+/*** There should be no need to change anything beyond this. ***/ 
+
+// A unit of measure that will be added when setting the position of a layer.
+var px = bw.ns4||window.opera?"":"px";
+
+if(document.layers){ //NS4 resize fix...
+	scrX= innerWidth; scrY= innerHeight;
+	onresize= function(){if(scrX!= innerWidth || scrY!= innerHeight){history.go(0)} }
+}
+
+//object constructor...
+function scrollerobj(obj,nest){
+	nest = (!nest)?"":'document.'+nest+'.'
+	this.elm = bw.ie4?document.all[obj]:bw.ns4?eval(nest+'document.'+obj):document.getElementById(obj)
+	this.css = bw.ns4?this.elm:this.elm.style
+	this.doc = bw.ns4?this.elm.document:document
+	this.obj = obj+'scrollerobj'; eval(this.obj+'=this')
+	this.x = (bw.ns4||bw.opera5)?this.css.left:this.elm.offsetLeft
+	this.y = (bw.ns4||bw.opera5)?this.css.top:this.elm.offsetTop
+	this.w = (bw.ie4||bw.ie5||bw.ie6||bw.ns6)?this.elm.offsetWidth:bw.ns4?this.elm.clip.width:bw.opera5?this.css.pixelWidth:0
+	this.h = (bw.ie4||bw.ie5||bw.ie6||bw.ns6)?this.elm.offsetHeight:bw.ns4?this.elm.clip.height:bw.opera5?this.css.pixelHeight:0
+}
+
+//object methods...
+scrollerobj.prototype.moveTo = function(x,y){
+	if(x!=null){this.x=x; this.css.left=x+px}
+	if(y!=null){this.y=y; this.css.top=y+px}
+}
+scrollerobj.prototype.moveBy = function(x,y){this.moveTo(this.x+x,this.y+y)}
+scrollerobj.prototype.hideIt = function(){this.css.visibility='hidden'}
+scrollerobj.prototype.showIt = function(){this.css.visibility='visible'}
+
+/****************************************************************
+scroll functions...
+****************************************************************/
+var scrollTimer = null;
+function scroll(step){
+	clearTimeout(scrollTimer);
+	if ( !busy && (step<0&&activePage.y+activePage.h>scroller1.h || step>0&&activePage.y<0) ){
+		activePage.moveBy(0,step);
+		scrollTimer = setTimeout('scroll('+step+')',40);
+	}
+}
+function stopScroll(){
+	clearTimeout(scrollTimer);
+}
+
+/****************************************************************
+activating the correct layers...
+****************************************************************/
+var activePage = null;
+var busy = 0;
+function activate(num){
+	if (activePage!=pages[num] && !busy){
+		busy = 1;
+		if (transitionOut==0 || !bw.opacity){ activePage.hideIt(); activateContinue(num); }
+		else if (transitionOut==1) activePage.blend('hidden', 'activateContinue('+num+')');
+	}
+}
+function activateContinue(num){
+	busy = 1;
+	activePage = pages[num];
+	activePage.moveTo(0,0);
+	if (transitionIn==0 || !bw.opacity){ activePage.showIt(); busy=0; }
+	else if (transitionIn==1) activePage.blend('visible', 'busy=0');
+	else if (transitionIn==2) activePage.slide(0, slideAcceleration, 40, 'busy=0');
+}
+
+
+/****************************************************************
+Slide methods...
+****************************************************************/
+scrollerobj.prototype.slide = function(target, acceleration, time, fn){
+	this.slideFn= fn?fn:null;
+	this.moveTo(0,scroller1.h);
+	if (bw.ie4&&!bw.mac) this.css.filter = 'alpha(opacity=100)';
+	if (bw.ns6) this.css.MozOpacity = 1;
+	this.showIt();
+	this.doSlide(target, acceleration, time);
+}
+scrollerobj.prototype.doSlide = function(target, acceleration, time){
+	this.step = Math.round(this.y*acceleration);
+	if (this.step<1) this.step = 1;
+	if (this.step>this.y) this.step = this.y;
+	this.moveBy(0, -this.step);
+	if (this.y>0) this.slideTim = setTimeout(this.obj+'.doSlide('+target+','+acceleration+','+time+')', time);
+	else {	
+		eval(this.slideFn);
+		this.slideFn = null;
+	}
+}
+
+
+/****************************************************************
+Opacity methods...
+****************************************************************/
+scrollerobj.prototype.blend= function(vis, fn){
+	if (bw.ie5||bw.ie6 && !bw.mac) {
+		if (vis=='visible') this.css.filter= 'blendTrans(duration=0.9)';
+		else this.css.filter= 'blendTrans(duration=0.6)';
+		this.elm.onfilterchange = function(){ eval(fn); };
+		this.elm.filters.blendTrans.apply();
+		this.css.visibility= vis;
+		this.elm.filters.blendTrans.play();
+	}
+	else if (bw.ns6 || bw.ie&&!bw.mac){
+		this.css.visibility= 'visible';
+		vis=='visible' ? this.fadeTo(100, 7, 40, fn) : this.fadeTo(0, 9, 40, fn);
+	}
+	else {
+		this.css.visibility= vis;
+		eval(fn);
+	}
+};
+
+scrollerobj.prototype.op= 100;
+scrollerobj.prototype.opacityTim= null;
+scrollerobj.prototype.setOpacity= function(num){
+	this.css.filter= 'alpha(opacity='+num+')';
+	this.css.MozOpacity= num/100;
+	this.op= num;
+}
+scrollerobj.prototype.fadeTo= function(target, step, time, fn){
+	clearTimeout(this.opacityTim);
+	this.opacityFn= fn?fn:null;
+	this.op = target==100 ? 0 : 100;
+	this.fade(target, step, time);
+}
+scrollerobj.prototype.fade= function(target, step, time){
+	if (Math.abs(target-this.op)>step){
+		target>this.op? this.setOpacity(this.op+step):this.setOpacity(this.op-step);
+		this.opacityTim= setTimeout(this.obj+'.fade('+target+','+step+','+time+')', time);
+	}
+	else {
+		this.setOpacity(target);
+		eval(this.opacityFn);
+		this.opacityFn= null;
+	}
+}
+
+
+/**************************************************************
+Init function...
+**************************************************************/
+var pageslidefadeLoaded = 0;
+function initPageSlideFade(){
+	scroller1 = new scrollerobj('divScroller1');
+	
+	pages = new Array();
+	for (var i=0; i<numScrollPages; i++){
+		pages[i] = new scrollerobj('dynPage'+i, 'divScroller1');
+		pages[i].moveTo(0,0);
+	}
+	bw.opacity = ( bw.ie && !bw.ie4 && navigator.userAgent.indexOf('Windows')>-1 ) || bw.ns6
+	if (bw.ie5||bw.ie6 && !bw.mac) pages[0].css.filter= 'blendTrans(duration=0.6)'; // Preloads the windows filters.
+	
+	if (transitionOnload) activateContinue(0);
+	else{
+		activePage = pages[0];
+		activePage.showIt();
+	}
+
+	if (bw.ie) for(var i=0;i<document.links.length;i++) document.links[i].onfocus=document.links[i].blur;
+	pageslidefadeLoaded = 1;
+}
+//if the browser is ok, the script is started onload..
+if(bw.bw && !pageslidefadeLoaded) onload = initPageSlideFade;
+</script>
+<script language="JavaScript">
+function Anim(imagen) 
+{   window.event.srcElement.src = 'images/' + imagen; }
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+<link rel="stylesheet" href="coberstyle.css" type="text/css" >
+<title>Troymak, s.l.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="http://www.troymak.es/esp/estils.css" type="text/css">
+<link rel="stylesheet" href="estils.css" type="text/css">
+<style type="text/css">
+<!--
+-->
+</style>
+</head>
+<body bgcolor="#FF9900" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="no"
+style="scrollbar-face-color: #ffffff; 
+scrollbar-shadow-color: #CCCCCC;
+scrollbar-highlight-color: #CCCCCC; 
+scrollbar-3dlight-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff;
+scrollbar-track-color: #ffffff;
+scrollbar-arrow-color: #CC0000;" onResize="history.go(0)">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr> 
+    <td align="center" valign="middle"> 
+      <table width="775" border="0" cellspacing="0" cellpadding="0" height="424" bgcolor="#FFFFFF">
+        <tr> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1" colspan="2"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+          <td class="disc_horiz" height="1"> 
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6" colspan="2"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1" colspan="2"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td height="2" colspan="2"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1" colspan="2"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+          <td width="2"></td>
+          <td class="disc_vert" width="1"></td>
+          <td height="*" align="center" valign="top" width="146"> 
+            <table width="146" border="0" cellspacing="0" cellpadding="0" height="100%">
+              <tr> 
+                <td width="18"></td>
+                <td height="26" class="disc_vert" width="1"></td>
+                <td height="26" width="2"></td>
+                <td height="26" width="1" class="disc_vert"></td>
+                <td height="26" width="111"></td>
+                <td height="26" width="1" class="disc_vert"></td>
+                <td height="26" width="2"></td>
+                <td height="26" width="1" class="disc_vert"></td>
+                <td height="26" width="18"></td>
+              </tr>
+              <tr align="center" valign="top"> 
+                <td colspan="9" height="20"> 
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="14"><a href="http://www.troymak.es/default.htm"><img src="image/ico_casa1.gif" width="14" height="14" name="ico_casa" style="cursor:hand" alt="Tornar a la p&agrave;gina principal"
+				onMouseOver="document.ico_casa.src='image/ico_casa2.gif';" 
+				onMouseOut="document.ico_casa.src='image/ico_casa1.gif';" border="0"></a> 
+                            </td>
+                            <td width="10"></td>
+                            <td width="12"><a href="mailto:?subject=Te%20recomiendo%20que%20visites%20esta%20web&body= En http://www.Troymak.es encontrarás información sobre troquelados y soldaduras por alta frecuencia, corte por CAD, corte y cosido de artículos textiles para la tapicería del automóvil, tapicería en general y artículos para el hogar."> 
+                              <img src="image/ico_recom1.gif" width="12" height="14" name="ico_recom" style="cursor:hand" alt="Recomenar aquesta web"
+				onMouseOver="document.ico_recom.src='image/ico_recom2.gif';" 
+				onMouseOut="document.ico_recom.src='image/ico_recom1.gif';" border="0"></a> 
+                            </td>
+                            <td width="10"></td>
+                            <td width="15"><img src="image/ico_fav1.gif" width="15" height="14" name="ico_fav" style="cursor:hand" alt="Afegir a favorits"
+				onMouseOver="document.ico_fav.src='image/ico_fav2.gif';" 
+				onMouseOut="document.ico_fav.src='image/ico_fav1.gif';"
+				onClick="javascript:window.external.AddFavorite(location.href,document.title)"> 
+                            </td>
+                            <td width="10"></td>
+                            <td width="16"><a href="mailto:troymak@troymak.es"><img src="image/ico_sobre.gif" width="15" height="12" name="ico_sobre" style="cursor:hand" alt="Imprimir página"
+				onMouseOver="document.ico_sobre.src='image/ico_sobre2.gif';" 
+				onMouseOut="document.ico_sobre.src='image/ico_sobre.gif';" border="0"></a></td>
+                            <td width="10"></td>
+                            <td width="14"><img src="image/ico_info1.gif" width="14" height="14" name="ico_info" style="cursor:hand" alt="Informaci&oacute; legal"
+				onMouseOver="document.ico_info.src='image/ico_info2.gif';" 
+				onMouseOut="document.ico_info.src='image/ico_info1.gif';"
+				onClick="javascript:WindowOpenCentrado('AvisoLegal.htm', '','resizable=no,statusbar=no,scrollbars=no', 320, 272, 50);"> 
+				</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" height="20">
+                    <tr> 
+                      <td width="222"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2" height="20"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="246" height="20"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2" height="20"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="222" height="20"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20" align="left" valign="middle">
+							<img src="image/flecha1.gif" width="14" height="12" name="flechaCompania" border="0"></td>
+                            <td><a href="cat.asp.html#" class="menus" onClick="activate(0); return false;" onFocus="if(this.blur)this.blur()"
+							onMouseOver="document.flechaCompania.src='image/flecha2.gif';" 
+								onMouseOut="document.flechaCompania.src='image/flecha1.gif';"> 
+                              La Companyia</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td width="222"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="246"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="222"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20" align="left" valign="middle"><img src="image/flecha1.gif" width="14" height="12" name="flechaServicios" border="0"></td>
+                            <td> <a href="cat.asp.html#" class="menus" 
+						onClick="activate(1); return false;" 
+						onFocus="if(this.blur)this.blur()" 
+							onMouseOver="document.flechaServicios.src='image/flecha2.gif';" 
+								onMouseOut="document.flechaServicios.src='image/flecha1.gif';"> 
+                              Serveis</a> </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td width="222"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="246"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="222"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20" align="left" valign="middle"><img src="image/flecha1.gif" width="14" height="12" name="flechaCalidad" border="0"></td>
+                            <td><a href="cat.asp.html#" class="menus" onClick="activate(2); return false;" onFocus="if(this.blur)this.blur()"
+							onMouseOver="document.flechaCalidad.src='image/flecha2.gif';" 
+								onMouseOut="document.flechaCalidad.src='image/flecha1.gif';" >Qualitat</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td width="222"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="246"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="222"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20" align="left" valign="middle"><img src="image/flecha1.gif" width="14" height="12" name="FlechaSituacion" border="0"></td>
+                            <td><a href="cat.asp.html#" class="menus" onClick="activate(3); return false;" onFocus="if(this.blur)this.blur()"
+							onMouseOver="document.FlechaSituacion.src='image/flecha2.gif';" 
+								onMouseOut="document.FlechaSituacion.src='image/flecha1.gif';">Situaci&oacute;</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" height="5">
+                    <tr> 
+                      <td width="222"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="246"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="2"></td>
+                      <td class="disc_vert" width="1"></td>
+                      <td width="222"></td>
+                    </tr>
+                  </table>
+                  <table width="130" border="0" cellspacing="0" cellpadding="0" bgcolor="#EFEFEF" height="35">
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                      <td colspan="5" height="2"></td>
+                      <td rowspan="5" class="disc_vert" width="1"></td>
+                    </tr>
+                    <tr> 
+                      <td rowspan="3" width="2"></td>
+                      <td rowspan="3" width="1" class="disc_vert"></td>
+                      <td height="1" class="disc_horiz"></td>
+                      <td rowspan="3" class="disc_vert" width="1"></td>
+                      <td rowspan="3" width="2"></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"> 
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="20" align="left" valign="middle"><img src="image/flecha1.gif" width="14" height="12" name="flechaContactar" border="0"></td>
+                            <td><a href="cat.asp.html#" class="menus" onClick="activate(4); return false;" onFocus="if(this.blur)this.blur()"
+							onMouseOver="document.flechaContactar.src='image/flecha2.gif';" 
+								onMouseOut="document.flechaContactar.src='image/flecha1.gif';">Contactar</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td height="1" class="disc_horiz"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="5" height="2"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="7" class="disc_horiz" height="1"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td width="18" height="*"></td>
+                <td width="1" class="disc_vert" height="*"></td>
+                <td width="2" height="*"></td>
+                <td width="1" class="disc_vert" height="*"></td>
+                <td width="111" align="center" valign="bottom" height="*"><span class="arial10">&copy; 
+                  Troymak, s.l. 2004<br>
+                  Drets reservats</span></td>
+                <td width="1" class="disc_vert" height="*"></td>
+                <td width="2" height="*"></td>
+                <td width="1" class="disc_vert" height="*"></td>
+                <td width="18" height="*"></td>
+              </tr>
+              <tr> 
+                <td width="18"></td>
+                <td height="5" width="1" class="disc_vert"></td>
+                <td height="5" width="2"></td>
+                <td height="5" width="1" class="disc_vert"></td>
+                <td height="5" width="111"></td>
+                <td height="5" width="1" class="disc_vert"></td>
+                <td height="5" width="2"></td>
+                <td height="5" width="1" class="disc_vert"></td>
+                <td height="5" width="18"></td>
+              </tr>
+            </table>
+          </td>
+          <td height="*" align="left" valign="top" width="*"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+              <tr> 
+                <td height="170" rowspan="7" width="65"></td>
+                <td height="30" width="*"></td>
+                <td height="170" rowspan="7" width="50"></td>
+              </tr>
+              <tr> 
+                <td align="center" valign="top" height="36" width="*"><a href="http://www.troymak.es/default.htm"><img src="image/Logo.gif" width="187" height="36" border="0" alt="Tornar a la p&agrave;gina principal"></a></td>
+              </tr>
+              <tr> 
+                <td height="28" width="*"></td>
+              </tr>
+              <tr> 
+                <td height="*" width="*" align="left" valign="top"> 
+                  <div id="divScroller1" style=" width: 491px; height: 260; visibility: visible"> 
+                    <div id="dynPage4"  class="dynPage" style="	font : 11px;left: 0px; top: 0px; width: 491px; height: 240; z-index: 14; overflow: auto; visibility: hidden"> 
+                      <table width="471" cellspacing="0" cellpadding="0" height="240" bgcolor="#FFFFFF" class="fondoContactar">
+                        <tr> 
+                          <td rowspan="4" width="72"></td>
+                          <td colspan="3" height="42"></td>
+                          <td rowspan="4" width="30"></td>
+                        </tr>
+                        <tr> 
+                          <td height="24" width="56"></td>
+                          <td height="24" width="30"></td>
+                          <td align="left" valign="top" height="24" width="*"><img src="image/T_Contactar.gif"></td>
+                        </tr>
+                        <tr> 
+                          <td height="15" width="56"></td>
+                          <td height="15" width="30"></td>
+                          <td height="15" width="*"></td>
+                        </tr>
+                        <tr> 
+                          <td align="left" valign="top" colspan="3"> <FORM name="Formulario" id="Formulario" action="cat.asp.html" method="post"> 
+                            <table border="0" cellspacing="0" cellpadding="0" class="verdana11" width="335">
+                              <tr> 
+                                <td height="30" width="104">Empresa:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Empresa" id="Empresa" class="verdana11" size="30">
+                                </td>
+                                <td height="330" rowspan="12" width="20"></td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Cŕrrec:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Cargo" id="Cargo" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Cognoms:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Apellidos" id="Apellidos" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Nom:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Nombre" id="Nombre" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Ciutat:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Ciudad" id="Ciudad" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Telčfon:<font color="#999999">*</font></td>
+                                <td height="30"> 
+                                  <input type="text" name="Telefono" id="Telefono" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Fax:</td>
+                                <td height="30"> 
+                                  <input type="text" name="Fax" id="Fax" class="verdana11" size="30">
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104">Email:</td>
+                                <td height="30"> 
+                                  <input type="text" name="Email" id="Email" class="verdana11" size="30">
+                                </td>
+                              </tr>
+										
+										<tr> 
+                                  <td width="104" valign="top">Sector:<font color="#999999">*</font></td>
+                                  <td>
+											 	<label for="radio1" style="float: left;"> 
+												 <input type="radio" name="sector" id="radio1" value="automocio">
+												 <div>AUTOMOCI&Oacute</div> 
+												</label>
+												<label for="radio2" style="float: left;"> 
+												 <input type="radio" name="sector" id="radio2" value="salas">
+												 <div>SALES D'ESPECTACLE</div> 
+												</label>
+												<label for="radio3" style="float: left;"> 
+												 <input type="radio" name="sector" id="radio3" value="altres">
+												 <div>ALTRES</div> 
+												</label>
+                                  </td>
+                                </tr>
+										
+                              <tr> 
+                                <td height="30" width="104" valign="top">Observacions:</td>
+                                <td height="30"> 
+                                  <textarea name="Observaciones" id="Observaciones" rows="7" class="verdana11" cols="30" 
+									style="scrollbar-face-color: #ffffff; 
+									scrollbar-shadow-color: #ffffff;
+									scrollbar-highlight-color: #ffffff; 
+									scrollbar-3dlight-color: #000000;
+									scrollbar-darkshadow-color: #000000;
+									scrollbar-track-color: #ffffff;
+									scrollbar-arrow-color: #000000;"></textarea>
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="15" width="104"></td>
+                                <td height="15"></td>
+                              </tr>
+                              <input type="hidden" name="Contactar2" id="Contactar2">
+                              <tr> 
+                                <td height="15" width="104"></td>
+                                <td height="15"></td>
+                              </tr>
+                              <tr> 
+                                <td height="30" width="104"></td>
+                                <td height="30" align="left" valign="top" class="verdana11"
+								onclick="EnviarF();" style="cursor:hand;"> <b><font color="#CC0000">Enviar</font></b> 
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td colspan="3" align="left" valign="top" height="30"></td>
+                              </tr>
+                              <tr> 
+                                <td colspan="3" align="left" valign="top">
+                                  <p><font face="Arial, Helvetica, sans-serif" size="1" color="#999999">Als 
+                                    efectes del que dispossa la Lley Org&agrave;nica 
+                                    15/1999, del 13 de desembre, de la Protecci&oacute; 
+                                    de Dades de Car&agrave;cter Personal, l&acute;informem 
+                                    de que les seves dades personals inclosses 
+                                    en aquesta Sol.licitud d&acute;Informaci&oacute; 
+                                    i les facilitades en aquest formulari s&acute;incorporaran 
+                                    a un fitxer creat sota la responsabilitat 
+                                    de Troymak. Aquestes dades les dona voluntariament 
+                                    per poder ser at&egrave;s en la sol.licitud 
+                                    d&acute;informaci&oacute; que est&agrave; 
+                                    realitzant. <br>
+                                    <br>
+                                    Vost&egrave; te dret a accedir a l&acute;informaci&oacute; 
+                                    que li corresp&oacute;n recopilada en aquest 
+                                    fitxer, rectificar-la si &eacute;s err&ograve;nia 
+                                    o cancelar-la a la seg&uuml;ent direcci&oacute;: 
+                                    C/ Gelida s/n / Polígon Industrial La Pedrosa 
+                                    ˇ 08783 - Masquefa - Barcelona</font></p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table></form>
+                      </div>
+                    <div id="dynPage3"  class="dynPage" style="	font : 11px;left: 0px; top: 0px; width: 491px; height: 240; z-index: 99; overflow: auto; visibility: hidden"> 
+                      <table width="471" cellspacing="0" cellpadding="0" height="240" bgcolor="#FFFFFF" class="fondoSituacion">
+                        <tr> 
+                          <td rowspan="4" width="72"></td>
+                          <td colspan="3" height="42"></td>
+                          <td rowspan="4" width="30"></td>
+                        </tr>
+                        <tr> 
+                          <td height="24" width="56"></td>
+                          <td height="24" width="30"></td>
+                          <td align="left" valign="top" height="24" width="*"><img src="image/T_SituacionCAT.gif"></td>
+                        </tr>
+                        <tr> 
+                          <td height="15" width="56"></td>
+                          <td height="15" width="30"></td>
+                          <td height="15" width="*"></td>
+                        </tr>
+                        <tr> 
+                          <td align="center" valign="top" width="56"> <img src="image/mapaP.gif" width="56" height="46" alt="Ampliar mapa" border="0" style="cursor:hand"
+						  onClick="javascript:WindowOpenCentrado('image/MapaG.gif', '','resizable=no,statusbar=no,scrollbars=no', 320, 272, 50);"> 
+                            <a href="cat.asp.html#" onClick="javascript:WindowOpenCentrado('image/MapaG.gif', '','resizable=no,statusbar=no,scrollbars=no', 320, 272, 50);" class="links">ampliar</a> 
+                          </td>
+                          <td width="30"></td>
+                          <td align="left" valign="top" class="verdana11" width="*"> 
+                            Empresa ubicada en la comarca de l'Anoia, situada 
+                            a una distŕncia de 12 km de Martorell i a uns 25 km 
+                            d'Igualada aproximadament, poblacions més properes 
+                            a nosaltres i des d'on tenim accés a l'autopista A-2 
+                            i a l'autovia BARCELONA-LLEIDA.</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="dynPage2"  class="dynPage" style="	font : 11px;left: 0px; top: 0px; width: 491px; height: 240; z-index: 12; overflow: auto; visibility: hidden"> 
+                      <table width="471" cellspacing="0" cellpadding="0" height="240" bgcolor="#FFFFFF" class="fondoCalidad"  >
+                        <tr> 
+                          <td rowspan="4" width="72"></td>
+                          <td colspan="3" height="42"></td>
+                          <td rowspan="4" width="30"></td>
+                        </tr>
+                        <tr> 
+                          <td height="24" width="56"></td>
+                          <td height="24" width="30"></td>
+                          <td align="left" valign="top" height="24" width="*"><img src="image/T_CalidadCAT.gif"></td>
+                        </tr>
+                        <tr> 
+                          <td height="15" width="56"></td>
+                          <td height="15" width="30"></td>
+                          <td height="15" width="*"></td>
+                        </tr>
+                        <tr> 
+                          <td align="right" valign="top" width="56"><img src="image/Iso.gif"></td>
+                          <td width="30"></td>
+                          <td align="left" valign="top" class="verdana11" width="*"> 
+                            El resultat d'aquests serveis, completa dedicació 
+                            i gran experičncia no és altre que l'obtenció de productes 
+                            de gran qualitat i uns serveis complementaris de gran 
+                            valor per al client; així ho demostra la <b>certificació 
+                            ISO 9001:2000</b>, de la qual disposem des del 22 
+                            Juliol 2002.<br>
+                            <br>
+                            <b>TROYMAK S.L. </b> té com a objectiu que la qualitat 
+                            dels productes i serveis que ofereix siguin un reflex 
+                            fidel de les expectatives i exigčncies de cada client; 
+                            assegurant així l'čxit a curt i llarg termini de l'empresa. 
+                            <br>
+                            <br>
+                            La filosofia de treball de <b>TROYMAK S.L.</b> s'articula 
+                            en torn a una perfecta conjugació de tecnologia punta 
+                            en el sector, qualificació professional, servei directe 
+                            i personalitzat al client i serietat en els terminis 
+                            d'entrega.<br>
+                            Les inversions en maquinŕria - una constant en l'empresa 
+                            - han fet possible el creixement en el sector. </td>
+                        </tr>
+                      </table>
+                    </div>
+					<div id="dynPage1" class="dynPage" style="left: 0px; top: 0px; width: 491px; height: 250px; z-index: 88; overflow: auto; visibility: hidden"> 
+					  <table width="100%" cellspacing="0" cellpadding="0" height="100%" bgcolor="#FFFFFF">
+						<tr> 
+						  <td rowspan="4" width="40"></td>
+						  <td colspan="3" height="20"></td>
+						</tr>
+						<tr> 
+						  <td height="24" width="112"></td>
+						  <td height="24" width="30"></td>
+						  <td align="left" valign="top" height="24" width="*"><img src="image/T_ServiciosCAT.gif"></td>
+						</tr>
+						<tr> 
+						  <td height="15" width="112"></td>
+						  <td height="15" width="30"></td>
+						  <td height="15" width="*"></td>
+						</tr>
+						<tr> 
+						  <td align="left" valign="top" colspan="3" height="*"> 
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							  <tr>
+            <td colspan="2" valign="top" class="verdana11" align="left">
+								  <B>Troymak S.l.</b> s ha especialitzat en petites i mitjanes series, assessorant al cliente i responent estrictament als compromissos adquirits i terminis de lliurament. Per aquest motiu ens hem guanyat la confiança i la fidelitat dels seus clients en mercats tan exigents com el sector de lautomobil. 
+
+La nostra amplia experičncia ens permet oferir al client gran varietat de materials, acabats, processos i milers de solucions que permetin desenvolupar projectes. Productes que tenim estandaritzats:
+ <br>            </td>
+          </tr>
+          <tr>
+            <td height="50" valign="bottom" colspan="2" align="center" valign="bottom" class="verdana11" 
+            style="font-size:13px; color:#FF0000; font-weight:bold;">
+            <div align="left" style="width:100px; height:20px; margin-left:50px;margin-top:5px;">
+            <img src="image/Subtit1C.jpg" border="0">
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" class="verdana11" align="left" >
+            
+            						<div style="margin-top:2px;">
+            						<img src="image/Servicios1p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios1.jpg', '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);"> 
+								  	</div>
+                                    <div style="margin-top:2px;">
+								  <img src="image/Servicios2p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios2.jpg', '','resizable=no,statusbar=no,scrollbars=no', 280, 220, 50);"> 
+								 </div>
+                                 <div style="margin-top:2px;">
+								  <img src="image/Servicios3p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios3.jpg', '','resizable=no,statusbar=no,scrollbars=no', 300, 230, 50);"> 
+								  </div>
+                                  <div style="margin-top:2px;">
+								  <img src="image/Servicios4p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios4.jpg', '','resizable=no,statusbar=no,scrollbars=no', 265, 265, 50);"> 
+								  </div>
+                                  <div style="margin-top:2px;">
+								  <img src="image/Servicios5p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios5.jpg', '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);"> 
+								 </div>
+                                 <div style="margin-top:2px;">
+								  <img src="image/Servicios6p.jpg" width="112" height="50" style="cursor:hand" alt="Ampliar imagen"
+									onClick="javascript:WindowOpenCentrado('image/Servicios6.jpg', '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);"> 
+								  </div>
+                                  <div style="margin-top:2px;">
+								  <img src="image/Servicios7p.jpg" width="112" height="50" style="cursor:hand" 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios7.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                 </div>
+            
+            </td>
+            <td valign="top" class="verdana11" align="left" height="250" style="padding-left:35px; padding-top:5px;">
+            ˇ Fabricació de peces destinades a l indústria auxiliar de lautomóvil, en especial tall i cosit de moquetes i fundes de tot tipus. 
+Remodelació, manteniment, substitució o reparació de butaques per a sales d espectacles, teatres, cinemes, i auditoris. Especialment tall i cosit de fundes, moquetes de tot tipus, cortinatges per a escenaris, revestimients textils, etc.; tot realitzat amb materials ignífugs adaptats a la normativa vigent del comportament al foc. Incloem serves complementaris per a un redisseny i acondicionament integral de la sala. 
+<br>
+ˇ Moquetes <br>
+ˇ Moquetes per a maleters <br>
+ˇ Ribetejat de moquetes <br>
+ˇ Aďllants <br>
+ˇ Insonorizants <br>
+ˇ Teixits <br>
+ˇ Plastics <br>
+ˇ Embalatge <br>
+ˇ Guates <br>
+ˇ Corretges de polipropilč<br>
+ˇ Complements de llar i jardí. <br>
+ˇ Fabricació darmilles reflectants.<br> </td>
+          </tr>
+          <tr>
+            <td class="verdana11" align="left" valign="top" colspan="2" style="padding-top:15px;">
+Tant cosits de manera tradicional o soldats per alta freqüencia.
+<br>
+Apart podem fabricar sota comanda qualsevol producte que els interessi. </td>
+          </tr>
+          <tr>
+            <td height="50" valign="bottom" colspan="2" align="center" valign="bottom" class="verdana11" 
+            style="font-size:13px; color:#FF0000; font-weight:bold;">
+            <div align="left" style="width:100px; height:20px; margin-left:50px; margin-top:5px;">
+            <img src="image/Subtit2C.jpg" border="0">
+            </div>
+            </td>
+  			</tr>
+          <tr>
+            <td>				<div style="margin-top:10px;">
+            					  <img src="image/Servicios8p.jpg" width="112" height="50" style="cursor:hand;" 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios8.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                 <div style="margin-top:10px;">
+                                  <img src="image/Servicios9p.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios9.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                <div style="margin-top:10px;">
+                                  <img src="image/Servicios10p.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios10.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                <div style="margin-top:10px;">
+                                  <img src="image/Servicios11p.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios11.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                <div style="margin-top:10px;">                                
+                                  <img src="image/Servicios12p.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios12.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                  <div style="margin-top:10px;">                                
+                                  <img src="image/Servicios13.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios13.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                  <div style="margin-top:10px;">                                
+                                  <img src="image/Servicios14.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios14.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+                                  <div style="margin-top:10px;">                                
+                                  <img src="image/Servicios15.jpg" width="112" height="50" style="cursor:hand; " 
+                                  alt="Ampliar imagen" onClick="javascript:WindowOpenCentrado('image/Servicios15.jpg',
+                                  '','resizable=no,statusbar=no,scrollbars=no', 340, 220, 50);">
+                                  </div>
+            </td>
+            <td valign="top" class="verdana11" align="left" style="padding-left:35px; padding-top:5px;">
+            ˇ Remodelació, manteniment, substitució o reparació de butaques per a sales d espectacles, teatres, cinemes, i auditoris. Especialment tall i cosit de fundes, moquetes de tot tipus, cortinatges per a escenaris, revestimients textils, etc.; tot realitzat amb materials ignífugs adaptats a la normativa vigent del comportament al foc. Incloem serves complementaris per a un redisseny i acondicionament integral de la sala. 
+            </td>
+          </tr>
+							</table>
+						  </td>
+						</tr>
+						<tr> 
+						  <td height="10" width="40"></td>
+						  <td align="left" valign="top" width="112" height="10"></td>
+						  <td width="30" height="10"></td>
+						  <td align="left" valign="top"width="*" height="10"></td>
+						</tr>
+					  </table>
+					</div>
+                    <div id="dynPage0"  class="dynPage" style="	font : 11px;left: 0px; top: 0px; width: 491px; height: 240; z-index: 10; visibility: visible"> 
+                      <table width="471" cellspacing="0" cellpadding="0" height="240" bgcolor="#FFFFFF" class="fondoCompania">
+                        <tr> 
+                          <td rowspan="4" width="62"></td>
+                          <td colspan="3" height="42"></td>
+                          <td rowspan="4" width="30"></td>
+                        </tr>
+                        <tr> 
+                          <td height="24" width="112"></td>
+                          <td height="24" width="30"></td>
+                          <td align="left" valign="top" height="24" width="*"><img src="image/T_CompaniaCAT.gif" width="139" height="25"></td>
+                        </tr>
+                        <tr> 
+                          <td height="15" width="112"></td>
+                          <td height="15" width="30"></td>
+                          <td height="15" width="*"></td>
+                        </tr>
+                        <tr> 
+                          <td align="left" valign="top" width="112"><img src="image/Compania.jpg" width="112" height="50"></td>
+                          <td width="30"></td>
+                          <td align="left" valign="top" class="verdana11" width="*"><b>TROYMAK 
+                            S.L.</b> &eacute;s una empresa fundada l'any 1994 
+                            basada en el proc&eacute;s de tall i cosit d'articles 
+                            t&egrave;xtils, destinats a la tapisseria de l'autom&ograve;bil, 
+                            tapisseria en general i articles per la llar, amb 
+                            soldadura d'alta freq&uuml;&egrave;ncia i secci&oacute; 
+                            de cosit. </td>
+                        </tr>
+                        <tr> 
+                          <td colspan="5" class="verdana11" align="center" valign="middle"><b><font color="#999999">ˇ 
+                            Encunyats ˇ Soldadura d´alta freqüčncia ˇ Cosit ˇ 
+                            Tall per CAD ˇ</font></b></td>
+                        </tr>
+                      </table>
+                      <p><br>
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="36" width="*"></td>
+              </tr>
+              <tr> 
+                <td height="20" width="*" align="center"> 
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="30"><img src="image/flecha3.gif" width="23" height="22"></td>
+                      <td class="arial10" align="center">C/ Gelida s/n / Polígon 
+                        Industrial La Pedrosa &middot; 08783 - Masquefa - Barcelona<br>
+                        Tel.: 93 772 72 50 - Fax: 93 772 71 11 &middot; Email: 
+                        <a href="mailto:Troymak@troymak.es" class="links">Troymak@troymak.es</a></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr> 
+                <td height="5" width="*"></td>
+              </tr>
+            </table>
+          </td>
+          <td class="disc_vert" width="1"></td>
+          <td width="2"></td>
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+          <td width="2"></td>
+          <td class="disc_vert" width="1"></td>
+          <td class="disc_horiz" height="1" colspan="2"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+          <td width="2"></td>
+          <td class="disc_vert" width="1"></td>
+          <td height="2" colspan="2"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td height="2"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+          <td width="2"></td>
+          <td class="disc_vert" width="1"></td>
+          <td class="disc_horiz" height="1" colspan="2"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td width="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_vert" width="1"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6" colspan="2"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td height="6"></td>
+          <td class="disc_vert" width="1"></td>
+        </tr>
+        <tr> 
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1" colspan="2"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+          <td class="disc_horiz" height="1"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

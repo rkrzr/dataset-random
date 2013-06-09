@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AIA Connecticut</title>
+<link rel="stylesheet" type="text/css" media="screen" href="_css/style.css">
+<style media="screen" type="text/css">
+@import "_css/style.css";
+</style>
+</head>
+<body id="home">
+<div id="header_bg">
+<div id="header">
+<a href="#"><img class="logo" src="_images/logo.gif" alt="Logo: AIA Connecticut" width="91" height="53" /></a>
+<ul id="topnav">
+<li class="btn1"><a  href="aiadocuments/index.php">AIA<br />Contract<br />Documents</a></li>
+<li class="btn2"><a  href="membersite/">Member<br />Login</a></li>
+<li class="btn3"><a  href="findarchitect/">Find an<br />Architect</a></li>
+</ul>
+</div>
+</div><div id="nav_bg">
+<ul id="nav">
+<li class="about"><a href="about/" class="first">About Us</a></li>
+<li class="resources"><a href="resources/">Consumer Resources</a></li>
+<li class="careers"><a href="careers/">Careers &amp; Licensure</a></li>
+<li class="outreach"><a href="outreach/ctaf.php">Connecticut Architecture Foundation</a></li>
+<li class="outreach"><a href="outreach/">Outreach</a></li>
+<li class="classifieds"><a href="classifieds/">Classifieds</a></li>
+<li class="links"><a href="links/" class="last">Related Links</a></li>
+</ul>
+</div>
+<div id="midbg"><div id="content">
+<ul id="sidebar">
+<li class="side1"><a href="/membersite/events.php">Calendar</a></li>
+<li class="side2"><a href="/join/">Join</a></li>
+<li class="side3"><a href="awards/">Awards Programs</a></li>
+<li class="banner">&nbsp;</li><li class="address">370 James Street, Suite 402<br />
+New Haven, CT 06513<br />
+Phone: 203-865-2195<br />
+Fax: 203-562-5378<br />
+aiainfo@aiact.org<br />
+<p><a target="_blank" href="http://www.facebook.com/aiaconnecticut"><img alt="Facebook" src="/userfiles/file/About Us/Facebook.jpg" /> </a><a target="_blank" href="http://www.linkedin.com/groups?about=&gid=4087762&trk=anet_ug_grppro
+"><img alt="LinkedIn" width="32" height="32" src="/userfiles/file/About Us/LinkedIn-Icon.jpg" /> </a><br />
+&nbsp;</p>
+<br />
+<script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&amp;code=w6oj3BWieJra4gUHKItmgytnHPZgvC"></script>
+<p>&nbsp;</p></li>
+</ul><div id="col2wrapper">
+<div id="col1">
+<div id="box">
+<div id="box_left"></div>
+<div id="box_mid">
+<a href="http://www.aiact.org/membersite/events.php?Date=20130523">Design for Security</a>
+</div>
+<div id="box_right"></div>
+</div><p style="text-align: justify"><br />
+AIA Connecticut, the Connecticut chapter of the American Institute of Architects, serves the architectural profession, encourages design excellence, and works to improve society through a concern for the quality of the built and natural environments. Members commit themselves to the highest standards of practice and code of ethics that address responsibilities to the public, clients, the building industry, and the art and science of architecture.</p>
+<p><a href="http://www.aiact.org/membersite/events.php?Show=Seminars">AIA Connecticut Continuing Education</a><br />
+<br />
+<a href="http://www.aiact.org/aiadocuments/catalogue.php?docType=codebook">CODE BOOKS - Online Ordering</a></p>
+<p style="text-align: justify"><i><b><font color="#b42e34">THE ARCHITECT'S COOKBOOK</font><br />
+</b></i>This unique cookbook features beautiful line drawings and&nbsp;over 250 mouthwatering recipes submitted by architects and members of the design and construction industry. <a target="_blank" href="/userfiles/file/Board/Cookbook-views.pdf">View</a>&nbsp;<br />
+Ordering:&nbsp;<br />
+<a target="_blank" href="/userfiles/file/Board/AIACTCookbookOrderForm.pdf">Order form</a><br />
+<a href="http://www.aiact.org/aiadocuments/catalogue.php?docType=other">Order online</a></p>
+<p><a href="https://w1.buysub.com/pubs/MG/ARH/AIACT_orderform_v2.jsp?cds_page_id=90671&amp;cds_mag_code=ARH&amp;id=1288116311634&amp;lsid=32991305116021924&amp;vid=1&amp;cds_response_key=WAR1010C1"><i>Architectural Record </i>subscription renewal</a></p>
+<p><br />
+&nbsp;</p></div>
+<div id="col2">
+<div id="newsbox">
+<div id="newsbox_left"></div>
+<div id="newsbox_mid">News/Alert</div>
+<div id="newsbox_right"></div>
+</div>
+<table>
+<tr>
+<td width="200">
+<strong>June 04, 2013</strong><br /><a href="membersite/events.php?Date=20130604">Committee On The Environment</a><br /><br /><strong>June 05, 2013</strong><br /><a href="membersite/events.php?Date=20130605">Substantive Changes from 2003 to 2009 International Residential Code</a><br /><br /><strong>June 06, 2013</strong><br /><a href="membersite/events.php?Date=20130606">Building Performance & Regulations Committee</a><br /><br /><strong>June 10, 2013</strong><br /><a href="membersite/events.php?Date=20130610">Emerging Architectural Firms 2013 Award Nominations Deadline</a><br /><br /><strong>June 11, 2013</strong><br /><a href="membersite/events.php?Date=20130611">Continuing Education Committee</a><br /><br /><strong>June 12, 2013</strong><br /><a href="membersite/events.php?Date=20130612">Small Firms Roundtable</a><br /><br /></td>
+</tr>
+</table>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="footer_bg">
+<div id="footer">
+<ul id="bottomnav">
+<li><a href="about/" class="first">About Us</a></li>
+<li><a href="resources/">Consumer Resources</a></li>
+<li><a href="careers/">Careers &amp; Licensure</a></li>
+<li><a href="outreach/ctaf.php">CAF</a></li>
+<li><a href="outreach/">Outreach</a></li>
+<li><a href="classifieds/">Classifieds</a></li>
+<li><a href="links/">Related Links</a></li>
+<li><a href="aiadocuments/">AIA Contract Documents</a></li>
+<li><a href="membersite/">Member Login</a></li>
+<li><a href="findarchitect/" class="last">Find an Architect</a></li>
+</ul>
+Copyright &copy; 2013 AIA Connecticut, A chapter of The American Institute of Architects</div>
+</div></body>
+</html>

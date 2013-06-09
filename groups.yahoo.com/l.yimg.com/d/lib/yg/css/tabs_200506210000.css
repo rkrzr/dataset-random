@@ -1,0 +1,74 @@
+
+.ygrp-tabbed-container {
+  width:auto;
+  border:1px solid #b2b2b2;
+  background-color:#F7F7F7;
+  margin:7px 0;
+}
+.ygrp-tabbed-container .body {
+  padding-top:12px;
+  margin:0 10px 0 15px;
+}
+.ygrp-tabbed-container .foot {
+  height:3px;
+}
+.ygrp-tabline {
+  border-bottom:1px solid #b2b2b2;
+  background-color:#E7E7E7;
+  padding-left:31px;
+}
+.ygrp-tabline .corner-top .corner-left {
+  left:-33px;
+}
+.ygrp-tabs {
+  position:relative;
+  z-index:200;
+  margin-top:-22px;
+  margin-bottom:-10px; /* non-IE */
+}
+.ygrp-tabs a {
+  padding:0 8px;
+}
+.ygrp-tabs .delimiter {
+  color:#b2b2b2;
+}
+.ygrp-tabs .ygrp-nonactive-tab {
+  margin-top:23px;
+  padding-bottom:4px;
+  margin-bottom:9px;
+}
+* html .ygrp-tabline {
+  margin-bottom:7px;
+}
+* html .ygrp-tabs .ygrp-nonactive-tab {
+  margin-bottom:0;
+}
+.ygrp-tabs .ygrp-nonactive-tab .corner-top {
+  display:inline;
+  height:0;
+  background:transparent;
+}
+.ygrp-tabs .ygrp-nonactive-tab .corner-top .corner-left {
+  display:inline;
+  height:0;
+  background:transparent;
+}
+.ygrp-tabs .ygrp-active-tab {
+  margin-top:11px;
+  border-width:1px;
+  border-style:solid;
+  margin-bottom:-7px; /* IE */
+}
+.ygrp-tabs .ygrp-active-tab .corner-top .corner-left {
+  left:-2px;
+}
+.ygrp-tabs .ygrp-active-tab a {
+  display:block;
+  position:relative;
+  padding-top:5px;
+  padding-bottom:14px;
+  margin-bottom:-8px;
+  font-weight:bold;
+  text-align:center;
+  white-space:nowrap;
+}

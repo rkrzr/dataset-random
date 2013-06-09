@@ -1,0 +1,1094 @@
+﻿/* background color for the content part of the pages */
+Body
+{
+    background-color: white;
+    margin: 0px;
+}
+
+.ControlPanel, .PagingTable
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-right: #003366 1px solid;
+    border-top: #003366 1px solid;
+    border-left: #003366 1px solid;
+    border-bottom: #003366 1px solid;
+}
+
+.SkinObject
+{
+    font-weight: bold;
+    font-size: 8.5pt;
+    color: #003366;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+
+A.SkinObject:link
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A.SkinObject:visited
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A.SkinObject:hover
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A.SkinObject:active
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+/* styles for LANGUAGE skinobject */
+div.language-object
+{
+	white-space: nowrap;
+	overflow: visible;
+	vertical-align: middle;
+	margin: 0px; 
+	line-height: 0.5;
+}
+
+div.language-object span.Language
+{
+	display: inline;
+	float: left; 
+	margin: 0 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.language-object span.Language img
+{
+	border: 2px solid transparent;
+}
+
+div.language-object span.Language.selected img
+{
+	border-color: #333;
+}
+
+
+/* style for module titles */
+.Head
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333333;
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+/* text style used for most text rendered by modules */
+.Normal, .NormalDisabled
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* text style used for rendered text which should appear disabled */
+.NormalDisabled
+{
+    color: Silver;
+}
+
+/* text style used for rendered text which requires emphasis */
+.NormalBold
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* text style used for error messages */
+.NormalRed
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* style to apply if the content should be hidden */
+.Hidden
+{
+    display: none;
+}
+
+/* styles used by Data Grids */
+.DataGrid_AlternatingItem
+{
+    background-color: White;
+    color: Red;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 10px;
+    font-weight: normal;
+}
+.DataGrid_Container
+{
+    background-color: Transparent;
+}
+.DataGrid_Footer
+{
+    background-color: White;
+}
+.DataGrid_Header
+{
+    background-color: Transparent;
+    color: Black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.DataGrid_Item
+{
+    background-color: Transparent;
+    color: Black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 10px;
+    font-weight: normal;
+}
+.DataGrid_SelectedItem
+{
+    background-color: Silver;
+    color: Blue;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+/* stlyes used by DNNGrids */
+
+/* eliminate all padding and margins on nested tables and their cells */
+.DnnGridNestedTable
+{
+    /* NOTE: to support IE 6 & 7, still need to use 'cellspacing="0"' in <table> XHTML markup */
+    border-collapse: collapse !important;
+    border: 0px;
+    margin: 0px auto !important;
+    text-align: center;
+}
+
+.DnnGridNestedTable tbody td,
+.DnnGridNestedTable thead th 
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.DnnGridNestedTable tbody td
+{
+    border-left: 0 !important;
+}
+
+.DnnGridNestedTable caption
+{
+    border-bottom: 1px dashed #C3C3C3;
+    margin-bottom: 3px;
+}
+
+/* styles used by TreeMenu Skin Object */
+.TreeMenu_Node
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.TreeMenu_NodeSelected
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #dcdcdc;
+}
+
+A.TreeMenu_Node:link, A.TreeMenu_NodeSelected:link
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A.TreeMenu_Node:visited, A.TreeMenu_NodeSelected:visited
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A.TreeMenu_Node:hover, A.TreeMenu_NodeSelected:hover
+{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+A.TreeMenu_Node:active, A.TreeMenu_NodeSelected:active
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+/* text style used for help text rendered by modules */
+.Help
+{
+    border-right: black 1px solid;
+    padding-right: 2px;
+    border-top: black 1px solid;
+    padding-left: 2px;
+    font-weight: normal;
+    font-size: 11px;
+    padding-bottom: 2px;
+    border-left: black 1px solid;
+    color: black;
+    padding-top: 2px;
+    border-bottom: black 1px solid;
+    font-family: Tahoma, Arial, Helvetica;
+    background-color: #ffff99;
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link
+{
+    text-decoration: underline;
+    color: #003366;
+}
+
+A.CommandButton:visited
+{
+    text-decoration: underline;
+    color: #003366;
+}
+
+A.CommandButton:hover
+{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+A.CommandButton:active
+{
+    text-decoration: underline;
+    color: #003366;
+}
+
+/* button style for standard HTML buttons */
+.StandardButton
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 11px;
+    background: #dddddd;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+}
+
+
+/* GENERIC */
+H1
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666644;
+}
+
+H2
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666644;
+}
+
+H3
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    color: #003366;
+}
+
+H4
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: normal;
+    color: #003366;
+}
+
+H5, DT
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: #003366;
+}
+
+H6
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: #003366;
+}
+
+TFOOT, THEAD
+{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    color: #003366;
+}
+
+TH
+{
+    vertical-align: baseline;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: #003366;
+}
+
+IMG
+{
+    border: none;
+}
+
+A:link
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A:visited
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+A:hover
+{
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+A:active
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+SMALL
+{
+    font-size: 8px;
+}
+
+BIG
+{
+    font-size: 14px;
+}
+
+BLOCKQUOTE, PRE
+{
+    font-family: Lucida Console, monospace;
+}
+
+
+UL LI
+{
+    list-style-type: square;
+}
+
+UL LI LI
+{
+    list-style-type: disc;
+}
+
+UL LI LI LI
+{
+    list-style-type: circle;
+}
+
+OL LI
+{
+    list-style-type: decimal;
+}
+
+OL OL LI
+{
+    list-style-type: lower-alpha;
+}
+
+OL OL OL LI
+{
+    list-style-type: lower-roman;
+}
+OL UL LI
+{
+    list-style-type: disc;
+}
+
+HR
+{
+    color: #696969;
+    height: 1pt;
+    text-align: left;
+}
+
+/* Module Title Menu */
+.ModuleTitle_MenuContainer
+{
+    border-bottom: blue 0px solid;
+    border-left: blue 0px solid;
+    border-top: blue 0px solid;
+    border-right: blue 0px solid;
+}
+
+.ModuleTitle_MenuBar
+{
+    cursor: pointer;
+    height: 16px;
+    background-color: Transparent;
+}
+
+.ModuleTitle_MenuItem
+{
+    cursor: pointer;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    border-left: white 0px solid;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    border-right: white 0px solid;
+    background-color: Transparent;
+}
+
+.ModuleTitle_MenuIcon
+{
+    cursor: pointer;
+    background-color: #EEEEEE;
+    border-left: #EEEEEE 1px solid;
+    border-bottom: #EEEEEE 1px solid;
+    border-top: #EEEEEE 1px solid;
+    text-align: center;
+    width: 15px;
+    height: 21px;
+}
+
+.ModuleTitle_SubMenu
+{
+    z-index: 1000;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-bottom: #FFFFFF 0px solid;
+    border-left: #FFFFFF 0px solid;
+    border-top: #FFFFFF 0px solid;
+    border-right: #FFFFFF 0px solid;
+}
+
+.ModuleTitle_MenuBreak
+{
+    border-bottom: #EEEEEE 1px solid;
+    border-left: #EEEEEE 0px solid;
+    border-top: #EEEEEE 1px solid;
+    border-right: #EEEEEE 0px solid;
+    background-color: #EEEEEE;
+    height: 1px;
+}
+
+.ModuleTitle_MenuItemSel
+{
+    cursor: pointer;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #C1D2EE;
+}
+
+.ModuleTitle_MenuArrow
+{
+    font-family: webdings;
+    font-size: 10pt;
+    cursor: pointer;
+    border-right: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    border-top: #FFFFFF 0px solid;
+}
+
+.ModuleTitle_RootMenuArrow
+{
+    font-family: webdings;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+/* Main Menu */
+.MainMenu_MenuContainer
+{
+    background-color: transparent;
+}
+.MainMenu_MenuBar
+{
+    cursor: pointer;
+    height: 16px;
+    background-color: Transparent;
+}
+.MainMenu_MenuItem
+{
+    cursor: pointer;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    border-left: white 0px solid;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    border-right: white 0px solid;
+    background-color: Transparent;
+}
+.MainMenu_MenuIcon
+{
+    cursor: pointer;
+    background-color: #EEEEEE;
+    border-left: #EEEEEE 1px solid;
+    border-bottom: #EEEEEE 1px solid;
+    border-top: #EEEEEE 1px solid;
+    text-align: center;
+    width: 15px;
+    height: 21px;
+}
+.MainMenu_SubMenu
+{
+    z-index: 1000;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-bottom: #FFFFFF 0px solid;
+    border-left: #FFFFFF 0px solid;
+    border-top: #FFFFFF 0px solid;
+    border-right: #FFFFFF 0px solid;
+}
+.MainMenu_MenuBreak
+{
+    border-bottom: #EEEEEE 1px solid;
+    border-left: #EEEEEE 0px solid;
+    border-top: #EEEEEE 1px solid;
+    border-right: #EEEEEE 0px solid;
+    background-color: #EEEEEE;
+    height: 1px;
+}
+.MainMenu_MenuItemSel
+{
+    cursor: pointer;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size: 9pt;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #C1D2EE;
+}
+.MainMenu_MenuArrow
+{
+    font-family: webdings;
+    font-size: 10pt;
+    cursor: pointer;
+    border-right: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    border-top: #FFFFFF 0px solid;
+}
+.MainMenu_RootMenuArrow
+{
+    font-family: webdings;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+/* LEGACY STYLES from DNN 1-2 */
+.HeadBg
+{
+    background-color: #CCCCCC;
+}
+
+.TabBg
+{
+    background-color: black;
+}
+
+.SelectedTab
+{
+    font-weight: bold;
+    font-size: 8.5pt;
+    color: #FFFFFF;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+
+A.SelectedTab:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+A.SelectedTab:visited
+{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+A.SelectedTab:hover
+{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+A.SelectedTab:active
+{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.OtherTabs
+{
+    font-weight: bold;
+    font-size: 8.5pt;
+    color: white;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+
+A.OtherTabs:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+A.OtherTabs:visited
+{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+A.OtherTabs:hover
+{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+A.OtherTabs:active
+{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.PagingTable
+{
+    height: 33px;
+}
+
+/*
+.LabelEditOverClass
+{	
+	cursor: pointer;
+	text-decoration: underline overline;
+}
+*/
+
+.LabelEditTextClass
+{
+    border: solid 1px red;
+    background-color: Transparent;
+}
+
+.LabelEditWorkClass
+{
+    /*background: url(/DotNetNuke/images/dnnanim.gif) no-repeat right;*/
+    border: solid 0px red;
+    background-color: Transparent;
+}
+
+/* style for the DNNTextSuggest control select menu */
+.SuggestTextMenu
+{
+    border: solid 1px black;
+    white-space: nowrap;
+    background: white;
+}
+/* style for the DNNTextSuggest control selected menu node */
+.SuggestNodeOver
+{
+    background-color: navy;
+    color: White;
+}
+
+
+/*Edit In Place Tool Bar Classes*/
+.eipbackimg
+{
+    border: outset 1px; /*give toolbar a 3D look*/
+    position: absolute; /*needed so it doesn't take up space */
+    margin-top: -22px; /*specify toolbar to be just above text */
+    white-space: nowrap; /* makes toolbar horizontal */
+    background: url(../../images/eip_toolbar.gif);
+    background-color: #99cccc;
+    background-repeat: repeat-x;
+    height: 22px;
+}
+
+.eipbuttonbackimg
+{
+    width: 21px;
+    height: 21px;
+    cursor: pointer; /*change mouse to pointer when hover over button*/
+    float: left;
+}
+
+.eipbutton_edit
+{
+    background: url(../../images/eip_edit.gif) no-repeat 100% center;
+    float: left;
+}
+.eipbutton_save
+{
+    background: url(../../images/eip_save.gif) no-repeat 100% center;
+    float: left;
+}
+.eipborderhover
+{
+    border: outset 1px;
+}
+
+/* used to collapse panes without any content in them */
+.DNNEmptyPane
+{
+    width: 0px;
+}
+
+/* used to set the different module align options - from module settings */
+.DNNAlignleft
+{
+    text-align: left;
+}
+.DNNAlignright
+{
+    text-align: right;
+}
+.DNNAligncenter
+{
+    text-align: center;
+}
+
+/* Login Styles */
+.LoginPanel
+{
+}
+
+.LoginTabGroup
+{
+}
+
+.LoginTab
+{
+    float: left;
+    background: url( "../../images/tablogin_gray.gif" ) left top;
+    margin: 0 3px 3px 0;
+    padding: 5px 5px 4px 5px;
+    text-decoration: none;
+    color: #FFF;
+    border: 1px #25569a solid;
+}
+
+.LoginTabSelected
+{
+    float: left;
+    background: url( "../../images/tablogin_gray.gif" ) left top;
+    margin: 0 3px 3px 0;
+    padding: 5px 5px 4px 5px;
+    text-decoration: none;
+    color: #FFF;
+    background-position: 0% -41px;
+    border: 1px #25569a solid;
+}
+
+.LoginTabHover
+{
+    float: left;
+    background: url( "../../images/tablogin_gray.gif" ) left top;
+    margin: 0 3px 3px 0;
+    padding: 5px 5px 4px 5px;
+    text-decoration: none;
+    color: #555;
+    border: 1px #C00 solid;
+    cursor: pointer;
+}
+
+.LoginContainerGroup
+{
+    clear: both;
+    padding-top: 5px;
+}
+
+.LoginContainer
+{
+}
+
+/* Search SkinObject Styles */
+
+div.SearchContainer
+{
+    position: relative;
+    white-space: nowrap;
+}
+
+div.SearchBorder
+{
+    width: 200px;
+    height: 20px;
+    border: solid 1px #e0e0e0;
+    position: relative;
+    background-color: White;
+    white-space: nowrap;
+    float: left;
+    margin-top: 2px;
+}
+
+input.SearchTextBox
+{
+    float: left;
+    z-index: 10;
+    border: 0px;
+    width: 169px;
+    height: 18px;
+}
+
+div.SearchContainer a
+{
+    padding: 0px 5px;
+    position: relative;
+    display: inline-block;
+    display: -moz-inline-box;
+}
+
+div.SearchIcon
+{
+    float: left;
+    width: 31px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 11;
+    background: no-repeat 2px 2px;
+    text-align: right;
+}
+
+div.SearchIcon img
+{
+    margin-top: 3px;
+}
+
+#SearchChoices
+{
+    width: 160px;
+    clear: both;
+    display: none;
+    border: solid 1px #777;
+    z-index: 2000;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #eee;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+}
+
+#SearchChoices li
+{
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    padding-left: 25px;
+    height: 20px;
+    text-align: left;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    list-style: none;
+    list-style-image: none;
+    border: solid 1px #eee;
+    display: block;
+}
+
+#SearchChoices li.searchHilite
+{
+    background-color: #ddf;
+    border: solid 1px #aaf;
+}
+
+#SearchChoices li.searchDefault
+{
+    background-color: #eee;
+    border: solid 1px #eee;
+}
+
+#floater
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    background: #ffffff;
+    visibility: hidden;
+    padding-bottom: 0px;
+    margin: 0px;
+    width: 150px;
+    color: #ffffff;
+    padding-top: 0px;
+    position: absolute;
+    height: auto;
+}
+#tablist 
+{
+	width: 120px;
+	margin: 0;
+	padding-bottom: 10px;
+	float:left;
+}
+
+.dashboardPanel 
+{
+	margin-left: 120px;
+	padding: 0 10px 10px 10px;
+	
+}
+
+.dashboardPanel table td
+{
+	padding: 2px 4px;
+}
+
+.dashboardPanel table th
+{
+	padding: 2px 4px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #036;
+	border-bottom: 1px solid #9FB1BC;
+}
+
+.dashboardTableAlt 
+{
+	background-color: #eee;
+}
+
+.dashboardGrid
+{
+	margin: 10px;
+}
+
+.paneOutline
+{
+	border: 1px #CCCCCC dotted;
+}
+.containerAdminBorder
+{
+	border: 2px red solid;
+}
+
+#UserProfile {
+	border: 1px silver solid;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 500px;
+}
+#UserProfile .ProfileName {	
+	font-weight:bold;
+	color: #cb2027;
+	margin-bottom: 5px;
+}
+#UserProfile .ProfilePhoto {
+    background-image: url('../../images/no_avatar.gif');	
+	float: left;
+}
+#UserProfile .ProfileAddress {
+	margin: 0 0 10px 130px;
+}
+#UserProfile .ProfileContact {
+	margin: 0 0 10px 130px;
+	color: gray;
+	font-size: 0.9em;
+}
+#UserProfile .ProfileBio {
+	clear: both;
+	margin: 10px 0px 10px 0;
+	padding: 10px;
+	border: 1px #eee solid;	
+	background-color: #f5f9fc;	
+}
+
+/*---------------- Taxonomy ------------------------*/
+
+/* Horizontal taxonomy styles */
+.horizontal ul.categories,.horizontal ul.tags{list-style:none;padding:0;margin:0;text-indent:25px;line-height:28px;}
+.horizontal ul.categories{background:url(../../images/category.gif) no-repeat left;}
+.horizontal ul.tags{background:url(../../images/tag.gif) no-repeat left;}
+.horizontal ul.categories li,.horizontal ul.tags li{display:inline;margin:0;}
+.horizontal ul.tags li.add-tags{margin-left: 20px;}
+.horizontal ul.tags li.add-tags img{vertical-align:middle;}
+
+/* Vertical taxonomy styles */
+.vertical ul.categories,.vertical ul.tags{list-style:none;padding-top:0;padding-left:0;margin-top:0;margin-bottom:0;}
+.vertical ul.categories li,.vertical ul.tags li{margin:0;line-height:20px;}
+.vertical ul.categories li{list-style-image:url(../../images/category.gif); list-style-position:inside;}
+.vertical ul.tags li{list-style-image:url(../../images/tag.gif); list-style-position:inside; }
+.vertical ul.tags li.add-tags{list-style-image:none;}
+.vertical ul.tags li.add-tags img{vertical-align:middle;}
+
+/* html viewer classes */
+
+.html_preview{border:1px solid #0094FF;padding:5px; margin:10px;}

@@ -1,0 +1,202 @@
+/**
+ * color settings
+ */
+.titleBox_gsnb                              { }
+a.statusItemSelected_gsnb                   { color : #000000; }
+span.statusItemSep_gsnb                     { color : #6f6f6f; }
+.horizontal_gsnb .newsBarInnerBox_gsnb      { border-color : #aaaaaa; }
+.horizontal_gsnb div.statusBox_gsnb         { border-right-color : #c0c0c0; }
+.horizontal_gsnb a.statusItemSelected_gsnb  { color : rgb(68,68,68); }
+.horizontal_gsnb span.snippet_gsnb          { color : #6f6f6f; }
+
+/**
+ * full or empty newscolumn
+ */
+.full_gsnb {
+  display : block;
+}
+.empty_gsnb {
+  display : none;
+}
+
+div.horizontal_gsnb {
+  position : relative;
+}
+
+/**
+ * horizontal bar gets a border treatment
+ */
+.horizontal_gsnb .newsBarInnerBox_gsnb {
+  border-width : 1px;
+  border-style : solid;
+  padding-top : 4px;
+  padding-bottom : 8px;
+  padding-left : 12px;
+  padding-right : 12px;
+  margin-right : 76px;
+  position : relative;
+}
+
+/**
+ * title
+ * - show for vertical bars
+ * - suppress for horizontal bars
+ */
+.titleBox_gsnb {
+  font-size : 125%;
+  font-weight : bold;
+}
+.horizontal_gsnb .titleBox_gsnb {
+  display : none;
+}
+
+/**
+ * Auto Execute List Status Box
+ * - vertical mode
+ */
+div.statusBox_gsnb {
+  padding-top : 4px;
+  padding-bottom : 4px;
+}
+
+a.statusItem_gsnb {
+  cursor : pointer;
+  white-space: nowrap;
+}
+
+a.statusItemSelected_gsnb {
+  font-weight : bold;
+  text-decoration : none;
+  border: none;
+}
+
+/**
+ * Auto Execute List Status Box
+ * - horizontal mode
+ */
+.horizontal_gsnb div.statusBox_gsnb {
+  float : left;
+  margin-right : 14px;
+  padding-right : 14px;
+  border-right-width : 1px;
+  border-right-style : solid;
+}
+
+.horizontal_gsnb a.statusItem_gsnb {
+  display : none;
+  white-space: nowrap;
+}
+
+.horizontal_gsnb a.statusItemSelected_gsnb {
+  cursor : pointer;
+  white-space: nowrap;
+  border: none;
+  font-weight : bold;
+  display : inline;
+}
+
+
+span.statusItemSep_gsnb {
+  font-size : 50%;
+  margin-right : 8px;
+}
+
+/**
+ * vertical mode only one item, supress
+ */
+.vertical_gsnb .oneitem_gsnb {
+  display : none;
+}
+
+/**
+ * results
+ *
+ * sometimes people have generic a rules that
+ * set a border. disable those if present
+ */
+.resultsBox_gsnb .resultDiv_gsnb * {
+  border : none;
+}
+
+/**
+ * always suppress watermark
+ */
+.resultsBox_gsnb .resultDiv_gsnb .gs-watermark {
+  display : none;
+}
+
+/**
+ * always suppress bolding (inserted by search)
+ */
+.resultsBox_gsnb .resultDiv_gsnb b {
+  font-weight : normal;
+}
+
+/**
+ * establish title height to ~1 line with silent
+ * truncation
+ */
+.horizontal_gsnb .resultDiv_gsnb,
+.resultsBox_gsnb .resultDiv_gsnb .gs-title {
+  line-height: 1.4em;
+  height: 1.4em;
+  overflow: hidden;
+}
+
+.horizontal_gsnb .resultDivBold_gsnb * {
+  font-weight : 700;
+}
+
+/**
+ * expanded mode results truncate dates, and have larger top margin
+ */
+.expanded_gsnb .resultDiv_gsnb .gs-publishedDate {
+  display : none;
+}
+.expanded_gsnb .resultDiv_gsnb {
+  margin-top : .8em;
+}
+
+/**
+ * compressed mode results truncate all but title
+ */
+.compressed_gsnb .resultDiv_gsnb .gs-publisher,
+.compressed_gsnb .resultDiv_gsnb .gs-location,
+.compressed_gsnb .resultDiv_gsnb .gs-publishedDate,
+.compressed_gsnb .resultDiv_gsnb .gs-snippet,
+.compressed_gsnb .resultDiv_gsnb .gs-clusterUrl {
+  display : none;
+}
+.compressed_gsnb .resultDiv_gsnb {
+  margin-top : .2em;
+}
+
+/**
+ * appended snippet for wide mode, horizontal
+ * displays
+ */
+.horizontal_gsnb span.snippet_gsnb {
+  text-decoration : none;
+}
+
+
+/**
+ * brandingBox
+ */
+.brandingBox_gsnb {
+  margin-top : .4em;
+}
+
+.horizontal_gsnb .brandingBox_gsnb {
+  margin-top : 0px;
+  position : absolute;
+  right : 0px;
+  top : 0px;
+}
+.horizontal_gsnb div.gsc-branding-vertical {
+  position: relative;
+  width: 75px;
+}
+
+
+

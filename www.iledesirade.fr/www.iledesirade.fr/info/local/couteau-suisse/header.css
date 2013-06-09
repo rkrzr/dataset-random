@@ -1,0 +1,139 @@
+div.onglets_print {
+	margin:1em;
+	padding:0.6em;
+	border:1px dashed ;
+}
+
+div.onglets_print h4 {
+	margin-top:0px;
+	margin-bottom:0.6em;
+}
+
+div.onglets_bloc {
+	position:relative;
+	width:100%;
+	clear: none;
+}
+
+div.onglets_bloc h2.onglets_titre a {
+	font-weight: bold;
+	color: white;
+	text-decoration:none;
+	height:22px;
+/*	cursor:	inherit;
+	color:inherit; */
+}
+
+div.onglets_bloc h2.onglets_titre {
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	padding-left: 0.6em;
+	padding-bottom: 0px;
+	padding-right: 0.6em;
+	padding-top: 0.6px;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	margin-right: -1px;
+	margin-top: 2px;
+	height: 25px;
+	background-color: #597aa9;
+	position:relative;
+	top:-1px;
+	display:inline;
+	float:left;
+	overflow:hidden;
+	cursor:pointer;
+/*	border:0;*/
+	
+	z-index:11;
+	white-space:nowrap;
+	text-align:center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div.onglets_bloc h2.onglets_titre.selected {
+	color: white;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: black;
+	height: 30px;
+	background-color: #e1b400;
+	z-index:11;
+	top:-3px;
+	margin:1px -1px -2px 0px;
+	border-bottom-width: 0px;
+}
+
+div.onglets_bloc h2.onglets_titre.selected, div.onglets_bloc h2.onglets_titre.selected a {
+	color: white;
+	cursor:default;
+}
+
+div.onglets_bloc h2.onglets_titre, div.onglets_bloc h2.onglets_titre a {
+	color: white;
+}
+div.onglets_bloc h2.hover a {
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+}
+div.onglets_bloc h2.onglets_titre.selected a {
+	color: white;
+}
+
+
+div.onglets_bloc .onglets_liste {
+	white-space:nowrap;
+}
+
+div.onglets_bloc .onglets_contenu {
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-top-style: none;
+	border-left-color: black;
+	border-bottom-color: black;
+	border-right-color: black;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	display:none;
+	background:rgb( 252, 252, 254 );
+	z-index:10;
+	position:relative;
+	top:-3px;
+	padding: 2px;
+	clear: left;
+	box-shadow: 0px 0px 6px #000000;
+-webkit-box-shadow: 0px 0px 6px #000000;
+-moz-box-shadow: 0px 0px 6px #000000;
+}
+
+div.onglets_bloc .onglets_contenu.selected {
+	display:block;
+	overflow:hidden;
+	clear: left;
+}
+
+.blocs_titre {
+	background:transparent url(../../../../iledesirade.fr/info/prive/images/triangle-bas.gif) no-repeat scroll left center;
+	font-weight:normal;
+	line-height:1.2em;
+	margin-top:4px;
+	padding:0pt 0pt 0pt 20px;
+	margin-bottom:0.1em;
+	clear:left;
+	cursor:pointer;
+}
+
+.blocs_replie {
+	background:transparent url(../../../../iledesirade.fr/info/prive/images/triangle.gif) no-repeat scroll left center;
+}
+
+.blocs_title{
+	display:none;
+}

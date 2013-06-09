@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+<meta http-equiv="Content-Language" content="EN"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="geo.position" content="31.1347741; -99.3349282"/>
+<meta name="ICBM" content="31.1347741; -99.3349282"/>
+<meta name="geo.placename" content="Brady, TX"/>
+<meta name="geo.region" content="us-tx"/>
+<title>Evridge's - Furniture, Appliances, Electronics, Mattresses, Hunting in Brady, Brownwood and Abilene TX</title>
+<meta name="description" content="Evridge's is a family owned Furniture, Appliances, Electronics, Mattresses, Hunting store located in Brady, TX. We offer the best in home Furniture, Appliances, Electronics, Mattresses, Hunting at discount prices."/>
+<meta name="keywords" content="Evridge's, 	 Brady, local home appliance store, home appliances, kitchen appliances, home appliance store, major home appliances, home electronics, home theatre, high definition televisions, parts, repair, electronics accessories, tvs, hd tvs, lcd tvs,led tvs."/>
+
+	<link rel="stylesheet" href="/style_common.css" type="text/css" />	
+	<script type="text/javascript" src="/common_plato_js/JQUERY-1.6.3.MIN.JS"></script>
+
+	<script type="text/javascript">
+			$(document).ready(setMobileBrowsingCookie);
+			function setMobileBrowsingCookie()
+				{
+					document.cookie = 'WF_BROWSING_MODE=NORMAL; path=/'; 
+				}
+	</script>
+	<script type="text/javascript" src="/common_plato_js/carousel.min.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+			$(document).ready(function() {
+				$('.bigdaddy').carousel({
+					direction: 'ltr',
+					mode: 'auto',
+					speed: 1500,
+					duration: 5000,
+					show: 1,
+					maskSize: 940,
+					makePagination: false,
+					makeControls: true
+				});
+				$('#featuredItems').carousel({
+					direction: 'ltr',
+					transition: 'crossfade',
+					speed: 1500,
+					duration: 5000,
+					mode: 'auto',
+					show: 4,
+					maskSize: 730,
+					makePagination: false,
+					makeControls: false
+				});
+			});
+		//]]> 
+	</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3596016-12']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></head>
+<body>
+<!--[if lte IE 6]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+
+<div id="header_bg">
+	<div class="header grid_whole">
+		<!--============================================
+	LOGO
+=============================================-->
+<a href="/index.html"><img class="logo left" alt="Evridge's Logo" title="Evridge's Home Page" src="/images/logo.png" /></a> <!-- /header_nav_main_list **aspect -->
+
+<!--============================================
+	NAV_MAIN
+=============================================-->
+<div id="nav_wrapper">
+            <ul class="nav_button">
+                <li><a href="/email-savings.html">Email Club</a></li>
+                <li><a href="/about_us.html">About Us</a></li>
+                <li><a href="/contact_us.html">Contact Us</a></li>
+                <li><a href="/_CGI/REDIRECT_TO_CART_OR_QUOTE_AS_APPROPRIATE">View Cart</a></li>
+            </ul>
+        </div> <!-- /header_nav_main_list **aspect -->
+
+<!--============================================
+	SEARCH BOX
+=============================================-->
+<div id="search_box">
+			<form action="/_CGI/SEARCH3" method="get" name="pn_search_form" target="_self">
+				<input class="search_input" type="text" name="PN" id="search" size="15" value="keyword/model #" onfocus="javascript:if(this.value=='keyword/model #') this.value='';" onblur="javascript:if(this.value=='') this.value='keyword/model #';" />
+			</form>
+			<a class="search" href="javascript:document.pn_search_form.submit();"  title="Search Now"></a>
+		</div> <!-- /header_search_box **aspect -->
+
+<!--============================================
+	BRANDS DROPDOWN - FORM INPUT
+=============================================-->
+ <!-- /header_brand_dropdown_form_input **aspect -->		
+
+<!--============================================
+	SOCIAL MEDIA
+=============================================-->
+ <!-- /header_social_media **ifdef -->		
+
+
+<!--============================================
+	VIEW CART
+=============================================-->
+ <!-- /header_view_cart **ifdef -->		
+
+ <!-- /header_nav_border **ifdef -->	
+
+
+<!--============================================
+	CATEGORY NAV TABS
+=============================================-->
+<div id="category_wrapper">
+	
+
+<ul class="category_tab">
+	<li id="rws_tab_furniture">
+		<a href="/by-category/lroom:bench-droom:chest-broom:bcase-hacc:pill-hoff:misc-hent:wunit-lroom:wedge-lroom:sleep-droom:cab-broom:desk-lroom:otto-lroom:rcline-broom:bed-lroom:bcase-hacc:bset-lroom:sofa-broom:hutch-droom:chair-droom:stl-lroom:chest-lroom:combo-droom:mir-bath:sink-hacc:thro-droom:hutch-hoff:chair-lroom:table-broom:chair-lroom:lseat-broom:armdc-lroom:chair-droom:table-lroom:cab-bath:arm-hacc:misc-patio:patio-hoff:desk-droom:bench-broom:nstand-hacc:rugs-hoff:bcase-hoff:hutch-broom:chest-droom:buf-broom:bench-lroom:section-bath:mir-broom:van-lroom:lamp-hacc:lamp-hent:htseat-hoff:cab/Benches-and-Chests-and-Bookcases-and-Pillows-and-Other-Home-Office-Furniture-and-All-Media-Consoles-and-Wall-Units-and-Wedges-and-Sleepers-and-Cabinets-and-Desks-and-Ottomans-and-Recliners-and-Beds-Headboards-Footboards-Canopy-Frames-Rails-and-Bookcases-and-Bedroom-Ensembles-and-Sofas-and-Hutches-and-Chairs-and-Bar-Stools-and-Chests-and-Living-Room-Groupsets-and-Mirrors-and-Vanity-and-Throws-and-Hutches-and-Chairs-and-Tables-and-Chairs-and-Loveseats-and-Armoires-Dressers-Cabinets-and-Chairs-and-Tables-and-Cabinets-Consoles-and-Armoire-and-Other-Home-Accents-and-Patio-Furniture-and-Desks-and-Benches-and-Nightstands-and-Rugs-and-Bookcases-Curios-Cupboards-Armoires-and-Hutches-and-Chests-and-Servers-Buffets-Sideboards-and-Benches-and-Sectionals-and-Mirror-and-Vanity-Tables-Mirrors-and-Lamps-and-Lamps-and-Home-Theatre-Seating-and-Cabinets-Chests.html?CATEGORY_HEADER_IMG=FURNITURE.JPG&amp;ALT_TXT=Furniture" target="_self" title="Furniture">Furniture</a>
+		<div class="submenu" id="rws_menu_furniture_960px">
+			<div class="grid_3">
+				<h2><a href="/by-category/lroom:otto-lroom:rcline-lroom:bench-lroom:table-lroom:bcase-lroom:sofa-lroom:chest-lroom:combo-lroom:lseat-lroom:section-lroom:chair-lroom:cab-lroom:lamp-lroom:wedge-lroom:sleep/Ottomans-and-Recliners-and-Benches-and-Tables-and-Bookcases-and-Sofas-and-Chests-and-Living-Room-Groupsets-and-Loveseats-and-Sectionals-and-Chairs-and-Cabinets-Consoles-and-Lamps-and-Wedges-and-Sleepers.html?ALT_TXT=Living Room" target="_self" title="Living Room">Living Room</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:BCASE" title="Bookcases" target="_self">Bookcases</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:BENCH" title="Benches" target="_self">Benches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:CAB" title="Cabinets / Consoles" target="_self">Cabinets / Consoles</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:CHAIR" title="Chairs" target="_self">Chairs</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:CHEST" title="Chests" target="_self">Chests</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:COMBO" title="Living Room Groupsets" target="_self">Living Room Groupsets</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:LAMP" title="Lamps" target="_self">Lamps</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:LSEAT" title="Loveseats" target="_self">Loveseats</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:OTTO" title="Ottomans" target="_self">Ottomans</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:RCLINE" title="Recliners" target="_self">Recliners</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:SECTION" title="Sectionals" target="_self">Sectionals</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:SLEEP" title="Sleepers" target="_self">Sleepers</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:SOFA" title="Sofas" target="_self">Sofas</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:TABLE" title="Tables" target="_self">Tables</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=LROOM:WEDGE" title="Wedges" target="_self">Wedges</a></li>
+					<li class="subcategory_all"><a href="/by-category/lroom:otto-lroom:rcline-lroom:bench-lroom:table-lroom:bcase-lroom:sofa-lroom:chest-lroom:combo-lroom:lseat-lroom:section-lroom:chair-lroom:cab-lroom:lamp-lroom:wedge-lroom:sleep/Ottomans-and-Recliners-and-Benches-and-Tables-and-Bookcases-and-Sofas-and-Chests-and-Living-Room-Groupsets-and-Loveseats-and-Sectionals-and-Chairs-and-Cabinets-Consoles-and-Lamps-and-Wedges-and-Sleepers.html?ALT_TXT=Living Room" title="All Living Room Furniture" target="_self">All Living Room Furniture</a></li>
+				</ul>
+				<h2><a href="/by-category/bath:mir-bath:arm-bath:sink/Mirror-and-Armoire-and-Vanity.html?ALT_TXT=Bathroom" target="_self" title="Bathroom">Bathroom</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=BATH:ARM" title="Armoires" target="_self">Armoires</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BATH:MIR" title="Mirrors" target="_self">Mirrors</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BATH:SINK" title="Sink Cabinets" target="_self">Sink Cabinets</a></li>
+					<li class="subcategory_all"><a href="/by-category/bath:mir-bath:arm-bath:sink/Mirror-and-Armoire-and-Vanity.html?ALT_TXT=Bathroom" title="All Bathroom Furniture" target="_self">All Bathroom Furniture</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/broom:armdc-broom:van-broom:bcase-broom:nstand-broom:bed-broom:chair-broom:hutch-broom:chest-broom:bench-broom:desk/Armoires-Dressers-Cabinets-and-Vanity-Tables-Mirrors-and-Bookcases-and-Nightstands-and-Beds-Headboards-Footboards-Canopy-Frames-Rails-and-Chairs-and-Hutches-and-Chests-and-Benches-and-Desks.html?ALT_TXT=Bedroom" target="_self" title="Bedroom">Bedroom</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:ARMDC" title="Armoires / Dressers / Cabinets" target="_self">Armoires / Dressers / Cabinets</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:BCASE" title="Bookcases" target="_self">Bookcases</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:BED" title="Beds / Headboards / Footboards / Canopy Frames / Rails" target="_self">Beds / Headboards / Footboards / Canopy Frames / Rails</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:BENCH" title="Benches" target="_self">Benches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:CHAIR" title="Chairs" target="_self">Chairs</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:CHEST" title="Chests" target="_self">Chests</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:DESK" title="Desks" target="_self">Desks</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:HUTCH" title="Hutches" target="_self">Hutches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:NSTAND" title="Nightstands" target="_self">Nightstands</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=BROOM:VAN" title="Vanity Tables / Mirrors" target="_self">Vanity Tables / Mirrors</a></li>
+					<li class="subcategory_all"><a href="/by-category/broom:armdc-broom:van-broom:bcase-broom:nstand-broom:bed-broom:chair-broom:hutch-broom:chest-broom:bench-broom:desk/Armoires-Dressers-Cabinets-and-Vanity-Tables-Mirrors-and-Bookcases-and-Nightstands-and-Beds-Headboards-Footboards-Canopy-Frames-Rails-and-Chairs-and-Hutches-and-Chests-and-Benches-and-Desks.html?ALT_TXT=Bedroom" title="All Bedroom Furniture" target="_self">All Bedroom Furniture</a></li>
+				</ul>
+				<h2><a href="/by-category/hoff:chair-hoff:misc-hoff:bcase-hoff:hutch-hoff:desk-hoff:cab/Chairs-and-Other-Home-Office-Furniture-and-Bookcases-Curios-Cupboards-Armoires-and-Hutches-and-Desks-and-Cabinets-Chests.html?ALT_TXT=Home Office" target="_self" title="Home Office">Home Office</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:BCASE" title="Bookcases / Curios / Cupboards / Armoires" target="_self">Bookcases / Curios / Cupboards / Armoires</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:CAB" title="Cabinets / Chests" target="_self">Cabinets / Chests</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:CHAIR" title="Chairs" target="_self">Chairs</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:DESK" title="Desks" target="_self">Desks</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:HUTCH" title="Hutches" target="_self">Hutches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HOFF:MISC" title="Other Home Office Furniture" target="_self">Other Home Office Furniture</a></li>
+					<li class="subcategory_all"><a href="/by-category/hoff:chair-hoff:misc-hoff:bcase-hoff:hutch-hoff:desk-hoff:cab/Chairs-and-Other-Home-Office-Furniture-and-Bookcases-Curios-Cupboards-Armoires-and-Hutches-and-Desks-and-Cabinets-Chests.html?ALT_TXT=Home Office" title="All Home Office Furniture" target="_self">All Home Office Furniture</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/droom:bench-droom:table-droom:chest-droom:mir-droom:stl-droom:chair-droom:buf-droom:cab-droom:hutch/Benches-and-Tables-and-Chests-and-Mirrors-and-Bar-Stools-and-Chairs-and-Servers-Buffets-Sideboards-and-Cabinets-and-Hutches.html?ALT_TXT=Dining Room" target="_self" title="Dining Room">Dining Room</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:BENCH" title="Benches" target="_self">Benches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:BUF" title="Servers / Buffets / Sideboards" target="_self">Servers / Buffets / Sideboards</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:CAB" title="Cabinets" target="_self">Cabinets</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:CHAIR" title="Chairs" target="_self">Chairs</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:CHEST" title="Chests" target="_self">Chests</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:HUTCH" title="Hutches" target="_self">Hutches</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:MIR" title="Mirrors" target="_self">Mirrors</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:STL" title="Bar Stools" target="_self">Bar Stools</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DROOM:TABLE" title="Tables" target="_self">Tables</a></li>
+					<li class="subcategory_all"><a href="/by-category/droom:bench-droom:table-droom:chest-droom:mir-droom:stl-droom:chair-droom:buf-droom:cab-droom:hutch/Benches-and-Tables-and-Chests-and-Mirrors-and-Bar-Stools-and-Chairs-and-Servers-Buffets-Sideboards-and-Cabinets-and-Hutches.html?ALT_TXT=Dining Room" title="All Dining Room Furniture" target="_self">All Dining Room Furniture</a></li>
+				</ul>
+				<h2><a href="/_CGI/SEARCH3?MINOR=PATIO:PATIO" target="_self" title="Outdoor Furniture">Outdoor Furniture</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=PATIO:PATIO" title="Patio Furniture" target="_self">Patio Furniture</a></li>
+					<li class="subcategory_all"><a href="/_CGI/SEARCH3?MINOR=PATIO:PATIO" title="All Outdoor Furniture" target="_self">All Outdoor Furniture</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/hent:wunit-hent:htseat/All-Media-Consoles-and-Wall-Units-and-Home-Theatre-Seating.html?ALT_TXT=Home Entertainment" target="_self" title="Home Entertainment">Home Entertainment</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=HENT:WUNIT" title="All Media Consoles and Wall Units" target="_self">All Media Consoles and Wall Units</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HENT:HTSEAT" title="Home Theatre Seating" target="_self">Home Theatre Seating</a></li>
+					<li class="subcategory_all"><a href="/by-category/hent:wunit-hent:htseat/All-Media-Consoles-and-Wall-Units-and-Home-Theatre-Seating.html?ALT_TXT=Home Entertainment" title="All Home Entertainment Furniture" target="_self">All Home Entertainment Furniture</a></li>
+				</ul>
+				<h2><a href="/by-category/hacc:lamp-hacc:rugs-hacc:bset-hacc:misc-hacc:thro-hacc:pill/Lamps-and-Rugs-and-Bedroom-Ensembles-and-Other-Home-Accents-and-Throws-and-Pillows.html?ALT_TXT=Home Accents" target="_self" title="Home Accents">Home Accents</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:BSET" title="Bedroom Ensembles" target="_self">Bedroom Ensembles</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:LAMP" title="Lamps" target="_self">Lamps</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:MISC" title="Other Home Accents" target="_self">Other Home Accents</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:PILL" title="Pillows" target="_self">Pillows</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:RUGS" title="Rugs" target="_self">Rugs</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=HACC:THRO" title="Throws" target="_self">Throws</a></li>
+					<li class="subcategory_all"><a href="/by-category/hacc:lamp-hacc:rugs-hacc:bset-hacc:misc-hacc:thro-hacc:pill/Lamps-and-Rugs-and-Bedroom-Ensembles-and-Other-Home-Accents-and-Throws-and-Pillows.html?ALT_TXT=Home Accents" title="All Home Accents" target="_self">All Home Accents</a></li>
+				</ul>
+			</div>
+		<div class="category_all"><a href="/by-category/lroom:bench-droom:chest-broom:bcase-hacc:pill-hoff:misc-hent:wunit-lroom:wedge-lroom:sleep-droom:cab-broom:desk-lroom:otto-lroom:rcline-broom:bed-lroom:bcase-hacc:bset-lroom:sofa-broom:hutch-droom:chair-droom:stl-lroom:chest-lroom:combo-droom:mir-bath:sink-hacc:thro-droom:hutch-hoff:chair-lroom:table-broom:chair-lroom:lseat-broom:armdc-lroom:chair-droom:table-lroom:cab-bath:arm-hacc:misc-patio:patio-hoff:desk-droom:bench-broom:nstand-hacc:rugs-hoff:bcase-hoff:hutch-broom:chest-droom:buf-broom:bench-lroom:section-bath:mir-broom:van-lroom:lamp-hacc:lamp-hent:htseat-hoff:cab/Benches-and-Chests-and-Bookcases-and-Pillows-and-Other-Home-Office-Furniture-and-All-Media-Consoles-and-Wall-Units-and-Wedges-and-Sleepers-and-Cabinets-and-Desks-and-Ottomans-and-Recliners-and-Beds-Headboards-Footboards-Canopy-Frames-Rails-and-Bookcases-and-Bedroom-Ensembles-and-Sofas-and-Hutches-and-Chairs-and-Bar-Stools-and-Chests-and-Living-Room-Groupsets-and-Mirrors-and-Vanity-and-Throws-and-Hutches-and-Chairs-and-Tables-and-Chairs-and-Loveseats-and-Armoires-Dressers-Cabinets-and-Chairs-and-Tables-and-Cabinets-Consoles-and-Armoire-and-Other-Home-Accents-and-Patio-Furniture-and-Desks-and-Benches-and-Nightstands-and-Rugs-and-Bookcases-Curios-Cupboards-Armoires-and-Hutches-and-Chests-and-Servers-Buffets-Sideboards-and-Benches-and-Sectionals-and-Mirror-and-Vanity-Tables-Mirrors-and-Lamps-and-Lamps-and-Home-Theatre-Seating-and-Cabinets-Chests.html?CATEGORY_HEADER_IMG=FURNITURE.JPG&amp;ALT_TXT=Furniture" target="_self" title="All Furniture">All Furniture</a></div>
+		</div>
+	</li>
+
+
+	<li id="rws_tab_appliances">
+		<a href="/by-category/laund:commd-bbq-laund:dryef-mic-gr:gr30cm-laund:dryp-laund:commc-laund:drygf-laund:dryg-air-fr-gr:grwal1-ref:rwc-gr:grwal2-ref:drawer-comp-di-er:erwal1-vac:uprvac-ref-er:erwal2-ac:acac-gr:grwalcm-laund:washp-laund:washf-ref:rspcl-laund:washc-dehum-dish-hood-laund:drye-er:erwalcm-gr-er-vac:canvac-laund:washt-laund:commw/Commercial-Dryer-and-Barbeques-and-Front-Load-Electric-Dryer-and-Microwave-and-Grgr30cm-and-Portable-Dryer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Gas-Dryer-and-Top-Load-Gas-Dryer-and-Air-Conditioners-and-Freezers-and-Wall-Oven-Gas-and-Wine-Coolers-and-Double-Wall-Oven-Gas-and-Refrigerated-Drawer-and-Compactors-and-Disposals-and-Dispensers-and-Single-Wall-Electric-Oven-and-Upright-Vacuum-and-Refrigerators-and-Double-Wall-Electric-Oven-and-Ac-Accessories-and-Gas-Oven-and-Microwave-Combo-and-Portable-Washer-and-Front-Load-Washer-and-Specialty-Refrigerator-and-Combination-Washer-Dryer-and-Dehumidifiers-and-Dishwashers-and-Hoods-and-Top-Load-Electric-Dryer-and-Electric-Oven-and-Microwave-Combo-and-Gas-Ranges-and-Electric-Ranges-and-Canister-Vacuum-and-Top-Load-Washer-and-Commercial-Washer.html?CATEGORY_HEADER_IMG=APPLIANCE.JPG&amp;ALT_TXT=Appliances" target="_self" title="Appliances">Appliances</a>
+		<div class="submenu" id="rws_menu_appliances_960px">
+			<div class="grid_3">
+				<h2><a href="/by-category/ac:acac-dehum-air/Ac-Accessories-and-Dehumidifiers-and-Air-Conditioners.html?CATEGORY_HEADER_IMG=HOME_AIR_CONTROL.JPG&amp;ALT_TXT=Home Air Control" target="_self" title="Home Air Control">Home Air Control</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/by-category/air/Air-Conditioners.html?CATEGORY_HEADER_IMG=AIR.JPG" title="Air Conditioners" target="_self">Air Conditioners</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=AC:ACAC" title="A/C Accessories" target="_self">A/C Accessories</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DEHUM" title="Dehumidifiers" target="_self">Dehumidifiers</a></li>
+					<li class="subcategory_all"><a href="/by-category/ac:acac-dehum-air/Ac-Accessories-and-Dehumidifiers-and-Air-Conditioners.html?CATEGORY_HEADER_IMG=HOME_AIR_CONTROL.JPG&amp;ALT_TXT=Home Air Control" title="All Home Air Control" target="_self">All Home Air Control</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/er:erwalcm-gr:grwal1-bbq-gr:grwal2-mic-gr:gr30cm-gr-gr:grwalcm-er-er:erwal1-hood-er:erwal2/Electric-Oven-and-Microwave-Combo-and-Wall-Oven-Gas-and-Barbeques-and-Double-Wall-Oven-Gas-and-Microwave-and-Grgr30cm-and-Gas-Ranges-and-Gas-Oven-and-Microwave-Combo-and-Electric-Ranges-and-Single-Wall-Electric-Oven-and-Hoods-and-Double-Wall-Electric-Oven.html?CATEGORY_HEADER_IMG=COOKING.JPG&amp;ALT_TXT=Cooking" target="_self" title="Cooking">Cooking</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/by-category/bbq/Barbeques.html?CATEGORY_HEADER_IMG=BBQ.JPG" title="Barbeques" target="_self">Barbeques</a></li>
+					<li><a href="/by-category/mic/Microwave.html?CATEGORY_HEADER_IMG=MIC.JPG" title="Microwave Ovens" target="_self">Microwave Ovens</a></li>
+					<li><a href="/by-category/hood/Hoods.html?CATEGORY_HEADER_IMG=HOOD.JPG" title="Hoods" target="_self">Hoods</a></li>
+					<li><a href="/by-category/gr-er/Gas-Ranges-and-Electric-Ranges.html?CATEGORY_HEADER_IMG=ERGR.JPG" title="Ranges &amp; Cooktops" target="_self">Ranges &amp; Cooktops</a></li>
+					<li><a href="/by-category/gr:grwal1-er:erwalcm-gr:grwal2-gr:gr30cm-gr:grwalcm-er:erwal1-er:erwal2/Wall-Oven-Gas-and-Electric-Oven-and-Microwave-Combo-and-Double-Wall-Oven-Gas-and-Grgr30cm-and-Gas-Oven-and-Microwave-Combo-and-Single-Wall-Electric-Oven-and-Double-Wall-Electric-Oven.html?CATEGORY_HEADER_IMG=WALL.JPG" title="Wall Ovens" target="_self">Wall Ovens</a></li>
+					<li class="subcategory_all"><a href="/by-category/er:erwalcm-gr:grwal1-bbq-gr:grwal2-mic-gr:gr30cm-gr-gr:grwalcm-er-er:erwal1-hood-er:erwal2/Electric-Oven-and-Microwave-Combo-and-Wall-Oven-Gas-and-Barbeques-and-Double-Wall-Oven-Gas-and-Microwave-and-Grgr30cm-and-Gas-Ranges-and-Gas-Oven-and-Microwave-Combo-and-Electric-Ranges-and-Single-Wall-Electric-Oven-and-Hoods-and-Double-Wall-Electric-Oven.html?CATEGORY_HEADER_IMG=COOKING.JPG&amp;ALT_TXT=Cooking" title="All Cooking" target="_self">All Cooking</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/laund:commd-laund:dryef-laund:drye-laund:dryp-laund:washp-laund:commc-laund:washf-laund:washt-laund:washc-laund:drygf-laund:dryg-laund:commw/Commercial-Dryer-and-Front-Load-Electric-Dryer-and-Top-Load-Electric-Dryer-and-Portable-Dryer-and-Portable-Washer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Washer-and-Top-Load-Washer-and-Combination-Washer-Dryer-and-Front-Load-Gas-Dryer-and-Top-Load-Gas-Dryer-and-Commercial-Washer.html?CATEGORY_HEADER_IMG=LAUND.JPG&amp;ALT_TXT=Laundry" target="_self" title="Laundry">Laundry</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/by-category/laund:commd-laund:drye-laund:dryef-laund:dryp-laund:commc-laund:drygf-laund:washc-laund:dryg/Commercial-Dryer-and-Top-Load-Electric-Dryer-and-Front-Load-Electric-Dryer-and-Portable-Dryer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Gas-Dryer-and-Combination-Washer-Dryer-and-Top-Load-Gas-Dryer.html?CATEGORY_HEADER_IMG=DRY.JPG" title="Dryers" target="_self">Dryers</a></li>
+					<li><a href="/by-category/laund:washp-laund:commc-laund:washf-laund:washc-laund:washt-laund:commw/Portable-Washer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Washer-and-Combination-Washer-Dryer-and-Top-Load-Washer-and-Commercial-Washer.html?CATEGORY_HEADER_IMG=WASH.JPG" title="Washers" target="_self">Washers</a></li>
+					<li class="subcategory_all"><a href="/by-category/laund:commd-laund:dryef-laund:drye-laund:dryp-laund:washp-laund:commc-laund:washf-laund:washt-laund:washc-laund:drygf-laund:dryg-laund:commw/Commercial-Dryer-and-Front-Load-Electric-Dryer-and-Top-Load-Electric-Dryer-and-Portable-Dryer-and-Portable-Washer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Washer-and-Top-Load-Washer-and-Combination-Washer-Dryer-and-Front-Load-Gas-Dryer-and-Top-Load-Gas-Dryer-and-Commercial-Washer.html?CATEGORY_HEADER_IMG=LAUND.JPG&amp;ALT_TXT=Laundry" title="All Laundry" target="_self">All Laundry</a></li>
+				</ul>
+				<h2><a href="/by-category/fr-ref:rwc-ref:drawer-ref:rspcl-ref/Freezers-and-Wine-Coolers-and-Refrigerated-Drawer-and-Specialty-Refrigerator-and-Refrigerators.html?CATEGORY_HEADER_IMG=REFRIGERATION.JPG&amp;ALT_TXT=Refrigeration" target="_self" title="Refrigeration">Refrigeration</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/by-category/fr/Freezers.html?CATEGORY_HEADER_IMG=FR.JPG" title="Freezers" target="_self">Freezers</a></li>
+					<li><a href="/by-category/ref/Refrigerators.html?CATEGORY_HEADER_IMG=REF.JPG" title="Refrigerators" target="_self">Refrigerators</a></li>
+					<li><a href="/by-category/ref:rwc-ref:drawer-ref:rspcl/Wine-Coolers-and-Refrigerated-Drawer-and-Specialty-Refrigerator.html?CATEGORY_HEADER_IMG=REF_RSPCL.JPG" title="Specialty Refrigeration" target="_self">Specialty Refrigeration</a></li>
+					<li class="subcategory_all"><a href="/by-category/fr-ref:rwc-ref:drawer-ref:rspcl-ref/Freezers-and-Wine-Coolers-and-Refrigerated-Drawer-and-Specialty-Refrigerator-and-Refrigerators.html?CATEGORY_HEADER_IMG=REFRIGERATION.JPG&amp;ALT_TXT=Refrigeration" title="All Refrigeration" target="_self">All Refrigeration</a></li>
+				</ul>
+			</div>
+			<div class="grid_3">
+				<h2><a href="/by-category/comp-di-dish/Compactors-and-Disposals-and-Dispensers-and-Dishwashers.html?CATEGORY_HEADER_IMG=KITCHEN_CLEANUP.JPG&amp;ALT_TXT=Kitchen Cleanup" target="_self" title="Kitchen Cleanup">Kitchen Cleanup</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=COMP" title="Compactors" target="_self">Compactors</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DISH" title="Dishwashers" target="_self">Dishwashers</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=DI" title="Disposals and Dispensers" target="_self">Disposals and Dispensers</a></li>
+					<li class="subcategory_all"><a href="/by-category/comp-di-dish/Compactors-and-Disposals-and-Dispensers-and-Dishwashers.html?CATEGORY_HEADER_IMG=KITCHEN_CLEANUP.JPG&amp;ALT_TXT=Kitchen Cleanup" title="All Kitchen Cleanup" target="_self">All Kitchen Cleanup</a></li>
+				</ul>
+				<h2><a href="/by-category/vac:canvac-vac:uprvac/Canister-Vacuum-and-Upright-Vacuum.html?CATEGORY_HEADER_IMG=VAC.JPG&amp;ALT_TXT=Vacuums" target="_self" title="Vacuums">Vacuums</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=VAC:CANVAC" title="Canister Vacuums" target="_self">Canister Vacuums</a></li>
+					<li><a href="/_CGI/SEARCH3?MINOR=VAC:UPRVAC" title="Upright Vacuums" target="_self">Upright Vacuums</a></li>
+					<li class="subcategory_all"><a href="/by-category/vac:canvac-vac:uprvac/Canister-Vacuum-and-Upright-Vacuum.html?CATEGORY_HEADER_IMG=VAC.JPG&amp;ALT_TXT=Vacuums" title="All Vacuums" target="_self">All Vacuums</a></li>
+				</ul>
+			</div>
+		<div class="category_all"><a href="/by-category/laund:commd-bbq-laund:dryef-mic-gr:gr30cm-laund:dryp-laund:commc-laund:drygf-laund:dryg-air-fr-gr:grwal1-ref:rwc-gr:grwal2-ref:drawer-comp-di-er:erwal1-vac:uprvac-ref-er:erwal2-ac:acac-gr:grwalcm-laund:washp-laund:washf-ref:rspcl-laund:washc-dehum-dish-hood-laund:drye-er:erwalcm-gr-er-vac:canvac-laund:washt-laund:commw/Commercial-Dryer-and-Barbeques-and-Front-Load-Electric-Dryer-and-Microwave-and-Grgr30cm-and-Portable-Dryer-and-Commercial-Combination-Washer-and-Dryer-and-Front-Load-Gas-Dryer-and-Top-Load-Gas-Dryer-and-Air-Conditioners-and-Freezers-and-Wall-Oven-Gas-and-Wine-Coolers-and-Double-Wall-Oven-Gas-and-Refrigerated-Drawer-and-Compactors-and-Disposals-and-Dispensers-and-Single-Wall-Electric-Oven-and-Upright-Vacuum-and-Refrigerators-and-Double-Wall-Electric-Oven-and-Ac-Accessories-and-Gas-Oven-and-Microwave-Combo-and-Portable-Washer-and-Front-Load-Washer-and-Specialty-Refrigerator-and-Combination-Washer-Dryer-and-Dehumidifiers-and-Dishwashers-and-Hoods-and-Top-Load-Electric-Dryer-and-Electric-Oven-and-Microwave-Combo-and-Gas-Ranges-and-Electric-Ranges-and-Canister-Vacuum-and-Top-Load-Washer-and-Commercial-Washer.html?CATEGORY_HEADER_IMG=APPLIANCE.JPG&amp;ALT_TXT=Appliances" target="_self" title="All Appliances">All Appliances</a></div>
+		</div>
+	</li>
+
+
+	<li id="rws_tab_electronics">
+		<a href="/_CGI/SEARCH3?MINOR=CABLE:POWR" target="_self" title="Electronics">Electronics</a>
+		<div class="submenu" id="rws_menu_electronics_960px">
+			<div class="grid_3">
+				<h2><a href="/_CGI/SEARCH3?MINOR=CABLE:POWR" target="_self" title="Accessories">Accessories</a></h2>
+
+				<ul class="submenu2">
+					<li><a href="/_CGI/SEARCH3?MINOR=CABLE:POWR" title="Power &amp; Ground" target="_self">Power &amp; Ground</a></li>
+					<li class="subcategory_all"><a href="/_CGI/SEARCH3?MINOR=CABLE:POWR" title="All Accessories" target="_self">All Accessories</a></li>
+				</ul>
+			</div>
+		<div class="category_all"><a href="/_CGI/SEARCH3?MINOR=CABLE:POWR" target="_self" title="All Electronics">All Electronics</a></div>
+		</div>
+	</li>
+
+
+	<li id="rws_tab_mattresses">
+		<a href="/_CGI/SEARCH3.HTML?MAJOR=ADJB|MATR" target="_self" title="Mattresses">Mattresses</a>
+	</li>
+
+
+	<li id="rws_tab_hunting">
+		<a href="/hunting.html" target="_self" title="Hunting">Hunting</a>
+	</li>
+
+
+	<li id="rws_tab_rebates">
+		<a href="/rebate_center.html" target="_self" title="Rebates">Rebates</a>
+	</li>
+
+
+	<li id="rws_tab_brands">
+		<a href="/landing_all_brands.html" target="_self" title="Brands">Brands</a>
+	</li>
+
+
+</ul>
+
+
+
+<script type="text/javascript" src="/common_js/rws/automatic_menu_adjustment.js"></script>
+</div> <!-- /header_nav_tabs **ifdef -->	
+
+ <!-- /header_nav_tabs **ifdef -->	
+
+ <!-- /header_nav_tabs **ifdef -->	
+
+ <!-- /header_nav_tabs **ifdef -->	
+
+ <!-- /header_nav_tabs **ifdef -->	
+
+ <!-- /header_nav_tabs_electronics **ifdef -->	
+
+ <!-- /header_nav_tabs_dph **ifdef -->	
+
+
+<!--============================================
+	EMAIL CATCHER
+=============================================-->
+ <!-- /header_nav_tabs **ifdef -->
+
+
+<!--============================================
+	CONTACT INFO
+=============================================-->
+
+
+
+<!--============================================
+	EMPTY
+=============================================-->
+ <!-- /header_aspect_blank_01 **aspect -->
+
+ <!-- /header_aspect_blank_02 **aspect -->
+
+ <!-- /header_aspect_blank_03 **aspect -->
+
+ <!-- /header_aspect_blank_04 **aspect -->
+
+<div class="tagline">
+			<img src="/images/tagline.png" alt="" />
+		</div>
+        <div class="phone">
+			325-597-2358
+            <div class="clear_20">&nbsp;</div>
+            <span>100 East Commerce Street, Brady TX 76825</span>
+		</div> <!-- /header_aspect_blank_05 **aspect -->
+
+	
+
+
+
+
+
+	<!--Kalarrs Topham - Setting up the defines for the 3 groups of interior content pages -->
+	
+
+	<!--Kalarrs Topham - Setting up the defines for the 3 groups of interior content pages -->
+	
+	<!--Kalarrs Topham - Setting up the defines for the 3 groups of interior content pages -->
+	
+	</div>
+  <div class="clear">&nbsp;</div>
+</div>
+
+<div id="page_wrapper_bg">
+	<div id="container_12" class="homepage">
+		<div class="grid_12 bigdaddy">
+			<ul>
+				<li>
+						<img src="/_part/img1.jpg" class="slide" alt="Promo Images" />
+					</li><li>
+						<img src="/_part/img2.jpg" class="slide" alt="Promo Images" />
+					</li><li>
+						<img src="/_part/img3.jpg" class="slide" alt="Promo Images" />
+					</li><li>
+						<img src="/_part/img4.jpg" class="slide" alt="Promo Images" />
+					</li>
+			</ul>
+		</div>
+		<div class="clear_20">&nbsp;</div>
+		<div class="grid_12">
+			<img src="/images/banner_01.png" alt="" />
+		</div>
+		<div class="clear_20">&nbsp;</div>
+		<div class="grid_4">
+			<a href="/by-category/air-ac-dehum-heat-bbq-mic-hood-gr-er-laund-fr-ref-comp-dish-di-vac/Air-Conditioners-and-Accessories-and-Dehumidifiers-and-Heaters-and-Humidifiers-and-Barbeques-and-Microwave-and-Hoods-and-Gas-Ranges-and-Electric-Ranges-and-Laundry-and-Freezers-and-Refrigerators-and-Compactors-and-Dishwashers-and-Disposals-and-Dispensers-and-Vacuum-Cleaners.html?CATEGORY_HEADER_IMG=APPLIANCE.JPG"><img src="/images/callout_01.png" alt="" /></a>
+		</div>
+		<div class="grid_4">
+			<a href="/by-category/audio-video-tblt-projtv-led-laser-direct-plasma-lcd/Audio-and-Video-and-Tablets-and-TV-Projection-and-TV-LED-LCD-and-TV-Laser-and-TV-CRT-TV-and-TV-Plasma-and-TV-LCD.html?CATEGORY_HEADER_IMG=ELECTRONICS.JPG"><img src="/images/callout_02.png" alt="" /></a>
+		</div>
+		<div class="grid_4">
+			<a href="/by-category/lroom-broom-droom-hent-hacc-hoff-bath-patio-rvfurn/Living-Room-Furniture-and-Bedroom-Furniture-and-Dining-Room-Furniture-and-Home-Entertainment-Furniture-and-Home-Accents-and-Home-Office-Furniture-and-Bathroom-Furniture-and-Patio-Furniture-and-Rvmarine-Furniture.html?CATEGORY_HEADER_IMG=FURNITURE.JPG"><img src="/images/callout_03.png" alt="" /></a>
+		</div>
+		<div class="clear_20">&nbsp;</div>
+		
+		<div class="grid_12 featured_wrapper">
+            <div class="grid_2 first_child">
+                <a href="/_CGI/SEARCH3.HTML?PROMO_CODE=FEATURED"><img src="/images/featured_items_badge.png" alt="Featured Items" /></a>
+            </div>
+            
+            <div class="grid_10 last_child featured_items">
+                    <ul id="featuredItems">
+                        <li><a href="/products/Serta/ser/motionperfectadjustablefoundationqueen.html"><img src="http://www.specsserver.com/CACHE/mesetmlpllbf.jpg?width=125&amp;height=125" alt="SER:MOTIONPERFECTADJUSTABLEFOUNDATIONQUEEN" title="SER:MOTIONPERFECTADJUSTABLEFOUNDATIONQUEEN" /><br/><span class="price_wrapper">Sale Price: <span class="sale_price">Call for Best Price</span></span>Motion Perfect Adjustable Foundation - Queen</a></li><li><a href="/products/Ashley-Furniture/ashley/4540174.html"><img src="http://www.specsserver.com/CACHE/FRMNCCPNVOTJ.JPG?width=125&amp;height=125" alt="ASHLEY:4540174" title="ASHLEY:4540174" /><br/><span class="price_wrapper">Sale Price: <span class="sale_price">Call for Best Price</span></span>Reclining Power Loveseat</a></li><li><a href="/products/Ashley-Furniture/ashley/4050135.html"><img src="http://www.specsserver.com/CACHE/FRGQXSSJNIWU.JPG?width=125&amp;height=125" alt="ASHLEY:4050135" title="ASHLEY:4050135" /><br/><span class="price_wrapper">Sale Price: <span class="sale_price">Call for Best Price</span></span>Loveseat</a></li><li><a href="/products/Ashley-Furniture/ashley/4020035.html"><img src="http://www.specsserver.com/CACHE/FRGBFRKLECUP.JPG?width=125&amp;height=125" alt="ASHLEY:4020035" title="ASHLEY:4020035" /><br/><span class="price_wrapper">Sale Price: <span class="sale_price">Call for Best Price</span></span>Loveseat</a></li>
+                    </ul>
+                </div>
+        </div>
+		
+		<div class="clear_20">&nbsp;</div>
+	</div>
+</div>
+
+<div id="footer_bg">
+	<div id="footer" class="grid_whole">
+		<div class="grid_3">
+	<h2>Shop</h2>
+    <ul>
+		<li><a href="/by-category/bath-broom-droom-hacc-hent-hoff-lroom-patio-rvfur/Bathroom-Furniture-and-Bedroom-Furniture-and-Dining-Room-Furniture-and-Home-Accents-and-Home-Entertainment-Furniture-and-Home-Office-Furniture-and-Living-Room-Furniture-and-Patio-Furniture-and-Rvfur.html?CATEGORY_HEADER_IMG=furniture.jpg">Furniture</a></li>
+		<li><a href="/by-category/air-bbq-comp-dehum-di-dish-er-fr-gr-heat-hood-laund-mic-ref-vac/Air-Conditioners-and-Barbeques-and-Compactors-and-Dehumidifiers-and-Disposals-and-Dispensers-and-Dishwashers-and-Electric-Ranges-and-Freezers-and-Gas-Ranges-and-Heaters-and-Humidifiers-and-Hoods-and-Laundry-and-Microwave-and-Refrigerators-and-Vacuum-Cleaners.html?CATEGORY_HEADER_IMG=appliance.jpg">Appliance</a></li>
+		<li><a href="/by-category/audio-direct-laser-lcd-led-plasma-projtv-tblt-video/Audio-and-TV-CRT-TV-and-TV-Laser-and-TV-LCD-and-TV-LED-LCD-and-TV-Plasma-and-TV-Projection-and-Tablets-and-Video.html?CATEGORY_HEADER_IMG=electronics.jpg">Electronics</a></li>
+		<li><a href="/_CGI/SEARCH3.HTML?MAJOR=ADJB|MATR">Mattresses</a></li>
+		<li><a href="/hunting.html">Hunting</a></li>
+		<li><a href="/rebate_center.html">Rebates</a></li>
+		<li><a href="/landing_all_brands.html">Brands</a></li>
+	</ul>
+</div>
+<div class="grid_3">
+	<h2>Services</h2>
+    <ul>
+		<li><a href="/index.html">Home</a></li>
+		<li><a href="/about_us.html">About Us</a></li>
+		<li><a href="/contact_us.html">Contact Us</a></li>
+		<li><a href="/_CGI/REDIRECT_TO_CART_OR_QUOTE_AS_APPROPRIATE">View Cart</a></li>
+	</ul>
+    <div class="clear">&nbsp;</div>
+    <img src="/images/payment_methods.png" alt="" />
+</div>
+<div class="grid_3">
+	<h2>Locations</h2>
+    <ul>
+    	<li>100 East Commerce Street</li>
+        <li>Brady, TX 76825</li>
+        <li>325-597-2358</li>
+    </ul>
+</div>
+<div class="grid_3">
+	<h2>Hours</h2>
+    <ul>
+    	<li>Mon - Fri: 9:00 AM to 6:00 PM</li>
+        <li>Sat: 9:00 AM to 6:00 PM</li>
+        <li>Sun: Closed</li>
+    </ul>
+    <h2>Keep In Touch</h2>
+    <ul>
+    	<li><a href="/email-savings.html"><img src="/images/join_email_btn.png" alt="Join our E-mail club" /></a></li>
+    </ul>
+</div>
+<div class="clear">&nbsp;</div>
+<div class="grid_12 signature_link">
+	Powered by <a target="_blank" href="http://ayr1.com">ayr1.com</a>. &copy; 2013 ayr1.com. All rights reserved.
+</div>
+<div class="clear_10">&nbsp;</div>
+	</div>
+</div>
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+qoptions={
+qacct:"p-802WXoYVaSvYQ"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><div style="display:none;">
+<img src="http://pixel.quantserve.com/pixel/p-802WXoYVaSvYQ.gif" style="display: none; border: none; height: 1px; width: 1px;" border="0" height="1" width="1" alt="Quantcast"/>
+</div></noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>

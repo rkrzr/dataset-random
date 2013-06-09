@@ -1,0 +1,93 @@
+
+/* - ++resource++ticketing.base.css - */
+@media screen {
+/* http://www.bih.at/portal_css/++resource++ticketing.base.css?original=1 */
+/* */
+.spinner {
+position: fixed;
+top: 50%;
+left: 50%;
+margin-left: -50px; /* */
+margin-top: -50px; /* */
+text-align:center;
+z-index:1234;
+overflow: auto;
+width: 100px; /* */
+height: 102px; /* */
+}
+.product-ticketing table.seats td.delete_subscription a {
+background: url("trash14px_soft.png") no-repeat scroll 0 0 transparent;
+display: block;
+font-size: 2px;
+height: 14px;
+text-indent: -700em;
+width: 11px;
+}
+.product-ticketing table.seats td.delete_subscription a:hover {
+background-image:url(trash14px.png);
+}
+table.debug {
+color: #000 !important;
+background-color: #fff;
+}
+#ticketing-registration fieldset#fieldset-phone {
+width: auto;
+margin: 2em 0 0 0;
+padding: 0;
+}
+#ticketing-registration fieldset#fieldset-phone legend {
+padding-left:0;
+}
+.product-ticketing #content-site fieldset#fieldset-phone div.stylehelper {
+border: none;
+padding: 0;
+}
+/* */
+/* */
+/* */
+form#updateUser ul {}
+li.field           { clear:both; }
+#updateUser .field label {
+float:left;
+margin-bottom: 10px;
+padding: 5px 10px 3px 30px;
+min-width: 8em;
+border: 1px solid rgb(204, 204, 204);
+position: relative;
+left: -20px;
+font-weight: bold;
+cursor: pointer;
+line-height: 1em;
+border-radius: 10px 10px 10px 10px;
+font-size: 12px;
+}
+#updateUser .field input {
+float:left;
+font-size: 12px;
+line-height: 1em;
+margin-left: 5px;
+position: relative;
+top: 5px;
+}
+#updateUser div.formControls {
+padding: 15px 0 0 0;
+margin: 0;
+clear:both;
+}
+#updateUser input[type="submit"] {
+background-color: #D0292F;
+border: 1px solid #D0292F;
+color: white;
+cursor: pointer;
+display: inline;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 11px;
+font-weight: bold;
+padding: 2px 8px 3px;
+}
+/* */
+/* */
+/* */
+
+}
+

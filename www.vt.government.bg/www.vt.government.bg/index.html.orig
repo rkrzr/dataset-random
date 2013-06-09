@@ -1,0 +1,668 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="verify-v1" content="9/8VCG2Ai0A+NpCRExC5pTBqfjob4MdL3vu6VBzG4eQ=" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="description" content="Областен Управител на област с административен център град Велико Търново">
+<title>::: ОБЛАСТЕН УПРАВИТЕЛ - ВЕЛИКО ТЪРНОВО :::</title>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script language="JavaScript">
+<!--
+if (!document.images) document.location.href ="/text/"; 
+//-->
+</script>
+<script language="JavaScript" src="popup.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#000000">
+<a name="top"></a>
+<!-- Head Begin //-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+        <td width="10"><a href="?sid=79cdd35cceca58cb9703c0e54c948abc"><img src="images/head1.jpg" width="126" height="93" border="0"></a></td>
+    <td width="10"><a href="?sid=79cdd35cceca58cb9703c0e54c948abc"><img src="images/head2.jpg" height="93" border="0"></a></td>
+    <td width="10"><img src="images/head3.jpg" height="93"></td>
+        <td valign="bottom" class="verysmall" align="right">&nbsp;</td>
+    <td width="10"><img src="images/vt0.jpg" height="93"></td>
+  </tr>
+</table>
+
+<!-- Head End  //-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="images/red-line.gif"> 
+    <td background="images/red-line.gif"><img src="images/red-line.gif" width="3" height="3"></td>
+  </tr>
+</table>
+
+<!-- Head menu - begin //-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#efefef">
+  <tr> 
+    <td width="1"><img src="images/tr.gif" width="10" height="20"></td>
+    <td width="50" align="center" class="small"><a href="index.php" class="menu_head"> 
+      начало      </a></td>
+    <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td width="1" background="images/divider.gif"><img src="images/tr.gif" width="3"></td>
+    <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td width="70" align="center" class="small"><a href="index.php?page=contacts" class="menu_head"> 
+      контакти      </a></td>
+        <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td width="1" background="images/divider.gif"><img src="images/tr.gif" width="3"></td>
+    <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td class="small"><a href="text/index.php?sid=79cdd35cceca58cb9703c0e54c948abc" class="menu_head">за&nbsp;незрящи</a></td>
+        <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td class="small" width="1" background="images/divider.gif"><img src="images/tr.gif" width="3"></td>
+    <td class="small" width="5"><img src="images/tr.gif" width="5" height="20"></td>
+    <td class="small" width="100%"><a href="index.php?page=map" class="menu_head">карта на сайта</a></td>
+    <td width="50" align="center">&nbsp;</td>
+	    <td width="1"><img src="images/divider.gif" width="3"> </td>
+    <td class="small" width="60" align="center">&nbsp;<b>Български</b>&nbsp;</td>
+	    <td width="1"><img src="images/divider.gif" width="3"> </td>
+    <td class="small" width="60" align="center">&nbsp;<a href="index.php?setpsitelang=2">English</a>&nbsp;</td>
+	  </tr>
+</table>
+<!-- Head menu - end //-->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="images/horizontal-line.gif"> 
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="images/horizontal-line.gif"> 
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="180" valign="top"> 
+      
+<!-- Osnovno menu - begin  //-->
+	  <table width="100%" border="0"  cellspacing="1" cellpadding="3" id="menu">
+        <tr> 
+          <td class="devider_big"></td>
+        </tr>
+        <tr> 
+          <td class="m1"><a href="index.php?page=1" >Област Велико Търново</a></td>
+        </tr>
+        <tr> 
+          <td class="m1"><a href="index.php?page=2" >Областен управител</a></td>
+        </tr>
+        <tr> 
+          <td class="m1"> <a href="index.php?page=3"  >Администрация</a> 
+          </td>
+        </tr>
+				 <tr> 
+          <td class="m1"> <a href="index.php?page=3&amp;subpage=4"  >Съвети и комисии</a> 
+          </td>
+        </tr>
+		        <tr><td class="devider"></td></tr>
+		<tr>
+          <td class="m2" style="background-color: #FEFFBF;"><a href="index.php?page=20" >ИЗБОРИ 2013</a></td>
+        </tr>
+		<tr>
+          <td class="m2"><a href="index.php?page=4&group_id=8&view_id=3" >Достъп до информация</a></td>
+        </tr>
+        <tr>
+          <td class="m2"><a href="index.php?page=4" >Административни услуги</a></td>
+        </tr>
+        <tr> 
+          <td class="m2"><a href="index.php?page=5" >Формуляри и образци</a></td>
+        </tr>
+        <tr> 
+          <td class="m2"><a href="index.php?page=6" >Експертът информира</a></td>
+        </tr>
+        
+        <tr> 
+          <td class="m2"><a href="index.php?page=7" >Програми и проекти</a></td>
+        </tr>
+        <tr> 
+          <td class="m2"><a href="index.php?page=18" >Програми на ЕС</a></td>
+        </tr>
+        <tr> <!--FDF8E3-->
+          <td class="m2"><a href="index.php?page=8" >Нормативни актове</a></td>
+        </tr>
+        <tr> 
+          <td class="m2"><a href="index.php?page=7&subpage=5" >Актуална информация</a></td>
+        </tr>
+       <tr><td class="devider"></td></tr>
+        <tr> 
+          <td class="m3"><a href="index.php?page=10" >Предстоящо</a></td>
+        </tr>
+        <tr> 
+          <td class="m3"><a href="index.php?page=11" >Новини</a></td>
+        </tr>
+		 <tr> 
+          <td class="m3"><a href="index.php?page=obyavi" >Обяви</a></td>
+        </tr>
+        <tr><td class="devider"></td></tr>
+        <tr> 
+          <td class="m4"><a href="index.php?page=13" >Териториални органи</a></td>
+        </tr>
+        <tr> 
+          <td class="m4"><a href="index.php?page=14" >Общините в областта</a></td>
+        </tr>
+        <tr> 
+          <td class="m4"><a href="index.php?page=16"  >Народни представители</a></td>
+        </tr>
+        <tr><td class="devider"></td></tr>
+        <tr> 
+          <td class="m5"><a href="index.php?page=15" >Полезни връзки</a></td>
+        </tr>
+        <tr> 
+          <td class="m5"><a href="index.php?page=faq" >Често задавани въпроси</a></td>
+        </tr>
+        <tr> 
+          <td class="m5"><a href="index.php?page=map" >Карта на сайта</a></td>
+        </tr>
+        <tr><td class="devider"></td></tr>
+      </table>
+<!-- Osnovno menu - end //-->
+
+<!--  Za OBLASTTA - begin //-->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"  id="col_element">
+        <tr> 
+          <td class="title">
+            За областта </td>
+        </tr>
+        <tr> 
+          <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+        </tr>
+        <tr align="right"> 
+          <td class="small"> 
+            <table width="100%" border="0" cellspacing="2" cellpadding="2">
+              <tr> 
+                <td class="small"> 
+                  <p align="center"><img src="images/map_new.gif" width="149" height="173" border="0" align="middle" usemap="#Map"></p>
+                  <font color="#CC0000">Област Велико Търново<br>
+                  <font color="#666666">Площ: 4 661 572  дка, <br>Население: 258 494, <br>
+                  Населени места: 336, <br>Градове: 14, <br>Общини: 10
+                  
+                                      <table width="100%" border="0" cellspacing="2" cellpadding="2" dwcopytype="CopyTableRow">
+                    <tr> 
+                      <td class="verysmall" class="m4"> Данните за населението 
+                        и териториите са към 01.02.2011 г.</td>
+                    </tr>
+                  </table>
+                                  </td>
+              </tr>
+          </table>
+		</td>
+	</tr>
+	<tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td></tr>
+	<tr height="25"><td class="small">&nbsp;<a href="index.php?page=1" class="menu">&raquo; повече за областта</a></td></tr>
+	<tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td></tr>
+	 	<tr valign="top"><td><table width="100%" border="0" cellspacing="1" cellpadding="0">
+	    	<tr><td class="head1" bgcolor="#FDF8E3"><img src="images/triangle_m.gif" width="9" height="20" align="absmiddle">Галерия</td></tr>
+	        <tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td></tr>
+	    	<tr bgcolor="#EFEFEF" align="center"><td><table width="90%" align="center" cellpadding="2" cellspacing="2">
+  <tr>    <td align="center" width="100%" class="small" valign="top">
+     <a href="javascript:view_Pic('10873148921.jpg','stored_images','Велико Търново - Патриаршески манастир &quotСв. Троица&quot','Велико Търново - Патриаршески манастир &quotСв. Троица&quot');">
+    <img src="stored_images/10873148920.jpg" border="1" alt="" width="100"></a>
+    <br>
+    Велико Търново - Патриаршески манастир "Св. Троица"    </td>
+  </tr></table>
+</td></tr>
+	    	<tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="8" height="1"></td></tr>
+	    	<tr height="30"><td class="small">&nbsp;<a href="index.php?page=gallery" class="menu">&raquo;още снимки</a></td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td></tr>
+</table></td></tr>
+	<tr><td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td></tr>
+		<tr><td style="text-align: center; ">
+	<a href="?page=3&subpage=5" title="Сертификат ISO 9001-2008"><img src="images/iso_9001_2000.gif" border="0" alt="ISO 9001-2008" /></a>
+	<br />
+	<a href="http://www.sgs.com/en/Our-Company/Certified-Client-Directories" title="SGS_ISO-IEC-27001" target="_blank"><img src="images/SGS_ISO-IEC-27001.jpg"  alt="SGS_ISO-IEC-27001" border="0" width="180" height="104" /></a>
+	<br />
+	<a href="/index.php?page=3&subpage=7" title="Сертификат ISO/IEC 27001:2005" style="float: left; margin-left: 25px;">Сертификат</a>
+	<br />
+	<br />
+	</td></tr>
+	
+	
+	<tr><td><script type="text/javascript" src="http://static.ak.connect.facebook.com/connect.php/bg_BG"></script><script type="text/javascript">FB.init("false");</script><fb:fan profile_id="385400623392" stream="0" connections="0" logobar="1" width="200" height="110"></fb:fan><div style="font-size:9px; padding-left:10px"><a href="http://www.facebook.com/pages/Veliko-Tarnovo-Bulgaria/Oblasten-upravitel-Veliko-Trnovo/385400623392">ОУ - Велико Търново</a> във Facebook</div></td></tr>
+</table>
+</td>
+<td valign="top" background="images/vertical-line.gif" width="1"><img src="images/vertical-line.gif" width="1" 
+height="7"></td>
+    <td valign="top">
+<!-- SREDNA OBLAST NA EKRANA- begin //--> 
+       <table width="100%" border="0" cellpadding="5" class="normal" cellspacing="0">
+        <tr>
+          <td valign="top">
+                      </td>
+        </tr>
+      </table>
+	        <!-- POD SREDNATA OBLAST NA EKRANA - begin //-->
+            <table width="100%" border="0" cellpadding="5" cellspacing="0">
+        <tr> 
+          <td valign="top">
+              
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td align="left" valign="bottom" class="head1"> <img src="images/triangle_m.gif" width="9" height="20" hspace="0" vspace="0" align="absbottom"><img src="images/tr.gif" width="5" height="22" align="absmiddle"><strong>Новини</strong></td>
+  </tr>
+  <tr> 
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+  </tr>
+   <tr><td class="small" bgcolor="#EFEFEF">
+					<table border="0" cellspacing="0" cellpadding="2" width="100%" class="small">
+						<tr>
+							<td>
+								Общо 100 новини
+							</td>
+							<td align="right">
+								<script language="javascript">
+									function changePage(pager_page)
+									{
+										document.location.href='index.php?page=&pager_page=' + pager_page;
+									}
+								</script>
+								Страница
+								<select style="width:40px; font-size:9px" name="pager_page" onChange="changePage(this.value)">
+						     			<option value="1" selected>1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+<option value="6" >6</option>
+<option value="7" >7</option>
+<option value="8" >8</option>
+<option value="9" >9</option>
+<option value="10" >10</option>
+
+				     			</select>
+				     			от 10&nbsp;
+				     			
+					     		&laquo;
+					     		<a class="ThinLink" href="index.php?page=&pager_page=2">&raquo;</a></td>
+						</tr>
+					</table></td></tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165538&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">24.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165538&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="BACKGROUND: white"><span style="FONT-FAMILY: " lang="BG"><img border="0" hspace="0" alt="ovcevade.jpg" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/ovcevade.jpg" width="192" height="128" />Областният управител проф. Пенчо Пенчев днес присъства на откриването на второто издание на Националния събор на овцевъдите край Лясковец. Форумът откри министърът на земеделието и храните в служебното правителство проф. Иван Станков. </span><span style="FONT-FAMILY: ">Тридневната проява, която събра над 300 изложители</span><span style="FONT-FAMILY: " lang="BG">, </span><span style="FONT-FAMILY: "><span style="mso-spacerun: yes"> </span>е организирана от Националната асоциация за развъждане на Синтетична популация Българска млечна (НАРСПБМ), със съдействието на Министерството на земеделието и храните.</span><span style="FONT-FAMILY: "> </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165537&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">16.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165537&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt 36pt; tab-stops: list 36.0pt" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: " lang="BG"><img border="0" hspace="0" alt="osr__16_may.jpg" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/osr__16_may.jpg" width="192" height="144" />Проектът за Областна стратегия за развитие 2014- 2020 за област Велико Търново премина през окончателно обсъждане днес в областната администрация. В работната среща участваха представители на десетте общини, в т.ч. заместник-кметове<span style="mso-spacerun: yes">  </span>и председатели на Обс, предтавители на браншови организации, на териториалните звена, както и студенти от ВТУ „Св. св. Кирил и Методий”. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165536&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">14.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165536&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: "Arial","sans-serif"; FONT-SIZE: 10pt; mso-ansi-language: BG" lang="BG">Работна среща във връзка с окончателното обсъждане на проекта за Областната стратегия за развитие 2013-2020, ще се проведе на 16 май от 11:00 в зала 314 на Областна администрация. В срещата ще вземат участие освен експертите на институцията и екипа, подготвил проекта с р-л арх. Белин Моллов, и представители на десетте общини в областта, на браншовите организации и на териториалните структури на изпълнителната власт. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165535&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">11.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165535&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="LINE-HEIGHT: normal; MARGIN: 0cm 0cm 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" class="MsoNormal"><span style="FONT-FAMILY: "Times New Roman","serif"; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'">Всички копирни устройства HP DeskJet 1050 A, които са приети в 408-те секционни избирателни комисии на територията на IV-ти Великотърновски МИР, са тествани и са в готовност да функционират нормално. Това увериха  общинските администрации на десетте общини във великотърновска област. Информацията за изправността на копирните устройства постъпва през целия ден към екипите в Областна администрация, които от своя страна я обобщиха в края на деня, и я изпратиха до Министерски съвет на Република България. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165533&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">10.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165533&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: ; FONT-SIZE: 10pt"><img border="0" hspace="0" alt="mpop.jpg" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/mpop.jpg" width="192" height="144" />Вицепрезидентът на Република България Маргарита Попова посети днес Павликени, където под нейния патронаж се проведе третото издание на пътуващия детски фестивал „Като звездите 2013” за деца от социални институции. Областният управител проф. Пенчо Пенчев<span> </span>бе сред гостите на културното събитие. Той и кметът на Павликени инж. Емануил Манолов, посрещнаха с цветя вицепрезидента. <span></span></span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: ; FONT-SIZE: 10pt"><span> </span></span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165534&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">10.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165534&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 12pt 0cm; BACKGROUND: white" class="MsoNormal"><span style="FONT-FAMILY: " lang="BG"><img border="0" hspace="0" alt="strajica__mesec_na.jpg" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/strajica__mesec_na.jpg" width="192" height="144" />С голям концерт и изложба на детскихудожествени творби  читалище  &quot;Развитие 1895” в Стражица се включи в националната кампания „Месец на Европа” на 9 май. Концертът бе организиран в зимното кино, като във фоайето бе изложена експозиция с произведения на деца от кръжока по изобразително изкуство към Общинския детски комплекс. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165532&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">09.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165532&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt" class="MsoNormal"><span style="FONT-FAMILY: "Arial","sans-serif"; FONT-SIZE: 10pt" lang="BG"><img border="0" hspace="0" alt="lqskovec_izlojba11.jpg" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/lqskovec_izlojba11.jpg" width="192" height="256" />Със събития и инициативи две читалища в област Велико Търново вчера се включиха в кампанията „Месец на Европа”. С викторина на европейска тематика, с лекция, посветена на ЕС, с изложба на детски рисунки и с голям концерт НЧ „Съзнателност 1899” в свищовското село Овча могила участва в инициативата.</span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165530&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">08.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165530&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: "Arial","sans-serif"; FONT-SIZE: 10pt; mso-ansi-language: BG" lang="BG">250 000 бюлетини бяха предадени днес с протокол от Областна администрация на представители на десетте общини в област Велико Търново. Заедно с тях общините получиха от администрацията и изборни книжа и материали – протоколите на секционните избирателни комисии, печатите на СИК, пликове за бюлетините, отличителни знаци за членовете на секционните комисии, избирателните списъци за гласуване, както и образователни брошури с инструкции за ползване на копирната техника в секциите. Общините получиха и информационен материал, изготвен от ЦИК, който ще бъде разлепен на всяка секция в деня на изброите 12 май. На процедурата по предаване на изборните материали присъства и Паскал Паскалев, член на Районната избирателна комисия във Велико Търново. На 12 май на територията на </span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: "Arial","sans-serif"; FONT-SIZE: 10pt">IV</span><span style="LINE-HEIGHT: 115%; FONT-FAMILY: "Arial","sans-serif"; FONT-SIZE: 10pt; mso-ansi-language: BG" lang="BG">-ти Великотърновски МИР право на глас имат 229 582-ма гласоподаватели. Броят на разкритите секции е 413, като от тях има една подвижна в Сухиндол и болнични секции във Велико Търново, Свищов, Павликени и Горна Оряховица.<p /></span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165531&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">08.05.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165531&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: " lang="BG"><img border="0" hspace="0" alt="mesec na ES_1.bmp" align="baseline" src="http://vt.government.bg/stored_images/Novini2011/mesec%20na%20ES_1.bmp" width="192" height="144" />Ученици от СИП „Екология” от СОУ „Цанко Церковски” в Полски Тръмбеш вчера се включиха с оригинална инициатива<span style="mso-spacerun: yes">  </span>в националната кампания „Месец на Европа”, която се провежда в читалища в област Велико Търново от 7 до 9 май. Децата от началния курс с ръководител Ивелина Атанасова оформиха от цветя европейския флаг и българския трикольор в Алея на ЕС на централния площад в Полски Тръмбеш. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+    <tr> 
+    <td onClick="location.href='index.php?page=11&view_id=165529&sid=79cdd35cceca58cb9703c0e54c948abc'" onMouseOver="this.style.backgroundColor='#EEF5FD'" onMouseOut="this.style.backgroundColor=''" style="cursor: hand; padding: 5px; border-bottom: 1px solid #DEDEDE;" class="normal"> 
+      <img src="images/tr.gif" height="5"><br>
+      <font class="smallRed" background="#EFEFEF">30.04.2013</font>
+      <br />
+      <a href="index.php?page=11&view_id=165529&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366">
+      <p style="TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt" class="MsoNormal"><span style="LINE-HEIGHT: 115%; FONT-FAMILY: " lang="BG"><img border="0" hspace="0" alt="print.jpg" align="baseline" src="/stored_images/Novini2011/print.jpg" width="192" height="144" />Общо 420 копирни устройства бяха раздадени вчера и днес от служители на Областна администрация на всички общини в областта във връзка с предсрочните избори на 12 май. Устройствата са мултифункционални и включват принтер, скенер и копирна машина. Те са марка „Хюлет Пакард” и са централно доставени към областните администрации от Министерски съвет. </span></p></font></a>
+       </td>
+  </tr><tr> 
+    <td><div style="height:1px; padding: 2px; border-bottom: 0px solid #EEEEEE;"></div></td>
+  </tr>
+  </table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr><td class="small" bgcolor="#EFEFEF">
+					<table border="0" cellspacing="0" cellpadding="2" width="100%" class="small">
+						<tr>
+							<td>
+								Общо 100 новини
+							</td>
+							<td align="right">
+								<script language="javascript">
+									function changePage(pager_page)
+									{
+										document.location.href='index.php?page=&pager_page=' + pager_page;
+									}
+								</script>
+								Страница
+								<select style="width:40px; font-size:9px" name="pager_page" onChange="changePage(this.value)">
+						     			<option value="1" selected>1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+<option value="6" >6</option>
+<option value="7" >7</option>
+<option value="8" >8</option>
+<option value="9" >9</option>
+<option value="10" >10</option>
+
+				     			</select>
+				     			от 10&nbsp;
+				     			
+					     		&laquo;
+					     		<a class="ThinLink" href="index.php?page=&pager_page=2">&raquo;</a></td>
+						</tr>
+					</table></td></tr>
+  <tr> 
+    <td background="images/hr.gif"><img src="images/hr.gif" width="5" height="9"></td>
+  </tr>
+</table>          </td>
+        </tr>
+      </table>
+ 	              <!-- POD-POD SREDNATA OBLAST NA EKRANA - begin //-->
+      </td>
+<!-- Dyasna OBLAST NA EKRANA  //-->
+<td background="images/vertical-line.gif" width="1"><img src="images/vertical-line.gif" width="1" height="7"></td>
+    <td width="170" valign="top" id="col_element">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <div id="col_element_main">  
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+          
+    <td align="left" valign="bottom" bgcolor="#FDF8E3" class="head1"> <img src="images/triangle_m.gif" width="9" height="20" hspace="0" vspace="0" align="absbottom"><strong><font color="#CC0000"><img src="images/tr.gif" width="5" height="22" align="absmiddle">предстоящо</font></strong> 
+    </td>
+        </tr>
+        <tr> 
+          <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+        </tr> 
+  <tr> 
+    <td> 
+      <table width="100%" border="0" cellspacing="2" cellpadding="2">
+        <tr>
+          <td onMouseOver="this.style.backgroundColor='#EFEFEF'" onMouseOut="this.style.backgroundColor=''" class="small">
+                        <img src="images/arrow_m.gif" align="absmiddle" width="10" height="15" alt="Бюлет"><font class="smallRed"> 
+            09.04.2013 г.            </font><br>
+            <a href="index.php?page=10&view_id=198&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu"><font class="normal" color="#003366"> 
+            Заповед № РД 04-45/08.04.2013 г. на Областен управител за осигуряване пожарна безопасност за периода от 15.04.2013 г. до 30.10.2013 г. в област Велико Търново</font>
+            </a> 
+                                  </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</div><div id="col_element_middle">      		<img src="images/tr.gif" width="8" height="2"><br>
+      		      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+        </tr>
+        <tr> 
+          <td align="left" valign="bottom" bgcolor="#EEF5FD" class="head1"> <img src="images/triangle_m.gif" width="9" height="20" hspace="0" vspace="0" align="absbottom"><strong><font color="#CC0000"><img src="images/tr.gif" width="5" height="22" align="absmiddle"></font></strong>експертът информира</td>
+        </tr>
+        <tr> 
+          <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="7" height="1"></td>
+        </tr>
+        <tr align="right"> 
+          <td class="small"> 
+            <table width="100%" border="0" cellspacing="2" cellpadding="2">
+              <tr> 
+                <td onMouseOver="this.style.backgroundColor='#EFEFEF'" onMouseOut="this.style.backgroundColor=''" class="small"> 
+               
+                  <img src="images/arrow_m.gif" width="10" height="15" align="absmiddle" /> 
+                  <a href="index.php?page=6&subpage=1&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu">Кога да се обръщаме към Областния управител</a><br />
+                  
+                  <img src="images/arrow_m.gif" width="10" height="15" align="absmiddle" /> 
+                  <a href="/index.php?page=6#group13" class="menu">Обществени поръчки - профил на купувача</a><br />
+
+                  <img src="images/arrow_m.gif" width="10" height="15" align="absmiddle" /> 
+                  <a href="index.php?page=faq&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu">Често задавани въпроси</a><br />
+
+                  <img src="images/arrow_m.gif" width="10" height="15" align="absmiddle" /> 
+                  <a href="index.php?page=6&subpage=3&sid=79cdd35cceca58cb9703c0e54c948abc" class="menu">Запитване</a>
+
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>        <table width="100%" border="0" cellspacing="0" cellpadding="2"  id="col_element" style="background: #FDF8E3;">
+        <tr><td class="title" style="height: 25px; background: #F19914;">Антикорупционна кутия</td></tr>
+        <tr><td class="anticorruption">
+				<div style="padding: 5px;">
+        На основание чл. 111, ал. 4 от Административнопроцесуалния кодекс:
+„Не се образува производство по анонимни предложения или сигнали, както и по сигнали, отнасящи се до нарушения, извършени преди повече от две години.”<br /><br />
+<b>Може да подавате сигнали за корупция</b> на сайта на Комисията по превенция и противодействие на корупцията (КППК) към Министерски съвет чрез информационната система, финансирана от Европейския съюз по програма Фар.				</div>
+        <div style="width: 120px; height: 20px; margin-left: 5px; background: #7498E6; padding: 8px 2px 2px 5px; margin-bottom: 5px;">
+        <a href="http://anticorruption.government.bg/content.aspx?p=12" target="_blank" style="width: 120px; height: 25px;">
+              ИЗПРАТИ СИГНАЛ        </a>
+        </center>
+        </td></tr>
+        </table>
+				
+			<!--div style="border-bottom: 1px solid #F19914; height:1px;">&nbsp;</div>
+		<div align="center"><a href="http://www.ccit.government.bg" target="_blank" title="Проект Разбираема България"><img src="/images/razbiraema-bulgaria.jpg" alt="Проект Разбираема България" /></a></div-->
+		
+		<a href="http://www.cpdp.bg/index.php?p=rubric&aid=4" title="Защита на личните данни в Шенгенското пространство: Вашите права." target="_blank"><img src="images/banners/vashite_prava.jpg" alt="Защита на личните данни в Шенгенското пространство: Вашите права." /></a>
+		
+		<div style="border-bottom: 1px solid #F19914; height:1px;">&nbsp;</div>
+
+	<div align="center">
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="192" height="160">
+			<param name="movie" value="http://salatialdi.com/pbanner/pojarna_pazi_gorite_300x250px.swf">
+			<param name="quality" value="high">
+			<embed src="http://salatialdi.com/pbanner/pojarna_pazi_gorite_300x250px.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="192" height="160"></embed>
+		</object>
+	</div>
+	
+	<div style="border-bottom: 1px solid #F19914; height:1px;">&nbsp;</div>
+
+	<div align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="192" height="97">
+	  <param name="movie" value="images/banners/portal_198_100.swf">
+	  <param name="quality" value="high">
+	  <embed src="images/banners/portal_198_100.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="192" height="97"></embed></object>
+	</div>
+
+	<div style="border-bottom: 1px solid #F19914; height:1px;">&nbsp;</div>
+
+	<!-- EU Funds banner BG -->
+	<div align="center" style="background: #0A42AF; padding: 5px;">
+	<object	classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"	codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,79,0" id="banner" width="167" height="62">
+		<param name="movie" value="images/banners/funds_bg.swf" />
+		<param name="bgcolor" value="white" />
+		<param name="quality" value="high" />
+		<param name="allowscriptaccess" value="samedomain" />
+		<embed type="application/x-shockwave-flash"	pluginspage="http://macromedia.com/go/getflashplayer"	name="banner"	width="167"	height="62"	src="images/banners/funds_bg.swf"	bgcolor="white"	quality="high" swliveconnect="true" allowscriptaccess="samedomain">
+		</embed>
+    </object>
+	</div>
+	<!-- / EU Funds banner BG -->
+	<div style="border-bottom: 1px solid #F19914; height:1px;">&nbsp;</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
+<tr><td class="title">АНКЕТА</td></tr>
+  <tr> 
+    <td class="small_grey" bgcolor="#DEDEDE"><strong>Измерване на удовлетвореността от качеството на административното обслужване</strong>     <table width="100%" border="0" cellspacing="0" cellpadding="2" class="small">
+        <tr>
+	<form name="f1" method="post" action="index.php">
+          <td class="small" bgcolor="#EFEFEF">
+        	<strong>Бяха ли спазени сроковете за предоставяне на услугата? </strong><br>            	<input type="radio" name="6answer_id" value="17" class="a_radio" valign="middle"> <font class="a_answers">
+Да, услугата бе предоставена в срок
+
+
+</font><br>
+                        	<input type="radio" name="6answer_id" value="18" class="a_radio" valign="middle"> <font class="a_answers">
+Не, услугата не бе предоставена в срок 
+
+
+</font><br>
+            <strong>Служителите предоставиха ли необходимата информация съобразно компетенциите на Областна администрация?</strong><br>            	<input type="radio" name="7answer_id" value="19" class="a_radio" valign="middle"> <font class="a_answers">
+Да, предоставиха я
+
+
+</font><br>
+                        	<input type="radio" name="7answer_id" value="20" class="a_radio" valign="middle"> <font class="a_answers">
+Не, не я предоставиха
+
+
+</font><br>
+            <strong>Как оценявате отношението на служителите? </strong><br>            	<input type="radio" name="8answer_id" value="21" class="a_radio" valign="middle"> <font class="a_answers">
+Любезно и компетентно
+
+
+</font><br>
+                        	<input type="radio" name="8answer_id" value="22" class="a_radio" valign="middle"> <font class="a_answers">
+Неуважително и грубо 
+
+
+</font><br>
+            <strong>Как се запознахте с необходимите условия за предоставяне на услугата?</strong><br>            	<input type="radio" name="9answer_id" value="23" class="a_radio" valign="middle"> <font class="a_answers">
+в центъра за обслужване
+
+
+</font><br>
+                        	<input type="radio" name="9answer_id" value="24" class="a_radio" valign="middle"> <font class="a_answers">
+по телефон 
+
+</font><br>
+                        	<input type="radio" name="9answer_id" value="25" class="a_radio" valign="middle"> <font class="a_answers">
+чрез кол-център 
+
+</font><br>
+                        	<input type="radio" name="9answer_id" value="26" class="a_radio" valign="middle"> <font class="a_answers">
+от интернет страницата 
+
+
+</font><br>
+            <strong>Друго мнение и предложение </strong><br>            	<input type="radio" name="10answer_id" value="27" class="a_radio" valign="middle"> <font class="a_answers">
+<a href="/index.php?page=contacts">Пишете ни</a> 
+
+</font><br>
+            <p>
+        <input type="hidden" name="page" value="pool">
+        <input type="hidden" name="a_id" value="4">
+        <input type="hidden" name="broi_vyprosi" value="5">
+        <input type="hidden" name="action" value="hit">
+        <input type="submit" name="Submit" value="Отговори" class="box2">
+         <a href="index.php?page=pool&a_id=4&a_action=show" class="a_small">резултати</a>
+         </p>
+         </td>
+        </form>
+        </tr>
+      </table>
+   </td>
+  </tr>
+</table>
+<img src="images/tr.gif" width="11" height="8"><br>
+      <img src="images/tr.gif" width="11" height="8"><br>
+      <img src="images/tr.gif" width="11" height="8"><br>
+          </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="images/horizontal-line.gif"> 
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="8" height="1"></td>
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="8" height="1"></td>
+    <td background="images/horizontal-line.gif"><img src="images/horizontal-line.gif" width="8" height="1"></td>
+  </tr>
+  <tr> 
+  	<td align="center" bgcolor="#EFEFEF" width="80">&nbsp;</td>
+    <td align="center" bgcolor="#EFEFEF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">2003-2012 &copy; Областен управител Велико Търново, Сайтът е създаден от: <a href="http://www.civilinstitute.org" title="Граждански институт" target="_blank">Граждански институт</a>, Поддръжка и уебдизайн: <a href="http://www.aspectrum.biz" title="Уеб дизайн" target="_blank">Аспектрум ООД</a></td>
+    <td align="center" bgcolor="#EFEFEF" width="120">
+&nbsp;
+    </td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="16,14,64,30" href="index.php?page=14&subpage=0&id=11">
+  <area shape="rect" coords="27,46,117,62" href="index.php?page=14&subpage=0&id=4">
+  <area shape="rect" coords="11,66,77,81" href="index.php?page=14&subpage=0&id=2">
+  <area shape="rect" coords="81,66,134,81" href="index.php?page=14&subpage=0&id=9">
+  <area shape="rect" coords="14,82,73,91" href="index.php?page=14&subpage=0&id=10">
+  <area shape="rect" coords="51,91,145,99" href="index.php?page=14&subpage=0&id=5">
+  <area shape="rect" coords="82,102,139,111" href="index.php?page=14&subpage=0&id=7">
+  <area shape="rect" coords="3,109,80,119" href="index.php?page=14&subpage=0&id=1">
+  <area shape="rect" coords="90,114,146,128" href="index.php?page=14&subpage=0&id=12">
+  <area shape="rect" coords="88,136,126,149" href="index.php?page=14&subpage=0&id=6">
+</map>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-671090-8";
+urchinTracker();
+</script>
+</body>
+</html>

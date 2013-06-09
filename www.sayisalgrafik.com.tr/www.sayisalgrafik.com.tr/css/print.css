@@ -1,0 +1,21 @@
+﻿.content-left, .content-right, .lading-page-img, .header, .footer, .e-posta-print, .renk4 { display:none !important;}
+.detail-text, .content-center, .text-top-title, .landing-detail-text, .landing-detail-text, .big-detail-text, .big-content-title, .content-center-genis{ width:900px !important; margin:0px !important; padding:0px !important; border:none !important;}
+.teknik_dokuman_container { background:#FFFFFF !important; color:#000000 !important;}
+
+
+h1 {
+    font-size: 20pt !important;
+}
+
+
+h2 {
+    font-size: 18pt !important;
+}
+
+h3 {
+    font-size: 16pt !important;
+}
+
+p {
+    font-size: 12pt !important;
+}

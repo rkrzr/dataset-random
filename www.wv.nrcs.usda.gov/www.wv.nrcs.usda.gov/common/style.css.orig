@@ -1,0 +1,241 @@
+/* Basic Body Styles */
+BODY
+{ margin:0px; padding:0px; background-color:#fff }
+
+BODY, P, TH, TD, DL, DT, DD, UL, OL, LI
+{ color:#000; font:normal 11px verdana,arial,helvetica,sans-serif }
+
+B, STRONG, TH, TH P, DT
+{ font-weight:bold }
+A IMG
+{ border:0px }
+FORM
+{ margin:0px; padding:0px }
+SELECT, INPUT
+{ color:#000; font:normal 10px arial,helvetica,sans-serif }
+FIELDSET, LEGEND
+{ border:none; padding-left:0px; margin-left:0px }
+CAPTION
+{ color:#000; font:bold 12px verdana,arial,helvetica,sans-serif; text-align:left; padding:2px 0px }
+HR
+{ color:#000; border-width:0px; height:1px }
+@media screen {
+	HR { background-color:#000 }
+}
+
+A:link
+{ color:#03369c; text-decoration:underline }
+A:visited
+{ color:#4a4a4a; text-decoration:underline }
+A:hover, A:active
+{ color:#008866; text-decoration:underline }
+
+
+H1, H2, H3, H4, H5, H6
+{ color:#666; text-align:left; font-weight:bold; font-family:verdana,arial,helvetica,sans-serif }
+H1
+{ margin-top:12px; font-size:18px }
+H2
+{ font-size:16px }
+H3
+{ font-size:14px }
+H4
+{ font-size:13px }
+H5
+{ font-size:12px }
+H6
+{ font-size:11px }
+
+/*/*/
+P, LI
+{ line-height:1.5em; padding-bottom:.2em }
+/* */
+
+
+/* Text Styles */
+.smtext, SMALL
+{ font-size:10px }
+.minitext, SMALL SMALL
+{ font-size:9px }
+.lgtext, BIG
+{ font-size:14px }
+
+A.noline:link, A.noline:visited, A.noline:hover, A.hoverline:link, A.hoverline:visited
+{ text-decoration:none }
+A.hoverline:hover
+{ text-decoration:underline }
+
+.goback
+{ padding-top:15px; color:#660000; font:bold 10px verdana,arial,helvetica,sans-serif }
+.goback A:link, .goback A:visited
+{ color:#660000; text-decoration:none }
+.goback A:hover
+{ color:#660000; text-decoration:underline }
+
+.note
+{ background-color:#f1f1f1; padding:10px; color:#aa3333; font-size:11px; font-weight:bold; border:1px solid #fff }
+.smallnote
+{ background-color:#f1f1f1; padding:10px; color:#aa3333; font-size:9.5px; font-weight:normal; border:1px solid #fff }
+
+.updated
+{ color:#666; font-style:italic }
+H1+P.updated
+{ position:relative; top:-.5em }
+
+/* Boxes */
+.box, .documents
+{ background-color:#f1f1f1; padding:10px; font-size:11px; border:1px solid #fff }
+
+
+/* Data Tables */
+TABLE.data TH
+{ background-color:#777; text-align:left; font-weight:bold; color:#fff }
+TABLE.data TH P
+{ font-weight:bold; color:#fff }
+TABLE.data TH H1, TABLE.data TH H2, TABLE.data TH H3, TABLE.data TH H4, TABLE.data TH H5, TABLE.data TH H6
+{ color:#fff; margin:0px }
+TABLE.data TD
+{ background-color:#f1f1f1; color:#000; line-height:1.4em; vertical-align:top }
+
+
+
+/* Navigation */
+#navBar
+{ background-color:#666; padding-left:8px }
+#navBar TD
+{ padding:4px 8px 0px 4px }
+#navLinks
+{ color:#f7f7f7; font:bold 10px verdana,arial,helvetica,sans-serif }
+#navLinks A:link, #navLinks A:visited
+{ color:#f7f7f7; text-decoration:none }
+#navLinks A:hover
+{ color:#ccc; text-decoration:none }
+
+#activeNav
+{ background-color:#848484; color:#fff }
+#navLinks A#activeNav:link, #navLinks A#activeNav:visited
+{ background-color:#848484; color:#fff }
+#navLinks A#activeNav:hover
+{ color:#ddd }
+
+#navSize
+{ white-space:nowrap }
+#navSize IMG  /* Hide text-size tool from older browsers */
+{ display:none }
+
+@media screen {
+	#navBar
+	{ background:#666 url('nav_back.gif') repeat-x left bottom; padding-left:0px }
+	#navBar TD
+	{ padding:4px 8px 6px 4px }
+	#navLinks IMG
+	{ vertical-align:middle }
+	#navLinks A
+	{ padding:2px 4px 3px 4px }
+
+	#navSize IMG
+	{ vertical-align:middle; display:inline }
+	#navSize A:hover, #navSize A:hover IMG
+	{ background-color:#767676 }
+	#navSmallText IMG
+	{ background-color:#848484 }
+	#navMediumText IMG
+	{ background-color:transparent }
+	#navLargeText IMG
+	{ background-color:transparent }
+}
+
+
+/* Left Sidebar */
+#leftBar
+{ width:155px; max-width:155px; border-right:1px solid #666; margin-right:10px }
+
+#search
+{ width:142px; background-color:#f1f1f1; padding:4px 4px 1px 4px; border:1px solid #fff }
+/*/*/
+#search
+{ border-width:0px; border-bottom:1px solid #666; padding:9px 6px; text-align:center }
+SELECT#searchSite, INPUT#searchTerms
+{ width:102px }
+/* */
+INPUT#searchTerms
+{ padding-left:3px; padding-bottom:0px }
+
+#subnav, #auxnav
+{ padding:0px 9px }
+#subnav H2
+{ color:#000; font-size:13px; font-weight:bold; margin:0px }
+#subnav H3
+{ color:#000; font-size:11px; font-weight:bold; margin:0px; padding-top:10px }
+#subnav H2 a:link, #subnav H2 a:visited, #subnav H3 a:link, #subnav H3 a:visited
+{ color:#000; text-decoration:none }
+
+#searchLabel
+{ color:#000; font-weight:bold; font-size:11px }
+#searchFor
+{ color:#f1f1f1; font-size:9.5px }
+
+#subnav UL, #auxnav UL
+{ margin-left:-26px }
+#subnav UL A, #auxnav UL A
+{ margin-bottom:4px }
+#subnav A:link, #subnav A:visited, #auxnav A:link, #auxnav A:visited
+{ color:#000; text-decoration:none }
+#subnav A:hover, #auxnav A:hover, #subnav H2 A:hover, #subnav H3 A:hover
+{ color:#444; text-decoration:underline }
+
+/*/*/
+#subnav
+{ padding:9px }
+#auxnav
+{ padding:0px }
+#subnav H2, #subnav H3
+{ margin:3px 0px 2px 0px }
+#subnav UL
+{ margin:5px 0px 0px -5px; padding:0px }
+#auxnav UL
+{ margin:5px 0px 0px 4px; padding:8px 0px 0px 0px; border-top:1px solid #e0e0e0 }
+#subnav LI, #auxnav LI
+{
+	background:url('subnav_arrow.gif') no-repeat top left;
+	margin:0px; font-size:10px; line-height:1.2em;
+	display:list-item; list-style-position:outside; list-style-type:none; padding-left:16px; padding-right:0px; padding-top:0px; padding-bottom:4px
+}
+#auxnav UL LI
+{ border-bottom:1px solid #e0e0e0; margin:0px 0px 8px 0px; padding:0px 4px 10px 16px }
+/* */
+
+
+
+
+/* Footer */
+#footer
+{ background-color:#f1f1f1; border-top:1px solid #666; padding:3px 2px }
+#footerLeft
+{ width:165px; white-space:nowrap }
+
+#footer A:link, #footer A:visited
+{ color:#000; text-decoration:none }
+#footer A:hover
+{ color:#444; text-decoration:underline }
+
+/*/*/
+#footer HR
+{ display:none }
+#footer TD
+{ font-size:10px; line-height:1.5em; text-align:left }
+/* */
+
+
+
+/* Printer Output */
+@media print {
+
+	#headerPhoto, #navBar, #footer, #leftBar, .goback, .noprint
+	{ display:none }
+
+	TABLE.data
+	{ border-collapse:collapse }
+	TABLE.data TH, TABLE.data TD, .box, .documents
+	{ color:#000; border:1px solid #000 }
+}

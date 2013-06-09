@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>West Virginia NRCS</title>
+
+<link rel="stylesheet" type="text/css" href="common/style.css">
+<link rel="stylesheet" type="text/css" href="common/home.css">
+<link rel="alternate stylesheet" type="text/css" media="screen,print" href="common/mediumtext.css" title="Medium Text">
+<link rel="alternate stylesheet" type="text/css" media="screen,print" href="common/largetext.css" title="Large Text">
+<link rel="shortcut icon" type="image/ico" href="common/favicon.ico">
+<link rel="icon" type="image/png" href="common/favicon.png">
+<script type="text/javascript" src="common/nrcs.js"></script>
+<meta name="Microsoft Border" content="t">
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<a name="top" id="top"></a>
+<table bgcolor="#3366cc" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+		<!-- Logos --><a href="http://www.usda.gov/">
+		<img src="common/header_usda.gif" alt="United States Department of Agriculture" border="0" hspace="5" width="314" height="13"></a><br>
+		<a href="http://www.nrcs.usda.gov/">
+		<img src="common/header_nrcs.gif" alt="Natural Resources Conservation Service" border="0" hspace="5" width="314" height="47"></a></td>
+		<td align="right" width="100%">
+		<!-- Site Name --><a href="./">
+		<img src="common/header_sitename.gif" alt="West Virginia" border="0" hspace="3" width="152" height="70"></a></td>
+		<td>
+		<!-- Accessibility Jumps -->
+		<a href="http://www.nrcs.usda.gov/accessibility.html">
+		<img src="common/spacer.gif" alt="Go to Accessibility Information" border="0" width="1" height="1"></a><br>
+		<a href="#content" accesskey="k">
+		<img src="common/spacer.gif" alt="Skip to Page Content" border="0" width="1" height="1"></a><br>
+		</td>
+		<td align="right" id="headerPhoto">
+		<!-- Site Photo -->
+		<img src="common/header_photo.jpg" alt="" width="202" height="70"></td>
+	</tr>
+</table>
+<table id="navBar" border="0" cellpadding="4" cellspacing="0">
+	<tr valign="top">
+		<td id="navLinks" width="100%">
+		<!-- Primary Navigation --><a href="./">West&nbsp;Virginia&nbsp;Home</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="about/">About&nbsp;Us</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="news/">News</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="programs/">Programs</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="technical/">Technical&nbsp;Resources</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="partnerships/">Partnerships</a>
+		<img src="common/nav_sep.gif" alt="" align="absmiddle" hspace="1" width="1" height="17">
+		<a href="contact/index.html">Contact&nbsp;Us </a></td>
+		<td align="right" id="navSize" nowrap>&nbsp;
+		<!-- Text Size Tool -->
+		<img src="common/nav_sep.gif" alt="" hspace="1" width="1" height="17"><a title="Small Text Size" id="navSmallText" href="#" onClick="setActiveStyleSheet('default'); return false"><img src="common/nav_smalltext.gif" alt="Small Text Size" border="0" width="17" height="17"></a><img src="common/nav_sep.gif" alt="" hspace="1" width="1" height="17"><a title="Medium Text Size" id="navMediumText" href="#" onClick="setActiveStyleSheet('Medium Text'); return false"><img src="common/nav_medtext.gif" alt="Medium Text Size" border="0" width="17" height="17"></a><img src="common/nav_sep.gif" alt="" hspace="1" width="1" height="17"><a title="Large Text Size" id="navLargeText" href="#" onClick="setActiveStyleSheet('Large Text'); return false"><img src="common/nav_largetext.gif" alt="Large Text Size" border="0" width="17" height="17"></a><img src="common/nav_sep.gif" alt="" hspace="1" width="1" height="17"></td>
+	</tr>
+</table>
+
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td width="12%" height="30">
+
+		&nbsp;</td>
+<td width="8" height="30">&nbsp;</td>
+<td height="30">
+
+
+
+&nbsp;</td>
+
+<td height="30">
+
+
+
+&nbsp;</td>
+
+<td width="198" nowrap height="30">
+	&nbsp;</td>
+
+</tr>
+<tr valign="top">
+<td width="12%">
+
+		<!-- Left Sidebar -->
+		<table id="leftBar" border="0" cellpadding="0" cellspacing="0" width="154">
+		<tr><td>
+
+				<!-- Search Form -->
+				<form id="search" name="search" action="http://www.nrcs.usda.gov/search.asp" method="get">
+				<input type="hidden" name="site" value="WV">
+
+				<table border="0" cellpadding="2" cellspacing="0">
+				<tr>
+					<td colspan="2" id="searchLabel"><label for="searchSite">Search</label></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<select name="ct" id="searchSite" tabindex="1" size="1" accesskey="s">
+						<option value="WV" selected>West&nbsp;Virginia</option>
+						<option value="ALL">All NRCS Sites</option>
+						<option value="USDA">NRCS, FSA &amp; RD</option>
+						</select>
+						<span id="searchFor">&nbsp;<label for="searchTerms">for</label></span></td>
+				</tr>
+				<tr>
+					<td><input type="text" tabindex="2" name="qu" id="searchTerms" size="11" onFocus="ClearSearch(this)" value="Enter Keywords"></td>
+					<td>
+                    <input type="image" tabindex="3" src="common/button_go.gif" alt="Go" name="Go" value="Search" border="0" width="32" height="19"></td>
+				</tr>
+				</table>
+				</form>
+
+
+				<!-- Secondary Navigation -->
+				<div id="subnav">
+
+					<!-- Section Title -->
+					<h2>Quick Access</h2>
+
+					<ul>
+					<li><a href="certification.html">Certification</a></li>
+					<li><a href="about/civilRights/civil.html">Civil Rights</a></li>
+					<li>
+					<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/people/volunteers">Earth Team Volunteers</a></li>
+					<li><a href="http://www.sc.egov.usda.gov/">Electronic 
+                    Government</a></li>
+					<li><a href="employment.html">Employment</a></li>
+					<li>
+					<a href="http://www.wv.nrcs.usda.gov/contact/index.html">Employee Directory</a></li>
+					<li>
+					<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/programs/farmbill">Farm Bill</a></li>
+					<li><a href="mlra13.html">Soil Survey Region 6</a></li>
+					<li><a href="http://photogallery.nrcs.usda.gov/">Photo Gallery</a></li>
+					<li><a href="technical/wvpmc.html">PMC</a></li>
+					<li>
+					<a href="http://nrcspad.sc.egov.usda.gov/DistributionCenter/">Publications</a></li>
+					<li><a href="sitemap.html">Site Map</a></li>
+					<li><a href="training.html">Training</a></li>
+					<li><a href="chesapeake_bay/wv_bay.html">WV Chesapeake Bay</a></li>
+					<li><a href="con_ed.html">Conservation Education</a></li>
+
+					</ul>
+
+
+				</div>&nbsp;<div id="auxnav">
+
+					<ul>
+					<li>
+                    <a href="http://offices.sc.egov.usda.gov/employeeDirectory/app?state=WV">Find a Service Center</a></li>
+					</ul>
+
+				</div>
+
+
+		</td></tr>
+		</table>
+
+		<a name="content" id="content"></a>
+
+</td>
+<td width="8">&nbsp;&nbsp;</td>
+<td>
+
+
+
+&nbsp;</td>
+
+<td>
+
+
+
+<p><font size="2">Welcome to the <acronym title="Natural Resources Conservation Service">NRCS</acronym> <strong>West&nbsp;Virginia</strong> state web site</font>.</p>
+<hr>
+<table border="0" cellspacing="1" width="932">
+	<tr>
+		<td width="156">
+		<a href="https://web-dev.sc.egov.usda.gov/wv/news/images/12release/gwwS.jpg">
+		<img border="0" src="news/images/12release/gwwS.jpg" width="150" height="140" alt="The Golden Winged Warbler"></a></td>
+		<td>
+		<h1 class="homeHighlight" style="margin-top: 0px">
+		<font face="Arial" style="font-size: 15px">
+		<a href="news/release/2013/13May17WHIPSignup.html">Sign-up to Protect 
+		Wildlife by June 14, 2013</a></font></h1>
+		<p style="line-height: 100%; margin-top: 0px">Natural Resources 
+		Conservation Service (NRCS) 
+offers voluntary conservation program opportunities through the Farm Bill.&nbsp;<br>
+<br>
+NRCS is announcing a ranking period for its Wildlife Habitat Incentive Program 
+(WHIP).&nbsp; All applications for program benefits received by June 14, 2013 will be 
+ranked and considered for funding in July. 
+		<p style="line-height: 100%; margin-top: 0px" align="right"><u>
+		<a href="news/release/2013/13May17WHIPSignup.html">...More Info</a></u></td>
+	</tr>
+</table>
+<hr>
+<table border="0" cellpadding="0" cellspacing="0" class="homeHighlight" width="925" height="200">
+	<!-- MSTableType="nolayout" -->
+	<tr>
+		<td>
+		<p style="margin-top: 0">
+		<a href="news/images/13success/HardyCoSwitchgrass1.jpg">
+		<img border="0" src="news/images/13success/HardyCoSwitchgrass1.jpg" width="153" height="125" alt="Poultry producer Tom VanMeter and Hardy County NRCS employees plant the Switchgrass in front of the exhaust fans."></a></td>
+		<td rowspan="2" style="vertical-align: top" align="left">
+<h1 align="left" class="homeHighlight" style="margin-top: 0">
+<font face="Arial">
+<a href="news/success/13success/13HardyCoSwitchgrass.html">
+Switchgrass&nbsp;windbreaks 
+planted on Hardy County poultry farm</a></font></h1>
+<p style="margin-top: 0"><br>
+In an effort to improve air quality and to better cycle nutrients, Hardy County 
+poultry producer Tom VanMeter is planting tall grass windbreaks near two of his 
+poultry house exhaust fans.<br>
+<br>
+“Planting tall grass windbreaks is an innovative conservation practice that will 
+help West Virginia poultry growers as they strive to meet Chesapeake Bay Total 
+Maximum Daily Load&nbsp; requirements on nutrients and sediment,” stated Carla Hardy, 
+Watershed Program Coordinator, West Virginia Conservation Agency, Moorefield, 
+West Virginia.</p>
+<p class="homeHighlight" style="margin-top: 0" align="right">
+<a href="news/success/13success/13HardyCoSwitchgrass.html">...More Info</a></td>
+	</tr>
+	<tr>
+		<td><a href="news/images/13success/HardyCoSwitchgrass2.jpg">
+		<img border="0" src="news/images/13success/HardyCoSwitchgrass2.jpg" width="152" height="120" alt="Poultry producer Tom VanMeter and Hardy County NRCS employees plant the Switchgrass in front of the exhaust fans."></a></td>
+	</tr>
+	<tr>
+		<td colspan="2" height="150">
+<hr>
+<h1 style="margin:0in;font-family:Arial;color:#17365D" class="homeHighlight">
+<span style="font-weight:bold">
+<a href="news/release/2013/13May14EarthTeam.html">USDA-NRCS Earth Team Volunteer 
+Program
+Volunteers: A Vital Part of the Natural Resources Conservation Service</a></span></h1>
+<p style="margin:0in;font-family:Verdana;"><br>
+<b><span style="font-size: 13px">Join the Earth Team!</span></b><br>
+<br>
+The Earth Team is a volunteer branch of the United States Department of 
+Agriculture’s Natural Resources Conservation Service (NRCS). We help people 
+conserve, improve, and sustain our natural resources and environment.<br>
+<br>
+You can be an Earth Team Volunteer and help protect soil, water, air, plants, 
+and wildlife in your community.&nbsp; </p>
+<p style="font-family: Verdana; margin: 0in" align="right">
+<a href="news/release/2013/13May14EarthTeam.html">...More Info</a></p>
+		<hr>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="100">
+<h1 class="homeHighlight"><a href="news/release/2013/13May29CSPSignup.html">USDA 
+Conservation Stewardship Program Sign-Up to end on June 14</a></h1>
+<p class="homeHighlight" align="left">MORGANTOWN, WV, May 29, 2013—USDA Natural 
+Resources Conservation Service (NRCS) is announcing a ranking period for the 
+Conservation Stewardship Program (CSP).&nbsp; CSP applications received before June 
+14, 2013 will be eligible for this ranking period.&nbsp; </p>
+<p class="homeHighlight" align="right">
+<a href="news/release/2013/13May29CSPSignup.html">...More Info</a></td>
+	</tr>
+	<tr>
+		<td colspan="2" height="150">
+<hr>
+<h1 align="left" class="homeHighlight"><b>
+<a href="news/release/2013/13June26StTech.html">West Virginia State Technical 
+Committee Meeting</a></b></h1>
+<p align="left">The public is invited to attend a meeting of the West Virginia 
+State Technical Committee for the United States Department of Agriculture’s 
+Natural Resources Conservation Service. The meeting will be held at 10:00 a.m. 
+on Wednesday, June 26, 2013 in room 200 at 1550 Earl Core Road in Morgantown, 
+WV. Topics include Farm Bill Programs.<br>
+<br>
+Persons with disabilities who require special accommodations 
+and/or alternative means for communication of program information (Braille, 
+large print, audiotape, etc.) associated with this meeting should contact 
+Charlotte Elliot-Friend at 304-284-4247 at least two weeks prior to the meeting 
+with his/her specific request.</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+<hr></td>
+	</tr>
+	</table>
+
+
+
+<p class="smtext" align="center">
+<a href="https://farmerclaims.gov/FarmerClaims/farmer.do">
+<img src="http://www.az.nrcs.usda.gov/images/hispanic-women%20banner.gif" border="0" height="90" width="728" alt="Link to hispanic/woman web page"></a></p>
+<p class="smtext">The Natural Resources Conservation Service provides leadership 
+in a partnership effort to help people conserve, maintain, and improve our natural 
+resources and environment.</p>
+
+
+
+
+
+</td>
+
+<!-- Audience Navigation -->
+<td width="198" nowrap>
+	<div id="infobar">
+
+		<h2>Information About:</h2>
+
+		<ul>
+		<li><a href="soils.html">Soils</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/water">Water</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/air">Air</a></li>
+		<li><a href="info_about/plants.html">Plants</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/plantsanimals/fishwildlife">Animals</a></li>
+		</ul>
+
+
+		<h2>Information For:</h2>
+
+		<ul>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/people/partners">Communities</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/technical/alphabetical">Farmers and Ranchers</a></li>
+		<li><a href="http://www.nrcs.usda.gov/partners/for_homeowners.html">Homeowners</a></li>
+		<li><a href="intranet/index.html">West&nbsp;Virginia <acronym title="Natural Resources Conservation Service">NRCS</acronym> Employees</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/about/legislation">Policy Makers</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/asr/national/students/?atype=Teachers and Students">Teachers and Students</a></li>
+		<li>
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/people/volunteers">Volunteers</a></li>
+		</ul>
+
+		<p>
+		<a href="https://public.govdelivery.com/accounts/USDANRCS/subscriber/new">
+		<img border="0" src="images/release/govDel.jpg" width="187" height="63"></a></div>
+
+
+</td>
+
+</tr>
+</table>
+
+
+
+<br><br>
+
+
+<!-- Footer -->
+<div id="footer">
+
+<hr size="1" noshade>
+
+<table border="0" cellpadding="2" cellspacing="0">
+<tr valign="top">
+	<td width="155" id="footerLeft" nowrap>&nbsp;<a href="#top"><img src="common/footer_uparrow.gif" alt="" border="0" width="11" height="8">Back&nbsp;to&nbsp;Top</a>&nbsp;&nbsp;</td>
+	<td id="footerLinks">
+		<a href="sitemap.html">Site&nbsp;Map</a> &nbsp;|&nbsp;
+		<a href="contact/">Contact</a> &nbsp;|&nbsp;
+        <a href="mailto:carol.lagodich@wv.usda.gov">Webmaster</a> &nbsp;|&nbsp;
+		<acronym title="Natural Resources Conservation Service">
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/home">NRCS</a></acronym> &nbsp;|&nbsp;
+		<acronym title="United States Department of Agriculture">
+		<a href="http://www.usda.gov/wps/portal/usda/usdahome">USDA</a></acronym> &nbsp;|&nbsp;
+		<a href="http://www.usa.gov/">USAGov</a><br>
+
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/about/?cid=nrcsdev11_000886">Accessibility</a> &nbsp;|&nbsp;
+		<acronym title="Freedom of Information Act">
+		<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/about/?cid=NRCS143_021450">FOIA</a></acronym> &nbsp;|&nbsp;<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/?ss=16&navtype=TOPNAVIGATION&cid=nrcsdev11_000885&navid=210000000000000&pnavid=null&position=Not Yet Determined.Html&ttype=detailfull&pname=USDA NRCS - Natural Resources Conservation Servi"> Privacy Policy</a> &nbsp;|&nbsp;
+		<a href="http://www.usda.gov/wps/portal/!ut/p/_s.7_0_A/7_0_1OB?navtype=FT&navid=NON_DISCRIMINATION">Nondiscrimination Statement</a> 
+		&nbsp;<br>
+	</td>
+</tr>
+</table>
+
+</div>
+
+
+<!--msnavigation--></td></tr><!--msnavigation--></table></body></html>

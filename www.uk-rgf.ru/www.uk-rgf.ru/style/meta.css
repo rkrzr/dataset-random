@@ -1,0 +1,80 @@
+/*
+// 2005-04-20
+// Copyright (c) Articul Media
+// Author - Pavel Motorin
+// чутка по мотивам известного vlalek.css ;-)
+*/
+
+*
+{ padding: 0; margin: 0; font-size: 100%; line-height: 1.4em; }
+
+BODY
+{ background-color: #ffffff; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 80%; padding: 0; }
+
+IMG
+{ border: none; margin: 0;}
+
+H1, H2, H3, H4, H5, H6
+{ margin: 0; }
+
+H1
+{ font-size: 210%; font-weight: normal; color: #000000; line-height: 1.2em; }
+H2
+{ font-size: 130%; font-weight: bold; color: #000000; line-height: 1.2em; } /* margin-top: 1.7em; */
+H3
+{ font-size: 110%; font-weight: bold; color: #000000; line-height: 1.2em; }
+H4
+{  }
+H5
+{  }
+H6
+{ }
+
+TABLE, UL, OL, DL
+{ padding: 0; margin: 0; }
+
+UL, OL, DL
+{ padding-left: 0; }
+
+P
+{ margin-top: 1.3em; }
+
+
+TABLE, TD, TH
+{ border-collapse: collapse; border-spacing: 0; vertical-align: top; text-align: left; font-weight: normal; }
+  
+A
+{ color: #006f48; }
+A:hover
+{  }
+
+IMG.Icon		/* Иконка файлов для скачивания */
+{ width: 24px; height: 23px; margin-right: 5px;}
+
+.Nowrap
+{ white-space: nowrap; }
+
+.Clear
+{ clear: both; }
+
+UL.WithDash		/* список с оформлением с длинным тире */
+{ display: block;}
+UL.WithDash LI
+{ display: block; padding-left: 1.4em; text-indent: -1.3em;}
+
+
+UL.WithImg		/* список с оформлением с картинкой */
+{ margin-top: 5px; margin-left: 12px; }
+* HTML UL.WithImg		
+{ margin-top: 5px; margin-left: 17px; }
+UL.WithImg LI
+{ padding-bottom: 5px; }
+
+UL.Ball		/* список с оформлением с картинкой */
+{ margin-top: 5px; margin-left: 12px; }
+* HTML UL.Ball		
+{ margin-top: 5px; margin-left: 17px; }
+UL.Ball LI
+{ padding-bottom: 5px; }
+
+

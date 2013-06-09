@@ -1,0 +1,21 @@
+.newsletter_code {
+	background-color: #FAFAFA; 
+	border: #D1D7DC;
+	width: 600px; 
+	border-style: solid;
+	border-left-width: 1px; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px
+}
+.newsletter_subscribe_errmsg {
+	background-color: #FFAEAE; 
+	color: maroon;
+}
+.newsletter_subscribe_ok {
+	background-color: #B0E57C; 
+	color: #004000;
+}
+.newsleter_legend {
+	color: red;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Poll</title>
+<link rel="stylesheet" href="style/poll.css" media="screen,projection" type="text/css" />
+</head>
+
+<body>
+
+<form action="poll.php" method="post">
+<input type="hidden" name="id" value="39" />
+
+<h2>How would you prefer to receive information about the Government's welfare reforms?</h2>
+
+<p>
+
+<input class="radio" type="radio" id="option_1" name="option" value="1" />
+<label for="option_1" class="radioCheck">Information leaflet</label><br />
+
+<input class="radio" type="radio" id="option_2" name="option" value="2" />
+<label for="option_2" class="radioCheck">Roadshow</label><br />
+
+<input class="radio" type="radio" id="option_3" name="option" value="3" />
+<label for="option_3" class="radioCheck">Video</label><br />
+
+<input class="radio" type="radio" id="option_4" name="option" value="4" />
+<label for="option_4" class="radioCheck">Social networks</label><br />
+
+<input class="radio" type="radio" id="option_5" name="option" value="5" />
+<label for="option_5" class="radioCheck">Email</label><br />
+
+</p>
+
+<p>
+<input class="submit" type="submit" name="submit" value="Vote" />
+</p>
+
+</form>
+
+
+</body>
+
+</html>

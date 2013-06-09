@@ -1,0 +1,654 @@
+a.link:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #ffcc00;
+}
+
+a.link:Hover
+{
+color: #000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #ffcc00;
+}
+
+
+
+
+a.patata:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : none;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Hover
+{
+color: #ffcc00;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : normal;
+font-size : 11px;
+background-color : #000000;
+}
+
+
+a.extintor:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : none;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+}
+
+a.extintor:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+}
+
+a.extintor:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+background-color : #C32E31;
+}
+
+a.extintor:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : underline;
+font-size : 12px;
+background-color : #C32E31;
+}
+
+
+
+
+
+
+
+
+
+
+
+a.link2:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link2:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link2:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.link2:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #F28930;
+}
+
+
+
+
+a.link3:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link3:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link3:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+a.link3:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+
+
+
+a.link4:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link4:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link4:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+a.link4:Hover
+{
+color: #000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+
+
+
+
+
+
+
+
+
+a.link_fijo:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #ffcc00;
+}
+
+a.link:Hover
+{
+color: #000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #ffcc00;
+}
+
+
+
+
+a.patata:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : none;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.patata:Hover
+{
+color: #ffcc00;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : normal;
+font-size : 11px;
+background-color : #000000;
+}
+
+
+a.extintor:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : none;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+}
+
+a.extintor:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+}
+
+a.extintor:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : none;
+font-size : 12px;
+background-color : #C32E31;
+}
+
+a.extintor:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : bold;
+text-decoration : underline;
+font-size : 12px;
+background-color : #C32E31;
+}
+
+
+
+
+
+
+
+
+
+
+
+a.link2:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link2:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+}
+
+a.link2:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #;
+}
+
+a.link2:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #F28930;
+}
+
+
+
+
+a.link3:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link3:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link3:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+a.link3:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+
+
+
+a.link4:Link
+{
+color: #000000;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link4:Visited
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+}
+
+a.link4:Active
+{
+color:#000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+a.link4:Hover
+{
+color: #000000;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : underline;
+font-size : 11px;
+background-color : #;
+}
+
+
+
+
+
+
+
+
+
+
+a.link_fijo:Link
+{
+color: #ffffff;
+font-family: Verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Visited
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Active
+{
+color:#ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+
+a.link_fijo:Hover
+{
+color: #ffffff;
+font-family:verdana;
+font-style : normal;
+font-weight : normal;
+text-decoration : none;
+font-size : 11px;
+background-color : #D90000;
+}
+

@@ -1,0 +1,2 @@
+#divScroller1 {position:absolute; overflow:hidden; z-index:9; width:491px; height:260px; clip:     rect(   ); visibility:visible;; border: 1px #CCCCCC dashed}
+.dynPage {position:absolute; z-index:10; width:471px; visibility:hidden; clip:      rect(   ); height: 250px}

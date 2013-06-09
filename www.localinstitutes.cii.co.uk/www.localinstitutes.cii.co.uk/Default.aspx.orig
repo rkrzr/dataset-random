@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-GB" lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke� - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2010                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2012 Chartered Insurance Institute" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="Local Institutes Portal" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals__default_Skins_LondonAzure_" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/LondonAzure/skin.css" /><link id="APortals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" /><!--[if LT IE 7]><link id="IE6Minus" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/LondonAzure/ie6skin.css" /><![endif]--><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><title>
+	Local Institutes Portal > Home
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/Default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDIyOTEzMjkPZBYGZg8WAh4EVGV4dAV5PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPmQCAQ9kFg4CBA8WAh4HVmlzaWJsZWhkAgUPFgQeB2NvbnRlbnRkHwFoZAIGDxYCHwIFDyxEb3ROZXROdWtlLEROTmQCBw8WAh8CBSxDb3B5cmlnaHQgMjAxMiBDaGFydGVyZWQgSW5zdXJhbmNlIEluc3RpdHV0ZWQCCA8WAh8CBQtEb3ROZXROdWtlIGQCCQ8WAh8CBRdMb2NhbCBJbnN0aXR1dGVzIFBvcnRhbGQCDA8WAh8CBQ1JTkRFWCwgRk9MTE9XZAICD2QWAgIBD2QWBAIED2QWAmYPZBYUZg9kFgJmD2QWAmYPFgIfAWgWAmYPZBYCZg9kFgYCAw8QZGQWAGQCDw9kFgJmDw8WBh4ISW1hZ2VVcmwFFC9pbWFnZXMvY29sbGFwc2UuZ2lmHg1BbHRlcm5hdGVUZXh0BQhNaW5pbWl6ZR4HVG9vbFRpcAUITWluaW1pemUWCh4HdXNlcmN0cgUJVXNhYmlsaXR5Hgd1c2Vya2V5BRRDb250cm9sUGFuZWxWaXNpYmxlMB4Hb25jbGljawVRaWYgKF9fZG5uX1NlY3Rpb25NYXhNaW4odGhpcywgICdkbm5fSWNvbkJhci5hc2N4X3Jvd0NvbnRyb2xQYW5lbCcpKSByZXR1cm4gZmFsc2U7HghtYXhfaWNvbgUSL2ltYWdlcy9leHBhbmQuZ2lmHghtaW5faWNvbgUUL2ltYWdlcy9jb2xsYXBzZS5naWZkAhEPZBYCAgEPZBYCAgEPZBYQAgEPEGRkFgBkAgUPEGRkFgBkAgcPEGRkFgBkAgsPEGRkFgBkAg8PEGRkFgBkAhUPEGRkFgBkAhkPEGRkFgFmZAIdDxBkZBYAZAIBD2QWCGYPFgIfAAUePGRpdiBjbGFzcz0ibGFuZ3VhZ2Utb2JqZWN0IiA+ZAICDxAPFgIfAWhkZBYAZAIEDxYCHwFoZAIGDxYCHwAFBjwvZGl2PmQCAg9kFgJmDw8WBB8FBRdMb2NhbCBJbnN0aXR1dGVzIFBvcnRhbB4LTmF2aWdhdGVVcmwFP2h0dHA6Ly93d3cubG9jYWxpbnN0aXR1dGVzLmNpaS5jby51ay9Ib21lL3RhYmlkLzM2L0RlZmF1bHQuYXNweGRkAgQPZBYEZg8WAh8BaBYGAgEPEA8WCh4IQ3NzQ2xhc3MFEFNlcnZlclNraW5XaWRnZXQfAAUDV2ViHwUFEUdvb2dsZSBXZWIgU2VhcmNoHgdDaGVja2VkZx4EXyFTQgICZGRkZAIDDxAPFgofDAUQU2VydmVyU2tpbldpZGdldB8ABQRTaXRlHwUFC1NpdGUgU2VhcmNoHw1nHw4CAmRkZGQCBw8PFgYfDAUQU2VydmVyU2tpbldpZGdldB8ABWI8aW1nIHNyYz0iL1BvcnRhbHMvX2RlZmF1bHQvU2tpbnMvTG9uZG9uQXp1cmUvaW1hZ2VzL3NlYXJjaC5naWYiIGJvcmRlcj0iMCIgYWx0PSJzZWFyY2hfYnV0dG9uIiAvPh8OAgJkZAICDxYCHwFnFgRmDw8WBB8EBRZTZWxlY3QgdGhlIHNlYXJjaCB0eXBlHwUFFlNlbGVjdCB0aGUgc2VhcmNoIHR5cGVkZAICDw8WBh8MBRBTZXJ2ZXJTa2luV2lkZ2V0HwAFYjxpbWcgc3JjPSIvUG9ydGFscy9fZGVmYXVsdC9Ta2lucy9Mb25kb25BenVyZS9pbWFnZXMvc2VhcmNoLmdpZiIgYm9yZGVyPSIwIiBhbHQ9InNlYXJjaF9idXR0b24iIC8+Hw4CAmRkAgcPZBYCZg8PFgYfDAUEdXNlch8ABQVMb2dpbh8OAgJkZAIIDxYCHwFnFgICAQ9kFgICAQ9kFgJmDxYCHgVjbGFzcwUMRE5OQWxpZ25sZWZ0FgICAQ8PZBYCHw8FC01vZEROTkhUTUxDZAIJDxYCHw8FFUxlZnRQYW5lIEROTkVtcHR5UGFuZWQCCg8WAh8BZxYCAgEPZBYCAgEPZBYCZg8WAh8PBQxETk5BbGlnbmxlZnQWAgIBDw9kFgIfDwULTW9kRE5OSFRNTENkAgsPFgIfDwUWUmlnaHRQYW5lIEROTkVtcHR5UGFuZWQCDA8WAh8PBRdCb3R0b21QYW5lIEROTkVtcHR5UGFuZWQCCg8UKwACFCsAA2RkZGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRRkbm4kZG5uTkFWJGN0bGRubk5BVpl1qSHZtfIi6CrYNIZDePfMFHgu" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=bB7VdcMSzdOJ3qLHXM_H5AKNIi3D34wk2yT6iPi2qk4K-7PfBhVzu6nfCWiiRytp0q3RJKKmpVH2Y46B0&amp;t=634604424479085897" type="text/javascript"></script>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = '{"name":"en-GB","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":false,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"£","NaNSymbol":"NaN","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinity","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"Infinity","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"AM","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":false},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":0,"FullDateTimePattern":"dd MMMM yyyy HH:mm:ss","LongDatePattern":"dd MMMM yyyy","LongTimePattern":"HH:mm:ss","MonthDayPattern":"dd MMMM","PMDesignator":"PM","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"HH:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"ShortestDayNames":["Su","Mo","Tu","We","Th","Fr","Sa"],"DayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"AbbreviatedMonthNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthNames":["January","February","March","April","May","June","July","August","September","October","November","December",""],"IsReadOnly":false,"NativeCalendarName":"Gregorian Calendar","AbbreviatedMonthGenitiveNames":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec",""],"MonthGenitiveNames":["January","February","March","April","May","June","July","August","September","October","November","December",""]}}';//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=dKpm0klH7zKGSo6XRpBonK2-Br6DgcdPxLfJ3R4LfJXhF1RGNJJKb1ZhkqxB8XTuOCMsnAY2uYGTODP1Sn0DNgCFxEqiaNmDx3cR7ezw3uvDcn8xeax3FywoXwxwZOEUdgcw3rCuG3bjsdp0g64OTDR6nTQ1&amp;t=ffffffffb868b5f4" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QqEHIhSKxzEvlmdK6T_XAHY6Q4embQNjdP7SaKCjMjxgErPIAS2Nu84g-MgQwfIPcBBf2EfnV66UBhNTyrphShzFFDqHv92gnajfosT4Be7ZpwODNpbGBhbeSWRAS4G4vcZlEPwHnasqsY0pFpXw__SocF7oHk0cBlAaog2&amp;t=ffffffffb868b5f4" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<script src="/js/dnn.xml.js" type="text/javascript"></script>
+<script src="/js/dnn.xmlhttp.js" type="text/javascript"></script>
+<script src="/js/dnn.dom.positioning.js" type="text/javascript"></script>
+<script src="/js/dnn.controls.js" type="text/javascript"></script>
+<script src="/js/dnn.controls.dnnmenu.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+dnn.controls.submitComp.onsubmit();
+return true;
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', document.getElementById('Form'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+        
+        
+
+    <div>
+        <div class="template_style">
+            <div id="dnn_ControlPanel">
+</div>
+                <div class="lang_pad">
+                    <div class="language-object" >
+
+
+</div>
+                </div>
+            <div class="logo_pad">
+                <a id="dnn_dnnLOGO_hypLogo" title="Local Institutes Portal" href="http://www.localinstitutes.cii.co.uk/Home/tabid/36/Default.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/London_logo_banner4.gif" alt="Local Institutes Portal" style="border-width:0px;" /></a>
+                <div class="clear_float"></div>
+            </div>
+            <div class="clear_float"></div>
+            <div class="menu_left">
+                <div class="menu_right">
+                    <div class="menu_bg">
+                        <div class="menu_style">
+                            <span><span class="main_dnnmenu_item" id="dnn_dnnNAV_ctldnnNAV"></span></span>
+                        </div>
+                        <div class="search_style">
+                            <div class="search_bg">
+                                
+
+<div id="dnn_dnnSEARCH_DropDownSearch" class="SearchContainer">
+  <div class="SearchBorder">
+  <div id="SearchIcon" class="SearchIcon" onclick="document.getElementById('SearchChoices').style.display='block'" >
+    <img id="dnn_dnnSEARCH_downArrow" title="Select the search type" src="/images/action.gif" alt="Select the search type" style="border-width:0px;" />
+  </div>
+  <input name="dnn$dnnSEARCH$txtSearchNew" type="text" maxlength="255" id="dnn_dnnSEARCH_txtSearchNew" class="SearchTextBox" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearchNew%27,%27%27)', event);" />&nbsp;
+  <ul id="SearchChoices">
+    <li id="SearchIconSite">Site</li>
+    <li id="SearchIconWeb">Web</li>
+  </ul>
+  </div>
+  <a id="dnn_dnnSEARCH_cmdSearchNew" class="ServerSkinWidget" href="javascript:__doPostBack('dnn$dnnSEARCH$cmdSearchNew','')"><img src="/Portals/_default/Skins/LondonAzure/images/search.gif" border="0" alt="search_button" /></a>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="clear_float">
+                        </div>
+                        <div class="menu_stripe">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear_float"></div>
+            <div class="bread_left">
+                <div class="bread_right">
+                    <div class="bread_bg">
+                        <div id="bread_style">
+                            <span id="dnn_dnnTEXT_lblText" class="breadcrumb_text">You are here</span>
+:&nbsp;<span><span id="dnn_dnnBREADCRUMB_lblBreadCrumb"><a href="http://www.localinstitutes.cii.co.uk/Home/tabid/36/Default.aspx" class="Breadcrumb">Home</a></span>
+</span>
+                        </div>
+                        <div id="login_style" class="user">
+                         
+                        </div>
+                        <div class="clear_float">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center_bg">
+                <div class="left_bg">
+                    <div class="right_bg">
+                        <div class="content_pad">
+                            <div class="content_width">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td id="dnn_TopPane" valign="top" class="TopPane" colspan="3">
+                                        <div><a id="1234" name="1234"></a><div id="dnn_ctr1234_ContentPane" class="DNNAlignleft"><!-- Start_Module_1234 --><div id="dnn_ctr1234_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr1234_HtmlModule_lblContent" class="Normal">
+	<p><img alt="" width="959" height="80" src="/Portals/0/LI_Banner.gif" /></p>
+</div>
+
+</div><!-- End_Module_1234 --></div>
+</div></td>
+
+                                    </tr>
+                                    <tr>
+                                        
+                                        <td id="dnn_ContentPane" valign="top" class="ContentPane">
+                                        <div><a id="1233" name="1233"></a><div id="dnn_ctr1233_ContentPane" class="DNNAlignleft"><!-- Start_Module_1233 --><div id="dnn_ctr1233_ModuleContent" class="ModDNNHTMLC">
+	<div id="dnn_ctr1233_HtmlModule_lblContent" class="Normal">
+	<p><style type="text/css">
+<!--
+.paleorangebg {background: #FCF1E3}
+.orangeheadingbg {background: #F08801}
+
+.orangeheading { font-family: Arial, Helvetica, sans-serif;
+color: #F08801; font-size:20px;
+font-weight: bold;
+border-bottom-color:#F08801;
+border-bottom-style: solid;
+border-bottom-width: 2px;}
+
+
+.introorange {color: #F08801; font-size:12px; font-weight:bold;}
+
+--></style></p>
+<h3 class="h3Orange">Make the most of your membership</h3>
+<table class="tbl-two-col" width="100%">
+    <tbody>
+        <tr>
+            <td>
+            <p><span style="font-size: small"><span style="font-family: Arial">When you become a member of the CII, you automatically join a local institute of your choice, usually close to where you live or work. There are currently 60 local institutes across the UK, 7 associated institutes in the Republic of Ireland and 70 affiliated institutes across the globe, who offer additional support to CII members.</span></span></p>
+            <p class="introorange"><span style="font-size: small"><span style="font-family: Arial">In the UK, your local institute is run by a dedicated group of industry professionals offering a range of key local benefits. This includes:</span></span></p>
+            <ul class="standard">
+                <li><span style="font-size: small"><span style="font-family: Arial">Technical and regulatory seminars, and training courses </span></span></li>
+                <li><span style="font-size: small"><span style="font-family: Arial">Career guidance, mentoring and knowledge services </span></span></li>
+                <li><span style="font-size: small"><span style="font-family: Arial">Social and networking activities </span></span></li>
+                <li><span style="font-size: small"><span style="font-family: Arial">Community engagement initiatives </span></span></li>
+                <li><span style="font-size: small"><span style="font-family: Arial">Local news and information </span></span></li>
+            </ul>
+            </td>
+            <td>&#160;&#160;</td>
+            <td><span style="font-size: small"><span style="font-family: Arial">
+            <p><span style="font-size: small"><span style="font-family: Arial">Local institute events tend to range from one hour seminars to full day training courses covering a variety of technical and soft skills subjects. All of these events can count towards your CPD requirements, should you consider it relevant to your professional development needs.</span></span></p>
+            <p>Networking opportunities exist throughout the year, in particular at the social occasions where money is often raised for The Insurance Charities.</p>
+            <p><span style="font-size: small"><span style="font-family: Arial">The more you engage in the life of your local Institute the more you’ll get out of your membership. To get involved or to keep up to date with your local institute events and activities please </span></span><a href="http://www.cii.co.uk/cii/localandglobal/localinstitutesportal.aspx"><span style="font-size: small"><span style="font-family: Arial">click here</span></span></a><span style="font-size: small"><span style="font-family: Arial">.</span></span></p>
+            </span></span></td>
+        </tr>
+    </tbody>
+</table>
+<table class="tbl-one-col" width="100%">
+    <tbody>
+        <tr>
+            <td>
+            <p><span style="font-size: small"><span style="font-family: Arial">Networking opportunities exist throughout the year, in particular at the social occasions where money is often raised for The Insurance Charities.</span></span></p>
+            <p><span style="font-size: small"><span style="font-family: Arial">The more you engage in the life of your local Institute the more you’ll get out of your membership. To get involved or to keep up to date with your local institute events and activities please choose a portal from the list below.</span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&#160;</p>
+</div>
+
+</div><!-- End_Module_1233 --></div>
+</div></td>
+
+                                        
+                                    </tr>
+                                    <tr>
+                                        
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot_left">
+                <div class="bot_right">
+                    <div class="bot_bg links">
+                        <span id="dnn_dnnLINKS_lblLinks"><a class="links" href="http://www.localinstitutes.cii.co.uk/Home/tabid/36/Default.aspx">Home</a></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bot_pad">
+                <div id="terms_style" class="footer">
+                    <a id="dnn_dnnPRIVACY_hypPrivacy" class="footer" rel="nofollow" href="http://www.localinstitutes.cii.co.uk/Home/tabid/36/ctl/Privacy/Default.aspx">Privacy Statement</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="dnn_dnnTERMS_hypTerms" class="footer" rel="nofollow" href="http://www.localinstitutes.cii.co.uk/Home/tabid/36/ctl/Terms/Default.aspx">Terms Of Use</a>
+                </div>
+                <div id="copy_style" class="footer">
+                    <span id="dnn_dnnCOPYRIGHT_lblCopyright" class="footer">Copyright 2012 Chartered Insurance Institute</span>
+
+                </div>
+                <div class="clear_float">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" value="`{`__scdoff`:`1`,`dnn_dnnNAV_ctldnnNAV_json`:`{nodes:[{bcrumb:\`1\`,selected:\`1\`,id:\`36\`,key:\`36\`,txt:\`Home\`,ca:\`3\`,url:\`http://www.localinstitutes.cii.co.uk/Home/tabid/36/Default.aspx\`,img:\`\`,css:\`main_dnnmenu_rootitem_selected\`,cssHover:\`main_dnnmenu_rootitem_hover\`,cssIcon:\` \`,cssSel:\`main_dnnmenu_rootitem_selected\`,nodes:[{id:\`5292\`,key:\`5292\`,txt:\`Cookie test 1\`,ca:\`3\`,url:\`http://www.localinstitutes.cii.co.uk/Home/Cookietest1/tabid/5292/Default.aspx\`,img:\`\`,cssHover:\`main_dnnmenu_itemhover\`,nodes:[]},{id:\`5293\`,key:\`5293\`,txt:\`Cookie test 2\`,ca:\`3\`,url:\`http://www.localinstitutes.cii.co.uk/Home/Cookietest2/tabid/5293/Default.aspx\`,img:\`\`,cssHover:\`main_dnnmenu_itemhover\`,nodes:[]},{id:\`5294\`,key:\`5294\`,txt:\`Cookie test 3\`,ca:\`3\`,url:\`http://www.localinstitutes.cii.co.uk/Home/Cookietest3/tabid/5294/Default.aspx\`,img:\`\`,cssHover:\`main_dnnmenu_itemhover\`,nodes:[]}]}]}`,`SearchIconWebUrl`:`url(/images/Search/google-icon.gif)`,`SearchIconSiteUrl`:`url(/images/Search/dotnetnuke-icon.gif)`,`SearchIconSelected`:`S`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script><script type="text/javascript" src="/Resources/Search/Search.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+<script type="text/javascript">dnn.setVar('dnn_dnnNAV_ctldnnNAV_p', '{mcss:\'main_dnnmenu_submenu\',callback:\'dnn.xmlhttp.doCallBack(\\\'ctldnnNAV dnn_dnnNAV_ctldnnNAV\\\',\\\'[NODEXML]\\\',this.callBackSuccess,mNode,this.callBackFail,this.callBackStatus,null,null,0);\',easeType:\'3\',mbcss:\'main_dnnmenu_bar\',css:\'main_dnnmenu_item\',easeDir:\'0\',orient:\'0\',rmode:\'0\',anim:\'0\',sysimgpath:\'/images/\',suborient:\'1\',postback:\'__doPostBack(\\\'dnn$dnnNAV$ctldnnNAV\\\',\\\'[NODEID]~|~Click\\\')\'}');dnn.controls.initMenu($get('dnn_dnnNAV_ctldnnNAV'));</script></form>
+</body>
+</html>

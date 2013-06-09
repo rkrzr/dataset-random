@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>ALICE
+
+ Directory
+
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT"/>
+<link rel="stylesheet" href="/style/all.css" type="text/css"/>
+<script language="javascript" src="/scripts/lib.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<div id="header">
+	<div id="homepage">
+		<a href="http://virgilio.alice.it/?pmk=ric" title="torna alla home page di Virgilio">Home Virgilio</a> | <a href="http://mappe.alice.it/tcolnew/index_alice.html?pmk=ric">Mappe</a>
+
+        </div>
+        <div class="nofloat">
+        	<a href="http://ricerca.alice.it" title="vai alla homepage di Virgilio Ricerca" class="hp-link">
+            		<img src="http://images.alice.it/ricerca/1.0/common/logo_listing_beta.gif" class="logo-img" alt="torna in homepage" >
+            	</a>
+            	
+		<!-- form header -->
+		<div class="form">
+			<!-- search tab container -->
+            <script type="text/javascript" src="http://ricerca.alice.it/js/Web.js"></script>
+            
+<div id="tab-form">
+	<ul>
+	    	<li><a class="this-tab"  href="http://ricerca.alice.it/index.html">Web</a> |</li>
+	    	<li><a href="http://ricercaaziende.alice.it/hp_aziende.html">Aziende</a> |</li>
+	    	<li><a href="http://ricercaannunci.alice.it"class="new-label">Annunci</a> |</li>
+	        <li><a href="http://ricercaimmagini.alice.it/hp_immagini.html">Immagini</a> |</li>
+	        <li><a href="http://ricercanews.alice.it/hp_news.html">News</a> |</li>
+	        <li><a href="http://ricercashopping.alice.it/hp_shopping.html">Shopping</a> |</li>
+	        <li><a href="http://ricercavideo.alice.it/hp_video.html">Video</a> |</li>
+	        
+	        <li id="tab-altro" class="tab-altro">
+	        	<a href="#" title="Cerca in altre categorie" id="s_altro">Altro</a>
+	                <div id="tab-altro-cont-header">
+
+	                	
+		                <div class="tab-altro-item-top"><a href="http://ricercamusica.alice.it/hp_musica.html">Musica</a></div>
+		                <div class="tab-altro-item"><a href="http://ricercaaste.alice.it/hp_aste.html" >Aste</a></div>
+		                <div class="tab-altro-item"><a href="http://ricercagruppi.alice.it/hp_gruppi.html" >Gruppi</a></div>
+				<div class="tab-altro-item-bt"><a href="http://ricercablog.alice.it/hp_blog.html">Blog</a></div>
+		                <!--[if lte IE 6.5]><iframe></iframe><![endif]-->
+	                </div>
+	        </li>
+
+	</ul>
+</div>
+
+
+			<form action="http://ricerca.alice.it/ricerca" method="get" name="trova" id="trova">
+
+	<input type="text" name="qs" id="qs" value=""  title="Virgilio Ricerca" class="text-input-web">
+	<input type="submit"  value="" name="Cerca" alt="Trova" class="cerca-bt">
+	
+	
+</form>
+
+		</div>
+		<!-- end form header -->
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="listing-title"><h2><a href="/home/index.html">Virgilio Directory</a></h2></div>
+
+
+
+
+
+
+
+
+
+<!-- path -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+
+<td width="75%">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td colspan="2" height="3"><spacer type="block" height="3"></td></tr>
+<tr><td class="tgrey16" nowrap><div class="dirspace">Benvenuto nella directory Siti di <span class="siti">Virgilio</span></div></td></tr>
+
+
+
+
+
+
+
+
+
+
+<!-- listing -->
+<tr><td colspan="2" height="20"><spacer type="block" height="20"></td></tr>
+<tr><td class="header"><div class="dirspace3">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="33%" valign="top" class="tblu"><a href="/home/index.html?ccat=6001" class="link16"><b>Ambiente e Natura</b></a><br/><a href="/home/index.html?ccat=6023" class="link12blu">Animali</a>, <a href="/home/index.html?ccat=6026" class="link12blu">Ecologia</a>, <a href="/home/index.html?ccat=6024" class="link12blu">Parchi</a>...<br/><br/><a href="/home/index.html?ccat=6002" class="link16"><b>Arti e Lettere</b></a><br/><a href="/home/index.html?ccat=6048" class="link12blu">Pittura</a>, <a href="/home/index.html?ccat=6045" class="link12blu">Letteratura</a>, <a href="/home/index.html?ccat=6044" class="link12blu">Fumetti</a>...<br/><br/><a href="/home/index.html?ccat=6003" class="link16"><b>Computer e Internet</b></a><br/><a href="/home/index.html?ccat=6065" class="link12blu">Software</a>, <a href="/home/index.html?ccat=10623" class="link12blu">Chat</a>, <a href="/home/index.html?ccat=6576" class="link12blu">Gratis</a>...<br/><br/><a href="/home/index.html?ccat=6004" class="link16"><b>Economia e Diritto</b></a><br/><a href="/home/index.html?ccat=11328" class="link12blu">Finanza e Borsa</a>, <a href="/home/index.html?ccat=11392" class="link12blu">Fisco</a>...<br/><br/><a href="/home/index.html?ccat=6005" class="link16"><b>Giochi</b></a><br/><a href="/home/index.html?ccat=6086" class="link12blu">Videogiochi</a>, <a href="/home/index.html?ccat=6720" class="link12blu">GdR</a>, <a href="/home/index.html?ccat=6666" class="link12blu">Fantagiochi</a>...<br/><br/><a href="/home/index.html?ccat=6006" class="link16"><b>Hobby e Casa</b></a><br/><a href="/home/index.html?ccat=6099" class="link12blu">Annunci</a>, <a href="/home/index.html?ccat=6095" class="link12blu">Motori</a>, <a href="/home/index.html?ccat=10636" class="link12blu">Telefonia</a>...<br/><br/></td>
+<td width="33%" valign="top" class="tblu"><a href="/home/index.html?ccat=6007" class="link16"><b>Informazione e Spettacolo</b></a><br/><a href="/home/index.html?ccat=6109" class="link12blu">Cinema</a>, <a href="/home/index.html?ccat=6113" class="link12blu">Radio</a>, <a href="/home/index.html?ccat=6117" class="link12blu">Televisione</a>...<br/><br/><a href="/home/index.html?ccat=6008" class="link16"><b>Istruzione</b></a><br/><a href="/home/index.html?ccat=45947" class="link12blu">Tesine</a>, <a href="/home/index.html?ccat=6134" class="link12blu">Universit&agrave;</a>, <a href="/home/index.html?ccat=6129" class="link12blu">Corsi</a>...<br/><br/><a href="/home/index.html?ccat=6009" class="link16"><b>Musica</b></a><br/><a href="/home/index.html?ccat=6166" class="link12blu">Rock e Pop</a>, <a href="/home/index.html?ccat=6158" class="link12blu">Italiana</a>, <a href="/home/index.html?ccat=6172" class="link12blu">Testi</a>...<br/><br/><a href="/home/index.html?ccat=6010" class="link16"><b>Religione e Spiritualit&agrave;</b></a><br/><a href="/home/index.html?ccat=6184" class="link12blu">Cristianesimo</a>, <a href="/home/index.html?ccat=6191" class="link12blu">New Age</a>...<br/><br/><a href="/home/index.html?ccat=6011" class="link16"><b>Salute e Benessere</b></a><br/><a href="/home/index.html?ccat=6213" class="link12blu">Medicina</a>, <a href="/home/index.html?ccat=6215" class="link12blu">Cure alternative</a>...<br/><br/><a href="/home/index.html?ccat=6012" class="link16"><b>Scienza e Tecnologia</b></a><br/><a href="/home/index.html?ccat=6229" class="link12blu">Astronomia</a>, <a href="/home/index.html?ccat=6234" class="link12blu">Fisica</a>, <a href="/home/index.html?ccat=6236" class="link12blu">Informatica</a>...<br/><br/></td>
+<td width="33%" valign="top" class="tblu"><a href="/home/index.html?ccat=6013" class="link16"><b>Scienze umane e sociali</b></a><br/><a href="/home/index.html?ccat=6252" class="link12blu">Filosofia</a>, <a href="/home/index.html?ccat=6256" class="link12blu">Psicologia</a>, <a href="/home/index.html?ccat=6259" class="link12blu">Storia</a>...<br/><br/><a href="http://shopping.alice.it/supporto/negozi/index.html" class="link16"><b>Shopping</b></a><br/><a href="http://shopping.alice.it/shopping/cgi/directory.shtml?cname=Telefonia/Telefoni%20cellulari&catlevel=0&dom=d&type=adv&typelayout=LM&f=edit" class="link12blu">Cellulari</a>, <a href="http://shopping.alice.it/shopping/cgi/directory.shtml?cname=Computer&catlevel=0&dom=d&type=adv&typelayout=LM&f=edit" class="link12blu">Computer</a>, <a href="http://shopping.alice.it/shopping/cgi/directory.shtml?cname=Fotografia%20e%20Ottica&catlevel=0&dom=d&type=adv&typelayout=LM&f=edit" class="link12blu">Foto</a>, <a href="http://shopping.alice.it/shopping/cgi/directory.shtml?cname=Moda%20e%20Accessori&catlevel=0&dom=d&type=adv&typelayout=LM" class="link12blu">Moda</a>...<br/><br/><a href="/home/index.html?ccat=6014" class="link16"><b>Societ&agrave; e Istituzioni</b></a><br/><a href="/home/index.html?ccat=6277" class="link12blu">Lavoro</a>, <a href="/home/index.html?ccat=6280" class="link12blu">Politica</a>, <a href="/home/index.html?ccat=6268" class="link12blu">Volontariato</a>...<br/><br/><a href="/home/index.html?ccat=6015" class="link16"><b>Sport</b></a><br/><a href="/home/index.html?ccat=6309" class="link12blu">Calcio</a>, <a href="/home/index.html?ccat=7679" class="link12blu">Formula 1</a>, <a href="/home/index.html?ccat=6312" class="link12blu">Ciclismo</a>...<br/><br/><a href="/home/index.html?ccat=6016" class="link16"><b>Viaggi e Turismo</b></a><br/><a href="/home/index.html?ccat=45540" class="link12blu">Vacanze</a>, <a href="/home/index.html?ccat=6375" class="link12blu">Trasporti</a>, <a href="/home/index.html?ccat=8072" class="link12blu">Europa</a>...<br/><br/></td>
+</tr>
+</table>
+</div></td></tr>
+<tr><td colspan="2" height="20" class="bianco"><spacer type="block" height="20"></td></tr>
+</table>
+</td>
+<!-- Blank -->
+</tr></table>
+
+
+	<!-- red sheriff -->
+
+ 	<!-- START RedMeasure V4 - Java v1.1  Revision: 1.8 -->
+<!-- COPYRIGHT 2000 Red Sheriff Limited -->
+<script language="JavaScript">
+<!--
+var pCid="it_matrix-it_0";
+var w0=1;
+var refR=escape(document.referrer);
+if (refR.length>=252) refR=refR.substring(0,252)+"...";
+//--></script>
+<script language="JavaScript1.1">
+<!--
+var w0=0;
+//--></script>
+
+<script language="JavaScript1.1" src="http://server-it.imrworldwide.com/a1.js">
+</script>
+<script language="JavaScript">
+<!--
+if(w0){
+var imgN='<img src="http://server-it.imrworldwide.com/cgi-bin/count?ref='+refR+'&cid='+pCid+'" width="1" height="1">';
+if(navigator.userAgent.indexOf('Mac')!=-1){document.write(imgN);
+}else{
+document.write('<applet code="Measure.class" '+'codebase="http://server-it.imrworldwide.com/"'+'width="1" height=2>'+'<param name="ref" value="'+refR+'">'+'<param name="cid" value="'+pCid+'"><textflow>'+imgN+'</textflow></applet>');
+}
+}
+//-->
+
+</script>
+<noscript>
+<img src="http://server-it.imrworldwide.com/cgi-bin/count?cid=it_matrix-it_0" width="1" height="1">
+</noscript>
+<!-- END RedMeasure V4 -->
+<!-- == END_OF_CONTENT_PAGE == -->
+
+	<!-- red sheriff -->
+
+<!-- footer -->
+ 	<!-- disclaimer footer -->
+		<div id="footer">
+       
+    		<ul>
+
+        			<li><a href="http://ricerca.alice.it/desktop/">Desktop search</a> |</li>
+            		<li><a href="http://ricerca.alice.it/toolbar/">Toolbar</a> |</li>
+            		<li><a href="http://ricerca.alice.it/personalizza">Configura la pagina di ricerca</a> |</li>
+            		<li><a href="http://ricerca.alice.it/screen/">Screensaver</a> |</li>
+
+            		<li><a href="http://disclaimer.alice.it/protezione">Protezione familiare</a></li>
+        	</ul>
+		<ul class="ulfooter-alt">
+        		<li>Copyright &copy; 1997-<script>document.write(new Date().getFullYear())</script><noscript>2008</noscript> Matrix Spa. Tutti i diritti riservati. |</li>
+                	<li><a href="http://virgilio.alice.it/home/note_legali.html" onclick="window.open('http://virgilio.alice.it/home/note_legali.html','','scrollbars=no,width=480,height=390');return false;">Note Legali</a> |</li>
+
+                	<li><a href="http://ricerca.alice.it/help/ie7/index.html?pmk=footer">Cerca dal browser</a> |</li>
+            		<li><a href="http://ricerca.alice.it/adv/">Sponsorizza il tuo sito</a> |</li>
+            		<li><a href="http://ricerca.alice.it/help/">Help</a><hr /></li>
+        	</ul><hr class="hrfix" />
+	  </div>
+
+	
+<!-- fine disclaimer footer -->
+
+	<!-- end footer -->
+	
+	
+<center><!-- T : 0.054 Q : 0.000 --></center>
+</body>
+</html>

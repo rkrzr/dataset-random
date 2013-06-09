@@ -1,0 +1,201 @@
+ul.gallery {
+	 list-style: none outside none;
+}
+
+.gallery_box ul{
+	list-style: none outside none;
+	margin:0;
+}
+
+.gallery_box li{
+	padding: 10px 10px 0 0;
+	clear: both;
+}
+
+.gallery_box li img {
+	padding: 5px;
+	margin:0 10px 10px 0;
+	float:left;
+	border: 1px solid #BDBDBD;
+}
+
+.gallery_box p {
+	margin-bottom:0px;
+}
+
+.gallery_detail_box {
+	float:left;
+}
+.gallery_box .gallery_detail_box p.title {
+	color: #000000;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+	font-weight: bold;
+}
+
+.clear {
+	clear:both;
+	height:0;
+}
+
+.gllr_image_text, .gllr_link_text {
+	margin-top:10px;
+	width:150px;
+}
+
+.gllr_link_text {
+	width:170px;
+}
+
+.gllr_order_text {
+	width:20px;
+}
+
+.gallery .gllr_image_block {
+	float: left;
+}
+
+#content .gallery .gllr_image_block a img {
+    border: 10px solid #F1F1F1;
+	margin-top: 0;
+}
+
+#Upload-File .gllr_order_message{
+	padding-bottom:10px;
+}
+
+#Upload-File .gallery .gllr_image_block {
+    float: left;
+}
+
+#Upload-File .gallery .gllr_border_image{
+    border: 1px solid #BDBDBD;
+    height: 170px;
+    width: 170px;
+}
+
+#Upload-File .gallery .gllr_border_image img{
+    padding:10px;
+}
+
+#Upload-File .gallery .small_text{
+	font-size:10px;
+	color:grey;
+}
+
+.gallery .delete {
+	padding-top:2px;
+	text-align:center;
+}
+
+#content .gallery_box_single .gallery .gllr_image_block p {
+	border: 1px solid #BDBDBD;
+    margin:5px 6px 0 0;
+	padding: 0;
+}
+
+.gllr_single_image_text {
+	font-size:12px;
+	color:#888;
+}
+
+.gllr_image_row {
+	clear:both;
+}
+
+.gallery li {
+    float: left;
+	margin:5px 6px 10px 0;
+}
+
+.gallery .gllr_image_container {
+    border: 1px solid #BDBDBD;
+}
+
+.gallery .delete {
+padding-top:2px;
+text-align:center;
+}
+
+.pp_social {
+	display:none;
+}
+
+#gllr_form_image_size label {
+	width:115px;
+	float:left;
+}
+
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16.png") no-repeat scroll center center transparent;
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16_b.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image, #adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image
+{
+	background: url("../images/icon_16_c.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36.png") no-repeat scroll left top transparent;
+}
+.admin-color-classic .wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36_b.png") no-repeat scroll left top transparent;
+}
+.wrap #icon-edit.icon32-posts-gallery
+{
+ background: url("../images/icons_32.png") no-repeat scroll left top transparent;
+}
+
+.admin-color-classic .wrap #icon-edit.icon32-posts-gallery
+{
+ background: url("../images/icons_32_b.png") no-repeat scroll left top transparent;
+}
+
+#adminmenu #menu-posts-gallery:hover div.wp-menu-image, #adminmenu #menu-posts-gallery.wp-has-current-submenu div.wp-menu-image
+{
+ background: url("../images/menu.png") no-repeat scroll left top transparent;
+}
+
+.admin-color-classic #adminmenu #menu-posts-gallery:hover div.wp-menu-image, #adminmenu #menu-posts-gallery.wp-has-current-submenu div.wp-menu-image
+{
+ background: url("../images/menu_b.png") no-repeat scroll left top transparent;
+}
+
+#adminmenu #menu-posts-gallery div.wp-menu-image {
+    background: url("../images/menu.png?ver=20100531") no-repeat scroll left -32px transparent;
+}
+
+.admin-color-classic #adminmenu #menu-posts-gallery div.wp-menu-image {
+    background: url("../images/menu_b.png?ver=20100531") no-repeat scroll left -32px transparent;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item
+{
+	display:none;
+}
+#gllr_form_image_size input[type="radio"]{
+	float:left;
+	position:relative;
+	top:5px;
+	margin-right:5px;
+}
+#gllr_form_image_size .label_radio{
+	width:540px;
+	cursor: default;
+}
+
+#gllr_border_images_color_small{
+	background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 9px 0 rgba(255, 255, 255, 0.1) inset;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+	top: -2px;
+}

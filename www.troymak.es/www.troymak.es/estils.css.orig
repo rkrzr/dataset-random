@@ -1,0 +1,17 @@
+.disc_horiz {  background-attachment: fixed; background-image: url(image/disc_horiz.gif); background-repeat:   repeat-x; background-position: left top}
+.disc_vert { background-attachment: fixed; background-image: url(image/disc_vert.gif); background-repeat:  repeat-y; background-position: left top }
+.fondo_home {  background-attachment: fixed; background-image: url(image/fondo_home.gif); background-repeat: no-repeat; background-position: left bottom}
+.arial10 {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999999; text-decoration: none}
+.links {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999999; text-decoration: underline}
+.links:hover {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #0066FF; text-decoration: underline}
+.idiomas {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0066FF; text-decoration: none; font-weight: bold}
+.idiomas:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #cc0000; text-decoration: none; font-weight: bold}
+
+.menus {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #0066FF; text-decoration: none; }
+.menus:hover {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #cc0000; text-decoration: none;}
+
+.verdana11 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none; line-height: 18px}
+.fondoCompania { background-attachment: fixed; background-image: url(image/fondo_compania.gif); background-repeat: no-repeat; background-position: left top }
+.fondoSituacion { background-attachment: fixed; background-image: url(image/fondo_situacion.gif); background-repeat: no-repeat; background-position: left top }
+.fondoCalidad {  background-attachment: fixed; background-image: url(image/fondo_calidad.gif); background-repeat: no-repeat; background-position: left top}
+.fondoContactar {  background-attachment: fixed; background-image: url(image/fondo_contactar.gif); background-repeat: no-repeat; background-position: left top}

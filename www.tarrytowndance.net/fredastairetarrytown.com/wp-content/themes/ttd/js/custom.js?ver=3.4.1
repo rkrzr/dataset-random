@@ -1,0 +1,121 @@
+jQuery.noConflict();
+
+jQuery(document).ready(function($){
+							
+	(function ($) {
+		$.fn.Shake = function(Error_class) {
+			$(this).addClass(Error_class);
+			$(this).animate({marginLeft:'-5px'},100).animate({marginLeft:'5px'},100).animate({marginLeft:'-5px'},100).animate({marginLeft:'5px'},100).animate({marginLeft:'0px'},100);
+	
+		};
+	})(jQuery);		
+	
+	// MobileMenu
+	$('ul.sf-menu').mobileMenu({
+		defaultText: 'Navigate to...',
+		className: 'select-menu',
+		subMenuDash: '&nbsp;&nbsp;&nbsp;&ndash;'
+	});
+
+	// Navigation effect
+	$('ul.sf-menu').superfish({
+		delay:       100, // 0.1 second delay on mouseout 
+		animation:   {opacity:'show',height:'show'}, // fade-in and slide-down animation 
+		dropShadows: false // disable drop shadows 
+	});
+	
+	//Autoresize Video
+	$(".wrapper").fitVids();
+	
+	// Portfolio & Post Hover 
+	$('.hover').hover(function(){
+		$(this).find('.thumb img').css( 'opacity',0.4);
+		$(this).children('.move').animate({ left: '-20px'}, 300, 'easeOutBack',
+			function(){
+				$(this).siblings('.preview').animate({ left: '-20px'}, 300, 'easeOutBack');
+			});
+	},function(){
+		$(this).find('.thumb img').css( 'opacity', 1);
+		$(this).children('.move').animate({ left: '-200px'}, 300, 'easeOutBack',
+			function(){
+				$(this).siblings('.preview').animate({ left: '-200px'}, 300, 'easeOutBack');
+			});
+	});
+	
+	$(".portfolio_item a[rel^='prettyPhoto']").prettyPhoto();
+	
+	// Tipsy
+	$('.tooltip').tipsy({fade: true, gravity: 's'});
+	
+	//Shortcode - Tab - Start
+	$('.kt-tab-wrapper').each(function() {
+		$(this).find(".kt-tab-content").hide(); //Hide all content
+		$(this).find("ul.kt-tabs li:first").addClass("active").show(); //Activate first tab
+		$(this).find(".kt-tab-content:first").show(); //Show first tab content
+	});
+	
+	//On Click Event
+	$("ul.kt-tabs li").click(function(e) {
+		$(this).parents('.kt-tab-wrapper').find("ul.kt-tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(this).parents('.kt-tab-wrapper').find(".kt-tab-content").hide(); //Hide all tab content
+	
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(this).parents('.kt-tab-wrapper').find(activeTab).show(); //Fade in the active ID content
+		
+		e.preventDefault();
+	});
+	
+	// Toggle
+	$(".kt_toggle_content").hide('fast'); 
+	$(".kt_toggle").toggle(function(){
+		$(this).addClass("active");
+		}, function () {
+		$(this).removeClass("active");
+	});
+	$(".kt_toggle").click(function(){
+		$(this).next(".kt_toggle_content").slideToggle('fast');
+	});
+
+});
+
+// For Twitter widget
+function format_twitter(twitters) {
+  var statusHTML = [];
+  for (var i=0; i<twitters.length; i++){
+    var username = twitters[i].user.screen_name;
+    var status = twitters[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+      return '<a href="'+url+'">'+url+'</a>';
+    }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+      return  reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+    });
+    statusHTML.push('<li class="twitter-item"><span class="tweet-text">'+status+'</span> <em class="twitter-timestamp">'+tweet_time(twitters[i].created_at)+'</em></li>');
+  }
+  return statusHTML.join('');
+}
+
+function tweet_time(time_value) {
+  var values = time_value.split(" ");
+  time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+  var parsed_date = Date.parse(time_value);
+  var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+  var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+  delta = delta + (relative_to.getTimezoneOffset() * 60);
+
+  if (delta < 60) {
+    return 'less than a minute ago';
+  } else if(delta < 120) {
+    return '1 min ago';
+  } else if(delta < (60*60)) {
+    return (parseInt(delta / 60)).toString() + ' minutes ago';
+  } else if(delta < (120*60)) {
+    return '60 mins ago';
+  } else if(delta < (24*60*60)) {
+    return (parseInt(delta / 3600)).toString() + ' hours ago';
+  } else if(delta < (48*60*60)) {
+    return '1 day ago';
+  } else {
+    return (parseInt(delta / 86400)).toString() + ' days ago';
+  }
+}
+

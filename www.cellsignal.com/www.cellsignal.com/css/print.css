@@ -1,0 +1,51 @@
+@media print {
+
+html, body, #container, #content, #footer {width:100%; margin:0; padding:0;}
+html {background-color:#fff;}
+body, #container, #content, #footer {background-color:transparent;}
+body {color:#000; font-family:'Helvetica Condensed Light', Helvetica, Arial, sans-serif; font-size:10pt; line-height:14pt;}
+
+#container {margin-top:54pt; background-image:none; overflow:visible;}
+#content a {text-decoration:underline;}
+#header, .sidenav, #contentnav {display:none !important;}
+
+h1, h1.whiteh1, h1.whitewrap, h1.whiteNowrap {margin-bottom:1em; color:#2b6eae !important; background-color:#fff !important;} 
+#content h1.whitewrap {font-size:14pt; width:auto;}
+
+h1 {font-size:14pt;}
+h2 {font-size:12pt;}
+dt {font-size:11pt;}
+h3 {font-size:11pt;}
+p, ol, ul, dl {font-size:10pt; line-height:14pt;}
+
+a, a:visited {color:#00f;}
+
+#product_images {width:47pc;}
+#product_images div {width:14.5pc; margin-right:.5pc;}
+#product_images img {width:12.6pc;}
+#product_images p {width:12.6pc;}
+
+#feedback-link {display:none;}
+
+/* footer */
+
+#footer {background-color:#fff;}
+#footer ul {margin-left:12px; padding:0;}
+#footer li {
+display:inline;
+margin-right:8px; 
+padding:0px 8px 0px 0px; 
+list-style-type:none; 
+border-right:none;
+}
+#footer li { 
+font-size:10px; 
+line-height:13px;
+}
+	
+#footer img {display:none;}
+
+/* protocols */
+#protocol_contact p {font-size:9pt;}
+
+}

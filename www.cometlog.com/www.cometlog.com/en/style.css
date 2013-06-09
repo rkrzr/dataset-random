@@ -1,0 +1,34 @@
+.bodyTitle1 {font-family: Verdana; font-size: 14px; color: #50607E; font-weight: bold}
+.bodyTitle2 {font-family: Verdana; font-size: 14px; color: #9D8C75; font-weight: bold}
+
+.bodyText1 {font-family: Verdana; font-size: 10px; color: #50679E}
+.bodyText1 a:link {font-family: Verdana; font-size: 10px; color: #50679E; text-decoration: underline}
+.bodyText1 a:hover{font-family: Verdana; font-size: 10px; color: #50679E; text-decoration: none}
+.bodyText1 a:visited {font-family: Verdana; font-size: 10px; color: #50679E; text-decoration: underline}
+.bodyText1 a:visited:hover {font-family: Verdana; font-size: 10px; color: #50679E; text-decoration: none}
+
+.bodyText2 {font-family: Verdana; font-size: 10px; color: #9D8C75; font-style: italic}
+
+.bodyText3 {font-family: Verdana; font-size: 10px; color: #9D8C75; font-weight: bold}
+.bodyText3 a:link {font-family: Verdana; font-size: 10px; color: #9D8C75; text-decoration: underline}
+.bodyText3 a:hover{font-family: Verdana; font-size: 10px; color: #9D8C75; text-decoration: none}
+.bodyText3 a:visited {font-family: Verdana; font-size: 10px; color: #9D8C75; text-decoration: underline}
+.bodyText3 a:visited:hover {font-family: Verdana; font-size: 10px; color: #9D8C75; text-decoration: none}
+
+.boxText1 {font-family: Verdana; font-size: 10px; color: #212F79}
+.boxText1 a:link {font-family: Verdana; font-size: 10px; color: #212F79; text-decoration: none}
+.boxText1 a:hover{font-family: Verdana; font-size: 10px; color: #212F79; text-decoration: underline}
+.boxText1 a:visited {font-family: Verdana; font-size: 10px; color: #212F79; text-decoration: none}
+.boxText1 a:visited:hover {font-family: Verdana; font-size: 10px; color: #212F79; text-decoration: underline}
+
+.pagination {font-family: Tahoma; font-size: 9px; color: #FFFFFF; font-weight: bold}
+.pagination a:link {font-family: Tahoma; font-size: 9px; color: #FFFFFF; text-decoration: none; font-weight: normal}
+.pagination a:hover{font-family: Tahoma; font-size: 9px; color: #FFFFFF; text-decoration: underline; font-weight: normal}
+.pagination a:visited {font-family: Tahoma; font-size: 9px; color: #FFFFFF; text-decoration: none; font-weight: normal}
+.pagination a:visited:hover {font-family: Tahoma; font-size: 9px; color: #FFFFFF; text-decoration: underline; font-weight: normal}
+
+.bottomText1 {font-family: Tahoma; font-size: 9px; color: #9D8C75}
+.bottomText1 a:link {font-family: Tahoma; font-size: 9px; color: #9D8C75; text-decoration: none}
+.bottomText1 a:hover{font-family: Tahoma; font-size: 9px; color: #9D8C75; text-decoration: underline}
+.bottomText1 a:visited {font-family: Tahoma; font-size: 9px; color: #9D8C75; text-decoration: none}
+.bottomText1 a:visited:hover {font-family: Tahoma; font-size: 9px; color: #9D8C75; text-decoration: underline}

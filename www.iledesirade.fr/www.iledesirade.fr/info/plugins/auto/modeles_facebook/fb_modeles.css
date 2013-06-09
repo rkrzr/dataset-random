@@ -1,0 +1,23 @@
+/* --------------------------------------------------------------
+
+   fb_modeles.css
+   Style des modeles
+
+-------------------------------------------------------------- */
+
+/* ---- Global ---- */
+
+/* Blocs d'affichage des modeles */
+.fb_modeles {}
+
+/* Message si javascript inactif : meme style que 'small' */
+.fb_messagejsabsent { font-size: 0.90em; color: #666; }
+
+/* ---- Pour chaque modele ---- */
+
+.fb_activity {}
+.fb_comments {}
+.fb_like_box {}
+.fb_like {}
+.fb_live_stream {}
+.fb_send {}

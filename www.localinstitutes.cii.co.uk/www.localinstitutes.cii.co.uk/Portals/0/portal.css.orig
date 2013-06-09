@@ -1,0 +1,152 @@
+.branding-top {
+	background: url(dnn_large_banner.jpg) no-repeat center;
+	width: 890px;
+	height: 340px;
+	clear: both;
+	overflow: hidden;
+}
+.branding-top p {
+	padding: 270px 60px 0 60px;
+	font-size: 1.4em;
+	color: #333;
+}
+.branding-bottom {
+	clear: both;
+	margin-top: 1em;
+	overflow: hidden;
+}
+.branding-bottom ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	clear: both;
+}
+.branding-bottom li {
+	list-style: none;
+	margin: 0 10px 0 0;
+	padding: 0;
+	display: block;
+	width: 170px;
+	float: left;
+}
+
+.branding-bottom li.training {
+	margin: 0;
+}
+
+.branding-bottom dl {
+	background: url(itembg.gif) repeat-y;
+	margin: 33px 0 0 0;
+	padding: 0 10px;
+}
+.branding-bottom dd {
+	margin-left: 10px;
+	height: 66px;
+}
+.branding-bottom dt {
+	font-size: 90%;
+	text-align: center;
+	padding-top: 65px;
+	margin-bottom: 1.75em;
+	font-weight: bold;
+}
+.branding-bottom .commmunity {
+	background: url(community_title.gif) no-repeat top left;
+}
+.commmunity dt {
+	background: url(community_icon.gif) no-repeat;
+	background-position: 50% 10px;
+}
+.branding-bottom .marketplace {
+	background: url(marketplace_title.gif) no-repeat top left;
+}
+.marketplace dt {
+	background: url(marketplace_icon.gif) no-repeat;
+	background-position: 50% 10px;
+}
+.branding-bottom .conferences {
+	background: url(conferences_title.gif) no-repeat top left;
+}
+.conferences dt {
+	background: url(conferences_icon.gif) no-repeat;
+	background-position: 50% 10px;
+}
+.branding-bottom .training {
+	background: url(training_title.gif) no-repeat top left;
+}
+.training dt {
+	background: url(training_icon.gif) no-repeat;
+	background-position: 50% 10px;
+}
+.branding-bottom .support {
+	background: url(support_title.gif) no-repeat top left;
+}
+.support dt {
+	background: url(support_icon.gif) no-repeat;
+	background-position: 50% 10px;
+}
+dl.bt {
+	margin: 0;
+	padding: 0;
+	background: url(item_bt_bg.gif) no-repeat bottom;
+	height: 32px;
+	width: 170px;
+}
+#LoginInfo
+{
+	width:660px; 
+	float:left;
+}
+#LoginInfo h3
+{
+	background-color: #f7f7f7;
+	color: #8f0000;
+	padding: 2px 0px;
+}
+#LoginInfo dd, #LoginInfo dt 
+{
+	display:inline;
+}
+#LoginInfo dt
+{
+	font-weight:bold;
+	color: #333;
+}
+#LoginInfo p.LoginNotes
+{
+	font-size: .8em;
+}
+#LoginInfo div.LoginBlock {
+	float: left;
+	width: 310px;
+	padding: 5px 5px;
+	margin: 0px 2px;
+	border: 1px #f0f0f0 solid;
+}
+.SponsorIcon
+{
+	margin: 5px 26px; 
+	float: left;
+}
+#QuickLinks 
+{
+	background-color:#f0f0f0;
+	border: 1px gray dotted;
+	padding: 2px 5px;
+	margin-right:5px;
+	width: 200px;
+	float:right;
+}
+div.hr
+{
+	height: 2px;
+	background-color: #8f0000;
+	margin: 5px 0 15px 0;
+	clear:both;
+}
+div.hr hr
+{
+	display: none;
+}
+

@@ -1,0 +1,679 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column                      { width: 40px;  }
+    .container .two.columns                     { width: 100px; }
+    .container .three.columns                   { width: 160px; }
+    .container .four.columns                    { width: 60px; } /*width: 220px;*/
+    .container .five.columns                    { width: 280px; }
+    .container .six.columns                     { width: 340px; }
+    .container .seven.columns                   { width: 400px; }
+    .container .eight.columns                   { width: 460px; }
+    .container .nine.columns                    { width: 520px; }
+    .container .ten.columns                     { width: 580px; }
+    .container .eleven.columns                  { width: 640px; }
+    .container .twelve.columns                  { width: 850px; } /* 700px */
+    .container .thirteen.columns                { width: 760px; }
+    .container .fourteen.columns                { width: 820px; }
+    .container .fifteen.columns                 { width: 880px; }
+    .container .sixteen.columns                 { width: 940px; }
+
+    .container .one-third.column                { width: 300px; }
+    .container .two-thirds.column               { width: 620px; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: 60px;  }
+    .container .offset-by-two                   { padding-left: 120px; }
+    .container .offset-by-three                 { padding-left: 180px; }
+    .container .offset-by-four                  { padding-left: 240px; }
+    .container .offset-by-five                  { padding-left: 300px; }
+    .container .offset-by-six                   { padding-left: 360px; }
+    .container .offset-by-seven                 { padding-left: 420px; }
+    .container .offset-by-eight                 { padding-left: 480px; }
+    .container .offset-by-nine                  { padding-left: 540px; }
+    .container .offset-by-ten                   { padding-left: 600px; }
+    .container .offset-by-eleven                { padding-left: 660px; }
+    .container .offset-by-twelve                { padding-left: 720px; }
+    .container .offset-by-thirteen              { padding-left: 780px; }
+    .container .offset-by-fourteen              { padding-left: 840px; }
+    .container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+
+        .container .one.column                      { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  	================================================== -->
+	<meta charset="utf-8" />
+	<title>Bible Baptist Church</title>
+	<meta name="keywords" content="Bible, church, God, Lord, truth, baptist, home, family, Sunday, worship, service, trust, music">
+	<meta name="description" content="what is truth, good church, how to have a good marriage, how to serve God, how to worship God, how do I know who God is, which religion is right, how can we know what God thinks, how can we know what God says, is the Bible true, is the Bible real, is God real, how can we trust God, can we trust God, good music, Christ honoring music, christian music, conservative, conservative music, king james version, king james Bible">
+	<meta name="author" content="Gabe Durand, Kayne Barboa and Karen Peach (SuperSkeleton theme incorporated)">
+	<!--[if lt IE 9]>  
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Mobile Specific Metas
+  	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+	
+	<!-- CSS
+  	================================================== -->
+	<link rel="stylesheet" href="assets/stylesheets/styles.css" />
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png" />
+	
+</head>
+<body>
+
+
+
+<!-- Super Container for entire site -->
+<div class="super-container full-width" id="section-tophat">
+
+	<!-- 960 Container -->
+	<div class="container">			
+		
+		<div class="sixteen columns">
+			<span class="tagline"><a href="mailto:sweaver@bbcgf.org@?subject=General Question or Comment">Email Us</a></span>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+<!-- Super Container for entire site -->
+<div class="super-container full-width" id="section-header">
+
+	<!-- 960 Container -->
+	<div class="container">			
+		
+		<!-- Header -->
+		<header>
+		<div class="sixteen columns">
+			
+			<!-- Branding -->
+			<div class="six columns alpha">
+				<a href="index.html">
+					<h1 id="logo" style="margin-top: 40px; margin-bottom: 30px;">
+						<img src="assets/images/theme/pacifico-logo/logo.png" alt="logo" />
+					</h1>
+				</a>
+			</div>
+			<!-- /End Branding -->
+			
+			<!--<div class="ten columns omega">
+				<a href="#" class="header-advert">
+					<img src="demo-images/468.jpg" alt="advert" />
+				</a>-->  
+				<div class="ten columns omega">
+				<a href="mailto:sweaver@bbcgf.org@?subject=General Question or Comment"><span class="test">EMAIL US</span></a>
+				<!--<a href="#" class="header-advert">
+					
+				</a>-->
+			</div>
+			
+			
+			
+			<hr class="remove-bottom"/>
+		</div>
+		
+		<!-- Menu -->
+		<div class="sixteen columns" id="menu">
+			
+			<div class="twelve columns alpha navigation">
+				
+				<!-- Default Superfish Nav (add/remove "light" class to toggle visual styling) -->
+				<ul class="sf-menu light">
+					<li><a href="index.html"><strong>Home</strong> <span>Get Started</span></a></li>
+					<li><a href="about.html"><strong>About</strong> <span>About the site</span></a>
+						<ul>
+							<li><a href="960.html">Flexible 960.GS</a></li>
+							<li><a href="lorem.html">HTML Test Page</a></li>
+							<li><a href="blog.html">Blog Loop Template</a></li>
+							<li><a href="blog-post.html">Blog Post Template</a></li>
+						</ul>
+					</li>
+					<li><a href="features.html"><strong>Features</strong> <span>Skins &amp; Fontstacks</span></a>
+						<ul>
+							<li><a href="serif.html">Fontstacks</a>
+								<ul>
+									<li><a href="serif.html">Serif</a></li>
+									<li><a href="sans-serif.html">Sans-Serif</a></li>
+								</ul> 
+							</li>
+							<li><a href="light.html">Light <small style="color: #999;">*demo default</small></a></li>
+							<li><a href="clean.html">Clean</a>
+								<ul>
+									<li><a href="clean-home.html">Clean Homepage</a></li>
+									<li><a href="clean.html">Clean Page Sample</a></li>
+								</ul> 
+							</li>						
+							<li><a href="dark.html">Dark</a>
+								<ul>
+									<li><a href="dark-home.html">Dark Homepage</a></li>
+									<li><a href="dark.html">Dark Page Sample</a></li>
+								</ul> 
+							</li>
+						</ul>
+					</li>
+					<li><a href="portfolio.html"><strong>Portfolio</strong> <span>View our work</span></a>
+						<ul>
+							<li><a href="portfolio-2.html">2 columns</a></li>
+							<li><a href="portfolio-3.html">3 columns</a></li>
+							<li><a href="portfolio-4.html">4 columns</a></li>
+						</ul>						
+					</li>
+					<li><a href="contact.html"><strong>Contact</strong> <span>Say Hello!</span></a></li>
+				</ul>
+				<!-- /End Default Superfish Nav-->
+				
+				<!-- Responsive Nav - Displays when screen gets small enough -->
+				<form id="responsive-nav" action="insert_action" method="post">
+					<select class="chzn-select">
+						<option value="index.html">Home</option>
+						<option value="about.html">About</option>
+						<option value="features.html">Features</option>
+						<option value="portfolio.html">Portfolio</option>
+						<option value="contact.html">Contact</option>
+					</select>
+				</form>
+				<!-- /End Responsive Nav -->	
+				
+							
+			</div>	
+
+			<div class="four columns omega align-right" id="tagline">
+				<!-- <p>This is the site tagline</p> -->
+				<ul class="social">
+					<li><a href="#"><img src="assets/images/theme/social-icons/google_plus_32.png" alt="google" title="Google+" /></a></li>
+					<li><a href="#"><img src="assets/images/theme/social-icons/facebook_32.png" alt="facebook" title="Facebook"/></a></li>
+					<li><a href="#"><img src="assets/images/theme/social-icons/twitter_32.png" alt="twitter" title="Twitter" /></a></li>
+					<li><a href="#"><img src="assets/images/theme/social-icons/rss_32.png" alt="rss" title="RSS" /></a></li>
+				</ul>
+			</div>			
+			
+			<hr class="remove-top"/>
+		</div>	
+		 
+		<!-- /End Menu -->
+		
+		</header>
+		<!-- /End Header -->
+	
+	</div>
+	<!-- End 960 Container -->
+	
+</div>
+<!-- End SuperContainer -->
+
+
+<!-- ============================================== -->
+
+
+<!-- Super Container -->
+<div class="super-container full-width" id="section-slider">
+
+	<!-- 960 Container -->
+	<div class="container">
+		
+		<!-- Row Break 
+		<div class="sixteen columns" id="page-header">
+			<br class="clear" />
+			<hr />
+		</div>
+		/End Row Break-->		
+		
+		 
+		<!-- Full Width Slider -->
+		<div class="sixteen columns">
+			
+			<div class="slider-shadow">
+				<div class="flexslider-container">
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <a href="http://mdnw.net/reactor/skeleton/demo-images/slide5.jpg" data-rel="prettyPhoto[SuperSkeleton]">
+					      	<img src="http://mdnw.net/reactor/skeleton/demo-images/slide5.jpg" alt="SuperSkeleton" />
+					      </a>
+					      <!-- <p class="flex-caption">Captions and cupcakes. Winning combination.</p> -->
+					    </li>
+					    <li>
+					      <a href="http://mdnw.net/reactor/skeleton/demo-images/slide2.jpg" data-rel="prettyPhoto[SuperSkeleton]">
+					      	<img src="http://mdnw.net/reactor/skeleton/demo-images/slide2.jpg" alt="SuperSkeleton" />
+					      </a>
+					    </li>  
+					    <li>
+					      <a href="http://mdnw.net/reactor/skeleton/demo-images/slide3.jpg" data-rel="prettyPhoto[SuperSkeleton]">
+					        <img src="http://mdnw.net/reactor/skeleton/demo-images/slide3.jpg" alt="SuperSkeleton" />
+					      </a>
+					    </li> 
+					    <li>
+					      <a href="http://mdnw.net/reactor/skeleton/demo-images/slide4.jpg" data-rel="prettyPhoto[SuperSkeleton]">
+					        <img src="http://mdnw.net/reactor/skeleton/demo-images/slide4.jpg" alt="SuperSkeleton" />
+					      </a>
+					      <!-- <p class="flex-caption">Captions and cupcakes. Winning combination.</p> -->
+					    </li>
+					  </ul>
+					</div>
+				</div>			
+			</div>
+			
+		</div>		
+		<!-- /End Full Width Slider-->
+
+	</div>
+	<!-- /End 960 Container -->
+	
+</div>
+<!-- /End Super Container -->
+
+
+<!-- ============================================== -->
+
+
+<!-- Super Container -->
+<div class="super-container full-width" id="section-thirds">
+
+	<!-- 960 Container -->
+	<div class="container">
+
+		<!-- Page Header 
+		<div class="sixteen columns" id="page-header">
+			<h5 class="align-center tk-league-gothic">Make Design, Not War</h5>
+			<h3 class="align-center">Premium WordPress Themes</h3>
+			<hr />
+		</div>
+		/End Page Header -->
+		
+		
+		<!-- 1/3 Columns -->
+		<div class="one-third column">				
+			<div class="module">						
+				<div class="module-img">							
+					<a href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/7.jpg" data-rel="prettyPhoto[Gallery]">
+						<img src="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/7.jpg" alt="image"/>
+						<span></span>
+					</a>							
+					<div class="lightboxLink">
+						<a class="popLink boxLink" href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/7.jpg" data-rel="prettyPhoto[Lightbox]" title="Lightbox" ></a>
+				    </div>						    
+					<div class="thumbLink">
+					    <a class="popLink" href="#" title="Full Post"></a>
+				    </div>						    
+				</div>				
+				<div class="module-meta">
+					<h5>Flexible Grid</h5>	
+					<p>SuperSkeleton is more than a template, it's a comprehensive framework; A collection of several incredibly powerful scripts and CSS structures that's been tied together into a kit that's perfect as a jumping off point of your next project.</p>
+				</div>						
+			</div>				
+		</div>
+			
+		<div class="one-third column">				
+			<div class="module">						
+				<div class="module-img">							
+					<a href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/2.jpg" data-rel="prettyPhoto[Gallery]" >
+						<img src="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/2.jpg" alt="image" />
+						<span></span>
+					</a>							
+					<div class="lightboxLink">
+						<a class="popLink boxLink" href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/2.jpg" data-rel="prettyPhoto[Lightbox]" title="Lightbox" ></a>
+				    </div>						    
+					<div class="thumbLink">
+					    <a class="popLink" href="#" title="Full Post"></a>
+				    </div>						    
+				</div>
+				<div class="module-meta">
+					<h5>Responsive &amp; Bulletproof</h5>	
+					<p>SuperSkeleton is responsive (try resizing your browser)... that means that it'll flex to fit massive screens, or itty bitty iPhone screens (and everything in between). Touch gestures even work on the slider!</p>
+				</div>						
+			</div>				
+		</div>
+		
+		<div class="one-third column">				
+			<div class="module">						
+				<div class="module-img">							
+					<a href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/3.jpg" data-rel="prettyPhoto[Gallery]">
+						<img src="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/3.jpg" alt="image" />
+						<span></span>
+					</a>							
+					<div class="lightboxLink">
+						<a class="popLink boxLink" href="http://src.sencha.io/http://mdnw.net/reactor/skeleton/demo-images/700x500/3.jpg" data-rel="prettyPhoto[Lightbox]" title="Lightbox"></a>
+				    </div>						    
+					<div class="thumbLink"> 
+					    <a class="popLink" href="#" title="Full Post"></a>
+				    </div>						    
+				</div>
+				<div class="module-meta">
+					<h5>Minimalist Styling</h5>
+					<p>SuperSkeleton is well organized. Take what you love, leave what you don't, customize the rest. It's completely in your hands - turn it into the next big thing, or just as your little personal projects, it's up to you. </p>
+				</div>						
+			</div>				
+		</div>
+		<!-- /End 1/3 Columns -->
+		
+	</div>
+	<!-- /End 960 Container -->
+
+</div>
+<!-- /End Super Container -->
+
+
+<!-- ============================================== -->
+
+
+<!-- Super Container -->
+<div class="super-container full-width" id="section-footer">		
+
+	<!-- 960 Container -->
+	<div class="container">
+	
+		<!-- footer -->
+		<footer>
+		<div class="sixteen columns" id="header">
+			
+			<br />
+			
+			<!-- 1/4 -->
+			<div class="five columns alpha">
+				<h5>About</h5>
+				<p>The SuperSkeleton layout has been designed with responsive, future-proof websites in mind.</p>
+				<p>It supports all of the content you can dream up, including image galleries, advertisement units, all function HTML elements, and lots lots more!</p>
+				<p>If you're looking for a template to start building your own next site with, this is a great place to start!</p>
+			</div>
+			<!-- /End 1/4 -->
+			
+			<!-- 2/4 -->
+			<div class="five columns">
+				
+				<h5>From Twitter</h5>
+				<ul>
+					<li>If you're looking for a template to start building your own next site with, this is a great place to start! <span>4 days ago</span></li>
+					<li>It supports all of the content you can dream up, including image galleries, advertisement units, all function HTML elements, and lots lots more! <span>4 days ago</span></li>
+					<li>The SuperSkeleton theme comes with support for WP3.0 menus and an extensive set of back-end options. <span>4 days ago</span></li>
+					<li>The SuperSkeleton layout has been designed with responsive, future-proof websites in mind. <span>4 days ago</span></li>
+				</ul>
+							
+			</div>
+			<!-- /End 2/4 -->
+			
+			<!-- 3/4 -->
+			<div class="three columns">
+				<h5>Popular Links</h5>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /End 3/4 -->		
+			
+			
+			<!-- 4/4 -->
+			<div class="three columns omega">
+				<img src="assets/images/theme/pacifico-logo/logo-footer.png" alt="logo" style="margin-top: 10px;"  />
+			</div>
+			<!-- /End 4/4 -->			
+			
+			<br />
+			
+		</div>
+		</footer>
+		<!-- /End Footer -->		
+
+	</div>
+	<!-- /End 960 Container -->
+	
+</div>
+<!-- /End Super Container -->
+
+
+<!-- Super Container -->
+<div class="super-container full-width" id="section-sub-footer">		
+
+	<!-- 960 Container -->
+	<div class="container">
+
+		<div class="sixteen columns">	
+				<span class="copyright">&copy; 2011 MakeDesign,NotWar</span>
+				<span class="colophon">Powered by WordPress. Theme by Brandon R Jones.</span>
+		</div>
+
+	</div>
+	<!-- /End 960 Container -->
+	
+</div>
+<!-- /End Super Container -->		
+
+
+
+		
+	<!-- JS
+	================================================== -->
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> Remove for live site -->
+	
+	<script src="assets/javascripts/jquery-1.6.2.min.js"></script>
+	<script src="assets/javascripts/tabs.js"></script>	
+	
+	<script src="assets/javascripts/jquery.tipsy.js"></script>
+	<script src="assets/javascripts/jquery.prettyPhoto.js"></script>	
+	<script src="assets/javascripts/jquery.hoverIntent.js"></script>		
+	<script src="assets/javascripts/superfish.js"></script>
+	<script src="assets/javascripts/supersubs.js"></script>
+	<script src="assets/javascripts/chosen/chosen.jquery.js"></script>
+	<script src="assets/javascripts/jquery.flexslider-min.js"></script>	
+	<script src="assets/javascripts/filterable.pack.js"></script>
+	<script src="assets/javascripts/skeleton-key.js"></script>
+	
+	
+<!-- End Document
+================================================== -->
+</body>
+</html>
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        .container .one-third.column                { width: 236px; }
+        .container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 348px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .columns, .column { margin: 0; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .columns, .column { margin: 0; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column { width: 420px; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+

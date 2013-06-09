@@ -1,0 +1,173 @@
+/*
+* Kangaroo Responsive CSS Framework - V1.0
+* Copyright 2012, KangarooThemes.com
+* www.kangaroothemes.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* July 04, 2012
+*/
+
+/* Content width: 1050px */
+
+	.wrapper { width: 1050px; margin: 0 auto; position:relative}
+	.grids { clear:both; margin-left:-30px }
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12,
+	.grid_one_third,
+	.grid_two_third,
+	.grid_half_nine{ float: left; margin:0 0 0 30px;}
+
+	.grid_1  { width: 60px; }
+	.grid_2  { width: 150px; }
+	.grid_3  { width: 240px; }
+	.grid_4  { width: 330px; }
+	.grid_5  { width: 420px; }
+	.grid_6  { width: 510px; }
+	.grid_7  { width: 600px; }
+	.grid_8  { width: 690px; }
+	.grid_9 { width:  780px; }
+	.grid_10 { width:  870px; }
+	.grid_11 { width: 960px; }
+	.grid_12 { width: 1050px;}
+
+	.grid_one_third { width: 330px; }
+	.grid_two_third { width: 690px; }
+	.grid_half_nine { width: 375px}
+
+/* Content width: 940px */
+@media only screen and (min-width: 980px) and (max-width: 1110px) {
+
+	/* -------------------  */
+	.wrapper{width: 940px;}
+	.grids{margin-left:-20px}
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12,
+	.grid_one_third,
+	.grid_two_third,
+	.grid_half_nine{margin:0 0 0 20px;}
+	
+	.grid_1  { width: 60px;  }
+	.grid_2  { width: 140px; }
+	.grid_3  { width: 220px; }
+	.grid_4  { width: 300px; }
+	.grid_5  { width: 380px; }
+	.grid_6  { width: 460px; }
+	.grid_7  { width: 540px; }
+	.grid_8  { width: 620px; }
+	.grid_9  { width: 700px; }
+	.grid_10 { width: 780px; }
+	.grid_11 { width: 860px; }
+	.grid_12 { width: 940px; }
+
+	.grid_one_third { width: 300px; }
+	.grid_two_third { width: 620px; }
+	.grid_half_nine { width: 340px}
+}
+
+/* Content width: 748px */
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+
+	/* -------------------  */
+	.wrapper{width: 748px;}
+	.grids{margin-left:-20px}
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12,
+	.grid_one_third,
+	.grid_two_third,
+	.grid_half_nine{margin:0 0 0 20px;}
+
+	.grid_1  { width: 44px;  }
+	.grid_2  { width: 108px;  }
+	.grid_3  { width: 172px; }
+	.grid_4  { width: 236px; }
+	.grid_5  { width: 300px; }
+	.grid_6  { width: 364px; }
+	.grid_7  { width: 428px; }
+	.grid_8  { width: 492px; }
+	.grid_9  { width: 556px; }
+	.grid_10 { width: 620px; }
+	.grid_11 { width: 684px; }
+	.grid_12 { width: 748px; }
+	
+	.grid_one_third { width: 236px; }
+	.grid_two_third { width: 492px; }
+	.grid_half_nine { width: 268px}
+}
+
+
+/* Content width: 100% (padded by wrapper is 10px) */
+
+@media only screen and (max-width: 769px) {
+	/* -------------------  */
+	.wrapper{width: auto;}
+	.grids{margin:0}
+	
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12,
+	.grid_one_third,
+	.grid_two_third,
+	.grid_half_nine  { float:none;  margin:0; margin-bottom:20px; width:100%; display:block;}
+}
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0;  height: 0;}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after,
+.wrapper:before,
+.wrapper:after{ content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+.clearfix:after,
+.wrapper:after{ clear: both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix,
+.wrapper { zoom: 1; }
+	

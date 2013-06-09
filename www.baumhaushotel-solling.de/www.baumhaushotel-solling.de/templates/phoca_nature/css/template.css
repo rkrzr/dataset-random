@@ -1,0 +1,405 @@
+/* Phoca Template - www.phoca.cz */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../images/hintergrund.jpg) no-repeat fixed 0 0 transparent;
+	text-align: center;
+	font-size: 76%;
+	font-family: Arial, sans-serif, Verdana, Helvetica;
+	line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote, label, ul, ol, dl, fieldset, address {
+	margin: 0.5em 0;
+}
+
+form {
+	margin:0;padding:0;
+}
+
+a img {
+	border: 0px;
+}
+
+li, dd {
+	margin-left: 1em;
+}
+ul li {
+	list-style-type:circle;
+}
+
+fieldset {
+	padding:5em;
+}
+
+
+
+td {
+	padding:1px;
+}
+
+#wrap {
+	min-width: 960px;
+	max-width: 960px;
+	width: auto !important;
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header {
+	background:#fff url(../images/hbg.jpg) 0 0 no-repeat;
+	position:relative;
+	height:180px;
+	margin-top:10px;
+	margin-bottom:5px;
+	color:#fff;
+
+}
+#header h1 {
+	font-variant: small-caps;
+	font-stretch: expanded;
+	padding-left: 20px;
+	color:#fff;
+	font-weight: bold;
+	font-size: 50px;
+}
+#header input {
+	background: url(http://www.baumhaushotel-solling.de/templates/phoca_nature/images/search.png) no-repeat;
+	border:0;
+	height: 22px;
+	width: 168px;
+	padding: 2px;
+	font-size:1em;
+	color:#fff;
+	border:1px solid #fff;
+}
+#header .search {
+	position:absolute;
+	top: 30px;
+	right:20px;
+	color:#fff;
+}
+
+#header .banner {
+	position:absolute;
+	top: 68px;
+	right:20px;
+	color:#fff;
+}
+
+#leftcol {
+	float:left;
+	width:23%;
+	overflow:hidden;
+}
+#content {
+	float:left;
+	width: 54%;
+}
+
+#content1 {
+	position:relative;
+	float:left;
+	width: 54%;
+	overflow:hidden;
+}
+
+#content2 {
+	position:relative;
+	float:left;
+	width: 77%;
+	overflow:hidden;
+}
+#content3 {
+	position:relative;
+	float:left;
+	width: 100%;
+	overflow:hidden;
+}
+
+
+#rightcol {
+	position:relative;
+	float:left;
+	width:23%;
+	overflow:hidden;
+
+}
+#footer {
+	clear:both;
+	background:#fff url(../images/fbg.png) 0 bottom no-repeat;
+	height:60px;
+	margin-bottom:10px;
+	padding-top:20px;
+	text-align:center;
+}
+#top {
+	padding:10px 10px 5px 10px;
+	margin:0px;
+}
+#top .box {
+	padding:0;
+	margin:0;
+	color:#000;
+	background:#fff;
+}
+
+#bottom {
+	clear:both;
+	padding:10px 10px;
+	margin:5px 10px;
+	background:#fff;
+	border-top:1px dotted #708059;
+	border-bottom:1px dotted #708059;
+}
+
+#user {
+	clear:both;
+	padding:10px;
+}
+
+.box {
+	padding:10px;
+}
+
+/* --- */
+
+#leftcolbg {
+	background: url(../images/lbg.png) 23% 0 repeat-y;
+}
+
+#rightcolbg {
+	background: url(../images/rbg.png) 77% 0 repeat-y;
+}
+
+
+a {color: #99bf60;}
+a:link {color: #708059;}
+a:hover {color: #708059;}
+
+
+h1, .contentheading, .componentheading, .contentpagetitle {
+	color: #708059;
+	font-weight:bold;
+	font-size:1.5em;
+}
+h2{font-size: 1.5em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.2em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1em;}
+
+hr {
+	border:1px solid #DCE6CF;
+}
+fieldset {
+	padding: 0.3em;
+	border: 0px;
+}
+
+#footer, .small, .createdate, .modifydate {
+	font-size:0.8em;
+	color: #B4CC8F;
+}
+.module {
+	margin-bottom: 1em;
+	padding: 0 10px;
+	padding-bottom: 5px;
+	border: 1px solid #DCE6CF;
+	text-align:left;
+}
+
+.module h3 {
+	background: #DCE6CF;
+	color: #708059;
+	padding: 0.25em 0.5em;
+	text-align: center;
+	font-size: 1.1em;
+	margin: 2px -8px 0.5em -8px;
+	text-align: left;
+	
+}
+
+
+.module_menu {
+	padding:0;
+	margin-bottom: 1em;
+	color: #99BF60;
+}
+
+.module_menu2 {
+	margin-bottom: 1em;
+}
+
+.module_menu h3 {
+	background: #DCE6CF;
+	color: #708059;
+	padding: 0.25em 0.5em;
+	text-align: left;
+	font-size: 1.1em;
+	margin: 0;
+	border-bottom: 1px solid #fff;
+	
+}
+
+.module_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.module_menu li {
+	border-bottom: 1px solid #B4CC8F;
+	margin: 0;
+	list-style:none;
+}
+
+.module_menu li a {
+	display: block;
+	padding: 3px 5px 3px 0.5em;
+	border-left: 10px solid #708059;
+	background-color: #99BF60;
+	color: #fff;
+	text-decoration:none;
+}
+
+html>body .module_menu li a {
+	width: auto;
+}
+.module_menu li a:hover, a#active_menu:link, a#active_menu:visited {
+	border-left: 10px solid #99BF60;
+	background-color: #E6FFBF;
+	color:#99BF60;
+}
+
+.module_menu #current a {
+	border-left: 10px solid #99BF60;
+	background-color: #E6FFBF;
+	color:#99BF60;
+}
+
+/*sub*/
+.module_menu ul li ul li a{
+	display: block;
+	padding: 3px 5px 3px 1.0em;
+	border-left: 20px solid #708059;
+	background-color: #99BF60;
+	color: #fff;
+	text-decoration:none;
+	border-top: 1px solid #B4CC8F;
+}
+
+.module_menu ul #current ul li a{
+	display: block;
+	padding: 3px 5px 3px 1.0em;
+	border-left: 20px solid #708059;
+	border-top: 1px solid #B4CC8F;
+	background-color: #99bf60;
+	margin:0 0 -1px 0;
+	color:#fff;
+}
+
+.module_menu ul li ul #current a{
+	display: block;
+	padding: 3px 5px 3px 1.0em;
+	border-top: 1px solid #B4CC8F;
+	border-left: 20px solid #99BF60;
+	background-color: #E6FFBF;
+	margin:0 0 -1px 0;
+	color:#99BF60;
+}
+
+
+#header .module {
+	margin-bottom: 0em;
+	padding: 0; border: 0px;
+}
+
+
+#mainlevel-nav {
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
+	width:100%;
+	list-style-type:none;
+	position:absolute;
+	bottom:0px;
+	right:10px;
+}
+
+#mainlevel-nav li {
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0px;
+}
+
+#mainlevel-nav a:link,#mainlevel-nav a:visited {
+	float:left;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	margin:0 2px;
+	padding:7px 8px 5px 8px;
+	border-left: 1px solid #80896c;
+	border-top: 1px solid #80896c;
+	border-right: 1px solid #80896c;
+	border-bottom: 1px solid #80896c;
+	background:#DCE6CF;
+}
+
+#header #active_menu-nav, #mainlevel-nav #current a {
+	float:left;
+	display:block;
+	color:#000;
+	text-decoration:none;
+	margin:0 2px;
+	padding:7px 8px 5px 8px;
+	border-left: 1px solid #80896c;
+	border-top: 1px solid #80896c;
+	border-right: 1px solid #80896c;
+	border-bottom: 1px solid #fff;
+	background:#fff;
+}
+
+#mainlevel-nav #current {
+background:#fff;
+}
+
+#mainlevel-nav li a:hover {
+background:#fff;
+}
+
+.pagination span, .pagination a, .pagination strong{
+	margin:0 3px;
+}
+/** overlib **/
+.ol-foreground {
+	background-color: #f0f0f0;
+}
+.ol-background {
+	background-color: #d6d6d6;
+}
+.ol-textfont {}
+.ol-captionfont {
+	color: #ffffff;
+	font-weight: bold;
+}
+.ol-captionfont a {}
+
+.ol-closefont {}
+
+.pagination span, .pagination a, .pagination strong{
+	margin:0 3px;
+}
+#modlgn_username {
+	width:160px;
+}
+#modlgn_passwd {
+	width:160px;
+}

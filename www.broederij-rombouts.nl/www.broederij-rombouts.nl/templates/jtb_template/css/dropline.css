@@ -1,0 +1,201 @@
+
+
+/* @group DROPLINE */
+
+/* The Container */
+
+.menubar {
+	height: 28px;
+	width: 100%;
+	margin: 0px auto;
+	position: relative;
+	z-index: 100;
+}
+
+/* The Menu */
+
+#navmenu {
+	margin: 0px auto 0px auto;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	height: 58px;
+	width: 100%;
+	font: bold 12px "Lucida Sans", Lucida, Verdana, sans-serif;
+}
+
+/* All lists must float */
+
+#navmenu ul {
+	margin: 0px 0px 0px 4px;
+	padding: 0;
+	float: left;
+}
+
+/* Hide 3rd Level */
+#navmenu ul ul ul {
+	left: -20000px;
+}
+
+/* All list-items must obey parent selector */
+
+#navmenu li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+}
+
+
+/* Second level lists hide by default */
+
+#navmenu li ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:30px;
+	height: 28px;
+	overflow:hidden;
+	left: 0;
+	width:100%;
+}
+
+/* IE needs to know we are on a computer */
+
+#navmenu a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Underline all sublevel hover a.links */
+
+#navmenu li ul a:hover,
+#navmenu li.active ul a:hover {
+    text-decoration: underline;
+}
+
+/* Underline all sublevel active a.links */
+
+#navmenu li li.active a, 
+#navmenu li li.active:hover a,
+#navmenu li li.iehover.active a {
+	 text-decoration: underline;
+}
+
+
+/* Keeps sublevel persistant */
+
+#navmenu li.active ul {
+	display: block;
+}
+
+/* Makes sure sublevels stay on top */
+
+#navmenu li:hover ul, #navmenu li.iehover ul {
+	display: block;
+	z-index: 6000;
+}
+
+/* Top level a.links (sizes only) */
+
+#navmenu li a {
+	display: block;
+	float: left;
+	padding: 0 15px;
+	height: 29px;
+	line-height: 29px;
+	/*_line-height: 27px;*/
+}
+
+/* Second level a.links */
+
+#navmenu li ul a, #navmenu li.active ul a {
+	display: block;
+	float: left;
+	font-weight: normal;
+	padding: 0 10px;
+	background: none;
+	height: 24px;
+	line-height: 24px;
+	font-size: 1.1em;
+}
+
+/* First level list-items */
+
+#navmenu ul li {
+	background-color: #fafafa;
+	margin-right: 1px;
+	border-right: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+}
+/* First level list-items (hover) */
+
+#navmenu ul li:hover,
+#navmenu ul li.iehover
+ {
+	background-color: #eeeeee;
+}
+
+/* First level normal a.link */
+
+#navmenu ul li a {
+	color: #5A7031;
+}
+
+/* Second level normal a.link */
+
+
+#navmenu ul li:hover ul,
+#navmenu li:hover a:link,
+#navmenu li:hover a:visited,
+#navmenu li.iehover a:link,
+#navmenu li.iehover a:visited {
+	color: #5A7031;
+}
+
+#navmenu ul li ul,
+#navmenu ul li.active a:link,
+#navmenu ul li.active a:visited,
+#navmenu ul li.active ul:hover,
+#navmenu ul li.active:hover ul,
+#navmenu ul li.active ul.iehover,
+#navmenu ul li.active.iehover ul {
+	background-color:green;
+	color: #fff;
+}
+
+#navmenu ul li.active a:link,
+#navmenu ul li.active a:visited,
+#navmenu ul li.active ul.iehover
+ {
+	background-color: #D9B536;
+	color: #FFFFFF;
+}
+#navmenu li.active li a:link,
+#navmenu li.active li a:visited,
+#navmenu li.active li a:hover,
+#navmenu li:hover ul li a:link,
+#navmenu li:hover ul li a:visited,
+#navmenu li:hover ul li a:hover,
+#navmenu li.iehover ul li a:link,
+#navmenu li.iehover ul li a:visited,
+#navmenu li.iehover ul li a:hover,
+#navmenu li li a:link,
+#navmenu li li a:visited,
+#navmenu li li a:hover
+{
+	border: none;
+	background-color: teal;
+	padding: 2px 10px;
+	color: #333;
+
+}
+#navmenu ul li.active ul li,
+#navmenu ul li ul li
+{
+	border: none;
+}
+
+/* @end */

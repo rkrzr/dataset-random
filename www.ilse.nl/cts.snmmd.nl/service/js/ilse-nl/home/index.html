@@ -1,0 +1,175 @@
+Tagging = function(context) {
+  this.site = 'ilse-nl';
+  this.zone = 'home';
+  this.source_consent_cookie = 'site_consent';
+  this.source_default_tracking = true;
+  this.protocol = window.location.protocol;
+  this.autodetect_url = this.protocol + '//cts.snmmd.nl/service/detect/';
+  this.context = context;
+  this.positions = {};
+  this.positions_weighted = {};
+
+  this.positions['footer'] = '[]';
+  this.positions_weighted['footer'] = false;
+  
+  this.positions['head'] = '[{\"service_name\": \"Sanoma cookie opt-in\", \"source_non_tracking\": \"<script type=\\"text/javascript\\">    (function() {        function get_domain() {            var host = window.location.host;            var port = host.indexOf(\':\');            var domain = port>0?host.substr(0,port):host;            var parts = domain.split(\'.\');            return parts[parts.length-2]+\'.\'+parts[parts.length-1];        }        var url = window.location.protocol+\'//privacy.\'+get_domain()+\'/script/consent.js\';        var script = \'<scr\'+\'ipt type=\\"text/javascript\\" src=\\"\'+url+\'\\"></scr\'+\'ipt>\';        document.write(script);    })();</script>\", \"weight\": null, \"service_kind\": \"functional\", \"source_tracking\": \"<script type=\\"text/javascript\\">    (function() {        function get_domain() {            var host = window.location.host;            var port = host.indexOf(\':\');            var domain = port>0?host.substr(0,port):host;            var parts = domain.split(\'.\');            return parts[parts.length-2]+\'.\'+parts[parts.length-1];        }        var url = window.location.protocol+\'//privacy.\'+get_domain()+\'/script/consent.js\';        var script = \'<scr\'+\'ipt type=\\"text/javascript\\" src=\\"\'+url+\'\\"></scr\'+\'ipt>\';        document.write(script);    })();</script>\"}]';
+  this.positions_weighted['head'] = false;
+  
+  this.positions['toc'] = '[]';
+  this.positions_weighted['toc'] = false;
+}
+
+Tagging.prototype._has_optin = function(category) {
+  var categories, i, tagging = this;
+  categories = get_categories(this.source_consent_cookie);
+  for (i = 0; i < categories.length; i++) {
+    if (categories[i] == category) {
+      return true;
+    }
+  }
+  return false;
+
+  function get_categories(name) {
+    var split = tagging._get_cookie(name).split(":");
+    if (split && typeof split[3] != "undefined") {
+      return split[3].split(",");
+    } else {
+      return [];
+    }
+  }
+}
+
+Tagging.prototype._get_cookie = function(name) {
+  if (document.cookie && document.cookie != "") {
+    var cookies = document.cookie.split(";");
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = trim(cookies[i]);
+      if (cookie.substring(0, name.length + 1) == (name + "=")) {
+        return decodeURIComponent(cookie.substring(name.length + 1));
+      }
+    }
+  }
+  return "";
+
+  function trim(string) {
+    return string.replace(/^\s\s*/, "").replace(/\s\s*$/, "");
+  }
+}
+
+Tagging.prototype._get_tag_source = function(tag) {
+  if (this._get_cookie(this.source_consent_cookie)) {
+    if (this._has_optin(tag.service_kind)) {
+      return tag.source_tracking;
+    } else {
+      return tag.source_non_tracking;
+    }
+  } else {
+    if (this.source_default_tracking) {
+      return tag.source_tracking;
+    } else {
+      return tag.source_non_tracking;
+    }
+  }
+}
+
+Tagging.prototype.get_json = function(text) {
+  return !(/[^,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]/.test(text.replace(/"(\\.|[^"\\])*"/g, '')))
+         && eval('(' + text + ')');
+}
+
+Tagging.prototype.random_tag = function(position) {
+  var tags = [];
+  var weighted_tags = [];
+
+  for (index in position) {
+    tag = position[index];
+    tags[index] = this._get_tag_source(tag);
+
+    for (var i = 0; i < tag.weight; i++) {
+      weighted_tags.push(index);
+    }
+  }
+
+  // Pick a random tag from array based on weight
+  var random_index = weighted_tags[Math.floor((Math.random() * weighted_tags.length))];
+  return tags[random_index];
+}
+
+Tagging.prototype.all_tags = function(position) {
+  var tags = [], index, tag;
+  for (index in position) {
+    tag = position[index];
+    tags[index] = this._get_tag_source(tag);
+  }
+  return tags.join("\n");
+}
+
+Tagging.prototype.render = function(slug, context) {
+    document.write(this.get_source(slug, context));
+}
+
+Tagging.prototype.get_source = function(slug, context) {
+  if (typeof this.positions[slug] == 'undefined') {
+    // This position doesn't exist, call the autodetect
+    this._detect(slug);
+  } else {
+    var position = this.get_json(this.positions[slug]);
+    var tag_source = "";
+
+    if (this.positions_weighted[slug]) {
+      tag_source = this.random_tag(position)
+    } else {
+      tag_source = this.all_tags(position);
+    }
+
+    // Replace variables
+    var variables = {};
+    for (variable in this.context) {
+      variables[variable] = this.context[variable];
+    }
+    for (variable in context) {
+      variables[variable] = context[variable];
+    }
+    tag_source = this._replace_variables(tag_source, variables);
+
+    // Remove unset variables and return result
+    return tag_source.replace(/\$\w+/g, "").replace(/\${\w+}/g, "");
+  }
+  return '';
+}
+
+Tagging.prototype.log = function(err) {
+  //this._load(error_endpoint);
+}
+
+Tagging.prototype._load = function(url) {
+  var head = document.getElementsByTagName('head')[0] || document.documentElement,
+      script = document.createElement('script');
+
+  script.type = 'text/javascript';
+  script.src = url;
+  head.appendChild(script);
+}
+
+Tagging.prototype._detect = function(position) {
+  this._load(this.autodetect_url + this.site +'/'+ this.zone +'/' + position + '/');
+}
+
+Tagging.prototype._replace_variables = function(content, variables) {
+  var RE_VALID_IDENT = /^[a-zA-Z_]\w*$/;
+  for (variable in variables) {
+    if (RE_VALID_IDENT.test(variable)) {
+      var regexes = [new RegExp('\\$' + variable, 'g'), new RegExp('\\${' + variable + '}', 'g')];
+
+      for (re in regexes) {
+        content = content.replace(regexes[re], variables[variable]);
+      }
+    } else {
+      throw "'" + variable + "' is not a valid identifier.";
+    }
+  }
+  return content;
+}
+
+
+  

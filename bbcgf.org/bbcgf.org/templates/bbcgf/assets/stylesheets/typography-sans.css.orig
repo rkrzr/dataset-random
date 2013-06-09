@@ -1,0 +1,235 @@
+/* ======================================================= */
+/* #THEME-TYPOGRAPHY - Font-family, color, and line-height goes here (defaults found in base.css)  */
+/* ======================================================= */
+
+body{ 
+	font: 13px/19px 'PT Sans', san-serif; 
+	color: #777;
+	}
+
+a, a:hover{color: #ee7727; text-decoration: none;}
+a:hover{opacity: 0.8;}
+.module a:hover{opacity: 1;}
+
+			
+/* Headline Text */	 
+h1, h2, h3, h4, h5, h6 {  
+	font-family: 'PT Sans', san-serif; 
+	font-weight: normal; 
+	color: #e4e4e4;
+	}	
+	 
+h5 { 
+	font-size: 17px; 
+	line-height: 28px;
+	margin-top: 10px;
+} 
+	
+h2.title{ 
+    background: url("../images/theme/backgrounds/pattern_diagonal_medium.png") repeat scroll 0 0 transparent;
+    font-size: 28px;
+    line-height: 49px;
+    margin-bottom: 20px;
+    padding: 8px 0;
+}
+
+h2.title span{  padding: 17px 22px 17px 0;  }
+
+.sidebar h3, .aside h3{
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+
+
+/* Comment Space Font Rules */
+.commentlist .comment-body .commentmetadata {
+    font-size: 12px;
+    font-style: italic;
+   }
+.vcard a{font-size: 16px; font-weight: bold; color: #222}
+.says{color: #999;}
+
+ 
+ 
+/* Small Text Classes */
+.tags a, #section-tophat, #section-footer span, #section-sub-footer, .date{
+	font-size: 11px
+}
+
+#section-footer {
+	font-size: 12px
+}
+
+.portfolio-filters span, .portfolio-view span{
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 21px;
+   }
+
+label, legend {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+
+/* Specialty classes */
+
+.tabs li a{color: #111;}
+.aside{
+	background: url("../images/theme/backgrounds/pattern_diagonal_white.png") repeat scroll 0px 2px transparent;
+    border-right: 4px solid rgba(155, 155, 155, 0.2);
+    font-size: 11px;
+    padding: 10px 15px 10px 10px;
+    display: block;
+}
+
+.superquote{
+	clear: both; 
+	margin: 40px 0; 
+	font-size: 26px; 
+	font-style: italic; 
+	font-family: Georgia; 
+	line-height: 34px; 
+	padding-left: 20px; 
+}
+
+.supertagline{
+	clear: both; 
+	margin: 20px 0; 
+	font-size: 26px; 
+	font-style: italic; 
+	font-family: Georgia; 
+	line-height: 34px; 
+	display: block;
+	text-align: center;
+}
+
+
+/* Featured Space (for downloads and stuff) */
+.feature {
+	background: url("../images/theme/backgrounds/pattern_diagonal_medium.png") repeat scroll 0 0 transparent;
+	display: block;
+	padding: 30px 20px; 
+	font-size: 24px;
+	font-style: italic;
+	font-family: Georgia; 
+	line-height: 34px;
+}	
+
+.feature span{
+	background: white;
+	padding: 10px;
+	}
+
+.feature .button{
+	float: right;
+}
+
+/* Tags Text */
+.tags a{ 
+	background: none repeat scroll 0 0 #333333;
+	color: #EFEFEF; 
+	}
+.tags a:hover{	
+	background: #444444;  
+	oolor: #ffffff;
+	}
+
+
+/* Menu Text - Light Skin Colors Below in Main Section*/
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	top:			3.8em; /* 3.8 with sans stack, match top ul list item height */
+}
+
+
+.sf-menu > li > a strong{ /* Top Level Link */
+	font-size: 15px;
+	font-weight: normal;	
+	color: #f3f3f3;
+	}
+	
+.sf-menu > li a span{ /* Top Level Sub-text */
+	font-size: 9.5px; 
+	font-weight: normal; 
+	line-height: 9px; 
+	color: #444; 
+	display: block; /* To ensure that the subtext drops a line */
+	}
+
+.sf-menu > li:hover a strong { color: #222; }
+.sf-menu > li:hover a span{ color: #444; }
+
+/* Dropdown Links */
+.sf-menu ul { 
+	font-size: 12px;
+	color: #CCC;
+	}
+
+.sf-menu ul li:hover a{ color: white; }
+
+/* Light version of dropdown */
+.sf-menu.light ul li a { color: #555; }
+.sf-menu.light ul li:hover a{ color: #000 ; }
+.sf-menu.light ul { color: #333; }
+
+	
+
+/* Tophat and Footer Text */
+#section-tophat, #section-tophat a,
+#section-footer, #section-footer a, 
+#section-sub-footer{ 
+	color: #e3e1d8; 
+	}
+#section-tophat .tagline a {
+-webkit-text-shadow: 0px 0 0px #000;
+		-moz-text-shadow: 0px 0 0px #000;
+		  -o-text-shadow: 0px 0 0px #000;
+			 text-shadow: 0px 0 0px #000;
+/*#section-footer p .strong { font-weight: bold; font-size: 1em;}*/
+
+#section-footer h5{ 
+	color: #e3e1d8; 
+	}
+
+#section-footer a{
+	text-decoration: none;
+	}
+	
+   
+   
+/* Light Text Shadow */
+/*h1, h2, h3, h4, h5, h6,
+.sf-menu.light ul li a,
+.portfolio-filters span, .portfolio-view span {  
+	 -webkit-text-shadow: 0px 0 0px #000;
+		-moz-text-shadow: 0px 0 0px #000;
+		  -o-text-shadow: 0px 0 0px #000;
+			 text-shadow: 0px 0 0px #000;
+			}
+			
+/*h1, h2, h3, h4, h5, h6,
+.sf-menu.light ul li a,
+.portfolio-filters span, .portfolio-view span {  
+	 -webkit-text-shadow: 1px 0 1px #fff;
+		-moz-text-shadow: 1px 0 1px #fff;
+		  -o-text-shadow: 1px 0 1px #fff;
+			 text-shadow: 1px 0 1px #fff;
+			}*/
+
+/* Dark Text Shadow */
+/*.sf-menu li ul, 
+#section-tophat, 
+#section-footer, #section-footer h5,
+.sf-menu.light li u {  
+	 -webkit-text-shadow: 1px 0 1px #000;
+		-moz-text-shadow: 1px 0 1px #000;
+		  -o-text-shadow: 1px 0 1px #000;
+			 text-shadow: 1px 0 1px #000;
+			}
+
+/* ul.square li{ line-height: 14px; } */

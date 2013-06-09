@@ -1,0 +1,727 @@
+@charset 'utf-8';
+
+/* ----- HTML再定義 ------------------------------------ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+	font-size: 11pt;
+	font-style: normal;
+	font-family: 'ＭＳ Ｐゴシック', 'MS UI Gothic', Osaka, sans-serif;
+	text-align: left;
+}
+
+body {
+	padding: 0px;
+	text-align: center;
+}
+p, li, dt, dd, address {
+	color: #444444;
+
+}
+p {
+	margin-bottom: 15px;
+}
+ul {
+	margin: 0px 0px 20px 20px;
+	list-style-type: none;
+}
+ul li ol li {
+	margin: 0px 20px 0px 25px;
+}
+ul li ol {
+	margin-bottom: 10px;
+}
+em {
+	font-weight: bold;
+}
+img {
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border: 0px;
+}
+object {
+	margin-left: 10px;
+}
+
+pre {
+	width: 430px;
+
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #0E0;
+
+	overflow: auto;
+}
+code, var, kbd {
+	color: #000080;
+
+	font-family: 'ＭＳ ゴシック', monospace;
+	line-height: 1.2;
+}
+blockquote {
+	margin: 10px;
+	border-left: 5px solid #7a7;
+	font-size: 9pt;
+	background: #efffef;
+}
+blockquote p {
+	color: #999999;
+	font-size: 9pt;
+}
+blockquote a {
+	font-size: 9pt;
+}
+
+form fieldset {
+	border: 0px solid #000000;
+}
+form legend {
+	display: none;
+}
+form input, form select {
+	margin-right: 1px;
+	padding: 1px;
+
+	font-size: 90%;
+}
+@media screen {
+	form input, form select {
+		font-family: Verdana, Arial, sans-serif;
+	}
+}
+form select {
+	margin-top: 1px;
+}
+form p input {
+	text-align: center;
+}
+form textarea {
+	padding: 1px;
+
+	font-family: 'ＭＳ ゴシック', Osaka, monospace;
+	line-height: 1.2;
+}
+
+table {
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+table tr th {
+	padding: 5px;
+	text-align: center;
+}
+table tr td {
+	padding: 5px;
+}
+table tr td input {
+	margin: -2px;
+}
+
+a:link, a:visited {
+	color: #0000AA;
+
+	text-decoration: underline;
+}
+a:active, a:hover {
+	color: #FF7700;
+
+	text-decoration: underline;
+}
+
+/* ----- 基本構造 -------------------------------------- */
+
+div#container {
+	width: 720px;
+
+	margin: 0px auto;
+	border-left: 1px solid #040;
+	border-right: 1px solid #040;
+
+	background-color: #FFFFFF;
+}
+
+div#header {
+	float: none;
+	clear: both;
+
+	height: 120px;
+
+	background-color: #cfa;
+}
+div#menu {
+	float: none;
+	clear: both;
+
+	margin-bottom: 10px;
+
+	background-color: #786;
+}
+
+div#navigation {
+	width: 206px;
+
+	float: right;
+}
+div#logs {
+	float: left;
+}
+div#diary, div#comment, div#trackback {
+	margin: 0px 0px;
+}
+
+div#page, div#navi, div#contents, div#work, div#form, div#canvas, div#env, div#status {
+	float: none;
+	clear: both;
+
+	padding: 0px 15px;
+}
+div#footer {
+	float: none;
+	clear: both;
+}
+
+/* ----- ヘッダー -------------------------------------- */
+
+div#header h1 {
+	padding: 15px 15px 10px 15px;
+}
+div#header h1 a {
+	color: #444444;
+
+	font-size: 25px;
+	text-decoration: none;
+}
+@media screen {
+	div#header h1 a {
+		font-family: Verdana, Arial, sans-serif;
+	}
+}
+
+div#header p {
+	margin: 0px 15px;
+
+	font-size: 12px;
+}
+
+/* ----- メニュー -------------------------------------- */
+
+div#menu h2 {
+	display: none;
+}
+
+div#menu ul {
+	padding: 5px 0px;
+}
+div#menu ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+div#menu a:link, div#menu a:visited {
+	color: #FFFFFF;
+}
+div#menu a:active, div#menu a:hover {
+	color: #000000;
+}
+
+/* ----- ナビゲーション -------------------------------- */
+div#navigation .Top {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../../image/navi_area_top.gif) no-repeat;
+}
+div#navigation .Mdl {
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	background: url(../../image/navi_area_mdl.gif) repeat-y;
+	text-align: left;
+}
+div#navigation .Btm {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../../image/navi_area_btm.gif) no-repeat;
+}
+/*
+div#navigation h2 {
+	padding: 5px;
+
+	color: #FFFFFF;
+
+	background-color: #786;
+}
+*/
+div#navigation ul {
+	margin: 0px 10px 0px 12px;
+}
+div#navigation ul li {
+	margin: 0px 0px 0px 0px;
+
+	list-style-type: none;
+}
+div#navigation ul li ul {
+	margin: 0px 0px 0px 20px;
+}
+
+div#navigation dl {
+	margin: 0px 10px 0px 12px;
+}
+div#navigation dl dt {
+}
+div#navigation dl dd {
+}
+
+div#navigation form dl {
+}
+div#navigation form dl dt {
+	display: none;
+}
+div#navigation form dl dd {
+}
+div#navigation form p {
+	margin-left: 12px;
+	margin-bottom: 0px;
+}
+
+div#navigation form #btn {
+	background: #fff;
+	border: 1px solid #000;
+	width: 120px;
+	text-align: center;
+}
+div#navigation table {
+	width: 165px;
+
+	margin: 0px 0px 7px 0px;
+	border: 0px solid #AAAAAA;
+}
+@media screen {
+	div#navigation table {
+        	margin: 0px auto 7px auto;
+        }
+}
+div#navigation table tr th {
+	padding: 2px;
+	border: 0px solid #AAAAAA;
+
+	background-color: #FFFFFF;
+
+	text-align: left;
+}
+div#navigation table tr td {
+	padding: 1px;
+	border: 0px solid #AAAAAA;
+
+	text-align: center;
+}
+@media screen {
+	div#navigation table tr td {
+        	padding: 2px;
+        }
+}
+
+div#navigation .day {
+	color: #444444;
+}
+div#navigation .satday {
+	color: #4444CC;
+}
+div#navigation .sunday {
+	color: #CC4444;
+}
+div#navigation .today {
+	background-color: #EEEEEE;
+}
+
+div#navigation .calender {
+	margin: 2px 10px;
+}
+div#navigation .calender li {
+	display: inline;
+
+	margin-right: 10px;
+}
+
+div#navigation .block {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+
+	border: 1px solid #777777;
+
+	text-align: center;
+}
+
+/* ----- 記事一覧 -------------------------------------- */
+.ContainerBlog {
+	margin: 0 auto;
+	width: 700px;
+}
+#Top {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../../image/text_area_top.gif) no-repeat;
+}
+#Mdl {
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: url(../../image/text_area_mdl.gif) repeat-y;
+	text-align: left;
+}
+#Btm {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../../image/text_area_btm.gif) no-repeat;
+}
+
+div#logs {
+	width: 492px;
+}
+html>body div#logs {
+	width: 494px;
+}
+
+div#diary .diary {
+	margin-bottom: 10px;
+	padding: 0px;
+	border: 1px solid #777777;
+}
+
+div#diary h2#List {
+	display: none;
+	background: #fff;
+}
+div#diary h3 {
+	margin: 5px 5px 20px 5px;
+	padding: 5px;
+
+	color: #FFFFFF;
+
+	background-color: #786;
+}
+div#diary h4 {
+	margin: 10px;
+}
+
+div#diary .text * {
+/*	font-size: x-small;*/
+}
+div#diary .text span {
+	font-size: 9pt;
+	color: #439b3a;
+}
+html>body div#diary .text * {
+/*	font-size: small;*/
+}
+div#diary .text p {
+	margin: 15px 10px;
+}
+div#diary .text ul {
+	margin: 15px 30px;
+}
+div#diary .text ol {
+	margin: 15px 40px;
+}
+
+div#diary .info {
+	margin: 5px 10px;
+
+	text-align: right;
+}
+div#diary .info * {
+	font-size: 10px;
+}
+div#diary .info li {
+	display: inline;
+
+	margin-left: 5px;
+}
+
+div#diary .list {
+	border: 1px solid #AAAAAA;
+	margin: 0px 0px 10px 20px;
+	padding: 5px 10px;
+}
+div#diary .list h4 {
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px 0px 15px 0px;
+	padding: 3px 5px;
+
+	color: #444444;
+	background-color: #FFFFFF;
+}
+div#diary .list ul {
+	margin: 0px 0px 10px 20px;
+}
+div#diary .list dl dt {
+	margin: 0px 5px;
+        font-weight: bold;
+}
+div#diary .list dl dd {
+	margin: 10px 10px 0px 15px;
+}
+
+div#trackback h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#trackback dl {
+	margin-bottom: 10px;
+	padding: 2px 2px 10px 2px;
+	border: 1px solid #AAAAAA;
+}
+div#trackback dl dt {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+div#trackback dl dd {
+	margin-left: 30px;
+}
+
+div#comment .comment {
+	margin-bottom: 10px;
+	padding: 2px 2px 10px 2px;
+	border: 1px solid #AAAAAA;
+}
+
+div#comment h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#comment h3 {
+	margin: 5px 5px 10px 5px;
+	padding: 5px;
+}
+
+div#comment .text * {
+	font-size: x-small;
+}
+html>body div#comment .text * {
+	font-size: small;
+}
+div#comment .text p {
+	margin: 10px;
+}
+
+/* ----- ページ移動 ------------------------------------ */
+
+div#page h2 {
+	display: none;
+}
+
+div#page ul {
+	margin: 0px;
+}
+div#page ul li {
+	display: inline;
+
+	margin-right: 10px;
+}
+
+/* ----- ナビゲーション -------------------------------- */
+
+div#navi h2 {
+	display: none;
+}
+
+div#navi ul {
+	margin: 0px 0px;
+
+	text-align: right;
+}
+div#navi ul li {
+	display: inline;
+
+	margin-left: 5px;
+}
+
+div#navi form dl {
+}
+div#navi form dl dt {
+	display: none;
+}
+div#navi form dl dd {
+	float: left;
+}
+div#navi form input {
+	padding: 0px;
+}
+
+/* ----- コンテンツ ------------------------------------ */
+
+div#contents h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#contents h3 {
+	margin-bottom: 15px;
+	padding: 3px 0px;
+	border-bottom: 1px double #999999;
+}
+div#contents h4 {
+	margin-bottom: 10px;
+}
+
+div#contents dl {
+	margin-bottom: 20px;
+}
+div#contents dl dt {
+	margin-top: 10px;
+}
+div#contents dl dd {
+	margin-left: 30px;
+}
+
+/* ----- 処理選択 -------------------------------------- */
+
+div#work h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+
+div#work form {
+	margin: 10px 0px;
+}
+div#work form dl dt {
+	display: none;
+}
+div#work form dl dd {
+	float: left;
+}
+div#work form input {
+	padding: 0px;
+}
+
+/* ----- フォーム -------------------------------------- */
+
+div#form h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+
+div#form form {
+	margin-bottom: 10px;
+}
+div#form form dl {
+	margin-bottom: 20px;
+}
+div#form form dl dt {
+	float: left;
+	clear: left;
+	width: 5em;
+}
+div#form form dl dd {
+}
+div#form form dl dd textarea {
+	margin-top: 2px;
+}
+div#form form ul {
+	margin: 0px 0px 20px 0px;
+}
+div#form form ul li {
+	list-style-type: none;
+}
+
+/* ----- 環境設定 -------------------------------------- */
+
+div#env h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#env h3 {
+	margin-bottom: 15px;
+	padding: 5px;
+
+	background-color: #EEEEEE;
+}
+
+div#env dl {
+	margin-bottom: 20px;
+}
+div#env dl dd {
+	margin-bottom: 10px;
+}
+
+div#env form {
+	margin-bottom: 20px;
+}
+div#env form p {
+	margin-bottom: 20px;
+}
+
+/* ----- キャンバス ------------------------------------ */
+
+div#canvas h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#canvas applet {
+	margin-bottom: 15px;
+}
+
+/* ----- ステータス ------------------------------------ */
+
+div#status h2 {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+div#status h3 {
+	margin-bottom: 15px;
+	padding: 3px 0px;
+	border-bottom: 1px double #999999;
+}
+div#status h4 {
+	margin-bottom: 10px;
+}
+
+div#status dl {
+	margin-bottom: 20px;
+}
+div#status dl dt {
+	float: left;
+	clear: left;
+	width: 10em;
+}
+div#status dl dd {
+}
+
+/* ----- フッター -------------------------------------- */
+
+div#footer address {
+	padding: 10px 15px 20px 15px;
+
+	color: #FFFFFF;
+
+	background-color: #786;
+}
+
+div#footer a:link, div#footer a:visited {
+	color: #FFFFFF;
+}
+div#footer a:active, div#footer a:hover {
+	color: #000000;
+}
+
+/* ----- 個別指定 -------------------------------------- */
+
+.new {
+	color: #FF0000;
+}

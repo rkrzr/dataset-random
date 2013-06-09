@@ -1,0 +1,54 @@
+
+
+small {
+
+	font-style:italic;
+	display:block;
+	color:#ccc;
+	
+	}
+
+.tweetList {
+
+		margin:0;
+		padding:0;
+
+
+}
+
+
+
+.tweets {
+
+	width:240px;
+	height:840px;
+	color:#666;
+	
+}
+
+
+
+
+.tweets li {
+	
+	display:block;
+	font-size:12px;
+	margin-top:8px;
+	padding-bottom:5px;
+	
+}
+
+.tweets .hash { color:#0066CC; } 
+
+.tweets .reply { color:#0066CC; } 
+
+.tweets a:link { text-decoration:none; color:#185778;}
+.tweets a:active { text-decoration:none; color:#0066CC;}
+.tweets a:hover { text-decoration:underline; color:#0066CC;}
+.tweets a:visited { text-decoration:none; color:#0066CC;}
+
+#tweet_list {
+/*	position: relative;
+	height: 300px;
+	overflow: scroll
+*/}

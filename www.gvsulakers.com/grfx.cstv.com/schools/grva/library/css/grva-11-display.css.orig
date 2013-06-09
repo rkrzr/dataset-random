@@ -1,0 +1,1716 @@
+/* 
+ ----------------------------------------------------------------------------
+	Company: CBS Interactive, CBS College Sports
+	Producer: Andy Devendorf
+ 	CSS Document: grva-11-display.css
+ ---------------------------------------------------------------------------- 
+*/
+
+
+/* colors
+ ----------------------------------------------------------------------------
+	blue: 0081c6
+	lt gray: f6f6f6
+	black: 000
+	text: #222
+	link: #444
+ 	link.hover: #666
+ ----------------------------------------------------------------------------
+*/
+
+
+/* default type selectors
+ * ---------------------------------------------------------------------------- */
+
+body { 
+	background: #fff;
+	color: #222;
+	font: 12px Helvetica, Arial, sans-serif;
+	margin:0; 
+	padding:0;
+	min-width: 1024px;
+	}
+td{
+font: 12px Helvetica, Arial, sans-serif;
+color: #222;
+}
+
+
+h1 { font-size: 18px }
+h2 { font-size: 16px }
+h3 { font-size: 14px }
+
+h4,h5,h6 { font-size: 13px }
+
+a img, :link img, :visited img, fieldset { border:none }
+
+a:link, a:visited { color: #444; text-decoration: underline }
+a:hover, a:active { color: #666; text-decoration: underline }
+
+a { outline: none }
+
+.columns pre {font-family:monospace; font-size:11px;}
+.columns .presmall {font-family:monospace; font-size:11px;}
+.columns pre a{font-family:monospace; }
+.columns a:hover{text-decoration:none;}
+
+.dropseven {
+	top-margin: 7px;
+}
+
+/* html5 fixes
+ * ---------------------------------------------------------------------------- */
+.schedborder table td  img { display: block; } /* schedule html5 fix */
+#schedtable td.row-text img { display: inline; } /* schedule html5 fix */
+.revLineColor td { display: none; } /* layered ad html5 fix */
+
+/* classes
+ * ---------------------------------------------------------------------------- */
+
+.center { text-align: center }
+
+.img-left { float: left; margin: 0 6px 4px 0 }
+.img-right { float: right; margin: 0 0 4px 6px }
+
+.clear { 
+	clear: both; 
+	height: 0.01em; 
+	overflow: hidden;
+        display:none;
+	}
+#revLayeredAd { z-index: 1111 !important;}
+#revLayeredAd .revClickText  {
+color:#fff;
+}
+
+.clearcols {
+	clear: left;
+	overflow: hidden;
+	height: 0px;
+	width: 0px;
+}
+
+.hide-content {
+	display: none;
+}
+
+/* CSTV specific
+ * ---------------------------------------------------------------------------- */
+
+h2, 
+.storyheadline, 
+.StoryHeadline, 
+.page-header { 
+	color: #0081c6; 
+	font-weight: bold; 
+	font-size: 20px;
+	display: block;
+	}
+
+.storyteaser, 
+.StoryTeaser { color: #222; font-weight: normal; font-size: 14px; margin-top: 10px; }
+
+.fivevert { line-height: 5px }
+.tenvert { line-height: 10px }
+.twentyvert { line-height: 20px }
+
+.yahoo-on { background: #fff url("http://grfx.cstv.com/schools/uri/graphics/yahoo-search5.gif") no-repeat }
+.yahoo-off { background-image: none	}
+
+
+
+/* layout
+ * ---------------------------------------------------------------------------- */
+ /* */
+body {
+	background: #fff url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bg-blue-stripe-wrap.jpg") no-repeat top center fixed;
+	/* background: #fff url("http://grfx.cstv.com/schools/grva/graphics/grva-12-bg-pink-stripe-special.jpg") no-repeat top center fixed; */
+	/* background: #000 url("http://grfx.cstv.com/schools/grva/graphics/black-out-2012-bkg-1400.jpg") no-repeat top center fixed;	*/
+}
+#printer-footer a {
+	color: #222;
+}
+.story-content {
+	padding: 20px 14px 14px 14px;
+	line-height: 150%;
+}
+.story-content a {
+	color: #0081c6;
+}
+.story-content a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+#shadowbox-wrapper {
+	_display: none;
+	position: fixed;
+	top: 0px;
+	z-index: -100;
+	width: 100%;
+	height: 82px;
+	min-width: 1024px;
+}
+#shadowbox {
+	background:  #000;
+	width: 991px;
+	height: 82px;
+	margin: 0 auto 0 auto;
+}
+
+#page {
+	width: 100%;
+}
+
+
+
+#wrap { 
+	margin: 0px auto 0px auto;
+	width: 989px;
+	min-width: 989px;
+	}
+	
+#mast {
+	position: relative;
+	margin-top: 58px;
+	_margin-top: -25px;
+	height: 129px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-mast-left.png") no-repeat;
+	overflow: hidden;
+	margin-bottom: 4px;
+	}
+	
+	#gv-masthead {
+		top: 17px;
+		left: 149px;
+		position: absolute;
+		z-index: 10;
+	}
+	
+	#mast-sponsor {
+		position: absolute;
+		top: 3px;
+		left: 355px;
+		width: 141px;
+		height: 29px;
+		z-index: 11;
+	}
+	#mast-flash-holder {
+		position: absolute;
+		top: 0px;
+		left: 645px;
+		width: 337px;
+		height: 130px;
+		overflow: hidden;
+		background: #fff url('http://grfx.cstv.com/schools/grva/graphics/grva-11-mast-left.png') no-repeat center bottom;	
+	}
+	#mast-right-edge {
+		position: absolute;
+		top: 0px;
+		left: 971px;
+		width: 18px;
+		height: 130px;
+		background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-mast-corner-right-fix.png") no-repeat right top;
+	}
+	
+#gv-logo {
+	position: absolute;
+	top: 10px;
+	left: 24px;
+	
+	z-index: 999;
+	/*position: relative;
+	float: left;
+	margin-left: 24px;
+	margin-top: 10px;
+	*/height: 154px;
+	width: 119px;
+
+
+}
+#gv-logo a {
+	width: 154px;
+	height: 119px;
+	display: block;
+	text-indent: -9999px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-mast-logo.png") no-repeat;	
+}
+#gv-logo h2 {
+	margin:0;
+	padding:0;
+	width: 154px;
+	height: 119px;
+}
+
+#hdr { }
+
+#scoreboard { }
+
+#rounded-top {
+	height: 10px;
+	width: 989px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grav-11-body-top-rnd-crnr.png") no-repeat;
+}
+#main-content {
+	background: #fff url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bg-body.gif");
+    color: #222;
+    margin:0; 
+    padding: 0px 0px 7px 7px;
+}
+/*#story-content {  
+	padding-left: 7px;
+}*/
+
+#content-footer {
+	clear: left;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bg-body.gif") repeat-y;
+	padding-bottom: 25px;
+	height: 100px;
+}
+#lower-ad-wrapper {
+	clear: left;
+	width: 728px;
+	height: 100px;
+	padding-top: 7px;
+	margin: 0 auto 0 auto;
+}
+#bottom ul {
+	height: 114px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#bottom ul li {
+	position: relative;
+	float: left;
+	height: 114px;
+}
+#bottom ul li a {
+	margin-top:5px;
+	display: block;
+	height: 114px;
+	text-indent: -9000px;
+}
+.bottom-left {
+	width: 20px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bot-left-crnr.png") no-repeat;
+}
+.bottom-right {
+	width: 20px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bot-right-crnr.png") no-repeat;
+}
+.bottom-sp1 { width: 55px; }
+.bottom-sp2 { width: 75px; }
+.bottom-sp3 { width: 69px; }
+.bottom-sp4 { width: 39px; }
+.bottom-sp5 { width: 70px; }
+.bottom-sp6 { width: 36px; }
+.bottom-generic {
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bot-swipe.gif") repeat-x;
+}
+.bottom-gvsu a { 
+	width: 97px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-btm-logo-edu.gif") no-repeat;
+}
+.bottom-gliac a {
+	width: 101px; 
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-btm-logo-gliac2.gif") no-repeat;
+}
+.bottom-gv {
+	width: 150px;
+}
+.bottom-gv a {
+	position: absolute;
+	top: -26px;
+	width: 150px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-btm-logo-gv.png") no-repeat;
+}
+.bottom-ncaa a {
+	width: 84px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-btm-logo-ncaa.gif") no-repeat;
+}
+.bottom-ncaadiv a {
+	width: 173px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-btm-logo-ichoosencaa.gif") no-repeat;
+}
+#commerce-tab-wrapper {
+	border: solid 1px #e9e9e9;
+	padding: 0px 7px 7px 7px;	
+	background:  #f6f6f6;
+}
+
+#story-ad-wrapper {
+	border: solid 1px #e9e9e9;
+	margin-top: 7px;
+	padding: 8px 7px 7px 7px;
+ 	background:  #f6f6f6 url("http://grfx.cstv.com/schools/grva/graphics/grva-11-image-advertisement.gif") no-repeat 6px 1px;	
+}
+
+h2#more-headlines {
+	display: block;
+	margin: 2px 0 2px 5px;
+	padding: 0;
+	text-indent: -9999px;
+	width: 308px;
+	height: 15px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-moreheadlines.gif") no-repeat;
+}
+h2#hdr-featuredcontent {
+	text-indent: -9999px;
+	width: 648px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-featured-content.gif") no-repeat;	
+}
+
+h2#hdr-lakerhighlights {
+	text-indent: -9999px;
+	width: 317px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-laker-highlights.gif") no-repeat -1px -1px;	
+}
+#featured-content-wrapper {
+	margin-top: 7px;
+}
+#featured-content{
+	height: 125px;
+	padding-top: 10px;
+	background: #f6f6f6;
+	border-left: solid 1px #e9e9e9;
+	border-bottom: solid 1px #e9e9e9;
+	border-right: solid 1px #e9e9e9;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.feature-box {	
+	float: left;
+	width: 148px;
+	margin-left: 10px;
+	height: 125px;
+	overflow: hidden;
+}
+.feature-box-img {
+	height: 68px;
+	width: 148px;
+	overflow: hidden;
+}
+.feature-box-head {
+ margin: 5px 0px 2px 0px;	
+}
+.feature-box-head a {
+	font-weight: bold;
+	color: #0081c6;
+	text-decoration: none;
+}
+.feature-box-head a:hover {
+	text-decoration: underline;
+}
+
+#scoreboard-wrapper {
+	margin-top: 7px;
+	height: 161px;
+	margin-bottom: 10px;
+}
+
+#imageswapper-wrapper {
+	width: 975px;
+	height: 122px;
+	padding: 7px 0px 0px 0px;
+	text-align: center;
+}
+#video-box-wrapper {
+	border: solid 1px #e9e9e9;
+	background: #f6f6f6;
+	margin-top: 7px;
+	padding: 4px 4px 4px 4px;
+}
+#video-box {
+	width: 311px;
+	height: 319px;
+	position: relative;
+}
+#video-box-ad-area {
+	height: 232px;
+	width: 311px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+}
+#video-box-links {
+	width: 311px;
+	height: 87px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 20;
+	top: 232px;
+	left: 0px;
+}
+.block-wrap {
+	padding: 0px 7px 7px 7px;
+	clear: left;
+}
+.block-wrap img {
+	margin-right: 7px;
+}
+#video-box-links .block-wrap a {
+	color: #fff;
+	text-decoration: none;
+}
+#video-box-links .block-wrap a:hover {
+	color: #0081c6;
+	text-decoration: underline
+}
+#video-box-links .block-wrap a img {
+	width: 20px;
+	height: 16px;
+}
+
+#top-links {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	padding:0;
+	margin:0;
+	float: left;	
+	list-style: none;
+	height: 20px;
+	width: 283px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") no-repeat;
+}
+#top-links li { float: left; }
+#top-links li > a { display: block; text-indent: -9999px; height: 20px; }
+#top-links li.buytickets > a { width: 112px;  }
+#top-links li.donate > a { width: 86px; }
+#top-links li.store > a { width: 85px; }
+#top-links li.buytickets > a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") 0 -20px }
+#top-links li.donate > a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") -112px -20px }
+#top-links li.store > a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") -198px -20px }
+#top-links li.buytickets > a:active { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") 0 -20px; opacity: .8; }
+#top-links li.donate > a:active { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") -112px -20px; opacity: .8; }
+#top-links li.store > a:active { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-top-mini-nav.gif") -198px -20px; opacity: .8; }
+
+#flashlinks {
+	position: absolute;
+	top: 1px;
+	left: 610px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 25px;
+	width: 395px;
+	z-index: 999
+	
+	}
+#team-gv {
+	margin-left: 5px;
+	width: 243px;
+	height: 90px;
+	overflow: hidden;
+	float: left;
+}
+
+#bottom-ad {
+	margin-left: 7px;
+	background: #ccc;
+	width: 728px;
+	height: 90px;
+	overflow: hidden;
+	float: left;
+}
+
+ul#sportnav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 32px;
+	right: 10px;
+
+}
+ul#sportnav li {
+	float: left; 
+	font-size: 11px;
+	color: #ebf9f6;
+}
+ul#sportnav li a {
+	margin: 0 7px 0 5px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: #444 0px 1px 0px;
+}
+ul#sportnav li a:hover {
+	text-decoration: underline;
+	text-shadow: none;
+	color: #ebf9f6;
+}
+#sportnav-wrapper {
+	position: relative;
+	width: 971px;
+	height: 75px;
+	margin-bottom: 7px;
+	margin-left: 3px;
+}
+
+/* STICKY HEADER
+ * ---------------------------------------------------------------------------- */
+#sticky-header {
+	position: fixed;
+    background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-sticky-body.png") no-repeat center top;
+	top: 0px;
+	width: 100%;
+	height: 83px;
+	display: block;
+	z-index: 111;
+	min-width: 1024px;
+}
+#sticky-header-wrap {
+	position: relative;
+	width: 1018px;
+	height: 83px;
+	display: block;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	z-index: 222;
+}
+
+
+
+
+
+/* MAIN NAVIGATION: #nav
+ * ------------------------------------------------------------------------- */
+#nav, #nav * { border-collapse: collapse; margin: 0px; padding: 0px; }
+#nav {
+	position: absolute;
+	top: 26px;
+	left: 14px;
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") no-repeat 168px 0px;
+	height: 28px;
+	width: 1003px;
+	z-index: 666; 
+}
+#nav span { display: none; }
+#nav li, #nav a {
+	font-size: 11px;  
+	height: 28px;
+	display: block;
+}
+#nav li { float: left; }
+#nav-00 { margin-left: 168px;
+	_margin-left: 85px; 
+	width: 65px;}
+#nav-01 { width: 78px; }
+#nav-02 { width: 97px; }
+#nav-03 { width: 77px; }
+#nav-04 { width: 130px; }
+#nav-05 { width: 87px; }
+#nav-06 { width: 89px; }
+#nav-07 { width: 142px; }
+#nav-08 { width: 58px; }
+
+#nav-00 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") 0 -28px }
+#nav-01 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -65px -28px }
+#nav-02 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -143px -28px }
+#nav-03 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -240px -28px }
+#nav-04 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -317px -28px }
+#nav-05 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -447px -28px }
+#nav-06 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -534px -28px }
+#nav-07 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -623px -28px }
+#nav-08 a:hover { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -765px -28px }
+
+#nav-00:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") 0 -28px }
+#nav-01:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -65px -28px }
+#nav-02:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -143px -28px }
+#nav-03:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -240px -28px }
+#nav-04:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -317px -28px }
+#nav-05:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -447px -28px }
+#nav-06:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -534px -28px }
+#nav-07:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -623px -28px }
+#nav-08:hover>a { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-nav.gif") -765px -28px }
+	/* normal dropdown
+	 * ----------------------*/
+	#nav ul.generic {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 160px;
+	}
+	#nav ul.generic-right {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 345px; 
+	}
+
+	#nav ul.generic-right-more {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 545px; 
+	}
+
+	#nav ul.generic-right-even-more {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 745px; 
+	}	
+	
+	
+	/* Fanzone Drop Down 
+	
+	/* normal dropdown
+	 * ----------------------*/
+	#nav ul.genericer {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 160px;
+	}
+	#nav ul.genericer-right {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 300px; 
+	}
+
+	#nav ul.genericer-right-more {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 445px; 
+	}
+
+	#nav ul.genericer-right-even-more {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 600px; 
+	}	
+	
+	
+	
+	/* dropdown w/panel background 
+	 * ----------------------*/
+	#nav ul.panel {
+		position: absolute;
+		background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-panel-nav.png") no-repeat;
+		color: #FFFFFF;
+		top: 28px;
+		left: -9999px;
+		width: 1000px;
+		*width: 980px;
+		height: 213px;
+		z-index: 600;
+		padding: 0px;
+		font-size: 11px;
+		display: block;
+		overflow: hidden;
+		margin-left: 0px;
+	}	
+	#nav ul.generic-sports {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 160px;
+	}
+	#nav ul.generic-right-sports {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 345px; 
+	}
+	#nav ul.generic-right-more-sports {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 545px; 
+	}
+	#nav ul.generic-right-even-more-sports {
+		border: none;
+		left: -9999px;
+		top: 40px;
+		position: absolute;
+		z-index: 666;
+		width: 185px;
+		margin-left: 745px; 
+	}
+	/* dropdown w/panelsports background 
+	 * ----------------------*/
+	#nav ul.panelsports {
+		position: absolute;
+		background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-bg-nav-sports.png") no-repeat;
+		color: #FFFFFF;
+		top: 27px;
+		left: -9999px;
+		width: 1000px;
+		*width: 980px;
+		height: 213px;
+		z-index: 600;
+		padding: 0px;
+		font-size: 11px;
+		display: block;
+		overflow: hidden;
+		margin-left: -14px;
+	}
+	#nav li li { width: 185px; font: 11px; } 
+	#nav li li, 
+	#nav li li a { height: auto; }
+	#nav li:hover ul, 
+	#nav a:hover ul { left: auto; }
+	#nav li.background:hover ul, 
+	#nav .background a:hover ul { left: 0px; padding-left: 20px; padding-top: 3px; }
+	#nav li li { text-indent: 0; color: #FFFFFF; font-size: 11px; }
+	#nav li li a {
+		color: #FFFFFF;
+		display: block;
+		padding: 0px 0px 0px 5px;
+		text-decoration: none;
+	}
+	#nav li li a:hover { 
+		background: none;
+		color: #666; 
+	}
+	#nav li.header { 
+        width: 145px;
+		background: none; 
+		color: #0081c6; 
+		padding: 0px 0px 0px 5px;
+	}	
+	/* dropdown w/background
+	 * --------------------------------- */
+	#nav li.background li a {
+		color: #FFFFFF;
+		display: block;
+		text-decoration: none;
+	}
+	#nav li.background li a:hover {
+		background: none;
+		color: #666; 
+		display: block;
+		text-decoration: none;
+	}
+	
+	#content-box {		
+		width: 210px;
+		height: 190px;
+		display: block;
+		position: absolute;
+		right: 40px;
+		*right: 10px;
+		top: 8px;
+		z-index: 1000;
+	}
+	#content-box img{
+		width: 200px;
+		height: 190px;
+		display: block;
+	}
+	#nav-text {
+		width: 322px;
+		height: 22px;
+		display: block;
+		position: absolute;
+		right: 45px;
+		*right: 15px;
+		bottom: 32px;
+		z-index: 299;
+	}
+	#nav-textsports {
+		width: 322px;
+		height: 22px;
+		display: block;
+		position: absolute;
+		right: 45px;
+		*right: 15px;
+		bottom: 20px;
+		z-index: 299;
+	}
+/*--- END MAIN NAVIGATION: #nav ---*/
+
+/* navigation: #top-links
+ * ------------------------------------------------------------------------- */
+
+#top-links, #top-links * { border-collapse: collapse; margin: 0; padding: 0 }
+
+#top-links span { display:none; }
+
+#top-links li, #top-links a {
+	font-size: .95em;  
+	height: 21px;
+	display: block;
+	}
+
+#top-links li { float: left; }
+
+
+/* navigation dropdown: #top-links
+	 * ------------------------------------------------------------------------- */
+
+	#top-links ul {
+		left: -9999px;
+		top: 19px;
+		position:absolute;
+		z-index:900;
+		border-left: solid 1px #000 ;
+		border-right: solid 1px #000 ;
+		}
+
+	#top-links ul, 
+	#top-links li li { width: 100px } 
+
+	#top-links li li, 
+	#top-links li li a { height: auto; }
+
+	#top-links li:hover ul, 
+	#top-links a:hover ul { left: 170px; }
+
+	#top-links li li {	border-bottom: solid 1px #000 ; text-indent: 0; }
+
+
+	#top-links li li a {
+		font-weight: bold;
+		text-align: right;
+		text-indent: 0px;
+		background: #5b5b5b;
+		color: #f6f6f6 !important;
+		display: block;
+		padding: 3px;
+		text-decoration:none;
+		_width: 100%
+		}
+
+	#top-links li li a:hover { 
+		background: #000; 
+		color: #0081c6 !important; 
+		}
+
+	#top-links .right { text-align: left; margin-left: 150px }
+
+	#top-links .header a, #top-links .header a:hover { 
+		background: #0258c5; 
+		color: #fff !important; 
+		font-weight: bold
+		}
+
+
+
+/* navigation: #top-links 
+*/
+
+
+/* columns
+ * ---------------------------------------------------------------------------- */
+
+.columns {padding:0; margin:0; border-collapse:collapse; }
+
+.column-1, .column-2 { padding:0; margin:0; vertical-align:top; }
+
+.column-1 { width: 648px; }
+.column-2 { padding-left: 7px; width: 320px; }
+
+.col-1, .col-2 { padding:0px; margin:0px; float: left; }
+.col-1 {
+	width: 648px;
+}
+.col-2 {
+	padding-left: 7px;
+	width: 320px;
+}
+
+
+/* Headlines tabs: #headlines-tab
+ * ---------------------------------------------------------------------------- */	
+
+#headlines-tab ul.headline-1 { 
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs2-bsi.gif") -1px 0px;
+	height: 45px; 
+	width: 648px;
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	}
+
+#headlines-tab ul.headline-1 li, #headlines-tab ul.headline-1 a { display: block; height: 45px; margin:0; padding:0; text-indent: -9999px }
+
+#tab-headlines { width: 160px; float: left; }
+#tab-video, #tab-calendar { width: 151px; float: left; }
+#tab-sponsor { width: 170px; float: left; }
+
+#headlines-tab.on-headlines #tab-headlines { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs2-bsi.gif") -1px -45px }
+#headlines-tab.on-video #tab-video { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs2-bsi.gif") -161px -45px }	
+#headlines-tab.on-calendar #tab-calendar { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs2-bsi.gif") -312px -45px }	
+
+#headlines, #calendar { 
+	background: #f6f6f6; 
+	height: 533px; 
+	padding: 1px 8px 10px 8px;
+	overflow: auto; 
+	border-left: solid 1px #e9e9e9; 
+	border-right: solid 1px #e9e9e9; 
+	border-bottom: solid 1px #e9e9e9; 
+	position: relative;
+	padding-top: 3px;
+	width: 630px;
+	}
+#headlines { overflow: hidden; }
+#calendar { overflow: auto; }
+#video { 
+	background: #f6f6f6; 
+	height: 533px; 
+	padding: 1px 8px 10px 20px;
+	overflow: hidden; 
+	border-left: solid 1px #e9e9e9; 
+	border-right: solid 1px #e9e9e9; 
+	border-bottom: solid 1px #e9e9e9; 
+	position: relative;
+	padding-top: 3px;
+	width: 618px;
+}
+
+#topsocial-tab ul.topsocial-1 { margin:0; padding:0; height: 25px; list-style: none; }
+#topsocial-tab ul.topsocial-1 li { float: left; overflow: hidden; text-indent: -9000px; }
+
+
+/* topsocial tabs: #topsocial-tab
+ * ---------------------------------------------------------------------------- */	
+
+#topsocial-tab ul.topsocial-1 { 
+	background:url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif");
+	height: 25px; 
+	width: 223px;
+	float:right;	
+}
+
+#topsocial-tab ul.topsocial-1 li, #topsocial-tab ul.topsocial-1 a { display: block; height: 25px }
+
+#tab-socialfacebook { width: 28px; }
+#tab-socialtwitter { width: 28px; }
+#tab-socialgame { width: 44px; }
+#tab-socialvideos { width: 39px; }
+#tab-socialaudio { width: 37px; }
+#tab-socialnewsletter { width: 42px; }
+
+
+#topsocial-tab.on-socialfacebook #tab-socialfacebook { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") 0px -25px }
+#topsocial-tab.on-socialtwitter #tab-socialtwitter { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") -28px -25px }
+#topsocial-tab.on-socialgame #tab-socialgame { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") -56px -25px }
+#topsocial-tab.on-socialvideos #tab-socialvideos { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") -100px -25px }
+#topsocial-tab.on-socialaudio #tab-socialaudio { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") -139px -25px }
+#topsocial-tab.on-socialnewsletter #tab-socialnewsletter { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-icons.gif") -176px -25px }
+
+
+#socialgame, #socialfacebook, #socialtwitter, #socialvideos, #socialaudio, #socialnewsletter { 
+	position: absolute;
+	top: 1px;
+	height: 25px; 
+	overflow: hidden;   
+	width:165px;
+	/*float:left;*/
+	left: 0px;
+}
+
+
+
+/* Commerce tabs: #commerce-tab
+ * ---------------------------------------------------------------------------- */	
+
+#commerce-tab ul.commerce-1 { 
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs-store.gif") -8px -1px;
+	height: 28px; 
+	width: 305px;
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	}
+
+#commerce-tab ul.commerce-1 li, #commerce-tab ul.commerce-1 a { display: block; height: 28px; width: 151px; margin:0; padding:0; text-indent: -9999px }
+
+#tab-onlinestore,#tab-auctions { width: 151px; float: left; }
+
+#commerce-tab.on-onlinestore #tab-onlinestore { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs-store.gif") -8px -30px }
+#commerce-tab.on-auctions #tab-auctions { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-tabs-store.gif") -159px -30px }	
+
+#onlinestore, #auctions { background: #fff; height: 101px; width: 303px; overflow: hidden; border: solid 1px #a5a5a5; }
+
+
+/* Blogs tabs: #blog-tab
+ * ---------------------------------------------------------------------------- */	
+#blog-tab-wrapper {
+	padding-top: 7px;
+}
+
+#blog-tab ul.blog-1 { 
+	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") 0px 0px;
+	height: 23px; 
+	width: 648px;
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	}
+	
+#blog-tab ul.blog-1 li, #blog-tab ul.blog-1 a { display: block; height: 23px; margin:0; padding:0; text-indent: -9999px }
+
+#tab-blogs { width: 134px; float: left; }
+#tab-aotw, #tab-magazine, #tab-photos, #tab-fanpoll { width: 127px; float: left; }
+
+#blog-tab.on-blogs #tab-blogs { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") 0px -23px }
+#blog-tab.on-aotw #tab-aotw { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") -134px -23px }
+#blog-tab.on-magazine #tab-magazine { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") -261px -23px }
+#blog-tab.on-photos #tab-photos { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") -388px -23px }
+#blog-tab.on-fanpoll #tab-fanpoll { background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-tabs-blogs.gif") -515px -23px }	
+
+#blogs, #aotw, #magazine, #photos, #fanpoll { 
+	height: 304px; 
+	overflow: auto; 
+	border: solid 1px #e9e9e9;
+	background: #f6f6f6;
+}
+#blogs.sprt, #aotw.sprt, #magazine.sprt, #photos.sprt, #fanpoll.sprt {
+	height: 239px;
+}
+#blogs #blog-content {
+	padding: 0px 14px;
+}
+#magazine #magazine-content {
+	padding-left: 0px;
+}
+#photos #blocks-wrap {
+	padding-left: 10px;
+	padding-top: 7px;
+}
+#photos div.block {
+	float: left;
+	width: 150px;
+	height: 125px;
+	margin-right: 4px;
+	font-size: 11px;
+	overflow: hidden;	
+}
+#photos div.block a {
+	text-decoration: none;
+}
+
+h2#hdr-blogs, h2#hdr-aotw,h2#hdr-magazine,h2#hdr-photos,h2#hdr-fanpoll{
+	width: 395px;
+	height: 29px;
+	text-indent: -9999px;
+	margin: 7px 0 0 0;
+	padding: 0;
+}
+h2#hdr-blogs {	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-blogs.gif") no-repeat -1px 0px; }
+h2#hdr-aotw {	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-saotw.gif") no-repeat -1px 0px; }
+h2#hdr-magazine {	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-12-hdr-social.gif") no-repeat -1px 0px; }
+h2#hdr-photos {	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-photos.gif") no-repeat -1px 0px; }
+h2#hdr-fanpoll {	background: url("http://grfx.cstv.com/schools/grva/graphics/grva-11-hdr-fanpoll.gif") no-repeat -1px 0px; }
+
+
+/*----------search--------*/
+
+#searchbox {
+	height: 25px;
+}
+#yahoo-search {
+	display:block;
+
+	}
+
+#yahoo-search .search-text {
+	padding-top:3px; 
+	font-size:10px;
+	}
+
+#yahoo-search #search {
+	width:155px;
+	float:left;
+	}	
+
+#yahoo-search #search div {
+	float:left;
+	}
+
+#yahoo-search input {
+	float:left;
+	}
+
+#yahoo-search input.searchsubmit {
+	width:29px;
+	height:15px;
+	}		
+
+#yahoo-search .searchformOn {
+	background: #fff url("http://graphics.fansonly.com/graphics/yahoo-search5.gif") no-repeat;  
+	color:#000; 
+	font-weight:normal; 
+	width:124px;
+	height:11px; 
+	font-size:10px;
+	border: #aaa 1px solid;
+	}
+
+#yahoo-search .searchformOff {
+	background: #fff;
+	color:#000; 
+	font-weight:normal; 
+	width:124px; 
+	height:11px; 
+	font-size:10px; 
+	border: #aaa 1px solid;
+	}
+
+
+	
+/* RelativeFrame
+ * ---------------------------------------------------------------------------- */
+#relativeFrame, #relativeFrame *{
+	margin:0;
+	padding:0;	
+	}
+
+#relativeFrame {
+	position: absolute; 
+	width:606px;
+	z-index: 1;
+	margin-left: 16px;
+	}
+
+#relativeFrame div {
+	width:606px;
+	position: absolute; 
+	visibility: hidden;
+	z-index: 1;
+	}
+
+#relativeFrame div#frm0 { visibility: visible }
+
+#relativeFrame a {
+	color: #0081c6;
+	font-size: 18;
+	font-weight: bold;
+	text-decoration: none;
+}
+#relativeFrame a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+#relativeFrame p.pubdate {
+	margin-top: 5px;
+	color: #a5a5a5;
+	font-size: 11px;
+}
+#relativeFrame h1 {
+	margin-bottom: 5px;
+}
+#relativeFrame p.synopsis a {
+	color: #000;
+	text-decoration: underline;
+	font-weight: normal;
+}	
+#relativeFrame p.synopsis a:hover {
+	text-decoration: none;
+	color: #a5a5a5;
+}
+
+#minis {
+	margin:0;
+	padding:0;
+    position:absolute;
+    top:460px;
+    left:20px;
+	}
+
+#mini0, #mini1, #mini2, #mini3, #mini4 {
+	float:left;
+	border:3px solid #000;
+	width:112px;
+	height: 64px;
+    position:relative;
+	margin-right: 4px;
+	}
+
+#minis a img {
+	opacity: .50;
+	filter: alpha(opacity=50);
+	}
+	
+#minis a:hover img, #minis div.miniOn a img {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	}
+
+#controls, #controls * { margin: 0; padding: 0 }
+
+#minis #controls img{
+	border-width:0;
+	}
+
+#controls li {
+	float: left; 
+	list-style: none; 
+	_display: inline; 
+	}
+
+#vid0, #vid1, #vid2, #vid3, #vid4 {
+	background:url("http://grfx.cstv.com/schools/grva/graphics/grva-11-play-btn.gif") no-repeat;
+	opacity: .65;
+	filter: alpha(opacity=50);
+	position:absolute;
+	top:12px;
+	left:11px;
+	width:28px !important;
+	height:28px !important;
+	z-index:10;
+	}
+
+#bsi-video-wrap { display:none; background: #000; }
+
+#bsi-flash-video {
+	padding: 1px 0px 1px 4px;
+	border-top: solid 8px #000;
+	border-right: solid 4px #000;
+	border-bottom: solid 8px #000;
+	border-left: solid 4px #000;
+	display:block;
+	width:613px;
+	height:348px;
+	z-index:96;
+	}
+
+
+/* More Headlines 
+* ---------------------------------------------------------------------------- */
+
+#more-headlines-wrapper ul {
+	margin: 4px 5px 0px 5px;
+	padding: 2px;
+	color: #424242;
+	list-style-position: inside;
+	height: 125px;
+	overflow: hidden;
+	list-style-type: square;
+}
+#more-headlines-wrapper ul li {
+	margin: 0px;
+	padding: 3px 3px 0px 3px;
+	height: 15px;
+}
+#more-headlines-wrapper ul li a {
+	color: #424242;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 12px;
+}
+#more-headlines-wrapper ul li a:hover {
+	color: #0081c6;
+	text-decoration: underline;
+}
+#more-headlines-wrapper ul li:nth-child(odd) {
+	background: #f6f6f6;
+}
+
+	/* AOTW 
+	 * ---------------------------------------------------------------------------- */
+
+	.aotw-box {
+		margin: 20px 0px 0px 10px;
+		overflow: auto;
+		width: 614px;	
+	}
+	.aotw-photo {
+		float: left;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+	.aotw-photo img { float: left; padding: 0px 14px 14px 0px } 
+	.aotw-headline {
+		margin-bottom: 8px;
+	}
+	.aotw-headline a {
+		text-decoration: none;
+		font-size: 20px;
+		color: #0081c6;
+		font-weight: bold;
+	}
+	.aotw-headline a:hover {
+		text-decoration: underline;
+		color: #666;
+	}
+	.aotw-info {
+		font-size: 12px;
+		line-height: 150%;
+	}
+	.aotw-info a {
+		text-decoration: none;
+	}
+	.aotw-info a:hover {
+		text-decoration: underline;
+		color: #666;
+	}
+	
+	/* calendar
+	 * ---------------------------------------------------------------------------- */
+
+	.calendar, .calendar * { 
+		border-collapse: collapse; 
+		margin: 0; 
+		padding: 0  
+		}
+
+	.calendar { width: 100% }
+
+	.calendar td { 
+		padding: 1px;
+		}
+	.calendar tr.calendar-body td {
+		border-bottom: dotted 1px #ccc; 
+		font-size: 11px;
+		color: #0081c6;
+		}
+	.calendar tr.calendar-body td a {
+		color: #0081c6;
+		text-decoration: none;
+	}
+	.calendar tr.calendar-body td a:hover {
+		color: #666;
+		text-decoration: underline;
+	}
+
+	.calendar tr.calendar-date td { 
+		color: #000; 
+		font-weight: bold;
+		border-bottom: none;
+		}
+
+	.calendar tr.calendar-headers td { 
+		background-color: #0081c6; 
+		color: #fff;
+		font-weight: bold; 
+		padding: 2px;
+		}
+
+
+
+/* sidebar
+ * ---------------------------------------------------------------------------- */
+#sidebar-wrapper {
+	margin-top: 7px;
+	background: #f6f6f6;
+	padding-bottom: 7px;
+	border: solid 1px #e9e9e9;
+}
+#sidebar-wrapper.sport-body-sidebar { 
+	height: 410px;
+	overflow: auto;
+}
+
+ul.sidebar {
+	margin: 4px 5px 0px 5px;
+	padding: 2px;
+	color: #424242;
+	list-style-position: inside;
+	/*height: 125px;*/
+	overflow: hidden;
+	list-style-type: square;
+}
+ul.sidebar li {
+	margin: 0px;
+	padding: 3px 4px 3px 4px;
+	/*height: 18px;*/
+}
+ul.sidebar li a {
+	color: #424242;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 12px;
+}
+ul.sidebar li a:hover {
+	color: #0081c6;
+	text-decoration: underline;
+}
+ul.sidebar li:nth-child(even) {
+	background: #fff;
+}
+ul.sidebar li.sidebarheader {
+	list-style: none;
+}
+
+/* fanpoll
+ * ---------------------------------------------------------------------------- */
+#grva-fanpoll { width: 580px }
+#grva-fanpoll form { margin: 0; padding: 0; }
+#grva-fanpoll { padding: 0 14px 0 14px; }
+#grva-fanpoll .pollborder { display: none}
+#grva-fanpoll .fanpollad { display: none}
+#grva-fanpoll .tenvert { display: none !important }
+#grva-fanpoll .pollquestion { font-weight: bold; }
+#grva-fanpoll .pollanswers { margin: 0; padding: 0; margin-top:7px;}
+#grva-fanpoll br { display: none }
+#grva-fanpoll .pollanswers br { display: inline }
+#grva-fanpoll img {display:none}
+#grva-fanpoll br+span { display: none }
+
+
+/* Bio Page
+ * ---------------------------------------------------------------------------- */
+
+
+#biotable {
+	position: relative;
+	width: 100%;
+	height: 190px;
+}
+
+
+
+#biotable-name {
+	position: absolute;
+	left: 155px;
+	top: 2px;
+	font-size: 22px; 
+	font-weight:bold; 
+}
+
+#biotable-photo {
+	position: absolute;
+	width: 140px;
+	left: 20px;
+	top: 0px;	
+}	
+#biotable-photo img { border: solid 1px #ccc; }
+#biotable-info {
+	position: absolute;
+	left: 145px;
+	top: 25px;
+	color: #000;
+}
+#biotable-info table * {
+	color: #000;
+	background: transparent;
+}
+#biotable-info table tr td table tr td {
+	padding-bottom: 10px;
+}
+#biotable-info * img {
+	display: none;
+}
+
+
+/* photo-table
+ * ---------------------------------------------------------------------------- */
+
+.photo-table { 
+	border-collapse: collapse;
+	float: right;
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 160px 
+	}
+	
+.photo-table .email-print li { 
+	display: block; 
+	margin: 3px 0
+	}
+	
+.photo-table .caption { font-size: 10px }
+
+
+/* email-print
+ * ---------------------------------------------------------------------------- */
+
+.email-print { margin: 10px 0 }
+
+.email-print li { 
+	display: inline; 
+	list-style-type: none; 
+	margin: 0 30px; 
+	padding-left: 25px 
+	}
+	
+	.email-print li.email { background: url("http://grfx.cstv.com/graphics/oas-icon-email.gif") 0 2px no-repeat }
+	.email-print li.print { background: url("http://grfx.cstv.com/graphics/oas-icon-print.gif") 0 2px no-repeat }
+		
+		
+/* pre-footer
+ * ---------------------------------------------------------------------------- */
+
+#pre-footer {
+	border: solid #aaa; 
+	border-width: 2px 0;
+	display: block;
+	padding-top: 6px;
+	text-align: center;
+	width: 460px
+	}
+	
+
+/* footer
+ * ---------------------------------------------------------------------------- */
+	
+#footer {
+	color: #222;
+	padding: 20px;
+	text-align: center
+	}
+	
+	#footer a:link, #footer a:visited { color: #444 }
+	#footer a:hover, #footer a:active { color: #666 }
+
+/* facebook like button
+ * ---------------------------------------------------------------------------- */	
+#storyNav { margin-top: 20px; margin-bottom: 10px; }
+#fb-wrapper {
+	width: 320px;
+	float: left;
+	margin-top: -7px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#storyNav #navlinks {
+	float: right;
+}
+
+.statsTotal td { background: #cdcdcd; font-weight: 700; }
+.stats-w-volley td {padding:2px;}
+.stats-w-volley thead {background: #0081C6; color:#fff; font-weight:700; text-align:left; text-transform:uppercase}
+
+.statsTotal td { background: #cdcdcd; font-weight: 700; }
+.stats-m-baskbl td {padding:2px;}
+.stats-m-baskbl thead {background: #0081C6; color:#fff; font-weight:700; text-align:left; text-transform:uppercase}
+.statscategory {text-align:center;}
+.stats-m-basebl td {padding:5px; text-align:center;}
+.stats-m-basebl thead {background: #0081C6; color:#fff; font-weight:700; text-align:center; text-transform:uppercase}
+.m-basebl-stat-category-heading {font-weight:bold;}
+.stats-w-softbl td {padding:5px; text-align:center;}
+.stats-w-softbl thead {background: #0081C6; color:#fff; font-weight:700; text-align:center; text-transform:uppercase}
+.w-softbl-stat-category-heading {font-weight:bold;}
+.stats-w-soccer td {padding:5px; text-align:center;}
+.stats-w-soccer thead {background: #0081C6; color:#fff; font-weight:700; text-align:center; text-transform:uppercase}
+.w-soccer-stat-category-heading {font-weight:bold;}
+.stats-w-baskbl td {padding:5px; text-align:center;}
+.stats-w-baskbl thead {background: #0081C6; color:#fff; font-weight:700; text-align:center; text-transform:uppercase}
+.w-baskbl-stat-category-heading {font-weight:bold;}
+.stats-w-lacros td {padding:5px; text-align:center;}
+.stats-w-lacros thead {background: #0081C6; color:#fff; font-weight:700; text-align:center; text-transform:uppercase}
+.w-lacros-stat-category-heading {font-weight:bold;}
+
+
+.stats-m-footbl-pass td {padding:5px;}
+.stats-m-footbl-pass thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-pass thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-pass tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-pass .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-pass .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-pass .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-rush td {padding:5px;}
+.stats-m-footbl-rush thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-rush thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-rush tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-rush .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-rush .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-rush .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-recv td {padding:5px;}
+.stats-m-footbl-recv thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-recv thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-recv tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-recv .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-recv .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-recv .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-defn td {padding:5px;}
+.stats-m-footbl-defn thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-defn thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-defn tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-defn .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-defn .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-defn .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-fegs td {padding:5px;}
+.stats-m-footbl-fegs thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-fegs thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-fegs tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-fegs .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-fegs .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-fegs .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-koff td {padding:5px;}
+.stats-m-footbl-koff thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-koff thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-koff tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-koff .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-koff .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-koff .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-punt td {padding:5px;}
+.stats-m-footbl-punt thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-punt thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-punt tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-punt .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-punt .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-punt .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-kikr td {padding:5px;}
+.stats-m-footbl-kikr thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-kikr thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-kikr tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-kikr .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-kikr .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-kikr .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-pntr td {padding:5px;}
+.stats-m-footbl-pntr thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-pntr thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-pntr tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-pntr .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-pntr .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-pntr .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+
+.stats-m-footbl-part td {padding:5px;}
+.stats-m-footbl-part thead {background: #0081C6; font-weight:700; text-align:left; padding:7px; color:#fff;}
+.stats-m-footbl-part thead tr th {border-bottom:2px solid #000; padding:7px; text-transform:uppercase; }
+.stats-m-footbl-part tbody tr:hover {background: #EAEAEA;}
+.stats-m-footbl-part .statsTotal { font-weight: 700; text-align:left; }
+.stats-m-footbl-part .statsTotal:hover { background: #ddd; font-weight: 700; text-align:left; }
+.stats-m-footbl-part .statsTotal td { background: #ccc; font-weight: 700; border-top:1px dotted #ccc; text-align:left;}
+

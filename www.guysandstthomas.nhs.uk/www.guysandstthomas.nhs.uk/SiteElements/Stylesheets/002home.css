@@ -1,0 +1,68 @@
+/* ----- Home ----- */
+h1.homeHeader {display: none; height: 0; width: 0; }
+
+body {background:url(../Images/Home/bg-body-multicolour.png) white no-repeat 50% 0;}
+.sys_homeHeaderImg {margin-top:20px;}
+.sys_homeHeaderImg .sys_overlay {background:url(../Images/Home/overlay-home-spot-header.png) no-repeat 0 0; height:290px; overflow:hidden; width:940px;}
+.sys_homeHeaderImg p {color:#3d7776; font:1.8em sans-serif; margin:80px 0 0 0; width:330px;}
+.sys_homeHeaderImg p span {background:#fff; clear:left; float:left; padding:0.2em;}
+.sys_homeHeaderImg .moreLink {background:#3872a0; clear:left; color:#fff; display:block; float:left; font-size:1.2em; padding:8px;}
+.sys_homeHeaderImg {height: 295px; }
+
+.sys_homeFeatureLinks {background:#fff; float:right; margin-top:20px; padding:15px 0 8px 15px; width:270px;}
+.sys_homeFeatureLinks li {font:1.8em sans-serif; margin:0 0 10px 0;}
+.sys_homeFeatureLinks li a {background:url(../Images/Icons/IconHomeFeatureLinkArrow.png) no-repeat scroll 15px 50% transparent; color:#fff; display:block; padding:8px 8px 8px 35px;}
+.sys_homeFeatureLinks li a:hover,
+.sys_homeFeatureLinks li a:focus,
+.sys_homeFeatureLinks li a:active {text-decoration:none;}
+.sys_homeFeatureLinks li.featureLinkOne a { background-color:#3b9999;}
+.sys_homeFeatureLinks li.featureLinkOne a:hover,
+.sys_homeFeatureLinks li.featureLinkOne a:focus,
+.sys_homeFeatureLinks li.featureLinkOne a:active { background-color:#2F7F7F;}
+.sys_homeFeatureLinks li.featureLinkTwo a { background-color:#3b9999;}
+.sys_homeFeatureLinks li.featureLinkTwo a:hover,
+.sys_homeFeatureLinks li.featureLinkTwo a:focus,
+.sys_homeFeatureLinks li.featureLinkTwo a:active { background-color:#2F7F7F;}
+.sys_homeFeatureLinks li.featureLinkThree a { background-color:#3b9999;}
+.sys_homeFeatureLinks li.featureLinkThree a:hover,
+.sys_homeFeatureLinks li.featureLinkThree a:focus,
+.sys_homeFeatureLinks li.featureLinkThree a:active { background-color:#2F7F7F;}
+.sys_homeFeatureLinks li.featureLinkFour a {background-color:#3b9999; }
+.sys_homeFeatureLinks li.featureLinkFour a:hover,
+.sys_homeFeatureLinks li.featureLinkFour a:focus,
+.sys_homeFeatureLinks li.featureLinkFour a:active {background-color:#2F7F7F; }
+.sys_HomeSpotList {margin: 0 -10px;}
+.sys_HomeSpotList li {float:left; margin:0 10px 20px 10px; padding:15px; position:relative; width:270px;}
+.sys_HomeSpotList li h2 {font-size:1.4em; margin:-15px -15px 15px -15px; padding:15px 15px 20px 15px; color:#fff;}
+
+.sys_HomeSpotList li h2 a {color:#fff;}
+.sys_HomeSpotList li .moreLink {color:#fff; display:block; float:left; margin:0 0 0 -15px; padding:8px 15px;}
+.sys_HomeSpotList .spotListClip {position:absolute; right:0; bottom:0;}
+
+/* -- home spotlists  --*/
+
+.sys_HomeSpotList li.spotLightOne  {background:#F1E7EC;margin-top:15px;}
+.sys_HomeSpotList li.spotLightOne h2 {background:url(../Images/Home/bg-body-spot-light.png) no-repeat 0 bottom;  }
+.sys_HomeSpotList li.spotLightOne p {width: 100%; }
+.sys_HomeSpotList li.spotLightOne .moreLink { background:#8A2C69;}
+
+.sys_HomeSpotList li.spotLightTwo {background:#def0f0;margin-top:5px;}
+.sys_HomeSpotList li.spotLightTwo h2 {background:url(../Images/Home/bg-body-spot-light.png) no-repeat -300px bottom; /*background: #297CAC;*/}
+.sys_HomeSpotList li.spotLightTwo p {width:100%;}
+.moreLink, .sys_HomeSpotList li.spotLightTwo .moreLink  {background:#6A5699; background: #7363BC; background:#336893;}
+
+.sys_HomeSpotList li.spotLightThree {background:#E9E4F8 url(../../images/s/staff/Sister-cutout-160x220.png) no-repeat 105% 70%;  margin-top:-5px;}
+.sys_HomeSpotList li.spotLightThree h2 {background:url(../Images/Home/bg-body-spot-light.png) no-repeat -600px bottom; /*background:#5E55A1 ;*/ }
+.sys_HomeSpotList li.spotLightThree p {width:50%;}
+.moreLink, .sys_HomeSpotList li.spotLightThree .moreLink {background:#3d7776; background:#5E55A1;}
+
+
+.sys_homeHeaderEmergency {min-height: 150px; margin: 30px 5px 20px 5px; background:#078186; padding: 15px;  overflow:hidden;   }
+.sys_homeHeaderEmergency p, .sys_homeHeaderEmergency h2 {color: #fff; }
+
+
+/* --- editor --- */ 
+
+#editor .sys_overlay {display: none; }
+#editor .sys_homeHeaderImg .sys_cycle { height: 290px; overflow: hidden;}
+#editor .sys_megaDrop {display: none; height: 0; width: 0; }

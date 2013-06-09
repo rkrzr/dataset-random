@@ -1,0 +1,221 @@
+#slider {
+	height: 104% !important;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#slider ul {
+	width:100%;	
+}
+
+#slider li {
+	background: none repeat scroll 0 0 #FFFFFF;
+    bottom: 0 !important;
+    height: 100%;
+    position: absolute !important;
+    top: 112px;
+}
+
+.pagination {
+	height: 25px;
+    list-style: none outside none;
+    margin: 153px 180px 0 15px;
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+}
+
+/*ul.pagination li {
+	background: none repeat scroll 0 0 #CECECE;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    float: left;
+    font-size: 0;
+    height: 8px;
+    margin: 0 8px 0 0;
+    text-indent: -9999px;
+    width: 8px;
+}*/
+
+ul.pagination .current a{
+	color:#fff !important;
+}
+
+ul.pagination li.current {
+	background: url("../images/num.png") no-repeat scroll 0 0 transparent !important;
+    color: #FFF !important;
+    font: 10px Arial !important;
+    height: 10px !important;
+    list-style: none outside none;
+    padding: 5px 1px 7px 6px !important;
+    width: 17px !important;
+    border:0;
+    margin:-7px 1px 0 0;
+    text-indent:0;
+}
+
+.sld_tit_oscuro, .sld_tit_claro{
+	display:block;
+	font-size:26pt;
+}
+
+.sld_tit_claro{
+	color:#b30707 !important;
+	background:none !important;
+} 
+
+span.subt_slider{
+    color: #000 !important;
+    float: right;
+    font: 12pt Arial !important;
+    line-height:15pt;
+    text-align: right;
+    width: 360px;
+    margin-right:4px;
+    margin-top:0; 
+}
+
+.textos_slider{
+	height: 100%;
+    margin-left: 600px;
+    margin-right: auto;
+    position: relative;
+    text-align: right;
+    width: 350px;
+}
+
+.textos_slider div{
+	bottom: 35px;
+    position: absolute;
+    right: 40px;
+    width: 300px;
+}
+
+.bx-pager{
+	bottom: -14px;
+    color: #B30707;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+.bx-pager .pager-active{
+	background: url("../images/num.png") no-repeat scroll 11px 1px transparent;
+	border: 0 none;
+	color: #fff !important;
+	display: inline-block;
+	font: 11px Arial !important;
+	height: 17px;
+	list-style: none outside none;
+	margin: -3px 13px 0 -8px !important;
+	padding: 3px 6px 0 2px;
+	text-indent: 14px;
+	width: 21px !important;
+}
+
+.pager-active a{
+	margin-left:-8px;
+}
+
+.bx-pager a{
+	background: url("../images/num2.png") no-repeat scroll -1px 5px transparent;
+    color: #E4E5E4;
+    display: inline-block;
+    font: 10px Arial !important;
+    margin: -7px 10px 0 0;
+    padding: 5px 7px 12px 2px;
+}
+
+.bx-window, .bx-wrapper{
+	height: 98% !important;
+    width: 100% !important;
+}
+.bx-wrapper2 .bx-window{
+	width:620px !important;
+}
+
+.elem_slider{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.btns_slider .bx-prev{
+	float:left;
+}
+
+.btns_slider .bx-next{
+	float:right;
+}
+
+.btns_slider{
+	margin-left: 30px;
+    position: absolute;
+    top: 288px;
+    width: 919px;
+}
+
+.sld_tit_claro strong{
+	color:#b30707;
+	font-size:30pt;
+	font-weight:700;
+}
+
+.bx-prev{
+	position:absolute;
+	top:275px;
+	left:30px;
+}
+
+.bx-next{
+	position: absolute;
+    right: 21px;
+    top: 275px;
+}
+
+#slider li img{
+	height: 68%;
+    margin-top: 113px;
+    position: absolute;
+    right: 210px;
+    top: 0;
+}
+
+.link_slider{
+	width:100%;
+	height:100%;
+	background:none;
+}
+
+.textos_slider object {
+	width:390px !important;
+}
+
+#sIFR_replacement_0 {
+	padding-right:20px;
+}
+
+.sIFR-replaced {
+	font-size:24pt !important;
+}
+
+.bx-wrapper2{
+	float: left;
+    margin: 8px 0 0 5px;
+    
+}
+
+.destacado_fijo{
+    float: left;
+    height: 160px;
+    position: relative;
+    width: 318px;
+     margin-top:8px;
+}

@@ -1,0 +1,1264 @@
+@charset "utf-8";
+/*******************************************************/
+/******** layout.css																		*/
+/******** Use with template index.html									*/
+/******** 														*/
+/******** サイト全体レイアウト用CSSファイル						*/
+/*******************************************************/
+
+
+
+/******** Basic XHTML */
+body {
+	font: 12px/1.231 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+	text-align: center;
+	line-height: 1.5;
+	height: 100%;
+	background: url(../../images/header/bg_header_base.jpg) repeat-x left top;
+	}
+
+body#top {
+	background: url(../../images/header/bg_header_top.jpg) repeat-x left top;
+	}
+
+
+* html body {
+	font-size: small;
+}
+
+* html table {
+	font-size: 100%;
+}
+
+
+*:first-child+html body {
+	font-size: small;
+}
+
+
+code { font: 1.1em 'Courier New', Courier, Fixed; }
+
+
+
+/******** リンクテキスト */
+
+a { 
+	color: #006699;
+	text-decoration: none; 
+	}
+
+a:link {
+	color: #006699;
+	text-decoration: none;
+	}
+
+
+a:hover {
+	color: #159FDB;
+	text-decoration: underline;
+	}
+
+a:focus {
+	color: #0099FF;
+	}
+
+a:active {
+	color: #0099FF;
+	}
+
+.clear {
+	clear: both;
+	}
+	
+/********	イメージ余白対策　WinIEv er.6対策　*/
+img{
+	vertical-align: bottom;	
+	}
+
+ul{
+	list-style: none;
+	}
+
+strong{
+	font-weight: bold;
+	}
+
+.strong_blue{
+	font-weight: bold;
+	color: #2D4885;
+	font-size: 1.2em;
+	}
+	
+.blue{
+	color: #2D4885;
+	}
+	
+.large{
+	font-weight: bold;
+	font-size: 20px;
+	}
+
+.small{
+	font-size: 10px;
+	}
+
+.around_border{
+	display: inline-block;
+	padding: 0 2px;
+	margin: 3px 0;
+	border: 1px #999999 solid;
+	}
+
+div#mainContents div.column1-2 div.mainCol p#large2{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 40px 0px;
+	}
+
+
+.center{	
+	text-align: center;
+	padding-bottom: 20px;
+	}
+
+.left{	
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	}
+
+.right{	
+	text-align: right;
+	}
+
+.adjustment{
+	margin: 20px 0px 30px 0px;
+	}
+
+
+/******** *************************************************************************************************************************** */
+
+/******** container */
+
+div#container{
+	margin: 0px auto 50px;
+	padding: 0px;
+	text-align: left;
+	background: url(../../images/header/bg_header_inner.jpg) no-repeat center top;
+	}
+
+
+/******** header */
+
+div#header{
+	width: 900px;
+	margin: 0px auto;
+	padding: 0px;
+	}
+
+div#header #logo{
+	width: 80px;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	float: left;
+	}
+
+div#header div#header_inner{
+	width: 820px;
+	margin: 0px;
+	padding: 0px 0px 4px 0px;
+	float: right;
+	}
+
+div#header p#logoText{
+	color: #666;
+	float: left;
+	padding: 5px 0px 0px 0px;
+	}
+
+div#header div#header_top{
+	margin: 0px;
+	padding: 0px;
+	height: 41px;
+}
+
+
+div#header ul#headerMenu{
+	width: 445px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	background: url(../../images/header/bg_menu.jpg) no-repeat right top;
+	float: right;
+	}
+
+div#header ul#headerMenu li{
+	margin: 0px 0px 0px 10px;
+	padding: 5px 0px 0px 0px;
+	float: left;
+	font-size: 11px;
+	}
+
+div#header ul#headerMenu li a{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 8px;
+	background: url(../../images/header/mark02.gif) no-repeat 0px 3px;
+	}
+	
+div#header ul#headerMenu li#home a{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 15px;
+	background: url(../../images/header/mark01.gif) no-repeat 0px 0px;
+	}
+
+ul#globalNav{
+	display:block;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	clear: both;
+	padding-left: 16px;
+	}
+
+ul#globalNav li{
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	}
+
+
+div#mainVisual{
+	clear: both;
+	height: 220px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	/*background: url(../../images/top/bg_main.jpg) no-repeat center top;*/
+	text-align: center;
+	}
+
+
+/******** 上部パンクズの設定 */
+
+div#allContents div#breadcrumb_up{
+	clear: both;
+	height: 40px;
+	text-align: left;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	overflow: hidden;
+	}
+
+
+div#allContents div#breadcrumb_up ul{
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 15px 20px;
+	}
+
+div#allContents div#breadcrumb_up li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	display: inline;
+	color: #333;
+	background: none;
+	}
+
+
+div#allContents div#breadcrumb_up li a{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 15px 0px 0px;
+	background: url(../../images/base/mark03.gif) no-repeat right center;
+	}
+
+
+
+
+/****************  ALL CONTENTS*/
+
+
+body#top div#allContents{
+	clear: both;
+	margin: 0px auto 0px;
+	padding: 25px 0px 0px 0px;
+	text-align: left;
+	background: url(../../images/base/bg_contents.gif) no-repeat center top;
+	}
+
+
+body#top div#allContents_inner{
+	width: 900px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	height: 100%;
+	background: none;
+	}
+
+
+
+
+div#allContents{
+	clear: both;
+	width: 950px;
+	margin: 0px auto;
+	padding: 0px 0px;
+	text-align: left;
+	background: url(../../images/base/bg_contents.gif) no-repeat center 10px;
+
+	}
+
+
+div#allContents_inner{
+	width: 950px;
+	margin: 0px auto;
+	padding: 0px 0px;
+	overflow: hidden;
+	height: 100%;
+	background: url(../../images/base/bg_contents_top.gif) no-repeat center 10px;
+	}
+
+div#allContents_inner02{
+	width: 900px;
+	margin: 0px auto;
+	padding: 0px 0px;
+	}
+
+
+
+
+/**************** mainContents*/
+
+div#mainContents{
+	width: 640px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: right;
+	}
+
+body#top div#mainContents{
+	float: left;
+	}
+
+.centerImg{
+	margin: 0px auto 20px;
+	padding: 0px;
+	text-align: center;
+	}
+
+.caption{
+	text-align: right;
+	font-size: 10px;
+	}
+
+.caption_left{
+	text-align: left;
+	font-size: 10px;
+	}
+
+.image-border{
+	margin: 0px 0px 5px 0px;
+	padding: 4px;
+	background: #FFF;
+	border: 1px #E6E6E6 solid;
+}
+
+.image-border2{
+	width: 200px;
+	margin: 0px 0px 5px 0px;
+	padding: 4px;
+	background: #FFF;
+	border: 1px #E6E6E6 solid;
+}
+
+
+.lead{
+	font-weight: bold;
+	font-size: 14px;
+	}
+
+
+.lead02{
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+.notice{
+	color: #900;
+	}
+
+
+div#mainContents h1{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 3px 5px;
+	font-size: 22px;
+	color: #314B96;
+	font-weight: bold;
+	background: url(../../images/base/h1.gif) no-repeat left bottom;
+	}
+
+div#mainContents h1 img{
+	margin: 0px 0px 5px 15px;
+	}
+
+body#top div#mainContents h2{
+	margin: 15px 0px 0px 0px;
+	padding: 12px 0px 0px 10px;
+	height: 28px;
+	background: url(../../images/base/h2.jpg) no-repeat left top;
+	}
+
+div#mainContents h2{
+	clear: both;
+	margin: 15px 0px 10px 0px;
+	padding: 8px 10px;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	background: url(../../images/base/h2.jpg) no-repeat left top;
+	}
+
+div#mainContents h2 span{
+	font-size: 14px;
+	}
+
+div#mainContents h2.long{
+	background: url(../../images/base/h2_long.jpg) no-repeat left top;
+	}
+
+div#mainContents h3{
+	margin: 10px 0px 10px 0px;
+	padding: 5px 10px;
+	color: #2D4885;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px #ABC7DA solid;
+	background: url(../../images/base/h3.jpg) no-repeat 0px 5px;
+	}
+
+div#mainContents h3 span{
+	font-size: 12px;
+	}
+	
+div#mainContents h4{
+	margin: 0px 10px 10px 0px;
+	padding: 5px 0px;
+	color: #2D4885;
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+div#mainContents div#pagetop{
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+	text-align: right;
+	}
+
+
+div#mainContents ul{
+	margin: 0px 0px 20px 10px;
+	padding: 0px;
+	}
+
+div#mainContents ul li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 3px 12px;
+	background: url(../../images/base/li.gif) no-repeat 0px 4px;
+	}
+
+div#mainContents ol{
+	margin: 0px 0px 15px 25px;
+	padding: 0px;
+	}
+
+div#mainContents ol li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	list-style: decimal;
+	}
+
+div#mainContents ol li strong{
+	color: #003399;
+	}
+
+div#mainContents ol li.num01{
+	list-style: url(../../images/base/li_num_01.gif);
+	}
+
+div#mainContents ol li.num02{
+	list-style: url(../../images/base/li_num_02.gif);
+	}
+
+div#mainContents ol li.num03{
+	list-style: url(../../images/base/li_num_03.gif);
+	}
+
+div#mainContents ol li.num04{
+	list-style: url(../../images/base/li_num_04.gif);
+	}
+	
+div#mainContents ol li.num05{
+	list-style: url(../../images/base/li_num_05.gif);
+	}
+
+div#mainContents ul.attention li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 3px 0px;
+	color: #900;
+	background: none;
+	}
+
+div#mainContents dt{
+	margin: 0px 0px 5px 5px;
+	padding: 0px 0px 0px 5px;
+	color: #2D4885;
+	font-weight: bold;
+	border-left: 5px #2D4885 solid;
+	}
+
+div#mainContents dd{
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 3px 12px;
+	}
+
+div#mainContents p{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 10px 5px;
+	line-height: 1.6;
+	}
+
+div#mainContents table{
+	width: 98%;
+	margin: 1px 0px 20px 0px;
+	padding: 0px;
+	border: 1px #CCC solid;
+	}
+
+div#mainContents table.bottom0{
+	margin: 1px 0px 0px 0px;
+	}
+
+div#mainContents th{
+	margin: 0px;
+	padding: 5px 10px;
+	color: #000;
+	white-space: nowrap;
+	vertical-align: top;
+	text-align: center;
+	background-color: #EAF4FB;
+	border: 1px #CCC solid;
+	}
+
+div#mainContents th.middle{
+	vertical-align: middle;
+	}
+
+div#mainContents td{
+	margin: 0px 1px;
+	padding: 5px 3px;
+	vertical-align: top;
+	border: 1px #CCC solid;
+	}
+
+div#mainContents table.centering td{
+	text-align: center;
+	}
+
+
+.pdf a{
+	margin: 0px 0px 0px 0px;
+	padding: 7px 16px 10px 0px;
+	background: url(../../images/base/mark04.gif) no-repeat right center;
+	}
+
+.ex a{
+	margin: 0px 0px 0px 0px;
+	padding: 5px 16px 10px 0px;
+	background: url(../../images/base/mark05.gif) no-repeat right center;
+	}
+
+.link a{
+	padding: 9px 0px 10px 6px;
+	background: url(../../images/base/mark06.gif) no-repeat left center;
+	}
+
+div#mainContents div.column2-1,
+div#mainContents div.column1-2{
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+	
+div#mainContents div.column2-1 div.left_img{
+	width: 55px;
+	margin-right: 10px;
+	float: left;
+	}
+
+div#mainContents div.column2-1 div.right_ci{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #2E4985;
+	float: left;
+	margin-bottom: 15px;
+	}
+
+div#mainContents div.column2-1 div.mainCol{
+	width: 410px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.column2-1 div.mainCol2{
+	width: 310px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.column2-1 div.subCol{
+	width: 210px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	}
+
+div#mainContents div.column2-1 div.subCol2{
+	width: 310px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	}
+
+div#mainContents div.column1-2 div.mainCol{
+	width: 410px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	}
+
+div#mainContents div.column1-2 div.subCol{
+	width: 210px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.column1-1,
+div#mainContents div.column1-1-1{
+	width: 660px;
+	margin: 0px -20px 20px 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#mainContents div.column1-1 div.col{
+	width: 310px;
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.column1-1-1 div.col{
+	width: 200px;
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.pageNav{
+	width: 650px;
+	margin: 0px -10px 10px 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#mainContents div.pageNav div.col{
+	width: 315px;
+	margin: 0px 10px 10px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+
+body#top div#mainContents table{
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	border-left: 1px #FFF solid;
+	border-right: 1px #FFF solid;
+	border-top: none;
+	border-bottom: none;
+	background-color: #EAF4FB;
+	}
+
+body#top div#mainContents th{
+	margin: 0px;
+	padding: 5px 0px 5px 20px;
+	color: #000;
+	white-space: nowrap;
+	vertical-align: top;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px #C8C8C8 dotted;
+	}
+
+body#top div#mainContents td{
+	margin: 0px 1px;
+	padding: 5px 0px 5px 12px;
+	vertical-align: top;
+	background: url(../../images/base/mark02.gif) no-repeat 0px 11px; 
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px #C8C8C8 dotted;
+	}
+
+
+
+
+body#top div#topNavi{
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	}
+
+
+body#top div#topNavi dl{
+	width: 201px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	float: left;
+	height: 100px;
+	border-left: 1px #C8C8C8 dotted;
+	border-top: 1px #C8C8C8 dotted;
+	border-right: 1px #C8C8C8 dotted;
+	border-bottom: 1px #C8C8C8 dotted;
+	}
+
+body#top div#topNavi dl.box01{
+	border-right: none;
+	border-bottom: none;
+	}
+
+body#top div#topNavi dl.box02{
+	border-right: none;
+	}
+
+body#top div#topNavi dl.box03{
+	border-bottom: none;
+	}
+
+
+body#top div#topNavi dt{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: none;
+	}
+
+
+body#top div#topNavi dd{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}
+
+
+
+div#mainContents div#iconList{
+	margin: 0px 0px;
+	padding: 0px;
+	}
+
+div#mainContents div#iconList div.iconContent{
+	margin: 0px 0px;
+	padding: 10px 0px;
+	overflow: hidden;
+	height: 100%;
+	border-bottom: 1px #C8C8C8 dotted;	
+	}
+
+div#mainContents div#iconList img{
+	width: 102px;
+	margin: 0px 10px 0px 0px;;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div#iconList dl{
+	margin: 0px 0px;
+	padding: 0px;
+	}
+
+div#mainContents div#iconList dt{
+	margin: 0px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #006699;
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+
+div#mainContents div.categoryList{
+	width: 660px;
+	margin: 0px -20px 0px 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#mainContents div.categoryList div.categoryCol{
+	width: 310px;
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.categoryList div.categoryContent{
+	margin: 0px 0px;
+	padding: 10px 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#mainContents div.categoryList img{
+	width: 102px;
+	margin: 0px 0px 0px 0px;;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.categoryList div.icon img{
+	width: 60px;
+	margin: 0px 0px 0px 0px;;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents div.categoryList dl{
+	width: 199px;
+	margin: 0px 0px;
+	padding: 0px;
+	float: right;
+	}
+
+div#mainContents /*div.categoryList */dl.layout_left{
+	width: 300px;
+	margin: 0px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#mainContents /*div.categoryList */dl.layout_right{
+	width: 300px;
+	margin: 0 0 0 20px;
+	padding: 0px;
+	float: left;
+	}
+	
+div#mainContents div.categoryList dt{
+	margin: 0px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #006699;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+	}
+
+div#mainContents div.categoryList dd{
+	margin: 0px 0px;
+	padding: 0px 0px 5px 0px;
+	}
+
+
+
+
+div#mainContents div.recommendation{
+	margin: 20px 0px;
+	padding: 10px 0px;
+	border: 2px #9ABADD solid;
+	}
+
+div#mainContents div.recommendation p{
+	margin: 5px 10px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+div#mainContents div.recommendation p.small{
+	font-weight: 100;
+	font-size: 10px;
+	}
+	
+div#mainContents div.recommendation p.line{
+	border-bottom: 2px #ABC7DA solid;
+	}
+
+div#mainContents div.recommendation dl{
+	margin: 0px 0px 0px 10px;
+	}
+
+div#mainContents div.recommendation dd.left_img{
+	margin: 0 10px 10px 0;
+	float: left;
+	}
+
+
+
+div#mainContents ul.checkList{
+	margin: 0px 0px 10px 5px;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#mainContents ul.checkList li{
+	margin: 0px 10px 0px 0px;
+	padding: 0px 0px 3px 0px;
+	background: none;
+	float: left;
+	}
+
+div#mainContents ul.checkList li input{	
+	margin-right: 5px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************  subContents*/
+
+ 
+body#top div#subContents{
+	float: right;
+	}
+
+div#subContents{
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#subContents h2#navTitle{
+	width: 228px;
+	margin: 0px auto;
+	}
+
+div#subContents ul#banner{
+	width: 218px;
+	margin: 0px auto;
+	padding: 5px;
+	background: url(../../images/nav/bg_banner.gif) repeat-y left top;
+	}
+
+div#subContents ul#banner li{
+	width: 200px;
+	margin: 0px auto 10px;
+	padding: 0px;
+	overflow: hidden;
+	}
+
+div#subContents ul#banner li a{
+	display: block;
+	padding: 3px;
+	background: url(../../images/nav/bg_box02.jpg) no-repeat left top;
+	}
+
+div#subContents ul#banner li a:hover{
+	background: url(../../images/nav/bg_box_on.jpg) no-repeat left top;
+	}
+
+div#subContents ul#banner li.lastChild{
+	margin-bottom: 0px;
+	}
+
+body#top div#subContents ul#banner{
+	width: 240px;
+	}
+
+body#top div#subContents ul#banner li{
+	width: 230px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	overflow: hidden;
+	}
+
+body#top div#subContents ul#banner li a{
+	display: block;
+	padding: 3px;
+	background: url(../../images/nav/bg_box.jpg) no-repeat left top;
+	}
+
+body#top div#subContents ul#banner li a:hover{
+	background: url(../../images/nav/bg_box_on.jpg) no-repeat left top;
+	}
+
+body#top div#subContents ul#banner li.lastChild{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}
+
+div#subContents div#nav{
+	width: 240px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 3px 0px;
+	background: url(../../images/nav/bg_menu.jpg) no-repeat 5px bottom;
+	}
+
+div#subContents div#nav h2{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	}
+
+div#subContents div#nav h3{
+	margin: 0px 0px 0px 0px;
+	padding: 1px 0px;
+	background: url(../../images/nav/line.gif) no-repeat 10px top;
+	}
+
+
+div#subContents div#nav h3 a{
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 7px 0px 7px 30px;
+	color: #006699;
+	background: url(../../images/nav/bg_nav.jpg) no-repeat 1px top;
+	}
+
+div#subContents div#nav h3 a:hover,
+div#subContents div#nav h3 a.current{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+div#subContents div#nav ul{
+	margin: 0px 4px 0px 4px;
+	padding: 0px;
+	display: none;
+	background: url(../../images/nav/line.gif) no-repeat 7px top;
+	}
+
+div#subContents div#nav h3.end div#nav ul{
+	background: none;
+	}
+
+div#subContents div#nav ul li{
+	margin: 0px 4px 0px 5px;
+	padding: 0px 0px;
+	background-color: #FFFFEC;
+	border-top: 1px #C4C4C4 dotted;
+	}
+
+
+div#subContents div#nav ul li a{
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 25px;
+	color: #333;
+	background: url(../../images/nav/mark02.gif) no-repeat 15px 10px;
+	}
+
+div#subContents div#nav ul li a:hover,
+div#subContents div#nav ul li a.current{
+	color: #006699;
+	text-decoration: underline;
+	background: url(../../images/nav/mark02.gif) no-repeat 15px 10px;
+	}
+
+
+
+body#commodity01 div#subContents div#nav ul#menu01{
+	display: block;
+	}
+
+body#commodity01 div#subContents div#nav h3#nav01 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+body#commodity02 div#subContents div#nav ul#menu02{
+	display: block;
+	}
+
+body#commodity02 div#subContents div#nav h3#nav02 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+body#commodity03 div#subContents div#nav ul#menu03{
+	display: block;
+	}
+
+body#commodity03 div#subContents div#nav h3#nav03 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+body#commodity04 div#subContents div#nav ul#menu04{
+	display: block;
+	}
+
+body#commodity04 div#subContents div#nav h3#nav04 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+body#commodity05 div#subContents div#nav ul#menu05{
+	display: block;
+	}
+
+body#commodity05 div#subContents div#nav h3#nav05 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+body#store01 div#subContents div#nav ul#menu01{
+	display: block;
+	}
+
+body#store01 div#subContents div#nav h3#nav01 a{
+	background: url(../../images/nav/bg_nav_f2.jpg) no-repeat 1px top;
+	}
+
+/**************** FOOTER */
+
+
+div#footer{
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 158px;
+	background: url(../../images/footer/bg_footer.gif) repeat-x left top;
+	}
+
+div#footer_wapper{
+	width: 100%;
+	margin: 0px;
+	padding: 4px 0px 0px 0px;
+	background: url(../../images/footer/bg_footer_inner.gif) no-repeat center top;
+	}
+
+div#footer_inner{
+	width: 900px;
+	margin: 0px auto;
+	padding: 0px;
+	overflow: hidden;
+	height: 100%;
+	}
+
+div#footer ul#footerMenu{
+	width: 830px;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	}
+
+div#footer ul#footerMenu li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 1px 0px 1px;	
+	float: left;
+	border-right: 2px #C8C8C8 solid;
+	}
+div#footer ul#footerMenu li.lastChild{
+	border: none;
+	}
+
+
+div#footerText{
+	width: 600px;
+	margin: 0px;
+	padding: 30px 0px 0px 0px;
+	float: left;
+	text-align: left;
+	}
+
+div#ft_logo{
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	float: left;
+	}
+
+div#footer div#footerInfo{
+	width: 300px;
+	margin: 0px 0px 0px 0px;
+	padding: 30px 0px 0px 0px;
+	float: right;
+	text-align: right;
+	}
+
+div#footer div#footerInfo p{
+	padding-top: 10px;
+	font-size: 10px;
+	}
+	
+div#event-base_listbox{
+	background-color: #E7F5F3;
+	width: 620px;
+	padding: 10px 10px 0 10px;
+	}
+div#event-base_listbox img{
+	margin-bottom: 10px;
+	}
+
+/* ---[banner 追加 ]------------------------------- */	
+div#subContents ul#banner01{
+	width: 218px;
+	margin: 0px auto;
+	padding: 5px;
+	background: url(../../images/nav/bg_banner.gif) repeat-y left top;
+	}
+
+div#subContents ul#banner01 li{
+	width: 200px;
+	margin: 0px auto 10px;
+	padding: 0px;
+	overflow: hidden;
+	}
+
+div#subContents ul#banner01 li a{
+	display: block;
+	padding: 3px;
+	background: url(../../images/nav/bg01_box02.jpg) no-repeat left top;
+	}
+
+div#subContents ul#banner01 li a:hover{
+	background: url(../../images/nav/bg01_box_on.jpg) no-repeat left top;
+	}
+
+div#subContents ul#banner01 li.lastChild{
+	margin-bottom: 0px;
+	}
+
+body#top div#subContents ul#banner01{
+	width: 240px;
+	}
+
+body#top div#subContents ul#banner01 li{
+	width: 230px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	overflow: hidden;
+	}
+
+body#top div#subContents ul#banner01 li a{
+	display: block;
+	padding: 3px;
+	background: url(../../images/nav/bg01_box.jpg) no-repeat left top;
+	}
+
+body#top div#subContents ul#banner01 li a:hover{
+	background: url(../../images/nav/bg01_box_on.jpg) no-repeat left top;
+	}
+
+body#top div#subContents ul#banner01 li.lastChild{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}	

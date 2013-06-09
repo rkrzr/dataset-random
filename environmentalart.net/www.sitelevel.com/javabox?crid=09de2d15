@@ -1,0 +1,9 @@
+<!--
+var css = document.createElement('link');
+css.type = 'text/css';
+css.rel = 'stylesheet';
+css.href = 'http://www.sitelevel.com/css/searchbox.go?crid=09de2d15';
+document.getElementsByTagName("head")[0].appendChild(css);
+document.write("<!-- Begin siteLevel searchbox -->\n<form method=\"get\" action=\"http://www.sitelevel.com/query\" target=\"_self\" accept-charset=\"utf-8\">\n<div class=\"sl_search_box\">\n<table style=\"border: 2px solid ; \" cellspacing=\"0\" cellpadding=\"0\">\n	<tr>\n		<td width=\"100%\">\n			<table cellspacing=\"0\" cellpadding=\"2\" border=\"0\">\n				<tr><td align=\"right\"><font size=\"2\"><b>Search</b></font> <input type=\"text\" name=\"query\" size=\"14\" maxlength=\"100\">  <button type=\"submit\">Search</button> </td></tr>\n				<tr><td align=\"center\"><font size=\"1\"><input type=\"radio\" value=\"09de2d15\" checked name=\"crid\">This Site     <input type=\"radio\" name=\"crid\" value=\"web\">The Web</font></td></tr>\n				<tr><td align=\"right\"><div align=\"center\"><a href=\"http://www.sitelevel.com/\"><font size=\"1\">Site Search</font></a></div></td></tr>\n			</table>\n		</td>\n	</tr>\n</table>\n\n</div>\n</form>\n<!-- End siteLevel searchbox -->");
+document.close();
+//-->

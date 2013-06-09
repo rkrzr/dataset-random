@@ -1,0 +1,179 @@
+
+html,body{
+  margin:0;
+  padding:0;
+  border:0;
+/* \*/
+  height:100%;
+/* Last height declaration hidden from Mac IE 5.x */
+}
+body{
+	min-width:980px;
+	text-align:center;
+}
+.clear{
+  clear:both;
+  height:1px;
+  overflow:hidden;
+  line-height:1%;
+  font-size:0px;
+  margin-bottom:-1px;
+}
+* html .clear{height:auto;margin-bottom:0}
+#fullheightcontainer{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+  position:relative;
+  width:980px;
+/* \*/
+  height:100%;
+/* Last height declaration hidden from Mac IE 5.x */
+}
+#wrapper{
+  min-height:100%;
+/* \*/
+  height:100%;
+/* Last height declaration hidden from Mac IE 5.x */
+}
+#wrapp\65	r{
+   height:auto;
+}
+/* \*/
+* html #wrapper{
+  height:100%;
+}
+/* Last style with height declaration hidden from Mac IE 5.x */
+#outer{
+  z-index:1;
+  position:relative;
+  margin-left:211px;
+  width:558px;
+/* \*/
+  height:100%;
+/* Last height declaration hidden from Mac IE 5.x */
+}
+#float-wrap{
+  width:558px;
+  margin-right:-1px;
+  float:left;
+  display:inline;
+}
+#left{
+  width:212px;
+  float:left;
+  display:inline;
+  position:relative;
+  margin-left:-211px;
+}
+*>html #left{width:211px;}
+#container-left{
+  width:211px;
+}
+#right{
+  float:left;
+  display:inline;
+  width:213px;
+  margin-right:-211px;
+  margin-left:-1px;
+  position:relative;
+}
+/* \*/
+* html #right{
+  width:212px;
+  margin-left:0px;
+  margin-right:-500px;
+  mar\gin-right:-213px;
+}
+/* Above style hidden from Mac IE */
+#container-right{
+/* \*/
+  width:211px;
+/* Above hidden from IE-Mac */
+  margin-left:2px;
+}
+/* \*/
+* html #container-right{
+  fl\oat:right;
+  di\splay:inline;
+  margin-left:1px;
+  mar\gin-left:0px;
+}
+/* Above style hidden from Mac IE */
+/* \*/
+* html #left{margin-right:-3px;}
+/* Above style hidden from Mac IE */
+#center{
+  width:558px;
+  float:right;
+  display:inline;
+/* \*/
+  margin-left:-1px;
+/* Hidden from IE-mac */
+}
+#clearheadercenter{
+  height:373px;
+  overflow:hidden;
+}
+#clearheaderleft{
+  height:373px;
+  overflow:hidden;
+}
+#clearheaderright{
+  height:373px;
+  overflow:hidden;
+}
+#clearfootercenter{
+  height:50px;
+  overflow:hidden;
+}
+#clearfooterleft{
+  height:128px;
+  overflow:hidden;
+}
+#clearfooterright{
+  height:50px;
+  overflow:hidden;
+}
+#footer{
+  z-index:1;
+  position:absolute;
+  clear: both;
+  width:980px;
+  height:50px;
+  overflow:visible;
+  margin-top:-49px;
+  color:#FFF;
+}
+#subfooter1{
+  text-align:center;
+  height:50px;
+  line-height:50px;
+  color:#FFF;
+}
+#header{
+	z-index:1;
+	position:absolute;
+	top:0px;
+	width:980px;
+	height:373px;
+	overflow:hidden;
+}
+#headerContent{
+	text-align:center;
+	height:301px;
+}
+#mainMenu{
+	text-align:center;
+	height:34px;
+}
+#headerLogo {
+	padding-top:10px;
+	text-align:left;
+}
+
+#SIDHelp{
+	position:absolute;
+	top:-78px;
+	width:211px;
+}

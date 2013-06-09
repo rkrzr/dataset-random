@@ -1,0 +1,112 @@
+/* adjusting for sublevel menu items since b.s. doesn't allow for more than 1 sublevel */
+.nav .caret {
+	margin-top: 8px;
+	margin-left: 2px;
+}
+.nav ul .caret, .nav ul .caret {
+	margin-top: 8px;
+	margin-left: 2px;
+	display:none;
+}
+.nav, .nav .dropdown-menu li {
+	position:relative;
+}
+.nav .dropdown-menu li .flyout-menu {
+	left:100%;
+	top:0;
+}
+.nav li {
+	position:relative;
+	z-index: 597;
+}
+.nav .flyout-menu {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	z-index: 5000;
+	float: left;
+	min-width: 160px;
+	max-width: 220px;
+	_width: 160px;
+	padding: 4px 0;
+	margin: 0;
+	list-style: none;
+	background-color: #ffffff;
+	border-color: #ccc;
+	border-color: rgba(0, 0, 0, 0.2);
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+.nav .flyout-menu li {
+	position:relative;
+	float: none;
+	white-space:nowrap;
+	margin:0;
+	padding:0;
+	border:0;
+}
+.nav .flyout-menu li a {
+	display: block;
+	padding: 3px 15px;
+	clear: both;
+	font-weight: normal;
+	line-height: 18px;
+	color: #555555;
+	white-space: nowrap;
+}
+.nav .flyout-menu li > a:hover, .nav .flyout-menu .active > a, .nav .flyout-menu .active > a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #0088cc;
+}
+.nav .flyout-menu ul {
+	top:-5px;
+	left:100%;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+.nav li:hover > .flyout-menu {
+	visibility:visible;
+}
+.navbar .caret, .navbar .nav .caret {
+	border-top-color: #ffffff;
+}
+.navbar .nav .active .caret {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.nav-pills .caret {
+	margin-top:6px;
+}
+/* menus with nav-stacked suffix */
+.nav-stacked ul, .nav-list ul {
+	list-style:none;
+}
+.nav-stacked ul li a, .nav-list ul li a {
+	display:block;
+	padding:3px 5px;
+	margin:1px 0;
+}
+.nav-stacked ul .active > a, .nav-stacked ul .active > a:hover, .nav-list ul .active > a, .nav-list ul .active > a:hover {
+	color: black;
+	background-color: transparent;
+}
+.nav-tabs.nav-stacked > li > ul {
+	margin:0;
+	padding-left:8px;
+	background:#f8f8f8;
+	border:1px solid #ddd;
+	border-top:0;
+}

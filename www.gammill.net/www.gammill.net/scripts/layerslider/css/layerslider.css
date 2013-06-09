@@ -1,0 +1,31 @@
+/* LayerSlider Styles */
+
+
+
+.ls-layer {
+	display: none;
+}
+
+.ls-active,
+.ls-animating {
+	display: block;
+}
+
+.ls-layer > * {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.ls-layer .ls-bg {
+	left: 50%;
+	top: 50%;
+}
+
+.ls-nav {
+	text-align: center;
+}
+
+.ls-nav a {
+	display: inline-block;
+}

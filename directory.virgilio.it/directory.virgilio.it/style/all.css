@@ -1,0 +1,159 @@
+body {font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#323D49;background-color:#FFFFFF;margin:0px 5px;padding:0px;}
+ul {margin-top:19px;}
+li {list-style-image: url(../../images.virgilio.it/search/6.0/square.gif);}
+/*header*/
+#header {color:#323D49;background:url("../../images.alice.it/ricerca/1.0/common/header_list_bg.gif") repeat-x  0 37px; border-bottom:2px solid #ff6600; margin:0;  width:100%; float:left;  min-height:80px; height:auto!important; height:80px; position:relative; z-index:20; margin-bottom:20px }
+table { clear:both}
+
+/*header*/
+
+
+#header .charging{ position: absolute; left:22px; top:12px; width:34px; height:18px; z-index:100}
+
+#header #homepage { position:absolute; right:20px; top:2px; width:190px;; text-align:right; z-index:6}
+#header #homepage a{ color:#636363; font-size:11px; text-transform:uppercase; font-weight:bold; text-decoration:none}
+#header #homepage a:hover{ color:#ff6600;text-decoration:underline}
+#header .nofloat{ width:698px;}
+#header  .charging{ position: absolute; left:18px; top:6px; width:34px; height:18px; z-index:100}
+#header .logo-img{ border:0; margin:12px; padding:0; background:url("../../images.alice.it/ricerca/1.0/common/ricerca_bg.gif") right top no-repeat;float:left;}
+#header .form{ padding:0; margin:0;  float:left; width:548px; position:relative;z-index:8 }
+#header form{  margin:0; padding:0;clear:both}
+#header  .text-input-web{ padding:1px 0 1px 4px; width:456px; border:1px solid #c7c9cc; font-weight:bold; margin-bottom:2px; height:22px;vertical-align:middle;  }
+#header  .text-input-persone{ padding:1px 0 1px 4px; width:145px; border:1px solid #c7c9cc; font-weight:bold; margin-bottom:2px; height:18px;vertical-align:middle;  }
+#header  .text-input-aziende{ padding:1px 0 1px 4px; width:220px; border:1px solid #c7c9cc; font-weight:bold; margin-bottom:2px; height:18px;vertical-align:middle;  }
+#header .select-video, #form-footer .select-video{ display:none}
+#header .form .cerca-bt { border:0;  margin:0 0 0 6px; vertical-align:middle; width:74px; height:27px;  background: url("../../images.alice.it/ricerca/1.0/common/cerca_bt.gif") no-repeat 0 0; text-indent:-6000px; font-size:1px; cursor:pointer }
+#header .form .radio { margin:0; padding:0; font-size:10px}
+#header .moveup {position:relative; top:-3px; color:#716f70}
+.nobold {font-weight:normal!important}
+
+/*tab form*/
+#tab-form{ font-size:12px;margin:0 0 2px 0!important;margin:0 0 -3px 0; padding:12px 0 0 0;float:left;  position:relative; z-index:80; background-color:#fff; top:-2px; height:16px; }
+#tab-form ul{  list-style:none; margin:0; padding:0; color:#8c8c8c;float:left;}
+#tab-form li{ display:block;margin:0 0 0 2px; padding:0; float:left}
+#tab-form a{ color:#333; text-decoration:none}
+#tab-form a.new-label{ background:url("../../images.alice.it/ricerca/1.0/common/new.gif") top right no-repeat; padding-right:18px}
+#tab-form a.this-tab { color:#ff6600; font-weight:bold; font-size:13px}
+#tab-form a:hover{ color:#ff6600; text-decoration:underline}
+#tab-form li a{ margin:0 3px}
+#header .tab-altro{ background: url("../../images.alice.it/ricerca/1.0/common/tab_altro_bt.gif") 100% 0  no-repeat; height:22px; position:relative; z-index:10 }
+#header .tab-altro a{  padding: 0 15px 1px 0!important; }
+#tab-altro-cont-header { position:absolute; top:18px; left:0; width:89px; display:none; z-index:100}
+#tab-altro-cont-header iframe{ position:absolute;top:0;left:0;z-index:-1;filter:mask();width:100%;height:100%;display:none;display/**/:block;}
+.tab-altro-item-top { background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_top.png") no-repeat left top!important;background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_item_top.gif")  no-repeat left top; width:89px;  padding:10px 5px 2px 5px;margin:0; text-transform:capitalize}
+.tab-altro-item { background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_bg.png") repeat-y left top!important;background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_item_bg.gif") repeat-y left top; width:89px; padding:5px; margin:0; text-transform:capitalize}
+.tab-altro-item-bt { background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_bt.png") no-repeat left bottom!important;background:url("../../images.alice.it/ricerca/1.0/common/tab_altro_item_bt.gif")  no-repeat left bottom; width:89px; padding:2px 5px 2px 5px; margin:0; height:30px; text-transform:capitalize}
+
+/*tab form*/
+/*fine header*/
+
+
+
+.nobold {font-weight:normal!important}
+.listing-title {  padding:0 0 2px 0; border-bottom:1px solid #e5eaee; color:#4e4e4e; font-size:11px; margin:0 0 14px 15px; position:relative; width:99%; z-index:2;}
+.listing-title a{ color:ff6600}
+.listing-title h2{ padding:0; margin:0; color:#ff6600; display:inline; font-size:18px}
+.listing-title h2 b{ font-size:16px;}
+/*links*/
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a.header {color:#828992;font-size:11px;}
+a.header-last {color:#166FBD;font-size:11px;font-weight:bold;}
+a.header-last:hover {color:#84B3DD;}
+a.segnala {color:#000;font-size:12px;font-weight:bold;}
+a.link11 {font:normal 11px arial;color:#0C4ABC;}
+a.link11:hover {color:#84B3DD;}
+a.link11arancio {font-size:11px;color:#FD7D04;}
+a.link11arancio:hover {color:#84B3DD;}
+a.link12blu {color:#0B4ABC;font-size:12px;}
+a.link12blu:hover {color:#84B3DD;}
+a.link12bluebold {color:#0B4ABC;font-size:12px;text-decoration:underline;font-weight:bold;}
+a.link12bluebold:hover {color:#84B3DD;}
+a.link13 {font:bold 14px arial;text-decoration:underline;color:#0C4ABC;}
+a.link13:hover {color:#84B3DD;}
+a.link16 {font-size:16px;text-decoration:underline;color:#0C4ABC;}
+a.link16bold {font-size:16px;text-decoration:underline;color:#0C4ABC;font-weight:bold;}
+a.link16:hover {font-size:16px;text-decoration:underline;color:#84B3DD}
+a.link16nodec {font-size:16px;text-decoration:none;color:#0C4ABC;font-weight:bold;}
+a.link16nodec:hover {font-size:16px;text-decoration:underline;color:#84B3DD;font-weight:bold;}
+a.link16orange {font-size:14px;text-decoration:underline;color:#FD7D04;font-weight:bold;}
+a.link16orange:hover {color:#84B3DD}
+a.siti {font-size:16px;color:#FD7D04;font-weight:bold;text-decoration:none;}
+a.siti:hover {color:#84B3DD;text-decoration:underline;}
+a.nav {color:#0C4ABC;font-weight:bold;font-size:11px;text-decoration:none;padding-left:5px;}
+a.nav:hover {color:#84B3DD;font-weight:bold;font-size:11px;text-decoration:underline;}
+/*testi*/
+.header {color:#166FBD;font-size:12px;}
+.prova {font:normal 14px arial;}
+.paginazione {color:#FD7D04;font-weight:bold;font-size:12px}
+.foot {color:#717073;font-size:11px;}
+.siti {font-size:16px;color:#FD7D04;font-weight:bold;}
+.trovati {font-weight:bold;color:#9097AC;font-size:12px;}
+.qs {color:#323D49;font-weight:bold;}
+.invirgilio {font:bold 11px arial;color:#000;}
+.t11grigion {font-size:11px;color:#828992;}
+.t12grigion {font-size:12px;color:#828992;}
+.t12siti {font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#323D49;}
+.text10verd {font:normal 10px verdana;color:#000000;}
+a.text10verd {font:normal 10px verdana;color:#000000;}
+.text16 {font-size:14px;}
+.text16real {font-size:16px;color:#A7B5BF;}
+.tgrey {color:#828992;}
+.text12oran {color:#ff9900;font-weight:bold;font-size:12px;}
+.tblu {color:#0B4ABC;font-size:12px;}
+.t11blu {color:#0B4ABC;font-size:11px;}
+.tgrey16 {font-size:16px;color:#828992;font-weight:bold;}
+.tblack {color:#000;}
+.title {margin-top:22px;font-size:14px;}
+/*spaziature*/
+.br_basso {font-size:2px;}
+.headspace {margin-left:8px;}
+.dirspace {margin-left:15px;}
+.dirspace2 {margin-left:14px;}
+.dirspace3 {margin-left:21px;}
+.dirspace4 {margin-left:50px;}
+.spazio3 {margin-right:3px;}
+.spazio53 {margin-left:5px;margin-right:3px;}
+.spazio7_14 {margin-top:11px;margin-left:7px;}
+.spazio12_30 {margin-top:24px;margin-left:11px;}
+.spazio12_14 {margin-top:11px;margin-left:11px;}
+/*div del logo*/
+#logotext {position:relative;top:-8px;left:46px;font-size:18px;color:#828992;font-weight:bold;}
+#logotext a {color:#828992;font-weight:bold;text-decoration:none;}
+
+
+#logotextH {position:relative;top:-10px;left:87px;font-size:18px;color:#828992;font-weight:bold;text-align:left;width:90px;}
+#logotextH a {color:#828992;font-weight:bold;text-decoration:none;}
+
+/*#logotextHelp {position:relative;top:-10px;left:50px;font-size:18px;color:#828992;font-weight:bold;}
+#logotextHelp a {color:#828992;font-weight:bold;text-decoration:none;}*/
+
+/*formattazione form*/
+.formtext {color:#A3B3BD;font-size:11px;font-weight:bold;}
+.cosa {width:327px;}
+.dove {width:161px;}
+/*bgcolor*/
+.grigio {background-color:#E5EAEF;}
+.arancio {background-color:#FF9900;}
+.bianco {background-color:#ffffff;}
+.grigino {background-color:#F7F7F5;}
+/*new header*/
+.header-bg {color:#004AC5;padding-top:3px;padding-left:8px;font:normal 12px arial;background-image:url(../../images.virgilio.it/directory/images/bgTop.gif);background-repeat:repeat-x;}
+a.linkbg {color:#004AC5;font:bold 11px arial;}
+a.linkbg:hover {color:#84B3DD;}
+/*.newsfondo {background-image:url(http://images.virgilio.it/directory/images/bgBottom.gif);background-repeat:repeat-x;background-position:bottom;}*/
+.newsfondo {border-bottom:solid 2px #E5EAEF;}
+
+/*footer*/
+#footer{  padding:20px 0; margin:0;color:#ff6600; text-align:center; border-top: #e5eaef 3px solid}
+#footer .scrivi-segnala{ background-color:#f8f8f9; padding:8px 0; height:16px; margin:6px 0}
+#footer hr{ display:none}
+#footer ul{  list-style:none; margin:0; padding:0; font-size:11px; font-weight:bold}
+#footer li{ display:inline;margin:0 0 0 2px; padding:0; letter-spacing:1px; }
+#footer li a{ margin:0 2px 0 0; color:#333; text-decoration:none}
+#footer li a:hover{ color:#ff6600; text-decoration:underline}
+#footer i{ color:#8c8c8c; font-size:10px}
+#footer .ulfooter-alt {  list-style:none; margin:10px 0 0 0; padding:0; font-size:10px; color:#333}
+#footer .ulfooter-alt li{ letter-spacing:0; text-transform:none}
+#footer .ulfooter-alt li a{ margin:0;}
+/*footer*/

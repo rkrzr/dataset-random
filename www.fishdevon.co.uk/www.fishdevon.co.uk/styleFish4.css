@@ -1,0 +1,389 @@
+/*
+
+CSS for Fishery site
+
+*/
+
+
+
+body {
+
+	font-family:  Verdana, Helvitica, Arial, sans serif;
+
+	background-color:  #e2edff;
+
+	line-height:  125%;
+
+	padding:  0;
+
+	margin:  0;
+
+}
+
+
+
+h1, h2, h3 {
+
+	font-family:  "Trebuchet MS", Arial, Helvitica, sans-serif;
+
+}
+
+
+
+h1 {
+
+	font-size:  xx-large;
+
+	line-height:  125%;
+
+	background-color:  #e2edff;
+
+	color:  #996666;
+
+	width: 22em;
+
+	padding-top:  2em;
+
+	padding-bottom:  .2em;
+
+	padding-left:  0.4em;
+
+	margin:  0;
+
+	left: 200px;
+
+}
+
+
+
+h2 {
+
+	color:  #598059;
+
+	font-size:  large;
+
+	font-weight:  normal;
+
+	padding-top:  0.5em;
+
+	}
+
+h3  {
+
+	color: black;
+
+	font-size:  large;
+
+	font-weight:  normal;
+
+	padding-top:  0.5em;
+
+}
+
+
+
+
+
+li {
+
+	font-size:  small;
+
+	list-style-type:  none;
+
+}
+
+
+
+
+
+p {
+
+	font-size:  small;
+
+	color:  black;
+
+}
+
+
+
+#tagline p  {
+
+	font-style:  italic;
+
+	font-family: Georgia, Times, Serif;
+
+	font-size:  x-large;
+
+	background-color:  #e2edff;  
+
+}	
+
+
+
+.fun  {
+
+	color: #007D48;
+
+	font-family:  Georgia, Times, serif;
+
+	letter-spacing:  0.05em;
+
+}
+
+
+
+blockquote.fun  {
+
+	font-style:  italic;
+
+}
+
+
+
+.attentiongrab   {
+
+	width:  50%;
+
+	font-weight:  bold;
+
+}
+
+
+
+#navigation {
+
+	width:  150px;
+
+	background-color:  #D6C25C;
+
+	border:  none;
+
+	padding-bottom:  2em;
+
+}
+
+
+
+/*
+
+This section deals with the position of items on the screen.
+
+It uses absolute positioning - fixed x asnd y  coordinates measured 
+
+from the top-left corner of the browser's content display.
+
+*/
+
+
+
+
+
+#header, #sitebranding, #tagline, #bodycontent, #pict1, #pict2, #pict3, #pict4, #pict5, #pict6, #contacts, #contactspict, #FlyRules, #flyprices  {
+
+	padding: 0;
+
+	margin-bottom:  2px;
+
+}
+
+
+
+#navigation, #bodycontent, #header, #tagline, #pict1, #pict2, #pict3, #pict4, #pict5, #pict6,#contacts, #contactspict, #FlyRules, #CoarseRules, #flyprices   {
+
+	position:  absolute;
+
+}
+
+
+
+#navigation, #bodycontent,  #contacts, #FlyRules, #CoarseRules    {
+
+	top:  200px;
+
+}
+
+
+
+#bodycontent {
+
+	left: 200px;
+
+	width:  60%;
+
+}
+
+
+
+#contacts {
+
+	left: 200px;
+
+	width: 350px;
+
+}
+
+
+
+#pict1  {
+
+	top:  470px;
+
+	left: 200px; 
+
+}
+
+
+
+#pict2 {
+
+	top:  470px;
+
+	left: 600px;
+
+}
+
+
+
+#pict3 {
+
+	top:  470px;
+
+	left:  200px;
+
+}
+
+
+
+#pict4  {
+
+	top:  480px;
+
+	left: 260px; 
+
+}
+
+
+
+#pict5 {
+
+	top:  690px;
+
+	left: 130px;
+
+}
+
+
+
+#pict6 {
+
+	top:  480px;
+
+	left:  0px;
+
+	}
+
+	
+
+#flyprices {
+
+	top:730px;
+
+	left: 200px;
+
+	font-size:  small;
+
+}
+
+	
+
+#contactspict {
+
+	top: 220px;
+
+	left:  550px;
+
+}
+
+
+
+#header {
+
+	width:  600px;
+
+	left:  200px;
+
+}
+
+
+
+#tagline {
+
+	padding-top:  30px;
+
+	padding-bottom:  30px;
+
+	width:  400px;
+
+	left:  150px;
+
+	line-height:  130%;
+
+}
+
+
+
+#navigation  {
+
+	top:  280px;
+
+}
+
+
+
+#FlyRules  {
+
+	left:570px;
+
+	width: 300px;
+
+	top: 500px;
+
+	font-size:  x-small;
+
+	}
+
+	
+
+#CoarseRules {
+
+	left :530px;
+
+	width: 300px;
+
+	top: 300px;
+
+	font-size: x-small;
+
+}
+
+table.pubs {
+
+		font-size:  small; 
+
+}
+
+
+
+table.prices  td {
+
+	padding:  10px;
+
+}
+
+
+
+a  {
+
+	font-weight:  bold;
+
+}

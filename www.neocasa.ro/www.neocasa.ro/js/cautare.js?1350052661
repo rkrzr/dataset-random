@@ -1,0 +1,144 @@
+	function addOption(selectbox,text,value )
+	{
+		var optn = document.createElement("OPTION");
+		optn.text = text;
+		optn.value = value;
+		selectbox.options.add(optn);
+	}
+	
+	
+	function setSelectedIndexByValue(selectbox,value){
+		var i=0;
+		numar_optiuni = selectbox.length;
+		for(i=0;i<numar_optiuni;i++){
+			option = selectbox.options[i];
+			if(option.value==value){
+				selectbox.selectedIndex=i;
+				return;
+			}
+		}
+		//selectbox.selectedIndex=0;
+	}
+	function setIndexesFromValues(selectbox,values){
+		var i=0;
+		numar_optiuni = selectbox.length;
+		numar_valori = values.length;
+		//debugger;
+		for(i=0;i<numar_optiuni;i++){
+			for(j=0;j<numar_valori;j++){
+				option = selectbox.options[i];
+				value = values[j];
+				if(option.value==value){
+					selectbox.options[i].selected = true;
+				}
+			}
+		}
+	}
+
+	function updateTipImobil(tipuri)
+	{	
+		tipuri_selectate = tipuri.evalJSON();
+		setIndexesFromValues($("filterClassic_TIP_IMOBIL_FILTER"),tipuri_selectate);
+	}
+	
+	function updateZone(zone_selectate_url){
+		//debugger;	
+/*		if(typeof zone_default != 'undefined'){
+			if(zone_default.localeCompare("null")!=0)
+				zone_selectate = zone_default.evalJSON();
+			else 
+				zone_selectate = {};
+		} else {
+			zone_selectate = {};
+		}*/
+		
+		zone_selectate = {};
+		
+		$("filterClassic_ZONA").options.length = 0;
+		$("filterClassic_ZONA").innerHTML='';
+		
+		//alert(tipImobil);
+		var url='/oferte/index.php?screen=zone';
+		url +="&filterClassic[TIP_IMOBIL_WORD_NEOCASA]="+$('filterClassic_TIP_IMOBIL_WORD_NEOCASA').options[$('filterClassic_TIP_IMOBIL_WORD_NEOCASA').selectedIndex].value;
+		arr_imobil = $('filterClassic_TIP_IMOBIL_FILTER');
+		length_imobil = $('filterClassic_TIP_IMOBIL_FILTER').length;
+		for(i=0;i<length_imobil;i++){
+			if(arr_imobil[i].selected==true){
+				url +="&filterClassic[TIP_IMOBIL_FILTER][]="+arr_imobil[i].value;
+			}
+		}
+		
+		if($('filterClassic_TIP_TRANZ_1').checked) url +="&tip_tranz="+$('filterClassic_TIP_TRANZ_1').value;
+		else if($('filterClassic_TIP_TRANZ_2').checked) url +="&tip_tranz="+$('filterClassic_TIP_TRANZ_2').value;
+				
+		new Ajax.Request(url, 
+		{
+				method:'get',
+				onSuccess: function(transport)
+				{
+					
+						var d = transport.responseText;
+						//alert(d);
+						//alert(1);
+						try{
+							var json = d.evalJSON();
+						} catch(e){
+							//alert(e);
+						}
+						//alert(2);
+						if(d !='[]');
+						/*{
+							addOption($("filterClassic_ZONA"),"Alege zona","");
+						}*/
+						else 
+						{
+							addOption($("filterClassic_ZONA"),"Nu exista oferte","");	
+						}
+						//alert(1);
+			
+						var nume_zona='';
+						for ( keyVar in json ) 
+						{
+							if(nume_zona != keyVar)
+							{
+								nume_zona = keyVar;
+							
+								objSelect=$("filterClassic_ZONA");
+								optGroup = document.createElement('optgroup');
+								optGroup.label = nume_zona;
+								
+							}
+							for ( indx in  json[keyVar])
+							{
+								v = json[keyVar][indx];
+								if(json[keyVar].hasOwnProperty(indx))
+								{
+									objOption=document.createElement("option");
+									objOption.innerHTML = v;
+									objOption.value = v;
+									optGroup.appendChild(objOption)
+								}
+							}
+							
+							objSelect.appendChild(optGroup);
+
+//							optGroup.appendChild(objOption);
+												
+						}
+						
+						//alert(zone_selectate);
+						//debugger;
+						if(typeof zone_selectate_url != 'undefined') setIndexesFromValues($("filterClassic_ZONA"),zone_selectate_url);
+							
+						try{
+							//alert(1);
+							selcb.redraw();
+							selcb1.redraw();							
+						} catch(e){ alert(e); }
+		
+				}.bind(zone_selectate)
+		});
+		//debugger;
+		//alert($('filterClassic[ZONA][]_options').innerHTML);
+	
+	}

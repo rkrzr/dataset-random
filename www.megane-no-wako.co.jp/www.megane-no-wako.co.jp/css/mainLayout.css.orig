@@ -1,0 +1,4 @@
+@import "component/reset.css";
+@import "component/layout.css";
+@import "component/thickbox.css";
+@import "component/style.css";

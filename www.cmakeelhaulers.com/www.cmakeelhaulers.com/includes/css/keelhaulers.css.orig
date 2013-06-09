@@ -1,0 +1,833 @@
+#Right a, #Right a:link, #Right a:visited, #Right a:active, #Right a:hover {color:#FFF;}#Left a, #Left a:link, #Left a:visited, #Left a:active, #Left a:hover {color:#FFF;}.newsTitle a, .newsTitle a:link, .newsTitle a:visited, .newsTitle a:active, .newsTitle a:hover {color:#;}#newsArchiveLink a, #newsArchiveLink a:link, #newsArchiveLink a:visited, #newsArchiveLink a:active, #newsArchiveLink a:hover {color:#FFF;}<br />
+<b>Warning</b>:  Missing argument 2 for setLinkColor(), called in /home/cma/public_html/includes/css/keelhaulers.css on line 75 and defined in <b>/home/cma/public_html/includes/css/colors.css</b> on line <b>13</b><br />
+.newsPhotoCaption a, .newsPhotoCaption a:link, .newsPhotoCaption a:visited, .newsPhotoCaption a:active, .newsPhotoCaption a:hover {color:#;}#subfooter1 a, #subfooter1 a:link, #subfooter1 a:visited, #subfooter1 a:active, #subfooter1 a:hover {color:#ebaa00;}.leftAds a, .leftAds a:link, .leftAds a:visited, .leftAds a:active, .leftAds a:hover {color:#ebaa00;}.rightAds a, .rightAds a:link, .rightAds a:visited, .rightAds a:active, .rightAds a:hover {color:#ebaa00;}.centerAds a, .centerAds a:link, .centerAds a:visited, .centerAds a:active, .centerAds a:hover {color:#00518c;}.menu ul li a, .menu ul li a:link, .menu ul li a:visited, .menu ul li a:active, .menu ul li a:hover {color:#FFF;}.sbNote a, .sbNote a:link, .sbNote a:visited, .sbNote a:active, .sbNote a:hover {color:#d9e5ed;}.sbBox a, .sbBox a:link, .sbBox a:visited, .sbBox a:active, .sbBox a:hover {color:#d9e5ed;}.fanPoll a, .fanPoll a:link, .fanPoll a:visited, .fanPoll a:active, .fanPoll a:hover {color:#00518c;}#nav ul li a, #nav ul li a:link, #nav ul li a:visited, #nav ul li a:active, #nav ul li a:hover {color:#FFF;}#nav ul li a:active, #nav ul li a:hover {color:#002240;}.newsBoxScore a, .newsBoxScore a:link, .newsBoxScore a:visited, .newsBoxScore a:active, .newsBoxScore a:hover {color:#;}.featuredAthlete a, .featuredAthlete a:link, .featuredAthlete a:visited, .featuredAthlete a:active, .featuredAthlete a:hover {color:#002240;}
+/*********** Layout Overrides *************/
+#clearfooterleft {
+	height: 100px;
+}
+#clearfooterright {
+	height: 45px;
+}
+#clearfootercenter {
+	height: 45px;c
+}
+
+#container-right {
+	color: #FFF;
+}
+
+/************ Page Background ************/
+body{
+	background:#000 url(/images_web/pageBg.jpg) repeat-x scroll center top; 
+/*	background:#0F0 url(/images_web/pageBg.jpg) repeat-x scroll center top; */
+}
+
+#wrapper{
+	background:url(/images_web/wrapper.jpg);
+}
+
+/*********** Header *************/
+#header {
+	background:url(/images_web/headerBgDefault.jpg) repeat-x scroll center top; 
+	overflow: visible;
+}
+#headerBottom {
+	height: 10px;
+	background: #000;
+}
+#headerLogo {
+	background:url(/images_web/headerLogo.png) no-repeat;
+	width: 276px;
+	height: 310px;
+	position:absolute;
+	top: 35px;
+	left: -30px;	
+	z-index: 1001;
+	overflow:visible;
+}
+#headerText {
+	background:url(/images_web/headerText.png) no-repeat;
+	width: 420px;
+	height: 47px;
+	position:absolute;
+	top: 30px;
+	left: 310px;	
+	z-index: 1002;
+}
+#headerEdu {
+	background:url(/images_web/headerEdu.png) no-repeat;
+	width: 230px;
+	height: 60px;
+	position:absolute;
+	top: 10px;
+	right: 10px;	
+	z-index: 1003;
+}
+
+#headerEduMenu {
+	width: 800px;
+	height: 22px;
+	line-height: 22px;
+}
+#headerEduMenu .menu ul li {
+	display:inline;
+	height:31px;
+	list-style-type:none;
+	line-height:31px;
+}
+
+#headerEduMenu .menu ul li a{
+	font-size:11px;
+	background: none;	
+	float: left;
+	padding:2px 6px 0 6px;
+	line-height: 19px;
+}
+#headerEduMenu .menu ul li a:hover{
+	text-decoration: underline;
+}
+#ticker{
+	background:url(/images_web/tickerBg.jpg) repeat-x;
+	width: 980px;
+	height: 28px;
+}
+/*********** Boxes *************/
+		/*********** LEFT *************/
+.boxLeft{	
+	width:211px;
+	margin: 0px auto;
+	margin-top: 0;
+	padding-bottom: 0;
+}
+
+.boxLeftTitle{
+/*	background:url(/images_web/boxLeftTitle.jpg) no-repeat;  */
+	background:url(/images_web/boxLeftTitles.jpg) no-repeat;  
+	height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 23px; 
+	margin-top: 10px;	
+	margin-top: 0px;
+	text-align: left;
+	line-height: 46px;
+	color: #FFF;
+	text-transform: uppercase;
+/*	background-position: -1055px 0; */
+}
+	/*********** LEFT BOX TITLES - ONE IMAGE WITH SPECIAL FONT FOR ALL BOX TITLES*************/
+	/*	NEW - uses horizontal image "boxLeftTitlesNew.png" - easier to adjust background gradient*/
+	
+	.menuItemTitle.Male{
+		background-position: 0 0;
+	}		
+	.menuItemTitle.Female{
+		background-position: 0 -46px;
+	}		
+	.menuItemTitle.Coed{
+		background-position: 0 -92px;
+	}		
+	.additionalLinks .boxLeftTitle{
+		background-position: 0 -138px;
+	}	
+	.sportMenu .boxLeftTitle{
+		background-position: 0 -184px;
+	}
+
+	/*********** END - LEFT BOX TITLES *************/
+
+.sportBox .boxLeftContent {
+	background: none;
+}
+
+.sportBox .boxLeftBottom {
+	display: none;
+}
+
+.boxLeftBottom {
+	background: #000 url(/images_web/boxLeftBottom.jpg) no-repeat top; 
+	height: 20px;
+}
+.menu .sportMenuBottom {
+	background: #000 url(/images_web/boxLeftBottom.jpg) no-repeat 0 0;		
+	height: 20px;
+}
+.sportMenu .boxLeftBottom{
+	background:url(/images_web/boxLeftBottomSportMenu.jpg) no-repeat scroll center top #000000;
+}
+.additionalLinks .boxLeftBottom {
+	background:url(/images_web/boxLeftBottom_noBorder.jpg) no-repeat 0 0;		
+	height: 20px;
+}
+.sportMenu .menu li a{
+	background:url(/images_web/menuBgIndSport.jpg) no-repeat scroll 0 -30px transparent
+}
+.sportMenu input.frmButton{
+	background:url(/images_web/changeSeasonBtn.png) no-repeat scroll 0 0 transparent;
+	width:104px;
+	padding: 0 0 3px 0
+}
+
+		/*********** RIGHT *************/
+.boxRight{
+	width:211px;
+	margin: 0px auto;
+	padding-bottom:0px;
+}
+.boxRightContent{	
+	background:url(/images_web/boxRightContentBg.jpg) repeat-y; 
+}
+
+.boxRightTitle{
+/*	background:url(/images_web/boxRightTitle.jpg) no-repeat;   */
+	background:url(/images_web/boxRightTitles.jpg) no-repeat;  
+/*	height:37px; */
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	font-weight: bold;
+/*	padding-left: 20px; */
+	color: #FFF;
+	text-transform: uppercase;
+	padding-left: 23px; 
+	text-align: left;
+/*	background-position: -1055px 0;	 */
+}
+	/*********** RIGHT BOX TITLES - ONE IMAGE WITH SPECIAL FONT FOR ALL BOX TITLES*************/
+
+	.sb .boxRightTitle{
+		background-position: 0 0x;
+	}
+	.fanPoll .boxRightTitle{
+		background-position: 0 -46px;
+	}
+	.featuredAthlete .boxRightTitle{
+		background-position: 0 -92px;
+	}
+	
+	/*********** END - RIGHTT BOX TITLES *************/
+
+.rightColumTop{
+	background:url(/images_web/rightColumnTop.jpg) no-repeat;  
+	height: 46px;
+	line-height: 46px;
+}
+
+.boxRightContent{
+	border-left: # solid 1px;
+	border-right: # solid 1px;	
+	border-bottom: # solid 1px;		
+}
+
+.boxRightBottom {
+	background: #000 url(/images_web/boxRightBottom.jpg) no-repeat;	
+	height: 20px;
+}
+.boxRightBottomNoBorder {
+	background: #000 url(/images_web/boxRightBottom_noBorder.jpg) no-repeat;	
+	height: 20px;
+}
+.associationBox .boxRightBottom {
+	display: none;	
+}
+
+		/*********** CENTER *************/
+.box{
+	width:540px;
+	margin: 0px auto 10px;
+/*	padding-bottom: 10px; */
+	color: ;	
+}
+
+.boxTitle{
+	background:url(/images_web/boxTitle.jpg) no-repeat bottom; 
+	font-size:18px;
+	height:35px;
+	line-height: 35px;
+	font-weight:bold;
+	text-align: center;
+	color:#FFF;
+/*	padding-left:30px; */
+}
+.boxContent{
+	color:#;
+	padding: 8px 18px; 
+	border: solid 1px #;
+	border-top: none;	
+	overflow: hidden;
+}
+.newsFlashWrap {
+	width: 532px;
+	margin: 0 auto 5px auto;
+}
+
+.flashHeight {
+	height: 340px;
+}
+
+.newsReadMore{
+	text-align:left;
+	margin: 10px 0 15px;
+	position: relative;
+	left: 215px;
+}
+.newsReadMore a, .newsReadMore a:link, .newsReadMore a:visited{
+	border:none;
+	clear:both;
+	height: 24px;
+	width: 78px;
+	margin:0px 5px 5px 0;
+	padding: 0;
+	font-size:11px;
+	border:0 none;
+	text-decoration: none;
+}
+/* ***** END FROM GEORGETOWN EXMAPLE *****/
+
+.newsBoxScore{
+	padding-bottom:10px;
+	padding-left:0px;
+}
+
+.topStories{
+	color: #FFF;
+	margin-bottom: 0;
+}
+.topStories .boxContent {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+
+/*********** Main Nav *************/
+
+#navLeft{
+	background:url(/images_web/navLeft.jpg) no-repeat;
+	height: 34px;
+	width: 9px;
+	float: left;	
+}
+
+#navRight{
+	background:url(/images_web/navRight.jpg) no-repeat;
+	height: 34px;
+	width: 9px;
+	float:left;
+}
+#nav{
+	padding: 0;
+	float:left;
+	width: 962px;
+}
+
+#nav ul{
+	background:url(/images_web/navBg.jpg) repeat-x; 	
+	margin:0;
+	padding: 0px;
+	text-align:center;
+	white-space:nowrap;
+	width:100%;
+	height: 34px;	
+}
+#nav ul li{
+	background:url(/images_web/navSeparator.jpg) no-repeat center left; 	
+	display:inline;
+	list-style-type:none;
+	text-decoration:none;
+	color:#010088;
+	font-weight:bold;
+	height: 34px;
+	line-height: 34px; 	
+	padding:12px 10px 10px 15px;
+}
+
+#nav ul li a{
+	font-size:14px;
+	height: 34px;
+	font-weight:bold;
+	z-index: 1011;
+	position: relative;
+	padding : 9px 0 9px 15px;  
+}
+
+#nav ul li a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	background:url(/images_web/navHoverBg.jpg);
+}
+#nav ul li a span{ 
+	padding : 9px 5px 9px 10px;	
+}
+
+#nav ul li a:hover span{ 
+	background:url(/images_web/navHoverRt.jpg) no-repeat top right;
+	color:#FFF;
+	padding : 9px 5px 9px 10px;	
+}
+
+#nav ul li.first { 
+	background: none;
+}
+.navLeftSpacer{ 
+	padding-left: 5px; 
+}
+
+.navRightSpacer{ 
+	padding-left: 5px; 
+}
+
+
+/*********** Side Nav *************/
+.menu {
+}
+.menuItemTitle{
+/*	background:url(/images_web/boxLeftTitle.jpg) no-repeat;  */
+	background:url(/images_web/boxLeftTitles.jpg) no-repeat;  
+	color:#FFF;	
+	height: 46px;
+/*	line-height: 46px;	*/
+	line-height: 33px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left:30px;
+}	
+.menu ul {
+	list-style: none;
+	margin:0;
+	padding:0px;
+	list-style-type:none;
+}
+	
+.menu li a {
+	display:block;
+	text-decoration:none;
+	font-size: 13px;
+	height: 30px;
+/*	line-height: 30px; */
+	line-height: 28px; 
+	padding-left:17px;
+	background:url(/images_web/menuBg.jpg) no-repeat 0 0; 
+	background:url(/images_web/menuBg.jpg) no-repeat 0 -30px; 
+}
+.menu li a:hover{
+	background-position: 0 -30px;
+	background-position: 0 0;
+	color:#FFF;
+}
+
+.sportLinks {
+	border-bottom: # 1px solid;
+}
+/*********** News *************/
+
+.recent .newsTitle {
+	background:url(/images_web/recentTitleBg.jpg) repeat-y;
+	display:block;
+	font-size:12px;
+	padding: 2px 5px;	
+	margin: 0;
+	text-decoration:none;
+	color:#;
+}
+.recent .newsByLine {
+	font-size:11px;
+	padding: 5px;	
+	color:#;
+}
+
+.newsTitle {
+	background:url(/images_web/recentTitleBg.png) repeat-y;	
+	display:block;
+	font-size:12px;
+	padding: 2px 15px;	
+	margin: 0;
+	text-decoration:none;
+	color:#;
+}
+
+.newsByLine {
+	font-size:11px;
+/*	padding:0 15px 13px 25px; */
+	padding: 10px 15px;	
+	color:#;
+}
+.newsBody {
+	padding-bottom:10px;
+	padding-left:25px;
+	padding-right:25px;
+	text-align:justify;
+}
+
+#newsArchiveLink {
+	background:url(/images_web/btnNewsArchive.jpg) no-repeat;
+	font-size:14px;
+	height:24px;
+	width: 120px;
+	line-height:24px;
+	margin-left:385px;
+	margin-top: 7px;
+	text-align:center;
+}
+
+.articleDiv {
+	padding-bottom: 7px 0;
+}
+
+.newsPhoto {
+	background-color:#;
+	margin:10px auto;
+	padding:5px 5px 5px 5px;
+}
+
+.newsPhotoCaption {
+	text-align:center;
+	font-size:10px;
+	color: #FFF;
+}
+
+.middle {
+/*	width: 517px; */
+}
+.recent .boxContent{
+	background:url(/images_web/recentLogoBg.jpg) no-repeat center bottom;
+}
+.middle .boxContent{
+	padding: 9px 5px;
+}
+
+.middle .boxTitle{
+	background:url(/images_web/boxTitleMiddle.jpg) no-repeat;
+	height: 35px;
+	line-height: 35px;
+	width: 540px;
+}
+
+
+/*********** Scoreboard *************/
+
+.sbDate {
+	color: #000;
+	text-align:left;
+	font-weight:bold;
+	padding:0px 10px;
+	height:29px;
+	line-height:29px;
+	background:url(/images_web/sbDateSeparator.jpg) no-repeat top center;		
+}
+
+.sbSport {
+	color:#d9e5ed;
+	font-weight:bold;
+	display:block;
+	font-size:12px;
+	padding:0px 10px;
+	text-align:left;
+	text-decoration:none;
+	height: 26px;
+	line-height: 26px;
+	background:url(/images_web/sbSportBg.jpg) no-repeat bottom;		
+}
+
+.sb {
+	font-size: 9pt;
+}
+.sb.boxRight{
+	margin-bottom:0;
+}
+.sbStatus{
+	font-size: 8pt;
+	text-align:right;
+}
+
+.sbEventO, .sbEventE, .sbEvent {
+	color: #FFF;	
+	font-size:11px;
+	padding:10px 2px 10px 5px;
+	margin:0 auto;
+}
+.sbEventWrap {
+	padding:0;	
+}
+
+.sbEvent td{
+}
+.sbDhSecondGame{
+	text-align:center;
+}
+
+.sbScore {
+	text-align: right;
+	padding-right: 8px;
+	padding-left: 2px !important;
+}
+.sbTime{
+	text-align: right;
+	padding-right:3px;
+}
+.sbTimeZone{
+	text-align: center;
+}
+.sbNote{
+	text-align: center;
+	font-style:italic;
+	font-size: 10px;
+	padding-right:4px;
+	color:#002240;	
+}
+.sbWinner{
+	font-weight:bold;
+}
+.sbTeams{
+	text-align:left;
+}
+.sbWrapper{
+/*	background:url(/images_web/sbWrapperBg.jpg) repeat-y;	 */
+	height:265px;
+	overflow:auto;
+	width: 194px;
+	margin: 0 auto;
+	color: #FFF;
+}
+
+.sb .boxRightBottom {
+	background:#000 url(/images_web/boxRightBottom.jpg) no-repeat;	
+	height: 20px;
+}
+
+.sb .boxRightContent{
+	padding:0;
+}
+
+.sb a{
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+.sbNoEvents{
+	padding:5px;
+	text-align:center;
+}
+
+/*********** Featured Athlete - Student Success *************/
+.featuredAthlete{
+	text-align:center;
+}
+.featuredAthleteImage {
+	padding: 10px 0;
+	margin:0 auto;
+	overflow:hidden;
+}
+.featuredAthlete img{
+	border:1px solid #ebaa00;
+/*	height:224px; */
+	width:169px;
+	overflow:hidden;
+}
+.featuredAthleteName{
+	font-size: 18px;	
+}
+.featuredAthleteArchive {
+	font-size: 11px;	
+}
+.featuredAthleteName a, .featuredAthleteName a:link, .featuredAthleteName a:visited, .featuredAthleteName a:active{
+	color:#002240;
+}
+.featuredAthleteSport{
+	font-weight:bold;
+}
+.featuredAthleteInfo{
+	color:#002240;
+	font-weight:bold;
+}
+.featuredAthleteArchive a{
+	color:#002240;
+	text-align:right;
+	padding:0 5px;
+}
+	/*********** Info Page *************/
+.playerInfo {
+	color:#;
+	font-weight: bold;
+}
+.playerName {
+	font-size: 16px;
+}
+.playerRelInfo {
+	padding-top: 20px;
+	text-align:justify;
+}
+
+/*********** Fanpoll *************/
+input.frmButton {
+	background:url(/images_web/btnFPVote.jpg) no-repeat;
+	border: none;
+	clear:both;
+	color:#FFFFFF;
+	margin:5px 5px 5px 0;
+	padding-bottom:4px;
+	font-weight:bold;
+	height: 27px;
+	width: 72px;
+}
+.fanPoll .boxRightContent{
+	padding: 0;
+}
+
+.pollQuestion{
+	display:block;
+	font-size:12px;
+	padding:6px 10px 6px 10px;
+/*	text-decoration:none; */
+	font-weight:bold;
+	color: #FFF;
+}
+.pollAnswers{
+	color: #FFF; 
+	width: 170px;
+	margin: 0 auto;
+	text-align: left;
+	padding:6px 10px 6px 10px;	
+}
+
+.viewResults a{
+	color: #FFF; 
+	height: 35px;
+	line-height: 35px;
+	padding: 0;
+	margin: 0;
+}
+
+.viewResults {
+	color: #FFF; 
+}
+.pollTotalVotes{
+	text-align:center;
+	font-style:italic;
+	font-size:11px;
+	padding-top:5px;
+}
+
+.pollBarBG{
+	height:14px;
+	background:url(/images_web/navBg.jpg) repeat-x 0 -13px;
+}
+.pollEndDateMsg{
+	text-align:center;
+	font-style:italic;
+	font-size:11px;
+}
+.pollAnswer{
+	font-size:11px;
+}
+div.pollAnswer{
+	text-align:center;
+	padding:6px 10px 6px 10px;
+}
+.pollBox {
+	width:100%;
+	padding:6px 10px 6px 10px;
+}
+
+.pollSport{
+	background: url(/images_web/navBg.jpg) repeat-x 0 -2px;
+	line-height:29px;
+	height: 29px;
+	margin:0 auto;
+	text-align:center;
+	font-weight:bold;
+	font-size: 14px;
+	width: 194px;
+}
+.pollAnswer.correct{
+	color: #00518c;
+	font-size:16px;
+}
+.pollQandA {
+	width: 200px;
+	margin: 0 auto;
+}
+
+/*********** LogoLinks Right*************/
+#logoLinksRight {
+	text-align:center;
+}
+#logoLinksRight div{
+	padding: 10px 0px;
+}
+/*********** LogoLinks Left*************/
+#logoLinksLeft {
+	text-align:center;
+}
+#logoLinksLeft div{
+	padding: 10px 0px;
+}
+
+
+/*********** Ads *************/
+
+
+.leftAds, .rightAds{
+	text-align:center;
+	color: #FFF;
+/*	padding-top: 20px; */
+}
+.centerAds{
+	text-align:center;
+	padding-top: 20px;
+}
+.leftAds .ad, .rightAds .ad{
+	margin: 0 auto;
+	padding-bottom:10px;
+	width: 190px;
+}
+.leftAds .ad a, .rightAds .ad a{
+/*	text-decoration:underline; */
+}
+.centerAds .ad{
+	width: 520px;
+	padding-bottom:10px;
+	margin: 0 auto;
+}
+
+/*********** Footer *************/
+#subfooter1 {
+	background: url(/images_web/footer.jpg) no-repeat;	
+	text-align:center;
+	padding-top: 32px;
+	padding-bottom: 20px;
+	line-height:15px;
+	height: 80px;
+	width: 980px;
+	color: #ebaa00;
+}
+#logoFooterSIDHelp{
+	position:absolute;
+	right: 43px;
+	top: 40px
+}
+/*********** MISC *************/
+.f {
+	padding:5px;
+}
+.sportMenu .menu{
+}
+
+
+/*********** ANY OTHER *************/
+
+.featuredAthleteDisplay .playerImg{
+	float:left;
+	margin: 0 10px 10px 0;
+	border: 2px solid #;
+}
+.featuredAthleteDisplay .playerInfo{
+	line-height:18px;
+}
+.featuredAthleteArchive td{
+	padding-right:20px;
+	line-height:18px;
+	
+}
+
+/********** SITE SPECIFIC ********/

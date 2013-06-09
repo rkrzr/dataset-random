@@ -1,0 +1,38 @@
+
+.markItUp .outil_header1 a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
+.markItUp .outil_bold a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
+.markItUp .outil_italic a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
+.markItUp .outil_stroke_through a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
+.markItUp .outil_liste_ul a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
+.markItUp .outil_liste_ol a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
+.markItUp .outil_indenter a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
+.markItUp .outil_desindenter a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
+.markItUp .outil_quote a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
+.markItUp .outil_link a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
+.markItUp .outil_notes a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
+.markItUp .outil_guillemets a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
+.markItUp .outil_guillemets_simples a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
+.markItUp .outil_guillemets_de a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
+.markItUp .outil_guillemets_de_simples a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
+.markItUp .outil_guillemets_uniques a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
+.markItUp .outil_caracteres a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
+.markItUp .outil_a_maj_grave a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
+.markItUp .outil_e_maj_aigu a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
+.markItUp .outil_e_maj_grave a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
+.markItUp .outil_aelig a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
+.markItUp .outil_aelig_maj a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
+.markItUp .outil_oe a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
+.markItUp .outil_oe_maj a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
+.markItUp .outil_ccedil_maj a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
+.markItUp .outil_uppercase a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
+.markItUp .outil_lowercase a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
+.markItUp .outil_clean a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
+.markItUp .outil_preview a b {background-image:url(http://www.iledesirade.fr/info/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
+.markItUp .couteau_suisse_drop a b {background-image:url(http://www.iledesirade.fr/info/plugins/auto/couteau_suisse/icones_barre/couteau-19.png);}
+.markItUp .decoupe_pages a b {background-image:url(http://www.iledesirade.fr/info/plugins/auto/couteau_suisse/icones_barre/decoupe_pages.png);}
+.markItUp .decoupe_onglets a b {background-image:url(http://www.iledesirade.fr/info/plugins/auto/couteau_suisse/icones_barre/decoupe_onglets.png);}
+.markItUp .blocs_bloc a b {background-image:url(http://www.iledesirade.fr/info/plugins/auto/couteau_suisse/icones_barre/bloc_invisible.png);}
+.markItUp .blocs_visible a b {background-image:url(http://www.iledesirade.fr/info/plugins/auto/couteau_suisse/icones_barre/bloc_visible.png);}
+
+/* roue ajax */
+.ajaxLoad{background:white url('http://www.iledesirade.fr/info/prive/images/searching.gif') top left no-repeat;}

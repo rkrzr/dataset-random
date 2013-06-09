@@ -1,0 +1,1643 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1.2em;
+    font-family: Verdana;
+    background-color: #FFFFFF;
+    color: #2a2929;
+  
+}
+
+ul, li
+{
+    margin: 0;
+    padding: 0;
+}
+b, strong { font-weight:bold;}
+
+a img{ border:none;}
+a, a:hover, a:focus{ text-decoration:none; overflow:hidden; outline:none;}
+.bordernone
+{
+    border: none !important;
+}
+.margin0
+{
+    margin: 0 !important;
+}
+
+
+h1
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #dcdada;
+}
+h2
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    color: #353434;
+}
+h3
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    color: #353434;
+}
+
+h5
+{
+    font-size: 14px;
+    color: #e11e20;
+}
+
+.main
+{
+    background: url(../images/main_bg.png) repeat-y top left;
+    width: 1023px;
+    margin: 0 auto;
+    padding: 0 7px 0 7px;
+    position: relative;
+}
+.renk4
+{
+    position: absolute;
+    top: 600px;
+    right: 1px;
+}
+.content
+{
+    width: 1023px;
+}
+.main-in
+{
+    background: url(../images/main-in-bg.jpg) top left;
+    width: 1023px;
+    margin: 0 auto;
+    padding: 0 0 47px 0;
+}
+
+.header
+{
+    height: 108px;
+    width: 1021px;
+    background: url(../images/header-bg.jpg) no-repeat top left #272626;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 17px 0 0 0;
+    z-index: 999;
+}
+
+.search-bar
+{
+    height: 30px;
+    width: 446px;
+    padding: 0 0 0 575px;
+}
+
+.search-bar a
+{
+    color: #fbb700;
+    font-size: 10px;
+    width: 70px;
+    height: 17px;
+}
+.search-bar a:hover
+{
+    color: #FFFFFF;
+}
+
+.iletisim
+{
+    background: url(../images/iletisim-icon.jpg) no-repeat top right;
+    margin: 0 15px 0 5px;
+    padding: 0;
+}
+
+.e-posta
+{
+    background: url(../images/e-posta-icon.jpg) no-repeat top right;
+    margin: 0 15px 0 0;
+}
+
+.search-container
+{
+    background: url(../images/search.jpg) no-repeat top right;
+    width: 208px;
+    height: 30px;
+}
+.search-btn
+{
+    background: url(../images/search-btn.jpg) no-repeat top left;
+    border: none;
+    height: 16px;
+    width: 16px;
+    margin: 7px 0 0 7px;
+    cursor: pointer;
+}
+.search-arama
+{
+    color: #bab9b9;
+    font-weight: bold;
+    border: none;
+    font-size: 11px;
+    font-family: Arial;
+    margin: 7px 0 0 10px;
+    width: 160px;
+}
+.logo
+{
+    width: 220px;
+    height: 30px;
+    margin: 38px 0 0 50px;
+}
+
+.logo a
+{
+    text-indent: -9999px;
+    width: 220px;
+    height: 30px;
+}
+
+.menu-container
+{
+    width: 550px;
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.slide-container
+{
+    width: 933px;
+    height: 337px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider-left
+{
+    background: url(../images/slider-left.png) no-repeat top left;
+    width: 5px;
+    height: 328px;
+}
+.slider-top
+{
+    background: url(../images/slider-top.png) no-repeat top left;
+    width: 932px;
+    height: 4px;
+}
+.slider
+{
+    background: transparance;
+    width: 922px;
+    height: 328px;
+}
+.slider-right
+{
+    background: url(../images/slider-right.png) no-repeat top left;
+    width: 5px;
+    height: 328px;
+}
+.slider-bottom
+{
+    background: url(../images/slider-bottom.png) no-repeat top left;
+    width: 932px;
+    height: 5px;
+}
+
+
+
+  .slides_container {
+   width: 922px;
+    height: 328px;
+  }
+  .slides_container div {
+   width: 922px;
+    height: 328px;
+    display:block;
+  }
+
+.pagination
+{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    width: 53px;
+    height: 310px;
+}
+
+.pagination li
+{
+    width: 53px;
+    height: 53px;
+    margin: 0 0 5px 0;
+    display: block;
+    float: left;
+}
+
+.pagination a
+{
+    width: 48px;
+    height: 49px;
+    border:2px solid #cbcbcb;
+   
+    
+}
+
+.pagination .current a
+{
+      width: 48px;
+    height: 49px;
+    border:2px solid #fbb700;
+}
+
+/* 
+LEVEL ONE
+*/
+ul.dropdown
+{
+    position: absolute;
+    z-index: 9999999;
+    list-style-type:none;
+}
+ul.dropdown li
+{
+    font-weight: bold;
+    float: left;
+    zoom: 1;
+    list-style-type:none;
+}
+ul.dropdown a:hover
+{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+ul.dropdown a:active
+{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+ul.dropdown li a
+{
+    display: block;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+ul.dropdown li:last-child a
+{
+    border-right: none;
+}
+/* Doesn't work in IE */
+ul.dropdown li.hover, ul.dropdown li:hover
+{
+    color: #FFFFFF;
+    position: relative;
+}
+ul.dropdown li.hover a
+{
+    color: #FFFFFF;
+}
+
+/* 
+LEVEL TWO
+*/
+ul.dropdown ul
+{
+    width: 183px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+ul.dropdown ul li
+{
+    font-weight: normal;
+    font-size: 10px;
+    text-align: left;
+    background: url(../images/sub-sub-bg.png) no-repeat top left;
+    color: #000;
+    height: 20px;
+    float: none;
+    padding:2px 0 0 0;
+}
+ul.dropdown ul li:hover
+{
+    background: url(../images/sub-sub-hover-bg.png) no-repeat top left;
+}
+ul.dropdown ul li a
+{
+    padding: 0 0 0 5px;
+}
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a
+{
+    border-right: none;
+    display: inline-block;
+}
+/* 
+LEVEL THREE
+*/
+ul.dropdown ul ul
+{
+    left: 100%;
+    top: 0;
+}
+ul.dropdown li:hover > ul
+{
+    visibility: visible;
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6
+{
+    
+    float: left;
+}
+
+.menu1
+{ 
+  font-size:9pt; 
+  font-family:Arial;
+  font-weight:bolder;  
+  height:30px;
+  padding:13px 15px 0 15px; 
+  background: url(../images/menu.png) repeat-x top left;
+    background-position: 0 0;
+    border-right:1px solid #4b4747;
+}
+.menu2
+{
+    width: 85px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -105px 0;
+}
+.menu3
+{
+    width: 97px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -190px 0;
+}
+.menu4
+{
+    width: 79px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -287px 0;
+}
+.menu5
+{
+    width: 77px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -366px 0;
+}
+.menu6
+{
+    width: 105px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -443px 0;
+}
+a:hover.menu1
+{
+    
+    background: url(../images/menu.png) repeat-x top left;
+    background-position: 0 -43px;
+    border-right:1px solid #5e5d5d;
+}
+a:hover.menu2
+{
+    width: 85px;
+    background: url(../images/menu.png) repeat-x top left;
+    background-position: -105px -43px;
+}
+a:hover.menu3
+{
+    width: 97px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -190px -43px;
+}
+a:hover.menu4
+{
+    width: 79px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -287px -43px;
+}
+a:hover.menu5
+{
+    width: 77px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -366px -43px;
+}
+a:hover.menu6
+{
+    width: 105px;
+    background: url(../images/menu.png) no-repeat top left;
+    background-position: -443px -43px;
+}
+
+.first-menu
+{
+    font-size: 13px;
+}
+
+.din24
+{
+    font-size: 24px;
+}
+
+.default-tabs
+{
+    color: #FFFFFF;
+    width: 924px;
+    margin: 0 auto;
+}
+
+.default-tabs1
+{
+    margin: 10px 0 0 0;
+    width: 304px;
+    line-height: 0.9em;
+}
+.haberler-hr
+{
+    background: url(../images/haberler-hr.jpg) no-repeat top left;
+    width: 304px;
+    height: 8px;
+    margin: 6px 0 2px 0;
+}
+.default-tabs1-bg
+{
+    line-height: 1.1em;
+    width: 304px;
+    height:289px;
+   
+    background: url(../images/default-tabs1-bg.jpg) no-repeat top left #FFFFFF;
+  
+
+}
+.tabs1-colon
+{
+    background: url(../images/kucuk-balon.png) no-repeat;
+    color: #2a2929;
+    background-position: 0 24px;
+    border-bottom: 1px dotted #000000;
+    width: 260px;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 7px 0 7px 23px;
+}
+.tabs1-colon a
+{
+    text-decoration: underline;
+    color: #2a2929;
+    margin: 3px 0 0 0;
+}
+.tum-duyurular
+{
+    margin: 0 20px 0 0;
+    font-size: 12px;
+    color: #2a2929;
+    text-decoration: underline;
+}
+
+.default-tabs2
+{
+    margin: 10px 6px 0 6px;
+    width: 305px;
+}
+.tabs2-colon1, .tabs2-colon2, .tabs2-colon3
+{
+    height: 80px;
+    width: 190px;
+    position: relative;
+    padding: 13px 55px 0 60px;
+    color: #2a2929;
+    font-size: 20px;
+}
+.tabs2-colon1
+{
+    background: url(../images/tabs2-colon1-bg.jpg) top left no-repeat;
+}
+.tabs2-colon2
+{
+    background: url(../images/tabs2-colon2-bg.jpg) top left no-repeat;
+}
+.tabs2-colon3
+{
+    background: url(../images/tabs2-colon3-bg.jpg) top left no-repeat;
+}
+.tabs2-colon2
+{
+    margin: 5px 0 5px 0;
+}
+
+.default-tabs3
+{
+    margin: 0 0 0 0;
+    width: 303px;
+}
+.abonelik
+{
+    width: 301px;
+    height: 69px;
+    margin: 5px 0 0 0;
+}
+.pdf-container
+{
+    width: 227px;
+    height: 52px;
+    background: url(../images/pdf-container.jpg) no-repeat top left;
+    margin: 5px 0;
+    position: relative;
+    padding: 12px 20px 0 56px;
+}
+.pdf-container a.dwg-icon
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45px;
+    height: 48px;
+    background: url(../images/dwg-icon3.png) no-repeat top left;
+} 
+.pdf-container a.pdf-text
+{
+    font-size: 11px;
+    color: #FFFFFF;
+    line-height: 1.2em;
+}
+.pdf-container a.pdf-text b
+{
+    font-size: 12px;
+}
+.digerleri
+{
+    font-size: 11px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.tabs3-link-container
+{
+    background: url(../images/tabs3-link-container.jpg) no-repeat top left;
+    height: 90px;
+    width: 303px;
+    padding: 3px 0 0 0;
+}
+.tabs3-link1, .tabs3-link2, .tabs3-link3, .tabs3-link4
+{
+    width: 245px;
+    height: 22px;
+    font-size: 11px;
+    color: #FFFFFF;
+    padding: 0 26px 0 32px;
+    background-position: 6px 0px;
+}
+.tabs3-link1
+{
+    background: url(../images/tabs3-link1.png) no-repeat top left;
+}
+.tabs3-link2
+{
+    background: url(../images/tabs3-link2.png) no-repeat top left;
+}
+.tabs3-link3
+{
+    background: url(../images/tabs3-link3.png) no-repeat top left;
+}
+.tabs3-link4
+{
+    background: url(../images/tabs3-link4.png) no-repeat top left;
+}
+
+.e-posta-uyeligi
+{
+    background: url(../images/e-posta-uyeligi.jpg) no-repeat top left;
+    width: 226px;
+    height: 78px;
+    margin: 5px 0 0 0;
+    padding: 15px 17px 0 60px;
+}
+.e-posta-baslik
+{
+    font-size: 18px;
+    color: #2a2929;
+}
+.e-posta-text
+{
+    font-size: 11px;
+    color: #2a2929;
+    line-height: 1.2em;
+    font-weight:normal !important;
+}
+
+.bilgiler-hr
+{
+    background: url(../images/bilgiler-hr.jpg) no-repeat top left;
+    width: 304px;
+    height: 8px;
+    margin: 6px 0 2px 0;
+}
+
+
+
+
+
+.content-container
+{
+    width: 923px;
+    padding: 5px 50px 0;
+    min-height:450px;
+}
+.content-left
+{
+    width: 161px;
+    margin: 0 0 0 0;
+}
+.content-center
+{
+    width: 447px;
+    margin: 0 6px;
+}
+.content-right
+{
+    width: 303px;
+    margin: 0 0 0 0;
+}
+.content-right p
+{
+    
+    margin: 0 0 0 0;
+}
+
+.right-tab-colon-1
+{
+    width: 302px;
+    height: 69px;
+    margin: 0 0 5px 0;
+}
+.right-tab-colon-2
+{
+    background: url(../images/right-tab-colon-2.jpg) no-repeat top left;
+    width: 303px;
+    height: 178px;
+    margin: 0 0 5px;
+}
+.right-tab-colon-2-img
+{
+    width: 297px;
+    height: 104px;
+    margin: 3px 0 3px 3px;
+}
+.right-tab-colon-2 .tabs3-link1, .right-tab-colon-2 .tabs3-link2
+{
+    background-position: 5px 0px !important;
+}
+.right-tab-colon-2 .tabs3-link3
+{
+    background-position: 7px 0px !important;
+}
+
+.right-tab-colon-3
+{
+    background: url(../images/right-tab-colon-3.jpg) no-repeat top left;
+    width: 301px;
+    height: 247px;
+    padding: 2px 0 0 2px;
+    margin:0 0 5px 0;
+}
+
+.sol-menu-ust
+{
+    background: url(../images/sol-menu-ust.png) no-repeat top left;
+    width: 161px;
+    height: 5px;
+}
+.sol-menu-orta
+{
+    background: url(../images/sol-menu-orta.png) repeat-y top left;
+    width: 135px;
+    padding: 10px 13px 30px 13px;
+}
+.sol-menu-alt
+{
+    background: url(../images/sol-menu-alt.png) repeat-y top left;
+    width: 161px;
+    height: 5px;
+}
+
+.sol-menu-header
+{
+    width: 135px;
+    margin: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dotted #565656;
+}
+a.alfabetik
+{
+    background: url(../images/alfabetik.png) no-repeat top left;
+    font-size: 10px;
+    color: #d7d5d5;
+    width: 115px;
+    padding: 0 0 0 20px;
+}
+a.endustrilere-gore
+{
+    background: url(../images/endustriyel.png) no-repeat top left;
+    font-size: 10px;
+    color: #d7d5d5;
+    width: 115px;
+    padding: 0 0 0 20px;
+}
+
+
+.menu-detail-container, .menu-detail
+{
+    width: 135px;
+    margin: 0 0 10px 0;
+}
+.menu-detail-container a.din
+{
+    color: #e9e7e7;
+    font-size: 14px;
+    width: 135px;
+    padding: 0 0 5px 0;
+}
+.menu-detail-container a.aktif
+{
+    color: #fbb700;
+}
+.menu-detail a {color: #747272;font-size: 10px;padding: 0 0 0 10px;width: 125px;background: url(../images/menu-ok.png) no-repeat top left;
+                background-position: 0 5px;line-height: 1.2em;margin: 8px 0 0 0;}
+
+.menu-detail a:hover
+{
+    color: #e9e7e7;
+}
+
+.text-top-title
+{
+    background: url(../images/text-top-title.png)  top left;
+    width: 427px;
+    
+    font-weight: bold;
+    font-size: 24px;
+    color: #dcdada;
+    padding: 15px 0 10px 20px;
+    position: relative;
+}
+.text-image
+{
+    border: 1px solid #353535;
+    width: 445px;
+    
+}
+.text-container
+{
+    width: 405px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #353535;
+    background: url(../images/text-hr.jpg) no-repeat top left #FFFFFF;
+}
+.text-container-title
+{
+    font-size: 22px;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    color: #171616;
+}
+.text-container p, .detail-text p
+{
+    
+    margin:0px 0 10px 0;
+    font-size: 11px;
+}
+.detail-text table tr td
+{   font-size: 11px;
+}
+
+.detail-text a{font-size:11px; color:#0000EE  !important; text-decoration:underline !important;}
+
+
+.big-detail-text p
+{
+    margin: 10px 0 10px 0;
+    font-size: 11px;
+}
+
+.big-detail-text table tr td ul, .big-detail-text table tr td ol{ margin:0 0 0 10px;}
+
+.big-detail-text table tr td
+{
+    
+    font-size: 11px;
+}
+.big-detail-text a
+{
+    color:#0000EE  !important;
+    text-decoration:underline !important;
+}
+
+.ozellikler-title
+{
+    background: url(../images/ozellikler-title.jpg) no-repeat top left;
+    width: 427px;
+    height: 61px;
+    padding: 15px 0 0 20px;
+}
+.ozellikler-title p
+{
+    font-weight: normal;
+    color: #fbb700;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.ozellikler-image
+{
+    background: url(../images/ozellikler-image.jpg) no-repeat top left;
+    width: 445px;
+    height: 85px;
+    border: 1px solid #353535;
+}
+.detail-text
+{
+    background: url(../images/ozellikler-text.jpg) repeat-x top left #f0efef;
+    padding: 20px;
+    width: 405px;
+    border: 1px solid #353535;
+    font-size:11px;
+   
+}
+
+
+.detail-text table tr td ul, .detail-text table tr td ol{ margin:0 0 0 10px;}
+
+.detail-text ul li, .big-detail-text ul li {float:none; display:list-item; font-size:11px; margin:5px 0 5px 15px; list-style-type:disc;}
+.detail-text ol li, .big-detail-text ol li { font-size:11px; float:none;  margin:5px 0 5px 15px; }
+.detail-text ol, .big-detail-text ol{padding:0px !important;}
+
+.versiyon-karsilastir
+{
+    font-size: 14px !important;
+    margin: 10px 0 0 0 !important;
+    padding: 0 !important;
+}
+.versiyon-sec
+{
+    width: 400px;
+    height: 30px;
+    margin: 15px 0 0 0;
+    padding: 0 !importatn;
+}
+.versiyon-sec span
+{
+    width: 100px;
+    font-size: 11px;
+    font-family: Arial;
+    background: none !important;
+    margin: 0;
+    padding: 0;
+}
+.versiyon-sec span .dropdown
+{
+    width: 100px;
+    font-size: 11px;
+    font-family: Arial;
+    background: #FFFFFF !important;
+    margin: 0;
+    padding: 0;
+}
+.ozellikleri
+{
+    width: 80px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ok-btn
+{
+    background: url(../images/ok-btn.png) no-repeat top left;
+    width: 22px;
+    height: 21px;
+    border: none;
+    cursor: pointer;
+}
+.hepsi
+{
+    background: url(../images/hepsi.png) no-repeat top left;
+    width: 40px;
+    height: 20px;
+    padding: 0 0 0 20px;
+    font-size: 11px;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 3px 0 0 5px;
+    color: #353535;
+}
+
+
+#wrapper
+{
+    width: 405px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.accordionButton
+{
+    width: 405px;
+    float: left;
+    _float: none;
+    background: url(../images/acordion-ok.png) no-repeat top right #a5a4a4;
+    background-position: 390px 9px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 11px !important;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 22px;
+    padding: 3px 0 0 0;
+    margin: 0 0 1px 0;
+}
+.accordionButton span
+{
+    margin: 0 0 0 10px !important;
+    padding: 0px !important;
+    background: none !important;
+}
+.accordionButton p
+{
+    width: 123px;
+    text-align: left;
+    margin: 0px;
+    padding: 0 0 0 10px;
+    font-size: 11px !important;
+}
+
+
+.accordionContent
+{
+    width: 385px;
+    float: left;
+    _float: none;
+    background: #FFFFFF;
+    padding: 0 10px 10px 10px;
+}
+
+.accordionContent span
+{
+    margin: 5px 0px;
+    padding: 0;
+    font-size: 11px;
+    background: none;
+    font-weight: normal;
+}
+
+.on
+{
+    background: url(../images/acordion-ok.png) no-repeat top right #fbb700;
+    background-position: 390px 9px;
+}
+
+.over
+{
+    background: url(../images/acordion-ok.png) no-repeat top right #fbb700;
+    background-position: 390px 9px;
+}
+
+.accordionContent div
+{
+    width: 385px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.accordionContent div p
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 128px;
+}
+.accordionContent div p img
+{
+    margin: 3px 0 0 40px;
+}
+
+.tumunu-ac
+{
+    width: 90px;
+    background: url(../images/hepsi.png) no-repeat top left;
+    font-size: 11px;
+    font-weight: bold;
+    color: #464545;
+    padding: 0 0 0 20px;
+    margin: -30px 0 10px 0;
+}
+.video-sec
+{
+    margin: -20px 0px 0 0;
+    width: 250px !important;
+}
+
+.show-video
+{
+    width: 447px;
+    height: 267px;
+}
+.video-subject
+{
+    width: 405px !important;
+    margin: 5px 0 !important;
+    padding: 0px !important;
+    font-size: 11px;
+}
+
+.video-tb
+{
+    position: relative;
+    width: 131px;
+    height: 105px;
+    margin: 0 2px 10px 0;
+}
+.video-tb-image
+{
+    width: 129px;
+    height: 81px;
+    border: 1px solid #030303;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.video-play-button
+{
+    width: 129px;
+    height: 81px;
+    border: 1px solid #030303;
+    position: absolute;
+    z-index: 6;
+}
+
+
+.video-tb span
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 131px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.paging
+{
+    width: 120px;
+    height: 15px;
+}
+.paging a
+{
+    width: 10px;
+    text-align: center;
+    height: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #030303;
+}
+.left-page
+{
+    background: url(../images/left-arow.png) no-repeat top left;
+    background-position: 0px 8px;
+}
+.right-page
+{
+    background: url(../images/right-arow.png) no-repeat top left;
+    background-position: 7px 8px;
+}
+
+.videolar
+{
+    background: url(../images/videolar.png) no-repeat top left;
+    background-position: 0 2px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0 0 30px;
+    margin: 10px 0;
+}
+
+.content-center-genis
+{
+    width: 615px;
+    margin: 0 5px 0 0;
+}
+.sektor-container
+{
+    height: 218px;
+    width: 302px;
+    background: #FFFFFF;
+    margin: 0 7px 7px 0;
+    border: 1px solid #3d3d3d;
+}
+.sektor-img
+{
+    width: 302px;
+    height: 115px;
+}
+.sektor-img img
+{
+    height: 115px;
+}
+.endustriler-arow-bg
+{
+    background: url(../images/endustriler-arow-bg.jpg) no-repeat top left;
+    width: 282px;
+    height: 20px;
+    padding: 7px 0 0 20px;
+    color: #dcdada;
+    font-weight: bold;
+    font-size: 16px;
+}
+.endustri-text
+{
+    padding: 12px 15px 10px 30px;
+    height: 53px;
+    width: 257px;
+    position: relative;
+    font-size: 11px;
+    font-family: Arial;
+}
+.endustri-text img
+{
+    position: absolute;
+    top: 15px;
+    left: 6px;
+}
+
+.big-content-title
+{
+    background: url(../images/big-content-title-bg.jpg) no-repeat top left;
+    width: 598px;
+    height: 37px;
+    padding: 12px 0 0 15px;
+}
+.big-content-text-container, .big-detail-text
+{
+    border-left: 1px solid #353535;
+    border-right: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    width: 575px;
+    padding: 10px 18px;
+    background: url(../images/ozellikler-text.jpg) repeat-x top left #f0efef;
+}
+.basin-odasi-aciklama
+{
+    font-size: 12px;
+    color: #5d5b5b;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}
+
+
+.haber-sec-container
+{
+    width: 575px;
+    height: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.haber-sec-container p, .teknik-destek-detail p { margin:0px; padding:0px;}
+
+.haberler-baslik
+{
+    font-size: 18px;
+    color: #2d2c2c;
+    font-weight: bold;
+    width: 200px;
+}
+.tumunu-genislet
+{
+    width: 110px !important;
+    margin: 3px 0 0 10px !important;
+    color: #464545 !important;
+}
+.haber-sec-container span, .haber-sec-container span .haber-dropdown
+{
+    width: 100px;
+}
+.haber-sec-container span .haber-dropdown
+{
+    font-size: 11px;
+    font-family: Arial;
+}
+
+
+#wrapper2
+{
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordionButton2
+{
+    width: 525px;
+    padding: 5px 40px 5px 10px;
+    float: left;
+    _float: none;
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    background: url(../images/acordion-ok.png) no-repeat top right #a5a4a4;
+    background-position: 550px 9px;
+}
+
+.accordionButton2 p{ font-size:11px !important; font-weight:normal !important; }
+
+.accordionContent2
+{
+    width: 575px;
+    float: left;
+    _float: none;
+    background: #FFFFFF;
+}
+
+
+
+.on
+{
+    background: url(../images/acordion-ok.png) no-repeat top right #fbb700;
+    background-position: 550px 9px;
+}
+
+.over
+{
+    background: url(../images/acordion-ok.png) no-repeat top right #fbb700;
+    background-position: 550px 9px;
+}
+
+.basin-odasi-detail
+{
+    width: 575px;
+    overflow: auto;
+    height: auto;
+}
+.basin-odasi-text
+{
+    padding: 10px;
+}
+.basin-odasi-text p
+{
+    margin: 5px 0 5px 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+.basin-odasi-text a {color: #2a2929;}
+.basin-odasi-text span
+{
+    width: 100px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+   
+}
+
+.basin-odasi-detail-img img
+{
+    width: 558px;
+}
+
+.teknik-destek-detail
+{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px;
+    width: 565px;
+}
+.teknik-destek-detail span
+{
+    width: 100px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.teknik-destek-detail p
+{
+    width: 183px;
+    height: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.teknik-destek-detail div
+{
+    width: 182px;
+    height: auto;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.show_banner1
+{
+    z-index: 1;
+}
+
+
+.lading-page-img
+{
+    width: 923px;
+    padding: 5px 50px 5px;
+}
+
+.e-posta-print
+{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 160px;
+}
+.e-posta-print a
+{
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.e-posta-print a.e-posta-title
+{
+    background: url(../images/e-posta.png) no-repeat top right;
+    width: 55px;
+    padding: 0 15px 0 0;
+    margin: 0 20px 0 0;
+}
+.e-posta-print a.print
+{
+    background: url(../images/print.png) no-repeat top right;
+    width: 40px;
+    padding: 0 15px 0 0;
+}
+
+
+.landing-detail
+{
+    height: 80px;
+    width: 405px;
+    margin: 0 0 10px 0;
+}
+.landing-detail-img
+{
+    width: 125px;
+    height: 80px;
+}
+.landing-detail-text, .landing-detail-text
+{
+    clear: both;
+    width: 405px !important;
+}
+.landing-detail p
+{
+    margin: 5px 0 0 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+}
+.landing-detail a
+{
+    font-size: 11px;
+    color: #2A2929;
+    text-decoration: underline;
+}
+
+.landing-page-right-top
+{
+    background: url(../images/landing-page-right-top.jpg) no-repeat top left;
+    width: 303px;
+    height: 7px;
+}
+.landing-page-right-center
+{
+    width: 283px;
+    padding: 0 9px;
+    border-left: 1px solid #353535;
+    border-right: 1px solid #353535;
+    background: url(../images/landing-page-right-center.jpg) repeat-x top left #f0efef;
+    font-size:11px;
+}
+
+.landing-page-right-center ul
+{
+    list-style-image: url('http://www.clippard.com/images/black_dot.gif');list-style-position: outside; padding-left: 10px;
+}
+
+.landing-page-right-detail-container
+{
+    width: 283px;    
+    margin: 0 0 10px 0;
+}
+
+.landing-page-right-detail-img
+{
+    border: 1px solid #252525;
+    width: 281px;
+    height: 55px;
+    background: #8a8888;
+    margin: 0 0 5px 0;
+}
+
+.landing-page-right-detail-container p
+{
+    font-size: 11px;
+    color: #393838;
+}
+
+.landing-page-right-detail-container a
+{
+    color: #7d7c7c;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+
+
+.landing-page-right-bottom
+{
+    background: url(../images/landing-page-right-bottom.jpg) no-repeat top left;
+    width: 303px;
+    height: 4px;
+    display:none !important;
+}
+
+
+
+.main, .main-in, .sag_kolon_link,  .texbox_container , .chackbox_container span, .chackbox_container, .texbox_container  p ,  .texbox_container  div,  .texbox_container  span,.footer_link, .footer_text,.sayisal_grafik_mini_logo, .teknik_dokuman_kapat,  .teknik_dokuman_text,  .teknik_dokuman_text p, .teknik_dokuman_top_left div, .teknik_dokuman_container, .teknik_dokuman_top, .teknik_dokuman_top_right div, .teknik_dokuman_top_left, .teknik_dokuman_top_right, .teknik_dokuman_banner, .teknik_dokuman_banner ,.teknik_dokuman_container, .search-bar, .search-bar a, .share_btn, .search-bar div, .search-container, .logo, .logo a, .slider-left, .slider-top, .slider, .slider-right, .slider-bottom, .pagination a, .pagination, .default-tabs1, .default-tabs, .default-tabs1, .default-tabs2, .default-tabs3, .haberler-hr, .default-tabs1-bg, .bilgiler-hr, .tabs1-colon, .tabs1-colon p, .tabs1-colon a, .tabs2-colon1, .tabs2-colon2, .tabs2-colon3, .tabs2-icon, .abonelik, .pdf-container, .pdf-container a, .tabs3-link-container, .tabs3-link-container a, .e-posta-uyeligi, .e-posta-baslik, .e-posta, .footer, .e-posta-text, .share, share a, .content-left, .content-center, .content-right, .content-container, .content, .right-tab-colon-1, .right-tab-colon-2, .right-tab-colon-2-img, .tabs3-link1, .tabs3-link2, .tabs3-link3, .tabs3-link4, .right-tab-colon-3, .sol-menu-ust, .sol-menu-orta, .sol-menu-alt, .alfabetik, .endustrilere-gore, .sol-menu-header, .sol-menu-header a, .menu-detail-container, .menu-detail-container span, .menu-detail-container a, .menu-detail, .text-top-title, .text-image, .text-image, .text-container, .text-container p, .ozellikler-title, img, .detail-text, .detail-text, .versiyon-sec, .versiyon-sec div, .versiyon-sec span, .versiyon-sec p, .ok-btn, .hepsi, .accordionButton p, .accordionContent div p, .accordionContent div, .detail-text span, .text-container span, .accordionContent span, .show-video, .video-tb, .video-tb-image, .video-play-button, .video-tb span, .paging, .videolar, .content-center-genis, .sektor-container, .sektor-img, .endustriler-arow-bg, .endustri-text, .basin-odasi-detail, .basin-odasi-text span, .big-content-title, .big-content-text-container, .basin-odasi-aciklama, .haberler-baslik, .haber-sec-container, .haber-sec-container span, .haber-sec-container p, .haber-sec-container a, .teknik-destek-detail, .teknik-destek-detail span, .teknik-destek-detail p, .teknik-destek-detail div, .e-posta-print, .e-posta-print a, .landing-detail, .landing-detail-img, .landing-detail-text, .landing-detail a, .landing-detail-show, .landing-detail p, .landing-detail-text, .landing-page-right-top, .landing-page-right-center, .landing-page-right-bottom, .landing-page-right-detail-img, .landing-page-right-detail-container, .landing-page-right-detail-container a, .video-tb-container, .big-detail-text,.dokuman-ara, .dokuman-ara p, .detail_text_img_container, .detail_text_img_container div, .detail_text_img_container span, .underconstruction, .underconstruction a , .video_izle
+{
+    display: block;
+    overflow: hidden;
+    outline: none;
+    
+}
+
+.search-bar a,.footer_link a , .texbox_container  p , .chackbox_container span,   .texbox_container  div,  .texbox_container  span, .teknik_dokuman_top_left, .teknik_dokuman_top_right, .footer_link span, .footer_link, .share_btn a ,.search-bar div, .search-btn, .slider-left, .slider-top, .slider, .slider-right, .slider-bottom, .pagination a, .pagination li, .default-tabs1, .default-tabs2, .default-tabs3, .tabs1-colon a,  .content-left, .content-center, .content-right, .versiyon-sec div, .versiyon-sec span, .versiyon-sec p, .ok-btn, .hepsi, .accordionButton p, .accordionContent div p, .video-tb, .paging a, .content-center-genis, .sektor-container, .haberler-baslik, .haber-sec-container span, .haber-sec-container p, .haber-sec-container a, .teknik-destek-detail span, .teknik-destek-detail p, .teknik-destek-detail div, .e-posta-print a, .landing-detail-img, .landing-detail-text, .dokuman-ara-1 , .dokuman-ara-2, .dokuman-ara p, .dokuman-ara .dokuman-textbox, .detail_text_img_container div, .detail_text_img_container span, .video_izle
+{
+    float: left;
+}
+
+.tum-duyurular, .digerleri, .share, .share a, .tumunu-ac, .video-sec, .paging,.brosur
+{
+    float: right;
+}
+
+
+
+
+.dokuman-ara-1, .dokuman-ara-2  { width:200px; border:1px solid #CCCCCC; height:20px; font-family:Arial; font-size:11px;}
+
+
+
+.dokuman-ara { width:500px; height:30px;} 
+.dokuman-ara p { margin:5px 10px 0 10px; padding:0px;}
+.dokuman-textbox {border:1px solid #CCCCCC; width:50px; font-family:Arial; font-size:11px;}
+
+.detail_text_img_container {width:405px; margin:0 0 20px 0;}
+.detail_text_img_container div{ width:150px; height:90px; margin:0 20px 0 0;}
+.detail_text_img_container span{ width:235px; }
+
+.underconstruction{ width:344px; height:130px; background:url(../images/underconstruction.jpg) no-repeat top left;}
+.underconstruction a { width:100px; height:20px;  margin:100px 0 0 130px;} 
+
+.footer{width: 924px; margin: 0 auto;}
+.footer-in{width: 898px; background: #181818; margin: 8px 0 0 0; height:80px; border: 1px solid #353535; padding: 12px 12px 0 12px; position:relative;}
+
+.footer_link{ width:500px; height:20px; margin:0 auto; float:none !important;}
+.footer_text { font-size:9px !important; color:#797878; width:600px; text-align:center; position:absolute; bottom:10px; left:160px; line-height:1.2em;}
+
+.footer_link a , .footer_link span{ font-size:11px; color:#bebdbd; font-family:Arial;} 
+.footer_link span { margin:0 8px;}
+.yetkili_dagitici_logo{ position:absolute; right:13px; top:13px;}
+.share_btn{ position:absolute; bottom:28px;  right:8px;}
+.share_btn a { margin:0 5px 0 0; float:left;}
+.share_btn_text {float:left; font-size:10px; display:block; padding-right:5px; color:#fff;}
+.paylas {bottom:5px !important;}
+
+/*--- Teknik Döküman ---*/
+.teknik_dokuman_container { border:2px solid #3d3c3c; width:894px; background:url(../images/teknik_bg.jpg) repeat-x top left #1f1e1e;  margin:0 auto; padding:15px; }
+.teknik_dokuman_banner{ background:url(../images/teknik_banner.jpg) no-repeat top left; width:893px; height:40px; margin:0 0 10px 0;}
+.teknik_dokuman_container h2{ height:20px !important; color:#ffd200;}
+
+  .teknik_dokuman_top { width:894px;}
+
+ .teknik_dokuman_top_left { width:618px;}
+ .teknik_dokuman_top_left div { width:606px; border:1px solid #2c2b29; color:#FFFFFF;  font-size:12px; margin:0 0 5px 0; padding:5px; }
+ .teknik_dokuman_top_left div b { color:#d50d0d;}
+ 
+.teknik_dokuman_container strong,  .teknik_dokuman_container b { font-weight:bold;}
+.teknik_dokuman_container p { font-size:11px; color:#FFFFFF; }
+.teknik_dokuman_container a{color:#FFFFFF; text-decoration:underline; font-weight:bold;}
+.teknik_dokuman_container li {float:none; display:list-item; font-size:11px; margin:5px 0 5px 15px; list-style-type:disc; color:#FFFFFF; }
+
+ .teknik_dokuman_top_right{ width:276px;}
+ .teknik_dokuman_top_right div { width:264px; border:1px solid #2c2b29; color:#FFFFFF;  font-size:12px; margin:0 0 5px 0; padding:5px;  }
+ .teknik_dokuman_top_right div b { color:#d50d0d;}
+ .teknik_dokuman_border {border-top:1px solid #2c2b29; border-bottom:1px solid #2c2b29; padding:5px 0 !important; }
+ .teknik_dokuman_text  { margin:10px 0; color:#b8b5b5; font-size:11px;}
+ .teknik_dokuman_text b{ color:#ffd200; font-weight:bold;}
+ .teknik_dokuman_text a { color:#FFFFFF; text-decoration:underline; font-weight:bold;}
+ .center{ text-align:center;}
+ .sayisal_grafik_mini_logo { background:url(../images/sayisal_grafik.jpg) no-repeat top left; width:107px; height:15px; margin:0 auto; padding: 0 0 20px 0;}
+ .teknik_dokuman_kapat {background:url(../images/kapat.jpg) no-repeat top left; width:70px; height:25px; margin:0 auto;}
+ .bayi_adres tr td  { font-size:11px; border-bottom:1px solid #CCCCCC; padding:5px 0;}
+ .bayi_adres tr td a { color:#0000EE !important;}
+ 
+ .texbox_container { width:450px; height:20px; margin:8px;}
+ .texbox_container  p { width:120px;}
+ .texbox_container  div{ width:260px;}
+ .texbox_container  div input{ width:240px; height:16px; border:1px solid #CCCCCC; font-family:Arial; font-size:11px; padding:0 5px;}
+ .texbox_container  span{ width:20px;}
+ 
+ .texbox_container  p ,  .texbox_container  div,  .texbox_container  span { height:20px; margin:0;}
+ 
+ .chackbox_container { width:550px;}
+ .chackbox_container span { font-size:11px; width:260px; height:20px; margin:5px 0 0 0;}
+ .ebultenbtn { background:#666060; border:1px solid #b4b2b2; color:#FFFFFF;  font-weight:bold; font-family:verdana; padding:5px 10px 5px 10px; font-size:12px; float:right; margin:20px; cursor:pointer; } 
+ .urunler { margin:0 0 0 10px; width:660px !important; }
+  .urunler-big-content-title { background:url(../images/urunler_header.jpg) no-repeat top left !important;}
+ .urunler-big-content-title{width:645px !important; position:relative;}
+ .urunler-big-detail-text {width:622px !important; font-size:11px; }
+ 
+ .sol-menu-orta ul, .sol-menu-orta ul li {}
+ 
+  .sol-menu-orta ul li {margin: 7px 0 0 10px;font-size: 10px !important;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;
+                        list-style: none;display: block;overflow: hidden;margin: 8px 0 0 10px;}
+
+ .ana_dizin {color:#FBB700 !important; font-weight:bold; font-size:11px !important; }
+ .sol-menu-orta ul li a {color:#747272; font-size:10px; line-height:1.2em; padding:0 0 0 10px; background:url(../images/menu-ok.png) no-repeat top left; background-position:0 5px; display:block;}
+ .sol-menu-orta ul li a:hover {color:#FFFFFF;}
+ .sol-menu-orta ul li a.din{color:#FFFFFF; font-size:14px; background:none; padding:10px 0 0 0;}
+ .menu_baslik{ margin:10px 0 5px 0; }
+ a.sub_menu_baslik{color:#FFFFFF !important; font-weight:bold;}
+ a:hover.sub_menu_baslik{color:#FFFFFF; font-weight:bold;}
+ 
+ 
+.sol-menu-ust250{    background: url(../images/sol-menu-ust250.png) no-repeat top left !important;    width: 250px !important;    height: 5px !important;}
+.sol-menu-orta250{    background: url(../images/sol-menu-orta250.png) repeat-y top left  !important;    width: 224px !important;    padding: 10px 13px 30px 13px !important;}
+.sol-menu-alt250{    background: url(../images/sol-menu-alt250.png) repeat-y top left  !important;    width: 250px !important;    height: 5px !important;}
+.content-left250 { width:250px;}
+
+ul.dropdown ul li.menu_header , ul.dropdown ul li:hover.menu_header { background:url(../images/kirmizi_menu.png) no-repeat top left !important;}
+ul.dropdown ul li.menu_header a { font-weight:bold !important;}
+
+
+.video_izle { margin:0 15px 0 10px; width:150px; height:90px; position:relative;}
+.video_izle img { position:absolute;}
+.ply_btn { z-index:8;}
+.ply_img { z-index:4;}
+
+.ara_dizin { color:#ffffff; font-size:12px; font-weight:bold; overflow:hidden; display:block; overflow:hidden; margin:10px 0;}
+.ara_ust{}
+
+.clr{clear:both;}
+.ara_ust{ width:867px; background:#adaeb0; padding:10px 27px; border:1px solid #848384; }
+.ara_ust p { font-size:11px; padding:0 0 10px 0;}
+.arama_texbox { width:350px; border:1px solid #c4c5c7; height:20px; font-family:Arial; font-size:11px; padding:0 5px; }
+.arama_btn{background:#58595b; color:#FFFFFF; padding:2px 10px; border:0px; cursor:pointer;}
+
+.arama_alt {width:867px; background:#ebebec; padding:10px 27px; border:1px solid #848384;overflow: hidden; display:block;}
+.paging { width: 150px; height: 20px; margin:10px 0 0 0; }
+.paging a { display: block; width: 20px; height: 19px; text-align: center; font-size: 12px; font-weight: bold; color: #8d8d8d; margin: 0 3px 0 0; }
+.paging a:hover, .paging a.number_aktif { background: #242424; }
+.sonuc_baslik{ color:#a10303; font-size:12px; }
+.sonuc_icerik{color:#333232; font-size:10px;}
+.sonuc_link {color:#737171; font-size:10px;}
+
+.detail-text-print { position:relative !important; top:0 !important; margin: 0 0 10px 230px;}
+.detail-text-print a { color:#2A2929 !important;}
+.sag_kolon_link{ color:#FFFFFF; font-size:11px; width:229px; padding:2px 10px 0 10px;}
+
+
+
+.content-center-uzun { width:755px !important; margin-right:0px !important;}
+.text-top-title-uzun{ width:735px !important;}
+.detail-text-uzun{ width:713px !important;}
+.e-posta-print-uzun{margin: 0 0 10px 550px !important;}
+.detail-text span { display:inline !important;}
+.big-detail-text span { display:inline !important;}
+.big-detail-text img, .detail-text img { display:inline !important;}
+.big-detail-text ul, .detail-text ul{ margin:0 0 0 10px;}
+
+.kurulum_kilavuzlari_accordion{ width:555px !important; padding:0 10px !important;}
+
+.paging_edit div span{ font-size:12px;}
+
+.at16nc.at16t_facebook{ background:url('../images/facebook.png') no-repeat !important; }
+.at16nc.at16t_twitter { background:url('../images/twitter.png') no-repeat !important; }

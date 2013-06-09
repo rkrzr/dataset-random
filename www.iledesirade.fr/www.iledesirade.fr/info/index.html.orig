@@ -1,0 +1,612 @@
+<div class='ajaxbloc env-2K4fIdMl8dZJEICimixsm5JDeod3BDcfZctp5FFjt0EthROClV9Jsyek3B+WSEPQ8xqfmHPmyReplc1OZru0K0f4ovi55MN9DII8QPIahs+DVS7EWmKLbHOKlTWBGPEkwqUlX9Dp9CEcg8jvnB0uvIr2lSEDEOvRbwW9/k6UFVdw/DOpFGS3MycPm2SCSjimcQIQiVpjCl90fQ=='>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<META NAME="subject" CONTENT="ile de la désirade">
+<META NAME="author" CONTENT="iledesirade.fr">
+<META NAME="copyright" CONTENT="CC">
+<META NAME="revisit-after" CONTENT="7">
+<META NAME="identifier-url" CONTENT="http://iledesirade.fr">
+<META NAME="date-creation-ddmmyyyy" CONTENT="06102000">
+<META NAME="Robots" CONTENT="all">
+<META NAME="Rating" CONTENT="general">
+<META NAME="organization" CONTENT="iledesirade.fr">
+<META http-equiv="Content-Language" CONTENT="fr">
+<META NAME="expires" CONTENT="never">
+<META NAME="Distribution" CONTENT="Global">
+<META NAME="Audience" CONTENT="general">
+<link rel="ICON" type="IMAGE/ICON" href="squelettes/images/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="Syndiquer Tout le site (RSS)" href="http://www.iledesirade.fr/info/spip.php?page=backend" />
+<link rel='stylesheet' type='text/css' media='all' href='extensions/porte_plume/css/barre_outils.css' />
+<link rel='stylesheet' type='text/css' media='all' href='http://www.iledesirade.fr/info/spip.php?page=barre_outils_icones.css' />
+
+
+<style type="text/css">
+	.spip-admin-float, #bouton_montrer {
+	opacity:0.6 !important;
+	}
+</style>
+
+<!-- Debut CS -->
+<link rel="stylesheet" href="local/couteau-suisse/header.css" type="text/css" media="all" />
+<!-- Fin CS -->
+
+
+<script src="prive/javascript/jquery.js" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.form.js" type="text/javascript"></script>
+
+<script src="prive/javascript/ajaxCallback.js" type="text/javascript"></script>
+
+<script src="prive/javascript/jquery.cookie.js" type="text/javascript"></script>
+
+<script src="plugins/auto/jquery_ui/javascript/jquery-ui/ui/jquery.ui.core.js" type="text/javascript"></script>
+
+<script src="plugins/auto/jquery_ui/javascript/jquery-ui/ui/jquery.ui.widget.js" type="text/javascript"></script>
+
+<script src="plugins/auto/jquery_ui/javascript/jquery-ui/ui/jquery.ui.mouse.js" type="text/javascript"></script>
+
+<script src="plugins/auto/jquery_ui/javascript/jquery-ui/ui/jquery.ui.sortable.js" type="text/javascript"></script>
+<!-- insert_head --><!--[if lt IE 7]>
+	<script type='text/javascript'>//<![CDATA[
+		var IE7_PNG_SUFFIX = '.png'; 
+	//]]></script>
+	<script src='extensions/msie_compat/javascript/IE7.js'></script>
+	<script src='extensions/msie_compat/javascript/ie7-squish.js'></script>
+<![endif]-->
+<script type='text/javascript' src='extensions/porte_plume/javascript/xregexp-min.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.markitup_pour_spip.js'></script>
+<script type='text/javascript' src='extensions/porte_plume/javascript/jquery.previsu_spip.js'></script>
+<script type='text/javascript' src='http://www.iledesirade.fr/info/spip.php?page=porte_plume_start.js&amp;lang=fr'></script>
+<link rel="stylesheet" type="text/css" href="plugins/auto/h52c9b853-css_reset-2/css_reset.css" />
+<!-- Debut CS -->
+<script src="local/couteau-suisse/header.js" type="text/javascript"></script>
+<!-- Fin CS -->
+
+<link rel='stylesheet' href='plugins/auto/modeles_facebook/fb_modeles.css' type='text/css' media="projection, screen, tv" />
+<meta property="fb:app_id" content="222355544521558" />
+<link rel='stylesheet' type='text/css' media='all' href='plugins/auto/jquery_ui/javascript/jquery-ui/themes/smoothness/jquery.ui.core.css' />
+<link rel='stylesheet' type='text/css' media='all' href='plugins/auto/jquery_ui/javascript/jquery-ui/themes/smoothness/jquery.ui.theme.css' />
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=uft-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="http://www.iledesirade.fr/info/squelettes/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+<!-- Homepage Only Scripts -->
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/jquery.cycle.min.js"></script>
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/jquery.cycle.setup.js"></script>
+<script type="text/javascript" src="http://www.iledesirade.fr/info/squelettes/scripts/piecemaker/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+var flashvars = {};
+flashvars.cssSource = "http://www.iledesirade.fr/info/squelettes/scripts/piecemaker/piecemaker.css";
+flashvars.xmlSource = "http://www.iledesirade.fr/info/squelettes/scripts/piecemaker/piecemaker.xml";
+var params = {};
+params.play = "false";
+params.menu = "false";
+params.scale = "showall";
+params.wmode = "transparent";
+params.allowfullscreen = "true";
+params.allowscriptaccess = "sameDomain";
+params.allownetworking = "all";
+swfobject.embedSWF('http://www.iledesirade.fr/info/squelettes/scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+</script>
+<!-- End Homepage Only Scripts -->
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/3659147/iledesirade240x400', [240, 400], 'div-gpt-ad-1326427327318-0').addService(googletag.pubads());
+googletag.defineSlot('/3659147/desirade250', [250, 250], 'div-gpt-ad-1326425876168-0').addService(googletag.pubads());
+googletag.defineSlot('/3659147/iledesirade250-2', [250, 250], 'div-gpt-ad-1326425876168-1').addService(googletag.pubads());
+googletag.defineSlot('/3659147/desirade-200-1', [200, 200], 'div-gpt-ad-1326549628211-0').addService(googletag.pubads());
+googletag.defineSlot('/3659147/desirade200-2', [200, 200], 'div-gpt-ad-1326549628211-1').addService(googletag.pubads());
+googletag.defineSlot('/3659147/desirade234x60', [234, 60], 'div-gpt-ad-1326549628211-2').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script></div><!-- ajaxbloc --><title>Ile Désirade</title>
+</head>
+<body id="top">
+<!-- ####################################################################################################### -->
+<div class='ajaxbloc env-2K4dIdJV8dBJIJ9CDPto4tpXZyZ7KF8us9ajLp1xjpxD4UHQzdSav4wzYmNUeMrKtPPNnPt4VhvPDzBpJEacKHE8qhtxFxSVLRYeA8blIssSPWjVc+QcLHSYwTFtp2Ixljk0X9DlE/IL+SfjJzqQK3jkCwtn4rCL4tpNY045ETFL2dtV5CnAgWGWRbWnfPQ8t2+cPot387c1'>
+<div class="wrapper col0"></div>
+</div><!-- ajaxbloc --><div class='ajaxbloc env-2K5tIZNV7RVJ8Eia8nxz88vfDkgIhfyP59W1T3vmyu0gBAfOVS0RtRqSyIb3GEQBaoDsQWk71g/CjkbZd5BvdhYAqF1bLWKoIT990nkp739B/CjXQ/Ea7MefTTUBGOGk0lFdDner3eZ9O4auKGaBLheeC6S1iWyosWmjg0ChN8bhbr4mKBOuiRtcRWIwYNcl9LTHCrg='>
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <a href="http://iledesirade.fr/info" target="_top" class="logo"><img class='spip_logos' alt="" src="local/cache-vignettes/L200xH40/siteon0-fbaaf.png" width='200' height='40' style='height:40px;width:200px;' /></a>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class="last"><a href="http://www.iledesirade.fr/info/spip.php?page=media">Media</a><span>Photos & Vidéos</span>
+          <ul>
+            <li><a href="photo.html">Photos</a></li>
+            <li><a href="videos.html">Vidéos</a></li>
+         </ul>
+         
+        <li><a href="l-annuaire.html" target="_top">L'Annuaire</a><span>Adresses utiles</span>
+          <ul>
+          
+            <li><a href="infos-utiles.html">Infos utiles</a></li>
+            
+            <li><a href="hotels-gites.html">Hôtels &amp; Gîtes</a></li>
+            
+            <li><a href="bars-restaurants.html">Bars &amp; Restaurants</a></li>
+            
+         </ul>
+         </li>
+         
+        <li><a href="desiradiens.html" target="_top">Désiradiens</a><span>Votre quotidien</span>
+          <ul>
+          
+            <li><a href="les-associations.html">Les associations</a></li>
+            
+            <li><a href="les-blogs.html">Les blogs</a></li>
+            
+         </ul>
+         </li>
+        
+        <li><a href="tourisme.html" target="_top">Tourisme</a><span>Visiter l'île</span>
+          <ul>
+          
+            <li><a href="les-randonnees.html">Les randonnées</a></li>
+            
+            <li><a href="les-plages.html">Les plages</a></li>
+            
+            <li><a href="a-visiter.html">A visiter</a></li>
+            
+         </ul>
+         
+         </li>
+        
+        <li><a href="actualites.html" target="_top">Actualité</a><span>Info Désirade</span>
+          <ul>
+          
+            <li><a href="agenda-desirade.html">Agenda Désirade</a></li>
+            
+            <li><a href="informations.html">Informations</a></li>
+            
+           
+           
+           <li><a href="guadeloupe.html">Guadeloupe</a></li>
+           
+           <li><a href="france-monde.html">France &amp; Monde</a></li>
+           
+           
+         </ul>
+         
+         </li>
+        
+        <li><a href="la-desirade.html" target="_top">La Désirade</a><span>Présentation</span>
+          <ul>
+          
+            <li><a href="la-desirade,7.html">La Désirade</a></li>
+            
+            <li><a href="petite-terre.html">Petite Terre</a></li>
+            
+         </ul>
+         
+         </li>
+      </ul>
+    </div>
+  </div>
+</div></div><!-- ajaxbloc --><!-- ####################################################################################################### -->
+<div class='ajaxbloc env-2K4dIdMl8ddJEJyC2qzDCS1+blAfYoYf6Uc/Tucu4vpYbbtolWkatBXwZXaLb4iBd6XeN3Tqfa0q5VK8FVdXagv2s1Sv7EuWeqtz7oA1HNcu2KYKFGse1TydCiJiJ3VFtLkzEss3J50t+gLCoGD102SLelQmmqRaw5U8TxPVJ/jF4bimbN1ZjkpiF/SMJV7+5L8qnY2b9w=='>
+<div class="wrapper col3">
+  <div id="featured_slide">
+    <!-- ####################################################################################################### -->
+    <div id="piecemaker">  </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div></div><!-- ajaxbloc --><!-- ####################################################################################################### -->
+<div class='ajaxbloc env-2K4dIdJV7ddJIJ9CrB3Y25qHd2HXJPcNJeBZ6OUGq7jlrxnBnnxbfeso6mr5BCozZwumRIMraDiM9gN6arU6QQ3kNzMyi2ha4EvmxbAYhZl9LpgQLURufbm6GZbIv8Z+7AOQTsuS5p/a4NhqdecBRDXXl6MNRrAtwLuFpWA0sGSeF2700gcb/7FSB4fIdhdXusHoR66Zdnnyu9duPQqodA=='>
+<div class="wrapper col4">
+  <div id="container" class="clear">
+    <!-- ####################################################################################################### -->
+    <div id="shout" class="clear shadow arrondi">
+      <div class="fl_left">
+        <h2>Vous aimez l'île de La Désirade?</h2>
+        <p>Partager vos photos, vos infos, vous coups de coeur...</p>
+      </div>
+      <p class="fl_right"><a href="http://www.iledesirade.fr/info/spip.php?page=identifiants" target="_top">Inscrivez-vous!</a></p>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div id="homepage" class="clear">
+      <div class="fl_left">
+      <p><span class="titre">Actualités</span></p>
+        <h2>A la Une</h2>
+        <div id="hpage_slider">
+        
+          <div class="item"><a href="fet-a-kabrit-2013.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/e9b944c92e31cedfa4fe74352fdb8fcd.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="fet-a-kabrit-2013.html" target="_top" class="titre_une">Fèt A Kabrit 2013</a><br />Rendez-vous les 30 et 31 mars sur l’île à La Désirade pour la fête à Kabrit 2013.
+
+"Bienvenue ! Nou kontan vwe zot !"
+
+L’Office du tourisme et la municipalité de La Désirade vous invite à la 12eme édition&nbsp;(...)</div>
+          <div class="item"><a href="l-aeroport-departemental-de-saint.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/4c64dc3e5b2ac1ae91f1fc1622d4a3a4.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="l-aeroport-departemental-de-saint.html" target="_top" class="titre_une">L’aéroport départemental de Saint François ne fermera pas</a><br />Communiqué de Laurent Bernier (Maire de St-François) relatif au maintien de l’aéroport de Saint-François.
+
+"À ce jour, la piste ne revêt pas de danger. Elle restera donc ouverte au traﬁc aérien, sauf&nbsp;(...)</div>
+          <div class="item"><a href="chante-nwel-2012-a-la-desirade.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/5d5593d97a704e2fdecba63795be6509.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="chante-nwel-2012-a-la-desirade.html" target="_top" class="titre_une">Chanté Nwèl 2012 à La Désirade</a><br />"Chanté Nwèl à La Désirade, ça démarre dimanche 2 décembre 2012, dans la cour de l’ancienne École des Garçons (de 19h30 à 22h00) !
+
+N’oubliez pas, venez nombreux faire la fête avec nous !"
+
+ Soleil &amp; Vie&nbsp;(...)</div>
+          <div class="item"><a href="video-le-prefet-de-la-region-guadeloupe.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/89a23ac10cd8db1aa0148ce402ff4539.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="video-le-prefet-de-la-region-guadeloupe.html" target="_top" class="titre_une">VIDEO : Le préfet de la région Guadeloupe à La Désirade</a><br />Le préfet de la région Guadeloupe, Amaury de Saint-Quentin, est venu vendredi 16 novembre à la Désirade pour signer avec le maire, René Noël, une convention territoriale pour le développement culturel&nbsp;(...)</div>
+          <div class="item"><a href="a-desirade-les-journees-du-patrimoine-c.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/bcc4bbf80836edb35ae9272461f56f44.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="a-desirade-les-journees-du-patrimoine-c.html" target="_top" class="titre_une">A Désirade, les journées du patrimoine, c’est Indigo !</a><br />Venez découvrir l’indigo : Participez à une visite commentée sur l’histoire de l’indigo, sa culture et son utilisation aux Antilles depuis les Amérindiens. Vous pourrez assister à une démonstration de&nbsp;(...)</div>
+          <div class="item"><a href="tempete-tropicale-isaac-sur-la-desirade.html" target="_top"><img class='spip_logos' alt="" src="local/cache-gd2/b342175c47e90b520b62d73141bb10f5.jpg" width='480' height='200' style='height:200px;width:480px;' /></a><br style="clear:left;" /><br style="clear:left;" /><a href="tempete-tropicale-isaac-sur-la-desirade.html" target="_top" class="titre_une">Tempête tropicale Isaac sur La Désirade</a><br />Ce soir (mercredi 22 août 2012), la tempête tropicale a abordé la Guadeloupe avec son centre situé entre La Désirade et Marie-Galante.
+
+Les effets cycloniques en cours devraient durer jusqu’à jeudi&nbsp;(...)</div>
+        </div>
+        <div class="une">
+                <div> <script type="text/javascript"><!--
+google_ad_client = "ca-pub-4838380113744465";
+/* iledesiradefr */
+google_ad_slot = "3922585727";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div><br />
+        
+        <a href="fet-a-kabrit-2013.html" target="_top" class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L160xH71/arton3729-60f8a.jpg" width='160' height='71' style='height:71px;width:160px;' /></a>
+        <a href="fet-a-kabrit-2013.html" target="_top" class="titre_une">Fèt A Kabrit 2013</a>
+        <p><strong>#FAK - 12ème édition</strong><br />
+        <a href="fet-a-kabrit-2013.html" target="_top">30 &amp; 31 mars sur l’île de La Désirade</a></p>
+        <p>Rendez-vous les 30 et 31 mars sur l’île à La Désirade pour la fête à Kabrit 2013.
+
+"Bienvenue ! Nou kontan vwe zot !"
+
+L’Office du tourisme et la municipalité de La Désirade vous invite à la 12eme édition de la Fèt A Kabrit :
+
+Communiqué de l’Office du&nbsp;(...)</p>
+        <p class="readmore"><a href="fet-a-kabrit-2013.html" target="_top"><strong>Lire la suite &raquo;</strong></a></p>
+        <br />
+        
+        <a href="controle-technique-6-mois-pour-se.html" target="_top" class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L80xH80/arton3728-93e4d.jpg" width='80' height='80' style='height:80px;width:80px;' /></a>
+        <a href="controle-technique-6-mois-pour-se.html" target="_top" class="titre_une">Contrôle technique : 6 mois pour se mettre en conformité</a>
+        <p><strong>Jusqu’au 30 juin 2013 pour se mettre en conformité</strong><br />
+        <a href="controle-technique-6-mois-pour-se.html" target="_top">Tous les lundis et mardis, de 10 heures à 18 heures</a></p>
+        <p>A partir de lundi prochain, les automobilistes désiradiens devront se rendre dans le nouveau centre de contrôle technique des véhicules - qui fonctionnera tous les lundis et mardis, de 10 heures à 18 heures - pour se mettre en conformité avec la&nbsp;(...)</p>
+        <p class="readmore"><a href="controle-technique-6-mois-pour-se.html" target="_top"><strong>Lire la suite &raquo;</strong></a></p>
+        <br />
+        
+        </div>
+      </div>
+      <div class="fl_right">
+      
+      <div class="arrondi shadow ideesvisites">
+        <div class='ajaxbloc env-2K4XIZNF8dZJECL69LJpMy1+EA5RaQW8A7jVTbsoptUBXBOBXahAbTM58wi9FMr7tjagXsY3Ob2o64Hy4VQ2YAPG0DsTA3hLa1GOR+bko26Ivp1g78GpcFlgDcDJZDkcuYLkcvHvLj58hhqP6StbBcVKkts4mAfrIsXw+lTrtIyqAKAU/rMPPXjKwnLeUl83K37niG/ZDss='>
+<a name='pagination_derart' id='pagination_derart'></a>
+<span class="titre">Visites et découverte</span><br />
+
+<p class="alter1"><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L70xH50/arton53-2b765.jpg" width='70' height='50' style='height:50px;width:70px;' /></span>
+<span class="titresmall"><a href="la-maison-de-l-indigo-en-desirade.html" class="titresmall">La maison de l&#8217;Indigo en Désirade</a></span><br />
+<span class="introduction">Anne et Ghis vous invitent à partager leur passion des couleurs végétales en Désirade, chemin de La Montagne à Baie-Mahault (section Est de la Désirade).
+
+Anne et Ghis décident de remettre en valeur des plantes colorantes aux Antilles : la maison de l’Indigo est née.
+
+Une case bleue, bien accrochée à La&nbsp;(...) <a href="la-maison-de-l-indigo-en-desirade.html"> <br /> > Découvrir</a></span>
+</p><br class="nettoyeur">
+<br class="nettoyeur">
+<p class="pagination"><strong class='on'>0</strong>
+<span class='sep separateur'>|</span>
+
+
+<a href='./?debut_derart=1#pagination_derart' class='lien_pagination' rel='nofollow'>1</a>
+<span class='sep separateur'>|</span>
+
+
+<a href='./?debut_derart=2#pagination_derart' class='lien_pagination' rel='nofollow'>2</a>
+<span class='sep separateur'>|</span>
+
+
+<a href='./?debut_derart=3#pagination_derart' class='lien_pagination' rel='nofollow'>3</a>
+<span class='sep separateur'>|</span>
+
+
+<a href='./?debut_derart=4#pagination_derart' class='lien_pagination' rel='nofollow'>4</a>
+<span class='sep separateur'>|</span>
+
+
+<a href='./?debut_derart=5#pagination_derart' class='lien_pagination' rel='nofollow'>5</a></p>
+<br class="nettoyeur">
+</div><!-- ajaxbloc -->        <p align="center"><a href="tourisme.html" target="_top">Découverte de l'île</a> | <a href="les-plages.html" target="_top">Les plages</a> | <a href="les-randonnees.html" target="_top">Les ballades</a> | <a href="a-visiter.html" target="_top">A visiter</a></p>
+        </div>
+      <br style="clear:left;"/>
+                        <!-- desirade234x60 -->
+<div style="margin-left:40px;" id='div-gpt-ad-1326549628211-2' style='width:234px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1326549628211-2'); });
+</script>
+</div>
+<br style="clear:left;"/>
+      <div></div>
+      <p><a href="bars-restaurants.html" target="_top" class="titre">Bars & Restaurants</a></p>
+        <ul class="testimonials">
+          <li>
+                  <div>
+              <div class="bords2"><div><p align="center">
+        <br style="clear:left;"/>
+        Beauséjour | Plage à FiFi<br style="clear:left;"/>
+          <a href="la-payotte.html" target="_top" class="logo"><img class='spip_logos' alt="" src="local/cache-vignettes/L144xH60/arton3692-971ac.jpg" width='144' height='60' style='height:60px;width:144px;' /></a>
+          <br style="clear:left;"/>
+            <strong><a href="la-payotte.html" target="_top">La Payotte</a></strong><br style="clear:left;"/> 
+            Téléphone : 0590 20 01 29
+            <br style="clear:left;"/></p></div></div>
+            
+            
+        
+        <div class="bords3"><div><p align="center">
+        <br style="clear:left;"/>
+        à Beauséjour<br style="clear:left;"/>
+          <a href="hotel-oasis-restaurant-lagranlag.html" target="_top" class="logo"><img class='spip_logos' alt="" src="local/cache-vignettes/L85xH60/arton3691-31364.jpg" width='85' height='60' style='height:60px;width:85px;' /></a>
+          <br style="clear:left;"/>
+            <strong><a href="hotel-oasis-restaurant-lagranlag.html" target="_top">Hôtel Oasis &amp; restaurant Lagranlag</a></strong><br style="clear:left;"/> 
+            Téléphone : 0590 200 100
+            <br style="clear:left;"/></p></div></div>
+            
+            <br style="clear:left;"/>
+            </div>
+          </li>
+          <li class="last">
+          <div>
+          <p><a href="hotels-gites.html" target="_top" class="titre">Se loger à La Désirade</a></p>
+<div class="bords2"><div><p align="center">
+        <br style="clear:left;"/>
+        Studio meublé tout confort<br style="clear:left;"/>
+          <a href="studio-a-baie-mahault-desirade.html" target="_top" class="logo"><img class='spip_logos' alt="" src="local/cache-vignettes/L80xH60/arton3722-8c0d2.jpg" width='80' height='60' style='height:60px;width:80px;' /></a>
+          <br style="clear:left;"/>
+            <strong><a href="studio-a-baie-mahault-desirade.html" target="_top">Studio à Baie-Mahault (Désirade)</a></strong><br style="clear:left;"/> 
+            Tel : 0690 74 41 46 | 0590 20 07 03
+            <br style="clear:left;"/></p></div></div>
+            
+            
+        <div class="bords3"><div><p align="center">
+        <br style="clear:left;"/>
+        Baie-Mahault | Plage Petite Rivière<br style="clear:left;"/>
+          <a href="gites-bord-de-mer.html" target="_top" class="logo"><img class='spip_logos' alt="" src="local/cache-vignettes/L80xH60/arton3698-dde28.jpg" width='80' height='60' style='height:60px;width:80px;' /></a>
+          <br style="clear:left;"/>
+            <strong><a href="gites-bord-de-mer.html" target="_top">Gîtes Bord de mer</a></strong><br style="clear:left;"/> 
+            Téléphone : +590 690 484 702
+            <br style="clear:left;"/></p></div></div>
+            
+            </div>
+            <br style="clear:left;"/>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div></div><!-- ajaxbloc --><!-- ####################################################################################################### -->
+<div class='ajaxbloc env-2K4bIdNV8RZJEED6gK/FqUt/NbUTKV8uUt3DTTtQYNUBXDPGdEDAyvAHix0E0cwXQmBVb+y3oH5gJVAIsO7gEThFpZGeKwwNmHve4i0a5u6Rjr2Yby4Da0m2hQ6JZwn1aizk7DgMmcWBl9U1KfHhuoRuHgkHHb8oIsScKrYHNCPTIF3rVb4E/K7HTdL95c6XMxWg0e9P+w=='>
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="fl_left">
+      <div class="about_us border">
+        <h2>iledesirade.fr</h2>
+        <p>www.iledesirade.fr est un site internet de promotion de l’île de La Désirade.
+
+iledesirade.fr, une fenêtre sur cette île de l’archipel guadeloupéen.
+
+Nous désirons mettre en avant cette île de La Désirade, où nous vivons !
+
+Pourquoi ce site ?
+
+Nous avons créé&nbsp;(...)<br />
+        <a href="qui-sommes-nous.html" target="_top">Plus d'informations</a> | <a href="http://www.iledesirade.fr/info/spip.php?page=identifiants" target="_top">S'inscrire!</a></p>
+        
+      </div>
+      <div id="contact" class="clear">
+        <div class="fl_left">
+<!-- iledesirade240x400 -->
+<div id='div-gpt-ad-1326427327318-0' style='width:240px; height:400px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1326427327318-0'); });
+</script>
+</div>
+        </div>
+        <div class="fl_right">
+          <address>
+          <br />
+          <strong class="title"><u>Nous contacter</u></strong><br />
+          iledesirade.fr<br />
+          Petite Anse - Baie-Mahault<br />
+          97127 La Désirade<br />
+          Tel: +590 690 337 357<br />
+          <a href="contact.html">contact@iledesirade.fr</a>
+          </address>
+          <ul>
+          <li>
+          <a href="http://www.bitin.fr" target="_blank"><img src="http://www.iledesirade.fr/bitin.jpg" align="center" alt="Bitin•fr"/></a>
+          </li>
+            <li><strong class="title"><u>Partenaires</u>:</strong>
+            <div class='ajaxbloc env-2K4XIdJF8dZJoEr6czSp+2l7cGNQqZcpuK8VfaOfWCSQ6dvSVbbXZeqoJAu9FLrCRYKulboZWisv3X5b70vClhklTIIGSlOejUviyTbES0gxV3gQbdbGZEkWAltJmQatM50ueLaTxuqYp3NvJ1h2BGsteDaNxcq4ewwdznvbA0q2tf6mt1cDsaEPherTqIIPTPVT80AcqFOKBK8wF04='>
+
+<a name='pagination_sites' id='pagination_sites'></a>
+
+<a href="http://www.iledesirade.fr/info/spip.php?page=site&amp;id_syndic=2" target="_top">Dynamik Attitude</a><br />
+
+<a href="http://www.iledesirade.fr/info/spip.php?page=site&amp;id_syndic=24" target="_top">1.Bitin.fr</a><br />
+
+<a href="http://www.iledesirade.fr/info/spip.php?page=site&amp;id_syndic=11" target="_top">Desi-rando.com</a><br />
+
+<a href="http://www.iledesirade.fr/info/spip.php?page=site&amp;id_syndic=12" target="_top">La maison de l&#8217;Indigo</a><br />
+
+<a href="http://www.iledesirade.fr/info/spip.php?page=site&amp;id_syndic=9" target="_top">Le Petit Journal De Désirade</a><br />
+
+<br class="nettoyeur">
+
+<br class="nettoyeur">
+<a href="partenaires-sponsors.html" target="_top"><u>Demande de partenariat</u></a><br />
+</div><!-- ajaxbloc -->            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="fl_right">
+      <div id="tabulations">
+<div class='ajaxbloc env-2K4fIZNV7dZJ8EhiRq9NtNlXt7tUigI6+KZLcQjWbshU8SJHVFxAvWMwEgkWnqMVcoJgmGqa4Zm6FY7vMJDtr3cGqXgRebUUe0ANUPYaH7tDPGhTn6ccLPaN1zO7mK97NKHU38u1D7L9WceqKJjna8iInmf+M13I+JY9sMKoxNCUpLn9mFFnAxLPk/ItITvrW/+L6ec='>
+<div class="onglets_bloc_initial"><div class="onglets_contenu"><h2 class="cs_onglet"><a href="#">Actualités</a></h2>
+
+
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH50/arton3728-d5ac5.jpg" width='50' height='50' style='height:50px;width:50px;' /></span>
+<span class="titresmall"><a href="controle-technique-6-mois-pour-se.html" class="titresmall">Contrôle technique&nbsp;: 6 mois pour se mettre en conformité</a></span><br />
+<span class="date">5 janvier</span><span class="auteurs">
+<br /> Popularité: 9 %</span><br />
+<span class="tabscontent">A partir de lundi prochain, les automobilistes désiradiens devront se rendre dans le nouveau centre de contrôle technique des véhicules - qui fonctionnera tous les lundis et mardis, de 10 heures à&nbsp;(...) <a href="controle-technique-6-mois-pour-se.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH38/arton3727-b5d8a.jpg" width='50' height='38' style='height:38px;width:50px;' /></span>
+<span class="titresmall"><a href="l-aeroport-departemental-de-saint.html" class="titresmall">L&#8217;aéroport départemental de Saint François ne fermera pas</a></span><br />
+<span class="date">24 d&eacute;cembre 2012</span><span class="auteurs">
+<br /> Popularité: 5 %</span><br />
+<span class="tabscontent">Communiqué de Laurent Bernier (Maire de St-François) relatif au maintien de l’aéroport de Saint-François.
+
+"À ce jour, la piste ne revêt pas de danger. Elle restera donc ouverte au traﬁc aérien, sauf&nbsp;(...) <a href="l-aeroport-departemental-de-saint.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+
+</div><div class="onglets_contenu"><h2 class="cs_onglet"><a href="#">Agenda</a></h2>
+
+
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH22/arton3729-098f4.jpg" width='50' height='22' style='height:22px;width:50px;' /></span>
+<span class="titresmall"><a href="fet-a-kabrit-2013.html" class="titresmall">Fèt A Kabrit 2013</a></span><br />
+<span class="date">28 f&eacute;vrier</span><span class="auteurs">
+<br /> Popularité: 15 %</span><br />
+<span class="tabscontent">Rendez-vous les 30 et 31 mars sur l’île à La Désirade pour la fête à Kabrit 2013.
+
+"Bienvenue ! Nou kontan vwe zot !"
+
+L’Office du tourisme et la municipalité de La Désirade vous invite à la 12eme édition&nbsp;(...) <a href="fet-a-kabrit-2013.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH25/arton3726-08edd.jpg" width='50' height='25' style='height:25px;width:50px;' /></span>
+<span class="titresmall"><a href="chante-nwel-2012-a-la-desirade.html" class="titresmall">Chanté Nwèl 2012 à La Désirade</a></span><br />
+<span class="date">27 novembre 2012</span><span class="auteurs">
+<br /> Popularité: 5 %</span><br />
+<span class="tabscontent">"Chanté Nwèl à La Désirade, ça démarre dimanche 2 décembre 2012, dans la cour de l’ancienne École des Garçons (de 19h30 à 22h00) !
+
+N’oubliez pas, venez nombreux faire la fête avec nous !"
+
+ Soleil &amp; Vie&nbsp;(...) <a href="chante-nwel-2012-a-la-desirade.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+
+</div><div class="onglets_contenu"><h2 class="cs_onglet"><a href="#">Les plages</a></h2>
+
+
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH34/arton22-a405c.jpg" width='50' height='34' style='height:34px;width:50px;' /></span>
+<span class="titresmall"><a href="plage-de-petite-riviere.html" class="titresmall">Plage de Petite-Rivière</a></span><br />
+<span class="date">21 d&eacute;cembre 2010</span><span class="auteurs">
+<br /> Popularité: 6 %</span><br />
+<span class="tabscontent">L’anse Petite Rivière, entre le Soufleur et Baie-Mahaut, qui porte le nom de la petite source située juste avant l’anse, est bordée de la plage de la Petite Rivière.
+
+Cette plage, ombragée de cocotiers,&nbsp;(...) <a href="plage-de-petite-riviere.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH34/arton21-582af.jpg" width='50' height='34' style='height:34px;width:50px;' /></span>
+<span class="titresmall"><a href="la-plage-a-fan-fan.html" class="titresmall">La plage à Fan Fan</a></span><br />
+<span class="date">21 d&eacute;cembre 2010</span><span class="auteurs">
+<br /> Popularité: 7 %</span><br />
+<span class="tabscontent">A quelques minutes du centre de Beauséjour se trouvent la palmerai et la plage à Fan Fan.
+
+Dans la palmerai[1] sont fabriqués les nasses : des solides armatures en bois maintiennent tendu le grillage&nbsp;(...) <a href="la-plage-a-fan-fan.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+
+</div><div class="onglets_contenu"><h2 class="cs_onglet"><a href="#">Photos</a></h2>
+
+
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH34/arton20-67fef.jpg" width='50' height='34' style='height:34px;width:50px;' /></span>
+<span class="titresmall"><a href="les-galets,20.html" class="titresmall">Les Galets</a></span><br />
+<span class="date">21 d&eacute;cembre 2010</span><span class="auteurs">
+<br /> Popularité: 7 %</span><br />
+<span class="tabscontent">Situés vers l’extrémité ouest de l’île, en face de la Pointe des Châteaux.
+
+A la Pointe des Colibris, vers 18 heures, un coucher de soleil majestueux s’offre au regard des visiteurs : le soleil s’en&nbsp;(...) <a href="les-galets,20.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH34/arton28-eaf77.jpg" width='50' height='34' style='height:34px;width:50px;' /></span>
+<span class="titresmall"><a href="le-soufleur.html" class="titresmall">Le Soufleur</a></span><br />
+<span class="date">23 d&eacute;cembre 2010</span><span class="auteurs">
+<br /> Popularité: 6 %</span><br />
+<span class="tabscontent">La section du Souffleur s’étire en longueur, tout comme sa plage de sable fin.
+
+Une baignade s’y impose, tout comme une balade le long du rivage de sable fin, jusqu’au port de pêche de l’Anse du&nbsp;(...) <a href="le-soufleur.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+
+</div><div class="onglets_contenu"><h2 class="cs_onglet"><a href="#">Vidéos</a></h2>
+
+
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH17/arton3715-c1762.jpg" width='50' height='17' style='height:17px;width:50px;' /></span>
+<span class="titresmall"><a href="defi-kayak-2012-a-desirade.html" class="titresmall">Défi Kayak 2012 à Désirade</a></span><br />
+<span class="date">21 avril 2012</span><span class="auteurs">
+<br /> Popularité: 9 %</span><br />
+<span class="tabscontent">Depuis la Désirade (la plage à FiFi), rejoindre la Guadeloupe et Saint-François en Kayak : c’est l’étape désiradienne du Défi Kayak, le « Défi EDF Sport ».
+
+L’étape qui part de la Désirade compte 26 km.
+
+Le&nbsp;(...) <a href="defi-kayak-2012-a-desirade.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+<p><span class="logoleft"><img class='spip_logos' alt="" src="local/cache-vignettes/L50xH37/arton1-84d01.png" width='50' height='37' style='height:37px;width:50px;' /></span>
+<span class="titresmall"><a href="kaz-a-noel-a-la-desirade.html" class="titresmall">"KaZ A NoëL" à La Désirade</a></span><br />
+<span class="date">6 d&eacute;cembre 2010</span><span class="auteurs">
+<br /> Popularité: 6 %</span><br />
+<span class="tabscontent">L’OMCS organise le Samedi 11 Décembre 2010  "KaZ A NoëL" De 9h a 16h, sur la Plage à FiFi !
+
+Grand Chanté Noël à la salle des fêtes du Bourg à partir de 18 heures.
+
+L’OMCS organise le Samedi 11 Décembre&nbsp;(...) <a href="kaz-a-noel-a-la-desirade.html"> <br /> > Lire la suite</a></span>
+</p><br class="nettoyeur">
+
+</div></div></div><!-- ajaxbloc --><br /><br />
+        </div>
+      </div>
+      <h2>Restez connectez!</h2>
+      <ul class="socialize">
+        <li><span>Facebook</span> <a href="http://www.facebook.com/pages/Iledesiradefr/270391913024287" target="_blank">Compte facebook - iledesirade</a></li>
+        <li><span>Twitter</span> <a href="https://twitter.com/iledesiradefr" target="_blank">https://twitter.com/iledesiradefr</a></li>
+        <li class="last"><span>Par email</span> <a href="newsletter.html" target="_top">Newsletter & Discussion</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="backtotop"><br /><a href="#top" class="topOfPage">Haut de page</a></div>
+</div></div><!-- ajaxbloc --><!-- ####################################################################################################### -->
+<div class='ajaxbloc env-2K6bIdNV8Re5tw6Dasjn9mnX9oILMlQroQVpfIhz9Qu9SXCgxSlbSjM9FGw5FLrDRXpOi+cetOuCa8fFXXMeWFDguzC0tbFTgGlkcSUxRiLWxfjsFvqCsxldXjcAzarYi3JeBmrGZLGUzBCrYnHM5RB4nYRQPimhAJox3YT4ic0HzpyIJz7UdjRCI9GXkCV6odQ3TQ6kTAdT2uE='>
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2009/2011 - <a href="http://iledesirade.fr/info" target="_top">Ile Désirade</a> | <a href="qui-sommes-nous.html" target="_top">Crédits & Mentions légales</a></p>
+    <p class="fl_right">Réalisation <a href="http://www.bitin.fr/" title="Création de sites et de contenus multimédia" target="_blank">Bitin.fr</a> & <a href="http://www.os-templates.com/" target="_blank" title="Free Website Templates">OS Templates</a> | <a href="http://webmail.iledesirade.fr" target="_top">Webmail</a> | <a href="http://iledesirade.fr/info/ecrire" target="_top">Admin</a></p>
+  </div>
+</div>
+<br style="clear:both;" /><br style="clear:both;" /></div><!-- ajaxbloc --></body>
+</html>

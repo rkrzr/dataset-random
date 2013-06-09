@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xml:lang="en-gb" lang="en-gb" >
+<head>
+<link rel="stylesheet" href="/templates/berlys/css/home.css" type="text/css" />
+ 
+<link rel="stylesheet" href="/templates/berlys/css/template.css" type="text/css" />
+<!--[if IE]>
+<link rel="stylesheet" href="/templates/berlys/css/ie.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="/templates/berlys/css/ie7.css" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" href="/templates/berlys/css/ie8.css" type="text/css" />
+<![endif]-->
+<link rel="stylesheet" href="/templates/berlys/css/reset.css" type="text/css" />
+<link rel="stylesheet" href="/templates/berlys/css/slider.css" type="text/css" />
+<link rel="stylesheet" href="/templates/berlys/css/jpaginate.css" type="text/css" />
+<link rel="stylesheet" href="/templates/berlys/css/jquery.fancybox-1.3.4.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Schoolbell' rel='stylesheet' type='text/css'/>
+<script type="text/javascript">
+	var headtg = document.getElementsByTagName('head')[0];
+    var linktg = document.createElement('link');
+    linktg.type = 'text/css';
+    linktg.rel = 'stylesheet';
+    linktg.href = '/templates/berlys/css/scripts.css';
+    headtg.appendChild(linktg);  
+</script>
+<script src="/templates/berlys/js/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/mapas.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/forms.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jquery.bxSlider.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/bxSlider_destacados.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/sifr.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/sifr-config.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jquery.hoverIntent.minified.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jquery.paginate.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jPag.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/jquery.scrollfollow.js" type="text/javascript"></script>
+<script src="/templates/berlys/js/main.js" type="text/javascript"></script>
+  <base href="http://www.berlys.es/en/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Panaderia, Pan precocido, Masas congeladas, Fabricante distribuidor pan congelado, Panificadora, Baguette, Pan rústico, Pan intregal, Chapata, Cereales, Bolleria, Croissant, Napolitana, Madalenas, tartas, Hojaldres, Muffin, Pain au chocolat" />
+  <meta name="rights" content="" />
+  <meta name="language" content="en-GB" />
+  <meta name="description" content="Berlys Corporación Alimentaria es una empresa especializada en la fabricación y comercialización de pan precocido, bollería y pastelería congelada y en soluciones para panaderías, cafeterías, bares, restaurantes, hoteles, caterings" />
+  <meta name="generator" content="Joomla! 1.6 - Open Source Content Management" />
+  <title>Berlys - Panadería, Bollería, Masas congeladas</title>
+  <link href="/en/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/en/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/templates/berlys/css/jquery.fancybox-1.3.4.css" type="text/css" />
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/components/com_gestorproductos/assets/com_gestorproductos.js" type="text/javascript"></script>
+  <script src="/templates/berlys/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+  <script src="/templates/berlys/js/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="cabecera">
+	<div class="elem_cabecera">
+		<h1><a href="/index.php">Berlys</a></h1>
+		<ul class="menu">
+<li class="item-272  active"><a href="/en/" >Home</a></li><li class="item-271  deeper parent"><a href="/en/about-berlys/about-us" >Get to know Berlys</a><div class="bocadillo a271"><div class="borde_sup"></div><ul><li class="item-283 "><a class="m283"  href="/en/about-berlys/about-us" 
+>
+
+Who are we?</a>
+</li><li class="item-284 "><a class="m284"  href="/en/about-berlys/where-we-are" 
+>
+
+Where are we</a>
+</li><li class="item-336 "><a class="m336"  href="/en/about-berlys/our-clients" 
+>
+
+Our clients</a>
+</li><li class="item-285 "><a class="m285"  href="/en/about-berlys/our-team" 
+>
+
+Our team</a>
+</li><li class="item-286 "><a class="m286"  href="/en/about-berlys/our-brands" 
+>
+
+Our brands</a>
+</li><li class="item-287 "><a class="m287"  href="/en/about-berlys/commitments" 
+>
+
+Berlys’ Commitments</a>
+</li><li class="item-288 "><a class="m288"  href="/en/about-berlys/quality-and-food-safety" 
+>
+
+Quality and Food Security</a>
+</li><li class="item-289 "><a class="m289"  href="/en/about-berlys/innovation" 
+>
+
+Innovation</a>
+</li><li class="item-496 "><a class="m496"  href="/en/about-berlys/berlys-design-sandwiches-contest" 
+>
+
+Berlys Design Sandwiches Contest</a>
+</li></ul></div></li><li class="item-273  deeper parent"><a class="m273"  href="/en/our-products" 
+>
+
+Our products</a>
+<div class="bocadillo a273"><div class="borde_sup"></div><ul><li class="item-337 "><a href="/nuestros-productos?filtro=novedades" >News</a></li><li class="item-338 "><a class="m338"  href="/en/our-products/bakery" 
+>
+
+Bakery</a>
+</li><li class="item-339 "><a class="m339"  href="/en/our-products/food-service-bakery" 
+>
+
+Food Service bakery</a>
+</li><li class="item-340 "><a class="m340"  href="/en/our-products/pastries" 
+>
+
+Pastries</a>
+</li><li class="item-341 "><a class="m341"  href="/en/our-products/pastry" 
+>
+
+Pastry</a>
+</li><li class="item-342 "><a class="m342"  href="/en/our-products/salty-snacks" 
+>
+
+Salty snacks</a>
+</li></ul></div></li><li class="item-274 "><a class="m274"  href="/en/news" 
+>
+
+News</a>
+</li><li class="item-275  deeper parent"><a class="m275"  href="/en/health" 
+>
+
+Nutrition</a>
+<div class="bocadillo a275"><div class="borde_sup"></div><ul><li class="item-343 "><a class="m343"  href="/en/health/the-bread-is-health" 
+>
+
+Bread is health</a>
+</li><li class="item-344 "><a class="m344"  href="/en/health/take-care-of-the-smallest" 
+>
+
+We take care of the smallest</a>
+</li><li class="item-345 "><a class="m345"  href="/en/health/bread-and-celiac-disease" 
+>
+
+Bread and celiac disease</a>
+</li><li class="item-346 "><a class="m346"  href="/en/health/trans-fat-free" 
+>
+
+Non-trans-fats</a>
+</li><li class="item-347 "><a class="m347"  href="/en/health/bread-every-day-campaign" 
+>
+
+The Daily Bread Campaign</a>
+</li><li class="item-348 "><a class="m348"  href="/en/health/snacks-for-all" 
+>
+
+Healthy sandwiches for all</a>
+</li></ul></div></li><li class="item-276  deeper parent"><a class="m276"  href="/en/technical-advice" 
+>
+
+Advice</a>
+<div class="bocadillo a276"><div class="borde_sup"></div><ul><li class="item-352  deeper parent"><a class="m352"  href="/en/technical-advice/product-advice" 
+>
+
+Product recommendations</a>
+<div class="bocadillo a352"><div class="borde_sup"></div><ul><li class="item-356  deeper parent"><a href="/en/technical-advice/product-advice/bakery/types-of-dough" >Bakery</a><div class="bocadillo a356"><div class="borde_sup"></div><ul><li class="item-364 "><a class="m364"  href="/en/technical-advice/product-advice/bakery/types-of-dough" 
+>
+
+Types of dough</a>
+</li><li class="item-365 "><a class="m365"  href="/en/technical-advice/product-advice/bakery/ingredients" 
+>
+
+Ingredients</a>
+</li><li class="item-366 "><a class="m366"  href="/en/technical-advice/product-advice/bakery/trends-and-finishing" 
+>
+
+Tendencies and finish</a>
+</li></ul></div></li><li class="item-357  deeper parent"><a href="/en/technical-advice/product-advice/pastries/types-of-dough" >Pastry</a><div class="bocadillo a357"><div class="borde_sup"></div><ul><li class="item-367 "><a class="m367"  href="/en/technical-advice/product-advice/pastries/types-of-dough" 
+>
+
+Dough types </a>
+</li><li class="item-385 "><a class="m385"  href="/en/technical-advice/product-advice/pastries/ingredientes" 
+>
+
+Ingredients</a>
+</li><li class="item-386 "><a class="m386"  href="/en/technical-advice/product-advice/pastries/ultra-pastry-handling" 
+>
+
+Ultra Pastry Handling</a>
+</li><li class="item-387 "><a class="m387"  href="/en/technical-advice/product-advice/pastries/plus-or-gourmet-manipulate" 
+>
+
+Handling Plus or Gourmet Pastry</a>
+</li><li class="item-388 "><a class="m388"  href="/en/technical-advice/product-advice/pastries/trends-and-finishing" 
+>
+
+Tendencies and finish</a>
+</li></ul></div></li><li class="item-358  deeper parent"><a href="/en/technical-advice/product-advice/pastry/presentation-tips" >Patisserie</a><div class="bocadillo a358"><div class="borde_sup"></div><ul><li class="item-389 "><a class="m389"  href="/en/technical-advice/product-advice/pastry/presentation-tips" 
+>
+
+Presentation tips</a>
+</li><li class="item-390 "><a class="m390"  href="/en/technical-advice/product-advice/pastry/handling" 
+>
+
+Handling</a>
+</li></ul></div></li><li class="item-359  deeper parent"><a href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastry" >Finish, decoration and new trends</a><div class="bocadillo a359"><div class="borde_sup"></div><ul><li class="item-392 "><a class="m392"  href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastry" 
+>
+
+Pastry</a>
+</li><li class="item-393 "><a class="m393"  href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastries" 
+>
+
+Pastries</a>
+</li></ul></div></li><li class="item-360 "><a class="m360"  href="/en/technical-advice/product-advice/the-7-key-points" 
+>
+
+The 7 key points</a>
+</li><li class="item-362 "><a class="m362"  href="/en/technical-advice/product-advice/news-and-curiosities" 
+>
+
+News and curiosities</a>
+</li><li class="item-363 "><a class="m363"  href="/en/technical-advice/product-advice/your-online-consultant" 
+>
+
+Your online consultant</a>
+</li></ul></div></li><li class="item-353  deeper parent"><a class="m353"  href="/en/technical-advice/everything-for-your-business" 
+>
+
+Everything for your success</a>
+<div class="bocadillo a353"><div class="borde_sup"></div><ul><li class="item-368  deeper parent"><a href="/en/technical-advice/everything-for-your-business/merchandising-image/whats-merchandising" >Merchandising: Image and profitability</a><div class="bocadillo a368"><div class="borde_sup"></div><ul><li class="item-369 "><a class="m369"  href="/en/technical-advice/everything-for-your-business/merchandising-image/whats-merchandising" 
+>
+
+What is merchandising?</a>
+</li><li class="item-320 "><a class="m320"  href="/en/technical-advice/everything-for-your-business/merchandising-image/the-7-most-common-mistakes" 
+>
+
+The 7 most common errors in shops selling Bread</a>
+</li></ul></div></li><li class="item-371  deeper parent"><a href="/en/technical-advice/everything-for-your-business/effectively-manage-the-key/measurement-indicators" >Efficient management is the key</a><div class="bocadillo a371"><div class="borde_sup"></div><ul><li class="item-380 "><a class="m380"  href="/en/technical-advice/everything-for-your-business/effectively-manage-the-key/measurement-indicators" 
+>
+
+Measurement indicators</a>
+</li></ul></div></li><li class="item-372  deeper parent"><a href="/en/technical-advice/everything-for-your-business/trends-whats-new-in-the-market/from-the-office-of-bread-at-the-bakery-with-tasting-bar" >Tendencies: What’s new on the market?</a><div class="bocadillo a372"><div class="borde_sup"></div><ul><li class="item-381 "><a class="m381"  href="/en/technical-advice/everything-for-your-business/trends-whats-new-in-the-market/from-the-office-of-bread-at-the-bakery-with-tasting-bar" 
+>
+
+From the Office of bread at the bakery with tasting bar</a>
+</li></ul></div></li><li class="item-373  deeper parent"><a href="/en/technical-advice/everything-for-your-business/a-street-case-studies/el-talladet-2" >At street level: real cases</a><div class="bocadillo a373"><div class="borde_sup"></div><ul><li class="item-382 "><a class="m382"  href="/en/technical-advice/everything-for-your-business/a-street-case-studies/el-talladet-2" 
+>
+
+El Talladet de Balaguer</a>
+</li></ul></div></li><li class="item-376 "><a class="m376"  href="/en/technical-advice/everything-for-your-business/your-online-consultant" 
+>
+
+Your online consultant</a>
+</li></ul></div></li><li class="item-354  deeper parent"><a class="m354"  href="/en/technical-advice/elaborations-and-recipes" 
+>
+
+Production and recipes</a>
+<div class="bocadillo a354"><div class="borde_sup"></div><ul><li class="item-378 "><a class="m378"  href="/en/technical-advice/elaborations-and-recipes/snacks" 
+>
+
+Snacks </a>
+</li><li class="item-379 "><a class="m379"  href="/en/technical-advice/elaborations-and-recipes/elaborations" 
+>
+
+Productions</a>
+</li></ul></div></li><li class="item-355 "><a class="m355 candado"  href="/en/technical-advice/design-your-communication-materials" 
+>
+
+Create your communication material</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li></ul></div></li><li class="item-277  deeper parent"><a href="/en/press-room/press-room" >Press Room</a><div class="bocadillo a277"><div class="borde_sup"></div><ul><li class="item-349 "><a class="m349"  href="/en/press-room/press-room" 
+>
+
+Press notes</a>
+</li><li class="item-350 "><a class="m350 candado"  href="/en/press-room/press-kits" 
+>
+
+Press kits</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li><li class="item-351 "><a class="m351 candado"  href="/en/press-room/photo-gallery" 
+>
+
+Photo gallery</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li></ul></div></li></ul>
+
+
+		<div class="icon_cabecera">
+				<div class="search right">
+<form action="/en/" class="right" method="post">
+
+		<label for="mod-search-searchword">Search...</label><input name="searchword" id="mod-search-searchword"   class="inputbox" type="text" size="50" value="Search..."  onblur="if (this.value=='') this.value='Search...';" onfocus="if (this.value=='Search...') this.value='';" /><input type="submit" value=" " class="button" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="" />
+</form>
+
+	</div>
+			<div class="area_prensa">
+				<div class="idiomas">
+															<a href="http://www.berlys.es/es/" class="lang left" ><img src="/templates/berlys/images/espanol.png" alt="Espa&ntilde;ol"/></a>
+															<a href="http://www.berlys.es/pt/" class="lang left" ><img src="/templates/berlys/images/portugal.png" alt="Portugues"/></a>
+														</div>
+			</div>
+			<div class="area_pr">
+				<a href="/privado?return=L2VuLw==" class="area_privada">Private area</a><a href="/registro" class="registrate">Register</a>			</div>
+		</div>
+	</div>
+		
+<div id="slider"> 
+	<ul id="slider1">
+											<li id="sld1" class="claro">		
+		<a href="http://www.berlys.es/en/news/678-new-bakery-xpress" class="link_slider">  
+		<img src="/images/portada/slider/1349696633home_bocadillos_xpress.jpg" alt="Already 90% baked
+Save money&time"/>
+		</a>		
+		<div class="textos_slider slider_claro"><a href="http://www.berlys.es/en/news/678-new-bakery-xpress" class="link_slider"></a><div>  
+		<a href="http://www.berlys.es/en/news/678-new-bakery-xpress" class="link_slider">  
+		
+		<span class="sld_tit_claro">New Bakery<br />
+<strong>Xpress</strong></span> 		<span class="subt_slider">Already 90% baked<br />
+Save money&time</span>		</a>		</div></div>
+		
+		</li>												<li id="sld2" class="claro">		
+		<a href="http://www.berlys.es/en/news/687-new-payesa-cereals-bread" class="link_slider">  
+		<img src="/images/portada/slider/1349697095HOME_PAYESA_CEREALES.jpg" alt="A combination of flax seeds, 
+toasted sesame seeds, wheat bran 
+and oat flakes in its dough"/>
+		</a>		
+		<div class="textos_slider slider_claro"><a href="http://www.berlys.es/en/news/687-new-payesa-cereals-bread" class="link_slider"></a><div>  
+		<a href="http://www.berlys.es/en/news/687-new-payesa-cereals-bread" class="link_slider">  
+		
+		<span class="sld_tit_claro">New <br />
+<strong>Payesa<br />
+cereals</strong></span> 		<span class="subt_slider">A combination of flax seeds, <br />
+toasted sesame seeds, wheat bran <br />
+and oat flakes in its dough</span>		</a>		</div></div>
+		
+		</li>												<li id="sld3" class="claro">		
+		<a href="http://www.berlys.es/en/news/684-new-mini-pain-au-chocolat-and-mini-whirl-nutsamaple-syrup" class="link_slider">  
+		<img src="/images/portada/slider/HOME_MINI_PAIN_AU_CHOCOLAT.jpg" alt="Berlys gourmet cakes and pastries 
+expand its range"/>
+		</a>		
+		<div class="textos_slider slider_claro"><a href="http://www.berlys.es/en/news/684-new-mini-pain-au-chocolat-and-mini-whirl-nutsamaple-syrup" class="link_slider"></a><div>  
+		<a href="http://www.berlys.es/en/news/684-new-mini-pain-au-chocolat-and-mini-whirl-nutsamaple-syrup" class="link_slider">  
+		
+		<span class="sld_tit_claro">Mini Pain au chocolat <br />
+and Mini whirl <br />
+nuts&maple</span> 		<span class="subt_slider">Berlys gourmet cakes and pastries <br />
+expand its range</span>		</a>		</div></div>
+		
+		</li>												<li id="sld4" class="claro">		
+		<a href="http://www.berlys.es/en/about-berlys/berlys-design-sandwiches-contest" class="link_slider">  
+		<img src="/images/portada/slider/1360254375video_concurso.jpg" alt="Click to watch video"/>
+		</a>		
+		<div class="textos_slider slider_claro"><a href="http://www.berlys.es/en/about-berlys/berlys-design-sandwiches-contest" class="link_slider"></a><div>  
+		<a href="http://www.berlys.es/en/about-berlys/berlys-design-sandwiches-contest" class="link_slider">  
+		
+		<span class="sld_tit_claro"><strong>10º Berlys <br />
+Design Sandwiches<br />
+Contest</strong></span> 		<span class="subt_slider">Click to watch video</span>		</a>		</div></div>
+		
+		</li>												<li id="sld5" class="claro">		
+		<a href="http://www.berlys.es/en/news/679-new-koerfest-apricot-braid" class="link_slider">  
+		<img src="/images/portada/slider/1349696428HOME_TRENZA_ALBARICOQUE.jpg" alt="Made with fresh butter and 
+filled with a smooth apricot jam"/>
+		</a>		
+		<div class="textos_slider slider_claro"><a href="http://www.berlys.es/en/news/679-new-koerfest-apricot-braid" class="link_slider"></a><div>  
+		<a href="http://www.berlys.es/en/news/679-new-koerfest-apricot-braid" class="link_slider">  
+		
+		<span class="sld_tit_claro">New <br />
+<strong>Apricot</strong><br />
+<strong>Braid</strong></span> 		<span class="subt_slider">Made with fresh butter and <br />
+filled with a smooth apricot jam</span>		</a>		</div></div>
+		
+		</li>				</ul>
+</div>
+	</div>
+<div id="fondo">
+<div id="content">
+	
+	<div id="contenido">
+				
+		
+						<div class="destacados">
+	<div style="background:url(/images/portada/img/destacado.png) no-repeat left top" >	<a href="/index.php/en/about-berlys/our-clients#ANCLAbarANCLA" class="link_destacado">
+	<span class="destacado_claro">Do you have a  <strong>bar,<br />  cafeteria</strong> or <strong>restaurant?</strong></span>	<span class="enlace_destacado">
+	Recommended for your business >	</span></a>
+	</div>
+	<div style="background:url(/images/portada/img/1317745477destacadop2.png ) no-repeat left top" >	<a href="/index.php/en/about-berlys/our-clients#ANCLApanaderiaANCLA" class="link_destacado">
+	<span class="destacado_claro">Do you have a <strong>bakery or a hot point?</strong> </span>	<span class="enlace_destacado">
+	Recommended for your business >	</span></a>
+	</div>
+	<div style="background:url(/images/portada/img/destacado_catering.png) no-repeat left top" >	<a href="/index.php/en/about-berlys/our-clients#ANCLAhotelANCLA" class="link_destacado">
+	<span class="destacado_claro">Do you have a  <strong>catering</strong> service or hotel<br/><strong>buffet</strong>?</span>	<span class="enlace_destacado">
+	Recommended for your business >	</span></a>
+	</div>
+	</div><div class="destacado_fijo" style="background:url(/images/portada/img/destacado_p3_en.png ) no-repeat left top">	<a href="/index.php/our-products" class="link_destacado">
+	<span class="destacado_claro">The widest <strong>range</strong></span>	<span class="enlace_destacado">
+	Catalog and accessories >	</span></a>
+	</div>
+<!-- <div class="ult_dest">
+	<a href="/index.php/nuestros-productos" class="link_destacado">
+	<span class="destacado_claro">The widest <strong>variety</strong></span>
+	<span class="sub_destacado_claro">An ideal pastry for breakfast</span>
+	<span class="enlace_destacado">Access to our catalog ></span></a>
+</div> -->
+
+			</div>
+</div>
+<div id="pie">
+	<div id="pie_absolute">
+	<ul id="logos">
+		<li class="susc_newsletter"><a href="/suscripcion">Suscribe our newsletter<br/><img src="/templates/berlys/images/berlys_news.png" alt="Suscribe our newsletter"/></a></li>
+		<li class="conoce">Learn about our brands<br/><a href="http://www.korfest.com/" target="_blank"><img src="/templates/berlys/images/korfest.png" alt="Korfest"/></a>
+		<a href="http://www.laautenticabaguette.com/" target="_blank"><img src="/templates/berlys/images/baguette.png" alt="Baguette"/></a>
+		<a href="http://www.betina.es/" target="_blank"><img src="/templates/berlys/images/betina.png" alt="Betina"/></a>
+		<a href="/conoce-berlys/marcas" class="texto_logos"></a></li>
+	</ul>
+	<div class="tlf_pie">
+		<div class="left">
+									<a href="/en/be-berlys-client" class="newsletter"><span>Would you like to become a client?</span><br/>
+									Send us your contact and we call you ></a>
+		</div>
+		<h2>
+									<a href="/en/be-berlys-client">+34 902 32 55 32</a>
+								</h2>
+	</div>
+	<div id="social">
+		<div class="enlaces_marcas">
+			<img src="/templates/berlys/images/me_gusta_el_pan.png" alt="Me gusta el pan" style="float:left"/>
+			<a href="http://pancadadia.es/" target="_blank"><img src="/templates/berlys/images/pan_cada_dia.png" alt="Pan cada d&iacute;a" style="float:left"/></a>
+		</div>
+		<div class="menu_footer">
+			<ul class="menu">
+<li class="item-278 "><a class="m278"  href="/en/legal-notice" 
+>
+
+Legal notice</a>
+</li><li class="item-279 "><a class="m279"  href="/en/accessibility" 
+>
+
+Accessibility</a>
+</li><li class="item-281 "><a class="m281"  href="/en/privacy-policy" 
+>
+
+Privacy policy</a>
+</li><li class="item-280 "><a class="m280"  href="/en/contact" 
+>
+
+Contact</a>
+</li><li class="item-475 "><a class="m475"  href="/en/work-with-us" 
+>
+
+Work with us</a>
+</li><li class="item-282 "><a class="-map" href="#" >Sitemap</a></li></ul>
+
+
+			<span class="claves">Berlys Alimentaci&oacute;n specializes in the manufacture and sale of baked bread, pastries and frozen pastries.</span>
+		</div>
+		<div class="enlaces_sociales">
+			<a href="/index.php/noticias?format=feed&amp;type=rss" rel="external" class="enlace_rss"><img src="/templates/berlys/images/rss.png" alt="RSS"/></a>
+			<a href="https://twitter.com/Berlys_es" rel="external" class="enlace_twitter"><img src="/templates/berlys/images/logo_twitter.png" alt="Berlys en Twitter"/></a>
+			<a href="http://www.facebook.com/BerlysProductos" rel="external" class="enlace_facebook"><img src="/templates/berlys/images/logo_facebook.png" alt="Berlys en Facebook"/></a>
+			<a href="http://www.pinterest.com/BerlysProductos" rel="external" class="enlace_pinterest"><img src="/templates/berlys/images/logo_pinterest.png" alt="Berlys en Pinterest"/></a>
+			<a href="http://www.youtube.com/BerlysCorporacion" rel="external" class="enlace_youtube"><img src="/templates/berlys/images/logo_youtube.png" alt="Berlys en YouTube"/></a>
+		</div>
+	</div>
+	<div class="map" id="mapaweb">
+		<ul class="menu">
+<li class="item-272  active"><a href="/en/" >Home</a></li><li class="item-271  deeper parent"><a href="/en/about-berlys/about-us" >Get to know Berlys</a><div class="bocadillo a271"><div class="borde_sup"></div><ul><li class="item-283 "><a class="m283"  href="/en/about-berlys/about-us" 
+>
+
+Who are we?</a>
+</li><li class="item-284 "><a class="m284"  href="/en/about-berlys/where-we-are" 
+>
+
+Where are we</a>
+</li><li class="item-336 "><a class="m336"  href="/en/about-berlys/our-clients" 
+>
+
+Our clients</a>
+</li><li class="item-285 "><a class="m285"  href="/en/about-berlys/our-team" 
+>
+
+Our team</a>
+</li><li class="item-286 "><a class="m286"  href="/en/about-berlys/our-brands" 
+>
+
+Our brands</a>
+</li><li class="item-287 "><a class="m287"  href="/en/about-berlys/commitments" 
+>
+
+Berlys’ Commitments</a>
+</li><li class="item-288 "><a class="m288"  href="/en/about-berlys/quality-and-food-safety" 
+>
+
+Quality and Food Security</a>
+</li><li class="item-289 "><a class="m289"  href="/en/about-berlys/innovation" 
+>
+
+Innovation</a>
+</li><li class="item-496 "><a class="m496"  href="/en/about-berlys/berlys-design-sandwiches-contest" 
+>
+
+Berlys Design Sandwiches Contest</a>
+</li></ul></div></li><li class="item-273  deeper parent"><a class="m273"  href="/en/our-products" 
+>
+
+Our products</a>
+<div class="bocadillo a273"><div class="borde_sup"></div><ul><li class="item-337 "><a href="/nuestros-productos?filtro=novedades" >News</a></li><li class="item-338 "><a class="m338"  href="/en/our-products/bakery" 
+>
+
+Bakery</a>
+</li><li class="item-339 "><a class="m339"  href="/en/our-products/food-service-bakery" 
+>
+
+Food Service bakery</a>
+</li><li class="item-340 "><a class="m340"  href="/en/our-products/pastries" 
+>
+
+Pastries</a>
+</li><li class="item-341 "><a class="m341"  href="/en/our-products/pastry" 
+>
+
+Pastry</a>
+</li><li class="item-342 "><a class="m342"  href="/en/our-products/salty-snacks" 
+>
+
+Salty snacks</a>
+</li></ul></div></li><li class="item-274 "><a class="m274"  href="/en/news" 
+>
+
+News</a>
+</li><li class="item-275  deeper parent"><a class="m275"  href="/en/health" 
+>
+
+Nutrition</a>
+<div class="bocadillo a275"><div class="borde_sup"></div><ul><li class="item-343 "><a class="m343"  href="/en/health/the-bread-is-health" 
+>
+
+Bread is health</a>
+</li><li class="item-344 "><a class="m344"  href="/en/health/take-care-of-the-smallest" 
+>
+
+We take care of the smallest</a>
+</li><li class="item-345 "><a class="m345"  href="/en/health/bread-and-celiac-disease" 
+>
+
+Bread and celiac disease</a>
+</li><li class="item-346 "><a class="m346"  href="/en/health/trans-fat-free" 
+>
+
+Non-trans-fats</a>
+</li><li class="item-347 "><a class="m347"  href="/en/health/bread-every-day-campaign" 
+>
+
+The Daily Bread Campaign</a>
+</li><li class="item-348 "><a class="m348"  href="/en/health/snacks-for-all" 
+>
+
+Healthy sandwiches for all</a>
+</li></ul></div></li><li class="item-276  deeper parent"><a class="m276"  href="/en/technical-advice" 
+>
+
+Advice</a>
+<div class="bocadillo a276"><div class="borde_sup"></div><ul><li class="item-352  deeper parent"><a class="m352"  href="/en/technical-advice/product-advice" 
+>
+
+Product recommendations</a>
+<div class="bocadillo a352"><div class="borde_sup"></div><ul><li class="item-356  deeper parent"><a href="/en/technical-advice/product-advice/bakery/types-of-dough" >Bakery</a><div class="bocadillo a356"><div class="borde_sup"></div><ul><li class="item-364 "><a class="m364"  href="/en/technical-advice/product-advice/bakery/types-of-dough" 
+>
+
+Types of dough</a>
+</li><li class="item-365 "><a class="m365"  href="/en/technical-advice/product-advice/bakery/ingredients" 
+>
+
+Ingredients</a>
+</li><li class="item-366 "><a class="m366"  href="/en/technical-advice/product-advice/bakery/trends-and-finishing" 
+>
+
+Tendencies and finish</a>
+</li></ul></div></li><li class="item-357  deeper parent"><a href="/en/technical-advice/product-advice/pastries/types-of-dough" >Pastry</a><div class="bocadillo a357"><div class="borde_sup"></div><ul><li class="item-367 "><a class="m367"  href="/en/technical-advice/product-advice/pastries/types-of-dough" 
+>
+
+Dough types </a>
+</li><li class="item-385 "><a class="m385"  href="/en/technical-advice/product-advice/pastries/ingredientes" 
+>
+
+Ingredients</a>
+</li><li class="item-386 "><a class="m386"  href="/en/technical-advice/product-advice/pastries/ultra-pastry-handling" 
+>
+
+Ultra Pastry Handling</a>
+</li><li class="item-387 "><a class="m387"  href="/en/technical-advice/product-advice/pastries/plus-or-gourmet-manipulate" 
+>
+
+Handling Plus or Gourmet Pastry</a>
+</li><li class="item-388 "><a class="m388"  href="/en/technical-advice/product-advice/pastries/trends-and-finishing" 
+>
+
+Tendencies and finish</a>
+</li></ul></div></li><li class="item-358  deeper parent"><a href="/en/technical-advice/product-advice/pastry/presentation-tips" >Patisserie</a><div class="bocadillo a358"><div class="borde_sup"></div><ul><li class="item-389 "><a class="m389"  href="/en/technical-advice/product-advice/pastry/presentation-tips" 
+>
+
+Presentation tips</a>
+</li><li class="item-390 "><a class="m390"  href="/en/technical-advice/product-advice/pastry/handling" 
+>
+
+Handling</a>
+</li></ul></div></li><li class="item-359  deeper parent"><a href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastry" >Finish, decoration and new trends</a><div class="bocadillo a359"><div class="borde_sup"></div><ul><li class="item-392 "><a class="m392"  href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastry" 
+>
+
+Pastry</a>
+</li><li class="item-393 "><a class="m393"  href="/en/technical-advice/product-advice/finish-decoration-and-new-trends/pastries" 
+>
+
+Pastries</a>
+</li></ul></div></li><li class="item-360 "><a class="m360"  href="/en/technical-advice/product-advice/the-7-key-points" 
+>
+
+The 7 key points</a>
+</li><li class="item-362 "><a class="m362"  href="/en/technical-advice/product-advice/news-and-curiosities" 
+>
+
+News and curiosities</a>
+</li><li class="item-363 "><a class="m363"  href="/en/technical-advice/product-advice/your-online-consultant" 
+>
+
+Your online consultant</a>
+</li></ul></div></li><li class="item-353  deeper parent"><a class="m353"  href="/en/technical-advice/everything-for-your-business" 
+>
+
+Everything for your success</a>
+<div class="bocadillo a353"><div class="borde_sup"></div><ul><li class="item-368  deeper parent"><a href="/en/technical-advice/everything-for-your-business/merchandising-image/whats-merchandising" >Merchandising: Image and profitability</a><div class="bocadillo a368"><div class="borde_sup"></div><ul><li class="item-369 "><a class="m369"  href="/en/technical-advice/everything-for-your-business/merchandising-image/whats-merchandising" 
+>
+
+What is merchandising?</a>
+</li><li class="item-320 "><a class="m320"  href="/en/technical-advice/everything-for-your-business/merchandising-image/the-7-most-common-mistakes" 
+>
+
+The 7 most common errors in shops selling Bread</a>
+</li></ul></div></li><li class="item-371  deeper parent"><a href="/en/technical-advice/everything-for-your-business/effectively-manage-the-key/measurement-indicators" >Efficient management is the key</a><div class="bocadillo a371"><div class="borde_sup"></div><ul><li class="item-380 "><a class="m380"  href="/en/technical-advice/everything-for-your-business/effectively-manage-the-key/measurement-indicators" 
+>
+
+Measurement indicators</a>
+</li></ul></div></li><li class="item-372  deeper parent"><a href="/en/technical-advice/everything-for-your-business/trends-whats-new-in-the-market/from-the-office-of-bread-at-the-bakery-with-tasting-bar" >Tendencies: What’s new on the market?</a><div class="bocadillo a372"><div class="borde_sup"></div><ul><li class="item-381 "><a class="m381"  href="/en/technical-advice/everything-for-your-business/trends-whats-new-in-the-market/from-the-office-of-bread-at-the-bakery-with-tasting-bar" 
+>
+
+From the Office of bread at the bakery with tasting bar</a>
+</li></ul></div></li><li class="item-373  deeper parent"><a href="/en/technical-advice/everything-for-your-business/a-street-case-studies/el-talladet-2" >At street level: real cases</a><div class="bocadillo a373"><div class="borde_sup"></div><ul><li class="item-382 "><a class="m382"  href="/en/technical-advice/everything-for-your-business/a-street-case-studies/el-talladet-2" 
+>
+
+El Talladet de Balaguer</a>
+</li></ul></div></li><li class="item-376 "><a class="m376"  href="/en/technical-advice/everything-for-your-business/your-online-consultant" 
+>
+
+Your online consultant</a>
+</li></ul></div></li><li class="item-354  deeper parent"><a class="m354"  href="/en/technical-advice/elaborations-and-recipes" 
+>
+
+Production and recipes</a>
+<div class="bocadillo a354"><div class="borde_sup"></div><ul><li class="item-378 "><a class="m378"  href="/en/technical-advice/elaborations-and-recipes/snacks" 
+>
+
+Snacks </a>
+</li><li class="item-379 "><a class="m379"  href="/en/technical-advice/elaborations-and-recipes/elaborations" 
+>
+
+Productions</a>
+</li></ul></div></li><li class="item-355 "><a class="m355 candado"  href="/en/technical-advice/design-your-communication-materials" 
+>
+
+Create your communication material</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li></ul></div></li><li class="item-277  deeper parent"><a href="/en/press-room/press-room" >Press Room</a><div class="bocadillo a277"><div class="borde_sup"></div><ul><li class="item-349 "><a class="m349"  href="/en/press-room/press-room" 
+>
+
+Press notes</a>
+</li><li class="item-350 "><a class="m350 candado"  href="/en/press-room/press-kits" 
+>
+
+Press kits</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li><li class="item-351 "><a class="m351 candado"  href="/en/press-room/photo-gallery" 
+>
+
+Photo gallery</a>
+<img src='http://www.berlys.es/templates/berlys/images/candado.png' alt='Requiere permisos'/></li></ul></div></li></ul>
+
+
+	</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2916887-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

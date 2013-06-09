@@ -1,0 +1,10 @@
+.px10 {  font: 10px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px12 {  font: 12px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px14 {  font: 14px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px16 {  font: 16px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px18 {  font: 18px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px24 {  font: 24px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+.px36 {  font: 36px/1.4 "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+
+#ydbn11 a { height: 37px; width: 88px; display: block; background-image: url(http://www.yado-sagashi.com/bn/libertybn03_s.gif);}
+#ydbn11 a b { position:relative; height: 37px; width: 88px; display: block; z-index:-1; overflow: hidden; margin: 0px; padding: 0px; font-size: x-small;}

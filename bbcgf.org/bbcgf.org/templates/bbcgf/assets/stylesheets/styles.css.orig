@@ -1,0 +1,891 @@
+/*
+* Super Skeleton
+* Copyright 2011, Brandon R Jones
+* Original Skeleton, Copyright 2011, Dave Gamache
+*/
+
+/* Table of Content
+==================================================
+	#Import Section (load default, untouched files)
+	#Site Styles
+	#Navigation Styles
+	#Image Overlay Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face
+	#Plugin Style Mods (placed here so we can keep originals pure)
+*/
+	
+
+
+
+
+	
+/* ======================================================= */
+/* #IMPORT SECTION */
+/* ======================================================= */
+
+@import url("base.css");     	/* Default Reset, Typography, Forms, etc. */ 
+@import url("skeleton.css"); 	/* 960 Grid + Media Query Layouts */ 
+
+@import url("comments.css"); 	/* Comments Styling (for default WP) */ 
+@import url("buttons.css"); 	/* Button Colors - long, gnarly style code */ 
+@import url("superfish.css");  	
+@import url("flexslider.css");  								/* Superfish Defaults for the Theme (skins are in this doc, below) */ 
+@import url("../javascripts/chosen/chosen.css");   				/* Chosen dropdown menu Styles */ 
+@import url("../javascripts/prettyPhoto/css/prettyPhoto.css");  /* prettyPhoto Styles */ 
+
+@import url("typography-sans.css"); 	/* Typography Font Stack */ 
+
+
+
+
+/* ======================================================= */
+/* #SITE STYLES : Universal Theme Visual Styles */
+/* ======================================================= */
+
+/* Set BG */
+body, 
+h2.title span, 
+ul.tabs li a.active{ 
+	background: #fdfdfd;
+	background: rgba(246,246,246,0.5) ;
+	background: url("../images/theme/backgrounds/asfalt.png") repeat ;
+	position: relative;
+	z-index: 1;
+} 
+
+body:after, 
+/* h2.title span:after, */
+ul.tabs li a.active:after{  
+	content: "";
+	/*background: transparent url("../images/theme/backgrounds/asfalt.png") repeat;*/
+	position:absolute; 
+	z-index:99; 
+	left:0; 
+	bottom:0; 
+	right:0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	}
+
+
+
+/* Wrap .container sections with this to create a full width section (for full width BG color stripes) */
+.full-width{width: 100%;}
+
+hr{	
+	border: solid #000; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; 
+	border-bottom: 1px solid #1a1a1a;
+	}
+	
+hr.partial-bottom{margin-bottom: 20px;}
+
+
+
+/* Responsive Images - Combined with Sencha.io on the frontend */
+.columns img, .column img{max-width: 100%; height: auto;}
+.content img{border: 1px solid #dfdfdf; margin-bottom: 15px;}
+
+/* Basic alignment */
+.align-left{float: left;}
+.align-center{text-align: center;}
+.align-right{float: right}
+
+img.align-left{float: left; margin: 0 15px 12px 0;}
+img.align-center{text-align: center; clear: both; margin: 15px auto; display: block;}
+img.align-right{float: right; margin: 0 0 12px 15px;}
+
+
+/* #Global Transitions */
+.column, .columns, .row, .module-img img, .sf-menu li, .sf-menu a, a.header-advert img, a.sidebar-advert img {
+  	   -moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+	}
+
+/* Custom Lists, Buttons, Tags, etc. */
+ul.square {padding: 10px;}
+a.button{text-align: center;}
+
+/* Form Overrides */
+input{ padding: 10px !important; font-size: 11px !important; }
+input.sidebar-search{ width: 90%; min-width: 195px; } 
+
+/* Tags / Categories Styling */
+.tags a{
+	background: none repeat scroll 0 0 #333333;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	   -moz-border-radius: 3px 3px 3px 3px;
+         -o-border-radius: 3px 3px 3px 3px;
+	        border-radius: 3px 3px 3px 3px;
+    display: block;
+    float: left;
+    margin: 2px 2px 0 0;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+
+/* Miscelleneous Classes */
+img.tag_icon{
+	float: left; 
+	border: 0 !important; 
+	padding: 5px 13px 0 0;
+	margin-bottom: 0;
+	}
+
+#entry .tags{margin: -12px 0 -7px;}
+.tags .button{margin-bottom: 2px;}
+
+.chzn-container-single .chzn-search input{min-width: 20px;}
+ 
+.excerpt .date{margin-bottom: 20px;}
+
+.my-avatar {
+    float: right;
+    padding: 5px;
+    width: 32px;
+    height: 40px;
+}
+
+ul.square, ul.circle, ul.disc {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+/* ======================================================= */
+/* #SECTIONS */
+/* ======================================================= */
+
+/* Section declarations for BG stripes */
+#section-tophat, #section-footer, #section-sub-footer {	position: relative;  z-index: 1;  } /* Setup for :after double bgs below */
+
+#section-tophat{  background: #222;	 background: rgba(0,0,0,0.8);  }
+#section-header{}
+#section-slider{}
+#section-portfolio{}
+#section-projects{}
+#section-sidebar-right{}
+#section-project-single{}
+#section-footer{  background: #222;	 background: rgba(0,0,0,0.8);	}
+#section-sub-footer{  background: #111;	 background: rgba(0,0,0,0.95);   }
+
+.grid-example .column, 
+.grid-example .columns{
+	background: #ccc; 
+	display: block; 
+	height: 60px;
+	margin-bottom: 20px;
+	}
+
+
+/* Now we'll add some more granular styles to each specific section*/
+
+
+/* #TOPHAT */ 
+#section-tophat{
+	border-bottom: 2px solid #232323;
+	background-color: #7c3710;
+	background: transparent url("../images/theme/backgrounds/spice_texture.jpg") repeat;
+}
+
+#section-tophat:after, #section-footer:after{
+	content: "";
+	/*background: transparent url("../images/theme/backgrounds/pattern_diagonal_medium.png") repeat;*/
+	position:absolute; 
+	z-index:99; 
+	left:0; 
+	bottom:0;
+	right:0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+#section-tophat{padding: 5px 0;}
+
+#section-tophat span.subscribe{float: left;}
+#section-tophat span.tagline{color: #000; float: right;}
+
+
+
+/* #HEADER */
+#section-header{}
+h1#logo{
+	margin-bottom: 10px;
+}
+
+/* Header / Sidebar Advertisement */
+/*a.header-advert{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	float: right; 
+	}
+a.header-advert img, a.sidebar-advert img{ 
+	padding: 6px;
+	background: #eee; 
+	background:rgba(200,200,200,0.05);
+	}
+a.header-advert:hover img, a.sidebar-advert:hover img{
+	background: #ddd; 
+	background:rgba(200,200,200,0.3);
+}*/
+/*.email_head {
+	margin-top: 5px;
+	float: right;
+}*/
+
+/* Social Icons Section */
+ul.social{
+	text-align: right; 
+	margin-bottom: 0;
+	}
+	
+ul.social li{
+	display: inline-block; 
+	width: 24px; 
+	height: 24px; 
+	padding: 18px 2px 0; 
+	margin: 0;
+			  -moz-opacity:0.8;
+     filter: alpha(opacity=80);
+     			   opacity:0.8;
+	   -moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+	}
+	        
+ul.social li:hover{
+			   -moz-opacity:1.0 !important;
+     filter: alpha(opacity=100) !important;
+     			    opacity:1.0 !important;
+}	
+
+
+
+/* #SLIDER */
+#section-slider{}
+
+
+
+/* #FOOTER */
+#section-footer{
+	background: transparent url("../images/theme/backgrounds/noise_purple.jpg") repeat;
+	margin-top: 40px;
+	border-top: 2px solid #101010;
+	padding: 40px 0;
+}
+
+#section-footer h5{
+	position: relative;
+	z-index: 1;
+	padding: 2px 10px;
+	margin-bottom: 20px;
+	}
+	
+#section-footer h5:after{
+	content: "";
+	z-index: -1;
+	position: absolute;
+	background: url("../images/theme/backgrounds/pattern_diagonal_dark.png") repeat transparent;
+	left: 0; top: 0; right: 0; bottom: 0;
+}
+ 
+#section-footer ul li{
+	padding:10px 0;
+	margin: 0;
+-webkit-border-top: 1px solid rgba(255, 255, 255, 0.05); /* Top/Bottom border for the dropdown links */
+   -moz-border-top: 1px solid rgba(255, 255, 255, 0.05);
+     -o-border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+	-webkit-border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	   -moz-border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	     -o-border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#section-footer ul li:first-child { 
+	border-top: none; 
+	padding-top: 0;
+	}  
+  
+#section-footer ul li:last-child { 
+	border-bottom: none; 
+	} 
+
+
+
+/* #SUBFOOTER */
+#section-sub-footer{
+	background-color: #7c3710;
+	background: transparent url("../images/theme/backgrounds/asfalt.jpg") repeat;
+}
+
+#section-sub-footer:after {
+	content: "";
+	/*background: transparent url("../images/theme/backgrounds/pattern_diagonal_dark.png") repeat;*/
+	position:absolute; 
+	z-index:99; 
+	left:0; 
+	bottom:0; 
+	right:0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+#section-sub-footer{ 
+	border-top: 2px solid #101010;	
+	}
+#section-sub-footer span{
+	padding: 20px 0;
+	}
+
+#section-sub-footer span.copyright{float: left;}
+#section-sub-footer span.colophon{float: right;}
+
+
+
+
+
+
+/* ======================================================= */
+/* #NAVIGATION STYLES (Theme defaults, then SuperFish mods) */
+/* ======================================================= */
+header .navigation{margin-top: 0;}
+footer .navigation{margin-top: 0;}
+
+
+/* Top Level Styles */
+.sf-menu > li{
+	border-left: 1px solid #000;
+	border-left: 1px solid rgba(0,0,0,1.0);
+	border-right: 1px solid #1a1a1a;
+}
+/*border: solid #000; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; 
+	border-bottom: 1px solid #1a1a1a;*/
+.sf-menu > li > a {
+	padding:15px 15px 19px;
+	background: transparent;
+	margin-bottom: 0; /* Adjust for padding below our list */
+	}
+	
+.sf-menu > li:hover{
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+
+.sf-menu > li:first-child a{padding: 15px 15px 19px 15px;}
+	
+.sf-menu > li > a, .sf-menu > li {
+	   -moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;	
+			}
+
+.sf-menu > li:hover {
+	background: #fefefe; 
+	background: rgba(255,255,255,0.7); 
+	/*-webkit-box-shadow:inset 0 -3px 2px rgba(133,133,133,0.1);
+	 -moz-box-shadow:inset 0 -3px 2px rgba(133,133,133,0.1);
+	   -o-box-shadow:inset 0 -3px 2px rgba(133,133,133,0.1);
+		  box-shadow:inset 0 -3px 2px rgba(133,133,133,0.1);*/
+}
+
+
+/* DARK VERSION - Second Level Styles (the Dropdown) */
+.sf-menu li li:hover, .sf-menu li li.sfHover, .sf-menu li li:focus, .sf-menu li li:hover, .sf-menu li li:active {
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.95);
+  -webkit-box-shadow:inset 0 5px 6px #000000;
+	 -moz-box-shadow:inset 0 5px 6px #000000;
+	   -o-box-shadow:inset 0 5px 6px #000000;
+		  box-shadow:inset 0 5px 6px #000000;
+}
+
+.sf-menu li li a, .sf-menu li li a:hover, .sf-menu li li a:focus {
+	padding:8px 10 8px 11px !important; 
+	background: transparent; margin: 0;
+}
+
+/* MAIN SKIN FOR DROPDOWN */
+.sf-menu li ul {
+	background: url("../images/theme/uparrow.png") no-repeat scroll 35px 5px transparent !important;
+	 /*-webkit-text-shadow: 1px 0 1px #000;
+		-moz-text-shadow: 1px 0 1px #000;
+		  -o-text-shadow: 1px 0 1px #000;
+			 text-shadow: 1px 0 1px #000;*/
+}
+
+.sf-menu li li {
+	margin:0;
+	background: rgb(0,0,0);  /* BG Color for the dropdown */
+	background: rgba(0,0,0,0.8);
+	padding:3px 0;
+-webkit-border-top: 1px solid rgba(255, 255, 255, 0.05); /* Top/Bottom border for the dropdown links */
+   -moz-border-top: 1px solid rgba(255, 255, 255, 0.05);
+     -o-border-top: 1px solid rgba(255, 255, 255, 0.05);
+		border-top: 1px solid rgba(255, 255, 255, 0.05);
+	-webkit-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	   -moz-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	     -o-border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+	  -webkit-border-left: 1px solid rgba(0, 0, 0, 0.9); /* Left/Right border for visibility */
+	     -moz-border-left: 1px solid rgba(0, 0, 0, 0.9);
+	  	   -o-border-left: 1px solid rgba(0, 0, 0, 0.9);
+			  border-left: 1px solid rgba(0, 0, 0, 0.9);
+	 -webkit-border-right: 1px solid rgba(0, 0, 0, 0.9);
+	    -moz-border-right: 1px solid rgba(0, 0, 0, 0.9);
+	      -o-border-right: 1px solid rgba(0, 0, 0, 0.9);
+			 border-right: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.sf-menu li li:first-child {  
+    border-top: none;  
+/*	-webkit-border-radius: 3px 3px 0 0;
+	   -moz-border-radius: 3px 3px 0 0;
+         -o-border-radius: 3px 3px 0 0;
+	        border-radius: 3px 3px 0 0; */
+}  
+  
+.sf-menu li li:last-child {  
+   border-bottom: none;  
+	-webkit-border-radius: 0 0 3px 3px;
+	   -moz-border-radius: 0 0 3px 3px;
+         -o-border-radius: 0 0 3px 3px;
+	        border-radius: 0 0 3px 3px;
+} 
+
+
+
+/* LIGHT VERSION of Dropdown (add the "light" class to .sf-menu to activate) */
+.sf-menu.light li li:hover, .sf-menu.light li li.sfHover, .sf-menu.light li li:focus, .sf-menu.light li li:hover, .sf-menu.light li li:active {
+	background: rgb(249,249,249);
+	background: rgba(249,249,249,1);
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+ /* -webkit-box-shadow:inset 0 5px 8px #EEE;
+	 -moz-box-shadow:inset 0 5px 8px #EEE;
+	   -o-box-shadow:inset 0 5px 8px #EEE;
+		  box-shadow:inset 0 5px 8px #EEE;*/
+}
+
+.sf-menu.light li li {
+	background: rgb(255,255,255);  /* BG Color for the dropdown */
+	background: rgba(255,255,255,0.98);
+ -webkit-border-top: 1px solid rgba(255, 255, 255, 0.9); /* Top/Bottom border for the dropdown links */
+    -moz-border-top: 1px solid rgba(255, 255, 255, 0.9);
+      -o-border-top: 1px solid rgba(255, 255, 255, 0.9);
+		 border-top: 1px solid rgba(255, 255, 255, 0.9);
+	-webkit-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	   -moz-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	     -o-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	  -webkit-border-left: 1px solid rgba(0, 0, 0, 0.1); /* Left/Right border for visibility */
+	     -moz-border-left: 1px solid rgba(0, 0, 0, 0.1);
+		   -o-border-left: 1px solid rgba(0, 0, 0, 0.1);
+			  border-left: 1px solid rgba(0, 0, 0, 0.1);
+	 -webkit-border-right: 1px solid rgba(0, 0, 0, 0.1);
+	    -moz-border-right: 1px solid rgba(0, 0, 0, 0.1);
+	      -o-border-right: 1px solid rgba(0, 0, 0, 0.1);
+			 border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* ======================================================= */
+/* Responsive Nav Queries - Swaps normal Nav with a dropdown menu with the #responsive-nav ID */
+/* ======================================================= */
+
+#responsive-nav{display: none; float: right;}
+#responsive-nav li{clear: both;} 
+
+/* @media only screen 
+and (max-width: 960) {
+  .navigation ul.sf-menu  { display: none; }
+  #responsive-nav, .chzn-container, .chzn-container div { display: inline-block !important; }
+} */
+
+@media only screen and (max-width: 767px) {
+	
+  .navigation ul.sf-menu { display: none;} 
+  
+  #section-tophat span.subscribe, #section-tophat span.tagline,
+  ##section-sub-footer span.copyright, #section-sub-footer span.colophon,
+  {float: none; text-align: center;}
+  
+  header .navigation{margin-top: 10px;}
+  
+  .flex-direction-nav{display: none;}
+  
+  #responsive-nav { display: inline-block !important; width: 100% !important; margin-top: 5px;}
+  
+  #responsive-nav .chzn-container{width: 100% !important;}
+  
+  #responsive-nav .chzn-container-single .chzn-single, #responsive-nav .chzn-container-single .chzn-single div {padding: 4px 9px;}
+  
+  #logo, #tagline p, ul.social, ul.social li{text-align: center;}
+  
+  #tagline p{font-size: 24px; line-height: 28px; padding: 0 10 22px 11px;}
+  
+  ul.social{margin-bottom: 18px !important;}
+  
+  a.button.pagination{width: 90% !important;}
+  
+  ul.social li{
+  	float: none; display: inline; 
+			   -moz-opacity:1.0 !important;	    		  
+     filter: alpha(opacity=100) !important;
+     			    opacity:1.0 !important;
+	}	 
+	
+  .flex-control-nav { /* default opacity */
+			  -moz-opacity:0;
+     filter: alpha(opacity=0);
+     			   opacity:0;     
+     			  }
+     			  
+}
+
+
+
+
+
+
+/* ======================================================= */
+/* #Image Overlay Styles */
+/* ======================================================= */
+.module, .module-img{position: relative; overflow: hidden;}
+.module{margin-bottom: 7px;}
+.module-meta {display: inline;} 
+.module-img{text-align: center;}
+
+/* The lightbox and full post link styles */
+.module-img .thumbLink, .module-img .lightboxLink{
+    background: url("../images/theme/post_link.png") no-repeat scroll 0 0 transparent;
+    height: 20px !important;
+    width: 20px !important;
+    z-index: 9 !important;  
+    margin-top: -26px; /* Nudge up a bit */
+    position: absolute; 
+    right: 0;
+}
+
+.module-img .lightboxLink{
+	background: url("../images/theme/pop_link.png") no-repeat scroll 0 0 transparent;
+    right: 21px;
+}
+
+/* Our transitions for the thumbnails */
+.module-img .thumbLink, .module-img .lightboxLink{ 
+			  -moz-opacity:0.0;
+      filter: alpha(opacity=0);
+     			   opacity:0.0;
+     			   text-indent: -9999px;
+	   -moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+	     -o-transition: opacity .3s ease-in-out;
+	        transition: opacity .3s ease-in-out;
+}
+
+.module:hover .thumbLink, .module:hover .lightboxLink{
+			   -moz-opacity:1.0 !important;	    		  
+     filter: alpha(opacity=100) !important;
+     			    opacity:1.0 !important;
+}
+
+.thumbLink:hover , .lightboxLink:hover { 
+			  -moz-opacity:0.8 !important;	    		  
+     filter: alpha(opacity=80) !important;
+     			   opacity:0.8 !important;
+}
+
+/* Make the entire space clickable */
+.popLink{display: block; height: 20px;}
+
+
+/* Styling for centered overlay */
+.module-img img{
+	border: medium none;
+    margin: 0;
+    outline: medium none;
+    position: relative;
+    text-decoration: none;
+    background: black;
+    z-index: 2;}
+    
+.module-img:hover img{opacity: 0.09;}
+
+.module-img span{
+	background: url("../images/theme/img-bg-pat.png") repeat scroll center center;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -6px; /* Removes auto height of the HTML5 span element */
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+/* ======================================================= */
+/* #PAGE STYLES SECTION */
+/* ======================================================= */
+
+
+
+
+	
+	
+/* ======================================================= */
+/* #FONT-FACE TEMPLATE */
+/* ======================================================= */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+
+/* ======================================================= */
+/* #PLUGIN MODS SECTION (continues until end of document) */
+/* ======================================================= */
+
+
+/* ======================================================= */
+/* #FILTERABLE */
+/* ======================================================= */
+
+#portfolio-list{
+	   -moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	     -o-transition: all 1s ease-in-out;
+	        transition: all 1s ease-in-out;
+}
+
+#portfolio-list .module-meta{display: none;}
+
+#portfolio-list .module-meta.visible{display: inline;}
+
+span.list_btn:hover, span.grid_btn:hover, span.hybrid_btn:hover{cursor: pointer;}
+
+.portfolio-filters{float: left;}
+
+.portfolio-view{float: right;}
+
+.portfolio-filters span, .portfolio-view span{margin-right: 10px;}
+
+.portfolio-view span{float: left; margin-top: 6px;}
+
+span.grid_btn, span.list_btn, span.hybrid_btn {margin-right: 3px; margin-top: 0px;}
+
+.portfolio-nav{margin-bottom: 10px;}
+
+.portfolio-nav a.button{margin-bottom: 4px; background: white;}
+
+.portfolio-nav a.button:hover{background: #fafafa;}
+
+.portfolio-nav p{margin-bottom: 0;} 
+
+
+
+/* ======================================================= */
+/* Tipsy */
+/* ======================================================= */
+.tipsy { padding: 5px; font-size: 10px; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(../images/theme/tipsy.gif); }
+.tipsy-inner { padding: 5px 8px 4px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
+.tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+.tipsy-north { background-position: top center; }
+.tipsy-south { background-position: bottom center; }
+.tipsy-east { background-position: right center; }
+.tipsy-west { background-position: left center; }
+
+
+
+
+/* ======================================================= */
+/* #FLEX SLIDER MODS */
+/* ======================================================= */
+
+.flexslider {
+	background: transparent; 
+	border: 0 solid #fff;
+	-webkit-border-radius: 0; 
+	   -moz-border-radius: 0; 
+		 -o-border-radius: 0; 
+			border-radius: 0;
+			}
+.flexslider-container {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.slider-shadow:after {
+	content:"\00a0";
+	background: url("../images/theme/slide-shadow.png") bottom center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	overflow: visible;
+	display: block; 
+	position: absolute;
+	margin-top: -32px;
+    height: 62px;  /* Same as your image height */  
+    width: 100%;  /* Same as your image width */  
+}
+
+/* Caption style 
+*********************************/ 
+.flex-caption {width: 100%; padding: 22px; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 15px; line-height: 21px; margin-bottom: 0;}
+
+/* Next/Previous Buttons 
+*********************************/ 
+.flex-direction-nav{overflow: hidden; margin: 0;}
+.flex-direction-nav li{margin-bottom: 0;}
+.flex-direction-nav li a {width: 45px; height: 38px; margin: -13px 0 0; display: block; background: url("../images/theme/flexslider_direction_nav.png") no-repeat 0 0; position: absolute; top: 49%; cursor: pointer; text-indent: -9999px;} /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+
+.flex-direction-nav li a.next {background-position: -38px 0; right: -150; text-indent: -9999px;} /* default position */
+.flex-direction-nav li a.prev {background-position: 0 0; left: -150; text-indent: -9999px;} /* default position */
+
+.flex-direction-nav li a.next, .flex-direction-nav li a.prev, .flex-control-nav { /* default opacity */
+			  -moz-opacity:0.0; 
+     filter: alpha(opacity=00);
+     			   opacity:0.0;     	  
+	   -moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+.flexslider-container:hover li a.next,.flexslider-container:hover li a.prev{  /* hover opacity */
+			   -moz-opacity:0.7 !important;	    		  
+      filter: alpha(opacity=70) !important;
+     			    opacity:0.7 !important;
+}
+.flex-direction-nav li a.next:hover,.flex-direction-nav li a.prev:hover{  /* hover opacity */
+			   -moz-opacity:1.0 !important;	    		  
+     filter: alpha(opacity=100) !important;
+     			    opacity:1.0 !important;
+}
+.flexslider-container:hover li a.next {right: 15px;} /* hover position */
+.flexslider-container:hover li a.prev {left: 15px;} /* hover position */
+
+/* Control Nav 
+*********************************/ 
+.flex-control-nav {
+	background: white;
+	background: rgba(255,255,255,0.02);
+	margin: 0 0 0 0;
+	position: absolute; 
+	bottom: 25px;	
+	left: 50%;
+	margin-left: -45px; /* This may need to be adjusted with lots of slides or less */
+	/* left: inherit;
+	right: 18px; */	
+	padding: 8px;
+	list-style: none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid white;
+	border: 1px solid rgba(255,255,255,0.02);
+			  -moz-opacity:0.0;
+     filter: alpha(opacity=00);
+     			   opacity:0.0;
+}
+.flexslider-container:hover .flex-control-nav{
+			  -moz-opacity:1;
+  filter: alpha(opacity=100);
+     			   opacity:1;
+}
+.flex-control-nav li {margin: 0 0 0 5px; float: left;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url("../images/theme/flexslider_control_nav.png") no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+
+
+
+/* ======================================================= */
+/* #MEDIA QUERIES SECTION */
+/* ======================================================= */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		a.sidebar-advert img { width: 43%; }
+		.slider-shadow:after {
+			background: url("../images/slide-shadow.png") bottom center;
+			-webkit-background-size: contain;
+			-moz-background-size: contain;
+			-o-background-size: contain;
+			background-size: contain;
+			margin-top: -45px !important;
+		}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		  a.header-advert{margin-top: 0; text-align: center;}
+  
+  		  a.header-advert img{width: 410px;}
+  		  
+  		  .commentlist .comment-body {padding: 30px !important;}
+  		  
+  		  h2.title span:after{  
+			content: "";
+			background: transparent;
+			}
+		
+		  #section-tophat{text-align: center;}
+		  .subscribe, .tagline{float: none !important;} 
+		  .subscribe:after{  
+			content: " | ";
+			}
+			
+		  .aside{ 
+		  	padding: 0;
+		  	border-right: 0px solid rgba(155, 155, 155, 0.2); 
+		  	}
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480) and (max-width: 767px) {
+		.flex-control-nav {bottom: 29px;}
+		.slider-shadow:after {background: none transparent;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		a.header-advert img{width: 290px;}
+		.flex-control-nav {bottom: 29px;}
+		.slider-shadow:after {background: none transparent;} 
+		
+	}

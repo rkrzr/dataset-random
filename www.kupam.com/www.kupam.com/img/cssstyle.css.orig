@@ -1,0 +1,396 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+td {font-family: verdana;font-size: 11px; font-color: black;}
+  	.mini {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-color: black;
+	color: #000000;
+	text-decoration: none;
+}
+	.koyuyazi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-color: black;
+	color: #FF0000;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+	.box {
+	border: 1px solid #CFCFCF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFFF;
+	color: #333333;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+	.kutubaslik {
+	border: 1px none black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 1px;
+	padding: 1px;
+	background-color: #FFFFFF;
+	text-indent: 15px;
+	background-image: url(cell1.jpg);
+}
+	.lk2 {
+	COLOR: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 1px;
+	margin: 2px;
+}
+.lk2:hover {
+	COLOR: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+	body {
+	margin-top: 0px;
+
+	SCROLLBAR-FACE-COLOR: white;
+	SCROLLBAR-HIGHLIGHT-COLOR: gray;
+	SCROLLBAR-SHADOW-COLOR: gray;
+	SCROLLBAR-3DLIGHT-COLOR: white;
+	SCROLLBAR-ARROW-COLOR: red;
+	SCROLLBAR-TRACK-COLOR: white;
+	SCROLLBAR-DARKSHADOW-COLOR: gray;
+	
+	}	
+.style1 {
+	color: #408080;
+	font-size: 12px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.cel1 {
+	width: auto;
+	border: 1px solid #FFFFFF;
+	left: 11px;
+	clip:   rect(auto auto auto auto);
+	padding-left: 5px;
+	padding-right: 30px;
+}
+.baslikkirmizi {
+	font-size: 12px;
+	color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.haberbaslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.cell2 {
+	width: auto;
+	border: 1px outset #FFFFFF;
+	left: 11px;
+	clip:   rect(auto auto auto auto);
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+.lk2new {
+	COLOR: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.lk2new:hover {
+	COLOR: #990000;
+	font-size: 12px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}.listbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #990000;
+	font-style: normal;
+	font-weight: bold;
+}
+.projebaslik {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+.yazi1 {
+	font-size: 11px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 3px;
+}
+
+
+.haberanasayfa {
+	font-size: 11px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.haberanasayfa:hover {
+	font-size: 11px;
+	color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.yesiluzerinesiyah {
+	font-size: 13px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #9AC774;
+}
+
+.texta {
+	font-size: 10px;
+	border: 1px solid #E6E6E6;
+	color: #FFFFFF;
+}
+.texta2 {
+
+	font-size: 12px;
+	background-color: #147CA3;
+	border: 0px none #666666;
+	color: #FFFFFF;
+}
+.buyukdugmeyazi {
+	COLOR: #990033;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.buyukdugmeyazi:hover {
+	COLOR: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.ortala {
+	text-align: center;
+	vertical-align: middle;
+}
+.textbox2 {
+	background-position: center center;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	border: thin inset #00730C;
+}
+.menubasliklari {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0px;
+	padding: 3px 0px 2px 3px;
+	text-decoration: none;
+}
+.menuyazilari {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 0px 0px 7px;
+}
+.anasayfabasliklar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+.anasayfaicerik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin: 10px 5px;
+	padding: 0px;
+	text-decoration: none;
+}
+.girisbaslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #86C1EB;
+	font-weight: bold;
+	text-align: center;
+}
+.girisdugme {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666666;
+	background-image: url(dugmealti.jpg);
+	text-decoration: none;
+	text-align: center;
+}
+.menuyazilari:hover {
+	COLOR: #DB021F;
+	font-size: 12px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 7px;
+}
+.menubasliklari:hover {
+	COLOR: #DB021F;
+	font-size: 12px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 12px;
+	padding-left: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom: 2px;
+	background-image: url(cellustu2.jpg);
+}
+.ik-tarz1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #86C1EB;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+	border: thin none #000099;
+	margin: 0px;
+}
+.iktarz2 {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin: 10px;
+	padding: 0px 0px 0px 10px;
+	text-decoration: none;
+}
+.textbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #009966;
+	text-decoration: none;
+	border: thick groove #009999;
+}
+.box2 {
+border: 1px solid #999999; font-family: Arial, Helvetica, sans-serif; font-size: 14px; background-color: #D4E8C5; color: #333333; font-weight: bold;
+}
+.lk3 {
+	COLOR: #1C8FBC;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+}
+.lk3:hover {
+	COLOR: #0000FF;
+	font-size: 11px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.baslikkirmizi2 {
+	font-size: 12px;
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.kutubaslik2 {
+
+	border: 1px none black;
+	font-family: verdana;
+	font-size:12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 10px;
+	padding: 3px 3px 3px 13px;
+	background-color: #FFFFFF;
+	text-indent: 20px;
+	background-image: url(cell2.jpg);
+}
+.lk2siyah {
+
+	COLOR: #026386;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+.lk2siyah:hover {
+
+	COLOR: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.topintopi {
+	padding: 0px 0px 0px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #A2A2A2;
+	color: #FFFFFF;
+	margin: 0px;
+}
+.lk3new {
+
+	COLOR: #FFFFFF;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.lk3new:hover {
+
+	COLOR: #990000;
+	font-size: 12px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+.h1 {
+	font-size: 12px;
+	color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 2px;
+	padding: 2px;
+}

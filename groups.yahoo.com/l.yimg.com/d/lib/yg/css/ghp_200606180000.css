@@ -1,0 +1,128 @@
+
+
+#ygrp-home h4 {
+  margin-bottom:5px;
+}
+
+#ygrp-home {
+  margin-bottom:15px;
+}
+#ygrp-home .desc-pic {
+  display:inline;
+  clear:none;
+  float:right;
+  margin:3px 0 1px 10px;
+}
+#ygrp-home .ygrp-desc {
+  width:100%;
+  margin-bottom:10px;
+}
+#ygrp-home .ygrp-desc td {
+  vertical-align:top;
+}
+
+.ygrp-act h4 {display:inline;}
+.ygrp-act {margin-bottom:10px;}
+.ygrp-acti {display:inline; padding-left:20px;}
+.ygrp-actt {white-space:nowrap;}
+.ygrp-actd {
+  font-size:118%;
+  color:#8a8a8a;
+  font-weight:bold;
+}
+.ygrp-actn {
+  font-size:118%;
+  color:#ff9900;
+  font-weight:bold;
+}
+
+.ygrp-links {margin-bottom:15px;}
+.ygrp-links td {padding-right:15px;}
+
+/* Recent msgs */
+
+.headview h4 {display:inline;}
+
+.ygrp-msgs {
+  width:100%;
+  margin-bottom:10px;
+}
+.ygrp-msgs td {padding:8px 0;}
+.ygrp-msgs .ygrp-author {
+  padding-left:40px;
+  width:25%;
+  white-space:nowrap;
+}
+.ygrp-msgs td {border-top:1px solid #f0f0f0;}
+.ygrp-msgs tr.firstrow td {border-top:0px; }
+.ygrp-msgs .ygrp-author .photo {clear:none; float:right;}
+.ygrp-msgs .ygrp-msgsum {margin-bottom:3px;}
+.ygrp-msgs .ygrp-date {color:#8a8a8a;}
+.ygrp-msgs .ygrp-subj {font-size:1.1em;}
+.ygrp-msgs .ygrp-msg {font:88% georgia, times new roman, serif;}
+
+.ygrp-msgh {
+  text-align:center;
+  margin-bottom:10px;
+}
+table.ygrp-mcal {
+  font:74% verdana, arial, helvetica, sans-serif;
+  margin:auto;
+}
+table.ygrp-mcal th {
+  font-weight:normal;
+  text-align:center;
+}
+table.ygrp-mcal th.year {
+  padding-right:5px;
+}
+table.ygrp-mcal th.month {
+  padding:3px;
+}
+table.ygrp-mcal td {
+  vertical-align:top;
+  text-align:center;
+  background:#DBE3EB;
+  padding:3px;
+}
+
+.ygrp-tabbed-container {margin:15px 0 13px 0;}
+.ygrp-tabbed-container h4 {margin-top:10px;}
+.ygrp-tabbed-container .ygrp-contentblock {padding-top:5px;}
+.ygrp-tabline {padding-left:10px;}
+.ygrp-tabline .corner-top .corner-left {left:-12px;}
+
+#ygrp-ginfo { padding-right:5px; }
+.ygrp-info {
+  font:74% verdana, arial, helvetica, sans-serif;
+}
+.ygrp-info li { margin-bottom:5px; }
+#ygset ul {list-style-type:disc; margin-left:15px;}
+
+#ygrp-sub-notice.ygrp-container-border {
+  margin-bottom:13px;
+}
+#ygrp-sub-notice .ygrp-contentblock {
+  padding:8px 15px;
+  text-align:center;
+}
+#ygrp-stat-notice.ygrp-container-border {
+  margin-bottom:13px;
+}
+#ygrp-stat-notice .ygrp-contentblock {
+  padding:8px 15px;
+  text-align:center;
+}
+#ygrp-home .ygrp-msgs .date {
+  font-family: Verdana;
+  padding-right: 11px;
+  text-align:left;
+  
+}
+#ygrp-home .ygrp-msgs .date img{
+  padding-top: 3px;
+  
+}
+#ygrp-home .ygrp-msgs .ygrp-msg{
+  font-size: 100%;
+}

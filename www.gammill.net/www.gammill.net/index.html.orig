@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gammill | Home | Makers of Gammill and Statler Stitcher Longarm Quilting Systems</title>
+<meta name="keywords" content="Longarm quilting machines,Long arm quilting machines,Longarm,Long arm,Quilting machines,Quilting systems,Professional quilting machines,Professional quilting systems,Quilting business,Computerized quilting machines,Computerized longarm quilting machines,Computerized long arm quilting machines,Quilting machine manufacturers,Longarm quilting systems,Long arm quilting systems,Longarm manufacturers,Long arm manufacturers,American quilting machines,American longarm quilting machines,Hand-guided quilting machines,Nolting,APQS,A-1,Prodigy">
+<meta name="description" content="Gammill And Statler Stitcher Professional Longarm Computerized Quilting Systems and Machines">
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+
+
+<link rel="stylesheet" href="scripts/layerslider/css/layerslider.css" type="text/css">
+<script src="scripts/layerslider/jQuery/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="scripts/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+<script src="scripts/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="shadow/shadowbox.css">
+<script type="text/javascript" src="shadow/shadowbox.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script type="text/javascript"> Shadowbox.init({ language: 'en', players: ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] }); </script>
+
+	<script type='text/javascript'>
+	$(document).ready(function() {
+			$('#bar').layerSlider({
+
+			    autoStart           : true,
+			    firstLayer          : 1,
+			    twoWaySlideshow     : true,
+			    keybNav             : true,
+			    imgPreload          : true,
+			    navPrevNext         : false,
+			    navStartStop        : true,
+			    navButtons          : true,
+			    skin                : 'lightskin',
+			    skinsPath           : './layerslider/skins/',
+
+			    // you can change this settings separately by layers or sublayers with using html style attribute
+
+			    slideDirection      : 'left',
+			    slideDelay          : 7000,
+			    parallaxIn          : .45,
+			    parallaxOut         : .45,
+			    durationIn          : 1000,
+			    durationOut         : 1000,
+			    easingIn            : 'easeInOutQuint',
+			    easingOut           : 'easeInOutQuint',
+			    delayIn             : 0,
+			    delayOut            : 0
+
+			});
+			
+			$("#green-bar").hide();
+			$(".menu_items").hide();
+			
+			function hoverItem(item, green, roll) {
+				
+				$(item).hover(function() {
+				
+				// HIDE ALL OTHER
+				$('.green_bar').hide();
+				$('.menu_items').hide();
+					
+				});
+				
+			}
+			
+
+			// HOVER OVER PRODUCTS
+			$("#products").click(function() {
+				$("#green-bar").slideDown(300);
+				return false;
+
+				
+			});
+			
+
+			$("#store").hover(function() {
+				//$("#green-bar").slideUp(300);
+				//$(".menu_items").hide();
+				//return false;
+			});
+			
+			$("#green-bar").mouseleave(function() {
+				
+			//	$("#green-bar").slideUp(300);
+				
+			});
+			
+			function showMenu(menu) {
+				if($(menu).siblings(".menu_items").is(":visible")) {
+					$(menu).siblings('.menu_items').fadeOut(200).delay(300);
+					$(menu).fadeIn(600);
+					
+				} else {
+					$(menu).slideDown(600);
+				}
+			}
+			
+			
+			$("#sewing").click(function() {
+				showMenu("#sewing_photos");
+				return false; 
+
+			});
+
+$(document).click(function() { 
+				$(".menu_items").slideUp(300);
+				$("#green-bar").slideUp(300);
+}); 
+
+	/*		
+			$("#content-bg").click(function(){
+				$(".menu_items").slideUp(300);
+				$("#green-bar").slideUp(300);
+			});
+
+			$("#content-bg-new").click(function(){
+				$(".menu_items").slideUp(300);
+				$("#green-bar").slideUp(300);
+			});
+
+			$("#white-wrap").click(function(){
+				$(".menu_items").slideUp(300);
+				$("#green-bar").slideUp(300);
+			});
+	*/
+
+
+			$("#stitching").click(function() {
+				showMenu("#stitching_photos");
+				return false; 
+
+				
+			});
+			$("#sitdown").click(function() {
+				showMenu("#sitdown_photos");
+				return false; 
+
+				
+			});
+			
+			$("#opt_three").hover(function() {
+				showMenu("#option_three");
+				return false; 
+
+			});
+			
+			$(".menu_items").mouseleave(function() {
+				//$(this).slideUp(600);
+			});
+			
+			$(".green_detail_box").hide();
+			
+			$(".product_dd").hover(function() {
+				$(this).children(".green_detail_box").slideDown(300);
+			}, function() {
+				$(this).children(".green_detail_box").slideUp(300);
+			});
+			
+	});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7528401-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script><meta name="google-site-verification" content="jME6oaYIh3OIhKbrA17g6UQmiqob-FYnUOPwih0A6xs" />
+</head>
+
+<body>
+
+<div id="header-bg">
+<div id="header">
+<table width="260" border="0" align="right" cellpadding="2" cellspacing="0">
+  <tr>
+    <td width="27"><div id="forum-over-nav"><a href="https://www.gammill.com/forum/">GQ Talk Forum</a></div></td>
+    <td width="27"><div id="special-over-nav"><a href="offers.php">Special Offers</a></div></td>
+    <td width="27"><div id="news-over-nav"><a href="newsletter.php">Newsletter</a></div></td>
+    <td width="27"><a href="contact.php"><img src="images/email.gif" border="0" /></a></td>
+    <td width="27"><a href="http://www.facebook.com/gammillquilting" target="_blank"><img src="images/facebook.gif" border="0" /></a></td>
+    <td width="27"><a href="http://pinterest.com/gammillquilting/" target="_blank"><img src="images/pinterest.gif" border="0" /></a></td>
+    <td width="27"><a href="http://twitter.com/#!/GammillQuilting" target="_blank"><img src="images/twitter.gif" border="0" /></a></td>
+    <td width="27"><a href="http://www.youtube.com/gammillvision" target="_blank"><img src="images/youtube.gif" border="0" /></a></td>
+    </tr>
+</table>
+<div id="clearer"></div> 
+
+	<div id="nav">
+<div id="home">
+<a href="index.php"><img src="images/logo.gif" border="0" /></a>
+</div>
+<ul>
+	<li id="nav-about"><a href="about.php"><span>About Us</span></a></li>
+    <li id="nav-relations"><a href="customer_relations.php"><span>Customer Relations</span></a></li>
+	<li id="nav-products"><a href="#" id='products'><span>Products</span></a></li>
+	<li id="nav-store"><a href="https://store.gammill.net/" id='store'><span>Store</span></a></li>
+    <li id="nav-education"><a href="education.php"><span>Education &amp; Community</span></a></li>
+    <li id="nav-finance"><a href="financing.php"><span>Financing</span></a></li>
+    <li id="nav-shows"><a href="showdates.php"><span>Shows &amp Classes</span></a></li>
+    <li id="nav-dealer"><a href="meetdealer.php"><span>Dealer Info</span></a></li>
+</ul>
+
+</div><!-- nav -->
+
+</div><!-- header -->
+</div><!-- header-bg -->
+
+<div id="white-wrap">
+<!-- SUB NAV -->
+	<div id="green-bar" class='green_bar'>
+		<div id="green-container">
+			<ul>
+				<li><a href="#" id='sewing'>Gammill Vision</a></li>
+	    		<li class="white-line"><a href="#" id="stitching">Statler Stitcher</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class='clearfix'></div>
+	
+	<!-- green-bar -->
+<div id="sewing_photos" class='menu_items'>
+	<div class="image-menu">
+		<div class="image-menu-container"> 
+			
+			<div class='product_dd'><a href='product.php?id=6'><img border='0' src='images/products/30_12_pv.jpg' width='334' height='258' /></a><div class='green_detail_box'><div style="cursor: pointer;" onclick="document.location.href='product.php?id=6';return false;" class='green-box-copy'><div class='green-box-title'>GAMMILL VISION 30-12</div><p>Throat Space: 30" wide x 12" high Quilting Area: 24"</p><a href='product.php?id=6'>Learn More &gt;</a></div></div></div><div class='product_dd'><a href='product.php?id=4'><img border='0' src='images/products/22_10_v.jpg' width='334' height='258' /></a><div class='green_detail_box'><div style="cursor: pointer;" onclick="document.location.href='product.php?id=4';return false;" class='green-box-copy'><div class='green-box-title'>GAMMILL VISION 22-10</div><p>Throat Space: 22" wide x 10" high Quilting Area: 17"</p><a href='product.php?id=4'>Learn More &gt;</a></div></div></div><div class='product_dd'><a href='product.php?id=5'><img border='0' src='images/products/26_10_v.jpg' width='334' height='258' /></a><div class='green_detail_box'><div style="cursor: pointer;" onclick="document.location.href='product.php?id=5';return false;" class='green-box-copy'><div class='green-box-title'>GAMMILL VISION 26-10</div><p>Throat Space: 26" wide x 10" high Quilting Area: 21"</p><a href='product.php?id=5'>Learn More &gt;</a></div></div></div><div class="clear"><img src="images/shade_divide.jpg" /></div><div class='product_dd'><a href='product.php?id=3'><img border='0' src='images/products/18_8_v.jpg' width='334' height='258' /></a><div class='green_detail_box'><div style="cursor: pointer;" onclick="document.location.href='product.php?id=3';return false;" class='green-box-copy'><div class='green-box-title'>GAMMILL VISION 18-8</div><p>Throat Space: 18" wide x 8" high Quilting Area: 14"</p><a href='product.php?id=3'>Learn More &gt;</a></div></div></div><div class='product_dd'><a href='product.php?id=2'><img border='0' src='images/products/18_8_pv_n.jpg' width='334' height='258' /></a><div class='green_detail_box'><div style="cursor: pointer;" onclick="document.location.href='product.php?id=2';return false;" class='green-box-copy'><div class='green-box-title'>GAMMILL PREMIER 18-8</div><p>GAMMILL PREMIER 18-8 Throat Space: 18" wide x 8" high Quilting Area: 14"</p><a href='product.php?id=2'>Learn More &gt;</a></div></div></div><div class="clear"><img src="images/shade_divide.jpg" /></div>					</div>
+	</div>
+</div><!-- green-bar -->
+<div id="stitching_photos" class='menu_items'>
+	<div class="image-menu">
+		<div class="image-menu-container"> 
+			<div class="product_dd">
+            <a href="statler_18_8.php"><img border="0" src="images/statler_s_18_8.jpg" width='334' height='258' /></a>
+				<div style="cursor: pointer;" onclick="document.location.href='statler_18_8.php';return false;" class='green_detail_box'>
+					<div class="green-box-copy">
+					<div class="green-box-title">Statler Stitcher</div>
+					<p>Statler Stitcher machines are operated by computer software and hardware and are capable of stitching almost any design.</p>
+					
+					<a href="statler_18_8.php">Learn More ></a>
+					</div><!-- green-box-copy -->
+				</div>
+			</div>
+		  <div class='clear'><img src="images/shade_divide.jpg" /></div>
+		</div>
+	</div>
+</div>
+
+
+<div id="option_three" class='menu_items'>
+<div class="image-menu">
+<div class="image-menu-container">
+  <a href="#"><img src="images/stitcher_ph.jpg" border="0" class="dot-line" /></a>
+  <a href="#"><img src="images/stitcher_ph.jpg" border="0" class="dot-line" /></a>
+<img src="images/shade_divide.jpg" />
+</div>
+</div>
+</div>
+<!-- END SUB NAV -->
+
+	
+
+<div id="barWrap">
+<div id="bar">
+	
+	
+	<div class='ls-layer'>
+<img class='ls-bg' src='images/Gammill_S_Delivery_Background.jpg' width='1200px' height='309px' alt='layer1-background' /><div class='ls-s1' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: ; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/GAM_S_Delivery_top_Box.png' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p style="padding: 0px; margin: 0px; margin-top: 0px; margin-left: -101px; height: 54px;"><img src="../images/GAM_S_Delivery_bt_Box.png" alt="" height="92" /></p></div><div class='clear'></div>
+<br /><a href='http://www.gammill.com/offers.php'><img src='images/GAM_S_Delivery_BottomBox.png' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/Gammill_CS_42_Background.jpg' width='1200px' height='309px' alt='layer2-background' /><div class='ls-s2' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: #ffffff; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/GAM_CS_42_Headline.jpg' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p style="padding: 0px; margin: 0px; margin-top: -4px; margin-left: -88px; height: 58px;"><img src="images/GAM_CS_Headline_boxes.jpg" alt="" /></p></div><div class='clear'></div>
+<br /><a href='creative_software.php'><img src='images/GAM_CS_42_BottomBox.png' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/Gammill_Forum_homepageslider.jpg' width='1200px' height='309px' alt='layer3-background' /><div class='ls-s3' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: ; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/forum_header_top.jpg' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p style="padding: 0px; margin: 0px; margin-top: 0px; margin-left: -101px; height: 48px;"><img src="../images/forum_header_bottom.jpg" alt="" height="85" /></p></div><div class='clear'></div>
+<br /><a href='https://www.gammill.com/forum/'><img src='images/click_to_join.jpg' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/Proposed_slider_image.jpg' width='1200px' height='309px' alt='layer4-background' /><div class='ls-s4' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<a href='offers.php'><img src='images/Untitled.png' border='0' width='1200px' height='309px'></a></div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/quiltbg2.jpg' width='1200px' height='309px' alt='layer5-background' /><div class='ls-s5' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: #994467; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/realize_red.jpg' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p><span>With our value-priced Vision 18-8, you can have a complete system from the brand that quilters around the globe have trusted for more than 30 years.</span></p></div><div class='clear'></div>
+<br /><a href='https://www.youtube.com/v/6JjhQFxydF8&autoplay=1'rel="shadowbox;width=640;height=480;player=swf"><img src='images/learn_more_red.jpg' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/quiltbg3.jpg' width='1200px' height='309px' alt='layer6-background' /><div class='ls-s6' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: #649b97; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/realize_blue.jpg' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p><span>Test drive a Gammill&reg; at one of many upcoming shows!</span></p></div><div class='clear'></div>
+<br /><a href='showdates.php'><img src='images/learn_more_blue.jpg' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+<div class='ls-layer'>
+<img class='ls-bg' src='images/quiltbg1.jpg' width='1200px' height='309px' alt='layer7-background' /><div class='ls-s7' style="durationin: 1800; easingin: easeOutExpo; delayin: 400; delayout: 50">
+
+<div style='width: 536px; height: 180px; background-color: #9abc30; float:right; margin-top: 60px; margin-left: 560px;'>
+<img src='images/realize.jpg' alt='Relize' width='536' height='88px' />
+<div class='greenCopy'><p><span>Owning a Gammill quilting machine can help you tap into your creativity and produce the type of quilts you've always dreamed of. </span></p></div><div class='clear'></div>
+<br /><a href='education.php'><img src='images/learn_more.jpg' alt='Learn More!' border='0' width='536px' height='42px' /></a>
+</div>
+</div></div>
+
+
+
+ 
+
+</div><!-- bar -->
+</div>
+</div><!-- white-wrap -->
+<div id="content-bg">
+<div id="content">
+
+
+<div id="column-bg" class="column-push">
+
+<div id="column"> <a href="dealer_locator.php"><img src="images/dealer_head.gif" width='239px' height='48px' border="0" /></a><br /><br />
+<img src='images/dealer_ph.jpg'  width='198px' height='93px' /><div id="column-copy">
+
+<p><span>Find your nearest independent authorized dealer and schedule a hands-on demonstration to see the Gammill difference firsthand.</span></p></div><!-- column-copy -->
+</div><!-- column -->
+
+<div id="column"> <a href="quilt_machines.php"><img src="images/quilt_head.gif" width='239px' height='48px' border="0" /></a><br /><br />
+<img src="images/quilt_ph.jpg"  width='198px' height='93px' />
+<div id="column-copy">
+<p><span>See which Gammill Vision or Statler Stitcher longarm system is right for you.</span></p><br />
+<br />
+</div>
+<!-- column-copy -->
+</div><!-- column -->
+
+<div id="column"> 
+		
+		<a href="showdates.php">
+		<img src="images/supply_head.gif" width='239px' height='48px'  border="0" />
+		</a>
+	<br /><br />
+<img src="images/supply_ph.jpg" width='198px' height='93px' />
+<div id="column-copy">
+<p><span>Find a show where you can test drive a machine and see the Gammill difference for yourself.</span></p></div><!-- column-copy -->
+</div><!-- column -->
+
+<div id="column">
+<a href="contact_about.php">
+<img src="images/Contact_us_Page_header.jpg" border="0" width='239px' height='48px' />
+</a>
+<br /><br />
+<img src="images/ContactUs_Image.jpg" width='198px' height='93px' />
+<div id="column-copy">
+<p><strong>We&rsquo;d love to hear from you!</strong></p>
+<p><span>Click to complete our contact form or give us a call at 1-800-659-8224 if you have questions or are interested in one of our products.</span></p></div><!-- column-copy -->
+</div><!-- column -->
+<div id="clearer"></div>
+<div id="column">
+<table width="211" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left">&nbsp;</td>
+    <td align="right"><a href="dealer_locator.php"><img src="images/learn_more.gif" width='123' height='33' border="0" /></a> </td>
+  </tr>
+</table>
+</div>
+
+<div id="column">
+<table width="211" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left">&nbsp;</td>
+    <td align="right"><a href="quilt_machines.php"><img src="images/learn_more.gif" width='123' height='33' border="0" /></a> </td>
+  </tr>
+</table>
+</div>
+
+<div id="column">
+<table width="211" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left">&nbsp;</td>
+    <td align="right"><a href="showdates.php"><img src="images/learn_more.gif" width='123' height='33' border="0" /></a> </td>
+  </tr>
+</table>
+</div>
+
+<div id="column">
+<table width="211" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left">&nbsp;</td>
+    <td align="right"><a href="contact_about.php"><img src="images/learn_more.gif" width='123' height='33' border="0" /></a> </td>
+  </tr>
+</table>
+</div>
+
+<div id="clearer"></div>
+</div><!-- column-bg -->
+<br />
+<img src="images/mid_shadow_bar.jpg" />
+
+<div id="lower-section">
+<div id="lower-vid-left">
+<img src="images/featured_vid_head.jpg" />
+<div id="lower-vid-left-content">
+	<a href="https://www.americanquilter.com/promos/shows_contests/2013_paducah/enter.php" target="_blank"><img src="images/13ky-withbutton.jpg" width="640" height="487" /></a>
+    
+    <!---<iframe width="560" height="315" src="https://www.youtube.com/embed/6O-lG5mYj78?rel=0" frameborder="0" allowfullscreen></iframe>--->
+
+</div><!-- lower-vid-left-content -->
+</div><!-- lower-vid-left -->
+
+
+<div id="lower-vid-right">
+<a href="https://store.gammill.net/"><img src="images/supply_store_head2.jpg"  width='239px' height='48px' border="0"  /></a>
+<br /><br />
+<div id="lower-vid-right-box">
+<img src="images/supply_store_ind.jpg"   width='198px' height='93px'/>
+<div id="column-copy"><p><span>Gammill carries the most popular brands of supplies for your longarm quilting machine needs.</span></p></div>
+<br /><br />
+<a href="https://store.gammill.net/"><img src="images/learn_more.gif" width='123' height='33' border="0" align="right" /></a></div><br /><br />
+<img src="images/industry_part_head.jpg"  width='238' height='55'  /><br /><br />
+<div id="industry-sub"><a href="http://www.thequiltshow.com/" target="_blank">TheQuiltShow.com</a></div>
+<div id="industry-sub"><a href="http://www.qnntv.com/videoscategory/quilt-out-loud/" target="_blank">QNNtv.com Quilt Out Loud</a></div>
+<div id="industry-sub"><a href="http://www.thequiltingschool.com" target="_blank">TheQuiltingSchool.com</a></div>
+<div id="industry-sub"><a href="http://www.FinanceYourGammill.com" target="_blank">FinanceYourGammill.com </a></div>
+<!-- lower-vid-right-box -->
+<!---<br /><br /><br />
+<br /><br /><br />
+<br /><br /><br />--->
+</div><!-- lower-vid-right -->
+
+</div>
+<div id="clearer"></div>
+
+
+	<div id="footer">
+<table width="933" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="205" align="right"><img src="https://www.gammill.com/images/footer_logo.jpg" /></td>
+    <td width="728" align="left">&copy; 2012 Gammill, Inc. All Rights Reserved. Corporate Headquarters - 1452 Gibson Street, West Plains, MO 65775 1-800-659-8224
+<a href="dealer_login.php">Dealer Login></a></td>
+  </tr>
+</table>
+</div><!-- footer -->
+<!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function(d,s,i,r) {
+            if (d.getElementById(i)){return;}
+            var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+            n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/237984.js';
+            e.parentNode.insertBefore(n, e);
+        })(document,"script","hs-analytics",300000);
+    </script>
+<!-- End of Async HubSpot Analytics Code -->
+</div><!-- content-bg -->
+</div><!-- content -->
+
+</body>
+</html>

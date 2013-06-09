@@ -1,0 +1,335 @@
+#central .blocs-alignes {
+	float:left;
+	clear:both;
+	margin:10px 0 0 0;
+	width:100%;
+}
+
+/* -------------------------------------- A la une */
+
+#central #a-la-une {
+	margin:10px 0 0 0;
+	float:left;
+	width:718px;
+	position:relative;
+	padding:0 0 10px 0;
+}
+
+#central #a-la-une a{
+	text-decoration:underline;
+}
+
+#central #a-la-une a:hover{
+	text-decoration:none;
+}
+
+#a-la-une .left {
+	float:left;
+	width:346px;
+	padding:0 12px 0 0;
+}
+
+#a-la-une .left img{
+	margin:0 10px 0 10px;
+	border:1px solid #CCCCCC;
+	padding:1px;
+	float:left;
+}
+
+#a-la-une .left  .titre-actu{
+	color:#97BE0D;
+	font-family:'Trebuchet MS',Arial,Helvetica,sans-serif;
+	font-size:1.5em;
+	padding:8px 0 16px 8px;
+}
+
+#a-la-une .left p {
+	color:#2A2A2A;
+	line-height:1.25em;
+	padding:0 0 0 10px;
+	text-align:justify;
+}
+
+#a-la-une .left p span{
+	color:#cccccc;
+	padding:0 4px 0 0;
+}
+
+#a-la-une .right {
+	float:left;
+	width:331px;
+	background:url('../../images/structure/background/border_une.gif') no-repeat top left;
+	min-height:190px;
+}
+#IE6  #a-la-une .right {
+	height:190px;
+}
+
+#a-la-une .right ul {
+	margin:11px 0 0 9px;
+}
+
+#a-la-une .right ul li{
+	padding:0 0 12px 10px;
+	background:url('../../images/elements/puce_base.gif') no-repeat 0 8px;
+	zoom:1;
+}
+
+#a-la-une .plus {
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+
+/* ------------------------------------- Video */
+
+#video {
+	float:left;
+	width:233px;
+	margin:0 10px 0 0;
+	height:233px;
+}
+
+#video  #wrap-video {
+	background:transparent url(../../images/structure/background/iphone.png) no-repeat scroll left top;
+	height:154px;
+	margin:10px auto 0;
+	padding:11px 0 0 37px;
+	width:183px;
+}
+
+#video .no_video {
+	color:#666666;
+	display:block;
+	font-size:1.2em;
+	height:70px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:30px;
+}
+
+#video img.flash {
+	margin:26px 0 0 8px;
+}
+
+#video a.grand{
+	padding:0 0 0 10px;
+	background:url('../../images/elements/puce_base.gif') no-repeat 0 6px;
+	margin:0 0 0 11px;
+	text-decoration:underline;
+	position:relative;
+	bottom:17px;
+	left:10px;
+	zoom:1
+}
+#video a.lien{
+	padding:0 0 0 10px;
+	background:url('../../images/elements/puce_base.gif') no-repeat 0 6px;
+	margin:0 0 0 11px;
+	text-decoration:underline;
+	position:relative;
+	bottom:17px;
+	left:0px;
+	zoom:1
+}
+
+
+#video a.grand:focus, #video a.grand:active {
+	color:#004687 !important
+}
+
+/* ------------------------------------- Agenda */
+
+#agenda {
+	float:left;
+	width:233px;
+	margin:0 10px 0 0;
+	min-height:233px;
+	position:relative;
+}
+
+#IE6 #agenda {
+	height:233px;
+}
+
+#agenda ul{
+	line-height:1.15em;
+	margin:0 0 0 9px;
+}
+
+#agenda li {
+	padding:5px 0;
+}
+
+#agenda li span {
+	color:#97be0d;
+	display:block;
+	background:url('../../images/elements/puce_base.gif') no-repeat 2px 5px;
+	padding:0 0 0 12px;
+	font-size:0.9em;
+	font-weight:bold;
+}
+
+#agenda .plus {
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+
+/* ------------------------------------- Nuage de tags */
+
+#tags {
+	
+	float:left;
+	width:232px;
+	height:233px !important;
+	
+}
+
+#tags ul {
+	padding:10px 10px 0;
+	text-align:center;
+}
+*|html #tags ul {
+	padding:10px 15px 0;
+	text-align:center;
+}
+
+
+#tags ul li {
+	display:inline;
+	line-height:1.8em;
+	padding:5px;
+}
+
+#tags ul li.level-1 a{
+	font-size:1em;
+	color:#cccccc;
+}
+
+#tags ul li.level-2 a{
+	font-size:1.1em;
+	color:#666666;
+}
+
+#tags ul li.level-3 a{
+	font-size:1.3em;
+	color:#666666;
+}
+
+#tags ul li.level-4 a{
+	font-size:1.45em;
+	color:#666666;
+}
+
+#tags ul li.level-5 a{
+	color:#97be0d;
+	font-size:1.65em;
+}
+
+#tags ul li.level-6 a{
+	color:#97be0d;
+	font-size:1.9em;
+}
+
+/* -------------------------------------- Contactez-nous */
+
+#contact {
+	width:354px;
+	float:left;
+	min-height:202px;
+	margin:0 10px 0 0;
+	z-index:-1;
+}
+
+#IE6 #contact {
+	height:202px;
+}
+
+
+
+#contact .contenu {
+	padding:5px 10px 2px 15px;
+	font-size:0.85em;
+}
+
+#contact .contenu h2 {
+color:#004687;
+font-size:1.4em;
+margin-bottom:0.1em !important;
+margin-top:0.5em !important;
+position:relative;
+right:0;
+text-transform:none;
+}
+
+#contact .contenu p {
+	color:#004687;
+	line-height:1.25em;
+	margin-bottom:0.6em
+}
+
+#contact .contenu p strong{
+	text-transform:uppercase;
+	color:#97be0d
+}
+
+#contact .contenu table.tableau_donnees {
+border-collapse:collapse;
+border-color:#97BE0D;
+margin:0 0 0.1em;
+vertical-align:middle;
+width:100%;
+}
+
+/* ------------------------------------- Documents */
+
+#documents {
+	width:354px;
+	float:left;
+	min-height:202px;
+	z-index:99 !important;
+}
+
+#IE6 #documents {
+	height:202px;
+}
+
+#documents ul {
+	padding:10px 8px 0;
+}
+
+#documents ul li {
+	padding:0 0 12px 10px;
+	background:url('../../images/elements/puce_base.gif') no-repeat 0 8px;
+	z-index:99 !important;
+}
+
+#documents ul li a {
+	text-decoration:underline;
+	line-height:1.25em;
+	padding:0 25px 0 0;
+z-index:99 !important;
+}
+
+#documents ul li a:hover {
+	text-decoration:none;
+z-index:99 !important;
+}
+
+#documents ul li.pdf a {
+	background:url('../../images/elements/ico-pdf.gif') no-repeat 100% 0;z-index:99 !important;
+}
+
+#documents ul li.office a {
+	background:url('../../images/elements/ico-office.gif') no-repeat 100% 0;z-index:99 !important;
+}
+
+#documents ul li.excel a {
+	background:url('../../images/elements/ico-excel.gif') no-repeat 100% 0;z-index:99 !important;
+}
+
+#documents ul li.doc a {
+	background:url('../../images/elements/ico-doc.gif') no-repeat 100% 0;z-index:99 !important;
+}

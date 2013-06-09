@@ -1,0 +1,196 @@
+img {
+  border: 0;
+}
+
+.menub {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	color: #003366;
+}
+a:visited {
+	text-decoration: none;
+}
+a.mail:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.mail:hover {
+	color: #003366;
+}
+a.mail:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.titolino_corsivo {
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+	font-size: 14px;
+	font-style: italic;
+	color: #CC3399;
+	font-weight: bold;
+}
+.testo {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.testo_corsivo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #000000;
+	font-weight: lighter;
+}
+.titolino {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #CC3399;
+	font-weight: bold;
+}
+
+
+
+.indirizzo {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.mail {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #B0C4DE;
+}
+
+
+#sidebar {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sidebar a {
+  color: #DDA0DD;
+}
+
+
+#main {
+  padding: 10px;
+}
+
+/*************************
+ * messaggio applicazione
+ *************************/
+#appmsg {
+  margin: 10px 0 15px 0;
+  border: 1px solid #ccc;
+  padding: 0 8px;
+  font-size: 11px;
+}
+
+#appmsg.ko { background: #FFCFCF; }
+
+#appmsg.ok { background: #E6FFC9; }
+
+#appmsg.ko h3 { background: url("../admin/img/SqlMultiRecord_no.gif") no-repeat center left; }
+
+#appmsg.ok h3 { background: url("../admin/img/SqlMultiRecord_ok.gif") no-repeat center left; }
+
+#appmsg h3 { padding-left: 30px; }
+
+/* box errore riempimento moduli  */
+div.error {
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  background: #FFF7C2;
+  border: 1px solid #FFC561;
+  color: #FF664F;
+  font-weight: bold;
+}
+
+/* container link di ritorno (solitamente alla home) a fondo pagina */
+#back {
+  margin-top: 40px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#back a { color: #cc3399; }
+
+.prodotto {
+  width: 90%;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.prodotto h3 {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+
+.prodotto span {
+  font-weight: normal;
+}
+
+.prodotto p {
+  margin: 0;
+}
+
+.prodotto .carrello {
+  text-align: right;
+}
+
+.prodotto .prezzo {
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.prodotto .prezzo strong {
+  font-size: 12px;
+}
+
+.prodotto .prezzo img {
+  float: right;
+}
+
+
+/* form dati personali per ordine prodotti */
+#dp fieldset {
+  background: #efefef;
+}
+
+#dp legend {
+  font-weight: bold;
+}
+
+#dp table {
+  width: 100%;
+  margin-bottom: 5px;
+  border: 0;
+  border-collapse: collapse;
+}
+
+#dp td {
+  font-size: 11px;
+}
+
+#dp input {
+  padding: 2px;
+}
+
+#dp input.error {
+  background: #FFD8D8;
+}
+
+#container{
+  margin:0 auto;
+  width: 854px;
+}

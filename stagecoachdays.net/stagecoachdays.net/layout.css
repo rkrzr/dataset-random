@@ -1,0 +1,67 @@
+#main { 
+	width:906px; 
+	margin:0 auto;
+}
+#header { 
+	height:487px;
+	background:url(images/header-bg.jpg) no-repeat center bottom;
+	position:relative;
+}
+#header, 
+#content, 
+#footer { 
+	font-size:0.938em;
+}
+.col-1, 
+.col-2, 
+.col-3 { 
+	float:left;
+}
+
+/*======= index.html =======*/
+#page1 #content .col-1 { width:230px; margin-right:21px;}
+#page1 #content .col-2 { width:603px;}
+#page1 #content .col-2 .col-1 { width:260px; margin-right:28px; position:relative;}
+#page1 #content .col-2 .col-2 { width:260px; position:relative;}
+
+/*======= index-1.html =======*/
+#page2 #content .col-1 { width:230px; margin-right:21px;}
+#page2 #content .col-2 { width:603px;}
+#page2 #content .col-2 .col-1 { width:220px; margin-right:0;}
+#page2 #content .col-2 .col-2 { width:332px;}
+
+/*======= index-2.html =======*/
+#page3 #content .col-1 { width:230px; margin-right:21px;}
+#page3 #content .col-2 { width:603px;}
+#page3 #content .col-2 .col-1 { width:260px; margin-right:28px; position:relative;}
+#page3 #content .col-2 .col-2 { width:260px; position:relative;}
+
+/*======= index-3.html =======*/
+#page4 #content .col-1 { width:230px; margin-right:21px;}
+#page4 #content .col-2 { width:603px;}
+
+/*======= index-4.html =======*/
+#page5 #content .col-1 { width:230px; margin-right:21px;}
+#page5 #content .col-2 { width:603px;}
+#page5 #content .col-2 .row-1 .col-1 { width:220px; margin-right:0;}
+#page5 #content .col-2 .row-1 .col-2 { width:332px;}
+#page5 #content .col-2 .row-2 .col-1 { width:260px; margin-right:28px; position:relative;}
+#page5 #content .col-2 .row-2 .col-2 { width:260px; position:relative;}
+
+/*======= index-5.html =======*/
+#page6 #content .col-1 { width:230px; margin-right:21px;}
+#page6 #content .col-2 { width:603px;}
+#page6 #content .col-2 .col-1 { width:230px; margin-right:50px;}
+#page6 #content .col-2 .col-2 { width:230px;}
+
+/*======= index-6.html =======*/
+#page7 #content .col-1 { width:230px; margin-right:21px;}
+#page7 #content .col-2 { width:603px;}
+
+
+/*=========================*/
+
+
+#footer { 
+	height:58px;
+}

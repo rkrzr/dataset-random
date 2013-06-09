@@ -1,0 +1,446 @@
+/* Template created by CENTROARTS.com | Author: Rumin Sergey | URL: http://centroarts.com */
+
+.selectmass input { float: right; margin-left: 6px; }
+.mass_comments_action { text-align: right; }
+
+   #layer1 {
+    z-index: 1; /* Порядок слоев */
+    width: 100%; /* Ширина слоя с фоном */
+    height: 100%; /* Высота слоя с фоном */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Положение от левого края окна */
+    top: 0; /* Положение от верхнего края */
+   }
+   #layer2 {
+    width: 100%; /* Ширина слоя с фоном */
+    height: 100%; /* Высота слоя с фоном */
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 2; /* Порядок слоев */
+   }
+
+/*---Информационное оконо загрузки AJAX---*/
+#loading-layer { display: none; font-size: 11px; background: #000; padding: 10px; text-align: center; color: #fff; }
+
+
+/*---Цитата и скрытый текст---*/
+.scriptcode, .title_quote,
+.quote, .title_spoiler, .text_spoiler { font-style: italic; padding: 10px; background: #f8f9f9 url("../images/lines.gif") repeat; border-left: 5px solid #438fbf; }
+.title_quote, .title_spoiler { background: #f8f9f9; }
+.title_spoiler, .text_spoiler { border-color: #db143d; }
+
+.title_quote { border-bottom: 0; font-weight: bold; }
+.scriptcode { color: #004e8d; text-align: left; font-family: "Courier New"; }
+.title_spoiler { font-weight: bold; }
+.text_spoiler { border-top: 0; text-align: justify; }
+
+.hide { background-color: #e8f3fa; padding: 5px; color: #3a78a5; margin: 0 0 1em; 0; }
+.hide a { text-decoration: underline; } .hide a:hover { text-decoration: none }
+.inhide { border: 1px solid #d1e3ef; padding: 5px; background-color: #fff; margin-bottom: 5px; }
+
+/*---Календарь---*/
+.calendar { width: 100%; }
+.calendar td, .calendar th { padding: 4px 0; vertical-align: middle; text-align: center; }
+  .calendar tr { border-bottom: 1px solid #dfe3e6; background-color: #f0f2f4; }
+  .calendar th { background-color: #dfe3e6; }
+    .calendar tr:hover { background-color: #f8f9f9; }
+    .calendar td:hover { background-color: #fff; }
+
+.weekday-active-v, .day-active-v, .weekday-active, .day-active { font-weight: bold; }
+.weekday { color: #db143d; }
+.monthselect { font-size: 1.15em; }
+
+.day-current { background-color: #db143d !important; color: #fff; }
+  .day-current a { color: #fff; }
+
+/*---Лучшие пользователи---*/
+.userstop td, .pm td.pm_list, .pm td.pm_head { border: 1px solid #d8d8d8; padding: 2px; background-color: #fff; }
+.userstop thead td, .pm td.pm_head { font-size: 0.9em; background: #fff url("../images/fbutton.png") repeat-x 0 50%; height: 22px; padding: 0; font-weight: bold; text-align: center; color: #4e4e4e; }
+
+/*---Рейтинг---*/
+.rating { width: 85px; height: 17px; font-size: 0.9em; }
+
+.unit-rating { list-style: none; margin: 0; padding: 0; width: 85px; height: 17px; position: relative; background: url("../dleimages/rating.png") repeat-x; }
+.unit-rating li { text-indent: -90000px; padding: 0; margin: 0; float: left; }
+.unit-rating li a { display: block; width: 17px; height: 17px; text-decoration: none; text-indent: -9000px; z-index: 17; position: absolute; padding: 0; }
+.unit-rating li a:hover { background: url("../dleimages/rating.png") 0 -17px; z-index: 2; left: 0; }
+
+.unit-rating a.r1-unit {left: 0;}    .unit-rating a.r1-unit:hover {width:17px;}
+.unit-rating a.r2-unit {left: 17px;}  .unit-rating a.r2-unit:hover {width: 34px;}
+.unit-rating a.r3-unit {left: 34px;}  .unit-rating a.r3-unit:hover {width: 51px;}
+.unit-rating a.r4-unit {left: 51px;}  .unit-rating a.r4-unit:hover {width: 68px;}
+.unit-rating a.r5-unit {left: 68px;}  .unit-rating a.r5-unit:hover {width: 85px;}
+
+.unit-rating li.current-rating { background: url("../dleimages/rating.png") 0 -34px; position: absolute; height: 17px; display: block; text-indent: -9000px; z-index: 1; }
+
+/*---BB коды---*/
+ /* различие bbcodes и bbcodes_poll исключительно в длине кнопки */
+/* класс bbcodes используем в списке персональных сообщений (pm.tpl)  и по умолчанию в модуле редактора сообщений*/
+.bbcodes, .bbcodes_poll {
+  background: #fff url("../images/fbutton.png") repeat-x 0 50%;
+  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #b3b3b3;
+  color: #383838;
+  padding: 1px 9px 4px 9px;
+  margin-bottom: 2px !important;
+  height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bbcodes:hover, .bbcodes_poll:hover { background-position: 0 3px;
+  -moz-box-shadow: 0 1px 5px -2px black;
+  -webkit-box-shadow: 0 1px 5px -2px black;
+  box-shadow: 0 1px 5px -2px black;
+}
+.bbcodes_poll { width: 100px; }
+
+.base .editor { padding: 5px; }
+.editorcomm .editor textarea { background: #ffffff; border: 0 none;  }
+.editor_button {
+  float: left;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+}
+.editor_button select {
+  font-size: 10px;
+}
+.editor input[type="text"] { background: #fff url("../images/fields.png") repeat-x; border: 1px solid #bcc0c2; }
+
+.editor_buttoncl {
+  float: left;
+  cursor: pointer;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+.editbclose { float: right; cursor: pointer; display: none; }
+
+.editor_button img { margin: 0; padding: 0; }
+.editbclose img { margin: 0; padding: 0; }
+.editor_button_brk img { margin: 0; padding: 0; }
+
+/*---Дополнительные поля---*/
+.xfields textarea, .xprofile textarea { width: 98%; height: 86px; margin: 0px 1px 0px 0px;padding: 0px;}
+.xfields input, .xprofile input { width: 250px; padding: 2px; }
+.xfields_table td { vertical-align: top; }
+
+/*---Персональные сообщения---*/ 
+.pm_head {font-weight: bold;}
+
+/*---Выпадающее меню кнопки редактировать---*/
+#dropmenudiv {
+  background-color: #dfe3e6;
+  border: 2px solid #a6b5c0;
+  font-size: 0.9em;
+  line-height: 20px;
+  margin: 2px 0;
+  opacity:0.9; -moz-opacity:0.9; filter:alpha(opacity=90);
+}
+
+#dropmenudiv a { display: block; text-decoration: none; color: #1d2226; padding: 2px 4px; width: 162px;}
+#dropmenudiv a:hover { background-color: #f1f5f7; }
+
+/*---Ссылка на скачивание прикрепленного файла---*/
+.attachment { color: #808080; }
+
+/*---Рамка расширенной формы поиска по сайту---*/
+fieldset { border: 1px solid #bfced6; padding: 5px; text-align: left; }
+
+*---показ оригинальной картинки загруженной на сайт из уменьшенной копии---*/
+.highslide-wrapper, .highslide-outline { background: #FFFFFF; }
+.highslide-image { border: 2px solid #FFFFFF; }
+.highslide-active-anchor { visibility: hidden; } 
+.highslide-active-anchor img { visibility: hidden; }
+.highslide-dimming { background-color: black; }
+.highslide-html { background-color: white; }
+.highslide-loading {
+    display: block;
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+    text-decoration: none;
+  padding: 3px;
+  border: 1px solid white;
+    background-color: black;
+}
+a.highslide-full-expand {
+  background: url("../dleimages/fullexpand.gif") no-repeat;
+  display: block;
+  margin: 0 10px 10px 0;
+  width: 34px; height: 34px;
+}
+.highslide-display-block { display: block; }
+.highslide-display-none { display: none; }
+.highslide-caption { display: none; padding: 5px; background: white; }
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif") no-repeat 0 -90px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.highslide-controls ul {
+  position: relative;
+  left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0; padding: 0;
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif") no-repeat 100% -90px;
+}
+.highslide-controls li { float: left; padding: 5px 0; }
+.highslide-controls a {
+    background: url("../../../engine/classes/highslide/graphics/controlbar-black-border.gif");
+    display: block;
+    float: left;
+    height: 30px; width: 30px;
+    outline: none;
+}
+.highslide-controls a.disabled { cursor: default; }
+.highslide-controls a span { display: none; }
+ 
+/*---The CSS sprites for the controlbar---*/
+.highslide-controls .highslide-previous a { background-position: 0 0; }
+.highslide-controls .highslide-previous a:hover { background-position: 0 -30px; }
+.highslide-controls .highslide-previous a.disabled { background-position: 0 -60px !important; }
+.highslide-controls .highslide-play a { background-position: -30px 0; }
+.highslide-controls .highslide-play a:hover { background-position: -30px -30px; }
+.highslide-controls .highslide-play a.disabled { background-position: -30px -60px !important; }
+.highslide-controls .highslide-pause a { background-position: -60px 0; }
+.highslide-controls .highslide-pause a:hover { background-position: -60px -30px; }
+.highslide-controls .highslide-next a { background-position: -90px 0; }
+.highslide-controls .highslide-next a:hover { background-position: -90px -30px; }
+.highslide-controls .highslide-next a.disabled { background-position: -90px -60px !important; }
+.highslide-controls .highslide-move a { background-position: -120px 0; }
+.highslide-controls .highslide-move a:hover { background-position: -120px -30px; }
+.highslide-controls .highslide-full-expand a { background-position: -150px 0; }
+.highslide-controls .highslide-full-expand a:hover { background-position: -150px -30px; }
+.highslide-controls .highslide-full-expand a.disabled { background-position: -150px -60px !important; }
+.highslide-controls .highslide-close a { background-position: -180px 0; }
+.highslide-controls .highslide-close a:hover { background-position: -180px -30px; }
+
+/*---Облако тегов---*/
+.clouds_xsmall { font-size: 1em; }
+.clouds_small { font-size: 1.1em; }
+.clouds_medium { font-size: 1.2em; font-weight: bold; }
+.clouds_large { font-size: 1.5em; }
+.clouds_xlarge { font-size: 1.7em; }
+
+/*---Быстрый поиск на сайте---*/
+#searchsuggestions { z-index: 998; border: 1px solid #919191; width:300px; background-color: #fff; font-size: 0.9em; }
+#searchsuggestions a, #searchsuggestions span.notfound { padding: 10px; display: block; text-decoration: none; }
+#searchsuggestions a:hover { background-color: #f0f2f4; }
+#searchsuggestions span.searchheading { display: block; font-weight: bold; color: #db143d; }
+#searchsuggestions span.seperator { display: block; background-color: #db143d; }
+#searchsuggestions span.seperator a { padding: 5px 10px; text-align: right; background-color: transparent; color: #fff; }
+#searchsuggestions span.notfound { padding: 10px; display: block; }
+#searchsuggestions .break { display: none; }
+
+/*---Диалоговые и всплывающие окна jQuery UI---*/
+.ui-widget-overlay { background: #000; opacity:0.4; -moz-opacity:0.4; filter:alpha(opacity=40); left: 0; position: absolute; top: 0; }
+.ui-helper-clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+* html .ui-helper-clearfix { height: 1%; }
+.ui-helper-clearfix { display: block; }
+.ui-icon { background-repeat: no-repeat; display: block; overflow: hidden; text-indent: -99999px; }
+.ui-widget-header { color: #fff; background: #222a30 url("../images/darkbg.png"); font-weight: bold; }
+.ui-widget-header a { color: #fff; }
+.ui-widget-header .ui-icon { background-image: url("../images/ui-icons.png"); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-color: #db143d; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-dialog { background: #fff; border: 1px solid #a6b5c0; overflow: hidden; padding: 3px; position: absolute; width: 300px;
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.ui-dialog .ui-dialog-titlebar { padding: .5em 1em .3em; position: relative; }
+.ui-dialog .ui-dialog-title { float: left; margin: .1em 13px .3em 0; }
+.ui-dialog .ui-dialog-titlebar-close {
+  height: 18px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  position: absolute;
+  right: .3em;
+  top: 50%;
+  width: 19px;
+}
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-content {
+  background: none;
+  border: 0;
+  overflow: hidden;
+  padding: 13px 13px 0 13px;
+  position: relative;
+  zoom: 1;
+  margin-bottom: 13px;
+}
+.ui-dialog .ui-dialog-buttonpane {
+  background: #f0f2f4;
+  padding: 13px;
+  text-align: left;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+  cursor: pointer;
+  float: right;
+  line-height: 1.4em;
+  margin: 0 1px;
+  overflow: visible;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+}
+.ui-button { border: 0 none; background: none; cursor: pointer; }
+.ui-button { text-shadow: 0 1px 0 #fff; margin-bottom: 2px; border: 1px solid #bcc5c9; width: 106px; height: 31px; color: #d51e44; padding: 2px 0 5px 0; background: #fff url("../images/fbutton.png") repeat-x 0 100%; font-weight: bold; }
+  .ui-button:hover { background-position: 0 10px;
+    -moz-box-shadow: 0 1px 5px -2px black;
+    -webkit-box-shadow: 0 1px 5px -2px black;
+    box-shadow: 0 1px 5px -2px black;
+  }
+button.ui-button span { cursor: pointer; display: block; }
+
+.ui-widget input, .ui-widget textarea {
+  background: #fff url("../images/fields.png") repeat-x; border: 1px solid #bcc0c2;
+}
+
+.ui-state-error {
+  background: #fef1ec 50% 50% repeat-x !important;
+  border: 1px solid #cd0a0a;
+  color: #cd0a0a;
+}
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+/* ==================== Автозаполнение облака тегов */
+.ui-autocomplete { position: absolute; cursor: default; }
+
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+
+.ui-menu {
+  list-style:none;
+  padding: 2px;
+  margin: 0;
+  display:block;
+  float: left;
+  background: #fff 50% bottom repeat-x; border: 1px solid #dedede; color: #222;
+}
+.ui-menu .ui-menu {
+  margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+  margin:0;
+  padding: 0;
+  zoom: 1;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+.ui-menu .ui-menu-item a {
+  text-decoration:none;
+  display:block;
+  padding:.2em .4em;
+  line-height:1.5;
+  zoom:1;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+  font-weight: normal;
+  margin: -1px;
+  border: 1px solid #a7a7a7;
+  color: #4e4e4e;
+  font-weight: bold;
+}
+
+/*---Подсветка кода в теге [code]---*/
+pre code {
+  display: block; padding: 0.5em;
+  background: #f8f9f9 url("../images/lines.gif") repeat; 
+  border-left: 5px solid #438fbf;
+  overflow:auto;
+  white-space: pre;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .lisp .title {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .lisp .title,
+pre .identifier,
+pre .title .keymethods,
+pre .id {
+  color: #268bd2;
+}
+
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  font-weight: bold;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .label {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #eee8d5;
+}

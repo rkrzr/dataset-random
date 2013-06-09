@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+ <title>linux7.fastname.no</title>
+ <link rel="stylesheet" type="text/css" media="screen" href="screen.css">
+</head>
+<body>
+
+ <h1>linux7.fastname.no</h1>
+
+ <h2>Egne innstillinger i PHP (<code>php.ini</code>)</h2>
+ <p>Dersom du &oslash;nsker &aring; overstyre standardinnstillingene vi har gjort i <code>php.ini</code> m&aring;
+ du opprette eller oppdatere filen <code>.htaccess</code> i hjemmekatalogen din. Denne filen skal inneholde f&oslash;lgende:</p>
+
+ <pre>suPHP_ConfigPath  /home/&lt;BRUKERNAVN>/www</pre>
+ <p>Bytt ut <code>&lt;BRUKERNAVN></code> med ditt brukernavn. S&aring; oppretter du en <code>php.ini</code> fil i samme katalog, og legger
+ inn de instillingene du &oslash;nsker &aring; overstyre. For eksempel:</p>
+
+ <pre>register_globals=off</pre>
+
+ <h2>CGI-scripts</h2>
+
+ <p>Dersom du &oslash;nsker &aring; kj&oslash;re CGI-scripts m&aring; du lage en <code>.htaccess</code>-fil i katalogen
+ der scriptet ligger. Denne brukes til fortelle Apache hvilke filendelser som skal tolkes som CGI-script. Dersom du har
+ script med <code>.cgi</code> endelse m&aring; du legge til f&oslash;lgende linje i <code>.htaccess</code>-filen:</p>
+
+ <pre>AddHandler cgi-script .cgi</pre>
+
+ <p>Husk ogs&aring; at du <em>ikke</em> kan kj&oslash;re cgi-scripts fra /cgi-bin.</p>
+
+ <h2>PHP5 informasjon</h2>
+
+ <ul>
+  <li><a href="http://www.hedmark-hundeutstyr.no/php5/id.php">id check</a></li>
+  <li><a href="http://www.hedmark-hundeutstyr.no/php5/phpinfo.php">phpinfo</a></li>
+ </ul>
+
+ <h2>Apache 2.2 informasjon (krever passord)</h2>
+ <ul>
+  <li><a href="http://www.hedmark-hundeutstyr.no/status">status</a></li>
+
+  <li><a href="http://www.hedmark-hundeutstyr.no/info">info</a></li>
+ </ul>
+
+ <address>
+ </address>
+
+</body>
+</html>

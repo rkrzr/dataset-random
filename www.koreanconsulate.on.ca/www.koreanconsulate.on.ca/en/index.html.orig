@@ -1,0 +1,374 @@
+<html>
+	<head>
+		<title>
+			Consulate General of the Republic of Korea in Toronto
+		</title>
+		<script type="text/javascript" src="/kr/public/popup.js"></script>
+		<script type="text/javascript" src="public/tkbx/jquery.js"></script>
+		<script type="text/javascript" src="public/tkbx/thickbox.js"></script>
+		<script type="text/javascript" src="jscript/ticker.js"></script>
+		<script type="text/javascript" src="jscript/en_util.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mainpage.css">
+		<script language="javascript">
+		<!--
+			function gettopsnd(menunum){
+			for (var i = 1; i < 7 ; i++){
+				mnuString = "themenu = document.getElementById('a0"+i+"')";
+				eval(mnuString);
+				themenu.style.display = 'none';
+			}
+			mnuString = "themenu = document.getElementById('a0"+menunum+"')";
+			eval(mnuString);
+			topm.style.display = 'block';
+			themenu.style.display = 'block';
+		}
+		function hidetopsnd(){  // hiding the secound level menus on the top
+			topm.style.display = 'none';
+		};
+
+		//-->
+		</script>
+	</head>
+	<body  class='bodystyle' onload="preloadimages();
+		
+		">
+		<table border='0' width ='981' align='center'>
+			<tr>
+				<td rowspan='2'>
+					<a href='/en'><img src = 'imgs/toplogo.gif' alt ='Consulate General of the Republic of Korea in Toronto'></a>
+				</td>
+				<td>
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width ='300' align='right'>
+					<a href ='frmsearch.php?KeepThis=false&TB_iframe=true&height=400&width=600' style ='padding:3px;padding-left:5px;padding-right:5px;text-decoration:none;text-align:center;margin-top:30px;height:16px;border-width: 1px;border-color:#333333;border-style:dotted;color:#333333;font-weight:bold;font-family:verdana;font-size:11px;background-color:#ffffff' onmouseover="style.backgroundColor='#fdd1db'" onmouseout = "style.backgroundColor='#ffffff'" class='thickbox'>SEARCH</a>
+					<a href ='/' style ='padding:3px;text-decoration:none;text-align:center;margin-top:30px;padding-left:5px;padding-right:5px;height:16px;border-width: 1px;border-color:#333333;border-style:dotted;color:#333333;font-weight:bold;font-family:verdana;font-size:11px;background-color:#ffffff'  onmouseover="style.backgroundColor='#fdd1db'" onmouseout = "style.backgroundColor='#ffffff'" >KOREAN</a>
+					<!--<a href ='library' style ='padding:3px;text-decoration:none;text-align:center;margin-top:30px;padding-left:5px;padding-right:5px;height:16px;border-width: 1px;border-color:#333333;border-style:dotted;color:#333333;font-weight:bold;font-family:verdana;font-size:11px;background-color:#ffffff'  onmouseover="style.backgroundColor='#fdd1db'" onmouseout = "style.backgroundColor='#ffffff'" >Digital Library</a>-->
+				</td>
+			</tr>
+		</table>
+		<table cellpadding ='0' cellspacing ='0' width ='100%'  class='topmenu' align='center'>
+			<tr>
+				<td width='70' background ='imgs/menuleft.gif'>&nbsp;</td>
+				<td background='imgs/menubg.gif' height ='34'  valign='middle'>
+					<table width ='100%' cellspacing='0' cellpadding ='0'><tr><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a01';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('1');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>CONSULATE GENERAL</td><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a02';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('2');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>VISA & ENTRY</td><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a03';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('3');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>VISITING KOREA</td><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a04';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('4');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>BUSINESS</td><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a05';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('5');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>KOREA-CANADA</td><td width ='16.6666666667%' bgcolor='' onClick="location.href='?mnu=a06';" onMouseOut="style.color='#ffffff'; style.backgroundColor='';style.filter='alpha(opacity=100)'; style.border='0 solid #ffffff';" onMouseOver="javascrpt:gettopsnd('6');style.color='#ffffff'; style.backgroundColor='C91447';style.filter='alpha(opacity=100)';style.cursor='hand';style.border='0 solid #ffffff';" height='23' valign='middle' align='center' style='color:#ffffff;font-weight:bold;;font-size:11px'>ABOUT KOREA</td></tr></table>					</td>
+				<td width='65' background ='imgs/menuright.gif'>&nbsp;</td>
+				</tr>
+			<tr>
+				<td colspan ='3'>
+					<table cellspacing ='0' cellpadding='0' class = 'topsndmenu' id = 'topm' align='center' style ='display:none' >
+						<tr >
+							<td height ='23' >
+								<table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a01'><tr><td><a href ='./?mnu=a01b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Hours and Location</a></td><td><a href ='./?mnu=a01b02' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Consul General</a></td><td><a href ='./?mnu=a01b03' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Consular Services</a></td><td><a href ='./?mnu=a01b04' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>About Our Building</a></td><td><a href ='./?mnu=a01b06' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>What's New</a></td><td><a href ='./?mnu=a01b07' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Mofa News</a></td><td><a href ='./?mnu=a01b08' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Important Notice</a></td></tr></table><table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a02'><tr><td><a href ='./?mnu=a02b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Important Notice</a></td><td><a href ='./?mnu=a02b03' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Visa Guideline</a></td><td><a href ='./?mnu=a02b04' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Affixation of the consular seals</a></td><td><a href ='./?mnu=a02b05' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Entry Formalities</a></td><td><a href ='./?mnu=a02b06' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Criminal Record Background Check (in Korea)</a></td></tr></table><table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a03'><tr><td><a href ='./?mnu=a03b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Planning a Trip</a></td><td><a href ='./?mnu=a03b02' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Studying in Korea</a></td><td><a href ='./?mnu=a03b03' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Working in Korea</a></td><td><a href ='./?mnu=a03b04' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>General Information</a></td></tr></table><table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a04'><tr><td><a href ='./?mnu=a04b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Contact Us</a></td><td><a href ='./?mnu=a04b04' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>News and Reports</a></td></tr></table><table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a05'><tr><td><a href ='./?mnu=a05b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>History</a></td><td><a href ='./?mnu=a05b02' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Political Relationship</a></td><td><a href ='./?mnu=a05b05' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Korean Studies in Canada</a></td><td><a href ='./?mnu=a05b06' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Canadian Studies in Korea</a></td></tr></table><table cellspacing = '0' cellpadding = '0' border = '0' align = 'center' style = 'display:none;' id  ='a06'><tr><td><a href ='./?mnu=a06b01' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Korea in Brief</a></td><td><a href ='./?mnu=a06b02' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>National Symbols</a></td><td><a href ='./?mnu=a06b03' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>History</a></td><td><a href ='./?mnu=a06b04' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Korean Culture</a></td><td><a href ='./?mnu=a06b05' style ='margin-right:20px;color:#000000;font-weight:bold'><img src ='imgs/menubullet.gif' style ='margin-bottom:1px;margin-right:3px'/>Korean Arts</a></td></tr></table>							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+<div class='mainimage' align='center'><script src="mainswf.js"></script></div>
+<table width ='981' cellspacing ='0' cellpadding ='0' border ='0' align='center' onmouseover='javascript:hidetopsnd()'>
+	<tr>
+		<td width ='300' valign='top'><!--left start-->
+		<table cellspacing ='0' cellpadding ='0' border ='0' width ='100%' >
+			<tr>
+				<td width ='15' height ='37' valign='top'>
+					<img src ='imgs/main/pink_tl.gif'></td>
+				<td  style ='background-image:url(imgs/main/pink_tc.gif);background-repeat: repeat-x;font-weight:bold;'>Links</td>
+				<td width ='15'><img src ='imgs/main/pink_tr.gif'>
+				</td>
+			</tr>
+		</table>
+			<table cellpadding='3' cellspacing='0' border='0' style ="background-image:url('imgs/main/main_lmid.gif')" width ='100%';>
+				<tr><td style ="background-image:url('imgs/main/main_ltop.gif');height:9px;width:300px;margin:0px;" colspan='2'></td></tr>
+				<tr  style ="height:80px;width:300px;">
+					<td style='vertical-align:top;width:60px;'>
+						<img src ='imgs/main/korthumb.gif' alt='Korea Today' style='margin-left:10px;border:solid;border-color:#666666;border-width: 1px;'/>
+					</td>
+					<td style='vertical-align:top;width:240px;'>
+						<!--Cheong Wa Dae start-->
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+									<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>Cheong Wa Dae</span> 
+								</td>
+								<td width ='40' align='left'>
+								<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+								      onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+									  onmouseout="style.backgroundColor='#ff0000'"
+									  onclick="location.href='http://english.president.go.kr/main.php';">Go</span> 
+								</td>
+							</tr>
+						</table>
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							President, Government, About Korea, Presidential Activities, Speeches
+						</div>
+						<!--Cheong Wa Dae end-->
+						<!--MOFAT start-->
+						<br />
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+								<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>Foreign Affairs</span> 
+								</td>
+								<td width ='40' align='left'>
+									<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+						      onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+							  onmouseout="style.backgroundColor='#ff0000'"
+							  onclick="location.href='http://www.mofa.go.kr/ENG/main/index.jsp';">Go</span> 
+								</td>
+							</tr>
+						</table>
+
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							Political Affairs, Economy and Trade, Countries and Regions, Visa
+						</div>
+						<!--Mofat end-->
+						<!--Korea.net start-->
+						<br />
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+									<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>KOREA.NET</span> 
+								</td>
+								<td width ='40' align='left'>
+									<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+										  onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+										  onmouseout="style.backgroundColor='#ff0000'"
+										  onclick="location.href='http://www.korea.net';">Go</span> 
+								</td>
+							</tr>
+						</table>
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							About Korea, Today`s Korea, Directory, Multiedia
+						</div>
+						<!--Korea.net end-->
+					</td>
+				</tr>
+				<tr><td style ="background-image:url('imgs/main/main_lbot.gif');height:12px;width:300px;margin:0px;"  colspan='2'></td>
+				</tr>
+			</table>
+			<table cellpadding='3' cellspacing='0' border='0' style ="background-image:url('imgs/main/main_lmid.gif')" width ='100%';>
+				<tr><td style ="background-image:url('imgs/main/main_ltop.gif');height:9px;width:300px;margin:0px;" colspan='2'></td></tr>
+				<tr  style ="height:80px;width:300px;">
+					<td style='vertical-align:top;width:60px;'>
+						<img src ='imgs/main/trathumb.gif' alt='Tourism'  style='margin-left:10px;border:solid;border-color:#666666;border-width: 1px;'/>
+					</td>
+					<td style='vertical-align:top;width:240px;'>
+						<div style ='font-family:arial;font-weight:800;font-size:18px;'>
+							Tourism<br>
+						</div>
+						<!--Tour2Korea start-->
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+									<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>www.visitkorea.or.kr</span> 
+								</td>
+								<td width ='40' align='left'>
+									<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+										  onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+										  onmouseout="style.backgroundColor='#ff0000'"
+										  onclick="location.href='http://english.visitkorea.or.kr/enu/index.kto';">Go</span> 
+								</td>
+							</tr>
+						</table>
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							Things to see, Accommodations, Transportation, Food, Shopping
+						</div>
+						<!--Cheong Wa Dae end-->
+					</td>
+				</tr>
+				<tr><td style ="background-image:url('imgs/main/main_lbot.gif');height:12px;width:300px;margin:0px;"  colspan='2'></td>
+				</tr>
+			</table>
+			<table cellpadding='3' cellspacing='0' border='0' style ="background-image:url('imgs/main/main_lmid.gif')" width ='100%';>
+				<tr><td style ="background-image:url('imgs/main/main_ltop.gif');height:9px;width:300px;margin:0px;" colspan='2'></td></tr>
+				<tr  style ="height:80px;width:300px;">
+					<td style='vertical-align:top;width:60px;'>
+						<img src ='imgs/main/buthumb.gif' alt='Business'  style='margin-left:10px;border:solid;border-color:#666666;border-width: 1px;'/>
+					</td>
+					<td style='vertical-align:top;width:240px;'>
+						<div style ='font-family:arial;font-weight:800;font-size:18px;'>
+							Business<br>
+						</div>
+						<!--Tour2Korea start-->
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+									<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>KOTRA</span> 
+								</td>
+								<td width ='40' align='left'>
+									<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+										  onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+										  onmouseout="style.backgroundColor='#ff0000'"
+										  onclick="location.href='http://www.kotra.ca';">Go</span> 
+									</span>
+								</td>
+							</tr>
+						</table>
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							Korea Trade-Investment Promotion Agency
+						</div>
+						<!--Cheong Wa Dae end-->
+					</td>
+				</tr>
+				<tr><td style ="background-image:url('imgs/main/main_lbot.gif');height:12px;width:300px;margin:0px;"  colspan='2'></td>
+				</tr>
+			</table>
+			<table cellpadding='3' cellspacing='0' border='0' style ="background-image:url('imgs/main/main_lmid.gif')" width ='100%';>
+				<tr><td style ="background-image:url('imgs/main/main_ltop.gif');height:9px;width:300px;margin:0px;" colspan='2'></td></tr>
+				<tr  style ="height:80px;width:300px;">
+					<td style='vertical-align:top;width:60px;'>
+						<img src ='imgs/main/eduthumb.gif' alt='Education' style='margin-left:10px;border:solid;border-color:#666666;border-width: 1px;'/>
+					</td>
+					<td style='vertical-align:top;width:240px;'>
+						<div style ='font-family:arial;font-weight:800;font-size:18px;'>
+							Education<br>
+						</div>
+						<!--Tour2Korea start-->
+						<table cellpadding='0' cellspacing='0' border='0' width ='100%'>
+							<tr>
+								<td>
+									<span style ='font-family:arial;font-size:14px;color:#3566a0;font-weight:bold'>Korean Education Centre</span> 
+								</td>
+								<td width ='40' align='left'>
+									<span style ='font-family:arial;font-weight:800;font-size:12px;color:#ffffff;background-color:#ff0000;padding-left:8px;padding-right:8px;'
+										  onmouseover="style.backgroundColor='#3566a0';style.cursor='hand'"
+										  onmouseout="style.backgroundColor='#ff0000'"
+										  onclick="location.href='http://www.cakec.com';">Go</span> 
+									</span>
+								</td>
+							</tr>
+						</table>
+						<div style ='color:#999999;font-size:10px;line-height:15px;'>
+							Teaching English in Korea<br/>Language/Culture Class
+						</div>
+						<!--Cheong Wa Dae end-->
+					</td>
+				</tr>
+				<tr><td style ="background-image:url('imgs/main/main_lbot.gif');height:12px;width:300px;margin:0px;"  colspan='2'></td>
+				</tr>
+			</table>
+			
+		</td><!--left end-->
+		<td valign='top' align='center'><!--centre start-->
+					<table border='0' cellpadding='0' cellspacing ='0' width='450' height ='271'  style ='margin-top:5px;'>
+				<tr>
+					<td background='imgs/diag_left.gif' width ='2' height='35'></td>
+					<td background='imgs/diag_fill.gif'>
+						<div style=" padding-left:15px;padding-bottom:5px;font-family:verdana;font-size:11px;font-weight:bold;">
+							<a href = '?b_id=86&mnu=a01b08' class='whitemenu'>Important Notice</a>						</div>
+					</td>
+					<td background='imgs/diag_right.gif' width ='2' style ='background-repeat:repeat-x'></td>
+				</tr>
+				<tr>
+					<td background='imgs/diag_back.gif'></td>
+					<td valign='middle' align='center'>
+						<!--<div align='right' valign='bottom' style ='margin-left:15px;margin-right:15px;margin-top:15px;margin-bottom:15px'>
+													
+						</div>
+						<div align='center'>
+													</div>-->
+						<table cellpadding ='0' cellspacing ='1' border='0' align='center' width='95%'><tr><td><table width ='100%'><tr><td valign='top' onmouseover="style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onClick ="location.href ='?b_id=86&c_id=911&mnu=a01b08'" onMouseOut ="this.style.backgroundColor=''"><font  class='blue13b'>Construction Bid</font></a><div style='line-height :13px;font-size:10px'>&nbsp;Consulate General of the Republic of Korea in TorontoOpen Bid for Facilities Maintenance and Repair Construction&nbsp;Consulate General of the Republic of Korea..</div></td></tr></table></td></tr><tr><td background='imgs/line-1.jpg' height='1'></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=86&c_id=910&mnu=a01b08'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr><img src ='imgs/info_dot.gif' style='margin-bottom:3px;margin-top:8px;'>&nbsp;&nbsp;Notice of Application for "2013 Young Business Leaders Forum"</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=86&c_id=909&mnu=a01b08'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr><img src ='imgs/info_dot.gif' style='margin-bottom:3px;margin-top:8px;'>&nbsp;&nbsp;Quiz on Korea 2013</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=86&c_id=908&mnu=a01b08'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr><img src ='imgs/info_dot.gif' style='margin-bottom:3px;margin-top:8px;'>&nbsp;&nbsp;The 16th Future Leaders</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=86&c_id=904&mnu=a01b08'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr><img src ='imgs/info_dot.gif' style='margin-bottom:3px;margin-top:8px;'>&nbsp;&nbsp;Regarding the alleged</nobr></div></a></td></tr><tr><td height='5' ></td></tr></table>
+					</td>
+					<td background='imgs/diag_back.gif'></td>
+				</tr>
+				<tr>
+					<td colspan='3' height ='2' background ='imgs/diag_bot.jpg'></td>
+				</tr>
+			</table>
+					<table border='0' cellpadding='0' cellspacing ='0' width='450' height ='271'  style ='margin-top:5px;'>
+				<tr>
+					<td background='imgs/diag_left.gif' width ='2' height='35'></td>
+					<td background='imgs/diag_fill.gif'>
+						<div style=" padding-left:15px;padding-bottom:5px;font-family:verdana;font-size:11px;font-weight:bold;">
+							<a href = '?b_id=77&mnu=a02b03' class='whitemenu'>Visa Guideline</a>						</div>
+					</td>
+					<td background='imgs/diag_right.gif' width ='2' style ='background-repeat:repeat-x'></td>
+				</tr>
+				<tr>
+					<td background='imgs/diag_back.gif'></td>
+					<td valign='middle' align='center'>
+						<!--<div align='right' valign='bottom' style ='margin-left:15px;margin-right:15px;margin-top:15px;margin-bottom:15px'>
+													
+						</div>
+						<div align='center'>
+													</div>-->
+						<table cellpadding ='0' cellspacing ='1' border='0' align='center' width='95%'><tr><td><table width ='100%'><tr><td valign='top' onmouseover="style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onClick ="location.href ='?b_id=77&c_id=907&mnu=a02b03'" onMouseOut ="this.style.backgroundColor=''"><font  class='blue13b'>Visa Free Entry for Foreigners</font></a><div style='line-height :13px;font-size:10px'>For Canadian Citizens: Canadian citizens are exempt from obtaining visas for tourism, visiting, or business (without any employment activities) for stay of up to 6 month..</div></td></tr></table></td></tr><tr><td background='imgs/line-1.jpg' height='1'></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=77&c_id=905&mnu=a02b03'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr><img src ='imgs/info_dot.gif' style='margin-bottom:3px;margin-top:8px;'>&nbsp;&nbsp;New Visa Application Fee for 11 Countries</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=77&c_id=861&mnu=a02b03'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;Short-term Business Visa (C-3-4)</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=77&c_id=343&mnu=a02b03'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;Long-term Visa to Teach a Foreign Language (E-2)</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=77&c_id=339&mnu=a02b03'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;Working Holiday Visa (H-1)</nobr></div></a></td></tr><tr><td height='5' ></td></tr></table>
+					</td>
+					<td background='imgs/diag_back.gif'></td>
+				</tr>
+				<tr>
+					<td colspan='3' height ='2' background ='imgs/diag_bot.jpg'></td>
+				</tr>
+			</table>
+					<table border='0' cellpadding='0' cellspacing ='0' width='450' height ='271'  style ='margin-top:5px;'>
+				<tr>
+					<td background='imgs/diag_left.gif' width ='2' height='35'></td>
+					<td background='imgs/diag_fill.gif'>
+						<div style=" padding-left:15px;padding-bottom:5px;font-family:verdana;font-size:11px;font-weight:bold;">
+							<a href = '?b_id=87&mnu=a01b07' class='whitemenu'>Mofa News</a>						</div>
+					</td>
+					<td background='imgs/diag_right.gif' width ='2' style ='background-repeat:repeat-x'></td>
+				</tr>
+				<tr>
+					<td background='imgs/diag_back.gif'></td>
+					<td valign='middle' align='center'>
+						<!--<div align='right' valign='bottom' style ='margin-left:15px;margin-right:15px;margin-top:15px;margin-bottom:15px'>
+													
+						</div>
+						<div align='center'>
+													</div>-->
+						<table cellpadding ='0' cellspacing ='1' border='0' align='center' width='95%'><tr><td><table width ='100%'><tr><td valign='top' onmouseover="style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onClick ="location.href ='?b_id=87&c_id=886&mnu=a01b07'" onMouseOut ="this.style.backgroundColor=''"><font  class='blue13b'>Foreign Ministry to Host a K-Pop Show as Part of H..</font></a><div style='line-height :13px;font-size:10px'>1. The Foreign Ministry will host a K-pop showcase at the auditorium in the Foreign Minister building on May 11 as part of diplomatic efforts to further spread Hallyu, th..</div></td></tr></table></td></tr><tr><td background='imgs/line-1.jpg' height='1'></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=87&c_id=885&mnu=a01b07'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;UN Security Council North Korea Sanctions Committee Expands the List of the Sanctions Targets</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=87&c_id=884&mnu=a01b07'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;Special Representative for Korean Peninsula Peace and Security Affairs to Visit the US</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=87&c_id=883&mnu=a01b07'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;The ROK Government Statement on North Korea's Missile Launch</nobr></div></a></td></tr><tr><td background='imgs/line-1.jpg' height='1' ></td></tr><tr onMouseOver="this.style.backgroundColor='#ffcc99';style.cursor='pointer'; style.cursor='hand'" onMouseOut="this.style.backgroundColor=''"onClick="location.href='?b_id=87&c_id=880&mnu=a01b07'"><td align='left' width='90%' valign='middle' ><div class='overflo' style ='width:427.5;height:22px;vertical-align:bottom;font-size:11px;'><nobr>&nbsp;&nbsp;Text of the Initialed ROK-Turkey FTA Posted on the Foreign Ministry's FTA Website</nobr></div></a></td></tr><tr><td height='5' ></td></tr></table>
+					</td>
+					<td background='imgs/diag_back.gif'></td>
+				</tr>
+				<tr>
+					<td colspan='3' height ='2' background ='imgs/diag_bot.jpg'></td>
+				</tr>
+			</table>
+				</td><!--centre end-->
+		<td width ='220' valign='top' ><!--right start-->
+			<table cellspacing ='0' cellpadding ='0' border ='0'><tr><td width ='15' height ='37'><img src ='imgs/main/yellow_tl.gif'></td><td  style ='background-image:url(imgs/main/yellow_tc.gif);background-repeat: repeat-x;font-weight:bold;'>Visa Information</td><td width ='15'><img src ='imgs/main/yellow_tr.gif'></td></tr><tr><td width ='15' style ='background-image:url(imgs/main/yellow_l.gif);background-repeat: repeat-y' height ='251'></td><td width ='190' valign='top'><img src ='imgs/main/rkbd.jpg' alt = 'Visa Information'><br /><img src ='imgs/main/visainfo1.gif' alt = 'My Service Status' style ='margin-top:5px' onmouseover='style.cursor="hand"' onclick="openVisa();"><br /><a href="?mnu=a02b03"><img src ='imgs/main/visainfo2.gif' alt = 'Visa Guideline'></a><br /><a href="?b_id=77&c_id=343&mnu=a02b03&start=1"><img src ='imgs/main/visainfo3.gif' alt = 'E-2 GuideLine'></a><br /><a href="http://www.koreanconsulate.on.ca/en/download.php?id=104"><img src ='imgs/main/visainfo4.gif' alt = 'Visa Information'></a></td><td width ='15' style ='background-image:url(imgs/main/yellow_r.gif);background-repeat: repeat-y'></td></tr><tr><td width ='15' height ='20'><img src ='imgs/main/yellow_bl.gif'></td><td width ='15' style ='background-image:url(imgs/main/yellow_bc.gif);background-repeat: repeat-x'></td><td width ='15'><img src ='imgs/main/yellow_br.gif'></td></tr></table><table cellspacing ='0' cellpadding ='0' border ='0'><tr><td width ='15' height ='37'><img src ='imgs/main/yellow_tl.gif'></td><td  style ='background-image:url(imgs/main/yellow_tc.gif);background-repeat: repeat-x;font-weight:bold;'>Quick Menu</td><td width ='15'><img src ='imgs/main/yellow_tr.gif'></td></tr><tr><td width ='15' style ='background-image:url(imgs/main/yellow_l.gif);background-repeat: repeat-y' height ='226'></td><td width ='190' valign='top'><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?mnu=a01b01' style ='font-size:11px;font-weight:bold;'>Hours and Location</a><br /><span style ='color:#ff0000;'>&bull;</span>&nbsp;<a href ='?mnu=a02b04' style ='font-size:11px;font-weight:bold;'>CRC & Degree Confirmation</a><br /><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?mnu=a03b03' style ='font-size:11px;font-weight:bold;'>Working in Korea</a><br /><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?mnu=a03b02' style ='font-size:11px;font-weight:bold;'>Studying in Korea</a><br /><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?mnu=a02b05' style ='font-size:11x;font-weight:bold;'>Entry Formalities</a><br /><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?mnu=a03b04' style ='font-size:11x;font-weight:bold;letter-spacing:-1;'>General Information(Korea)</a><br /><span style ='color:#ff0000'>&bull;</span>&nbsp;<a href ='?b_id=77&c_id=340&mnu=a02b03&start=1' style ='font-size:11x;font-weight:bold;letter-spacing:-1;'>F-4 Guideline</a><br /></td><td width ='15' style ='background-image:url(imgs/main/yellow_r.gif);background-repeat: repeat-y'></td></tr><tr><td width ='15' height ='20'><img src ='imgs/main/yellow_bl.gif'></td><td width ='15' style ='background-image:url(imgs/main/yellow_bc.gif);background-repeat: repeat-x'></td><td width ='15'><img src ='imgs/main/yellow_br.gif'></td></tr></table><table cellspacing ='0' cellpadding ='0' border ='0'><tr><td width ='15' height ='37'><img src ='imgs/main/yellow_tl.gif'></td><td  style ='background-image:url(imgs/main/yellow_tc.gif);background-repeat: repeat-x;font-weight:bold;'>Location</td><td width ='15'><img src ='imgs/main/yellow_tr.gif'></td></tr><tr><td width ='15' style ='background-image:url(imgs/main/yellow_l.gif);background-repeat: repeat-y' height ='186'></td><td width ='190' valign='top'><br />Find the Nearest Korean Consulate or Embassy in Canada<div style ='font-size:9px;font-weight:bold;'>Postal Code</div><input name ='pcode' type ='text' size ='7' maxlength='7' id ='pcode'/><input type ='button' value = 'Search' onclick ='javascript:chkregion()'/> or <br /><div style ='font-size:9px;font-weight:bold;'>Province / Territory</div><select name ='pselect' onChange ='javascript:pcheck()' style ='font-size:11px;height:23px;'><option value ='' selected='selected'>Please Select</option><option value ='o' >Ottawa</option><option value ='v'>Alberta</option><option value ='v'>British Columbia</option><option value ='t'>Manitoba</option><option value ='m'>New Brunswick</option><option value ='m'>Newfoundland and Labrador</option><option value ='v'>Northwest Territories</option><option value ='m'>Nova Scotia</option><option value ='t'>Ontario</option><option value ='m'>Prince Edward Island</option><option value ='m'>Quebec</option><option value ='v'>Saskatchewan</option><option value ='v'>Yukon</option></select></td><td width ='15' style ='background-image:url(imgs/main/yellow_r.gif);background-repeat: repeat-y'></td></tr><tr><td width ='15' height ='20'><img src ='imgs/main/yellow_bl.gif'></td><td width ='15' style ='background-image:url(imgs/main/yellow_bc.gif);background-repeat: repeat-x'></td><td width ='15'><img src ='imgs/main/yellow_br.gif'></td></tr></table>		</td><!--right end-->
+	</tr>
+</table>
+<center>
+			<table border='0' cellpadding='0' cellspacing ='0' width='981' height ='100'  style ='margin-top:5px;'>
+				<tr>
+					<td background='imgs/diag_left.gif' width ='2' height='35'></td>
+					<td background='imgs/diag_fill.gif'>
+						<div style=" padding-left:15px;padding-bottom:5px;font-family:verdana;font-size:11px;font-weight:bold;">
+							<span style='color:#ffffff'>Links</span>						</div>
+					</td>
+					<td background='imgs/diag_right.gif' width ='2' style ='background-repeat:repeat-x'></td>
+				</tr>
+				<tr>
+					<td background='imgs/diag_back.gif'></td>
+					<td valign='middle' align='center'>
+						<!--<div align='right' valign='bottom' style ='margin-left:15px;margin-right:15px;margin-top:15px;margin-bottom:15px'>
+													
+						</div>
+						<div align='center'>
+													</div>-->
+						<table cellspacing ='0' cellpadding ='1' border ='0' width ='100%'><tr><td align='center'><a href = 'http://www.talk.go.kr/' target='_new'><img src ='imgs/banners/bb10.gif' /></a></td><td align='center'><a href = 'http://www.kdi.re.kr/kdi_eng/main/main.jsp' target='_new'><img src ='imgs/banners/bb01.gif' /></a></td><td align='center'><a href = 'http://dokdo.mofa.go.kr' target='_new'><img src ='imgs/banners/bb02.gif' /></a></td><td align='center'><a href = 'http://www.convergencekorea.org/index.jsp' target='_new'><img src ='imgs/banners/conv.png' /></a></td><td align='center'><a href = 'http://eng.expo2012.or.kr/eng/main.asp' target='_new'><img src ='imgs/banners/expo2012s.jpg' /></a></td></tr><tr><td align='center'><a href = 'http://www.korea.net/' target='_new'><img src ='imgs/banners/bb05.gif' /></a></td><td align='center'><a href = 'http://www.arirangtv.com/' target='_new'><img src ='imgs/banners/bb06.gif' /></a></td><td align='center'><a href = 'http://www.investkorea.org/' target='_new'><img src ='imgs/banners/bb07.gif' /></a></td><td align='center'><a href = 'http://www.tour2korea.com/' target='_new'><img src ='imgs/banners/bb08.gif' /></a></td><td align='center'><a href = 'http://www.immigration.go.kr/HP/IMM80' target='_new'><img src ='imgs/banners/bb09.gif' /></a></td><td align='center'>&nbsp;</td></tr></table>
+					</td>
+					<td background='imgs/diag_back.gif'></td>
+				</tr>
+				<tr>
+					<td colspan='3' height ='2' background ='imgs/diag_bot.jpg'></td>
+				</tr>
+			</table>
+		</center><br/>
+<table cellspacing ='0' cellpadding ='0' border='0' width ='981' style ='background-color:#ddeeff' class='copyright' align='center'>
+	<tr>
+			<td align='center' style ="border-color:#666666;border-style:dotted;border-width:1px;font-size:9px;filter:progid:DXImageTransform.Microsoft.Gradient(endColorstr='#e9effe', startColorstr='#6f8dc4', gradientType='0');">
+			555 Avenue Road, Toronto, Ontario, Canada M4V 2J7 <br> Tel: (416) 920-3809 Fax: (416) 924-7305 E-mail: <a href='mailto:toronto@mofa.go.kr'>toronto@mofa.go.kr</a><br> Copyright ¨Ï Consulate General of the Republic of Korea in Toronto		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+

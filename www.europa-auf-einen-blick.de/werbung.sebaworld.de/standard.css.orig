@@ -1,0 +1,48 @@
+a:link       { color: #0043AE }
+a:hover      { text-decoration: none }
+a:visited    { color: #0043AE }
+body         { margin:0; font-family: Tahoma; font-size: 8pt; background-color:#FFFFFF }
+td           { font-size: 10pt }
+h1           { color: #8B0B00; font-size: 24pt; text-align:left; margin-left:4; margin-top:0; margin-bottom:0 }
+h2           { color: #8B0B00; margin-bottom: 0; font-size:14pt}
+h3           { color: #8B0B00; border-top:1px solid #B4C3FF; font-size:15px; font-weight:bold }
+h5           { margin-bottom: 0; line-height:100%}
+hr           { color: #B4C3FF }
+.inhalt      { border-bottom: 2px solid #B4C3FF; }
+.highlight   { background-color: #FFC4AA; }
+.infonav     { font-size:11pt }
+.subnav      { font-size:10pt }
+a.allink     { color: #FFFFFF; font-weight:bold }
+a:visited.allink     { color: #FFFFFF }
+.info        { width:18%; border: 1px solid #000000; background-color: #FFC4AA; color: #FFFFFF; font-weight:bold; font-size:10px; text-align:center }
+.infobox     { width:36%; border-left: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; font-size:10px; padding-left:2px }
+.suchfeld    { font-size: 10px; border-style: solid; border-width: 0px; font-family:Tahoma; font-weight:bold }
+
+/* zellen */
+.sebabannerzelle { height:25px; background-color:#003366; text-align:center }
+.bannerzelle { height:70px; background-color:#003366; text-align:center }
+.oberzelle   { height:20px; font-size: 10px; text-align: right; vertical-align:middle; background-color:#FFC4AA }
+.suboben     { height:20px; background-color: #B4C3FF; vertical-align:middle; padding-left:45px }
+.navigation  { width:160px; vertical-align:top; horizontal-align:left; background-color:#B4C3FF }
+.inzelle     { vertical-align:top; padding-left:3px; padding-right:3px }
+.zelle1      { border-right: 1px solid #000000 }
+.zelle2      { border-top: 1px solid #000000 }
+.zelle3      { border-left:1px solid #000000; border-top: 1px solid #000000 }
+.zelle4      { height:50px; width:50px; border-style: solid; border-width: 1px; border-color:#000000; text-align:center }
+
+/* includer */
+.topbanner   { width:468px; height:60px }
+.topinc      { width:0px; height:2px }
+.empfehlung  { width:140px; height:360px }
+.unten       { width:768px; height:300px }
+.googleoben  { margin-top: 3px; margin-bottom: 2px; margin-left:32px }
+
+ul#Navigation { margin: 0; padding-top:0.4em; padding-bottom:0.4em; font-size:8pt  }
+ul#Navigation li { list-style: none; padding: 0; margin-left:0.2em; margin-right:0.1em; margin-top:0.2em; margin-bottom:0.1em  }
+ul#Navigation li.e0hier { font-weight:bold }
+ul#Navigation li.e1 { list-style-image: url('../images/e1.gif'); text-decoration:none; font-weight:normal  }
+ul#Navigation li.e1hier { list-style-image: url('../images/e1hier.gif'); font-style:oblique; font-weight:normal  }
+ul#Navigation li.e2 { list-style-image: url('../images/e2.gif'); font-style:normal }
+ul#Navigation li.e2hier { font-weight:bold; font-style:normal; list-style-image: url('../images/e2hier.gif')  }
+ul#Navigation li ul { padding: 0; margin-left:6; margin-right:0; margin-top:0; margin-bottom:0 }
+ul  { list-style-image: url('../images/e1.gif'); margin-left:10 }

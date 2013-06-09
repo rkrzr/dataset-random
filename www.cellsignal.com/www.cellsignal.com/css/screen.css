@@ -1,0 +1,530 @@
+/* Colors: e7e3d0:beige, 507693:blue, 663333:red, ccc:light gray, 999:dark gray */
+
+* { margin: 0; padding: 0; }
+html { color:#000; background-color:#e7e3d0; }
+body { color:#000; background-color:#e7e3d0; font-family:Verdana, Helvetica, Arial, sans-serif; }
+
+h1.whiteh1 { width:32.8em; color:#fff; background-color:#636363; white-space: nowrap; padding:.1em .2em .1em .2em; margin:0 0 1.8em 0; }
+h1.whitewrap { width:32.8em; color:#fff; background-color:#636363; font-size: small; margin:-5px 0 1.8em 0;  }
+
+h1, h2, h3, legend { color:#2b6eae; background-color:transparent; } /* color:#507693; which is correct headline color? */
+h1, h2, h3, dt, th, legend { font-weight: bold; }
+h1 { font-size: 1em; }
+h2, legend { font-size: .9em; }
+dt { font-size: 1em; }
+h3 { font-size: .7em; }
+object {outline:none; border:none;}
+
+.ruleBelow, #employment h2, #publications h2, #webresources h2, #phophoscan_ref h2 { padding-bottom: 8px; background: url(http://www.cellsignal.com/common/rule_horiz_cccc99.gif) bottom right no-repeat; }
+
+p, ol, ul, dl {font-size:.7em; line-height:1.85em;}
+ol ul, ol ol, ul ul, dd ul {font-size:1em;}
+
+h1, h2, h3, p, ol, ul, dl, #content img, table { margin-bottom: .7em; }
+h1, h2, h3  { margin-top: 1.2em; }
+
+/*acronym {border-bottom:dotted 1px #000;}*/
+
+.lowerAlpha { list-style-type:lower-alpha; }
+.lowerRoman { list-style-type:lower-roman; }
+
+#content ul, ol {margin-left: 4em;}
+dd {margin-left:2.4em;}
+#content ul li {list-style-image: url("http://www.cellsignal.com/common/bullet.gif");}
+sup {font-size:.9em;}
+sup, sub {line-height:0em;}
+h2 sup {font-size:.7em;}
+.anchor sup {font-size:.7em;}
+img {border:none;}
+#container a, #content a {text-decoration:none;}
+#container a:hover, #content a:hover {text-decoration:underline;}
+#content .underline {text-decoration:underline;}
+
+hr {margin:.4em 0 .4em 0;}
+
+/* header */
+
+.cellsignaling { position:absolute; top:4px; left:4px; z-index:1; }
+
+#header {position:absolute; height:6em; top:0; left:0; width:59.4em; padding:0px 8px 0 4px; text-align:right; color:#000; background-color: #e7e3d0;}
+#searchbox {padding:0; margin-top:4px;}
+#searchbox * {padding:0; margin:0;}
+.search {position:relative; top:4px;}
+
+#icons {float:right; margin-left:.8em; position:relative; z-index:2;}
+#icons img {margin:.4em -.4em 0 0;}
+#profile {position:relative; top:1.4em;}
+.pipe {color:#999; margin-left:.5em;}
+#flagicon {margin:0 5px 0 5px; position:relative; top:2px;}
+#countryname a {text-decoration:none;}
+#countryname a:hover {text-decoration:underline;}
+
+/* top navigation */
+
+#topnav { 
+	position:absolute;
+	bottom:0px;
+	right:9px;
+	margin:0; 
+	padding:0; 
+	white-space:nowrap;
+	}
+#header > #topnav { bottom:1px; } /* Pseudo hack for Mac: Safari 1.3.1, Firefox 1.0.7, Explorer 5.2, Netscape 7.1, Camino 0.7 */
+#topnav li { 
+	display: inline;
+	margin: 0px -2px 0px 0px;
+	padding:0;
+	list-style-type: none;
+	text-transform:lowercase;
+	}
+#topnav a { 
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff; 
+	text-decoration: none;
+	background-color: #636363;
+	padding: 3px 7px 4px 7px;
+	}
+	
+#topnav a:hover { background-color: #ccc; color: #333; }
+
+#topnav #phosphosite { 
+	background: #e7e3d0 url("http://www.cellsignal.com/common/phosphosite.gif") top left no-repeat; 
+	color: #666; 
+	padding-left:25px; 
+	border-right: 1px solid #30516b;
+	text-transform:none;
+	}
+#topnav #phosphosite:hover { color: #333; background-color:#e7e3d0; }
+
+#topnav-quick-links { background:#497794 url("http://www.cellsignal.com/common/header_quick-links_bg.gif") top left repeat-x; position:absolute; width:120%; height:24px; display:block; top:96px; right:-14px; margin:0; padding:3px 14px 0 0; white-space:nowrap; border-right:solid 1px #8d99a2; }
+#topnav-quick-links li { display:inline; color:#FFF; font-size:11px; font-weight:bold; }
+#topnav-quick-links li a { color:#FFF; text-decoration:none; border-right: 1px solid; padding:0 1.2em 0 1em; font-size:11px; }
+#topnav-quick-links li a:hover { text-decoration:underline; }
+#topnav-quick-links .topnav-last-item a { border-right:0px; padding:0 1em 0 1em; }
+#topnav-quick-links .topnav-last-item span { color:#dba51f; }
+
+
+
+.firstTab { color:#fff; background: #636363 url("http://www.cellsignal.com/common/tabLeft.gif") top left no-repeat; }
+.firstTab:hover { background: #ccc url("http://www.cellsignal.com/common/tabLeft_hover.gif") top left no-repeat; color: #333; }
+
+.lastTab { color:#fff; background: #636363 url("http://www.cellsignal.com/common/tabRight.gif") top right no-repeat; }
+.lastTab:hover { background: #ccc url("http://www.cellsignal.com/common/tabRight_hover.gif") top right no-repeat; color: #333; }
+
+/* feedback link */
+
+#feedback-link { 
+width:8em;
+margin:2.7em 6em 0 1.4em;
+text-align:center;
+}
+#feedback-link a {
+display:block;
+padding:.4em 1.6em .5em 1.6em;
+font-size:.8em;
+color:#2f4f4f;
+background: #fff url("http://www.cellsignal.com/common/tab-daa520.jpg") bottom center no-repeat;
+}
+#feedback-link a:hover { 
+color:#fff; 
+background-image:url("http://www.cellsignal.com/common/tab-b8860b.jpg"); 
+text-decoration:none;
+}
+#feedback .sidenav { margin-top:52px }
+
+.error-www #error-menu { margin:.8em }
+
+/* side navigation */
+
+.sidenav { 
+	width:12.3em;
+	margin:.8em 0 0 0;  
+	padding:0 0px 24px .5em;
+	vertical-align:top; 
+	}
+
+.sidenav p { 
+	margin-bottom:-.7em; 
+	font-family: Verdana, Helvetica, sans-serif; 
+	font-size: 1em;
+	line-height: 1.2em;
+	color: #666;
+	background-color:#fff;
+	}
+
+.sidenav ul { 
+	margin: 1em 0 0 0; 
+	padding-top: .9em; 
+	background-image: url("http://www.cellsignal.com/common/rule_666.gif"); 
+	background-position: top right;
+	background-repeat: no-repeat;
+	}
+	
+.sidenav li { 
+	margin: 0; 
+	padding: 0; 
+	line-height: 1.5em;
+	list-style-type: none; 
+	text-align: right;
+	}
+
+.sidenav a { 
+	font-size: .9em;
+	font-weight: 700;
+	color:#636363;
+	text-decoration: none;
+	vertical-align: middle; 
+	margin: 0;
+	padding: 2px 20px 2px 17px;
+	background: transparent url("http://www.cellsignal.com/common/circle_666.gif") right no-repeat;
+	}
+
+.sidenav ul li a:hover { background-image: url("http://www.cellsignal.com/common/circle_666_hover.gif"); }
+
+/* container */
+
+#container { margin-top:7.6em; width:61em; color:#000; background: #fff url("http://www.cellsignal.com/common/heading_636363.jpg") top left no-repeat; overflow:auto; }
+
+/* content area navigation options */
+
+#content #contentnav {  clear:left; width:auto; margin: 0 0 .8em 0; padding:0 }
+#contentnav li {display:inline; list-style-type:none; margin-right:12px;}
+#contentnav a {white-space:nowrap;}
+#contentnav li a {padding-left: 12px; background: transparent url("http://www.cellsignal.com/common/square_999.gif") 0 .35em no-repeat; text-decoration: none;}
+#contentnav li a:hover {color: #000; background-color:#fff; background-image: url("http://www.cellsignal.com/common/square_666.gif"); text-decoration: none;}
+
+#contentnav li a.anchor { background-image: url("http://www.cellsignal.com/common/anchor_999.gif"); background-position: 0 .3em; padding-left: 1.3em; }
+#contentnav li a.anchor:hover { background-image: url("http://www.cellsignal.com/common/anchor_666.gif"); }
+
+#contentnav.anchors li a { background-image: url("http://www.cellsignal.com/common/anchor_999.gif"); background-position: 0 .3em; padding-left: 1.4em; }
+#contentnav.anchors li a:hover { background-image: url("http://www.cellsignal.com/common/anchor_666.gif"); }
+
+#contentnav li a.backCategory { background-image: url("http://www.cellsignal.com/common/arrow_left_999.gif"); background-position: 0 .25em; padding-left: 1.4em; }
+#contentnav li a.backCategory:hover { background-image: url("http://www.cellsignal.com/common/arrow_left_666.gif"); }
+
+#contentnav li a.pdf {background-image:url("http://www.cellsignal.com/common/square_f30.gif");}
+#contentnav li a.pdf:hover {background-image:url("http://www.cellsignal.com/common/square_930.gif");}
+
+.secondaryantibody #contentnav li { margin-right:8px; }
+
+#content #alphanav {width:64em; margin: 0 0 .9em 0; padding: 0;}
+#alphanav li {display: inline; list-style-type: none; margin-right: 5px;}
+#alphanav li a {padding:2px;}
+#alphanav li a:hover {background-color:#ccc; text-decoration:none;}
+
+#content .anchorsList {margin-left:3em;}
+#content .anchorsList li {list-style-image:none; list-style-type:none;}
+.anchorsList li a { padding: 0 0 0 1.8em; background: transparent url("http://www.cellsignal.com/common/anchor_999.gif") 0 .35em no-repeat; text-decoration: none; }
+.anchorsList li a:hover { color: #000; background-color:#fff; background-image: url("http://www.cellsignal.com/common/anchor_999.gif"); text-decoration: none; }
+
+#content .arrowsRight  {margin-left:3em;}
+#content .arrowsRight li {list-style-image:none; list-style-type:none;}
+.arrowsRight li a { padding: 0 0 0 1.8em; background: transparent url("http://www.cellsignal.com/common/arrow_right_999.gif") no-repeat; text-decoration: none; }
+.arrowsRight li a:hover { color: #000; background-color:#fff; background-image: url("http://www.cellsignal.com/common/arrow_right_666.gif"); text-decoration: none; }
+
+#blocks { float:right; margin:0 1em 0 1.6em }
+#blocks a { 
+	display:block; 
+	padding:.6em .7em .6em 3em; 
+	font-size:.75em; 
+	font-weight:bold; 
+	color:#708090; 
+	border-bottom:dashed 1px #999;
+	background-position: 8px 5px;
+	background-repeat: no-repeat
+	}
+#blocks a:hover { text-decoration:none; color:#00008b; background-color:#eee }
+#block-a { border-top:dashed 1px #999 }
+#block-a { background-image:url("http://www.cellsignal.com/catalog/images/icon-organ-golgi.jpg") }
+#block-b { background-image:url("http://www.cellsignal.com/catalog/images/icon-d-mel-egg-lg.jpg") }
+#block-c { background-image:url("http://www.cellsignal.com/catalog/images/icon-catalog.jpg") }
+
+/* content */
+
+#content { float:right; width:45em; padding: 12px .8em 16px 0; color:#000; background-color:transparent; }
+
+.key, .footnote {font-size: .6em; line-height: 1.6em;}
+.footnote {margin-left:2.4em;}
+
+.floatRight {
+float:right; 
+border-style:solid;
+border-color:#ccc; 
+border-width:0 0 0 1px; 
+margin:0px 0px 10px 10px; 
+padding: 0 0 10px 10px;
+}
+
+.floatLeft {
+float:left; 
+border-style:solid;
+border-color:#ccc;  
+border-width:0 1px 0 0; 
+margin-right: 18px; 
+padding-right: 18px;
+}
+
+.floatRight p {margin-bottom:0;}
+.pointLeft {float:left; position:relative; top:.35em; margin-right:.4em;}
+
+.PDFlink { 
+float:right;
+color: #636363; 
+font-size: x-small; 
+font-weight: bold; 
+display: block;
+margin: 0 0 .6em 0;
+padding: 9px 0px 9px 31px; 
+text-decoration: none; 
+background: #fff url("http://www.cellsignal.com/common/downloadPDF.gif") top left no-repeat; 
+}
+#content .PDFlink:hover { background-position: bottom left; text-decoration: none; }
+#content .PDFlink:active { background-position: center left; text-decoration: none; }
+
+.revision p {font-size:.65em; color:#667; display:inline;}
+.revision p + p:before {content:"\2022"; padding-right:.6em;}
+
+/* tables */
+
+table {border-collapse: collapse;}
+th, td {font-size: .7em;}
+th {padding: .3em .8em; color: #fff; background-color: #507693; text-align: left; line-height: 1.7em; white-space:nowrap;}
+td {padding: .5em .8em; line-height: 1.4em;}
+.left {background-image: url("http://www.cellsignal.com/common/crvLft_507693.gif"); background-repeat: no-repeat; background-position: top left;}
+.right {background-image: url("http://www.cellsignal.com/common/crvRt_507693.gif"); background-repeat: no-repeat; background-position: top right;}
+tfoot th {vertical-align:middle;}
+
+tfoot td { font-weight:bold; line-height:1.4em; color:#808080; background-color:#d3d3d3; vertical-align:middle; padding:.1em .8em }
+
+.red th {color:#fff; background-color: #663333;}
+.red .left {background-image: url("http://www.cellsignal.com/common/crvLft_663333.gif");}
+.red .right {background-image: url("http://www.cellsignal.com/common/crvRt_663333.gif");}
+
+.beige th {background-color: #e7e3d0; color: #000;}
+.beige .left {background-image: url("http://www.cellsignal.com/common/crvLft_e7e3d0.gif");}
+.beige .right {background-image: url("http://www.cellsignal.com/common/crvRt_e7e3d0.gif");}
+
+.cellborder td {vertical-align:top; border:1px solid #ccc;}
+.rowborder td {border-bottom:1px solid #999;} /* Windows IE will not show borders on <tr> elements. Applying to <td> elements. */
+.bodyborder td {border-bottom:1px solid #999;}
+.bodyborder tbody {border-left:1px solid #999; border-right:1px solid #999;}
+
+.domains {border-bottom:solid 1px #999;}
+.domains thead {color:#fff; background-color:#507693; font-weight:bold; white-space:nowrap;}
+.domains tbody {border:solid 1px #F1F1F1; border-top:0px; border-bottom:solid 1px #999;}
+.domains .right_td {border-right:solid 1px #F1F1F1;}
+.domains .left_td {border-left:solid 1px #F1F1F1;}
+.domains_floatRight {float:right; border-left:solid 1px #ccc; margin:0 0 .4em .4em;  padding: 0 0 .4em .4em; width:19em;}
+.domains_floatRight img {display:block; margin:0 auto;}
+
+.rowColor, .colcolor {color:#000; background-color: #eee;}
+.center {text-align:center;}
+.centerSiblings th+th, .centerSiblings td+td {text-align:center;}
+.new {font-weight:bold; color:#036;}
+.narrow {width:1em;} /* Using on <col />. Available properties for <col /> element: border, background, visibility, width. */
+
+/* color highlights */
+
+.s_red {color:#C33; font-weight:bold;}
+.s_green {color:#693; font-weight:bold;}
+.s_blue {color:#369; font-weight:bold;}
+.s_yellow {color:#CC0; font-weight:bold;}
+
+/* services section   */
+#services_slideshow {margin:1em 0 0 2em;}
+#container #services_slideshow h2 {color:#F00;}
+#services_slideshow p {margin:1em 0;}
+#container #services_slideshow p .services_slideshow_pdf {background:url("http://www.cellsignal.com/services/images/pdficon_small.gif") no-repeat left; padding:.5em 0 0 2em;}
+
+/* flash container boxes */
+#flashContent div * { margin:0; padding:0; }
+#flashContent div { border:1px solid #f60; margin-bottom:.8em; padding:.4em .6em; }
+#flashContent div p { margin-bottom:.6em; }
+#flashContent .reference-pathway-image { margin:0 auto; display:block; }
+
+/* reference - signaling pathways */
+
+.signaling #description {margin-top:.2em;}
+.revised {color:gray; background-color:#fff;}
+.psp_heading {padding:.5em 1em .2em 1em; margin:0 auto 1em auto; display:block; border:dashed 1px #999;}
+
+#content #psp-search { color:#000; font-weight:bold;}
+#content #psp-search a { background-image:none; }
+#content #psp-search img { margin:0 4px 4px 0; vertical-align:middle }
+
+#content #psp-pathway {list-style-image:none; list-style-type:none; margin-right:0;}
+#content #psp-pathway a {background-image:none; padding-left:0;}
+#content #psp-pathway img { margin:0 4px 4px 0; vertical-align:middle }
+#content #psp-pathway sup {font-size:.8em;}
+
+.reference-pathway-intro {border-bottom:dashed 1px #999; padding:0 .4em .6em 3.8em; margin-top:-1em;}
+
+/* support */
+div.validation_imageWrapper {float:right; width:300px; padding:1em 2em; font-size:1em;}
+.validation_imageWrapper .img {margin-top:1em;}
+.validation_imageWrapper p {font-size:.6em;}
+
+#content .statement {background-color:#eee; padding:6px 10px; margin:0 0 10px 0; border:1px solid #999;}
+
+#specific h2 { color:#FF0000 }
+#protocol_contact {border-top:1px solid #ccc; text-align:center; margin-top:.6em; padding-top:.6em;}
+#product-specific p { font-size:.8em; }
+#product-specific strong { color:#FF3300; }
+
+/* unique list styles */
+
+#publications #content li, #phophoscan_ref #content li {margin-bottom:.6em;}
+
+#protocol_links {margin-left:1.6em;}
+#protocol_links dt {float:left; margin-right:.4em;}
+#protocol_links a {margin-left:.4em;}
+
+#key-lists h2 { margin:0 0 1em 0 }
+#key-lists div { float:left }
+#key-lists #apps-key { width:20.2em }
+#key-lists #react-key { padding-left:1.6em; margin-left:2em; border-left:1px solid #ccc }
+#key-lists dt { float:left; margin-right:.6em }
+#key-lists dd { margin-left:0; white-space:nowrap }
+#key-lists dd:before { content:"= " }
+
+/* product pages */
+
+.productName { margin-top:0; color:#000; font-size:1em; }
+#product h2 { clear:both; }
+#purchase img { margin:0; padding:0; }
+#productdata { text-align:center; }
+#product hr { margin-top:.8em; clear:both; }
+
+#psp-links #psp-icon {float: left; margin-right: 0.3em;}
+
+#purchase-widget, #purchase { clear:left }
+#product #purchase-widget { float:left }
+#purchase {margin-bottom:1em;}
+#purchase td {border-bottom:1px solid #ccc;}
+#purchase img {position:relative; top:.1em;}
+
+#offers {
+float:left;
+width:7.4em;
+margin:1em 0 0 1.6em;
+}
+#offers a {
+display:block;
+margin-bottom:.7em;
+padding:.3em .4em;
+font-size:.7em;
+line-height:1.3em;
+text-align:center;
+font-weight:bold;
+color:#fff;
+background-color:#daa520;
+background-image: url("http://www.cellsignal.com/common/corner.gif");
+background-repeat: no-repeat;
+background-position: top right;
+}
+#product #offers a:hover {
+text-decoration:none;
+background-color:#a0522d
+}
+
+#product #summary, 
+#product #components, 
+#product .key, 
+#product #ack-products, 
+#product #site-data, 
+#product #product_images { clear:both }
+
+#product #inquire, 
+#product #protocols { clear:left }
+
+#product #summary td, #product #components td { vertical-align:top }
+
+/*
+Product Assay Image Production Steps:
+1. Trim web image very close to the content on all sides.
+2. Check width of cropped image.
+3. If width is less than 200 pixels, then add white canvas to right side of graphic.
+No images should be less than 200 pixels wide. Image height is not constrained.
+*/
+
+#product_images {margin:.5em 0 1.6em 0;}
+#product_images h2 {width:14.5em; margin-right:2em;} 
+#product_images div {float:left;}
+#product_images img {width:12.5em; margin: 0 2em .6em 0;}
+#product_images p {width:19em; margin: 0 2em 1.6em 0; line-height: 1.5em;}
+#product_images br {clear:both;}
+
+/* international product pages */
+
+#international #content { float:none; width:54.9em; background-color:#fff; padding:1em 1.8em 1.8em 1.8em; margin-top:4em; }
+#international .productName { margin-top:0; }
+#international h2 { clear:both; }
+
+/* home page */
+
+/* For messages inside the #rollover navigation table. */
+#rollover .notice * { font-size:9pt; vertical-align:baseline; line-height:13pt; margin:0; padding:0; }
+#rollover .notice { border:1px solid #f60; margin:0 1em 0 0; padding:.6em .9em }
+.notice p { color:#000; }
+.notice a { background-image:none; font-weight:normal; color:blue; }
+
+/* search */
+
+#search-message {
+    margin-bottom:1em;
+    padding-left:1em; 
+    border-bottom:2px solid #ccc
+}
+
+/* login, registration and order process */
+
+.error {font-size: .75em; font-weight:bold; color:red;}
+.warning {color:red;}
+.errorMessage strong {font-weight:bold; color:red;}
+
+#container .messageBox * { margin:0; padding:0; }
+#container .messageBox { border:1px solid #f60; margin-bottom:.8em; padding:.4em .6em; }
+#container .messageBox a { text-decoration:underline; }
+#container .messageBox table { margin-bottom:.2em; }
+#container .messageBox th, #container .messageBox td { border:1px solid #507693; }
+#container .messageBox p b { display:inline }
+
+/* shopping cart */
+
+#cart .margin { margin-top:1.6em; }
+#quick label {margin-right:.6em; margin-bottom:.2em;}
+#quick label, #quick input[type="submit"] {margin-left:1.6em;}
+
+#priceTable {width:45em;}
+#priceTable td {line-height: 1.5em;}
+#cart #subtotal {float:right; margin:0 1em .4em 0; padding:.2em .7em .2em .7em; border:1px solid #ccc;}
+#cart hr {clear:both; width:45em; margin-bottom:.6em;}
+
+/* alert, service offline */
+
+#alert {margin-bottom:1em; padding:.5em .8em .2em .8em; background-color:#eee; border:1px solid #F60;}
+#alert p {line-height:1.7em;}
+#content #alert a {text-decoration:underline;}
+#priceService {width:32em; margin:1em 0 2em 0; padding:.6em .8em .6em .8em; border:2px solid #f60;}
+
+/* promotion */
+
+#xp_promo {padding:.4em .8em; background-color:#eee; border:1px solid #F60;}
+#content .xp_link a {text-decoration:underline;}
+.xp_prod {}
+
+#promo img {float:left; margin-right:.8em; border:solid 1px #ccc;}
+#promo hr, #promo br {clear:both;}
+
+.plus {padding:0; font-weight:bold; font-size:.8em; color:gray;}
+
+/* footer */
+
+#footer {clear:both; width:58.6em; padding:.8em 0 0 .9em; color:#000; background-color: #e7e3d0;}
+#footer img {float:right; margin-left:.6em;}
+#footer p {font-size:10px; line-height:13px; position:relative; top:.4em;}
+#footer .neb {color:#666;}
+#footer .neb a {text-transform:none;color:#666;}
+#footer a {text-decoration:none; text-transform:lowercase;}
+#footer a:hover {text-decoration:underline;}

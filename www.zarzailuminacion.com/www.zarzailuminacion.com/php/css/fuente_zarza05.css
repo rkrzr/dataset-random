@@ -1,0 +1,40 @@
+.normal
+{
+	font-family : verdana;
+	font-size : 10px;
+	background-color :;
+	color : ffffff;
+	font-weight : normal; 
+}
+.bold
+{
+	font-family : verdana;
+	font-size : 10px;
+	background-color : ;
+	color : #FDC441;
+	font-weight : bold; 
+}
+.especial
+{
+	font-family : verdana;
+	font-size : 1px;
+	background-color : #A0C5EF;
+	color : #A0C5EF;
+	font-weight : bold; 
+}
+.principal
+{
+	font-family : verdana;
+	font-size : 12px;
+	background-color : none;
+	color : white;
+	font-weight : normal; 
+}
+.direccion
+{
+	font-family : verdana;
+	font-size : 11px;
+	background-color :;
+	color : 000000;
+	font-weight : normal; 
+}

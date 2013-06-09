@@ -1,0 +1,64 @@
+#vtem_bannergroup,#vtemnav{
+position:relative;
+}
+#vtem_bannergroup #nav{
+position:absolute;
+z-index:999;
+}
+#vtem_bannergroup #nav a:hover,#vtem_bannergroup #nav a:focus{background-color:transparent !important;}
+#vtem_bannergroup #nav a{ margin:2px; display:block; float:left; text-decoration:none !important; outline:none;}
+#vtem_bannergroup #nav a span{font-weight:bold;color:#333; text-decoration:none; display:block;}
+#vtem_bannergroup #vtemnav{min-width:30px;_width:120px;}
+#vtemnav:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+	zoom: 1;
+    }
+
+/*///////////////// Navigation Styles /////////////////////////////*/
+.VT_Navigation-style1{background:url(images/go.png) no-repeat;}
+.VT_Navigation-style2{background:url(images/go2.png) no-repeat;}
+.VT_Navigation-style3{background:url(images/go3.png) no-repeat;}
+.VT_Navigation-style4{background:url(images/go4.png) no-repeat;}
+.VT_Navigation-style5{background:url(images/go5.png) no-repeat;}
+#vt_cycle_prev{
+position:absolute;
+top:42%;
+left:10px;
+height:38px;
+width:38px;
+z-index:999;
+background-position: right top;
+cursor:pointer;
+}
+#vt_cycle_next{
+position:absolute;
+top:42%;
+right:10px;
+height:38px;
+width:38px;
+z-index:999;
+background-position: left top;
+cursor:pointer;
+}
+#vt_cycle_prev:hover{background-position:right bottom;}
+#vt_cycle_next:hover{background-position:left bottom;}
+.vt_show_0{display:none !important; visibility:hidden;}
+.Top-Left{top:10px; left:10px;}
+.Top-Right{top:10px; right:10px;}
+.Bottom-Left{bottom:10px; left:10px;}
+.Bottom-Right{bottom:10px; right:10px;}
+.Navigation-style1{background:url(images/style1_right.png) right center no-repeat;padding:0 15px 0 0;}
+.Navigation-style1 div{background:url(images/style1_left.png) left center no-repeat;padding:0 0 0 15px; float:left;}
+.Navigation-style1 div a,.Navigation-style2 div a{padding:6px 3px;}
+.Navigation-style2{background:url(images/style2_right.png) right center no-repeat;padding:0 15px 0 0;}
+.Navigation-style2 div{background:url(images/style2_left.png) left center no-repeat;padding:0 0 0 15px; float:left;}
+.Navigation-style3 div a{background:url(images/style3.png) left center no-repeat; height:24px;width:24px;text-align:center;line-height:24px;}
+.Navigation-style4 div a{background:url(images/style4.png) left center no-repeat; height:24px;width:24px;text-align:center;line-height:23px;}
+.Navigation-style5 div a{background:url(images/style5.png) left top no-repeat; height:19px;width:19px; cursor:pointer;}
+.Navigation-style5 div a span{height:19px;width:19px; text-indent:-9999999px;}
+.Navigation-style5 div a.activeSlide{background-position:left bottom;}
+.vt_banneritem img{border:none !important;}

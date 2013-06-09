@@ -1,0 +1,59 @@
+<script type="text/javascript" language="JavaScript"><!--  document.write (unescape ('%3cscript type="text/javascript" '+' src="http://kropka.onet.pl/_s/kropka/r.js?id=zaqbkqNR5LqNhoXgAPR5gcbi.D6wqXCoYH3fVSJ_9CX.Z7&t=1&z=0&k=5&RR='+(new Date()).getTime()+'"%3e%3c/script%3e'));  //--></script> <HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=iso-8859-2">
+<META HTTP-EQUIV="Reply-to" CONTENT="bpzaw@poczta.onet.pl">
+<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+<META NAME="Keywords" CONTENT="Wiadomości Parafialne, parafia św. Mikołaja w Mosinie">
+<META NAME="Description" CONTENT="Wiadomości Parafialne, parafia św. Mikołaja w Mosinie">
+<META NAME="Author" CONTENT="Paweł Zawieja">
+<meta name="Robots" content="index, follow" />
+<TITLE>"Wiadomości Parafialne" - parafia Św. Mikołaja w Mosinie </TITLE>
+<link rel="stylesheet" type="text/css" href="style.css">
+</HEAD>
+<body bgcolor="#FFFFFF" link="#0000FF" alink="#FF0000" vlink="#000000">
+  <!-- CENTROWANIE NASTĘPNYCH ELEMENTÓW OKNA -->
+  <DIV ALIGN="Center">
+<!-- Podział górnego okna SPIS na trzy części: LEWA: logo, ŚRODKOWA - odnośniki, PRAWA - logo OPOKI -->
+<table width="800" border="0">
+<tr>
+<!-- LEWA CZĘŚĆ - LOGO -->
+	<td width="100" height="90">
+	<img src="rok.jpg" width="77" height="90" border="0" />
+	</td>
+<!-- Koniec LEWEJ CZĘŚCI - logo -->
+
+ <!-- ŚEODKOWA  CZĘŚĆ - odnośniki -->
+	<td width="560" height="90" align="CENTER">
+	<!-- Początek napisu w nagłówku -->
+<FONT SIZE="5" COLOR="blue"><B><BIG><I><CENTER>Wiadomości Parafialne</CENTER></I></BIG></B></FONT>
+<FONT SIZE="3" COLOR="red"><B><BIG><I><CENTER>Parafia Rzymsko - Katolicka p.w. Św. Mikołaja w Mosinie </CENTER></I></BIG></B></FONT>
+   <!-- Koniec napisu w nagłówku -->
+<P></P>
+<!-- Początek - CENTROWANIE NASTĘPNYCH ELEMENTÓW OKNA -->
+<DIV ALIGN="Center">
+<!-- Początek - Odnośniki -->
+<A HREF="numery.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="STRONA GŁÓWNA">|<B>Strona główna</B>|</A>
+&nbsp;
+<A HREF="najnowszy/najnowszy.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="Bieżący numer">|<B>Najnowszy numer</B>|</A>
+&nbsp;
+<A HREF="archiwum.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="Przedstawiamy wcześniej wydane gazety">|<B>Archiwum</B>|</A>
+&nbsp;
+<A HREF="redakcja.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="Przedstawiamy się">|<B>Redakcja</B>|</A>
+&nbsp;
+<A HREF="kontakt.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="Zadzwoń. napisz">|<B>Kontakt</B>|</A>
+&nbsp;
+<A HREF="linki.html" OnMouseOver="window.status='Wiadomości Parafialne - parafia w Mosinie' ; return true" target="numery" TITLE="Nasza parafia w Internecie">|<B>Linki</B>|</A>
+<!-- Koniec - Odnośniki -->
+</DIV>
+<!-- Koniec - Centrowania poprzednich elementów -->
+	</td>
+<!-- Koniec ŚRODKOWEJ CZĘŚCI - odnośniki -->
+	<!-- POCZĄTEK PRAWEJ CZĘŚCI - kościół -->
+	<td width="100" height="90" align="right">
+	<img src="mikolaj.jpg" width="80" height="90" border="0" />
+ 	</td>
+<!-- Koniec  PRAWEJ CZĘŚCI - kościół -->
+</tr>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,208 @@
+@charset "utf-8";
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* il est conseillé de mettre à zéro la marge et le remplissage de l'élément body, pour tenir compte des différentes valeurs par défaut des navigateurs */
+	padding: 0; /* ce paramétrage centre le conteneur dans les navigateurs IE 5.x. Le texte est ensuite aligné à gauche (valeur par défaut) dans le sélecteur #container */
+	color: #000000;
+}
+.thrColFixHdr #container {
+	width: 1024px;  /* paramétrage de la largeur à 20 pixels de moins que le plein écran (800 pixels) pour tenir compte de l'habillage du navigateur et éviter l'apparition d'un ascenseur horizontal */
+	background: #FFFFFF;
+	margin: 0 auto; /* les marges automatiques (et dotées d'une largeur positive) centrent la page */
+	border: 1px solid #000000; /* ce paramétrage annule le paramètre text-align:center de l'élément body. */
+} 
+.thrColFixHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent en dessous. Si, au lieu de texte, c'est une image qui est insérée dans l'élément #header, il est conseillé de supprimer le remplissage. */
+} 
+.thrColFixHdr #header h1 {
+	margin: 0; /* la mise à zéro de la marge du dernier élément du div #header permet d'éviter une disparition de la marge (espace inexplicable entre les éléments div). Si l'élément div est entouré d'une bordure, cette précaution n'est pas nécessaire, car la bordure évite également la disparition de la marge */
+	padding: 10px 0;
+	text-align: center;
+}
+.thrColFixHdr #sidebar1 {
+	float: left; /* cet élément est flottant, il faut donc lui attribuer une largeur */
+	width: 150px; /* Dans les navigateurs conformes au standard et dans Internet Explorer en mode standard, la largeur réelle de cet élément div est composée de la largeur plus le remplissage et la bordure */
+	background: #EBEBEB; /* la couleur de l'arrière-plan est affichée sur la largeur du contenu de la colonne, mais pas au-delà */
+	padding: 15px 10px 15px 20px; /* le remplissage permet d'écarter le contenu de l'élément div des bords de celui-ci */
+	font-size: 12px;
+}
+.thrColFixHdr #sidebar2 {
+	float: right; /* cet élément est flottant, il faut donc lui attribuer une largeur */
+	width: 160px; /* Dans les navigateurs conformes au standard et dans Internet Explorer en mode standard, la largeur réelle de cet élément div est composée de la largeur plus le remplissage et la bordure */
+	background: #FFFFFF; /* la couleur de l'arrière-plan est affichée sur la largeur du contenu de la colonne, mais pas au-delà */
+	padding: 0px 30px 05px 30px; /* le remplissage permet d'écarter le contenu de l'élément div des bords de celui-ci */
+}
+.thrColFixHdr #mainContent {
+	margin: 0 200px; /* les marges droite et gauche de cet élément div créent les deux colonnes extérieures su les deux côtés de la page. Quelle que soit la taille du contenu dans les éléments div des encadrés, l'espace des colonnes reste préservé. Vous pouvez supprimer cette marge gauche si vous souhaitez que le texte de l'élément div #mainContent remplisse l'espace des encadrés lorsque le contenu de ces derniers se termine. */
+	padding: 0 10px; /* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+	text-align: center;
+} 
+.thrColFixHdr #footer { 
+	padding: 0 10px 0 20px; /* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent au-dessus. */
+	background:#DDDDDD;
+} 
+.thrColFixHdr #footer p {
+	margin: 0; /* la mise à zéro de la marge du premier élément du pied de page permet d'éviter une possible disparition de la marge (espace entre les éléments div) */
+	padding: 10px 0; /* l'utilisation d'un remplissage pour cet élément crée un espace, tout comme une marge l'aurait fait, mais en évitant le risque de disparition de la marge */
+	font-size: small;
+}
+.fltrt { /* cette classe permet de rendre flottant le côté droit d'un élément dans la page. L'élément flottant doit précéder l'élément à côté duquel il doit se trouver dans la page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* cette classe permet de rendre flottant le côté gauche d'un élément dans la page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* cette classe doit être placée pour un élément div ou break et doit être l'élément final avant la balise de fin d'un conteneur qui doit contenir entièrement un élément flottant */
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.TitrePage{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	color: #3a3ab1;
+	margin-right: 0cm;
+	margin-left: 0cm;
+	text-align: center;
+}
+
+.Titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #3a3ab1;
+	list-style-position: inside;
+	list-style-type: none;
+	letter-spacing: 4px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-image: url('../New_Sites/0_NouveauSite/Feuille_Style/none');
+	background-repeat: no-repeat;
+	background-position:  0% 50%;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.Titre_orange {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FF6600;
+	list-style-position: inside;
+	list-style-type: none;
+	font-weight: bold;
+	letter-spacing: 4px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-image: url('../New_Sites/0_NouveauSite/Feuille_Style/none');
+	background-repeat: no-repeat;
+	background-position:  0% 50%;
+	padding-left: 30px
+}
+
+
+
+.Sous_Titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #3a3ab1;
+	list-style-position: inside;
+	list-style-type: none;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-image: url('../New_Sites/0_NouveauSite/Feuille_Style/none');
+	background-repeat: no-repeat;
+	background-position:  0% 50%;
+	padding-left: 30px
+}
+
+
+.Sommaire {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #3a3ab1;
+	list-style-position: inside;
+	list-style-type: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-right: 20px;
+	margin-left: 40px;
+	background-image: url('../New_Sites/0_NouveauSite/Feuille_Style/none');
+	background-repeat: no-repeat;
+	background-position:  0% 50%;
+	padding-left: 60px
+}
+
+.TexteStandard {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #006;
+	text-align: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.TexteRetrait {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #3a3ab1;
+	padding-left: 25px;
+	padding-right: 20px;
+}
+
+.TexteStandardItalique {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #3a3ab1;
+	font-style: italic;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.Textestandardcentre {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #3a3ab1;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.TexteSansRetrait {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #006;
+	text-align: justify;
+}
+
+
+.Textemilieu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF6600;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #039;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF6600;
+}
+a:active {
+	text-decoration: none;
+	color: #006;
+}
+

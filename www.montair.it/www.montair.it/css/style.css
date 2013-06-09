@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family:Arial Narrow;
+	background-color: #848381;
+  	background-image: url('../images/background.jpg');
+}
+
+table, td{
+/*text-align:center;*/
+font:14px Arial Narrow color:#FFFFFF;
+border-collapse:collapse;
+text-align:none;
+vertical-align:center;
+/*padding:0;
+margin:0;*/}
+
+.menu{font-family:Arial Narrow; font-size:20px; color:#707172; font-style:normal; font-weight:none; text-decoration: none;}
+a.menu:link {color: #707172; text-decoration: none;}
+a.menu:active {color: #d9001b; text-decoration: none;}
+a.menu:hover {color: #d9001b; text-decoration: none;}
+
+.menu-off{font-family:Arial Narrow; font-size:20px; color: #d9001b; font-weight: normal; font-align: justify; margin-top:0; margin-top:0;}
+
+.titoli{font-family:Times New Roman; font-size:18px; color: #d9001b; font-weight: normal; font-align: justify; margin-top:0; margin-top:0;}
+
+.lingue{font-family:Arial Narrow; font-size:13px; color:#707172; font-style:normal; font-weight:none; text-decoration: none;}
+a.lingue:link {color: #707172; text-decoration: none;}
+a.lingue:active {color: #d9001b; text-decoration: none;}
+a.lingue:hover {color: #d9001b; text-decoration: none;}
+
+.link-login-bar{font-family:Arial Narrow; font-size:14px; color:#ffffff; font-style:normal; font-weight:none; text-decoration: none;}
+a.link-login-bar:link {color: #ffffff; text-decoration: none;}
+a.link-login-bar:active {color: #707172; text-decoration: none;}
+a.link-login-bar:hover {color: #707172; text-decoration: none;}
+
+.link{font-family:Arial Narrow; font-size:14px; color:#d9001b; font-style:normal; font-weight:none; text-decoration: none;}
+a.link:link {color: #d9001b; text-decoration: none;}
+a.link:active {color: #707172; text-decoration: none;}
+a.link:hover {color: #707172; text-decoration: none;}
+
+.menu-sx{font-family:Arial Narrow; font-size:18px; color:#ffffff; font-style:normal; font-weight:none; text-decoration: none;}
+a.menu-sx:link {color: #ffffff; text-decoration: none;}
+a.menu-sx:active {color: #d9001b; text-decoration: none;}
+a.menu-sx:hover {color: #d9001b; text-decoration: none;}
+
+.menu-sx-off{font-family:Arial Narrow; font-size:18px; color: #555456; font-weight: none; font-align: justify; margin-top:0; margin-top:0;}
+
+
+.form-privacy {font-family:Arial Narrow;font-size: 11px; color: #710310; font-weight: none; font-align:justify;}
+
+.pulsanti {
+  font-family: Arial Narrow;
+  color: #ffffff;
+  font-size: 12px;
+  border: solid 1px #707172;
+  font-weight: bold;
+  font-style: normal;
+  height: 22px;
+  /*width: 150px;*/
+  background-color: #710310;
+  }
+ 
+.casella{ 
+  font-family: Arial Narrow;
+  color: #710310;
+  font-size: 14px;
+  border: solid 1px #707172;
+  font-weight: bold;
+  font-style: normal;
+  height: 18px;
+  /*width: 180px;*/
+  background-color: #e2dcd9;
+}
+.messaggio{ 
+  font-family: Arial Narrow;
+  color: #ffffff;
+  font-size: 14px;
+  border: solid 0px ;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #aa040d;
+  SCROLLBAR-FACE-COLOR: #ffffff;
+  SCROLLBAR-ARROW-COLOR: #aa040d;
+  SCROLLBAR-highlight-color: #ffffff;
+  SCROLLBAR-shadow-color: #aa040d;
+  SCROLLBAR-3dlight-color: #ffffff;
+  SCROLLBAR-track-color: #aa040d;
+  SCROLLBAR-darkshadow-color: #ffffff;
+}
+
+.slideshow_1 {
+	height: 328px;
+	width: 260px;
+	float: left;
+	overflow: hidden;
+}
+
+.slideshow_2_content {
+	height: 328px;
+	width: 764px;
+	float: left;
+	overflow: hidden;
+}
+
+.slideshow_2 {
+	height: 328px;
+	width: 764px;
+}
+
+.slideshow_2_preload {
+	position: absolute;
+	height: 328px;
+	width: 764px;
+	background-image: url(../images/loader.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.slideshow_titolo {
+	text-align: left;
+	font-family: Arial;
+	font-size: 30px; 
+	line-height: 24px;
+	margin-left: 27px;
+	margin-top: 40px;
+	color:#FF0000;
+	position: absolute;
+	z-index: 100;
+}
+
+.slideshow_titoletto {
+	font-family: Arial;
+	font-size: 22px;
+	line-height: 24px;
+	margin-left: 27px;
+	margin-top: 65px;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 100;
+	text-align: left;
+}
+
+.slideshow_testo {
+	font-family: Arial;
+	font-size: 14px; 
+	line-height: 19px;
+	margin-left: 27px;
+	margin-top: 140px;
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 100;
+	text-align: left;
+	font-style: italic;
+}
+
+.slideshow_link {
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 27px;
+}
+
+.slideshow_link a{
+	font-family: Arial;
+	font-size: 14px; 
+	line-height: 19px;
+	color: #aeedfb;
+	text-decoration: none;
+}
+
+#nav {
+	position: absolute;
+	z-index: 100;
+	margin-top: 290px;
+	margin-left: 700px;	
+}
+
+#nav a {
+	display: block;
+	float: left;
+	width: 14px;
+	height: 13px;
+	background-image: url(../images/pallino.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-right: 4px;
+}
+
+#nav a:hover,
+#nav .activeSlide {
+	display: block;
+	float: left;
+	width: 14px;
+	height: 13px;
+	background-image: url(../images/pallino_sel.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-right: 4px;
+}
+
+#nav a span{
+	display: none;
+}
+
+.small_slideshow {
+	position: absolute;	
+	text-align: left;
+}
+
+.small_slideshow_loader {
+	background-image: url(../images/loader.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 328px;
+	width: 260px;
+}
+
+.small_slideshow_titolo {
+	margin-left: 23px;
+	margin-top: 40px;
+	z-index: 3;
+	font-family: Arial;
+	font-size: 30px; 
+	line-height: 24px;
+	color: #ffffff;	
+}
+
+.small_slideshow_titolo span{
+	font-size: 22px;
+}
+
+.small_slideshow_riga {
+	margin-left: 23px;
+	z-index: 5;
+	font-family: Arial;
+	font-size: 14px; 
+	line-height: 19px;
+	color: #ffffff;	
+	text-align: left;
+	font-style: italic;
+}
+
+.small_slideshow_riga1 {
+	margin-top: 140px;
+}
+
+.small_slideshow_riga2 {
+	margin-top: 159px;
+}
+
+.small_slideshow_riga3 {
+	margin-top: 178px;
+}
+
+.small_slideshow_riga4 {
+	margin-top: 197px;
+}
+
+.small_slideshow_link {
+	margin-left: 23px;
+	margin-top: 290px;
+	z-index: 5;
+}
+
+.small_slideshow_link a{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 14px; 
+	line-height: 19px;
+	color: #ff0000;	
+	text-align: left;	
+}

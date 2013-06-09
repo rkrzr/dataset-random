@@ -1,0 +1,320 @@
+/* Digest
+------------------------------
+    1. Mise en page
+    	1.1 Titrailles
+    	1.2 Espacements généraux
+    	1.3 Paragraphes
+    	1.4 Retour à la ligne
+    	1.5 Espacement des paragraphes
+    	1.6 Alignement
+    	1.7 Introduction
+    	1.8	Mise en avant
+    	1.9	Citation
+    	1.10 Liens
+    	1.11 Listes
+    		1.11.1 Listes de définition
+    	1.12 Tableaux
+    	1.13 Images
+    	1.14 Fichiers joints
+*/
+
+/* ----------------------------------------------------------------------------*/
+  /* -------------------------------------------------------------------------------------------------->>> 1. Mise en page <<<-----------*/
+/* ----------------------------------------------------------*/
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.1 Titrailles <<<-----------*/
+
+.contenu h1,.contenu  h2,.contenu  h3,.contenu  h4,.contenu  h5,.contenu  h6 {
+	font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+	/*clear:both;*/
+}
+.contenu h1 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	color:#97be0d;
+	font-weight:normal;
+	clear:none;
+}
+.contenu h2 {
+	color:#004687; //181818;
+	font-size:1.4em;
+	margin-top:2em !important;
+	margin-bottom:1.1em !important;
+	position:relative;
+	right:0;
+	text-transform:none;
+}
+.contenu h3 {
+	color:#97be0d; //181818;
+	margin-top:1em !important;
+	font-size:1.2em;
+	font-weight:600 !important;
+	margin-bottom:1em;
+}
+.contenu h4 {
+	color:#0084C3;
+	font-size: 1.1em;
+	margin-bottom: 1.071em;
+}
+
+.contenu a {
+	text-decoration:underline;
+}
+.contenu a:hover {
+	text-decoration:none;
+}
+
+.contenu strong, .contenu b {
+	color:black;
+}
+
+  /* ---------------------------------------- Bouton */
+  
+a.bouton {
+	display:block;
+	height:27px;
+	background:#699b04 url('../../images/structure/background/bouton_bg.gif') repeat-x top left;
+	float:left;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+a.bouton .left {
+	display:block;
+	float:left;
+	height:27px;
+	width:5px;
+	background:url('../../images/structure/background/bouton_bg_left.gif') no-repeat top left;
+}
+
+a.bouton .middle {
+	display:block;
+	float:left;
+	height:24px;
+	padding:3px 20px 0 20px;
+}
+
+a.bouton .right {
+	display:block;
+	float:left;
+	height:27px;
+	width:5px;
+	background:url('../../images/structure/background/bouton_bg_right.gif') no-repeat top right;
+}
+
+a.bouton:hover .middle {
+	text-decoration:underline;
+}
+	
+  /* -------------------------------------------------------------------------------------------------->>> 1.2 Espacements généraux <<<-----------*/
+	
+.sans_espacement {padding: 0}
+.petit_espacement {padding-bottom: .5em}
+.grand_espacement {padding-bottom: 1.5em}
+.tres_grand_espacement {padding-bottom: 2em}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.3 Paragraphes <<<-----------*/
+
+.contenu p {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	text-align: justify;
+	word-spacing: 0.08em;
+}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.4 Retour à la ligne <<<-----------*/
+
+.contenu p.retour_ligne {clear:both}
+	
+  /* -------------------------------------------------------------------------------------------------->>> 1.5 Espacement des paragraphes <<<-----------*/
+
+.contenu p.sans_espacement {padding:0}
+.contenu p.petit_espacement {padding-bottom:5px}
+.contenu p.grand_espacement {padding-bottom:20px}
+.contenu p.tres_grand_espacement {padding-bottom:30px}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.6 Alignement <<<-----------*/
+
+.contenu p.alignement_centre {text-align:center}
+.contenu p.alignement_droite {text-align:right}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.7 Introduction <<<-----------*/
+
+.contenu p.introduction {
+	border-left:6px solid #cccccc;
+	padding:0 0 0 5px;
+}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.8 Mise en avant <<<-----------*/
+
+.contenu p.mis_en_avant {
+	clear: both;
+	border: 1px dashed #999;
+	background: #97be0d;
+	margin-bottom: 1em;
+	padding: .5em 1em;
+	color:white;
+}
+
+.contenu p.mis_en_avant a{
+	color:white;
+}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.9 Citation <<<-----------*/
+
+.contenu p.citation {
+	background:transparent url(../../images/structure/background/citation.gif) no-repeat scroll 0 10px;
+	clear:both;
+	font-style:italic;
+	margin-bottom:1em;
+	padding:0.3em 1em 0.3em 2.5em;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.11 Listes <<<-----------*/
+
+.contenu ul {
+	margin-bottom: 1.8em;
+	/*position:relative;*/
+	right:10px;
+	/*width: 502px;*/
+	z-index:1;
+	/*clear:both;*/
+	zoom:1
+}
+.contenu ul li {
+	font-size: 1em;
+	line-height: 1.5em;
+	background:url('../../images/elements/puce_base.gif') no-repeat left 7px;
+	padding:0 0 0 10px;
+	margin-left:15px;
+	zoom:1
+}
+.contenu li > ul, .contenu li > ol {
+	margin-bottom: 0;
+	margin-left: 3em;
+}
+#IE6 .contenu li  ul, .contenu li  ol {
+	margin-bottom:0;
+	margin-left:3em;
+}
+.contenu ul li li {
+	font-size: 1em;
+}
+.contenu ol {
+	margin-bottom: 1.8em;
+	list-style: decimal inside;
+	right:18px;
+	position:relative;
+}
+.contenu ol li {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+	  /* -------------------------------------------------------------------------------------------------->>> 1.11.1 Listes de définition <<<-----------*/
+
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: 900; }
+dl dd { margin-left: 1.5em; }
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.12 Tableaux <<<-----------*/
+
+.contenu table.tableau_donnees {
+	width:100%;
+	border-collapse:collapse;
+	vertical-align: middle;
+	border-color:#97be0d;
+	margin:0 0 1em 0
+}
+.contenu table.tableau_donnees tr p {
+	text-align:left;
+	line-height:normal;
+	vertical-align: middle;
+	margin:0;
+	padding:0;
+}
+.contenu table.tableau_donnees tr th {
+	background: #97be0d;
+	border-color:#fff;
+	padding: .3em;
+	vertical-align: middle;
+	color:white;
+	text-transform:uppercase;
+	font-size:0.9em;
+}
+.contenu table.tableau_donnees tr th p {text-align:center}
+.contenu table.tableau_donnees tr td {
+	vertical-align: top;
+	vertical-align: middle;
+	padding: .5em;
+	border-color:#97be0d;
+	font-size:0.85em;
+}
+.contenu table.tableau_donnees tr td.mis_en_avant {background:#eaf2cf; vertical-align: middle;}
+.contenu table.tableau_donnees tr td.alignement_centre p {text-align:center}
+.contenu table.tableau_donnees tr td.alignement_droite p {text-align:right}
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.13 Images <<<-----------*/
+
+.contenu img {
+	padding:1px;
+	border:1px solid #cccccc;
+}
+
+.contenu div.object-left {
+	float:left;
+	clear:left;
+	margin:0 10px 10px 0;
+	text-align:center;
+}
+.contenu div.object-left p{
+	font-size:0.8em;
+	padding:.2em;
+	background:#f3f3f3;
+}
+.contenu div.object-right {
+	float:right;
+	clear:right;
+	margin:0 0 10px 10px;
+	text-align:center;
+}
+.contenu div.object-right p {
+	font-size:0.8em;
+	padding:.2em;
+	background:#f3f3f3;
+}
+
+
+.contenu div.object-center {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center !important;
+	margin:10px;
+	
+}
+.contenu div.object-center p {
+	font-size:0.8em;
+	padding:.2em;
+	background:#f3f3f3;
+}
+
+.attribute-image p {
+	margin-bottom:0;
+}
+
+.attribute-caption p {
+	width:100%;
+	text-align:center;
+	position:relative;
+	left:2px;
+} 
+
+  /* -------------------------------------------------------------------------------------------------->>> 1.14 Fichiers joints <<<-----------*/
+
+.contenu div.fichier_joint {
+	padding:0 0 5px 0
+}
+.contenu div.object-right span.fichier_joint {float:right}

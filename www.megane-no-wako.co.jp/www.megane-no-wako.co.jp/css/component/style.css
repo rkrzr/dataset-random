@@ -1,0 +1,56 @@
+/* 
+	LEVEL ONE
+*/
+ul#globalNav ul.dropdown                         { position: relative; }
+ul#globalNav ul.dropdown li                      { zoom: 1; }
+ul#globalNav ul.dropdown li a                    { display: block; padding: 0px; }
+ul.dropdown li.hover,
+ul.dropdown li:hover                 { position: relative; display: block;}
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul{ 
+	width: 200px; 
+	visibility: hidden;
+	position: absolute; 
+	top: 100%; left: 0;
+	border: 1px solid #ccc;
+	background: #FFF;
+	padding: 0px 0px;
+ }
+
+ul.dropdown ul.sub_menu li {
+ width: 200px; 
+ font-weight: normal;
+ background: #f6f6f6;
+ color: #000;
+ float: none;
+	background: #FFF;
+	padding: 1px 0px;
+ }
+
+ul.dropdown ul.sub_menu li span a{
+	margin: 1px 0px;
+	width: 175px; 
+ display: block;
+ border-top: 1px dotted #ccc;
+ }
+									  
+/* IE 6 & 7 Needs Inline Block */
+
+ul.dropdown ul.sub_menu li a{
+	margin: 0px;
+	padding: 5px 0px 5px 25px;
+	border-right: none; 
+	width: 100%;
+	color: #333;
+	display: inline-block;
+	background: #FFFFFF url(http://www.megane-no-wako.co.jp/images/header/mark03.gif) no-repeat 10px 10px;
+ } 
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul.sub_menu li a:hover{
+	background: #E8F3FA url(http://www.megane-no-wako.co.jp/images/header/mark03.gif) no-repeat 10px 10px;
+ } 

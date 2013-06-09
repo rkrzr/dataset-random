@@ -1,0 +1,271 @@
+﻿/*__________Clean slate__________*/
+* {	margin:0; padding:0; 	font-size: 1em; }
+
+.off { /* cache mais garde l'accessibilité */
+	position:absolute;
+	left:0px;
+	top:-500px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+
+body {
+	color: #0f330d;
+	font-family: "Tahoma", "Verdana", Georgia, "Times New Roman", Times, serif;
+	/* font-family: "Lucida Grande", Georgia, "Times New Roman", Times, serif; */
+	font-size: 0.72em;
+	background:#fff;
+	padding:0 0 0 0;
+	}
+	
+h1 {
+	position: absolute;
+	top: 133px;
+	left: 253px;
+	font-size: 1px; color: #000;  }
+h1:before {
+	font-size: 12px;
+	color: #eee;
+	font-weight: normal;
+	content: "Prestations disc-jockey et évènementielles dans le Nord-Ouest.";
+}
+
+a {
+	color:#8fb34f;
+	font-weight:bold;
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration:underline;
+	}
+
+hr {
+	clear: both;
+	margin: 1em 0;
+	height: 1px;
+	width: 100%;
+	border: none;
+	color: #888;
+	background-color: #888;
+	border-color: #888;	
+	}
+	
+dt {
+	margin-top: 2em;
+	font-weight:bold;
+	}
+	
+#contenu strong>abbr[title="disc-jockey"] {  font-size: 1px; position:relative; left:-8px; color:transparent; border: none; cursor: text; }
+#contenu strong>abbr[title="disc-jockey"]:before { font-size: 14px; color: #8f75a7; position:relative; left:5px; margin-left:9px; content: "disc-jockey"; }
+#contenu strong>abbr[title="disc jockey"] { font-size: 1px; position:relative; left:-5px; border: none; cursor: text; }
+#contenu strong>abbr[title="disc jockey"]:before { font-size: 14px; font-weight: normal; color: #8f75a7; position:relative; left:5px; content: "disc-jockey pour"; }
+
+(strong abbr)+strong { text-decoration: underline; }
+
+#container {
+	position:relative;
+	width:980px;
+	left:50%;
+	margin-left:-490px;
+	background:#fff url(defaut/base/corps.jpg) repeat-y right;
+	overflow:auto;
+	z-index:100;
+	}
+#container h3 span {
+	display:none;
+	}
+
+#entete {
+	position:relative;
+	right:0px;
+	width:980px;
+	height:171px;
+	margin:0 auto;
+	background:url(defaut/base/entete.jpg) no-repeat right bottom;
+	}
+	
+#entete h2 { border: 1px solid red;
+	position:absolute;
+	top: 132px;
+	left: 40px;
+	font-size: 12px;
+	color: #eee;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-style: normal; 
+	}
+
+#espaceclient:before {	content: ""; }
+#espaceclient a {
+	display: block;
+	height: 54px;
+	width: 175px;
+	position: absolute;
+	padding: 30px 12px 0px 00px;
+	top: 50px;
+	right: 40px;
+	text-align: center;
+	font-size: 13px; 
+	color: #eee;
+	background:url(defaut/base/espaceclient.png) no-repeat right top;
+	}
+#espaceclient a:hover {
+	text-decoration: none;
+	color: #aaa;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.!;
+	opacity: 0.8;
+	}
+
+
+#intro {
+	color: #8f75a7;
+	}
+#intro h2 { margin-top: 30px; }
+#intro p {
+    font-size: 1.3em; font-style: italic;
+	margin:18px 0 18px 17px;
+	letter-spacing:0.03em;
+	text-align:justify;
+	}
+
+div h2 { color: #8f42a7; font-style: italic; font-size: 20px; font-weight: normal; margin-bottom: 5px; }
+div h3 { color: #8f42a7; font-style: italic; font-size: 15px; font-weight: normal; margin-bottom: 4px; }
+div h4 { color: #8f42a7; font-style: italic; font-size: 12px; font-weight: normal; margin-bottom: 3px; }
+div h5 { color: #8f42a7; font-style: italic; font-size: 10px; font-weight: normal; margin-bottom: 2px; }
+div.paragraphe li { list-style: square inside; padding:5px 0; }
+#contenu p {
+	margin:16px 0;
+	}
+
+ul.enligne { display: inline; }	
+ul.enligne:after { content: " ..."; }	
+ul.enligne li { display: inline; padding-left: 0.3em; }
+ul.enligne li:after { content: " "; }
+ul.enligne li:before { content: "... "; }
+
+ul.sousliste li { font-size: 50%; }
+
+#requirements {
+	margin-bottom:37px;
+	}
+.grand {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #666;
+}
+
+/*__________Images__________*/
+
+div.paragraphe { padding: 1.5em 0px; clear: both; }
+
+div.paragraphe ul { vertical-align: middle; }
+
+div.paragraphe h4 { white-space: nowrap; }
+div.poldrt h4 { clear: left; }
+div.polgch h4 { clear: right; }
+
+a img { 
+	border: none;
+}
+.spacer {
+	height: 50px;
+}
+#viewer {
+	display: block;
+	float: left;
+	padding: 0px; 
+	margin: 0px;
+	color: #E5E5E5;
+}
+img.poldrt  {
+	display: block;
+	float: right;
+	padding: 5px 5px 5px 5px; 
+}
+img.polgch {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	padding: 5px 5px 5px 5px;
+}
+
+.clear { clear: both; }
+
+#basdepage {
+	display:inline;
+	float:right;
+	clear:both;
+	background:url(http://www.prestiscene.com/css/default/base/check.gif) no-repeat right center;
+	}
+
+/* ______Contenu________ */
+
+#contenu {
+	width:560px;
+	color: #8f75a7;
+	margin-left:370px;
+	margin-top:40px;
+	text-align:justify;
+	min-height:800px;
+	}
+
+#contenu #map_canvas {
+    float: right;
+	height: 180px;
+	width: 180px;
+    border: 5px solid #999;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    -khtml-border-radius: 10px; 
+    border-radius: 10px;
+}
+
+/* ________Tableaux_________*/
+
+.tableau td,.tableau th {
+	padding: 5px;
+}
+
+.tableau td.numeraire {
+	text-align: right;
+}
+
+.tableau th.numeraire {
+	text-align: center;
+}
+
+/* _________Menu____________*/
+
+#menu {
+	position: absolute;
+	top: 175px;
+	left: 0px;
+	padding-left: 270px;
+	margin: 5px 0px 0px; 0px;
+	width: 700px;
+	overflow: hidden;
+	}
+	
+li a.sombre { color: #8fb34f; font-weight: normal; font-style: italic; }
+
+#extraDiv1 {
+	position:relative;
+	width:980px;
+	left:50%;
+	margin-left:-490px;
+	background:url(defaut/base/pied.jpg) no-repeat right top;
+	height:60px;
+	}
+
+/* ____Etapes_____*/
+.miniature { 
+	font-family: "Tahoma", "Verdana", Georgia, "Times New Roman", Times, serif;
+	font-size: 0.8em !important;
+	} 
+.etapes { color: #0000ff; }
+

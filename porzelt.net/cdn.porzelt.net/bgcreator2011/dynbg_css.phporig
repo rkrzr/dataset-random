@@ -1,0 +1,3 @@
+body { background-image: url("/bgcreator2011/images/0001.jpeg") !important; 
+ background-attachment:fixed; 
+ background-position:left}

@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="google-site-verification" content="pHUgsf3nXDmwfTjNxaqXXWQZBkezMapL11HE3gn2dpM" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="/css/reset-min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<!--[if IE 6]><link rel="stylesheet" href="css/ie.css" type="text/css" media="all" /><![endif]-->
+<!--[if lt IE 7]><script type="text/javascript" src="/js/unitpngfix.js"></script><![endif]--> 
+<title>Free users online counter - Realtime website visitor tracking</title>
+<meta name="description" content="Features a free users online counter that enables you to track your website visitors in real-time. See how many visitors are online and where they are from. No registration!" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+<body>
+<ul id="skip" class="hide">
+<li><a href="#content">Skip to the content</a></li>
+</ul>
+<div id="wrapper">
+<div class="live-counter"><script type="text/javascript" src="/users/counter?id=941090"></script></div>
+<div id="logo">
+<img src="img/logo.png" alt="Free users online counter - Logo" />
+<h1>Web<span class="users-online">Counters</span>.co</h1>
+<p id="website-slogan">You'll be tracking your website visitors in less than 2 minutes!</p>
+</div>
+<span class="clear"></span>
+<div id="page">
+<div id="nav" class="col1">
+<ul>
+<li class="selected"><a href="/" title="Free users online counter - Home">Free online counter</a></li>
+<li><a href="/users/online/941090" title="View demo statistics for our online users counter">Demo stats</a></li>
+<li><a href="/tos.html" title="Terms and Conditions for use of the online users counter">Terms</a></li>
+<li><a href="/contact.php" title="Contact us. Make feature suggestions or ask about advertising on our website">Contact us</a></li>
+</ul>
+</div>
+<span class="clear"></span>
+<div id="content">
+<div id="stripbox">
+<div id="strip">
+<div class="col2">
+<div class="padd20">
+<h2>Create your free online user counter!</h2>
+<p>Creating your free website counter is very simple. You'll be tracking online visitors in real-time in no time. <strong style="color:#EF7F30">No registration!</strong></p>
+<script type="text/javascript" src="/users/js/counter-generate.js"></script>
+<form action="">
+<div class="left-domain ">
+<label for="domain" class="venstre">Your domain / website URL address</label> 
+<div class="div_texbox"> 
+<input name="domain" type="text" class="domain" id="domain" value="" /> 
+</div> 
+</div>
+<div class="right-website">
+<label for="name" class="title-right">Website title</label>
+<div class="div_texbox">
+<input name="name" type="text" class="name" id="name" value="" /> 
+</div> 
+</div>
+<div class="button">
+<input type="button" class="morebtn" value="Generate counter code" onclick="javascript:get_code()"/>
+</div>
+
+<div class="copy-paste">
+<p style="font-size:15px;color:#565656">Fill out your website title and url address above to generate the HTML code. <strong>Copy / paste!</strong></p>
+</div>
+<div class="free-counter-code">
+<div id="error" style="display:none"></div>
+<div id="code" style="display:none">
+<textarea style="width:495px;height:40px" rows="1" cols="1" id="code_src"></textarea>
+</div>
+</div>
+</form> 
+<div class="clear"></div> 
+</div>
+</div>
+<div class="col4">
+<div class="counter-teaser">Do you have a website or blog that you would like to count the number of online users on in REAL-TIME?</div>
+<div class="counter-teaser">Would you like to know how many vistitors are online right now?</div>
+<div class="counter-teaser">Would you like to know the exact pages your visitors are on right now?</div>
+<div class="counter-teaser">Would you like to see where your visitors are from? Sure you do, who doesn't.</div>
+<div class="counter-teaser">Whats there to think about? Generete your free online counter now!</div>
+<div class="counter-teaser"><strong>SIMPLE!</strong> Generate you HTML counter code!</span></div>
+</div>
+</div>
+</div>
+
+<div id="secstrip">
+<div class="col3">
+<div class="padd20">
+<img src="img/users-counter.png" alt="Free Online Counter Grapth" />
+<p class="title alt">Why choose our free counter</p>
+<p class="subtitle"><strong>AD FREE WEBSITE COUNTER - NO REGISTRATION!</strong></p>
+<p class="desc">There is no reason why you should not choose our free online users counter. <strong>Try it out! No registration required and it is absolutely AD-FREE!</strong></p>
+</div>
+</div>
+<div class="col3">
+<div class="padd20">
+<img src="img/realtime-counter.png" alt="Free counter stats in real-time" />
+<p class="title alt">Real-Time online user stats</p>
+<p class="subtitle">CONSTANTLY IMPROVED</p>
+<p class="desc">We are on a daily basis improving and adding more features to our <em>free online counter</em> service. Generate your own HTML code and start using our free counter.</p>
+</div>
+</div>
+</div>
+<span class="clear"></span>
+<div id="content2">
+<div class="smallcol1">
+<div class="padd30">
+<h3>Welcome to our website</h3>
+<p>We offer you a <strong>free online users counter</strong> that tracks visitors on your website in real-time. Our users online counter is very easy to integrate and add to your website. Simply generate your counter code and copy/paste it in the HTML Source Code of your website.</p>
+<p><strong>NO REGESTRATION</strong> is required. It doesn't get easier to track and see how many visitors you have on your website.</p>
+</div>
+</div>
+<div class="smallcol1 center">
+<div class="padd30">
+<h3>Latest news</h3>
+<ul class="news">
+<li>
+<h5 class="date">Jan 13, 2013</h5>
+<p>freeusersonlinecounter.com is now <b>webcounters.co</b> - the Web Counter Company. Watch this space for
+forthcoming enhancements</p>
+</li>
+<li>
+<h5 class="date">March 22, 2011</h5>
+<p>We are excited to tell our viewers that we are working hard on new SEO tools, the 1st one is a Back Link Checker.... Stay tuned.</p>
+</li>
+<li>
+<h5 class="date">Oct 9, 2010</h5>
+<p>Our website and the overall look and feel of the free online users counter has got a new webdesign. We hope you like it.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="smallcol1">
+<div class="padd30">
+<h3>Users online counter features</h3>
+<p><strong>Free users unline counter</strong> is a visitor counter service that gives webmasters like yourself the ability to see how many users are viewing your website's webpages. </p>
+<ul>
+<li>AD FREE</li>
+<li>NO REGISTRATION</li>
+<li>Real-Time Users Online Info</li>
+<li>Open User Stats in New Window</li>
+<li>See Where Your Users Are From</li>
+<li>See How Many Is On What Pages</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<span class="clear"></span>
+<div id="footer" class="col1">
+<div class="padd10">
+<div id="secnav">
+<ul>
+<li>Users online counter</li>
+<li><a href="/users/online/941090" title="Demo statistics">Demo stats</a></li>
+<li><a href="/tos.html" title="Terms and Conditions - TOS">Terms</a></li>
+<li><a href="/contact.php" title="Contact us">Contact us</a></li>
+</ul>
+</div>
+<div id="copy">
+<p>Copyright &copy; 2011 - 2013 WebCounters.co / The Web Counter Company &amp; All Rights Reserved. | Website visitor and free online counter in real-time.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class="clear"></span>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1647052-25']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,681 @@
+/**************** Styles for Dropdown Menus ******************/
+#nav1 {
+	font-family: "Segoe UI", "Lucida Sans Unicode", "Trebuchet MS",Tahoma, Verdana, Arial,  Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background: none;
+	border-top: 0px solid #000;
+	border-bottom: 0px solid #000;
+	z-index:1000;
+	text-align:left;
+	
+}
+ 
+#nav1 ul {
+	margin: 0px;
+	padding-left: 5px;
+	list-style-type:none;
+	z-index:1000;
+	
+}
+
+#nav1 ul li {
+	position: relative;
+	font-size:12px;	
+	margin-right: 15px;
+	padding: 5px 10px 5px 10px;
+	list-style: none;
+	float: left;
+	z-index:1000;
+	height: 18px;
+/*	text-transform:uppercase;
+line-height:2;*/	
+}
+
+#nav1 ul li.separator {
+	width: 2px;
+	position: relative;
+	font-size:12px;
+	margin: 0px;
+	margin-right: 2px;
+	padding: 2px 0px 0px 0px;
+	list-style: none;
+	float: left;
+	z-index:1000;
+}
+
+
+#nav1 ul li a{
+	color: #fff;
+}
+
+#nav1 ul li a:hover{
+	color: #ff9900;
+	text-decoration:none
+	
+}
+
+
+#nav1 ul li.nav_home {
+	margin-left: 20px;
+}
+
+#nav1 ul li.nav_home:hover{
+	margin-right: 20px;
+	height:20px;
+}
+
+
+
+#nav1 ul li.nav_home.active {
+	background: none;
+}
+
+#nav1 ul li.active {
+	height:18px;
+	/*background-color: #2381B5;*/
+	margin-left: 20px;
+	
+	
+/*	border-top:solid 1px #DCB102;
+	border-left:solid 1px #DCB102;
+	border-right:solid 1px #DCB102;
+*/}
+
+#nav1 ul li.active a{
+	color: #FFFFFF;
+	background:#2381B5;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding-bottom:3px;
+	
+}
+
+
+#nav1 ul li.nav_home a{
+	color: #FFFFFF;
+	background:none;
+
+	padding-bottom:0px;
+	
+}
+
+/*
+#nav1 ul a {
+	text-decoration: none;
+	z-index:1000;
+	color: #003366;
+}
+*/
+#nav1 ul li ul li a:link{
+	color: #fff;
+}
+
+#nav1 ul li ul li a:visited{
+	color: #fff;
+}
+
+#nav1 ul li ul li a:hover{
+	color: #ff9900; 
+}
+
+#nav1 ul ul {
+	position: absolute;
+	width: 250px;
+	font-weight: normal;
+	background-color: #2381B5;
+	list-style-type:none;
+	margin: 0px;
+	margin-top:12px;
+	padding: 0px;
+	/*text-shadow: 2px 2px 2px #000;*/
+	/*-moz-border-radius: 2px;
+	-webkit-border-radius: 2px; 
+	border-radius: 2px;*/
+	z-index: 1000;
+}
+
+#nav1 ul ul ul{
+	border: 1px solid #2381B5;
+	
+}
+
+
+#nav1 ul ul a {
+	display:block;
+	text-decoration: none;
+	color: #27aae2;
+	z-index:1000;
+	font-weight: normal;
+	
+}
+
+
+#nav1 ul ul li {
+	font-family: Tahoma, Verdana, Arial,  Helvetica, sans-serif;
+	width: 240px;
+	padding: 5px 5px;
+	font-size: 12px;
+	line-height: 130%;
+	border-bottom: 1px solid #42A2CD;
+}
+
+#nav1 ul ul li a{
+	color: #003366;
+	font-size:12px;
+}
+
+#nav1 ul ul li a:hover{
+	color: #ff9900
+	
+}
+#nav1 ul ul ul {
+	position: absolute;
+}
+
+
+#nav1 ul ul ul a {
+	/* background-color:#F2EAD9; */
+	display:block;
+	text-decoration: none;
+	font-weight: normal;
+	
+}
+
+
+div#nav1 ul ul, div#nav1 ul ul ul,
+div#nav1 ul li:hover ul ul, div#nav1 ul ul li:hover ul ul {
+	display: none;
+}
+
+div#nav1 ul li:hover {
+	
+	background-color: #2381B5;
+	/*-webkit-border-top-left-radius: 5px;
+	-khtml-border-radius-topleft: 5px;	
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-radius-topright: 5px;	
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;*/
+	/*border-top:solid 1px #DCB102;
+	border-left:solid 1px #DCB102;
+	border-right:solid 1px #DCB102;*/
+}
+
+div#nav1 ul li:hover a{
+	color: #ff9900;
+}
+
+#nav1 ul ul li:hover {
+	background-color: #2381B5;
+}
+
+/*div#nav1 li a:hover{
+	color: #0ff
+}
+*/
+
+div#nav1 ul li:hover ul,
+div#nav1 ul ul li:hover ul, div#nav1 ul ul ul li:hover ul {
+	display: block;
+	background:#2381B5;
+	
+	
+}
+
+div#nav1 ul li:hover ul{
+	top: 16px;
+	left:0px;
+}
+
+div#nav1 ul ul li:hover ul {
+	top:0px;
+	left:250px;
+}
+
+
+
+.parent_nav {
+	background-image:url(http://www.finance.gov.tt/css/subnav_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+
+<!--[if IE]>
+<style type="text/css" media="screen">
+#nav1 ul li {
+	float: left;
+}
+
+
+
+
+
+</style>
+<![endif]-->
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+body {
+	behavior: url(csshover.htc);
+	font-size: 100%;
+}
+
+#nav1 ul li a {height: 1%;} 
+
+/*#nav1 a, {
+	font: bold 10px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+*/</style>
+<![endif]-->
+/* END TOP */
+
+
+/* Submenu Styles */
+#submenu_wrapper {
+/*	width: 220px;
+*/	background: #fff;
+
+}
+
+#subMenu {
+	
+/*	width: 220px;
+	margin-left:15px;
+*/	margin: 0px 10px 60px 0px;
+	/*padding:10px 10px 10px 10px;*/
+	font-family: "Lucida Sans Unicode","Segoe UI","Trebuchet MS",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+/*	border-bottom: 1px solid #ccc;
+*/	
+}
+
+
+
+#subMenu img{
+	border: none
+}
+
+#subMenu img.book_cover{
+	border: 1px solid #FF6600
+}
+
+
+#subMenu .ribbon 
+{
+margin-left:-50px;
+}
+/*#subMenu h1 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #1C62AE;
+	text-transform: capitalize;
+	margin-top: 0px;
+	padding: 10px 10px 5px 10px;
+	line-height:100%;
+}
+*/
+
+#subMenu div.submenu_header {
+	 padding:0;
+	 height:33px;
+	 margin-bottom:15px;
+			 
+	 }
+
+#subMenu h1{
+	font-family: "Segoe UI", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	/*font-size: 16px;
+	font-weight: bold;*/
+	line-height: 4;
+	color: #2381B5;
+	padding: 0px 10px 5px 0px;
+	text-transform:capitalize;
+	z-index:1000;
+	width:200px;
+	border-bottom: 1px solid #FF9900
+}
+
+
+
+#subMenu h1 a:link, #subMenu h1 a:visited, #subMenu h1 a:hover{
+	color: #072C71;
+}
+
+
+#subMenu a{
+	text-decoration: none
+}
+
+#subMenu ul{
+	padding: 0px 0px;
+	margin: 0px;
+	
+}
+
+
+#subMenu ul li{
+	margin: 0px;
+
+	/*padding: 4px 0px;*/
+	list-style-image: none;
+	list-style-type: none;
+	background:#0066CC;
+}
+
+
+#subMenu ul li.subMenuL0 {
+	font-size: 11px;
+	/*font-weight: bold;*/
+	background: #fff;
+	text-transform: uppercase;
+	border-top: 0px solid #ccc;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0px;
+	padding: 0px 2px 4px 2px;
+	
+	
+}
+
+#subMenu ul li.subMenuL0 a{
+	color: #2381B5;
+	display: block
+}
+
+#subMenu ul li.subMenuL0 a:hover{
+	color: #ff9900;
+	display: block
+}
+
+
+/*#subMenu ul li.subMenuL0.On a{
+	color: #cea400;
+	font-weight: bold;
+	
+}*/
+
+#subMenu ul li.subMenuL0.Parent, #subMenu ul li.subMenuL0.On {
+	
+	background: #f2f2f2;
+	border-left: 0px solid #ddd;
+	border-right: 0px solid #ddd;
+	padding: 4px 2px 4px 2px;
+	background: url(http://www.finance.gov.tt/images/li_bullet_down.gif) no-repeat left #eee;
+}
+#subMenu ul li.subMenuL0.Parent a, #subMenu ul li.subMenuL0.On a{
+	color: #ff6600;
+	font-weight:normal;
+	display: block
+
+}
+
+#subMenu ul li.subMenuL1 {
+	text-transform: none;
+	background: url(http://www.finance.gov.tt/images/border_submenu.gif) repeat-x bottom #fff ;
+	border-top: 0px solid #eee;
+	border-left: 0px solid #ddd;
+	border-right: 0px solid #ddd;
+	padding: 5px 0px 5px 20px;
+}
+
+#subMenu ul li.subMenuL1 a{
+	color: #999;
+	font-weight:normal;
+	display: block
+	
+}
+
+#subMenu ul li.subMenuL1.On{
+	background: #fff ;
+}
+#subMenu ul li.subMenuL1.On a:link, #subMenu ul li.subMenuL1.On a:visited{
+	color: #ff9900;
+	font-weight: normal;
+	background: #fff
+}
+
+
+#subMenu ul li.subMenuL1:hover, #subMenu ul li.subMenuL1 a:hover{
+	color: #ff9900;
+}
+
+
+#subMenu ul li.subMenuL2 {
+	font-size: 11px;
+	font-weight: nornal;
+	text-transform: none;
+	background: #fff;
+	border-top: 0px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 0px 0px;
+	padding: 4px 30px;
+}
+
+#subMenu ul li.subMenuL2:hover{
+	/*background: #126493;*/
+}
+
+#subMenu ul li.subMenuL2:hover a{
+	color: #1C62AE;
+}
+
+
+#subMenu ul li.subMenuL2 a{
+	color: #333;
+	display: block;
+	background: #fff;
+}
+
+#subMenu ul li.subMenuL2.On {
+	background: #fff;
+}
+
+
+#subMenu ul li.subMenuL2.On a{
+	color: #ff9900;
+	font-weight: bold;
+	background: #fff;
+}
+
+/* Secondary Menu Styles */
+
+#navs {
+	font-family: "Trebuchet MS",Tahoma, Verdana, Arial,  Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background: none;
+	border-top: 0px solid #000;
+	border-bottom: 0px solid #000;
+	z-index:1000;
+}
+
+/* #navs a {
+	color: #D9C18F;
+	text-decoration: none;
+}
+
+#navs a:hover {
+	color: #9C1842;
+	background: #D9C18F;
+} */
+
+
+#navs ul {
+	margin: 0px;
+	padding-left: 10px;
+	list-style-type:none;
+	z-index:1000;
+
+}
+
+#navs ul li {
+	position: relative;
+	font-size:11px;
+	margin: 0px;
+	margin-right: 2px;
+	padding: 5px 8px 8px 8px;
+	list-style: none;
+	float: left;
+	z-index:1000;
+	text-transform:uppercase;
+}
+
+#navs ul li a{
+	color: #999;
+}
+
+#navs ul li a:hover{
+	color: #EB870F;
+}
+
+
+#navs ul li.nav_home {
+	margin-right: 2px;
+}
+
+#navs ul li.nav_home.active {
+	background: none
+	
+}
+
+#navs ul li.active {
+	background: none;
+}
+
+
+
+
+
+#navs ul a {
+	text-decoration: none;
+	z-index:1000;
+	color: #999;
+}
+
+#navs ul li ul li a:link{
+	color: #126493;
+}
+
+#navs ul li ul li a:visited{
+	color:#126493;
+}
+
+#navs ul li ul li a:hover{
+	color: #EB870F;
+}
+
+#navs ul ul {
+	position: absolute;
+	width: 150px;
+	font-weight: bold;
+/*	background-color: #f2f2f2;*/
+	list-style-type:none;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	z-index: 500;
+}
+
+#navs ul ul a {
+	display:block;
+	text-decoration: none;
+	color: #000066;
+	z-index:1000;
+	font-weight: normal
+}
+
+
+#navs ul ul li {
+	width: 141px;
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+	text-transform: none;
+}
+
+/*#navs ul ul li a{
+	color: #006;
+}
+*/
+
+#navs ul ul ul {
+	position: absolute;
+}
+
+
+#navs ul ul ul a {
+	/* background-color:#F2EAD9; */
+	display:block;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+
+/*#navs ul ul li:hover {
+	background-color: #f2f2f2;
+}
+*/
+div#navs ul ul,
+div#navs ul li:hover ul ul {
+	display: none;
+}
+
+div#navs li:hover {
+/*	background-color: #C8A500;
+*/}
+
+div#navs li a:hover{
+	color: #CFA500;
+}
+
+
+div#navs ul li:hover ul,
+div#navs ul ul li:hover ul {
+	display: block;
+}
+
+div#navs ul li:hover ul{
+	top: 25px;
+	left:0px;
+	
+}
+
+div#navs ul ul li:hover ul {
+	top: 0px;
+	left: 150px;
+}
+
+.parentNav {
+	background-image:url(http://www.finance.gov.tt/css/subnav_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+
+<!--[if IE]>
+<style type="text/css" media="screen">
+#navs ul li {
+	float: left;
+}
+
+</style>
+<![endif]-->
+
+<!--[if lt IE 7]>
+<style type="text/css" media="screen">
+body {
+	behavior: url(csshover.htc);
+	font-size: 100%;
+}
+
+#navs ul li a {height: 1%;} 
+
+/*#navs a, {
+	font: bold 10px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+*/</style>
+<![endif]-->
+/* END Secondary Menu Styles */
+

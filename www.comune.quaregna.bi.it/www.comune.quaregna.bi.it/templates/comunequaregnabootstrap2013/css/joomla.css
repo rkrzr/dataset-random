@@ -1,0 +1,599 @@
+/* 
+ * Joomla.css is a document that mostly handles any joomla elements that couldn't be overriden.
+ * ------------------------------------------------------------- */
+/* 
+ * Item Ratings
+ * ------------------------------------------------------------- */
+.item-rating br {
+	display:none;
+}
+.content_rating {
+	display:block;
+	margin-bottom:9px;
+}
+.content_vote {
+	font-size:12px;
+}
+.content_vote > input[type=radio] {
+	margin:0 3px;
+}
+.content_vote > input[type=submit] {
+	display: inline-block;
+	padding: 4px 10px 4px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	background-color: #fafafa;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+	border: 1px solid #ccc;
+	border-bottom-color: #bbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	margin-left:.3em;
+    *margin-left: .3em;
+}
+.content_vote > input[type=submit]:hover {
+	color: #333333;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-ms-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+}
+.content_vote > input[type=submit]:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.content_vote > input[type=submit]:active {
+	background-image: none;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: #e6e6e6;
+	background-color: #d9d9d9 \9;
+	color: rgba(0, 0, 0, 0.5);
+	outline: 0;
+}
+.content_vote > input[type=submit] {
+	/* makes the button smaller */
+	padding: 5px 9px;
+	font-size: 11px;
+	line-height: 16px;
+}
+/* 
+ * Pagenav
+ * ------------------------------------------------------------- */
+.pagenavcounter {
+	margin-bottom:9px;
+}
+/* 
+ * Article Images
+ * ------------------------------------------------------------- */
+.img-fulltext-none:before, .img-fulltext-none:after, .img-intro-none:before, .img-intro-none:after {
+	display: table;
+	content: "";
+}
+.img-fulltext-none:after, .img-intro-none:after {
+	clear: both;
+}
+.img-fulltext-none, .img-intro-none {
+	float: none;
+	margin: 0 0 18px 0;
+}
+.img-fulltext-left, .img-intro-left {
+	margin:0 20px 18px 0;
+}
+.img-fulltext-right, .img-intro-right {
+	margin:0 0 18px 20px;
+}
+.img-fulltext-none, .img-intro-none, .img-fulltext-left, .img-intro-left, .img-fulltext-right, .img-intro-right {
+	text-align:center;
+}
+.img-fulltext-none img, .img-intro-none img, .img-fulltext-left img, .img-intro-left img, .img-fulltext-right img, .img-intro-right img {
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img_caption > .img_caption {
+	padding: 9px;
+}
+/* 
+ * Table of contents using nav nav-tabs nav-stacked classes from b.s.
+ * ------------------------------------------------------------- */
+#article-index {
+	float:right;
+	width:30%;
+	margin:0 0 10px 10px;
+}
+#article-index > ul {
+	margin-left: 0;
+	margin-bottom: 18px;
+	list-style: none;
+}
+#article-index > ul > li > a {
+	display: block;
+}
+#article-index > ul > li > a:hover {
+	text-decoration: none;
+	background-color: #eeeeee;
+}
+#article-index > ul {
+    *zoom: 1;
+}
+#article-index > ul:before, #article-index > ul:after {
+	display: table;
+	content: "";
+}
+#article-index > ul:after {
+	clear: both;
+}
+#article-index > ul > li {
+	float: left;
+}
+#article-index > ul > li > a {
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-right: 2px;
+	line-height: 14px;
+}
+#article-index > ul {
+	border-bottom: 1px solid #ddd;
+}
+#article-index > ul > li {
+	margin-bottom: -1px;
+}
+#article-index > ul > li > a {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border: 1px solid transparent;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+#article-index > ul > li > a:hover {
+	border-color: #eeeeee #eeeeee #dddddd;
+}
+#article-index > ul > li > a.active, #article-index > ul > li > a.active:hover {
+	color: #555555;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+#article-index > ul > li {
+	float: none;
+}
+#article-index > ul > li > a {
+	margin-right: 0;
+}
+#article-index > ul {
+	border-bottom: 0;
+}
+#article-index > ul > li > a {
+	border: 1px solid #ddd;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+#article-index > ul > li:first-child > a {
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+#article-index > ul > li:last-child > a {
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+#article-index > ul > li > a:hover {
+	border-color: #ddd;
+	z-index: 2;
+}
+/* 
+ * Pagenav Using Bootstrap Styles
+ * ------------------------------------------------------------- */
+.item-page .pagenav {
+	margin-left: 0;
+	margin-bottom: 18px;
+	list-style: none;
+	text-align: center;
+    *zoom: 1;
+	clear:both;
+}
+.item-page .pagenav:before, .item-page .pagenav:after {
+	display: table;
+	content: "";
+}
+.item-page .pagenav:after {
+	clear: both;
+}
+.item-page .pagenav li {
+	display: inline;
+}
+.item-page .pagenav a {
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.item-page .pagenav a:hover {
+	text-decoration: none;
+	background-color: #f5f5f5;
+}
+.item-page .pagenav .pagenav-next a {
+	float: right;
+}
+.item-page .pagenav .pagenav-prev a {
+	float: left;
+}
+.content-links {
+	clear:both;
+}
+/* 
+ * Adjustments made for item pagination
+ * ------------------------------------------------------------- */
+.item-page .pagination {
+	height: 36px;
+	margin: 18px 0;
+}
+.item-page .pagination ul {
+	display: inline-block;
+	*display: inline;
+    *zoom: 1;
+	margin-left: 0;
+	margin-bottom: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.item-page .pagination li {
+	float: left;
+	padding: 0 14px;
+	line-height: 34px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+}
+.item-page .pagination li:hover {
+	background-color: #f5f5f5;
+}
+.item-page .pagination li:active {
+	color: #999999;
+	cursor: default;
+}
+.item-page .pagination li:first-child {
+	border-left-width: 1px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.item-page .pagination li:last-child {
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+.item-page .pagination a {
+	float: left;
+	padding: 0;
+	line-height: 34px;
+	text-decoration: none;
+	border: 0;
+	border-left-width: 0;
+}
+/* 
+ * Image Classes
+ * ------------------------------------------------------------- */
+.image-left {
+	float:left;
+	margin:0 10px 10px 0;
+}
+.image-right {
+	float:right;
+	margin:0 0 10px 10px;
+}
+/* 
+ * Category Seperators
+ * ------------------------------------------------------------- */
+.row-separator, .item-separator {
+	clear:both;
+	display:block;
+	margin:18px 0;
+}
+.row-separator {
+	border:0;
+	border-bottom:1px solid #eee;
+}
+/* 
+ * Default Edit Form
+ * ------------------------------------------------------------- */
+/*body.edit .modal {
+	position:relative;
+	top:inherit;
+	left:inherit;
+	z-index: 1050;
+	max-height:inherit;
+	overflow:visible;
+	width:auto;
+	margin:auto;
+	background-color:transparent;
+	border: 0;
+	border: 0;
+    *border: 0;
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+}
+*/
+.button2-left {
+	float:left;
+	display:block;
+	margin:10px 10px 10px 0;
+}
+
+/* 
+ * Default Sliders
+ * ------------------------------------------------------------- */
+.pane-sliders {
+	margin-bottom: 18px;
+}
+.panel {
+	margin-bottom: 2px;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.panel > .title {
+	border-bottom:1px solid #e5e5e5;
+	margin:0;
+}
+.panel > .title > a {
+	display: block;
+	padding: 8px 15px;
+}
+.panel > .content {
+	padding: 9px 15px;
+}
+.panel > .content > div {
+	margin-top:8px;
+}
+.panel > .title.pane-toggler-down {
+	font-size:1em;
+	margin:0;
+	position:relative;
+}
+.panel > .title.pane-toggler-down a:after {
+	position:absolute;
+	content:'';
+	right:10px;
+	top:18px;
+	margin-left: -5px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #000000;
+}
+.pane-toggler {
+	font-size:1em;
+	background:#eee;
+	margin:0;
+	position:relative;
+}
+.panel > .title.pane-toggler a:after {
+	position:absolute;
+	content:'';
+	right:10px;
+	top:18px;
+	margin-left: -5px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #000000;
+}
+.panel .nav {
+	margin:8px 0;
+}
+.panel .nav-list {
+	margin:0 -15px;
+}
+/* search component */
+.search-component .phrases-box input[type=radio] {
+	float:left;
+	margin-right:10px;
+}
+#finder-filter-select-list {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.filter-branch {
+	margin-bottom:10px;
+}
+/* 
+ * Default Tooltips
+ * ------------------------------------------------------------- */
+.tip-wrap {
+	padding: 3px;
+	width: 280px;
+	overflow: hidden;
+	background: #000000;
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+.tip-title {
+	padding: 9px 15px;
+	line-height: 1;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eee;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.tip-text {
+	padding: 14px;
+	background-color: #ffffff;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+}
+/* 
+ * Default System Messages
+ * ------------------------------------------------------------- */
+#system-message dl, #system-message dt, #system-message dd, #system-message ul, #system-message li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#system-message dt {
+	display:none;
+}
+#system-message .message {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #3a87ad;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#system-message .message.error {
+	background-color: #f2dede;
+  	border-color: #eed3d7;
+	color: #b94a48;
+}
+/* 
+ * Default Joomla Tabs
+ * ------------------------------------------------------------- */
+.tabs {
+	margin:0;
+}
+div.current {
+	clear:both;
+	background:#fff;
+	padding:10px;
+	margin-bottom:20px;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	zoom: 1;
+}
+.tabs:before, .tabs:after {
+	display: table;
+	content: "";
+	zoom: 1;
+}
+.tabs:after {
+	clear: both;
+}
+.tabs > dt {
+	float: left;
+}
+.tabs > dt > span {
+	display: block;
+}
+.tabs {
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 0 0 1px;
+}
+.tabs > dt {
+	position: relative;
+	margin-bottom: -1px;
+}
+.tabs > dt > span {
+	padding: 0 15px;
+	margin-right: 2px;
+	line-height: 34px;
+	border: 1px solid transparent;
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+.tabs > dt > span:hover {
+	text-decoration: none;
+	background-color: #eee;
+	border-color: #eee #eee #ddd;
+}
+.tabs dt.open > span, .tabs dt.open > span:hover {
+	color: #808080;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}	
+.current > dd {
+	margin-left:0;
+}
+/* Module Positions Preview */
+.mod-preview-info {
+	display:inline-block !important;
+	background:#333 !important;
+	color:#fff !important;
+}
+.row .mod-preview{
+	display:none;
+}
+.row .mod-preview:first-child {
+	display:block;
+	margin-left:30px;
+}
+.mod-preview-wrapper {
+	padding-top:30px;
+	margin-bottom:10px;
+	background-color:transparent !important;
+	border-color:#FF0000 !important;
+}
+.mod-preview-wrapper:before,
+.mod-preview-wrapper:after {
+  display: table;
+  content: "";
+}
+.mod-preview-wrapper:after {
+  clear: both;
+}
+
+}

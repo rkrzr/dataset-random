@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11"><script type="text/javascript" src="http://porzelt.net/wp-content/plugins/scripts-gzip/gzip.php?js=wp-content%2Fthemes%2FGrungezine%2Fjs%2Fjquery.js%2Cwp-content%2Fthemes%2FGrungezine%2Fjs%2Ftabs.js%2Cwp-includes%2Fjs%2Fjquery%2Fjquery.js%3Fver%3D1.8.3%2Cwp-content%2Fplugins%2Fsociable%2Fjs%2Fsociable.js%3Fver%3D3.5%2Cwp-content%2Fplugins%2Fsociable%2Fjs%2Faddtofavorites.js%3Fver%3D3.5%2Cwp-content%2Fplugins%2Ffeatured-content-gallery%2Fscripts%2Fmootools.v1.11.js%2Cwp-content%2Fplugins%2Ffeatured-content-gallery%2Fscripts%2Fjd.gallery.transitions.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Allgemein | porzelt.net</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" >
+
+<meta name="generator" content="WordPress 3.5" /> <!-- leave this for stats -->
+<link rel="stylesheet" href="http://porzelt.net/wp-content/plugins/scripts-gzip/gzip.php?css=wp-content%2Fthemes%2FGrungezine%2Fstyle.css%2Cwp-content%2Fplugins%2Flightbox-plus%2Fcss%2Fshadowed%2Fcolorbox.css%3Fver%3D2.0.2%2Cwp-content%2Fplugins%2Ffeatured-content-gallery%2Fcss%2Fjd.gallery.css" type="text/css" media="screen" /><link rel="stylesheet" href="http://porzelt.net/wp-content/plugins/scripts-gzip/gzip.php?css=wp-content%2Fplugins%2Fsociable%2Fcss%2Fsociable.css%3Fver%3D3.5%2Cwp-content%2Fplugins%2Fseo-facebook-comments%2Fassets%2Ffbseo-style.css%3Fver%3D3.5" type="text/css" media="all" />
+
+<link rel="alternate" type="application/rss+xml" title="porzelt.net RSS Feed" href="http://porzelt.net/feed" />
+<link rel="pingback" href="http://porzelt.net/xmlrpc.php" />
+<!--<script type="text/javascript" src="http://porzelt.net/wp-content/themes/Grungezine/js/toggle.js"></script>-->
+
+
+
+
+<script type="text/javascript" src="http://cdn.sublimevideo.net/js/8mqawuuw.js"></script>
+
+<link rel="stylesheet" href="http://cdn.porzelt.net/bgcreator2011/dynbg_css.php" type="text/css" />
+
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://porzelt.net/wp-content/themes/Grungezine/ie6.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="http://porzelt.net/wp-content/themes/Grungezine/ie7.css" type="text/css" />
+<![endif]-->
+
+<link rel="shortcut icon" href="http://porzelt.net/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://porzelt.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://porzelt.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5" />
+
+<!-- All in One SEO Pack 1.6.15.3 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" content="Ein Weblog über mich und meine Projekte in den Bereichen Web, Multi-Touch, Smart Home Control und Android-Programmierung." />
+<meta name="keywords" content="porzelt, studium, master, informatik, multi touch, nui, flash, security, natural user interface, smart home control, android, clickjacking, game, spiel, game development, spieleentwicklung, braincademy, masterarbeit, master thesis, Gesten, Gestensteuerung, GUI, hochschule darmstadt, Multi-Touch, neue technik, touch, Touch-Table, Touchscreen, user interface" />
+<link rel="canonical" href="http://porzelt.net/" />
+<!-- /all in one seo pack -->
+
+	<!-- begin gallery scripts -->
+    <link rel="stylesheet" href="http://porzelt.net/wp-content/plugins/featured-content-gallery/css/jd.gallery.css.php" type="text/css" media="screen" charset="utf-8"/>
+	
+
+	
+
+	<script type="text/javascript" src="http://porzelt.net/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.js.php"></script>
+	
+
+	<!-- end gallery scripts -->
+
+<meta http-equiv="Content-Language" content="de-DE" />
+<style type="text/css" media="screen">
+.qtrans_flag span { display:none }
+.qtrans_flag { height:12px; width:18px; display:block }
+.qtrans_flag_and_text { padding-left:20px }
+.qtrans_flag_de { background:url(http://porzelt.net/wp-content/plugins/qtranslate/flags/de.png) no-repeat }
+.qtrans_flag_en { background:url(http://porzelt.net/wp-content/plugins/qtranslate/flags/gb.png) no-repeat }
+</style>
+<link hreflang="en" href="http://porzelt.net/?lang=en" rel="alternate" />
+<script type='text/javascript'>var base_url_sociable = 'http://porzelt.net/wp-content/plugins/sociable/'</script><script type='text/javascript' src='http://apis.google.com/js/plusone.js'></script></head>
+<body>
+
+<div id="wrap">
+
+<div id="top">
+
+<div id="nav">
+<ul class="qtrans_language_chooser" id="qtranslate-chooser"><li class="active"><a href="http://porzelt.net/" class="qtrans_flag_de qtrans_flag_and_text" title="Deutsch"><span>Deutsch</span></a></li><li><a href="http://porzelt.net/?lang=en" class="qtrans_flag_en qtrans_flag_and_text" title="English"><span>English</span></a></li></ul><div class="qtrans_widget_end"></div></div>
+
+
+
+
+
+
+        <div id="header">
+	 <h1 class="title"><a href="http://porzelt.net/"></a></h1>            
+	</div>
+
+
+<!--
+<div id="header">
+	 <h1 class="title"><a href="http://porzelt.net/"></a></h1>            
+</div>
+-->
+
+<div id="nav2">
+<ul class="nav2">
+<li class="first"><a href="http://porzelt.net">Home</a></li>
+
+	<li class="cat-item cat-item-1"><a href="http://porzelt.net/category/news" title="Alle unter Allgemein abgelegten Artikel ansehen">Allgemein</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://porzelt.net/category/lab" title="Alle unter Labor abgelegten Artikel ansehen">Labor</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://porzelt.net/category/makingthegame" title="Alle unter Making the Game abgelegten Artikel ansehen">Making the Game</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://porzelt.net/category/projects" title="Alle unter Projekte abgelegten Artikel ansehen">Projekte</a>
+</li>
+
+<li class="page_item page-item-6"><a href="http://porzelt.net/faq">FAQ</a></li>
+<li class="page_item page-item-10"><a href="http://porzelt.net/impressum">Impressum</a></li>
+
+<li><a rel="alternate" type="application/rss+xml" title="porzelt.net RSS Feed" href="http://porzelt.net/feed">RSS Feed</a></li>
+
+
+</ul>
+
+<form id="searchform" method="get" action="/index.php">
+		<input type="text" value="" name="s" id="s" onfocus="if (this.value == '') {this.value = '';}" onblur="if (this.value == '') {this.value = '';}" />
+		<input type="submit" id="sbutt" value="GO!" /></form>
+
+</div>
+
+</div>
+
+
+<div id="main">
+<div id="content"> 
+<div class="featured-slide">
+
+<div id="featured">
+<style>
+#myGallery, #myGallerySet, #flickrGallery {
+width: 623px;
+height: 250px;
+z-index:5;
+border: 1px solid #000;
+}
+
+.jdGallery .slideInfoZone
+{
+position: absolute;
+z-index: 10;
+width: 100%;
+margin: 0px;
+left: 0;
+bottom: 0;
+height: 80px;
+background: #000;
+color: #fff;
+text-indent: 0;
+overflow: hidden;
+}
+</style>
+<script type="text/javascript">
+function startGallery() {
+var myGallery = new gallery($('myGallery'), {
+timed: true,
+showArrows: false,
+showCarousel: false
+});
+}
+window.addEvent('domready', startGallery);
+</script>
+
+    <div id="myGallery">
+    	                        <div class="imageElement">
+            <h2>Braincademy live at indiegogo</h2>
+            <p>Wie einige von euch wissen arbeite ich seit gut einem Jahr an meinem Projekt Braincademy.
+Anfangs war es 'nur' ein Teiler meiner Master-Arbeit, aber spätestens nach der CeBIT (und der glatten ...</p>
+            <a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/09/bc-gg.png" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/09/bc-gg.png" class="thumbnail" />
+        </div>
+                <div class="imageElement">
+            <h2>Making The Game – Teil 18: Konzept zum schulischen Einsatz und Ausblick</h2>
+            <p>
+Zusammenfassend kann gesagt werden, dass die Ziele der Arbeit erreicht wurden, auch wenn nicht alle Komponenten der Anwendung, die im Grobkonzept geplant waren, umgesetzt wurden. Deshalb müsste das Lernspiel vor ...</p>
+            <a href="http://porzelt.net/recent/making-the-game-teil-18-konzept-zum-schulischen-einsatz-und-ausblick/1066" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/future.jpg" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/future.jpg" class="thumbnail" />
+        </div>
+                <div class="imageElement">
+            <h2>Making The Game – Teil 17: Evaluation und Einsatz der Anwendung</h2>
+            <p>
+Ziel dieser Arbeit ist es gewesen, eine Edutainment-Anwendung für natürliche Benutzeroberflächen zu entwickeln, die im Unterricht und zu Hause eingesetzt werden kann. Sie sollte Kinder und Jugendliche auf eine spaßige ...</p>
+            <a href="http://porzelt.net/recent/making-the-game-teil-17-evaluation-und-einsatz-der-anwendung/1064" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/eva.jpg" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/eva.jpg" class="thumbnail" />
+        </div>
+                <div class="imageElement">
+            <h2>Making The Game – Teil 16: Vorstellung der Mini-Spiele</h2>
+            <p>
+Mini-Spiele innerhalb der Anwendung stellen eine Abwechslung zu den Fragerunden dar. Sie sollen die Spieler primär unterhalten und stellen nicht unbedingt den Anspruch, Lehrinhalte abzufragen. 
+Durch die verschiedenen Systeme, auf ...</p>
+            <a href="http://porzelt.net/recent/making-the-game-teil-16-vorstellung-der-mini-spiele/1061" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/minigames.jpg" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/minigames.jpg" class="thumbnail" />
+        </div>
+                <div class="imageElement">
+            <h2>Making The Game – Teil 15: Spielablauf und Spielphasen</h2>
+            <p>
+[caption id="attachment_1043" align="alignright" width="234"] Spielablauf, Anwendersicht[/caption] Die Entwicklung der Spielekomponente ist einer der aufwendigsten und größten Teile in der Anwendung. Deswegen wird während der Analyse und Designphase ein Ablaufplan des ...</p>
+            <a href="http://porzelt.net/recent/making-the-game-teil-15-spielablauf-und-spielphasen/1034" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/ablauf.jpg" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/07/ablauf.jpg" class="thumbnail" />
+        </div>
+                <div class="imageElement">
+            <h2>Making The Game – Teil 14: Wissensbasis und Fragenauswahl / Arbeiten mit XML</h2>
+            <p>Die Wissens- oder Fragenbasis ist das Herzstück des Programms. In ihr werden alle Fragen und Antworten, die den Spielern gestellt werden können, nach Kategorien sortiert eingetragen. Da es nicht erforderlich ...</p>
+            <a href="http://porzelt.net/recent/making-the-game-%e2%80%93-teil-14-wissensbasis-und-fragenauswahl-arbeiten-mit-xml/1014" title="Read More" class="open"></a>
+            <img src="http://porzelt.net/wp-content/uploads/2012/06/xml.jpg" class="full" />
+            <img src="http://porzelt.net/wp-content/uploads/2012/06/xml.jpg" class="thumbnail" />
+        </div>
+                    </div>
+</div>
+
+</div>
+		<div class="home-entry">
+<h2>Latest</h2>
+
+
+
+
+
+<div class="post" id="post-1126">
+<div class="meta">Allgemein</div>
+			<h1><a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126" rel="bookmark" title="Permanent Link: Braincademy live at indiegogo">Braincademy live at indiegogo</a></h1>
+
+<div class="thumb-main">
+
+<a href=""><img src="http://porzelt.net/wp-content/uploads/2012/09/bc-gg-small.png" alt="" /></a>
+
+</div>
+        <div class="meta">
+       Posted on Samstag, September 8th, 2012        </div>
+			<p>Wie einige von euch wissen arbeite ich seit gut einem Jahr an meinem Projekt Braincademy. Anfangs war es &#8216;nur&#8217; ein Teiler meiner Master-Arbeit, aber spätestens nach der CeBIT (und der glatten 1 als Note für die Arbeit) wusste ich dass diese Anwendung nicht in der Schublade verschwinden soll/wird. &nbsp; So entschloss ich mich bei einem [...]</p>
+            
+<span class="read">               
+<a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126" >Continue Reading...</a>
+</span>
+
+				</div>
+	
+
+	
+
+
+
+
+<div class="post" id="post-1066">
+<div class="meta">Making the Game</div>
+			<h1><a href="http://porzelt.net/recent/making-the-game-teil-18-konzept-zum-schulischen-einsatz-und-ausblick/1066" rel="bookmark" title="Permanent Link: Making The Game – Teil 18: Konzept zum schulischen Einsatz und Ausblick">Making The Game – Teil 18: Konzept zum schulischen Einsatz und Ausblick</a></h1>
+
+<div class="thumb-main">
+
+<a href=""><img src="http://porzelt.net/wp-content/uploads/2012/07/future-small.jpg" alt="" /></a>
+
+</div>
+        <div class="meta">
+       Posted on Sonntag, Juli 22nd, 2012        </div>
+			<p>Zusammenfassend kann gesagt werden, dass die Ziele der Arbeit erreicht wurden, auch wenn nicht alle Komponenten der Anwendung, die im Grobkonzept geplant waren, umgesetzt wurden. Deshalb müsste das Lernspiel vor dem tatsächlichen Einsatz in Schulen um diese offenen Punkte ergänzt werden. Dazu gehört neben dem Erstellen der zum jeweiligen Unterricht passenden Fragen-Datenbanken die Erstellung des [...]</p>
+            
+<span class="read">               
+<a href="http://porzelt.net/recent/making-the-game-teil-18-konzept-zum-schulischen-einsatz-und-ausblick/1066" >Continue Reading...</a>
+</span>
+
+				</div>
+	
+
+	
+
+
+
+
+<div class="post" id="post-1064">
+<div class="meta">Making the Game</div>
+			<h1><a href="http://porzelt.net/recent/making-the-game-teil-17-evaluation-und-einsatz-der-anwendung/1064" rel="bookmark" title="Permanent Link: Making The Game – Teil 17: Evaluation und Einsatz der Anwendung">Making The Game – Teil 17: Evaluation und Einsatz der Anwendung</a></h1>
+
+<div class="thumb-main">
+
+<a href=""><img src="http://porzelt.net/wp-content/uploads/2012/07/eva-small.jpg" alt="" /></a>
+
+</div>
+        <div class="meta">
+       Posted on Sonntag, Juli 15th, 2012        </div>
+			<p>Ziel dieser Arbeit ist es gewesen, eine Edutainment-Anwendung für natürliche Benutzeroberflächen zu entwickeln, die im Unterricht und zu Hause eingesetzt werden kann. Sie sollte Kinder und Jugendliche auf eine spaßige Weiße dazu animieren, ihr gelerntes Wissen zu testen und durch das Spielen zu festigen. Dabei wurde darauf geachtet, dass die Lernenden durch ansprechende Animationen, Zwischensequenzen [...]</p>
+            
+<span class="read">               
+<a href="http://porzelt.net/recent/making-the-game-teil-17-evaluation-und-einsatz-der-anwendung/1064" >Continue Reading...</a>
+</span>
+
+				</div>
+	
+
+	
+
+
+
+
+<div class="post" id="post-1061">
+<div class="meta">Making the Game</div>
+			<h1><a href="http://porzelt.net/recent/making-the-game-teil-16-vorstellung-der-mini-spiele/1061" rel="bookmark" title="Permanent Link: Making The Game – Teil 16: Vorstellung der Mini-Spiele">Making The Game – Teil 16: Vorstellung der Mini-Spiele</a></h1>
+
+<div class="thumb-main">
+
+<a href=""><img src="http://porzelt.net/wp-content/uploads/2012/07/minigames-small.jpg" alt="" /></a>
+
+</div>
+        <div class="meta">
+       Posted on Sonntag, Juli 8th, 2012        </div>
+			<p>Mini-Spiele innerhalb der Anwendung stellen eine Abwechslung zu den Fragerunden dar. Sie sollen die Spieler primär unterhalten und stellen nicht unbedingt den Anspruch, Lehrinhalte abzufragen. Durch die verschiedenen Systeme, auf denen die Anwendung lauffähig sein wird, muss jedes Mini-Spiel selbst festlegen, welche Anforderungen es hat, um spielbar zu sein. Bei der Auswahl der Mini-Spiele müssen [...]</p>
+            
+<span class="read">               
+<a href="http://porzelt.net/recent/making-the-game-teil-16-vorstellung-der-mini-spiele/1061" >Continue Reading...</a>
+</span>
+
+				</div>
+	
+
+			<div class="navigation">
+			<div class="alignleft"><a href="http://porzelt.net/page/2" >&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+
+	</div>
+<div class="news">
+<h2>News</h2>
+<div class="news-entry">
+
+
+
+						<h1><a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126" rel="bookmark" title="Permanent Link to Braincademy live at indiegogo">Braincademy live at indiegogo</a></h1>
+			<div class="postmeta"><span class="date">Sep 8, 2012</span> | <span class="comments"><a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126#respond" title="Kommentiere Braincademy live at indiegogo">0 Comments</a></span></div>
+							<div class="post" id="post-1126"><br />
+	
+
+								<p>Wie einige von euch wissen arbeite ich seit gut einem Jahr an meinem Projekt Braincademy. Anfangs war es &#8216;nur&#8217; ein Teiler meiner Master-Arbeit, aber spätestens nach der CeBIT (und der glatten 1 als Note für die Arbeit) wusste ich dass diese Anwendung nicht in der Schublade verschwinden soll/wird. &nbsp; So entschloss ich mich bei einem [...]</p>
+
+                                   
+
+
+
+</div>
+               
+            
+      
+
+
+
+
+
+						<h1><a href="http://porzelt.net/news/call-me-master-of-the-universe-or-another/906" rel="bookmark" title="Permanent Link to Call me Master of the Universe&#8230; or another!">Call me Master of the Universe&#8230; or another!</a></h1>
+			<div class="postmeta"><span class="date">Mai 1, 2012</span> | <span class="comments"><a href="http://porzelt.net/news/call-me-master-of-the-universe-or-another/906#respond" title="Kommentiere Call me Master of the Universe&#8230; or another!">0 Comments</a></span></div>
+							<div class="post" id="post-906"><br />
+	
+
+								<p>Nun ist es offiziell und ich darf mich Master of Science (M. Sc.) nennen. Nach meiner überragenden Leistung in meiner Master-Thesis (japp, 1.0&#8230; was auch sonst) ist aber nun erstmal ein bisschen Urlaub und entspannen angesagt bevor es weiter geht. Zwar wird in meinem Zeugnis stehen dass ich 4 Semester benötigt hätte (das 4. beginnt [...]</p>
+
+                                   
+
+
+
+</div>
+               
+            
+      
+
+
+
+
+
+						<h1><a href="http://porzelt.net/news/cebit-2012-recap/720" rel="bookmark" title="Permanent Link to CeBIT 2012 &#8211; Recap">CeBIT 2012 &#8211; Recap</a></h1>
+			<div class="postmeta"><span class="date">Apr 15, 2012</span> | <span class="comments"><a href="http://porzelt.net/news/cebit-2012-recap/720#respond" title="Kommentiere CeBIT 2012 &#8211; Recap">0 Comments</a></span></div>
+							<div class="post" id="post-720"><br />
+	
+
+								<p>Ich bin etwas spät dran mit meinem CeBIT-Bericht, da mich meine Abschlussarbeit und einige andere Projekte einfach zu sehr aufgehalten haben. Aber besser spät als nie. &nbsp; Wie schon öfter erwähnt, hatte ich dieses Jahr die Ehre meine Abschlussarbeit und ein weiteres Projekt in dem ich mitgearbeitet habe (Smart Home Control) auf der CeBIT in [...]</p>
+
+                                   
+
+
+
+</div>
+               
+            
+      
+
+
+
+
+
+						<h1><a href="http://porzelt.net/news/long-time-no-see/696" rel="bookmark" title="Permanent Link to Long time no see">Long time no see</a></h1>
+			<div class="postmeta"><span class="date">Mär 31, 2012</span> | <span class="comments"><a href="http://porzelt.net/news/long-time-no-see/696#respond" title="Kommentiere Long time no see">0 Comments</a></span></div>
+							<div class="post" id="post-696"><br />
+	
+
+								<p>Durch die vielen Termine seit Dezember &#8211; CeBIT, Vorträge, meine Masterarbeit und andere Projekte &#8211; kam ich leider nicht dazu hier wie anfangs versprochen Woche für Woche etwas zu posten. Da ich jedoch nun meine Arbeit abgegeben habe und ein bisschen mehr Zeit habe, werde ich dies natürlich nachholen und hier nach und nach die [...]</p>
+
+                                   
+
+
+
+</div>
+               
+            
+      
+
+
+
+
+
+						<h1><a href="http://porzelt.net/news/natural-user-interface-vortrag-am-05-12-2011-in-darmstadt/664" rel="bookmark" title="Permanent Link to Natural User Interface Vortrag am 05.12.2011 in Darmstadt">Natural User Interface Vortrag am 05.12.2011 in Darmstadt</a></h1>
+			<div class="postmeta"><span class="date">Dez 4, 2011</span> | <span class="comments"><a href="http://porzelt.net/news/natural-user-interface-vortrag-am-05-12-2011-in-darmstadt/664#respond" title="Kommentiere Natural User Interface Vortrag am 05.12.2011 in Darmstadt">0 Comments</a></span></div>
+							<div class="post" id="post-664"><br />
+	
+
+								<p>An diesem Montag ist es soweit und ich trage in Darmstadt einen Vortrag über Natural User Interfaces. Darin berichte ich nicht nur von der Entwicklung von Benutzeroberflächen im allgemeinen, sondern gehe auch in die Programmierung und gebe einige Beispiele auf welche Punkte man bei NUI-Anwendungen, im Gegensatz zu normalen GUI-Anwendungen, achten muss. &nbsp; Für alle [...]</p>
+
+                                   
+
+
+
+</div>
+               
+            
+      
+
+
+</div>
+</div>
+</div>
+
+
+
+<div id="right">
+<div id="banner">
+
+
+
+</div>
+
+<div class="tabs-block">
+
+<div class="menu tabbed">
+
+	<ul class="tabs">
+
+	<li class="t1"><a class="t1 tab" title="Recent">Aktuelle News</a></li>  
+	<li class="t2"><a class="t2 tab" title="Featured">Letzte Kommentare</a></li> 
+
+
+	</ul>
+
+
+	<div class="t1">
+
+
+										                    <div id="post-1126"></div>
+				<h1><a href="http://porzelt.net/news/braincademy-live-at-indiegogo/1126">Braincademy live at indiegogo</a></h1>
+
+<span class="t1thumb">
+<img src="http://porzelt.net/wp-content/uploads/2012/09/bc-gg.png" alt="" />
+
+  			</span>
+								<p>Wie einige von euch wissen arbeite ich seit gut einem Jahr an meinem Projekt Braincademy.
+Anfangs war es 'nur' ...</p>
+					                    <div id="post-906"></div>
+				<h1><a href="http://porzelt.net/news/call-me-master-of-the-universe-or-another/906">Call me Master of the Universe&#8230; or another!</a></h1>
+
+<span class="t1thumb">
+<img src="http://porzelt.net/wp-content/uploads/2011/06/news_small.png" alt="" />
+
+  			</span>
+								<p>Nun ist es offiziell und ich darf mich Master of Science (M. Sc.) nennen.
+Nach meiner überragenden Leistung in ...</p>
+					                    <div id="post-720"></div>
+				<h1><a href="http://porzelt.net/news/cebit-2012-recap/720">CeBIT 2012 &#8211; Recap</a></h1>
+
+<span class="t1thumb">
+<img src="http://porzelt.net/wp-content/uploads/2011/06/news_small.png" alt="" />
+
+  			</span>
+								<p>Ich bin etwas spät dran mit meinem CeBIT-Bericht, da mich meine Abschlussarbeit und einige andere Projekte einfach zu ...</p>
+					                    <div id="post-696"></div>
+				<h1><a href="http://porzelt.net/news/long-time-no-see/696">Long time no see</a></h1>
+
+<span class="t1thumb">
+<img src="http://porzelt.net/wp-content/uploads/2011/06/news_small.png" alt="" />
+
+  			</span>
+								<p>Durch die vielen Termine seit Dezember - CeBIT, Vorträge, meine Masterarbeit und andere Projekte - kam ich leider ...</p>
+					                    <div id="post-664"></div>
+				<h1><a href="http://porzelt.net/news/natural-user-interface-vortrag-am-05-12-2011-in-darmstadt/664">Natural User Interface Vortrag am 05.12.2011 in Darmstadt</a></h1>
+
+<span class="t1thumb">
+<img src="http://porzelt.net/wp-content/uploads/2011/06/news_small.png" alt="" />
+
+  			</span>
+								<p>An diesem Montag ist es soweit und ich trage in Darmstadt einen Vortrag über Natural User Interfaces. 
+Darin ...</p>
+					</div>
+
+
+
+
+
+
+<div class="t2">
+
+
+ <ul id="tab_content_comments" class="tab_content_list"> <!-- Latest comments -->
+
+	
+<li><span class='title comment_excerpt'><a href="http://porzelt.net/lab/die-inoffizielle-google-text-to-speech-api/857#comment-134" title="on <!--:de-->Die inoffizielle Google Text-To-Speech API<!--:--><!--:en-->The Unofficial Google Text-To-Speech API<!--:-->">==Für einen praktischen Einsatz müsste der Code natürlich noch Umlaute in “ae, u...</a></span><span class='commeta'>By Elena on  2013-02-10 12:05:47</span></li>
+<li><span class='title comment_excerpt'><a href="http://porzelt.net/news/alles-neu-macht-der-juni/26#comment-108" title="on <!--:de-->Alles neu macht der Juni<!--:--><!--:en-->Alles neu macht der Juni<!--:-->">und noch eins...</a></span><span class='commeta'>By Max Morgenstern on  2011-10-12 00:28:41</span></li>
+<li><span class='title comment_excerpt'><a href="http://porzelt.net/news/alles-neu-macht-der-juni/26#comment-107" title="on <!--:de-->Alles neu macht der Juni<!--:--><!--:en-->Alles neu macht der Juni<!--:-->">Hier ein Testkommentar, da du mich drum gebeten hast. :p...</a></span><span class='commeta'>By Marina Specht on  2011-10-12 00:05:23</span></li>			</ul> 
+
+
+</div>
+  
+
+
+
+
+</div><!-- tabbed -->
+
+
+</div>
+<div id="sidebar">
+
+<div id="lsidebar">
+<ul>
+<li id="facebook-like-box" class="sidebaritem"><h2 class="widgettitle"></h2><iframe src="http://www.facebook.com/plugins/fan.php?id=208727762504271&amp;width=275&amp;connections=16&amp;stream=false&amp;header=false&amp;locale=de_DE" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:275px; height:375px"></iframe></li><li id="widget_sp_image-2" class="sidebaritem"><h2 class="widgettitle">IPv6</h2><a class="widget_sp_image-image-link" href="http://porzelt.net/wp-content/uploads/2013/01/World_IPv6_launch_badge_512.png" target="_self"><img src="http://porzelt.net/wp-content/uploads/2013/01/World_IPv6_launch_badge_512.png" style="max-height: 280px;" class="alignright" alt="IPv6" /></a></li></ul>
+</div>
+	
+
+</div>
+
+
+
+
+</div>
+<!-- FOOTER  -->
+</div> 
+
+<!-- Lightbox Plus v2.3 - 2011.08.11 - Message: 0-->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({opacity:0.8});
+});
+</script>
+<script type='text/javascript' src='http://porzelt.net/wp-content/plugins/lightbox-plus/js/jquery.colorbox-min.js?ver=1.3.17.2'></script>
+
+ <div id="footer"> 
+
+	   <div id="footerleft"> 
+	    </div> 
+	
+	    <div id="footermiddle1"> 
+     </div> 
+	
+	    <div id="footerright">
+   </div> 
+		
+	<div id="footerbottom"> 
+    </div> 
+ 
+</div> 
+</div> 
+</body> 
+</html>

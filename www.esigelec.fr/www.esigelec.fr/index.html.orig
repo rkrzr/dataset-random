@@ -1,0 +1,1032 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR" dir="ltr">
+	<head>
+													
+<title>ESIGELEC - École d'ingénieurs généralistes - Accueil</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="fr-FR" />
+<meta name='language' content="fr-FR" />
+<meta name="robots" content="index, follow, all" />
+<link rel="Home" href="/index.php/" title="Page de garde ESIGELEC - École d'ingénieurs généralistes" />
+<link rel="Search" href="/index.php//content/search" title="Recherche ESIGELEC - École d'ingénieurs généralistes" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="google-site-verification" content="Wg4vWdEYz-fFQYTbzYv0BjqC3RXfe9dQQRa9s6VMssU" />
+<link rel="alternate" type="application/rss+xml" title="Flux RSS News" href="/index.php//flux_rss/actus" />
+<link rel="alternate" type="application/rss+xml" title="Flux RSS Agenda" href="/index.php//flux_rss/agenda" />
+				<meta name="keywords" content="ESIGELEC Ecole Formation supérieure superieur généraliste generaliste ingénieur ingenieur Candidat Entreprise Partenaire International Emploi Apprentissage Taxe Bac+5" />
+					<meta name="description" content="L’ESIGELEC forme des ingénieurs généralistes en télécommunications, électronique, technologies de l'information, réseaux informatiques, systèmes embarqués, automatique robotique, génie électrique dédié aux transports, mécatronique, énergie et développement durable, biomédical, ingénierie d’affaires ou ingénierie finances." />
+			
+
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/structure/reset_of_death.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/structure/screen.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/contenu/elements.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/contenu/iconize.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/extension/www/design/www/stylesheets/structure/colorbox.css" media="screen, projection" />
+
+<script src="/extension/www/design/www/javascript/jquery.js" type="text/javascript"></script>
+			
+		<link href="/extension/www/design/www/stylesheets/contenu/home.css" rel="stylesheet" type="text/css" media="screen" />
+		</head>
+	<body>
+		<!--[if IE 6]><div id="IE6"><![endif]-->
+		<!--[if IE 7]><div id="IE7"><![endif]-->
+		<!--[if (IE) & (!IE 6) & (!IE 7)]><div id="IE"><![endif]-->
+		<!--[if !IE]>--><div id="NOTIE"><!--<![endif]-->
+			<div id="wrap-global">
+				<div id="global">
+					<div id="header">
+			<h1><img src="/extension/www/design/www/images/structure/logo_esigelec.png" alt="ESIGELEC" id="logo-gauche" /></h1>
+		<span id="sous-titre">&Eacute;cole d'ing&eacute;nieurs g&eacute;n&eacute;ralistes</span>
+	<span id="baseline">"Un esprit d'innovation<br/> <span id="baseline2">et d'initiative"</span></span>
+
+
+				<a href="/index.php//Profils/IRSEEM">
+			<img src="/extension/www/design/www/images/structure/logo_irseem.png" alt="IRSEEM" id="logo-droite" />
+		</a>
+		<ul id="onglets">
+							<li id="onglet1">
+					<a href="/index.php//Profils/Candidat-e">Candidat(e)</a>
+				</li>
+											<li id="onglet2">
+					<a href="/index.php//Profils/Diplome-e">Diplômé(e)</a>
+				</li>
+											<li id="onglet3">
+					<a href="/index.php//Profils/Entreprise">Entreprise</a>
+				</li>
+											<li id="onglet4">
+					<a href="/index.php//Profils/Partenaire">Partenaire</a>
+				</li>
+											<li id="onglet5">
+					<a href="/index.php//Profils/Presse">Presse</a>
+				</li>
+									</ul>
+	</div>
+
+<div id="barre">
+							<div id="traductions">
+			<span>Traduire :</span>
+			<ul>
+																								<li>
+							<a href="/switchlanguage/to/en/" lang="en" title="English version" hreflang="en">
+								<img src="/extension/www/design/www/images/elements/en_flag.gif" alt="English version" />
+							</a>
+						</li>
+																				<li>
+							<a href="/switchlanguage/to/es/" lang="es" title="Versión en español" hreflang="es">
+								<img src="/extension/www/design/www/images/elements/es_flag.gif" alt="Versión en español" />
+							</a>
+						</li>
+																				<li>
+							<a href="/switchlanguage/to/ch/" lang="ch" title="Chinese version" hreflang="ch">
+								<img src="/extension/www/design/www/images/elements/ch_flag.gif" alt="Chinese version" />
+							</a>
+						</li>
+												</ul>
+		</div>
+		<p id="compas">
+	<span>Vous êtes ici : </span>
+			<a href="/index.php/">Accueil</a>
+			</p></div>
+					<div id="page">
+						<div id="left">
+							<form id="recherche" action="/index.php//content/search" method="get">
+	<label for="Searchtext">Rechercher dans le site :</label>
+	<input name="SearchText" id="Searchtext" type="text" class="champ_recherche" />
+	<input name="lancer_recherche" type="submit" class="bouton" value="OK" alt="Rechercher dans le site" />
+</form>								<div id="menu-lateral">
+		<h2 class="type1">Menu</h2>
+		<ul class="sous_menu">
+												<li>
+													
+
+	
+	<a href="/index.php/" title="Accueil">Accueil</a>																													</li>
+																<li>
+													<a class=" " href="/index.php//Actualites">Actualités</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class=" " href="/index.php//Actualites/Toutes-les-actualites">Toutes les actualités</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Actualites/Agenda">Agenda</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Actualites/Inscription-a-la-Newsletter">Inscription à la Newsletter</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Actualites/L-ctu-ESIGELEC-IRSEEM">L'@ctu ESIGELEC-IRSEEM</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Actualites/Rencontre-Parents">Rencontre Parents</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Actualites/Nous-rencontrer">Nous rencontrer</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//L-Ecole">L'Ecole</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//L-Ecole/Pourquoi-venir-a-l-ESIGELEC">Pourquoi venir à l'ESIGELEC</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//L-Ecole/Historique">Historique</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//L-Ecole/Chiffres-Cles">Chiffres Clés</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//L-Ecole/Classements">Classements</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//L-Ecole/Gouvernance-et-organisation">Gouvernance et organisation</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//L-Ecole/Structure-et-moyens">Structure et moyens</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//L-Ecole/Phototheque">Photothèque</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/La-Promotion-2013">La Promotion 2013</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Remise-des-diplomes-de-la-Promotion-2012">Remise des diplômes de la Promotion 2012</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Posters-Projets-Ingenieurs">Posters Projets Ingénieurs</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Posters-Projets-Ingenieurs-2012">Posters Projets Ingénieurs 2012</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/La-Promotion-2012">La Promotion 2012</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Posters-Projets-Ingenieurs-2011">Posters Projets Ingénieurs 2011</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Remise-des-diplomes-de-la-Promotion-2011">Remise des diplômes de la Promotion 2011</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/La-Promotion-2011">La Promotion 2011</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/La-Promotion-2010">La Promotion 2010</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Remise-des-diplomes-de-la-Promotion-2010">Remise des diplômes de la Promotion 2010</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//L-Ecole/Phototheque/Posters-Projets-Ingenieurs-2010">Posters Projets Ingénieurs 2010</a>
+																															</li>
+																																							</ul>
+																																</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Admissions">Admissions</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class=" " href="/index.php//Admissions/Vous-etes-en-Terminale-ou-Bac-1">Vous êtes en Terminale ou Bac + 1</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Admissions/Vous-etes-en-Terminale-ou-Bac-1/Terminale-S">Terminale S</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Admissions/Vous-etes-en-Terminale-ou-Bac-1/Terminale-STI2D">Terminale STI2D</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Admissions/Vous-etes-en-Terminale-ou-Bac-1/Terminale-scientifique-residant-a-l-etranger">Terminale scientifique résidant à l’étranger</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Admissions/Vous-etes-en-Bac-2-ou-Bac-3">Vous êtes en Bac +2 ou Bac+3</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Admissions/Vous-etes-en-Bac-4">Vous êtes en Bac +4</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Admissions/Frais-de-scolarite">Frais de scolarité</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Formations">Formations</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//Formations/Presentation">Présentation</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Formations/CPI-international">CPI international</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Formations/CPI-international/Formation">Formation</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/CPI-international/International">International</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/CPI-international/Les-antennes-a-l-etranger">Les antennes à l'étranger</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class=" " href="/index.php//Formations/Cycle-Ingenieur">Cycle Ingénieur</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Formation-classique">Formation classique</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Formation-par-apprentissage">Formation par apprentissage</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Formation-continue-Fontanet">Formation continue Fontanet</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Pedagogie-par-projets">Pédagogie par projets</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Dominantes">Dominantes</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Approches-metiers">Approches métiers</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/International">International</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Stages">Stages</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Formations/Cycle-Ingenieur/Cursus-bi-diplomants">Cursus bi-diplômants</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Formations/Master-en-Sciences-Technologie">Master en Sciences &amp; Technologie</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Formations/Formation-Doctorale">Formation Doctorale</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Formations/Formation-Continue">Formation Continue</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class="ouvrable " href="/index.php//Engagement-social">Engagement social</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//Engagement-social/Ouverture-sociale">Ouverture sociale</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Engagement-social/Egalite-Hommes-Femmes">Egalité Hommes - Femmes</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Engagement-social/Handicap">Handicap</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Engagement-social/Initiative-etudiante">Initiative étudiante</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Engagement-social/Developpement-durable">Développement durable</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Vie-etudiante">Vie étudiante</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie">Le cadre de vie</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	
+
+	
+	<a href="http://sites.esigelec.fr/Visite/plan_virtuel_esigelec_800_600.html" target="_blank" title=" (nouvelle fenêtre)">Visite virtuelle des locaux</a>																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie/Lip-dub-de-l-Ecole">Lip dub de l'Ecole</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie/Ou-se-loger">Où se loger ?</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie/Ou-prendre-ses-repas">Où prendre ses repas ?</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie/Sante">Santé</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Vie-etudiante/Le-cadre-de-vie/Transports">Transports</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class=" " href="/index.php//Vie-etudiante/Vivre-a-Rouen">Vivre à Rouen</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Vie-etudiante/Le-Bureau-des-Eleves">Le Bureau des Elèves</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Vie-etudiante/Les-associations">Les associations</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Vie-etudiante/L-ouverture-sociale-et-humanitaire">L'ouverture sociale et humanitaire</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Temoignages">Témoignages</a>
+																													</li>
+																<li>
+													<a class=" " href="/index.php//Relations-Ecole-Entreprises">Relations Ecole - Entreprises</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class=" " href="/index.php//Relations-Ecole-Entreprises/Recrutement">Recrutement</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Stage">Stage</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Relations-Ecole-Entreprises/Apprentissage">Apprentissage</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Forum-Normand-Entreprises-Etudiants">Forum Normand Entreprises-Etudiants</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Relations-Ecole-Entreprises/Partenariat">Partenariat</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Partenariat/Devenez-partenaire">Devenez partenaire</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Partenariat/Actions">Actions</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Partenariat/Nos-Partenaires">Nos Partenaires</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Partenariat/Location-de-salles">Location de salles</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class=" " href="/index.php//Relations-Ecole-Entreprises/Taxe-d-apprentissage">Taxe d'apprentissage</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Taxe-d-apprentissage/5-bonnes-raisons-de-verser-votre-taxe-a-l-ESIGELEC">5 bonnes raisons de verser votre taxe à l'ESIGELEC</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Taxe-d-apprentissage/Comment-verser-votre-Taxe-d-Apprentissage">Comment verser votre Taxe d'Apprentissage</a>
+																															</li>
+																																																								<li>
+																																	
+
+	
+	<a href="http://sites.esigelec.fr/Taxe/Taxe.html" target="_blank" title=" (nouvelle fenêtre)">Calculez votre Taxe d'Apprentissage</a>																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Formation-Continue">Formation Continue</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Formation-Continue/Catalogue-en-ligne">Catalogue en ligne</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Formation-Continue/Professionnalisante-non-diplomante">Professionnalisante non diplômante</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Formation-Continue/Les-parcours-de-professionnalisation">Les parcours de professionnalisation</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Formation-Continue/Diplomante">Diplômante</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/Transfert-et-Innovation">Transfert et Innovation</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Relations-Ecole-Entreprises/L-ecole-et-ses-diplomes">L'école et ses diplômés</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-Ecole-Entreprises/L-Entreprise-du-mois">L'Entreprise du mois</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Relations-internationales">Relations internationales</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//Relations-internationales/Crossing-Frontiers">Crossing Frontiers</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Crossing-Frontiers/La-strategie-a-l-international">La stratégie à l'international</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Crossing-Frontiers/Partenaires">Partenaires</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Crossing-Frontiers/Implantations">Implantations</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France">Venir étudier en France</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Pourquoi-l-ESIGELEC">Pourquoi l'ESIGELEC ?</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Programmes-d-echange">Programmes d'échange</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Diplome-d-ingenieur">Diplôme d'ingénieur</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Masters-MSc">Masters / MSc</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Programmes-courts">Programmes courts</a>
+																															</li>
+																																																								<li>
+																																	
+
+	
+	<a href="http://esigelec.fr/IRSEEM/Formation-par-la-Recherche" target="_blank" title="Doctorat (nouvelle fenêtre)">Doctorat</a>																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Francais-Langue-Etrangere">Français Langue Etrangère</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Venir-etudier-en-France/Services-aux-etudiants">Services aux étudiants</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//Relations-internationales/Venir-etudier-en-France/Temoignages">Témoignages</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-internationales/Partir-a-l-etranger">Partir à l'étranger</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Partir-a-l-etranger/Construire-son-projet-de-mobilite">Construire son projet de mobilité</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Partir-a-l-etranger/Les-langues">Les langues</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Partir-a-l-etranger/Notes-et-credits">Notes et crédits</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//Relations-internationales/Partir-a-l-etranger/Aides-financieres">Aides financières</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//Relations-internationales/Partir-a-l-etranger/Temoignages">Témoignages</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Relations-internationales/L-equipe">L'équipe</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class="ouvrable " href="/index.php//IRSEEM">IRSEEM</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Programmes-de-recherche">Programmes de recherche</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Pole-Electronique-et-Systemes">Pôle Electronique et Systèmes</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Electronique-et-Systemes/Presentation-de-l-equipe">Présentation de l'équipe</a>
+																															</li>
+																																																								<li>
+																																	
+
+	
+	<a href="http://cem2012.esigelec.fr/" target="_blank" title="CEM 2012 (nouvelle fenêtre)">CEM 2012</a>																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Electronique-et-Systemes/Publications">Publications</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/Pole-Electronique-et-Systemes/Theses-en-cours">Thèses en cours</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Electronique-et-Systemes/Theses-soutenues">Thèses soutenues</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Pole-Automatique-et-Systemes">Pôle Automatique et Systèmes</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Automatique-et-Systemes/Presentation-de-l-equipe">Présentation de l'équipe</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Automatique-et-Systemes/Publications">Publications</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/Pole-Automatique-et-Systemes/Theses-en-cours">Thèses en cours</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Automatique-et-Systemes/Theses-soutenues">Thèses soutenues</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Pole-Instrumentation-Informatique-et-Systemes">Pôle Instrumentation, Informatique et Systèmes</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Instrumentation-Informatique-et-Systemes/Presentation-de-l-equipe">Présentation de l'équipe</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Instrumentation-Informatique-et-Systemes/Publications">Publications</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/Pole-Instrumentation-Informatique-et-Systemes/Theses-en-cours">Thèses en cours</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/Pole-Instrumentation-Informatique-et-Systemes/Theses-soutenues">Thèses soutenues</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/SRT-Innovation-Transfert">SRT - Innovation - Transfert</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/SRT-Innovation-Transfert/Plateforme-de-simulation-et-d-experimentation">Plateforme de simulation et d'expérimentation</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//IRSEEM/SRT-Innovation-Transfert/Transfert">Transfert</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/SRT-Innovation-Transfert/Innovation">Innovation</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/SRT-Innovation-Transfert/Actions-collectives">Actions collectives</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/SRT-Innovation-Transfert/Reseaux-et-partenaires">Réseaux et partenaires</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/CISE">CISE</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Formation-par-la-Recherche">Formation par la Recherche</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/International">International</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Reseaux-et-partenaires">Réseaux et partenaires</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/Reseaux-et-partenaires/Collaborations-academiques">Collaborations académiques</a>
+																															</li>
+																																																								<li>
+																																	<a class="ouvrable " href="/index.php//IRSEEM/Reseaux-et-partenaires/Collaborations-industrielles">Collaborations industrielles</a>
+																															</li>
+																																							</ul>
+																																</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//IRSEEM/Centre-MOVEOTRONICS">Centre MOVEOTRONICS</a>
+																																																						</li>
+																								</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Marches-publics">Marchés publics</a>
+																									<ul class="sous_menu">
+																																																																		</ul>
+																	</li>
+																<li>
+													<a class=" " href="/index.php//Le-Groupe-ESIGELEC-recrute">Le Groupe ESIGELEC recrute</a>
+																													</li>
+																<li>
+													<a class="ouvrable " href="/index.php//La-SIGELEC">La SIGELEC</a>
+																													</li>
+																<li>
+													<a class=" " href="/index.php//Nous-contacter">Nous contacter</a>
+																									<ul class="sous_menu">
+																											<li>
+																							<a class="ouvrable " href="/index.php//Nous-contacter/Nos-coordonnees">Nos coordonnées</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Nous-contacter/Brochures">Brochures</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Nous-contacter/Nous-rencontrer">Nous rencontrer</a>
+																																																						</li>
+																																				<li>
+																							<a class="ouvrable " href="/index.php//Nous-contacter/Plan-d-acces">Plan d'accès</a>
+																																																						</li>
+																																				<li>
+																							<a class=" " href="/index.php//Nous-contacter/Formulaire-de-contact">Formulaire de contact</a>
+																																													<ul class="sous_menu">
+																																																				</ul>
+																																</li>
+																																				<li>
+																							<a class=" " href="/index.php//Nous-contacter/Demande-de-documentation">Demande de documentation</a>
+																																													<ul class="sous_menu">
+																																										<li>
+																																	<a class=" " href="/index.php//Nous-contacter/Demande-de-documentation/Candidat">Candidat</a>
+																															</li>
+																																																								<li>
+																																	<a class=" " href="/index.php//Nous-contacter/Demande-de-documentation/Entreprise">Entreprise</a>
+																															</li>
+																																							</ul>
+																																</li>
+																								</ul>
+																	</li>
+																														</ul>
+	</div>	<div id="services">
+		<h2 class="type2">Services aux étudiants</h2>
+		<ul class="sous_menu">
+												<li>
+													<a class="ouvrable " href="/index.php//Services-aux-etudiants/Stages">Stages</a>
+																													</li>
+																<li>
+													<a class="ouvrable " href="/index.php//Services-aux-etudiants/Emploi">Emploi</a>
+																													</li>
+																<li>
+													
+
+	
+	<a href="http://moodle.esigelec.fr/index.php" target="_blank" title=" (nouvelle fenêtre)">Moodle - Cours</a>																													</li>
+																<li>
+													
+
+	
+	<a href="http://www.isic.fr/index.php" target="_blank" title=" (nouvelle fenêtre)">ISIC</a>																													</li>
+																<li>
+													
+
+	
+	<a href="http://edt.esigelec.fr/" target="_blank" title=" (nouvelle fenêtre)">Emploi du temps</a>																													</li>
+									</ul>
+	</div>						</div>
+						<div id="central">
+							<div id="outils">
+	<div class="left">&nbsp;</div>
+	<ul>
+		<li id="imprimer" style="display:none">
+			<a href="#" id="lien_imprimer" title="Imprimer la page">
+				<img src="/extension/www/design/www/images/elements/ico-imprimer.gif" alt="Imprimer la page" />
+			</a>
+		</li>
+		<li id="favori" style="display:none">
+			<a href="#" id="lien_favori" title="Ajouter aux Favoris">
+				<img src="/extension/www/design/www/images/elements/ico-favori.gif" alt="Ajouter aux Favoris" />
+			</a>
+		</li>
+					<li>
+				<a href="/index.php//content/tipafriend/2" title="Envoyer à un ami">
+					<img src="/extension/www/design/www/images/elements/ico-ami.gif" alt="Envoyer à un ami" />
+				</a>
+			</li>
+			<!--<li>
+				<a href="/index.php//content/pdf/2" title="Convertir en pdf (nouvelle fenêtre)" target="_BLANK">
+					<img src="/extension/www/design/www/images/elements/ico-pdf.gif" alt="Convertir en pdf" />
+				</a>
+			</li>-->
+									<li>
+				<a href="/index.php//Nous-contacter/Plan-d-acces" title="Plan d'accès">
+					<img src="/extension/www/design/www/images/elements/ico-plan-acces.gif" alt="Plan d'accès" />
+				</a>
+			</li>
+				<li>
+			<a href="/index.php//flux_rss/actus" target="_BLANK" title="Flux RSS (nouvelle fenêtre)">
+				<img src="/extension/www/design/www/images/elements/ico-rss.gif" alt="Flux RSS" />
+			</a>
+		</li>
+        <li>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="GroupeESIGELEC" data-lang="fr">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+        </li>
+	 <li>
+	<a href="http://www.twitter.com/GroupeESIGELEC" target="_blank"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-c.png" alt="S'abonner � GroupeESIGELEC sur Twitter"/></a>
+	</li>
+	<li>
+	<a href="http://www.facebook.com/Page.ESIGELEC" target="_blank"><img src="http://sites.esigelec.fr/Images/facebook.png" alt="S'abonner � ESIGELEC sur Facebook"/></a>
+	</li>
+	</ul>
+	<div class="right">&nbsp;</div>
+</div>
+
+
+<script type="text/javascript">
+	// <!--
+	$(document).ready(function(){
+		$("#imprimer, #favori").show();
+		$("#lien_imprimer").click(function(){
+			window.print();
+			return false;
+		});
+		$("#lien_favori").click(function(){
+			title="ESIGELEC - École d'ingénieurs généralistes - Accueil";
+			url="http://cem.esigelec.fr/index.php/";
+			if(window.sidebar){ // Mozilla Firefox Bookmark
+				window.sidebar.addPanel(title, url, "");
+			}else if(window.external){ // IE Favorite
+				window.external.AddFavorite(url, title);
+			}else if(window.opera && window.print){ // Opera Hotlist
+				return true;
+			}
+			return false;
+		});
+	});
+	//-->
+</script>
+
+																	
+													
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+		<div id="a-la-une" class="bloc">
+			<div class="left">
+				<h2 class="type3">à la une</h2>
+									<div class="titre-actu">2e place aux 24 heures motonautiques</div>
+																	<a rel="galerie" title="" href="/var/fr/storage/images/actualites/toutes-les-actualites/2e-place-aux-24-heures-motonautiques/32349-1-fre-FR/2e-place-aux-24-heures-motonautiques.jpg">
+							<img src="/var/fr/storage/images/actualites/toutes-les-actualites/2e-place-aux-24-heures-motonautiques/32349-1-fre-FR/2e-place-aux-24-heures-motonautiques_vignette.jpg" alt="" />
+						</a>
+																<p>
+													
+Pour cette 50ème édition des 24 heures motonautiques de Rouen, première étape du championnat du monde de motonautisme, les étudiants du Défi 24H ESIGELEC ont réussi à remporter la 2ème place de leur catégorie (classe 1).												<span>¶</span>
+						<a href="/Actualites/Toutes-les-actualites/2e-place-aux-24-heures-motonautiques">Lire la suite</a>
+					</p>
+							</div>
+							<div class="right">
+					<ul>
+													<li>
+								<a href="/Actualites/Toutes-les-actualites/Concours-PIC-et-PING-sur-le-theme-du-Developpement-Durable">Concours PIC et PING sur le thème du Développement Durable</a>
+							</li>
+													<li>
+								<a href="/Actualites/Toutes-les-actualites/Colloque-Innovation-Entrepreneuriat">Colloque Innovation &amp; Entrepreneuriat</a>
+							</li>
+													<li>
+								<a href="/Actualites/Toutes-les-actualites/Presentation-de-la-Sigelec">Présentation de la Sigelec</a>
+							</li>
+													<li>
+								<a href="/Actualites/Toutes-les-actualites/Le-18-mai-l-ESIGELEC-accueille-les-candidats-aux-Concours-Puissance-11-STI2D-et-ENSEA-DUT-BTS">Le 18 mai, l’ESIGELEC accueille les candidats aux Concours : Puissance 11, STI2D et ENSEA (DUT BTS)</a>
+							</li>
+													<li>
+								<a href="/Actualites/Toutes-les-actualites/Licence-et-Licence-Pro-Candidatez">Licence et Licence Pro : Candidatez !</a>
+							</li>
+											</ul>
+				</div>
+						<div class="plus">
+				<a href="/Actualites/Toutes-les-actualites" title="voir toutes les actualités">
+					<img src="/extension/www/design/www/images/elements/plus.gif" alt="Toutes les actualités" />
+				</a>
+			</div>
+		</div>
+	
+<div class="blocs-alignes">
+	<div id="video" class="bloc">
+		<h2 class="type3">vidéo</h2>
+					
+																														
+						<div id="wrap-video">
+							<script type='text/javascript' src='/extension/www/design/www/javascript/swfobject.js'></script>
+							<div id='mediaspace'></div>
+							<div style="display:none">
+								<div id="video_grand"></div>
+							</div>
+						</div>
+						<a class="grand" href="#">Voir la vidéo en taille réelle</a>
+						<script type="text/javascript">
+							var so = new SWFObject('/extension/www/design/www/images/player.swf','mpl','145','97','9');
+							so.addVariable('file','/content/download/3575/27111/file/video tp admin.flv');
+							so.addVariable('image','/extension/www/design/www/images/structure/background/preview.jpg');
+
+							var so2 = new SWFObject('/extension/www/design/www/images/player.swf','mpl','300','200','9');
+							so2.addVariable('file','/content/download/3575/27111/file/video tp admin.flv');
+						</script>
+						
+													<!--<a href="/Outils/Videos" title="Vidéos">Toutes les vidéos</a>-->
+						<br><a class="lien" href="/Vie-etudiante/Les-associations">+ de vidéos sur les sites des assos</a>
+	</div>
+	
+
+								
+			
+			<div id="agenda" class="bloc">
+				<h2 class="type3">agenda</h2>
+									<ul>
+													<li>
+								<span>
+																											Le 11 Juin
+																									</span>
+								<a href="/Actualites/Agenda/Colloque-Innovation-Entrepreneuriat">Colloque Innovation &amp; Entrepreneuriat</a>
+							</li>
+													<li>
+								<span>
+																											Le 13 Juin
+																									</span>
+								<a href="/Actualites/Agenda/Bourse-a-l-Alternance">Bourse à l’Alternance</a>
+							</li>
+											</ul>
+								<div class="plus">
+					<a href="/Actualites/Agenda" title="voir tous les évènements">
+						<img src="/extension/www/design/www/images/elements/plus.gif" alt="Agenda" />
+					</a>
+				</div>
+			</div>
+			
+			
+				<div id="tags" class="bloc">
+			<h2 class="type3">nuage de tags</h2>
+							<ul>
+																		<li class="level-1">
+								<a href="/Outils/Nuage-de-Tags/Cursus-bi-diplomants">Cursus bi-diplômants</a>
+							</li>
+																								<li class="level-1">
+								<a href="/Outils/Nuage-de-Tags/ESIG-etais">ESIG'étais</a>
+							</li>
+																								<li class="level-6">
+								<a href="/Outils/Nuage-de-Tags/Admissions">Admissions</a>
+							</li>
+																								<li class="level-4">
+								<a href="/Outils/Nuage-de-Tags/Apprentissage">Apprentissage</a>
+							</li>
+																								<li class="level-1">
+								<a href="/Outils/Nuage-de-Tags/Temoignages">Témoignages</a>
+							</li>
+																								<li class="level-1">
+								<a href="/Outils/Nuage-de-Tags/frais-de-scolarite">frais de scolarité</a>
+							</li>
+																								<li class="level-2">
+								<a href="/Outils/Nuage-de-Tags/Assos">Assos</a>
+							</li>
+																								<li class="level-3">
+								<a href="/Outils/Nuage-de-Tags/Cycle-Prepa">Cycle Prépa</a>
+							</li>
+																								<li class="level-1">
+								<a href="/Outils/Nuage-de-Tags/Portes-ouvertes">Portes ouvertes</a>
+							</li>
+																								<li class="level-2">
+								<a href="/Outils/Nuage-de-Tags/Dominantes">Dominantes</a>
+							</li>
+															</ul>
+					</div>
+	</div>
+
+<div class="blocs-alignes">
+				<div id="contact" class="bloc">
+			<h2 class="type3">Nos coordonnées</h2>
+			<div class="contenu">
+				
+<h2>ESIGELEC</h2><p>
+
+Technopôle du Madrillet<br />
+Avenue Galilée - BP 10024<br />76801 Saint-Etienne du Rouvray Cedex
+</p>
+<table class="tableau_donnees" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<td valign="top">  <p>
+
+Tél : (+33) 02 32 91 58 58 <br />Fax : (+33) 02 32 91 58 59
+</p>
+
+<ul>
+
+<li>		<a href="/Nous-contacter/Plan-d-acces" target="_self">Plan d'accès</a></li>
+
+<li>		<a href="/Nous-contacter/Formulaire-de-contact" target="_self">Formulaire de contact</a></li>
+
+<li>		<a href="/Nous-contacter/Demande-de-documentation" target="_self">Demande de doc</a></li>
+
+</ul>
+
+  </td><td valign="top">  
+<div class="object-right"><div class="content-view-embeddedmedia">
+<div class="class-image">
+
+<div class="attribute-image">
+<p>      
+
+    
+        
+    
+                    <img src="/var/fr/storage/images/media/images/photo-esigelec-contact3/19036-1-fre-FR/Photo-ESIGELEC-contact_vignette.jpg" width="110" height="73"  alt="Photo ESIGELEC contact" title="Photo ESIGELEC contact" />
+            
+    
+    
+      </p>
+</div>
+</div>
+</div>
+
+</div>
+  </td>
+</tr>
+
+</table>
+			</div>
+		</div>
+	
+		<div id="documents" class="bloc">
+		<h2 class="type4">documents à télécharger</h2>
+					<ul>
+														<li class="pdf">
+						<a target="_blank" title="brochureCandidats-2012-2013-VL.pdf (nouvelle fenêtre)" href="/content/download/1257/6708/brochureCandidats-2012-2013-VL.pdf">Plaquette Candidats</a> (1,82 MB)
+					</li>
+																			<li class="pdf">
+						<a target="_blank" title="brochureGenerale-2012-2013-VL.pdf (nouvelle fenêtre)" href="/content/download/1258/6712/brochureGenerale-2012-2013-VL.pdf">Brochure de l'ESIGELEC</a> (2,81 MB)
+					</li>
+																			<li class="pdf">
+						<a target="_blank" title="RE-versionSiteVL.pdf (nouvelle fenêtre)" href="/content/download/1805/13438/RE-versionSiteVL.pdf">Plaquette Relations Ecole-Entreprises</a> (990,36 kB)
+					</li>
+																			<li class="pdf">
+						<a target="_blank" title="apprentissage-2012-2013-web.pdf (nouvelle fenêtre)" href="/content/download/1260/6720/apprentissage-2012-2013-web.pdf">Ingénieur par l'apprentissage</a> (1,09 MB)
+					</li>
+																			<li class="pdf">
+						<a target="_blank" title="Livret pédagogique 2012-2013-WEB.pdf (nouvelle fenêtre)" href="/content/download/1261/6724/Livret pédagogique 2012-2013-WEB.pdf">Livret pédagogique</a> (4,50 MB)
+					</li>
+												</ul>
+			</div>
+</div>
+
+													</div>
+					</div>
+					<div id="haut-page">
+	<a href="#">haut de page</a>
+</div>
+
+<div id="footer">
+	<a href="http://www.cti-commission.fr" target="_blank" title="Aller sur le site de CTI Commission (nouvelle fenêtre)">
+		<img src="/extension/www/design/www/images/structure/logo_cti.gif" alt="cti" id="logo1" />
+	</a>
+	
+		<img src="/extension/www/design/www/images/structure/EURACE_logoTIFF.jpg" alt="eurace" id="logo2" />
+	<img src="/extension/www/design/www/images/structure/normandieuniversite.jpg" alt="Normandie Universit�" id="logo2b" />
+	<div>
+		<p>Copyright 2009</p>
+		<ul>
+															<li>
+						<a href="/Plan-du-site">Plan du site</a>
+					</li>
+									<li>
+						<a href="/Mentions-legales">Mentions légales</a>
+					</li>
+									<li>
+						<a href="/Nous-contacter/Plan-d-acces">Plan d'accès</a>
+					</li>
+										<li><a href="mailto:webmaster@esigelec.fr">Webmaster</a></li>
+		</ul>
+	</div>
+		<img src="/extension/www/design/www/images/structure/IMT_mini.jpg" alt="Institut Mines Telecom" id="logo3" />
+    <a href="http://www.cge.asso.fr" target="_blank" title="Aller sur le site de l'asso cge (nouvelle fenêtre)">
+		<img src="/extension/www/design/www/images/structure/Logo_CGE.jpg" alt="CGE" id="logo4" />
+	</a>
+	<a href="http://www.cdefi.fr" target="_blank" title="Aller sur le site du cdefi (nouvelle fenêtre)">
+		<img src="/extension/www/design/www/images/structure/logo_cdefi.gif" alt="CDEFI" id="logo5" />
+	</a>
+</div>
+				</div>
+			</div>
+		</div>
+						
+			<script src="/extension/www/design/www/javascript/home.js" type="text/javascript"></script>
+	
+<script src="/extension/www/design/www/javascript/jquery.fontavailable-1.1.min.js" type="text/javascript"></script>
+<script src="/extension/www/design/www/javascript/cufon-yui.js" type="text/javascript"></script>
+<script src="/extension/www/design/www/javascript/Qlassic_Medium_500.font.js" type="text/javascript"></script>
+
+	Cufon.now();
+	
+    <script type="text/javascript" defer="defer">
+	$(function(){
+		if(!$.fontAvailable('Qlassic Medium')) {
+			Cufon.replace('h2');
+		}
+	});
+	</script>
+	
+
+
+<script src="/extension/www/design/www/javascript/comportement_base.js" type="text/javascript"></script>
+<script src="/extension/www/design/www/javascript/jquery.colorbox-min.js" type="text/javascript"></script>
+
+<!--[if lte IE 6]>
+	<script type="text/javascript" src="/extension/www/design/www/javascript/supersleight.js"></script>
+<![endif]-->
+
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-819523-1");
+	pageTracker._trackPageview();
+</script>
+
+	</body>
+</html>

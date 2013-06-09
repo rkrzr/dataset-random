@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+#popup_overlay {
+background-color:#fff;
+height:500px;
+left:0pt;
+position:absolute;
+top:0pt;
+width:100%;
+z-index:599;
+}
+#popup_lightbox {
+left:0pt;
+position:absolute;
+width:100%;
+z-index:9999;
+}
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 502; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+
+#caseta_zone {
+	width:767px;
+	height:514px;
+	background:url(http://www.neocasa.ro/images/zone_bgr.png) 0 0 no-repeat;
+	overflow:hidden;
+	line-height:normal;
+}
+#caseta_zone * {
+	font-family:Arial, Helvetica, sans-serif;
+}
+#caseta_zone .cnt_part, #caseta_zone .btn {
+	position:relative
+}
+#caseta_zone .top_part_left {
+	float:left;
+	color:#dbe1e6;
+	padding:5px 0 0 23px;
+	display:inline
+}
+#caseta_zone .top_part_left span.titlu{
+	font-size:15px;
+}
+#caseta_zone .top_part_left span.titlu * {
+	font-size:15px;
+}
+#caseta_zone .top_part_left .numar_zone_selectate, #caseta_zone .top_part_left .numar_zone_selectate * {
+	font-size:12px;
+}
+#caseta_zone .top_part_left span.white {
+	color:#fff
+}
+#caseta_zone .top_part_left strong.sel {
+	color:#ffb10a
+}
+#caseta_zone .top_part_right {
+	float:right;
+	padding:7px 19px 0 0;
+}
+#caseta_zone .cnt_part {
+	overflow:auto;
+	width:700px;
+	height:415px;
+	margin:15px 0 0 20px;
+	padding-right:20px;
+}
+#caseta_zone .cnt_part .cb {
+	width:12px;
+	height:12px;
+	overflow:hidden;
+	cursor:pointer;
+	float:left;
+	line-height:normal;
+	margin:4px 5px 0 0;
+	font-size:0px;
+	display:inline;
+}
+#caseta_zone .cnt_part .cb * {
+	float:left;
+}
+#caseta_zone .cnt_part .title {
+	border-bottom:1px solid #D4D2D2;
+	font-size:14px;
+	padding-bottom:3px;
+	color:#333;
+}
+#caseta_zone .cnt_part .title strong {
+	font-size:14px;
+}
+#caseta_zone .cnt_part .title .cb {
+	margin:3px 5px 0 0;
+}
+#caseta_zone .cnt_part .title .info {
+	float:right;
+	color:#31689b;
+	font-size:11px;
+	padding-top:4px;
+	width:150px;
+	text-align:right;
+}
+#caseta_zone .cnt_part .title .spons {
+	float:right;
+	width:363px;
+	text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FBA327;
+}
+#caseta_zone .cnt_part .title .spons a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FBA327;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#caseta_zone .cnt_part .title .info * {
+	font-size:11px;
+}
+#caseta_zone .cnt_part .title input {
+	vertical-align:baseline;
+	display:inline;
+	margin-right:8px;
+	_margin-right:5px;
+	_margin-left:-4px;
+}
+#caseta_zone .cnt_part .section {
+	float:left;
+	padding-right:5px;
+	width:165px;
+	color:#666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	margin-top:6px;
+	_margin-top:3px
+}
+#caseta_zone .cnt_part .section input {
+	_margin-left:-4px;
+	vertical-align:baseline;
+	margin-right:3px;
+	_margin-right:0
+}
+#caseta_zone .bottom_part {
+	color:#fff;
+	margin-top:20px;
+	padding:0 15px 0 9px
+}
+#caseta_zone .bottom_part {
+	font-size:12px;
+}
+#caseta_zone .bottom_part img.btn {
+	float:right
+}
+#caseta_zone .bottom_part .help_select {
+	width:169px;
+	position:absolute;
+	border:1px solid black;
+	display:none;
+	background:url(http://www.neocasa.ro/images/select_bgr_zone.png) 0 0 repeat-y
+}
+#caseta_zone .bottom_part .help_select div {
+	height:17px;
+	font-weight:bold;
+	color:#000;
+	padding:4px 0 0 5px;
+	white-space:nowrap;
+	width:164px;
+	overflow:hidden;
+}
+#caseta_zone .bottom_part .help_select div.act {
+	background-color:#B6C2CA
+}
+#caseta_zone .bottom_part .search_zona {
+	width:169px;
+	height:17px;
+	padding-top:3px;
+	border:1px solid #000;
+	font-weight:bold;
+	font-size:11px;
+	vertical-align:middle
+}

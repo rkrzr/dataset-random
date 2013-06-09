@@ -1,0 +1,371 @@
+<!DOCTYPE html  >
+<html >
+<head>
+<meta charset="UTF-8"> 
+<!-- Le styles -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/bootstrap.min.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/docs.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/prettify.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/bootstrap-extended.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/template.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/joomla.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/templates/comunequaregnabootstrap2013/css/bootstrap-responsive.min.css" type="text/css" media="screen" />
+
+<!-- Le touch icons -->
+<link rel="apple-touch-icon" href="/templates/comunequaregnabootstrap2013/images/icons/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/templates/comunequaregnabootstrap2013/images/icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/templates/comunequaregnabootstrap2013/images/iconsapple-touch-icon-114x114.png" />
+<link rel="shortcut icon" href="/templates/comunequaregnabootstrap2013/images/favicon.ico" />
+
+  <base href="http://www.comune.quaregna.bi.it/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="SkyNet SRL - sviluppo software web based, gestionale online e archiviazione documentale - www.skynet.it" />
+  <title>Home</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/plugins/content/attachments/attachments1.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/attachments/attachments.css" type="text/css" />
+  <style type="text/css">
+
+body {
+	background-color:#48D1CC;
+	}
+
+#header {
+	background-color: #DAA520;
+	background-image: -moz-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -ms-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DAA520), to(48D1CC));
+	background-image: -webkit-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -o-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: linear-gradient(top, #DAA520, #48D1CC);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#DAA520", endColorstr="#48D1CC", GradientType=0);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	}
+#above {
+	background-color: #DAA520;
+	background-image: -moz-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -ms-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DAA520), to(48D1CC));
+	background-image: -webkit-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: -o-linear-gradient(top, #DAA520, #48D1CC);
+	background-image: linear-gradient(top, #DAA520, #48D1CC);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#DAA520", endColorstr="#48D1CC", GradientType=0);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/plugins/content/attachments/attachments_refresh.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body class="com_content featured   item-101 home b_text h_text win mozilla v5_0 v5" data-spy="scroll" data-target=".subnav" data-offset="50" data-redering="true">
+<!-- Navbar
+    ================================================== -->
+<div class="navbar navbar-fixed-top" >
+	<div class="navbar-inner" id="header">
+		<div class="container"> 
+			<h1 style="" class="logo image" ><a href="/" style="background: url('/images/Quaregna-Stemma.png') no-repeat; width:114px; height:154px;" class="brand"> Comune Quaregna</a></h1>						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+			</a> 
+									<div class="nav-collapse">
+				
+<div class="custom"  > <div class="custom">
+<h3>Comune di Quaregna (BI)</h3>
+<h3>Piemonte - Italia</h3>
+</div> </div>
+
+<div class="newsflash unstyled">
+		 <p>Resta sempre in contatto con il Comune attraverso il sito ufficiale</p>
+<div class="attachmentsContainer">
+
+<div class="attachmentsList" id="attachmentsList_com_content_default_146"></div>
+
+</div><a class="readmore btn btn-primary btn-small" href="/news/146-news-dal-comune.html">Leggi tutto...</a>	</div>
+
+			</div>
+					</div>
+	</div>
+</div>
+
+<div class="container">
+	<!-- Content
+	================================================== -->
+	<div id="content">
+		
+<div id="system-message-container">
+</div>
+		
+						<div id="main" class="row">
+			<!-- Left -->
+						<div id="sidebar" class="span3">
+						<div class="moduletable_menu">
+					<h3>Il Comune</h3>
+					
+<ul class="nav">
+<li class="item-101 current active"><a href="/" >Home</a></li><li class="item-146"><a href="/posta-elettronica-certificata.html" >Posta Elettronica Certificata</a></li><li class="item-148 parent"><a href="/amministrazione.html" >Amministrazione</a></li><li class="item-156 parent"><a href="/informazioni-e-guida.html" >Informazioni e guida</a></li><li class="item-112"><a href="/contatta-il-comune.html" >Contatta il Comune</a></li><li class="item-109"><a href="/news.html" >News</a></li></ul>
+		</div>
+			<div class="moduletable">
+					<h3>Uffici e Servizi</h3>
+					
+<ul class="nav">
+<li class="item-164"><a href="/segretario-comunale.html" >Segretario Comunale</a></li><li class="item-166"><a href="/ufficio-anagrafe-e-stato-civile.html" >Ufficio Anagrafe e Stato Civile</a></li><li class="item-168"><a href="/ufficio-ragioneria.html" >Ufficio Ragioneria</a></li><li class="item-170"><a href="/ufficio-tecnico.html" >Ufficio Tecnico</a></li><li class="item-172"><a href="/ufficio-polizia-municipale.html" >Ufficio Polizia Municipale</a></li><li class="item-174"><a href="/urp-ufficio-relazioni-con-il-pubblico.html" >Ufficio Relazioni con il Pubblico</a></li></ul>
+		</div>
+			<div class="moduletable">
+					
+<div class="custom"  > <p><a href="http://www.riscotel.it/calcimu/comuni/calcimu.html?comune=H103"><img alt="calcimu" src="/images/calcimu.png" height="80" width="150" /></a></p> </div>
+		</div>
+			<div class="moduletable">
+					<h3>Pubblicazioni</h3>
+					
+<ul class="nav">
+<li class="item-176"><a href="http://www.halleyweb.com/c096051/mc/mc_p_ricerca.php" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return false;" >Albo Pretorio On Line</a></li><li class="item-178"><a href="/statuto-e-regolamenti.html" >Statuto e Regolamenti</a></li><li class="item-322"><a href="http://halleyweb.com/c096051/index.php?servizio=26 " onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return false;" >Delibere</a></li><li class="item-306"><a href="/determine-esterne.html" >Determine</a></li><li class="item-188"><a href="/concorsi.html" >Concorsi</a></li><li class="item-190"><a href="/contratto-integrativo-aziendale.html" >Contratto Integrativo Aziendale</a></li><li class="item-192"><a href="/contributi.html" >Contributi</a></li><li class="item-194"><a href="/bilanci.html" >Bilanci</a></li><li class="item-196"><a href="/servizi-di-egovernment-attivi.html" >Servizi di egovernment attivi</a></li><li class="item-198"><a href="/servizi-di-egovernment-di-futura-attivazione.html" >Servizi di egovernment di futura attivazione</a></li><li class="item-200"><a href="/privacy.html" >Privacy</a></li><li class="item-202"><a href="/note-legali.html" >Note Legali</a></li><li class="item-204"><a href="/elenco-siti-tematici.html" >Elenco Siti tematici</a></li><li class="item-206"><a href="/come-fare-per.html" >Come fare per</a></li><li class="item-208"><a href="/bandi-di-gara.html" >Bandi di gara</a></li><li class="item-210"><a href="/pubblicazioni.html" >Pubblicazioni</a></li></ul>
+		</div>
+			<div class="moduletable">
+					<h3>Trasparenza Valutazione e Merito</h3>
+					
+<ul class="nav">
+<li class="item-212"><a href="/trasparenza-valutazione-e-merito.html" >Trasparenza Valutazione e Merito</a></li><li class="item-214 parent"><a href="/amministrazione-aperta.html" >Amministrazione Aperta</a></li><li class="item-218 parent"><a href="/dati-informativi-sul-personale.html" >Dati informativi sul personale</a></li><li class="item-240 parent"><a href="/dati-informativi-sull-organizzazione-e-i-procedimenti.html" >Dati informativi sull'organizzazione e i procedimenti</a></li><li class="item-278 parent"><a href="/dati-sulla-gestione-economico-finanziaria-dei-servizi-pubblic.html" >Dati sulla gestione economico finanziaria dei servizi pubblici</a></li><li class="item-242 parent"><a href="/dati-relativi-a-incarichi-e-consulenza.html" >Dati Relativi a Incarichi e Consulenza</a></li><li class="item-246"><a href="/dati-sulla-gestione-dei-pagamenti.html" >Dati sulla gestione dei pagamenti</a></li><li class="item-248"><a href="/dati-relativi-alle-buone-prassi.html" >Dati relativi alle buone prassi</a></li><li class="item-250 parent"><a href="/dati-su-sovvenzioni-contributi-crediti-sussidi-e-benefici-di-natura-economica.html" >Dati su sovvenzioni contributi crediti sussidi e benefici di natura economica</a></li><li class="item-252 parent"><a href="/il-piano-e-la-relazione-sulle-performance.html" >Il piano e la relazione sulle performance</a></li><li class="item-324"><a href="/prevenzione-e-repressione-della-corruzione-e-dell-illegalita.html" >Prevenzione e repressione della corruzione e dell'illegalità</a></li></ul>
+		</div>
+			<div class="moduletable">
+					<h3>Servizi on Line</h3>
+					
+<ul class="nav">
+<li class="item-254"><a href="/concorsi-pubblici.html" >Concorsi Pubblici</a></li><li class="item-256"><a href="/gare-e-appalti.html" >Gare e Appalti</a></li><li class="item-258"><a href="/imu.html" >IMU</a></li><li class="item-260"><a href="/tarsu.html" >TARSU</a></li><li class="item-262"><a href="/richiesta-certificati.html" >Richiesta Certificati</a></li><li class="item-264"><a href="/modulistica.html" >Modulistica</a></li></ul>
+		</div>
+	
+			</div>
+						<!-- Component -->
+			<div id="content2" class="span9">
+								
+<div class="blog-featured">
+				<div class="items-leading row-fluid">
+				<div class="leading-0">
+																<!--
+						-->
+					<div class="item-rating">  </div>
+		<p><img style="display: block; margin-left: auto; margin-right: auto;" alt="home" src="/images/home.png" width="640" height="240" /></p>
+<h1><span style="font-size: x-large;">Il&nbsp; Comune di Quaregna vi da il benvenuto!</span></h1>
+<p>Per segnalazioni scrivici a: 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy67488 = 'ss&#111;c.q&#117;&#97;r&#101;gn&#97;' + '&#64;';
+ addy67488 = addy67488 + 'ptb' + '&#46;' + 'pr&#111;v&#105;nc&#105;&#97;' + '&#46;' + 'b&#105;&#101;ll&#97;' + '&#46;' + '&#105;t';
+ var addy_text67488 = 'ss&#111;c.q&#117;&#97;r&#101;gn&#97;' + '&#64;' + 'ptb' + '&#46;' + 'pr&#111;v&#105;nc&#105;&#97;' + '&#46;' + 'b&#105;&#101;ll&#97;' + '&#46;' + '&#105;t';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy67488 + '\'>');
+ document.write(addy_text67488);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Questo indirizzo email è protetto dagli spambots. E' necessario abilitare JavaScript per vederlo.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script></p>
+<p>Indirizzo di posta elettronica certificata: 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy61490 = 'q&#117;&#97;r&#101;gn&#97;' + '&#64;';
+ addy61490 = addy61490 + 'p&#101;c' + '&#46;' + 'ptb&#105;&#101;ll&#101;s&#101;' + '&#46;' + '&#105;t';
+ var addy_text61490 = 'q&#117;&#97;r&#101;gn&#97;' + '&#64;' + 'p&#101;c' + '&#46;' + 'ptb&#105;&#101;ll&#101;s&#101;' + '&#46;' + '&#105;t';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy61490 + '\'>');
+ document.write(addy_text61490);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Questo indirizzo email è protetto dagli spambots. E' necessario abilitare JavaScript per vederlo.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script></p>
+<p>&nbsp;<span id="_mce_caret" data-mce-bogus="true"><strong>Buona navigazione.</strong></span></p><div class="attachmentsContainer">
+
+<div class="attachmentsList" id="attachmentsList_com_content_default_144"></div>
+
+</div>		</a>
+	</p>
+	<div class="item-separator"></div>
+ 
+		</div>
+						<div class="leading-1">
+																<!--
+						-->
+					<div class="item-rating">  </div>
+		<h2><img class="leftImg" alt="eu flag" src="/images/eu_flag.png" width="200" height="268" />TERRITORIO</h2>
+<table border="0">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Superficie territoriale Ha. 584</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Altitudine: Massima s.l.m. mt. 390</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Minima s.l.m. mt. 247</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Abitanti: 1391</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Densità demografica: 239,15&nbsp;ab./Kmq.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Circoscrizioni n. =</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Frazioni geografiche n. 1</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>CAP: 13854</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Prefisso Telefonico 015</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Codice ISTAT: 096051</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Codice Catastale: H103</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Geologia:</p>
+<p>Non si rilevano particolari caratteristiche geologiche, sismiche e oro - idrografiche.<br />Rilievi montagnosi e collinari: questo Comune è classificato interamente montano.</p>
+<p>Il Comune è provvisto di Piano Regolatore Generale Comunale.<br />Strade : Provinciali Km. 5<br />Comunali Km. 8.<br />Quaregna confina con i Comuni di Cossato, Cerreto Castello, Valle San Nicolao, Piatto e Vallanzengo.</p>
+<h3>POPOLAZIONE</h3>
+<table border="0">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Popolazione al censimento 1981 n. 1.198</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Popolazione al censimento 1991 n. 1.281</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Popolazione al censimento 2001 n. 1.296</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Popolazione al censimento 2011 n. 1390</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Popolazione al 31.12.2012 n. 1.391</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Nuclei familiari n. 599</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />ATTIVITA' ECONOMICHE</p>
+<p>Dati censimento 2001:<br />Attività Commerciali n. 22<br />Attività Industriali n. 23<br />Altre attività n. 73</p><div class="attachmentsContainer">
+
+<div class="attachmentsList" id="attachmentsList_com_content_default_10"></div>
+
+</div>		</a>
+	</p>
+	<div class="item-separator"></div>
+ 
+		</div>
+						<div class="leading-2">
+						<div class="page-header">
+		<h2>
+						<a href="/informazioni-e-guida/8-gonfalone-e-descrizione-araldica.html"> Gonfalone e Descrizione Araldica</a>
+					</h2>
+			</div>
+												<!--
+						-->
+					<div class="item-rating">  </div>
+		<p class="leftImg"><img alt="Quaregna-Stemma" src="/images/Quaregna-Stemma.png" width="114" height="154" /></p>
+<p>"Semi troncato partito: nel primo d'azzurro, alla fascia in punta di rosso, merlata di tre e mattonata di nero; nel secondo, fasciato d'oro e di rosso; nel terzo d'argento, alla cotissa ondata d'azzurro ed abbassata, accompagnata in capo da un fuso villoso al naturale e posto in palo."</p>
+<p>Ornamenti esteriori da Comune.</p>
+<h4>Significato delle pezze e delle figure organizzate:</h4>
+<p>Lo scudo è composto da tre parti, nella prima si propone la figura del castello-fortilizio, nominato già nel secolo XI; nella seconda indicati i colori degli Avogadro come titolari del territorio dal 1100 sino alla fine del XVIII secolo; nella terza, accanto alla storia si rappresenta l'economia attuale: l'industria tessile sorta sulle sponde del torrente Quargnasca.</p><div class="attachmentsContainer">
+
+<div class="attachmentsList" id="attachmentsList_com_content_default_8"></div>
+
+</div>		</a>
+	</p>
+	<div class="item-separator"></div>
+ 
+		</div>
+					</div>
+					</div>
+
+							</div>
+			<!-- Right -->
+					</div>
+			</div>
+		<!-- Footer
+	================================================== -->
+	<footer class="footer">
+		<p class="pull-right"><a href="#">Torna in cima</a></p>
+		
+	<div id="company"> Via Colorei 3 - C.A.P. 13854 - Provincia di Biella - Tel. 015/93859 </div>	
+	<div id="powered"><a href="http://www.skynet.it" target="_blank" alt="SkyNet Web Services">powered by SkyNet</a></div>
+	</footer>
+	
+</div><!-- /container -->
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="/templates/comunequaregnabootstrap2013/js/jquery.js"></script> 
+<script src="/templates/comunequaregnabootstrap2013/js/bootstrap.min.js"></script> 
+<script src="/templates/comunequaregnabootstrap2013/js/application.js"></script> 
+<script src="/templates/comunequaregnabootstrap2013/js/prettify.js"></script> 
+<script type="text/javascript">
+        jQuery.noConflict();
+</script>
+</body>
+</html>

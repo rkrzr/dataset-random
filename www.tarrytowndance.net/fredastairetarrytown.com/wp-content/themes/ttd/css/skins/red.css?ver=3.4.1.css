@@ -1,0 +1,61 @@
+h1, h2, h3, h4, h5, h6 ,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: #c23434;}
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {color:#fff}
+a{ color: #c23434;}
+a:hover{ color: #21d0b5; }
+
+#sidebar a:hover{ color:#c23434}
+.pagination span,
+.category_menu li a.current,
+.category_menu li.current-cat a,
+#submit_comment,
+.button.color{background-color:#c23434; box-shadow: 0px 2px 0px #a72b2b; text-shadow:0px 1px 0px #a72b2b}
+.category_menu li a.current:hover,
+.category_menu li.current-cat a:hover,
+#submit_comment:hover,
+.button.color:hover{background-color:#d14848}
+.category_menu li a.current:active,
+.category_menu li.current-cat a:active,
+#submit_comment:active,
+.button.color:active{box-shadow: inset 0px 2px 0px #a72b2b;}
+
+#nav{border-bottom-color:#c23434}
+.sf-menu li.current-post-parent a,
+.sf-menu li.current-menu-parent a,
+.sf-menu li.current-post-ancestor a,
+.sf-menu li.current_page_item a,
+.sf-menu li.current-menu-item a,
+.sf-menu li:hover a,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active,
+.sf-menu ul {background-color:#c23434;}
+.sf-menu li li {border-top-color:#a72b2b; border-bottom-color:#d14848}
+
+/* Slider */
+.flex-direction-nav li .next span{background-image:url(../../images/styles/red/next.png)}
+.flex-direction-nav li .prev span{background-image:url(../../images/styles/red/prev.png)}
+@media only screen and (max-width: 479px) {
+	.flex-direction-nav li .next span{background-image:url(../../images/styles/red/next_small.png)}
+	.flex-direction-nav li .prev span{background-image:url(../../images/styles/red/prev_small.png)}
+}
+
+.portfolio_slider .flex-control-nav li a.active,
+.flex-caption h3{background-color:#c23434;}
+
+/* Portfolio */
+#portfolio .portfolio_item:hover{border-bottom-color: #c23434 }
+
+#sidebar .widget.recent_tweets a{color:#c23434}
+
+.widget_categories .current-cat a,
+.widget_categories a:hover{background-color:#c23434; border-bottom-color: #c3691b;}
+
+#footer{background-color:#c23434; border-bottom-color: #2d3543}
+#footer h3{text-shadow:0px 1px 0px #a72b2b}  
+
+#footer .recent_posts li{ border-color:#a72b2b}
+
+#footer .tagcloud a{background-color:#d14848; box-shadow: 0px 2px 0px #a72b2b; text-shadow: 1px 1px 0 #a72b2b }
+#footer .tagcloud a:active{box-shadow: inset 0px 2px 0px #a72b2b;}
+
+.price-table .price-column.featured-price .price-header {background-color: #c23434;}
+.price-table .price-column.featured-price .price-header h4{text-shadow:0 1px 0px #a72b2b}

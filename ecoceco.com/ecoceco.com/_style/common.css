@@ -1,0 +1,82 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11pt;
+	font-style: normal;
+	font-family: Arial, "‚l‚r ‚oƒSƒVƒbƒN", "ƒqƒ‰ƒMƒmŠpƒS Pro W3",  sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+body {
+	background: url(http://ecoceco.com/image/base_bg.gif) repeat-x #fff;
+	height:100%;
+	color: #555;
+	text-align: center;
+	line-height: 1.5;
+}
+p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ul li {
+	margin: 0;
+	margin-left: -16px;
+	padding: 0;
+}
+ol li {
+	margin: 0;
+}
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+	color: #0000bf;
+}
+a:hover {
+	text-decoration: underline;
+	color: #e47d4a;
+}
+img {
+	outline: none;
+	border: none;
+}
+img:focus {
+	outline: none;
+}
+/*--- PublicRelations ------------------*/
+#PublicRelations {
+	margin: -12px 0 0 0;
+	padding: 0 10px 10px 10px;
+	text-align: left;
+	border: none;
+	border: 1px solid #ddd;
+	font-size: 8pt;
+}
+#PublicRelations legend {
+	margin: 8px 0 -5px 0;
+	color: #777;
+}
+#PublicRelations a {
+	font-size: 8pt;
+}
+* html #PublicRelations legend {
+	margin: -4px 0 -5px 0;
+}
+*:first-child+html #PublicRelations legend {
+	margin: -4px 0 -5px 0;
+}
+div {
+	zoom:1;/*for IE 5.5-7*/
+}
+div:after {/*for modern browser*/
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}

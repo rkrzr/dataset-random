@@ -1,0 +1,60 @@
+a:link       { color: #0043AE }
+a:hover      { text-decoration: none }
+a:visited    { color: #0043AE }
+body         { margin:0; font-family: Tahoma; font-size: 8pt; background-color:#FFFFFF }
+td           { font-size: 10pt }
+h1           { color: #8B0B00; font-size: 24pt; text-align:left; margin-left:4; margin-top:0; margin-bottom:0; font-weight:bold }
+h2           { color: #8B0B00; border-top:1px solid #B4C3FF; font-size:14pt; font-weight:bold }
+h3           { color: #8B0B00; margin: 0; font-size:14pt; font-weight:normal }
+h4           { color: #8B0B00; margin: 0; font-size:10pt; font-weight:bold }
+h5           { margin-bottom: 0 }
+hr           { color: #B4C3FF }
+.inhalt      { border-bottom: 2px solid #B4C3FF; }
+.inhaltbdr   { border-bottom: 2px solid #B4C3FF; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC }
+.inhaltbez   { border-bottom: 2px solid #B4C3FF; background-color: #F6F8FF }
+.inhalt1     { border-bottom: 2px solid #B4C3FF; margin-top:0; vertical-align:top }
+.inhaltk	 { border-bottom: 2px solid #B4C3FF; font-size:8pt; text-align:center }
+.inhalts	 { border-bottom: 1px dotted #B4C3FF;  }
+.inhaltsk	 { border-bottom: 1px dotted #B4C3FF; font-size:8pt; text-align:center }
+table.hot td { font-size:8pt; text-align:center }
+.infonav     { font-size:11pt; margin-bottom:1em; line-height:1.5em }
+.subnav      { font-size:10pt; margin-bottom:1em; line-height:1.5em }
+a.allink {color:#000}
+a:visited.allink{color:#000}
+.info        { width:18%; border: 1px solid #000000; background-color: #FFC4AA; color: #FFFFFF; font-weight:bold; font-size:10px; text-align:center }
+.infobox     { width:36%; border-left: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; font-size:10px; padding-left:2px }
+.suchfeld    { font-size: 10px; border-style: solid; border-width: 0px; font-family:Tahoma; font-weight:bold }
+.hitword     { font-weight:bold }
+.klein		 { font-size: 9px }
+.bottom      { vertical-align: middle }
+
+/* zellen */
+.bannerzelle { height:70px; background-color:#003366; text-align:center }
+.oberzelle   { height:20px; font-size: 10px; text-align: right; vertical-align:middle; background-color:#FFC4AA }
+.suboben     { color: #000; height:20px; background-color: #B4C3FF; vertical-align:middle; padding-left:45px }
+.navigation  { width:160px; vertical-align:top; text-align:left; background-color:#B4C3FF }
+.inzelle     { vertical-align:top; padding-left:3px; padding-right:3px }
+.zelle1      { border-right: 1px solid #000000 }
+.zelle2      { border-top: 1px solid #000000 }
+.zelle3      { border-left:1px solid #000000; border-top: 1px solid #000000 }
+.zelle4      { height:50px; width:50px; border-style: solid; border-width: 1px; border-color:#000000; text-align:center }
+
+/* includer */
+.topbanner   { width:468px; height:60px }
+.topinc      { width:0px; height:2px }
+.empfehlung  { width:120px; height:40px }
+.empf        { margin-top: 9; margin-bottom: 9; margin-left:3 }
+.unten       { width:768px; height:260px }
+.googleoben  { margin-top: 3px; margin-bottom: 2px; margin-left:32px }
+.bookings    { width:514px; height:84px }
+
+
+ul#Navigation { padding:0em 0.25em; font-size:8pt  }
+ul#Navigation li { list-style: none; margin:0.3em }
+ul#Navigation li.e0hier { font-weight:bold }
+ul#Navigation li.e1 { list-style-image: url('images/e1.png'); text-decoration:none; font-weight:normal }
+ul#Navigation li.e1hier { list-style-image: url('images/e1hier.png'); font-style:oblique; font-weight:normal }
+ul#Navigation li.e2 { list-style-image: url('images/e2.png'); font-style:normal }
+ul#Navigation li.e2hier { list-style-image: url('images/e2hier.png'); font-weight:bold; font-style:normal }
+ul#Navigation li ul { padding-left:0.8em }
+ul#Navigation li ul ul { padding-left:0.35em }

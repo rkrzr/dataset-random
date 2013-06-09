@@ -1,0 +1,117 @@
+h1.Header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 320px;
+	background: url(http://ecoceco.com/image/base_house_top.gif) no-repeat;
+}
+h1.Header div {
+	position: relative;
+	left: 156px;
+	top: 52px;
+	text-indent: 0px;
+}
+h1.Header a {
+	text-indent: 0px;
+	position: absolute;
+	top: 184px;
+	left: 158px;
+	margin: 0px;
+	padding: 0px;
+}
+.MainContainer {
+	margin: 0 auto;
+	width: 800px;
+	background: url(http://ecoceco.com/image/base_house_mdl.gif) repeat-y;
+	text-align: center;
+}
+.Container {
+	margin: 0 auto;
+	width: 492px;
+}
+.Container #Top {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../image/text_area_top.gif) no-repeat;
+}
+.Container #Mdl {
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	background: url(../image/text_area_mdl.gif) repeat-y;
+	text-align: left;
+}
+.Container #Btm {
+	margin: 0 auto;
+	height: 20px;
+	background: url(../image/text_area_btm.gif) no-repeat;
+}
+.TitleH2 {
+	margin: 0;
+	height: 32px;
+	background: url(http://ecoceco.com/image/title_left.gif) no-repeat left top;
+}
+.TitleH2 h2 {
+	width: 443px;
+	margin: 0;
+	margin-left: 12px;
+	position: relative;
+	background: url(http://ecoceco.com/image/title_right.gif) no-repeat right top;
+	font-size: 12pt;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #000;
+}
+.TitleH2 h2 span {
+	height: 32px;
+	position: absolute;
+	font-size: 12pt;
+	top: -2px;
+	left: -2px;
+	color: #fff;
+}
+.TitleH2 h1 {
+	width: 443px;
+	margin: 0;
+	margin-left: 12px;
+	position: relative;
+	background: url(http://ecoceco.com/image/title_right.gif) no-repeat right top;
+	font-size: 12pt;
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #000;
+}
+.TitleH2 h1 span {
+	height: 32px;
+	position: absolute;
+	font-size: 12pt;
+	top: -2px;
+	left: -2px;
+	color: #fff;
+}
+#navigation .TitleH2 h2 {
+	width: 162px;
+}
+.BaseBtm {
+	margin: 0 auto;
+	background: url(http://ecoceco.com/image/base_bg_btm.gif) repeat-x;
+	text-align: center;
+}
+.BaseBtm #Footer {
+	margin: 0 auto;
+	width: 800px;
+	height: 120px;
+	background: url(http://ecoceco.com/image/base_house_btm.gif) no-repeat;
+	text-align: center;
+	padding-top: 32px;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #007e00;
+}
+.comment h3 {
+	background: #cfead0;
+	width: 450px;
+	font-size: 10pt;
+}

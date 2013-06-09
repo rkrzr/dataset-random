@@ -1,0 +1,289 @@
+
+
+/* %BEGIN_CSS_CODE% */
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000000;
+	background-color: #FFFFFF; 
+	background-image: url(  );
+}
+
+a img { border: none; }
+table { font-size: 100%; }
+
+a {color: #cc6633; text-decoration: none}
+
+a:hover	{text-decoration: underline}
+
+h2 { font-size: medium; }
+h4 { font-size: 1.3em; }
+
+.divHeader {
+}
+
+.divMenu {
+}
+
+.divMain {
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.divOther {
+}
+
+.divFooter {
+}
+
+.mainbox {		/* Highlight box (for warnings, etc) */
+   color:           inherit;
+   background:      #F0F0F0;
+   margin:          0.75em 1.5em;
+   padding:         1em 2.5em;
+   border:          1px solid #999999;
+}
+
+.floatboxleft {
+   overflow:        visible;
+   font-size:       95%;
+   line-height:     1.25;
+   margin:          0.75em 1.5em;
+   padding:         0.5em 1em;
+   border:          1px solid #999999;
+   float:           left;
+   clear:           left;
+   color:           black;
+   background:      #F0F0F0;
+   width:           35%;
+}
+
+.floatboxright {
+   overflow:        visible;
+   font-size:       95%;
+   line-height:     1.25;
+   margin:          0.75em 1.5em;
+   padding:         0.5em 1em;
+   border:          1px solid #999999;
+   float:           right;
+   clear:           right;
+   color:           black;
+   background:      #F0F0F0;
+   width:           35%;
+}
+
+.c1box {
+	/* background-color: #828282; */
+	border: 1px solid ;
+	color: inherit;
+	padding: 5px;
+	margin: 15px;
+}
+
+.c2box {
+	/* background-color: #828282; */
+	border: 1px solid ;
+	color: inherit;
+	padding: 5px;
+	margin: 15px;
+}
+
+.ul_menu48 {	
+	list-style: none;
+	width: 150px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 1.1em;
+}	
+
+.ul_menu48 li {
+	margin-bottom: 4px;
+}
+
+.ul_menu48 li a {
+	font-weight: bold;
+	height: 20px;
+	text-decoration: none;
+	color: ;
+	display: block;
+	padding: 5px 0 0 8px;
+	/* background: #FFFFFF; */
+	border-left: 5px solid ;
+}	
+	
+.ul_menu48 li a:hover {
+	background: ;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-left: 5px solid ;
+}
+
+.ul_navigation49 {
+	text-align:right;
+	margin:10px 10px 10px auto;
+}
+
+.ul_navigation49 li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:inline;
+}
+
+.ul_navigation49 li a {
+	padding:5px 5px 2px 5px;
+	margin:0 1px 0 1px;
+	color:#cc6633;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid ;
+}
+
+.ul_navigation49 li a:hover {
+	text-decoration:none;
+	color:;
+	border-bottom:1px solid ;
+}
+
+
+/* LAYOUT GENERAL */
+
+.pH2 {
+	#B9B9B9	font-size: 16px;
+}
+
+.divBlock {
+	padding: 3px;
+}
+
+.spanDefaulttextblock {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+
+.spanDefaulttextblock_login {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+
+.divFootnote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+
+.divDate {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+
+
+
+.inputTextForms {
+	font-size: 10px;
+	width: 200px;
+	color: #000000;
+	border: 1px solid #666666;
+}
+
+.tableContact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.inputTextLogin {
+	font-size: 10px;
+	width: 50px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.inputTextN {
+	font-size: 10px;
+	width: 35px;
+	color: #000000;
+	border: 1px solid #666666;
+}
+
+.button {
+	BORDER-TOP-COLOR: #000000; 
+	BORDER-LEFT-COLOR: #000000; 
+	BORDER-RIGHT-COLOR: #000000; 
+	BORDER-BOTTOM-COLOR: #000000;
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-RIGHT-WIDTH: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.buttonLogin {
+	BORDER-TOP-COLOR: #000000; 
+	BORDER-LEFT-COLOR: #000000; 
+	BORDER-RIGHT-COLOR: #000000; 
+	BORDER-BOTTOM-COLOR: #000000;
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-RIGHT-WIDTH: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.TABLA_PEDIDO {
+}
+
+.CELDA_PEDIDO {
+	border-bottom: 1px solid ;
+}
+
+.TABLA_PEDIDOFORM {
+	width: 550px;
+}
+
+.SEPARADOR_PEDIDO {
+	color: #000000;
+}
+
+.inputText_PEDIDOFORM {
+	font-size: 10px;
+	width: 200px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+
+.divNew_foot {
+	text-align:right;
+	font-size:0.8em;
+	font-family:arial,sans-serif;
+	color:;
+	word-spacing:1px;
+}
+
+.divNew {
+	margin-top: 10px;
+}
+
+
+.h2_tile00 {}
+.h2_tile01 { border-bottom: thin dotted ;}
+.h2_tile02 { 
+	border-bottom: 1px solid ; 
+	border-top: 1px solid ; }
+.h2_tile03 { border-bottom: 1px solid  }
+.h2_tile04 { border-top: 1px solid; }
+.h2_tile05 { background-color: ; padding: 2px; }
+.h2_tile06 { color: ; background-color: ; }
+.h2_tile07 { border: thin dotted ; }
+.h2_tile08 { 
+	border: 1px solid ; background-color: ; 
+	padding: 2px; }
+.h2_tile09 {
+	background-color: ; border-top: 1px none ; 
+	border-right: 1px none ; border-bottom: thick solid ; 
+	border-left: 1px none ; }

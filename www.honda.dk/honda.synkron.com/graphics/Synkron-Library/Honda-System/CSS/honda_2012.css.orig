@@ -1,0 +1,1106 @@
+@import "normalize.css";
+/*@import "hondaextras.css";*/
+* {margin: 0; padding: 0;}
+
+/* 
+
+light grey: #e8e8e5
+dark grey: #c9d0ce
+bg cream: #fffdf2
+red: #c33237
+red darker: #a1292d
+grey txt: #737476
+*/
+
+
+/* typography
+--------------------------------------- */
+body {font: 14px/1.5 Helvetica, Arial, Verdana, sans-serif; color: #4b4b4b;}
+h1, h2, h3, h4, h5, h6, .narrowcol th {font-family: "HelveticaNeue-Light", Arial, Helvetica, Verdana, sans-serif; font-weight: normal; margin-bottom: .4em; letter-spacing: 0; line-height: 1.1em; display: block; margin-top: .7em; text-rendering: optimizeLegibility;}
+h1 {font-size: 3em; margin: 0 0 .1em; padding: 1em 0 0;} h2, .narrowcol th {font-size: 1.7em;} h3 {font-size: 1.5em;} h4 {font-size: 1.2em; } h5 {font-size: 1em;} h6 {font-size: .8em;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: #4b4b4b;text-decoration: none;border: none;}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {border-bottom: 1px dotted;}
+p {margin-bottom: 1.1em;}
+a {text-decoration: none; /*border-bottom: 1px dotted;*/}
+a:hover {/*border-bottom: 1px solid;*/}
+.discreet, .discreet a {color: #999;}
+blockquote {font-style: italic;	margin-left: 2em;}
+strong {font-weight: bold;}
+.leadin p,
+p.ingress {font: 1.15em/1.5 helvetica;}
+.page-title {font-size: .6em; font-weight: 500; letter-spacing: 0.1em; line-height: 2.6em; margin: 0 0 2.6em; text-transform: uppercase;}
+
+
+/* layout
+----------------------------------------- */
+body {background-color: #f9f7ef;}
+a {color: #cc0000; border: none;}
+a:hover {color: #333;}
+#wrapper_outer {
+	margin: 0 auto;
+	width: 960px;
+	padding-left: 0;
+/*	outline: 1px solid green;*/
+	}
+#wrapper,
+#wrapper_models,
+#wrapper_firstpage,
+.inner {
+	width: 960px;
+	margin: 0 auto;
+	}
+#head {
+	padding-top: 3.2em;
+	display: block;
+	position: relative;
+	}
+#contentarea {
+	float: right;
+	width: 653px;
+	background-color: #fff; 
+	padding: 3em;
+	margin-bottom: 4em;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	}
+#contentarea,
+#leftnav,
+#bigcar a.shadow,
+.puff img {
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+	-o-box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	}
+
+.firstpagebanner {float: left; width: 217px;}
+.firstpage_bottomarea {}
+	
+/*  widecol
+------------------------------------------*/
+.widecol_left {
+	width: 63%;
+	float: left;
+	}
+.widecol_left h1,
+.widecol_left p,
+.widecol_left p.ingress {
+/*	margin-left: 10px;*/
+	}
+.widecol_left h1 {
+/*	padding: 14px 14px 0 14px;
+	margin-bottom: 0;
+	margin-top: 10px;*/
+	}
+.widecol_left p {
+/*	padding-left: 14px;
+	line-height: 1.3em;
+	width: 370px;*/
+	}
+.widecol_left p.date {
+/*	padding: 0 14px 0 14px;
+	margin-bottom: 10px;*/
+	}
+.widecol_left .fixedwidth {width: 245px;}
+
+/* firstpage
+------------------------------------------*/
+.firspage_bannerarea {
+	float: left;
+	background-color: #fff;
+	width: 326px;
+	}
+.firspage_bannerarea p {
+	padding: 15px;
+	}
+#smallcars {
+	width: 360px;
+	float: left;
+	margin: 5px 0 20px 5px;
+	}
+#smallcars a {
+	border: none;
+	}
+#bigcar {
+	position: relative;
+	margin: 2em 0 10px;
+	}
+#bigcar a.shadow {
+	border: 2px solid #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+#bigcar a img {
+	float: left;
+	padding: 0;
+	}
+#bigcar .content {
+	background: url('/graphics/Synkron-Library/Honda-System/Images/bg_transparent_50.png');
+	background: rgba(0, 0, 0, .5);
+	width: 45%;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	padding: 20px;
+	color: #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	}
+#bigcar .content a {color: #fff; border: none;}
+#bigcar .content a:hover {color: #c33237;}
+#bigcar h1 {padding: .1em 0 0;}
+#bigcar p {margin: 0;}
+#bigcar a {
+	color: #cc0000; 
+	text-decoration: none;
+	border: 1px solid #bbb;
+/*	outline: 1px solid orange;*/
+	display: block;
+	}
+#bigcar a:hover {text-decoration: none;}
+
+.puff {
+	position: relative;
+	background-color: #fff;
+	width: 309px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+	border: 2px solid #fff;
+	}
+.puff h3 {
+	position: absolute;
+	color: #fff;
+	top: 3px;
+	left: 20px;
+	margin-right: 20%;
+	text-shadow: 0 0 1px rgba(0, 0, 0, .6);
+}
+.puff h3.dark {color: #c33237;}
+.puff h3.small {width: 60%;}
+.last {margin-right: 0 !important;}
+
+.puff.x2 {
+	width: 471px;
+	height: 180px;
+	margin-right: 10px;
+	background-color: #EAEBE5;
+}
+
+/* colour cars
+------------------------------------------*/
+
+#colorCar {
+	width: 328px;
+	text-align:center;
+	float:none;
+}
+#colorCar p {
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+}
+#colorCar img {
+	cursor: none;
+	float:none;
+}
+#Colors {
+	width: 328px;
+	float: none;
+	text-align: left;
+	width: 300px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+#Colors img {
+	cursor: pointer;
+	float:none;
+}
+#Colors .imageClick {
+	margin-right: 0;
+}
+#colorCar p.text{
+	font-weight:normal !important;
+	padding-top:5px;
+}
+#colorCar p.title{
+	padding-top:3px;
+}
+#smallcars img,
+#colorCar .arrow img {
+	cursor: pointer;
+}
+
+/* narrowcol
+------------------------------------------*/
+.narrowcol {
+	width: 217px;
+	float: right;
+	background-color: #e2e4e1;
+	display: table;
+	height: 100%;
+/*	outline: 1px solid blue;*/
+}
+
+.subpage {
+	border: none;
+	background-color: #fff;
+}
+.narrowcol h2 {padding: 7px 14px 0 14px;}
+.narrowcol p {padding: 0 14px 14px 14px;}
+.narrowcol p.date {padding: 0 14px 0 14px;}
+.firstpage {background-color: #fff;}
+
+.narrowcol p a {
+	text-decoration: none;
+	color: #0c0c0c;
+}
+.narrowcol p a:hover {
+	text-decoration: none;
+	color: #444;
+	border-bottom: 1px solid;
+}
+.narrowcol th {
+	background-color: #c1baa4;
+}
+.widecol_left .narrowcol {float: left;}
+.widecol_left .narrowcol img {display: inline;}
+/* 
+------------------------------------------*/
+
+.middletext {
+/*	background-color: #e2e4e1;*/
+	margin: 0;
+	padding: 0;
+/*	padding-bottom: 15px;*/
+}
+.middletext p {width: 450px;}
+
+.middletext a {
+	color: #cc0000;
+	/* background: url(/graphics/Synkron-Library/Honda-System/Images/icon_linkarrow.gif) 0 0.4em no-repeat;*/
+	}
+.middletext p {}
+.middletext h1 {}
+.subcontent {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.subcontent img {
+	float: left;
+}
+.subcontent .rightcol {
+	float: right;
+	width: 48%;
+	padding-bottom: 10px;
+/*	outline: 1px solid orange;*/
+}
+
+/* newslist
+------------------------------------------*/
+
+h3.newslist {
+	padding: 4px 4px 4px 14px;
+	text-align: left;
+	background-color: #bebeb9;
+	
+	color: #fff;
+	font-weight: bold;
+}
+
+ul.newslist {
+	list-style-type: none;
+	width: 100%;
+}
+ul.newslist li{
+/*	font-size: 0.7em;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #fff;
+	padding: 3px 3px 3px 14px;
+*/}
+
+ul.newslist li a {
+	color: red;
+	text-decoration: none;
+}
+
+/* table
+------------------------------------------*/
+
+table {
+	width: 100%;
+/*	font-size: 0.7em;
+	padding: 0;
+	margin: 0;
+*/	border-collapse: collapse;
+}
+caption {
+	display: none;
+}
+th {
+	padding: 4px 4px 4px 14px;
+	text-align: left;
+	/*background-color: #bebeb9;*/
+	background-color: #C1BAA4;
+	color: #fff;
+	font-weight: bold;
+}
+tr {}
+
+.narrowcol th {background: transparent; color: #4B4B4B; padding: 0 0 0 8px;}
+.narrowcol table {
+	width: auto;
+	margin: 0 8px;
+	}
+.narrowcol td {
+	padding: 0 6px; 
+	/*border-top: 1px solid #ccc;*/
+	}
+table td img  {opacity: .6;}
+.prislista table {font-size: .85em;}
+
+/* tabellrader
+------------------------------------------*/
+tr.odd {background-color: #e8e8e5;}
+tr.even {background-color: #fff;}
+td {
+/*	border-top: 1px solid #fff;*/
+	padding: 3px 2px 2px 6px;
+	vertical-align: top;
+	}
+td a {
+/*	color: red;*/
+	text-decoration: none;
+	}
+td a:hover {
+	text-decoration: underline;
+	text-decoration: none;
+	}
+td.year,
+td.type {
+	color: #91918c;
+	font: .85em/1.2 helvetica;
+	white-space:nowrap;
+	padding-top: 4px;
+	}
+td img {display: inline;}
+
+/* footer
+------------------------------------------*/
+#footer_models {background-color: #eaebe5; border-top: 1px solid #c9d0ce; padding: 3em 0 2em;}
+#footer_models ul {list-style: none; padding: 0; margin: 0;}
+#footer_models li {
+	padding: 0; 
+	margin: 0;
+/*	display: inline-block;*/
+	float: left;
+	height: 120px;
+	position: relative;
+	}
+#footer_models a {padding: 0; margin: 0; color: #737476;}
+#footer_models img {width: 137px; margin-bottom: .4em;}
+#footer_models a:hover {color: #c33237;}
+#footer_models h4 {display: block; clear: both; text-align: center;}
+
+#footer_models br {clear: both;}
+#footer_models img {float: left;}
+/*#footer_models img:hover {zoom: 1.2}*/
+#footer_models.x8 img {width: 120px;}
+
+#footer_2012  {
+	clear: both;
+	display: block;
+/*	background-color: #ccd2d0;*/
+	background-color: #474846;
+	border-top: 1px solid #111;
+/*	margin-top: 4em;*/
+	}
+#footer_sub .inner,
+#footer_2012  .inner {
+	clear: both;
+	padding: 3em 0;
+	position: relative;
+	}
+#footer_sub .inner {padding: 0; margin-bottom: 1em;}
+#footer_2012  ul {margin: 0; padding: 0; list-style: none; font-size: .9em;}
+#footer_2012  li {margin-bottom: .4em; line-height: 1.2em;}
+#footer_2012  h3,
+#footer_2012  a {color: #c9d0ce;}
+#footer_2012  ul li a {text-decoration: none;}
+#footer_2012  ul li a:hover {color: #c33237; border: none;}
+
+#footer_colophon {
+	clear: both; 
+	background-color: #333; 
+	padding: .5em 0 1.2em;
+	}
+#footer_colophon a {color: #737476; border: none;}
+#footer_colophon a:hover {color: #c33237;}
+#footer_colophon ul {
+	list-style-type: none;
+	font-size: .9em;
+/*	position: absolute;
+	right: 0;
+	bottom: 1em;
+*/	}
+#footer_colophon ul li {
+	float: right;
+	margin-left: 1em;
+	}
+
+.col {
+		width: 18%;
+		float: left;
+		margin-right: 2.5%;
+		}
+.col.last {margin-right: 0;}
+
+/*#footer_2012  .honda_externals a {
+	width: 90px;
+	height: 10px;
+	text-indent: -999em;
+	display: block;
+	background: transparent url('/graphics/Synkron-Library/Honda-System/Images/logo_honda-power.png') left top no-repeat;
+	margin-bottom: 10px;
+}
+#footer_2012  .honda_externals a.marine {height: 26px; background: url('/graphics/Synkron-Library/Honda-System/Images/logo_honda-marine.png')}
+#footer_2012  .honda_externals a.power {height: 20px; background: url('/graphics/Synkron-Library/Honda-System/Images/logo_honda-power.png')}
+#footer_2012  .honda_externals a.mc {height: 72px; background: url('/graphics/Synkron-Library/Honda-System/Images/logo_honda-mc.png')}*/
+
+/* icons
+----------------------------------------- */
+ul.icon {padding: 0; list-style: none; font-family: arial, verdana, sans-serif;}
+ul.icon li a {
+/*	-webkit-transition: opacity .1s linear;
+	-moz-transition: opacity .1s linear;
+	transition: opacity .1s linear;*/
+	}
+.icon li a:hover {color: #c33237;};
+
+ul.icon {padding: 0; list-style: none;}
+.icon li {margin: 0 0 .4em 0;}
+.icon a {background: url('/graphics/Synkron-Library/Honda-System/Images/social_aquaticus.png') no-repeat top left; padding-left: 30px; border: none; line-height: 24px; display: inline-block; }
+.icon a:hover {border: none;}
+.icon .blogger a {background-position: 0 0;}
+.icon .delicious a {background-position: 0 -74px;}
+.icon .digg a {background-position: 0 -148px;}
+.icon .facebook a {background-position: 0 -222px;}
+.icon .feed a {background-position: 0 -296px;}
+.icon .flickr a {background-position: 0 -370px;}
+.icon .friendfeed a {background-position: 0 -444px;}
+.icon .friendster a {background-position: 0 -518px;}
+.icon .furl {background-position: 0 -592px;}
+.icon .google a {background-position: 0 -666px;}
+.icon .lastfm a {background-position: 0 -740px;}
+.icon .linkedin a {background-position: 0 -814px;}
+.icon .livejournal a {background-position: 0 -888px;}
+.icon .magnolia a {background-position: 0 -962px;}
+.icon .mixx a {background-position: 0 -1036px;}
+.icon .myspace a {background-position: 0 -1110px;}
+.icon .netvibes a {background-position: 0 -1184px;}
+.icon .newsvine a {background-position: 0 -1258px;}
+.icon .picasa a {background-position: 0 -1332px;}
+.icon .pownce a {background-position: 0 -1406px;}
+.icon .reddit a {background-position: 0 -1480px;}
+.icon .stumbleupon {background-position: 0 -1554px;}
+.icon .technorati a {background-position: 0 -1628px;}
+.icon .twitter a {background-position: 0 -1702px;}
+.icon .vimeo a {background-position: 0 -1776px;}
+.icon .webshots a {background-position: 0 -1850px;}
+.icon .wordpress a {background-position: 0 -1924px;}
+.icon .yahoo a {background-position: 0 -1998px;}
+.icon .yelp a {background-position: 0 -2072px;}
+.icon .youtube a {background-position: 0 -2146px;}
+
+/* logo
+------------------------------------------*/
+#head h1 {padding: 0;}
+#head h1.tagline a,
+#head h1 a {
+	background: url('/graphics/Synkron-Library/Honda-System/Images/logo_honda.png') no-repeat; 
+	width: 220px;
+	height: 50px;
+	text-indent: -999em;
+	display: block;
+	margin: ,4em 0 0;
+	padding: .4em 0 .3em;
+	}
+#head h1 a:hover {border: none;}
+/* logo on non-finnish pages
+------------------------------------------*/
+body.pagelang_sv #head h1.tagline,
+body.pagelang_no #head h1.tagline,
+body.pagelang_dk #head h1.tagline {
+/*	background-image: url('/graphics/Synkron-Library/Honda-System/Images/logo_notag.gif');*/
+}
+
+
+/* logo - splashpage
+------------------------------------------*/
+#splashpage #head h1 {
+	height: 57px;
+	width: 267px;
+	margin: 35px auto 0px auto;/* 0 1px 14px;*/
+	background: url(/graphics/Synkron-Library/Honda-System/Images/logo_honda_slogan.png) no-repeat; 
+	display: block;
+	text-indent: -9000px;
+}
+#splashpage #head h1.tagline {
+/*	background: url(/graphics/Synkron-Library/Honda-System/Images/logo_large.gif) no-repeat; */
+}
+#splashpage #head h1 a {
+	display: block;
+	width: 267px !important;
+	overflow: hidden;
+	padding-top: 30px !important;
+	padding-bottom: 0;
+	height: 0px !important;
+	height /**/:30px !important;/* for IE5.5's bad box model */
+}
+
+/* nav
+------------------------------------------*/
+.nav ul {
+	list-style-type: none;
+	background: #edecec;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+	background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+	background: -o-linear-gradient(top, #fbfbfb, #e9e9e9);
+	background: linear-gradient(top, #fbfbfb, #e9e9e9);
+/*	background-color: #fff;*/
+	}
+.nav ul li {
+	display: inline;
+	float: left;
+	}
+.nav ul li.last {margin-right: 0;}
+.nav ul li a {
+	display: inline-block;
+	width: 105px;
+	color: #494f50;
+	vertical-align: bottom;
+	text-decoration: none;
+	}
+.pagelang_fi .nav ul li#topnav_5 a {width: 140px;}
+	
+.nav ul li a:hover,
+.nav ul li a.selected {
+	background: filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ac0000', EndColorStr='#cc0000'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ac0000', EndColorStr='#cc0000')"; /* IE8 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ac0000), to(#cc0000));
+	background: -moz-linear-gradient(top, #ac0000, #cc0000);
+	background: -o-linear-gradient(top, #ac0000, #cc0000);
+	background: linear-gradient(top, #ac0000, #cc0000);;;
+	color: #fff;
+	border: none;
+	text-shadow: none;
+	border-right: 1px solid #ddd;
+	border-right: 1px solid rgba(0, 0, 0, .1);
+	}
+
+
+/* topnav specific
+------------------------------------------*/
+.topnav ul {
+	padding: 0; 
+	margin: 0 0 1em;
+	border: 1px solid #ddd;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	} 
+.topnav ul li {	}
+.topnav ul li a {
+	font-size: 1.2em;
+	border-right: 1px solid #ddd;
+	border-right: 1px solid rgba(0, 0, 0, .1);
+	color: #494f50;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: .65em .5em .5em;
+	margin: 0;
+	text-align: center;
+	text-shadow: 0px -1px 0px #fff, 0px 1px 2px #fff;
+	}
+.topnav ul li a:hover {
+	border-right: 1px solid #ddd;
+	border-right: 1px solid rgba(0, 0, 0, .1); 
+	text-shadow: 0;
+	}
+	
+.toolnav {
+	font-size:0.9em;
+	right: 280px;
+	position:absolute;
+	top: 20px;
+	width:50%;
+	color:#bbb;
+	text-align:right;
+	}
+.toolnav a {
+	color: #494f50;
+	text-decoration:none
+	}
+
+/* midnav specific
+------------------------------------------*/
+.midnav {}
+.midnav ul {
+	padding: 0;
+	background: #fff;
+	/*	background-color: #bebeb9;*/
+	}
+.midnav ul li {}
+.midnav ul li a {
+	padding: .3em .5em !important;
+	margin-right: .3em;
+	border: 1px solid #e8e8e5;
+	background-color: #e8e8e5;
+/*	border-bottom: none;*/
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	white-space: nowrap;
+	}
+.midnav ul li a:hover,
+.midnav ul li a.selected {
+	background: #c33237;
+	border-color: #c33237;
+	border: 1px solid #c33237;
+}
+/* midnav resellers specific 
+------------------------------------------*/
+.midnavreseller {width:435px;}
+
+/* yearnav specific
+------------------------------------------*/
+
+.yearnav {
+width:435px;
+	background-color: #bebeb9;
+	border-top: none;
+	display: table;
+}
+.yearnav ul {
+display: inline;
+}
+.yearnav ul li {
+	background-color: #bebeb9;
+	border-right: none;
+	padding: 0;
+	margin: 0;
+	}
+.yearnav ul li a {
+	padding-top: 3px;
+	width: 30px !important;
+	text-align: left;
+	padding-left: 18px;
+	padding-right: 10px;
+	margin-right: 0 !important;
+	border-right: none !important;
+	}
+
+/* leftnav
+------------------------------------------*/
+#leftnav {
+	float: left;
+	width: 200px;
+	background-color: #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	}
+#leftnav ul {
+	list-style-type: none;
+	padding: 1em;
+	}
+#leftnav li {}
+#leftnav li a {
+	color: #494f50;
+	display: block;
+	text-decoration: none;
+	padding: .3em .5em .2em;
+	border-bottom: 1px solid #c9d0ce;
+	}
+#leftnav li:first-child a {border-top: 1px solid #c9d0ce;}
+#leftnav li a:hover,
+#leftnav a.selected {
+	background-color: #e8e8e5;	
+	}
+
+/* newsletter
+------------------------------------------*/
+.puff .space {
+	padding: 1em;
+}
+.newsletter .button {
+	float: none;
+	padding: .6em 2em;
+}
+.newsletter input.email,
+#contentarea input.norm {
+	padding: .5em;
+	border: 1px solid #ccc;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	width: 300px;
+	}
+.newsletter input.email.smaller {width: 280px;}
+
+/* form elements
+------------------------------------------*/
+
+#search {
+	text-align: right;
+	margin-right: 10px;
+/*	border: 1px dotted green;*/
+	}
+.searchbutton {
+	border: none;
+	background-color: transparent;
+	cursor: hand;
+/*	font-weight: bold;*/
+/*	font-size: 0.8em;*/
+/*	color: #64645f;*/
+	text-transform: uppercase;
+
+}
+.emailbutton {
+	border: none;
+	background-color: transparent;
+	cursor: hand;
+/*	font-weight: bold;*/
+/*	font-size: 0.8em;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 8px;
+*/}
+.search {
+}
+.inputbox {
+	padding: 2px;
+	margin: 0 2px 0 5px;
+}
+.email {
+	border: none;
+	width: 180px;
+	margin-top: 2px;
+	padding: 1px;
+}
+
+/* diverse
+------------------------------------------*/
+
+
+/* clearing
+----------------------------------------- */
+.group:after,
+#masthead:after,
+.inner:after,
+.topnav ul:after,
+#maincontent:after,
+.midnav ul:after,
+/*#footer:after,*/
+#footer_models:after,
+#footer_colophon:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+.rightjustified {text-align: right;}
+.clear,
+.visualClear {display: block; clear: both;}
+.content_leftcolumn {
+	width: 328px;
+	float: left;
+/*	outline: 1px solid orange;*/
+	}
+.pointer {cursor: pointer;}
+.movie {background-color: #fff;}
+.arrow { /* för att få till en schysst bildväxlare */
+	width: 90px;
+	margin-right: 0;
+	display: block;
+	text-align: right;
+	vertical-align: bottom;
+	float: right;
+	padding: 6px 3px 0;
+	}
+.arrow img {display: inline; margin-left: 5px; opacity: .7;}
+.arrow img:hover {opacity: 1;}
+
+/* links
+------------------------------------------*/
+
+.media_link_movie a,
+.media_link_sound a,
+.media_link_wallpaper a,
+.file_link a,
+.external_link a {
+	width: 100%;
+	display: block;
+	color: #cc0000;
+/*	padding-left: 20px;
+	padding-bottom: 2px;
+	margin-left: 6px;
+	font-size: 1em;
+*/	line-height: 15px; /* ikonens höjd */
+	background-position: 0 70%;
+}
+.file_link a {background: url(/graphics/Synkron-Library/Honda-System/Images/icon_pdf.gif) no-repeat;}
+.external_link a {background: url(/graphics/Synkron-Library/Honda-System/Images/icon_externallink.gif) no-repeat;}
+.media_link_movie a {background: url(/graphics/Synkron-Library/Honda-System/Images/icon_movie.gif) no-repeat;}
+.media_link_sound a {background: url(/graphics/Synkron-Library/Honda-System/Images/icon_audio.gif) no-repeat;}
+.media_link_wallpaper a {background: url(/graphics/Synkron-Library/Honda-System/Images/icon_image.gif) no-repeat;}
+
+.file_link a,
+.external_link a,
+.media_link_movie a,
+.media_link_sound a,
+.media_link_wallpaper a  {background: none;}
+
+
+
+
+/* searchbox
+------------------------------------------*/
+.searcharea {
+	position: absolute;
+	top: 15px;
+	width: 270px;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	}	
+.pagelang_fi .searcharea,
+.pagelang_dk .searcharea{width: 270px;}
+.searcharea img {display: none;}
+.searcharea .norm {margin: 0; padding: 0;}
+.searcharea .norm input {
+	border: 1px solid #ccc;
+	padding: .4em .6em;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 20px;
+	}
+.searcharea table {
+	margin: 0;
+	padding: 0;
+	float: left;
+/*	width: 260px;*/
+	border: none;
+/*	outline: 1px solid orange;*/
+	
+	}
+.searcharea table table {
+	margin: 0 8px 0 0;
+	padding: 0;
+	width: 180px;
+	border: none;
+	}
+.searcharea table td {
+	margin: 0;
+	padding: 0;
+	padding-right: 2px;
+	}
+.swformsingle {
+	margin: 0;
+	padding: 0;
+	width: 99%;
+	}
+.swformbutton,
+.button {
+	float: left;
+	border: none;
+	cursor: pointer;
+	padding: .43em .8em;
+	margin-left: 10px;
+	color: #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+/*	background: url(/graphics/Synkron-Library/Honda-System/Images/icon_linkarrow.gif) 0 8px no-repeat;*/
+	background: filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#c33237', EndColorStr='#a1292d'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#c33237', EndColorStr='#a1292d')"; /* IE8 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#c33237), to(#a1292d));
+	background: -moz-linear-gradient(top, #c33237, #a1292d);
+	background: -o-linear-gradient(top, #c33237, #a1292d);
+	background: linear-gradient(top, #c33237, #a1292d);;
+	
+}
+
+
+/* forms
+------------------------------------------*/
+.widecol_left .FormField{
+	width: 200px;
+	margin-bottom: 5px;
+}
+.widecol_left select.FormField {
+	width: 203px;
+}
+.widecol_left  .small {
+	width: 100px !important;
+}
+.FormButtonFet {}
+
+.widecol_left form table {
+	width: 250px;
+	text-align: left;
+}
+.widecol_left form table td.swformsingle {
+	
+}
+
+	
+.norm label {/*	font-size: 13px;*/}
+
+
+/* misc
+----------------------------------------- */
+img {display: block;} 
+
+/* special models
+------------------------------------------*/
+#wrapper_specialmodels {
+	background: #423 url('http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/bg_specialmodels.gif') repeat-y;
+	display: table;
+	width: 653px;
+	}
+#wrapper_specialmodels .narrowcol_model {border-collapse: collapse;}
+#wrapper_specialmodels .widecol_left {}
+
+/* overrides */
+.gmnoprint img  {display: inline;}
+
+.phone, 
+.fax {
+	background: transparent url('http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/icons/icon_phone.gif') no-repeat;
+	padding-left: 30px;
+	line-height: 20px;
+		background-position: 0 80%;
+	}
+.fax {background-image: url('http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/icons/icon_fax.gif');}
+.phone {display: block;}
+
+
+
+
+
+
+/*  fix för gamla nyheter
+------------------------------------------*/
+.widecol_left li {
+/*	font-size: 0.7em;
+	line-height: 1.2em;
+	margin-bottom: 0.5em;
+	padding-right: 20px;
+	font-family: tahoma, helvetica, arial, verdana, sans-serif;
+*/}
+.widecol_left ul {/* padding-left: 34px;*/}
+.narrowcol_model {
+	width: 217px;
+	float: right;
+	background-color: #e2e4e1;
+	display: table;
+	}
+	
+	
+	
+/*------------------- SPLASH SIDA --------------------*/
+.splash_bg{
+	background-color: #fff;
+	text-align:left;
+}
+
+#maincontent_splash{
+	margin-top:60px;
+	text-align:center;
+}
+
+#wrapper_splash {
+	width: 980px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#wrapper_splash_sweden {
+	width: 980px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.splashnav {
+	background-color: #fff;
+	display: table;
+}
+
+.splashnav ul li {
+	background-color: #a19b86;
+	border-right: 5px solid #fff;
+}
+
+.splashnav ul li.s_last {
+	border-right: 0;
+}
+
+.splashnav ul li a {
+	color: white;
+	text-align: left;
+	text-transform: none;
+	font: 11px tahoma,helvetica,verdana;
+	font-weight:bold;
+	width: 170px !important;
+	height: 16px;
+	padding: 3px 0px 180px 3px;
+	margin-right: 0px;
+	margin-bottom:-2px;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	border: none !important;
+	
+}
+/*.splashnav ul li a:hover {background: transparent !important;}*/
+
+.splash_bil {background: url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/splash/hond_bil.jpg) no-repeat;}
+.splash_mc {background: url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/splash/hond_mc.jpg) no-repeat;}
+.splash_marin {background: url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/splash/hond_marin.jpg) no-repeat;}
+.splash_power {background: url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/splash/hond_power.jpg) no-repeat;}
+.splash_engine {background: url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/splash/hond_engine.jpg) no-repeat;}
+
+/*.firstpage_bottomarea {display: none;}*/
+
+.euroncap
+{
+	margin-top: 15px;
+	width: 325px;
+	height: 95px;
+	background: transparent url(http://honda.synkron.com/graphics/Synkron-Library/Honda-System/Images/euroncap2.png) center bottom no-repeat;
+}
+.euroncap a {
+  display: block;
+  width: 170px;
+  height: 85px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}

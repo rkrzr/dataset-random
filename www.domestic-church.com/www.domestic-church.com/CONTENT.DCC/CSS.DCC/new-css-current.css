@@ -1,0 +1,354 @@
+/* ============================================================= */
+/* Copyright (c) 2010, Domestic Church Communications Ltd. */
+/* All rights reserved. */
+/* ============================================================= */
+
+/* ============================================================= */
+/* Page block  styles */
+/* ============================================================= */
+body{
+    background-color:#FCFBF9;
+/*    background-color:#F0F0FF;*/
+/*    background-color:#FCFFF5;*/
+    color: #1B1F39;
+}
+    #page {
+    position:relative;
+    width:950px;
+   font: 90% georgia, sans-serif;
+	line-height: 1.88889;
+    direction:ltr;
+    margin:auto;
+}
+/* ============================================================= */
+/* Header_Block styles */
+/* ============================================================= */
+#header_block {
+    width:930px;
+    position:relative;
+    margin:5px;
+    display:block;
+    text-align:center;
+}
+#header_block h1 {
+    font-family:  georgia, sans-serif;
+    font-size: 300%;
+    text-align:center;
+    margin:0px;
+}
+#header_block p {
+    font-family:  georgia, sans-serif;
+    font-size: 300%;
+    text-align:center;
+    margin:0px;
+}
+/* ============================================================= */
+/* Content Block  styles */
+/* ============================================================= */
+#content_block {
+    position: relative;
+    width:930px;
+    clear:both;
+}
+/* ============================================================= */
+/* Sell block  styles */
+/* ============================================================= */
+#sell {
+font-size:80%;
+     float:right;
+    margin-top: 10px;
+    left: 0px;
+    width:180px;
+    border-top:solid gray 1px;
+    border-right:solid gray 1px;
+    padding-top:5px;
+    padding-left:5px;
+}
+#sell p {
+    text-align:center;
+    width:165px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#sell a:link, #sell a:visited , #sell a:hover {
+    background-color: #FCFFF5;
+    color:inherit;
+    text-decoration: none;
+}
+/* 660099============================================================= */
+/* Article block  styles */
+/* ============================================================= */
+#article {
+		font-size:90%;
+    float:right;
+    margin-top: 10px;
+    margin-right:5px;
+    width:750px;
+    padding-top:5px;
+    padding-left:5px;
+    border-top:solid gray 1px;
+    color:#003;
+}
+#columns {
+    float:left;
+    width:750px;
+    border-bottom:solid gray 1px;
+}#column-1 {
+    float:left;
+    width:370px;
+}
+#column-2 {
+    float:right;
+    width:370px;
+}
+
+#article a:link {
+    background-color: inherit;
+    color: #006666;
+}
+#article a:visited {
+    background-color: inherit;
+    color: #006666;
+}
+#article a:active {
+    background-color: inherit;
+    color: #006666;
+}
+
+#article h1 {
+    text-align:center;
+    font-size: 180%;
+    color: #663399;
+    background-color:inherit;
+}
+#article h2 {
+    text-align:left;
+    font-size: 140%;
+    font-weight: bolder;
+    color: #663399;
+    background-color:inherit;
+}
+#article h3 {
+    font-size: 120%;
+    font-weight: bolder;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #663399;
+    background-color:inherit;
+}
+#article h4 {
+    font-size: 110%;
+    font-weight: bolder;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #663399;
+    background-color:inherit;
+}
+#article h5 {
+    font-size: 100%;
+    font-weight: bolder;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #663399;
+    background-color:inherit;
+}
+#article h6 {
+    font-size: 90%;
+    font-weight: bolder;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #663399;
+    background-color:inherit;
+}
+#article p {
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: inherit;
+    background-color:inherit;
+    text-align:left;
+}
+#article p.h2 {
+    text-align:left;
+    font-size: 140%;
+    font-weight: bolder;
+    color: inherit;
+    background-color:inherit;
+}
+#article p.h3 {
+    font-size: 120%;
+    font-weight: bolder;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: inherit;
+    background-color:inherit;
+}
+#article p.h4 {
+    font-size: 110%;
+    font-weight: bolder;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #000066;
+    background-color:inherit;
+}
+#article p.border400 {
+    width: 400px;
+    border: solid 1px;
+    border-color:#000066;
+    padding:12px;
+}
+#article p.author {
+    text-align:center;
+    color: inherit;
+    background-color:inherit;
+}
+#article p.source {
+    text-align:center;
+    color: inherit;
+    background-color:inherit;
+}
+#article p.copyright {
+    font-size: 80%;
+    text-align:center;
+    color: inherit;
+    background-color:inherit;
+}
+#article ol {
+    list-style-type: decimal;
+}
+#article ul {
+    list-style-type: square;
+}
+/* ============================================================= */
+/* Footer styles */
+/* ============================================================= */
+#footer {
+    font-size: 80%;
+    width:750px;
+    padding-top:10px;
+}
+#footer p { text-align: center; }
+/* ============================================================= */
+/*  Begin CSS Drop Down Menu*/
+/* ============================================================= */
+/*
+  #menuh-container {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  }
+ */
+#menuh {
+    position: relative;
+    font-family: arial, helvetica, sans-serif;
+/*
+  margin:1em;
+  margin-top: 1em;
+ */
+}
+#menuh table {
+margin-top:0px;
+border:0px;
+}
+#menuh a {
+    font-size: 78%;
+    text-align: left;
+    display:block;
+    border: 1px solid #b7b7dc;
+    white-space:nowrap;
+    margin:0;
+    padding: 0.3em;
+}
+/* menu at rest */
+#menuh a, #menuh a:visited {
+    color:#FCFBF9;
+    /*color: #FCFFF5;*/
+    background-color: #663399;
+    text-decoration:none;
+}
+/* menu at mouse-over */
+#menuh a:hover {
+    color: #FCFBF9;
+    background-color: #4A579F;
+}
+/* attaches down-arrow to all top-parents */
+#menuh a.top_parent, #menuh a.top_parent:hover {
+    background-image: url(../graphics/navdown_white.gif.html);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+/* attaches side-arrow to all parents */
+#menuh a.parent, #menuh a.parent:hover {
+    background-image: url(../graphics/nav_white.gif.html);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+#menuh ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+/* width:8em; */
+/* width of all menu boxes */
+}
+#menuh li {
+    position:relative;
+    min-height: 1px;
+/* Sophie Dennis contribution for IE7 */
+    vertical-align: bottom;
+/* Sophie Dennis contribution for IE7 */
+}
+#menuh ul ul {
+    position:absolute;
+    z-index:500;
+    top:auto;
+    display:none;
+    padding: 1em;
+    margin:-1em 0 0 -1em;
+}
+#menuh ul ul ul {
+    top:0;
+    left:100%;
+}
+div#menuh li:hover {
+    cursor:pointer;
+    z-index:100;
+}
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul {
+    display:none;
+}
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul {
+    display:block;
+}
+/* End CSS Drop Down Menu */
+/* ============================================================= */
+/* Print -only styles */
+/* ============================================================= */
+@media print {
+#page,#header_block, #content_block,  #article,#footer {
+    width:100%;
+    margin:5px;
+    border:none;
+}
+#sell {
+    visibility:hidden;
+    width:1px;
+}
+#menuh, #menuh table {
+    visibility:hidden;
+    width:1px;
+}
+}
+

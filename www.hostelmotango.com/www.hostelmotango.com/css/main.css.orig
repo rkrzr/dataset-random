@@ -1,0 +1,790 @@
+* { padding: 0; margin: 0; }
+
+
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size:62.5%;
+ background:#addeef url(../images/bkg_body.png) repeat-x top;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 788px;
+}
+#topper {
+ width: 788px;
+ color: #FFF;
+ padding: 0px;
+ height: 20px;
+ margin: 0px;
+ background: #1885bd;
+}
+#header {
+ width: 788px;
+ color: #333;
+ height: 74px;
+}
+#navigation {
+ width: 788px;
+ height:47px;
+ color: #333;
+ background: #BD9C8C;
+}
+#content { 
+ width: 788px;
+ color: #333;
+ min-height: 350px;
+}
+#footer { 
+ width: 788px;
+ height:55px;
+ color: #333;
+ margin:5px 0px 0px 0px;
+}
+
+/*  TOPPER*/
+			#topper ul{
+			list-style:none;
+			position:absolute;
+			display:inline;
+			margin:0px 0px 0px 400px;
+			text-transform:uppercase;
+			height:18px;
+			}
+					#topper ul li{
+					float:left;
+					display:inline;
+					margin: 0px 10px;
+					}
+					#topper ul li a{
+					display:block;
+					text-decoration:none;
+					color:#FFF;
+					font-weight:bold;
+					padding: 3px 0px 0px 25px;
+					height:18px;
+					}
+						#topper ul li a.home{
+						background:url(../images/topper_iconHome.png) no-repeat left top;
+						}					
+						#topper ul li a.mail{
+						background:url(../images/topper_iconMail.png) no-repeat left top;
+						}					
+						#topper ul li a.facebook{
+						background:url(../images/topper_iconFacebook.png) no-repeat left top;
+						}					
+						#topper ul li a.flagEnglish{
+						background:url(../images/topper_iconFlagEnglish.png) no-repeat left top;
+						}	
+						#topper ul li a.flagEspanol{
+						background:url(../images/topper_iconFlagEspanol.png) no-repeat left top;
+						}					
+
+					#topper ul li a:hover{
+					color:#00CCFF;
+					}
+
+/* HOME */
+			#content #topbanner{
+			width:100%;
+			height:249px;
+			display:block;
+			margin-top:10px;
+			}
+			#content #topbanner img{
+			text-align: right;
+			}
+
+			#content #homeCuadroWelcome,
+			#content #homeCuadroLeft,
+			#content #homeCuadroRight{
+			width:766px;
+			height:106px;
+			display:block;
+			border:solid #FFFFFF 11px;
+			margin:8px 0px 0px 0px;
+			background:#e4ebed;			
+			}	
+				#content #homeCuadroWelcome{
+				height:auto;
+				}			
+			
+			#content #homeCuadroWelcome h1,
+			#content #homeCuadroLeft h1,
+			#content #homeCuadroRight h1{
+			width:350px;
+			margin:10px 20px 0px 20px;
+			color:#1885bd;
+			font-size:2.4em;
+			font-family:"Times New Roman", Times, serif;
+			}
+					#content #homeCuadroWelcome h1{
+					font-size:2.8em;
+					color:#FF6600;
+					}			
+			#content #homeCuadroLeft h1{
+			margin:10px 20px 0px 397px;
+			}	
+			
+			#content #homeCuadroWelcome p,
+			#content #homeCuadroLeft p,
+			#content #homeCuadroRight p{
+			width:350px;
+			margin:0px 20px 0px 20px;
+			color:#003366;
+			font-size:1.3em;
+			line-height:1.5em;
+			}
+					#content #homeCuadroWelcome p{
+					width:700px;
+					}
+								
+			#content #homeCuadroLeft a,
+			#content #homeCuadroRight a{
+			color:#003366;
+			}			
+					
+			#content #homeCuadroLeft p{
+			margin:0px 20px 0px 397px;
+			}
+									
+			#content #homeCuadroLeft img{
+			float:left;}
+			#content #homeCuadroRight img{
+			float:right;}
+			
+			#content #homeCuadroBajo{
+			width:776px;
+			height:55px;
+			display:block;
+			border:solid #FFFFFF 6px;
+			margin:8px 0px 0px 0px;
+			background:#e4ebed;
+			color:#333333;
+			font-size:1.1em;
+			position:relative;
+			}
+			#content #homeCuadroBajo .bairesHome{
+			background:url(../images/icon_checkHome.png) no-repeat top left;
+			padding-left: 55px;
+			height:50px;
+			margin:5px;
+			text-align:left;
+			float:left; position:absolute;
+			vertical-align:middle;
+			}
+			#content #homeCuadroBajo .gayHome{
+			width:300px;
+			height:50px;	
+			
+			float:left; 
+			position:absolute;
+			left:410px;
+			
+			background:url(../images/icon_gayfriendlyHome.png) no-repeat top right;
+			padding: 5px 50px 0px 0px;
+			margin:2px 5px 5px 5px;
+			text-align:right;			
+			}
+			
+			#content #homeCuadroBajo .botComentarios a{
+			width:140px;
+			height:37px;
+			
+			float:left; 
+			position:absolute;
+			left:625px;
+			
+			background:url(../images/bot_comentariosES.gif) no-repeat top right;
+			padding: 0px;		
+			margin:10px 10px 5px 5px;
+			text-align:right;			
+			}
+					#content #homeCuadroBajo .botComentarios a.english{
+					background:url(../images/bot_comentariosEN.gif);
+					}			
+			
+			
+			
+/*  HEADER ------------------*/
+		#header #farolito{
+			position:absolute;
+			top:0;
+			width:58px;
+			height:93px;
+			background:url(../images/farolito_animado.gif) no-repeat top left;
+		}
+		#header #logo{
+			position:absolute;
+			top:22px;
+			margin-left:60px;
+			width:400px;
+			height:70px;
+			background:url(../images/header_logoTelmotango.png) no-repeat top left;
+		}
+		#header #logo a{
+			display:block;
+			width:250px;
+			height:70px;
+		}		
+
+
+#header #direccion{
+	position:absolute;
+	top:26px;
+	float:right;
+	text-align:right;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#1885bd;
+	margin:0px 0px 0px 630px;
+	font-family:"Arial Narrow", Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+}
+
+
+/* 	FOOTER  ----------------*/			
+			#footer ul{
+			list-style:none;
+			position:absolute;
+			display:inline;
+			margin:-10px 0px 0px 260px;
+			width:570px;
+			}
+					#footer ul li{
+					float:left;
+					display:inline;
+					margin: 0px 10px;
+					}
+					#footer ul li a{
+					display:block;
+					text-decoration:none;
+					color:#333333;
+					}
+					#footer ul li a:hover{
+					text-decoration:underline;
+					}
+					
+			#footer .lateral{
+			float:left;
+			position:absolute;
+			margin:20px 0px 0px 0px;
+			}
+			#footer .lateral a{
+			color:#006600;
+			text-decoration:none;
+			font-weight:bold;
+			}
+
+			#footer .lateral a:hover{
+			text-decoration:underline;
+			}						
+					
+/*   CONTENT     -----------------*/
+			#content #CuadroContent{
+			width:766px;
+			/*height:auto;*/
+			display:block;
+			border:solid #FFFFFF 11px;
+			margin:8px 0px 0px 0px;
+			background:#e4ebed;
+			}
+
+			#content #CuadroContent h1{
+			margin:10px 20px 0px 15px;
+			color:#1885bd;
+			font-size:2.4em;
+			font-family:"Times New Roman", Times, serif;
+			}
+			#content #CuadroContent h2{
+			margin:10px 20px 0px 15px;
+			color:#1885bd;
+			font-size:1.8em;
+			font-family:"Times New Roman", Times, serif;
+			}	
+			#content #CuadroContent h3{
+			margin:10px 20px -5px 15px;
+			font-weight:bold;
+			text-transform:uppercase;
+			}						
+			#content #CuadroContent p{
+			margin:10px 10px 0px 15px;
+			color: #003366;
+			font-size:1.2em;
+			line-height:1.4em;
+			}
+
+/*   SERVICIOS     -----------------*/			
+	
+			#content #CuadroContent p.servicios,
+			#content #CuadroContent p.instalaciones{
+					width:540px;
+					}
+					#Serviciofotos{
+					background:url(../images/serviciosBKG.png) no-repeat;
+					width:304px;
+					height:466px;
+					float:right;
+					position:absolute;
+					margin:0px 0px 0px 500px;
+					}
+			#content #CuadroContent ul.listaServicios,
+			#content #CuadroContent ul.listaServiciosRight,
+			#content #CuadroContent ul.listaEnlaces,
+			#content #CuadroContent ul.listaEnlacesRight			
+			{
+			margin:10px 10px 0px 20px;
+			padding-left::15px;
+			color: #003366;
+			font-size:1.1em;
+			line-height:1.4em;
+			list-style:none;
+			}
+							#content #CuadroContent ul.listaServicios,
+							#content #CuadroContent ul.listaEnlaces{
+							float:right;
+							position:absolute;
+							margin-left:305px;
+							}
+							
+				#content #CuadroContent ul.listaServicios li,
+				#content #CuadroContent ul.listaServiciosRight li,
+				#content #CuadroContent ul.listaEnlaces li,
+				#content #CuadroContent ul.listaEnlacesRight li{
+				margin:5px 0px 0px 0px;
+				padding: 0px 0px 0px 25px;
+				vertical-align:top;
+				background:url(../images/check.png) no-repeat left top;
+				}
+				#content #CuadroContent ul.listaEnlaces li,
+				#content #CuadroContent ul.listaEnlacesRight li{
+				background:url(../images/arrow.png) no-repeat left top;
+				}										
+				
+										
+/*   UBICACION     -----------------*/			
+	
+			#content #CuadroContent p.ubicacion{
+					width:520px;
+					}
+					#UbicacionMapa{
+					width:192px;
+					height:175px;
+					float:right;
+					position:absolute;
+					margin:10px 0px 0px 550px;
+					}
+					#UbicacionMapa a{
+					width:192px;
+					height:175px;
+					display:block;
+					}						
+					#UbicacionMapa a.es{
+					background:url(../images/bot_mapaInteractivo.png) no-repeat;
+					}
+					#UbicacionMapa a.en{
+					background:url(../images/bot_interactiveMap.png) no-repeat;
+					}										
+					
+			#content #CuadroContent #ubicacionLeft{
+			margin:0px 0px 15px 0px;
+			width:360px;
+			}
+			#content #CuadroContent #ubicacionRight{
+			margin:0px 0px 0px 370px;
+			width:350px;
+			position:absolute;
+			float:right;
+			}				
+						
+/*   INSTALACIONES ------------------*/					
+			#content #CuadroContent p.instalaciones{
+			/* ver en SERVICIOS (arriba) */
+			}
+			#instalacionesFoto{
+					width:180px;
+					height:176px;
+					float:right;
+					position:absolute;
+					margin:15px 0px 0px 570px;
+					/*background:url(../images/instalacionesFoto.png);*/
+			}
+			#instalacionesDestacado{
+			width:700px;
+			height:auto;
+			padding:8px;
+			margin:0px 0px 0px 15px;
+			background-color:#d6eef7;
+			border: solid 1px #666666;
+			font-size:1.2em;	
+			line-height:1.6em;
+			}
+			#destacadoRight{
+			position:absolute;
+			float:right;
+			margin-left:280px;
+			}
+					
+			#content #CuadroContent #contentListadoInstalaciones{
+			margin:20px 80px 0px 130px;
+			height:80px;
+			}
+			
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones1,
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones2,
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones3{
+			margin:0px;
+			color: #003366;
+			font-size:1.2em;
+			line-height:1.4em;
+			list-style:none;
+			}
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones1{
+			width:210px;}	
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones2{
+			width:170px;
+			float:left; position:absolute;
+			margin:-5px 0px 0px 210px;}	
+			#content #CuadroContent #contentListadoInstalaciones ul#listaInstalaciones3{
+			width:200px;
+			float:left; position:absolute;
+			margin:-5px 0px 0px 390px;}	
+				
+							#content #CuadroContent ul.listaServicios{
+							float:right;
+							position:absolute;
+							margin-left:305px;
+							}
+							
+				ul#listaInstalaciones1 li,
+				ul#listaInstalaciones2 li,				
+				ul#listaInstalaciones3 li {
+				margin:5px 0px 0px 0px;
+				padding: 0px 0px 0px 25px;
+				vertical-align:top;
+				background:url(../images/check.png) no-repeat left top;
+				}	
+
+/* GALLERIA -------------------------------*/
+				#gallery{
+				height:420px;
+				display:block;
+				width:600px;margin-left:86px;
+				}
+            .contentGalleria{color:#ccc;font:14px/1.4 arial,sans-serif;width:600px;margin:20px auto; background-color:#CCCCCC;}
+            .contentGalleria h1{line-height:1.1;letter-spacing:-1px;}
+            #galleria{height:400px;}					
+					
+/*  ACTIVIDADES  -------------------*/					
+			#content #CuadroContent p.actividades1{
+					width:350px;
+					}
+			#content #CuadroContent p.actividades2{
+					width:250px;
+					}
+			#content #CuadroContent #imagenActividad{
+					margin:0px 0px 0px 285px;
+					width:478px;
+					height:372px;
+					position:absolute;
+					float:right;
+					}
+			.activityHeight{
+			min-height:660px;	
+			}
+					
+						#content #CuadroContent #ademas{
+						width:350px;
+						margin:10px 10px 0px 15px;
+						color: #003366;
+						font-size:1.2em;
+						line-height:1.4em;
+						}			
+						#content #CuadroContent #ademas ul{
+						width:340px;
+						margin:0px 0px 20px 10px;
+						list-style:none;
+						}
+						#content #CuadroContent #ademas ul li{
+						background:url(../images/check.png) no-repeat top left;
+						padding-left:23px;
+						margin-bottom:8px;
+						}
+			#content #CuadroContent #ademasInferior{
+					margin:400px 0px 0px 0px;
+					width:700px;
+					height:250px;
+					position:absolute;
+					float:right;
+					color:#0000FF;
+					}												
+					
+/*  recuadro SMILEY */					
+					#actividades1RightTop{
+					width:370px;
+					height:auto;
+					float:right;
+					position:absolute;
+					margin:10px 0px 0px 380px;
+					background:url(../images/actividades1RightTop.png) no-repeat top left;
+					}
+					
+							#actividades1RightTop #SWFastor{
+							height:auto;
+							float:right;
+							position:absolute;
+							margin:10px 0px 0px 315px;
+							background-color:#009900;
+							}
+							#content #CuadroContent #actividades1RightTop h1{
+							width:280px;
+							height:55px;
+							padding:32px 0px 0px 80px;
+							font-weight:bold;
+							font-family:"Times New Roman", Times, serif;
+							color:#FFFFFF;
+							line-height:1em;
+							font-size:2.2em;
+							}
+					#actividades1RightCenter{
+					width:370px;
+					height:auto;
+					background:url(../images/actividades1RightCenter.png) repeat-y top left;
+					padding-bottom:10px;
+					}
+							#actividades1RightCenter ul,
+							#cuadroAzulCenter ul{
+							width:270px; 
+							margin:0px 0px 0px 80px;
+							list-style:none;
+							font-size:1.2em;
+							}
+								#cuadroAzulCenter ul{
+								margin:0px 0px 0px 100px;		
+								}
+							
+							#actividades1RightCenter ul li,
+							#cuadroAzulCenter ul li{
+							margin:0px 0px 7px 0px;
+							}									
+							#actividades1RightCenter ul li a,
+							#cuadroAzulCenter ul li a{
+							background:url(../images/bullet_actividades.png) no-repeat top left;
+							margin:0px 0px 10px 0px;
+							padding-left:20px;
+							color:#FFFFFF;
+							text-decoration:none;
+							font-weight:bold;
+							}
+							#actividades1RightCenter ul li a:hover,
+							#cuadroAzulCenter ul li a:hover {
+							color: #33CCFF;
+							text-decoration:underline;
+							}									
+												
+									
+					#actividades1RightBottom{
+					width:370px;
+					height:14px;/*
+					float:right;
+					position:absolute;
+					margin:10px 0px 0px 550px;*/
+					background:url(../images/actividades1RightBottom.png) no-repeat top left;
+					}							
+					
+			#content #CuadroContent #actividades2Left{
+			margin:0px 0px 15px 0px;
+			width:360px;
+			}
+			#content #CuadroContent #actividades2Right{
+			margin:0px 0px 0px 370px;
+			width:350px;
+			position:absolute;
+			float:right;
+			}
+
+/*  SMILEY LARGE */			
+			#content #CuadroContent #cuadroAzulLarge{
+					margin:435px 0px 0px 15px;
+					width:737px;
+					height:190px;
+					position:absolute;
+					float:right;
+					vertical-align:top;}			
+			#content #CuadroContent #cuadroAzulLarge #smiley{
+			position:absolute;
+			z-index:100;
+			width:95px;
+			height:95px;
+			background:url(../images/cuadroAzul_smiley.png) no-repeat top left;
+			}
+			#content #CuadroContent #cuadroAzulLarge #cuadroAzulTop{
+			position:relative;
+			width:733px;
+			height:13px;
+			background:url(../images/cuadroAzulLarge-top.png) no-repeat top left;
+			}
+			#content #CuadroContent #cuadroAzulLarge #cuadroAzulCenter{
+			position:relative;
+			width:733px;
+			height:auto;
+			min-height:150px;
+			background:url(../images/cuadroAzulLarge-center.png) repeat-y top left;
+			}
+			#cuadroAzulCenter .cuadroAzulLarge-rightUl{
+			margin:0px 0px 0px 400px;
+			position:absolute;
+			}
+					#content #CuadroContent #cuadroAzulLarge #cuadroAzulCenter h1{
+					height:auto;
+					padding:0px 0px 10px 100px;
+					margin:0;
+					font-weight:bold;
+					font-family:"Times New Roman", Times, serif;
+					color:#FFFFFF;
+					line-height:1em;
+					font-size:2.2em;
+					}	
+							
+			#content #CuadroContent #cuadroAzulLarge #cuadroAzulBottom{
+			position:relative;
+			width:733px;
+			height:13px;
+			background:url(../images/cuadroAzulLarge-bottom.png) no-repeat top left;
+			margin-top:-8px;
+			}
+
+			
+			
+			
+			
+/*  SLIDESHOW ACTIVIDADES  */
+#content #CuadroContent #topbannerActividades{
+			width:738px;
+			height:180px;
+			display:block;
+			margin:20px 0px 0px 10px;
+			}
+			#content #CuadroContent  #topbannerActividades img{
+			text-align: right;
+			}
+
+/*  FORMULARIO RESERVAS  */
+			.reservas{
+			font-size:1.2em;
+			border-top:solid 3px #86b3c8;
+			width:95%;
+			margin:15px auto 20px auto;
+			}
+			
+			.reservas th{
+			color:#000066;
+			font-weight:bold;
+			text-align:right;
+			background-color:#f1f5f6;
+			border-bottom:solid 4px #e3ebed;
+			padding:5px;
+			}
+			
+			.reservas td{
+			color:#000;
+			font-weight:normal;
+			background-color:#f1f5f6;
+			border-bottom:solid 4px #e3ebed;
+			padding:5px;
+			}
+			
+			.textbox{
+			border: solid 1px #999999;
+			background-color:#FFFFFF;
+			color:#003399;
+			}
+			td.heightBot{
+			background:#7fb8d5;
+			height:50px;
+			text-align:center;
+			padding-top:10px;}
+			
+			.botEnviar{
+			color:#FFFFFF;
+			background-color:#006699;
+			padding:6px;
+			text-transform:uppercase;
+			font-weight:bold;	
+			border:solid 2px #999999;
+			}	
+
+/*  COMENTARIOS */
+
+	a.botComments{
+	width:130px;
+	height:30px;
+	background: url(../images/icon_comments.png) 6px 6px no-repeat #FFF;
+	border: solid #FF6600 2px;
+	padding:5px 1px 5px 50px;
+	color:#FF6600;
+	font-weight:bold;
+	text-decoration:none;
+	float:left;
+	}
+	a.botComments:hover{
+	background: url(../images/icon_comments.png) 6px 6px no-repeat;
+	color:#FF6600;
+	}	
+
+/* FOTOS 180º */
+	.cuadro180{
+	width:730px;
+	text-align:center;	
+	padding:15px auto 10px auto;
+	}
+	.flash180{
+	display:block;
+
+	border:solid 3px #999999;
+	}
+	
+/*  INTRO   */
+	#intro{
+	background:url(../images/intro.png) no-repeat top left;
+	width:895px;
+	height:487px;
+	margin:25px 0px 0px 0px;
+	position:relative;
+	}
+
+	#intro a{
+	width:80px;
+	height:25px;
+	display:block;
+	position:absolute;
+	float:left;
+	
+	text-decoration:none;	
+	padding:5px 0px 0px 40px;
+	background-color:#006633;
+	font-size:1.2em;
+	text-transform:uppercase;
+	color:#003366;
+	}
+	#intro a:hover{
+	text-decoration:underline;	
+	}
+		
+	#intro a.introSpanish{	
+	left:590px;
+	top:135px;	
+	background:url(../images/intro_spanish.gif) no-repeat left top;
+	}
+
+	#intro a.introEnglish{
+	left:715px;
+	top:135px;
+	background:url(../images/intro_english.gif) no-repeat left top;	
+	}	
+
+	
+	
+	
+	
+	
+	

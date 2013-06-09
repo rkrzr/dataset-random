@@ -1,0 +1,158 @@
+
+
+
+
+
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Cadixtour</title>
+		<link href="/html/css.php" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		</style>
+</head>
+
+<body>
+
+<table width="745" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="2" width="745">
+	<!-- CABECERA -->
+	<div class="divHeader">
+	<HR id=null color=#003366>
+ 
+<TABLE style="WIDTH: 770px; HEIGHT: 122px" height=122 cellSpacing=0 cellPadding=0 width=770 background=/cadixtour/images/cabecera.jpg border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD style="WIDTH: 90px" vAlign=bottom width=90><A href="/cadixtour/index.php?index=1"><IMG height=22 src="/cadixtour/images/Boton_inicio_es.gif" width=105 border=0></A></TD>
+<TD style="WIDTH: 120px" vAlign=bottom width=120><A href="/cadixtour/catalogpublic/indexcatalogcategory.php?category=1"><IMG height=22 src="/cadixtour/images/Boton_servicios_es.gif" width=140 border=0></A></TD>
+<TD vAlign=bottom><A href="/cadixtour/indexcontact.php"><IMG height=22 src="/cadixtour/images/boton_contactar_es.gif" width=140 border=0></A></TD></TR></TBODY></TABLE>
+<HR id=null color=#003366>	</div>
+	<!-- FIN CABECERA -->
+	</td>
+  </tr>
+  <tr>
+        <td width="150" valign="top">
+       
+	    <!-- MENU INICIO -->
+		<div class="divMenu">
+				&nbsp; <A href="/cadixtour/index.php?index=1"><IMG border=0 src="/cadixtour/images/es.png" width=25 height=15></A>&nbsp; <A href="/cadixtour/index.php?index=1"><IMG border=0 src="/cadixtour/images/en.png" width=25 height=15></A>&nbsp;&nbsp;<A href="/cadixtour/index.php?index=16"><IMG border=0 src="/cadixtour/images/de.png" width=25 height=15></A>&nbsp;&nbsp;<A href="/cadixtour/index.php?index=17"><IMG border=0 src="/cadixtour/images/fr.png" width=25 height=15></A><BR><BR>
+<TABLE border=0 width="100%">
+<TBODY>
+<TR>
+<TD bgColor=#003366></TD></TR>
+<TR>
+<TD><IMG src="/cadixtour/images/boton_menu_servicios_es.gif"></TD></TR>
+
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<FONT color=#cc6633><A href="/cadixtour/catalogpublic/indexcatalogcategory.php?category=2">Excursiones</A></FONT></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><FONT color=#cc6633><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/catalogpublic/indexcatalogcategory.php?category=3">Paseos - Rutas</A></FONT></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=14">Enoturismo</A></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=23">Visitas para individuales</A><BR><FONT color=#000000>(con la colaboración de Emisan Viajes)</FONT></TD></TR>
+<TR>
+<TD style="HEIGHT: 10px" height=10></TD></TR>
+<TR>
+<TD bgColor=#003366></TD></TR>
+<TR>
+<TD><IMG src="/cadixtour/images/boton_menu_otros_es.gif"></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<FONT color=#cc6633><A href="/cadixtour/index.php?index=4">Servicios</A></FONT></TD></TR>
+
+<TR>
+<TD style="HEIGHT: 20px" height=20><FONT color=#cc6633></FONT><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=18">Tarifas 2011</A></TD></TR>
+
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif"><A href="/cadixtour/index.php?index=22">&nbsp;Monumentos e interiores</A></TD></TR>
+
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=15">CARNAVALES 2011</A></TD></TR>
+
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=12">Especial Almazaras</A></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=13">Catas de vino de Jerez</A></TD></TR>
+<TR>
+<TD style="HEIGHT: 30px" height=30><FONT color=#cc6633><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=8">Visita a Ganadería de Reses Bravas</A></FONT></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=11">Las orillas del Atlántico</A></TD></TR>
+<TR>
+<TD style="HEIGHT: 20px" height=20 rowSpan=4><A href="/cadixtour/index.php?index=19"></A>
+<P><FONT color=#cc6633><IMG src="/cadixtour/images/marcador02.gif">&nbsp;<A href="/cadixtour/index.php?index=9">Enlaces</A></FONT></P></TD></TR>
+<TR></TR>
+<TR></TR>
+<TR></TR>
+
+<TR>
+<TD rowSpan=4>
+<P align=center>&nbsp;</P></TD></TR>
+<TR></TR>
+<TR></TR>
+<TR></TR></TBODY></TABLE>
+        </div>
+        <!-- FIN MENU INICIO -->
+		
+	</td>
+    <td width="595" valign="top">
+
+		<!-- CONTENIDO -->
+		<div class="divMain">
+		<div align="right" class="divDate">Jueves, 30 de Mayo de 2013</div>
+		<div><P align=center><IMG src="/cadixtour/images/portada_cadixtour_ultima.jpg"></P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P align=left><FONT face=Verdana><FONT size=1><STRONG>Rafael Lerate de la Torre.<BR>Guía de Turismo de Andalucía nº 137.</STRONG><BR></FONT></FONT>Email: <A href="mailto:info@cadixtour.com">info@cadixtour.com</A><BR>Telefax: 956 442 997 Móvil: 670 724 574</P></BLOCKQUOTE></BLOCKQUOTE></div>
+		<div>
+				</div>
+		</div>
+		<!-- FIN CONTENIDO -->
+	
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+
+	<!-- PIE -->
+	<div class="divFooter">
+	<TABLE border=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<CENTER>[ <A href="/cadixtour/index.php?index=1"><FONT color=#666666 size=2 face="Verdana, Arial, Helvetica, sans-serif"><U>Inicio</U></FONT></A> | <A href="/cadixtour/catalogpublic/indexcatalogcategory.php?category=1"><FONT color=#666666 size=2 face="Verdana, Arial, Helvetica, sans-serif"><U>Servicios</U></FONT></A> | <A href="/cadixtour/indexcontact.php"><FONT color=#666666 size=2 face="Verdana, Arial, Helvetica, sans-serif"><U>Contactar</U></FONT></A> ]</CENTER></TD></TR></TBODY></TABLE>
+<HR id=null color=#003366>
+
+<TABLE border=0 width="100%">
+<TBODY>
+<TR>
+<TD rowSpan=2>
+<P align=center><FONT color=#666666 size=2>© Cadixtour - <IMG src="/cadixtour/images/Telefono.gif">&nbsp;<SPAN style="FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">956 442 997&nbsp;</SPAN> - <IMG src="/cadixtour/images/mailto.gif"></FONT>&nbsp;&nbsp;<A href="mailto:info@cadixtour.com"><FONT color=#666666 size=2 face="Verdana, Arial, Helvetica, sans-serif"><U>info@cadixtour.com</U></FONT></A></P></TD></TR>
+<TR></TR></TBODY></TABLE>	</div>
+	<!-- FIN PIE -->
+	
+	<div align="center">
+	&copy; Cadixtour 2010 
+	</div>
+	
+	</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
+
+<!-- BUSQUEDA 
+<h2>Search</h2>
+<p class="searchform">
+<input type="text" alt="Search" class="searchbox" />
+<input type="submit" value="Go!" class="searchbutton" />
+</p>
+FIN BUSQUEDA -->

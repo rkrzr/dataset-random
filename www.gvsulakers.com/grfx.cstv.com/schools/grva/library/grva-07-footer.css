@@ -1,0 +1,27 @@
+/* CSTV Footer 
+ * ---------------------------------------------------------------------------- */	
+	
+	#footer-wrap-temp{
+		color:#666;
+		font-size:11px;
+		padding:7px; 
+		width:750px; 
+		margin:0 auto;
+		}
+
+	#footer-wrap-temp a:link, #footer-wrap-temp a:visited {color:#555; text-decoration:none;}
+	#footer-wrap-temp a:hover{text-decoration:underline;}
+
+	#dropdown-wrap{
+		float:right;
+		padding:7px 10px 0 10px;
+		margin-top:7px;
+		height:43px;
+		}
+
+	#footer-links{padding-top:10px; text-align:center}
+	.rss-box{border-style: solid; border-color: rgb(255, 204, 153) rgb(102, 51, 0) rgb(102, 51, 0) rgb(255, 153, 102); border-width: 1px; margin: 0pt; padding: 0pt 3px; background: rgb(255, 102, 0) none repeat scroll 0% 0%; font-family: verdana,sans-serif; font-style: normal; font-variant: normal; font-weight: bold; font-size: 10px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: rgb(255, 255, 255); -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; text-decoration: none;}
+	.rb_visit_sel {border:1px solid #eee;float:left;display:inline;margin-left:3px;font:normal 12px arial,helvetica;color:#666;height:18px;padding-top:1px;}
+	.rb_visit_sel option {font:normal 12px arial,helvetica;color:#666;}
+	.rb_visit_go {width:37px;border:1px solid #999;height:20px;*height:19px;margin-left:3px;float:left;display:inline;background:#CCC;font:normal 12px arial,helvetica;color:#000;}
+	

@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Hata</title>
+</head>
+<body>
+    <center>
+        <form name="Form1" method="post" action="Hata.aspx?HataDetay=B%u00f6yle+bir+sonu%u00e7+yoktur." id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzODAzNzU2NDZkZA==" />
+</div>
+
+        <font color="#993300" size="7">ÖSYM</font><br />
+        <p>
+            <span id="lblHataDetay" style="display:inline-block;width:620px;">B&#246;yle bir sonu&#231; yoktur.</span>
+        </p>
+        <p>
+            <a href="SonucSec.aspx">Sonuç Açıklama Ana Sayfası</a>
+        </p>
+        </form>
+    </center>
+</body>
+</html>

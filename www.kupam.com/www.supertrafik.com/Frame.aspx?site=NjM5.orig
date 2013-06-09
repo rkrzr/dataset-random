@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+ <script language="javascript" type="text/javascript">
+ var waitCount=20000;//bekleme miktarı milisecond cinsinden
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+function YeniNesne() {
+    var http;
+    if(window.XMLHttpRequest)
+ {	 
+      http = new XMLHttpRequest();
+ }
+else if(window.ActiveXObject )
+ { 
+      http = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+else {
+      alert('Problem creating the XMLHttpRequest object');
+     }
+ return http;
+}
+function postData()
+ {	   
+
+ if(textCodeValueRef==""){
+ return;
+ }
+ var http=YeniNesne();
+ var refered=document.getElementById("hf").value==="notRefered" || topSame===true 
+ ?"1":"0";
+ var params="code="+textCodeValueRef+
+ "&ref="+refered+"&auth="+(new Date()).getTime().toString().substring(0, 10);
+ http.open('POST',"http://www.supertrafik.com/handleAjax.aspx?site="+
+ gup("site")); 
+ 
+ http.onreadystatechange = function () { procces("handle",http) };
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+http.setRequestHeader("Content-length", params.length);
+http.setRequestHeader("Connection", "close");      
+ http.send(params);
+ 
+}
+function procces(layer,http)
+{
+////alert(http.readyState);
+if(http.readyState == 4 && http.status == 200)
+ {
+
+ if(http.responseText)
+  { 
+ 
+
+  var myDiv= document.getElementById("frameDiv");
+  var result=http.responseText.substring(0,1);
+  var inner='';
+//
+  if(result=='0') 
+  	myDiv.innerHTML='<b>Kabul Edildi</b>'; 
+  if(result=='1') 
+  	myDiv.innerHTML='<b>Kabul Edildi </b>'; 
+  if(result=='2') 
+  	myDiv.innerHTML='<b>Hatalı Kod</b>'; 
+  if(result=='3') 
+  	myDiv.innerHTML='<b>Hatalı Kod</b>'; 
+  if(result=='4') 
+  	myDiv.innerHTML='<b>Hatalı Kod</b>'; 
+  if(result=='5') 
+  	myDiv.innerHTML='<b>Hatalı Kod</b>'; 
+  if(result=='6') 
+  	myDiv.innerHTML='<b>Güncel Liste</b>'; 
+    isLoading=false;
+  }
+ else
+ {
+  document.getElementById(layer).innerHTML = '<div class="submit">No Content</div>';
+  } 
+ }
+  if(http.readyState == 2)
+ {
+  //document.getElementById("ismetLabel").innerHTML = '';
+ }
+}
+
+function showContent(){
+
+ var myDiv= document.getElementById("frameDiv");
+ myDiv.innerHTML=' <input type="text" id="textCode" size="6"  />'+
+    '<input name="butSubmit" type="button" id="butSubmit" value="Tamam" onclick="waitUp();" />'+
+    '<label id="ismetLabel"></label>';
+    
+}
+var topSame=false;
+function check(){
+if( document.getElementById("hf").value==="notRefered")
+  {
+   var myDiv= document.getElementById("frameDiv");
+   myDiv.innerHTML=' <span style="color:red"> Erişim Engellendi.</span>';
+  }
+    try{
+        if(top.location.host==="www.supertrafik.com" || top.location.host==="supertrafik.com")
+        {   
+            topSame=true;
+        }
+    }catch(ex)
+    {
+    }
+}
+function waitUp(){
+textCodeValueRef=document.getElementById("textCode").value;
+ var myDiv= document.getElementById("frameDiv");
+ myDiv.innerHTML=' <img src="images/loader.gif" id="loaderGif" />';
+setTimeout("postData()",waitCount);
+}
+
+    </script>
+    <title>
+
+</title>
+    <style type="text/css" media="screen">
+body { background: transparent; }
+--></style> 
+</head>
+<body onload="check();">
+    <form name="form1" method="post" action="Frame.aspx?site=NjM5" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTcxMzg2NTY5MGRk" />
+</div>
+ 
+    <input type="hidden" name="hf" id="hf" value="http://www.kupam.com/" />
+   <div id="frameDiv" visible="false"  >
+    <img style="cursor:pointer;" onclick="showContent();" src="images/st.png" />
+    </div>
+    </form>
+
+
+</body>
+</html>

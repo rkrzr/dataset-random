@@ -1,0 +1,199 @@
+/* ================
+   The following classes are used for color customization of page components
+   via server side assignment. The classes are to be hard coded within the
+   page header.
+   ================
+*/
+   
+/* begin dynamic menu */
+#ygrp-menu {
+  border-color:#83d8a4;
+  background-color:#c8ecd4; 
+  color:#666;
+}
+#ygrp-menu .menulist-hr {
+  border-bottom:1px solid #83d8a4;
+}
+#ygrp-menu .active {
+  background-color:#fff;
+}
+#ygrp-menu .corner-top, #ygrp-menu .corner-left, #ygrp-menu .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,c8ecd4,ffffff,83d8a4&sig=WFEwZlcQ4aFe.rYHzA5KfCPIy0U-);
+}
+/* end dynamic menu */
+
+
+/* CORNERS:
+    Corner images' outer color must match page background color, border color
+    matches ygrp-container-border's border color, and inner color
+    matches ygrp-container-border's background color.
+
+ */
+.corner-top, .corner-left, .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,f7f7f7,ffffff,83d8a4&sig=JFbw_JF0emu1OuTJphP.iBvf3mo-);
+}
+
+/* Container with Rounded Corner Border */
+div.ygrp-container-border {
+  border-color:#83d8a4;
+  background-color:#fff;
+}
+.ygrp-container-border .headaction {
+  background-color:#eeeeee;
+}
+.ygrp-container-border .footaction {
+  background-color:#eeeeee;
+}
+/* END corner/container stuff */
+
+/* Page Title Container */
+#ygrp-title .top {
+  border-color:#83d8a4;
+  background-color:#fff;
+}
+#ygrp-title .bottom {
+  border-color:#83d8a4;
+  background-color:#83d8a4; /*#e7eff7; */
+  color:#333333;
+}
+#ygrp-title .bottom .corner-top, #ygrp-title .bottom .corner-left, #ygrp-title .bottom .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,83d8a4,ffffff,83d8a4&sig=GeTMq1R8moZtU9Pu5zolgM6ZGAo-);
+}
+
+/* TITLEBARS */
+#ygrp-titlebarhr {
+  border-bottom:1px solid #83d8a4;
+}
+.ygrp-titlebar h3 {
+  color:#666666;
+}
+
+h3 {       
+  color:#4c8203;
+}
+
+div.contentnav a, a.print, td.calnone a, div.calmonthhdr a, td #yeardataview a {
+  color:#247cd4;
+}
+
+div.contentnav span.first {
+  color:#8a8a8a;
+}
+
+#weekdata td.calnone, span.last, table.tblyear td div, td.redlink, td.sortcol {
+  color:#333333;
+}
+
+td.today div.calmonthhdr a {
+  color:#247cd4;
+}
+
+/* start tabs */
+.ygrp-tabs a {
+  color:#247cd4;
+}
+.ygrp-tabbed-container .corner-top, .ygrp-tabbed-container .corner-left, .ygrp-tabbed-container .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,f7f7f7,ffffff,b2b2b2&sig=L5qImqIo2Bki9fmP2k9BCKNpMvk-);
+}
+.ygrp-tabs .ygrp-active-tab .corner-top, .ygrp-tabs .ygrp-active-tab .corner-left {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,c8ecd4,ffffff,83d8a4&sig=WFEwZlcQ4aFe.rYHzA5KfCPIy0U-);
+}
+.ygrp-tabs .ygrp-active-tab {
+  border-color:#83d8a4;
+  background-color:#c8ecd4;
+}
+.ygrp-tabs .ygrp-active-tab a {
+  color:#333333;
+  background:transparent url(http://gui.grp.yahoofs.com/images?fmt=td,c8ecd4,f7f7f7,83d8a4&sig=NAIHhemEwtFdkgYGNRA_MXmiyuc-) no-repeat bottom center;
+}
+/* end tabs */
+
+.ygrp-container-border .headaction .corner-top, .ygrp-container-border .headaction .corner-left, .ygrp-container-border .footaction .corner-bottom, .ygrp-container-border .footaction .corner-left {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,eeeeee,ffffff,83d8a4&sig=xMJH80VNZmhixhdEHqxJzEb5PyM-);
+}
+
+/* 'no action' containers */
+#nested-container .corner-top, #nested-container .corner-left, #nested-container .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,ffffff,f7f7f7,83d8a4&sig=WcWGFokuIUJRpDm0w12_mxp2OnY-);
+}
+
+/* action containers */
+#nested-container .headaction .corner-top, #nested-container .headaction .corner-left, #nested-container .footaction .corner-bottom, #nested-container .footaction .corner-left {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,eeeeee,f7f7f7,83d8a4&sig=UZ63bvbWo7hoal3bsmBwfk_Rhhs-);
+}
+
+/* color for links on the menu */
+#ygrp-menu .menulist a:link {
+  color:#1e5fc7;
+}
+
+/* color for inactive links on the menu */
+#ygrp-menu .menulist li {
+  color:#323232;
+}
+
+/* color for visited links on the menu */
+#ygrp-menu .menulist a:visited {
+  color:#9136ad;
+}
+
+/* body background color  */
+body {
+  background-color:#ffffff;
+}
+
+/* color for links on the background */
+div.ygrp-onbg a.action, div.ygrp-onbg div.quicklinks a, div.ygrp-onbg div.centered a, td.help a, #ygma #ygmagreet a, #ygma #ygmagreet a:link, #ycs_nma #ycs_ama #ycs_awlcm a, #ycs_nma #ycs_ama #ycs_awlcm a:link, #ycs_nma #ycs_ama a:link, #ygma #ygmaproplinks a, #ygma #ygmaproplinks a:link, div.doc-layout-foot a, div.doc-layout-foot a:link {
+  color:#247cd4;
+}
+
+/* color for inactive links on the background */
+div.ygrp-onbg span.inactive {
+  color:#8a8a8a;
+}
+
+/* color for visited links on the background */
+div.ygrp-onbg div.centered a:visited, #ygma #ygmagreet a:visited, #ycs_nma #ycs_ama #ycs_awlcm a:visited, #ycs_nma #ycs_ama a:visited, #ygma #ygmaproplinks a:visited, td.header a, div.doc-layout-foot a:visited {
+  color:#9136ad;
+}
+
+/* color for text on the background */
+div.ygrp-onbg div.search, div.ygrp-onbg .headview, div.ygrp-onbg .footview, div.ygrp-onbg div.centered, #ygma #ygmagreet, #ycs_nma #ycs_ama #ycs_awlcm, div.doc-layout-foot .beacon, #doc-foot center table {
+  color:#333333;
+}
+
+.datatable td.checks, .datatable th.checks {
+  background-color:#eeeeee;
+}
+.wide td.checks, .wide th.checks {
+  background-color:#eeeeee;
+}
+
+/* Pollbar */
+.pollbar-outer {
+  border:1px solid #000000;
+}
+.pollbar-inner {
+  background-color:#c8ecd4;
+}
+
+/* begin promo */
+#ygrp-mgl-promo {
+    text-align: left;
+    border: 1px solid #d4d4d4;
+    background: #f7f3ff;
+    width: auto;
+    margin: 0 0 5px 0;
+    margin-bottom: 13px;
+}
+
+#ygrp-mgl-promo h4 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#ygrp-mgl-promo .corner-top, #ygrp-mgl-promo .corner-left, #ygrp-mgl-promo .corner-bottom {
+  background-image:url(http://gui.grp.yahoofs.com/images?fmt=cb,f7f3ff,ffffff,d4d4d4&sig=z.BcFQc0sBHaaWm0e992H7AlI7M-);
+}
+/* end promo */
+td.content, td.env{ border-top: 1px solid #83d8a4; }

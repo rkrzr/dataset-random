@@ -1,0 +1,25 @@
+
+body {
+	color:#000;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	}
+a { 
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	color:#000;
+	}
+a:visited { color:#000; }
+a:active { color:#000; }
+a:hover { 
+	text-decoration: underline;
+	color:#000;
+}
+strong, b {	font-weight: bold;	}
+img{ border: 0; }
+
+div,p{margin:0}
+
+p{ padding-bottom:8px; }
+
+form { margin:0;}

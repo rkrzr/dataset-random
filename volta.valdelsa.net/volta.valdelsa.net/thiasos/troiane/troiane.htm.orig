@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>Le Troiane di Euripide</title>
+</head>
+
+<frameset framespacing="0" border="false" frameborder="0" cols="143,*">
+  <frame name="sinistra" scrolling="no" noresize target="superioredx" src="indice.htm"
+  marginwidth="0" marginheight="0">
+  <frameset rows="15%,*">
+    <frame name="superioredx" target="inferioredx" src="sopra.htm" scrolling="no">
+    <frame name="inferioredx" src="introduzione.htm" scrolling="yes" marginwidth="5"
+    marginheight="5">
+  </frameset>
+  <noframes>
+  <body bgcolor="ffffff">
+  <p align="center">&nbsp;</p>
+  <p align="center"><big><big>Benvenuto nel sito del Laboratorio Teatrale <em>Thiasos</em></big></big></p>
+  <p align="center">&nbsp;</p>
+  <p>La pagina corrente utilizza dei frame, che tuttavia non sono supportati dal browser in
+  uso.</p>
+  <p>Per continuare la navigazione senza frames <a href="introduzione.htm">&gt;clicca
+  qui&lt;</a>. </p>
+  </body>
+  </noframes>
+</frameset>
+</html>

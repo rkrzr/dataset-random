@@ -1,0 +1,48 @@
+function  InitPage() {
+
+	InitTimeNavigator();
+}
+
+var iCurrentPeriod;
+var sCurrentFund;
+
+
+function InitTimeNavigator() {
+	
+	$$("DIV.TimeNav")[0].getChildren().each(function(el) {
+		if( el.tagName == "A" ) {
+			if(el.hasClass("Hidden")) iCurrentPeriod = el.getProperty("period");
+			el.id="TimeNavLink_" + el.getProperty("period");
+			el.onclick = function() {
+				if( iCurrentPeriod ) {
+					$("TimeNavLink_"+iCurrentPeriod).removeClass('Hidden');
+					$("TimeNavSpan_"+iCurrentPeriod).addClass('Hidden');
+				}
+				iCurrentPeriod = el.getProperty("period");
+				$("TimeNavLink_"+iCurrentPeriod).addClass('Hidden');
+				$("TimeNavSpan_"+iCurrentPeriod).removeClass('Hidden');
+				UpdateTable();
+			}
+		} else {
+			if( el.tagName == "SPAN" ) {
+				el.id="TimeNavSpan_" + el.getProperty("period");
+			}
+		}
+	});
+	
+}
+
+function UpdateTable() {
+	$("DataTableLoader").removeClass('Hidden');
+	$("DataTableHolder").addClass('Hidden');
+	var myAjax = new Ajax("_ajax_get_funds_table.phtml?period="+iCurrentPeriod, {
+		method: 'get',
+		update: $('DataTableHolder'), 
+		onComplete: function(){
+			$("DataTableLoader").addClass('Hidden');
+			$("DataTableHolder").removeClass('Hidden');
+		}
+	}).request();
+}
+
+window.addEvent('domready', InitPage);

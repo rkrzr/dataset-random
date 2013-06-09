@@ -1,0 +1,29 @@
+#header {
+	display: none;
+}
+
+#container-left {
+	display: none;
+}
+#box{
+	width 580px;
+}
+#sportWrapper{
+	display: none;
+}
+#left, #right, #footer{
+display:none;
+}
+.clear, #clearheaderleft, #clearheadercenter, #clearheaderright{
+display:none;
+}
+#center{
+margin-left:30px;
+float:left;
+}
+#container-center{
+margin-top:100px;
+}
+#outer{
+	margin-left:0px;
+}

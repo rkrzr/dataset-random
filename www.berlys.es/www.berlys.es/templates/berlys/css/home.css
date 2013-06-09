@@ -1,0 +1,31 @@
+#cabecera .menu{
+	top:316px !important
+}
+
+#content {
+	padding-top:0 !important;
+}
+
+#contenido{
+	background: url("../images/fnd_contenido_home.png") no-repeat scroll 3px bottom transparent !important;
+    margin: 0 0 0 18px;
+    min-height: 100px !important;
+    padding: 8px 0 0 27px !important;
+    width: 960px !important;
+}
+
+#cabecera{
+	height: 45%;
+    min-height: 308px !important;
+    position: relative !important;
+    width: 970px !important;
+    max-height:450px;
+}
+
+.breadcrumbs,.img_random, .error, #joobitoolbar-box, #contenido .footer, .blog-featured, .row-separator{
+	display:none !important;
+}
+
+#fondo{
+	background:url("../images/fnd_content.png") repeat-x scroll center top transparent !important;
+}

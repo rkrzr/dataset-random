@@ -1,0 +1,199 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Welcome to James Real Estate Services</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="/css/homepage.css"/>
+  <link rel="stylesheet" href="/css/general.css"/>
+  
+  
+
+	<script type="text/javascript">
+		var a = function() {
+			var b = document.getElementById("main-menu").getElementsByTagName("LI");
+			for (var i=0; i<b.length; i++) {
+				b[i].className+=" notover";
+				b[i].onmouseover = function() { this.className+=" over"; this.className=this.className.replace(new RegExp(" notover\\b"), ""); };
+				b[i].onmouseout = function() { this.className+=" notover"; this.className=this.className.replace(new RegExp(" over\\b"), "");	};
+				}
+			};
+		if (window.addEventListener) { window.addEventListener('load',a,false);	}
+		else if( document.addEventListener ) { document.addEventListener('load',a,false); }
+		else if( window.attachEvent ) { window.attachEvent('onload',a);	}
+	</script>
+</head>
+<body>
+	<div id="all">
+    <div id="header">
+  <h1>REAL ESTATE DECISION SUPPORT</h1>
+  <div id="main-menu">
+    <ul>
+      <li class="first"><a href="/">HOME</a></li>
+      <li><a href="#">SERVICES</a>
+        <ul class="submenu">
+          <li class="heading"><a href="/services/real-estate-appraisal">Real Estate Appraisal</a></li>
+          <li class="heading"><a href="/services/distressed-asset-appraisal-advisory">Distressed Asset Appraisal and Advisory</a></li>
+          <li class="heading"><a href="/services/real-estate-litigation-support">Real Estate Litigation Support</a></li>
+          <li class="heading"><a href="/services/real-estate-market-analysis-feasibility-studies">Real Estate Market Analysis &amp; Feasibility Studies</a></li>
+          <li class="heading"><a href="/services/eminent-domain-appraisal-consulting">Eminent Domain Appraisal &amp; Consulting</a></li>
+          <li class="heading"><a href="/services/right-of-way-valuation-corridor-appraisal">Right-of-Way Valuation &amp; Corridor Appraisal</a></li>
+          <li class="heading"><a href="/services/brokerage">Brokerage Services</a></li>
+        </ul>
+      </li>
+      <li><a href="#">RESOURCES</a>
+        <ul class="submenu">
+          <li class="heading"><a href="/resources/real-estate-perspective">Real Estate Perspective</a></li>
+          <li class="light"><a href="/articles/">Real Estate Perspective Database</a></li>
+          <li class="light"><a href="/resources/real-estate-perspective-email-latest-issue">Real Estate Perspective Email - Latest Issue</a></li>
+          <li class="light"><a href="/resources/real-estate-perspective-email-archive">Real Estate Perspective Email - Archive</a></li>
+          <li class="heading"><a href="/resources/cherry-creek-perspective">Cherry Creek Perspective</a></li>
+          <li class="light"><a href="/resources/cherry-creek-perspective-latest-issue">Cherry Creek Perspective - Latest Issue</a></li>
+          <li class="light"><a href="/resources/cherry-creek-perspective-archive">Cherry Creek Perspective - Archive</a></li>
+          <li class="heading"><a href="/resources/apartment-perspective">Apartment Perspective</a></li>
+          <li class="light"><a href="/resources/apartment-perspective-latest-issue">Apartment Perspective - Latest Issue</a></li>
+          <li class="light"><a href="/resources/apartment-perspective-archive">Apartment Perspective - Archive</a></li>
+          <li class="heading"><a href="/resources/real-estate-market-conditions">Real Estate Market Conditions</a></li>
+          <li class="heading"><a href="/resources/glossary-of-real-estate-terms">Glossary of Real Estate Terms</a></li>
+          <li class="heading"><a href="/resources/real-estate-links">Real Estate Links</a></li>
+        </ul>
+      </li>
+      <li><a href="#">COMPANY PROFILE</a>
+        <ul class="submenu">
+          <li class="heading">Principals</li>
+          <li class="light"><a href="/company-profile/principals/william-m-james">William M. James, MAI, CCIM - President and Director, Valuation and Advisory Services</a></li>
+          <li class="light"><a href="/company-profile/principals/stephen-e-ross">Stephen E. Ross - Director, Market Analysis</a></li>
+          <li class="light"><a href="/company-profile/principals/denise-k-moore">Denise K. Moore - Director, Multifamily Valuation</a></li>
+          <li class="light"><a href="/company-profile/principals/ann-del-nigro">Ann Del Nigro - Director, Residential Brokerage Services and Office Manager</a></li>
+          <li class="light"><a href="/company-profile/principals/geoff-hauer">Geoff Hauer - Director, Information Systems</a></li>
+          <li class="light"><a href="/company-profile/principals/eric-karnes">Eric Karnes - Director, Market Research</a></li>
+          <li class="light"><a href="/company-profile/principals/other-team-members">Other Team members</a></li>
+          <li class="heading"><a href="/company-profile/strategy">Strategy</a></li>
+          <li class="heading"><a href="/company-profile/history">History</a></li>
+          <li class="heading"><a href="/company-profile/affiliates">Affiliates</a></li>
+        </ul>
+      </li>
+      <li><a href="/contact-us">CONTACT</a></li>
+      <li class="last"><a href="/login">LOGIN</a></li>
+    </ul>
+  </div>
+</div>
+
+		<div id="header-image">&nbsp;</div>
+		<div id="main">
+      
+<div id="section-one">
+<div class="cms-node" id="welcome"><p>&nbsp;</p>
+<table border="0" cellspacing="1" cellpadding="1" width="100%">
+    <tbody>
+        <tr>
+            <td width="400">
+            <p><span style="font-size: 12pt"><span style="font-family: Arial"><span style="color: rgb(181,40,66)"><b>JAMES&nbsp;REAL&nbsp;ESTATE&nbsp;SERVICES, INC.&nbsp;&nbsp;</b></span></span></span></p>
+            <p><span style="font-size: 8pt"><span style="font-family: Arial"><span style="color: rgb(181,40,66)"><span style="font-family: Arial"><i><font color="#000000">Superior Real Estate Appraisal and Consulting Services&nbsp;&nbsp;</font></i></span></span></span></span><span style="font-size: 12pt"><span style="font-family: Arial"><span style="color: rgb(181,40,66)"><span style="font-family: Arial"><i><font color="#000000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></i></span></span></span></span></p>
+            </td>
+            <td>&nbsp;</td>
+            <td style="text-align: right">
+            <p><em>Check out our new BLOG:</em></p>
+            <p><em><a target="_blank" href="http://apartmentperspective.com"><img width="200" height="47" alt="" src="/files/Image/Blog.jpg" /></a></em></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p style="text-align: justify"><span style="font-family: Verdana">James Real Estate Services, Inc. (JRES) is a full-service commercial real estate appraisal and advisory firm based in Denver, Colorado. Our experienced team offers a wide range of real estate appraisal services and products that help our clients effectively analyze commercial real estate assets, residential real estate assets and&nbsp;real estate markets -&nbsp;as well as manage asset risk and realize asset value in a constantly changing economic environment and real estate marketplace. </span></p>
+<div style="text-align: justify; margin: 0in 0in 0pt"><span style="font-family: Verdana">&nbsp;</span></div>
+<p><span style="font-size: 8pt"><strong><span style="font-family: Verdana">&gt;&gt; Learn more about <a href="http://jres.com/company-profile/strategy">why you should choose JRES</a></span></strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt"><strong><span style="font-family: Verdana"><span style="font-family: Arial"><span style="color: rgb(181,40,66)"><b>SERVICES&nbsp;&amp;&nbsp;RESOURCES</b></span></span></span></strong></span>&nbsp;</p>
+<div id="services-table" class="table">
+<div class="table-heading">
+<h1>S<br />
+E<br />
+R<br />
+V<br />
+I<br />
+C<br />
+E<br />
+S</h1>
+</div>
+<div class="table-links">
+<ul>
+    <li><a href="http://jres.com/services/real-estate-appraisal">Real Estate Appraisal</a></li>
+    <li><a href="http://jres.com/services/distressed-asset-appraisal-advisory">Distressed Asset Appraisal &amp; Advisory Services</a></li>
+    <li><a href="http://jres.com/services/real-estate-litigation-support">Real Estate Litigation Support</a></li>
+    <li><a href="http://jres.com/services/real-estate-market-analysis-feasibility-studies">Real Estate Market Analysis &amp; Feasibility Studies</a></li>
+    <li><a href="http://jres.com/services/eminent-domain-appraisal-consulting">Eminent Domain Appraisal &amp; Consulting</a></li>
+    <li><a href="http://jres.com/services/right-of-way-valuation-corridor-appraisal">Right-of-Way Valuation &amp; Corridor Appraisal</a></li>
+    <li><a href="http://www.jres.com/services/brokerage">Real Estate Brokerage </a></li>
+</ul>
+</div>
+</div>
+<div id="resources-table" class="table">
+<div class="table-heading">
+<h1>R<br />
+E<br />
+S<br />
+O<br />
+U<br />
+R<br />
+C<br />
+E<br />
+S</h1>
+</div>
+<div class="table-links">
+<ul>
+    <li><a href="http://jres.com/resources/real-estate-perspective">Real Estate Perspective</a></li>
+    <li><a href="http://www.jres.com/resources/cherry-creek-perspective">Cherry Creek Perspective </a></li>
+    <li><a href="http://jres.com/resources/apartment-perspective">Apartment Perspective</a></li>
+    <li><a href="http://jres.com/resources/real-estate-market-conditions">Real Estate Market Conditions</a></li>
+    <li><a href="http://jres.com/resources/glossary-of-real-estate-terms">Glossary of Real Estate Terms</a></li>
+    <li><a href="http://jres.com/resources/real-estate-links">Real Estate Links</a></li>
+</ul>
+</div>
+</div>
+<p>&nbsp;</p></div></div>
+<div id="section-two">
+  <div id="latest-articles">
+    <h2>LATEST REAL ESTATE PERSPECTIVE ARTICLES</h2>
+  <p><a href="/articles/show/Denver-Ranked-11th-for-Population-Growth/16915">Denver Ranked 11th for Population Growth</a></p>
+  <p><a href="/articles/show/Union-Station-Restaurants-Announced/16911">Union Station Restaurants Announced</a></p>
+  <p><a href="/articles/show/Design-Revealed-for-LoDo-Building/16912">Design Revealed for LoDo Building</a></p>
+  <p><a href="/articles/show/College-Taking-Flex-Space-in-Thornton/16913">College Taking Flex Space in Thornton</a></p>
+  <p><a href="/articles/show/St.-Anthony-North-Hospital-Expansion-Begins-Construction/16914">St. Anthony North Hospital Expansion Begins Construction</a></p>
+    <p><a id="button" href="/articles/?clear=true">Search Database of Articles from Real Estate Perspective</a></p>
+  </div>
+</div>
+
+		</div>
+		<div id="footer">
+			<div id="final-menu">
+				<ul>
+					<li class="first"><a href="/">HOME</a></li>
+					<li><a href="/contact-us">CONTACT</a></li>
+					<li><a href="/login">LOGIN</a></li>
+				</ul>
+			</div>
+			<div id="contact-us">
+				
+				<div id="contact-image">
+					<p class="contact-phone-email">303-388-1100</p>
+					<p class="contact-phone-email"><a href="/contact-us">contact us</a></p>
+				</div>
+				<p class="contact-address">90 Madison Street, Suite 300</p>
+				<p class="contact-address">Denver, Colorado 80206</p>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try{
+        var pageTracker = _gat._getTracker("UA-8633720-1");
+        pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+</body>
+</html>

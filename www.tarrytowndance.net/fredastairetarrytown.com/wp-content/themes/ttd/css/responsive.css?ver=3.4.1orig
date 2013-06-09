@@ -1,0 +1,272 @@
+/* #Media Queries
+================================================== */
+	/* Flexslider */
+	.flexslider img.tiny_image,
+	.flexslider img.small_image{ display:none;}
+
+	@media only screen and (min-width: 980px) and (max-width: 1110px) {
+		#main{width:980px;}
+		#homepage .block{padding:20px 0;}
+		
+		.sf-menu > li > a{font-size:13px;}
+		.sf-menu a {padding:9px 18px 9px 18px;}
+		#navigation > li > a{background-repeat:no-repeat; background-position: 10px top;}
+
+		#navigation > li.current-post-parent a,
+		#navigation > li.current-menu-parent a,
+		#navigation > li.current-post-ancestor a,
+		#navigation > li.current_page_item a,
+		#navigation > li.current-menu-item a,
+		#navigation > li:hover a,
+		#navigation > a:focus, .sf-menu a:hover, .sf-menu a:active {background-position: 10px bottom }
+		
+		#navigation > li.home > a,#navigation > li.view > a,#navigation > li.fly > a,#navigation > li.tag > a,#navigation > li.book > a,#navigation > li.mail > a,#navigation > li.camera > a,#navigation > li.eq > a,#navigation > li.cart > a,#navigation > li.brief > a,#navigation > li.grid > a,#navigation > li.video > a,#navigation > li.world > a,#navigation > li.print > a,#navigation > li.bell > a{ padding-left:28px;}
+
+		
+		#search-wrapper  .field{width:200px; }
+		
+		.flickr_widget .flickr li img{width:62px; height:62px}
+		
+		/* Price Table */
+		.price-table .price-column.price-third{ width:232px;}
+		.price-table .price-column.price-fourth{ width:174px;}
+		.price-table .price-column.price-fifth{ width:139px;}
+
+	}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+		h1 { font-size: 30px; margin-bottom: 22px;}
+		h2 { font-size: 26px; margin-bottom: 20px; }
+		h3 { font-size: 22px; margin-bottom: 18px; }
+		h4 { font-size: 18px; margin-bottom: 16px; }
+		h5 { font-size: 16px; margin-bottom: 13px; }
+		h6 { font-size: 12px; margin-bottom: 12px;}
+
+		
+		#main{width:768px;}
+		#homepage .block{padding:20px 0;}
+		
+		.sf-menu > li > a{font-size:12px;}
+		.sf-menu a {padding:9px 10px 9px 10px;}
+		#navigation > li > a{ background-image:none}
+		#navigation > li.current-post-parent a,
+		#navigation > li.current-menu-parent a,
+		#navigation > li.current-post-ancestor a,
+		#navigation > li.current_page_item a,
+		#navigation > li.current-menu-item a,
+		#navigation > li:hover a,
+		#navigation > a:focus, .sf-menu a:hover, .sf-menu a:active { background-image:none}
+		
+		#navigation > li.home > a,
+		#navigation > li.view > a,
+		#navigation > li.fly > a,
+		#navigation > li.tag > a,
+		#navigation > li.book > a,
+		#navigation > li.mail > a,
+		#navigation > li.camera > a,
+		#navigation > li.eq > a,
+		#navigation > li.cart > a,
+		#navigation > li.brief > a,
+		#navigation > li.grid > a,
+		#navigation > li.video > a,
+		#navigation > li.world > a,
+		#navigation > li.print > a,
+		#navigation > li.bell > a{ background-image:none; padding-left:15px}
+		
+		#navigation a > .sf-sub-indicator {top:8px;}
+		
+		#search-wrapper  .field{width:152px; }
+		
+		/* Flexslider */
+		.flexslider img.small_image{ display: block}
+		.flexslider img.big_image,
+		.flexslider img.tiny_image{ display: none}
+		.flex-caption {width: 520px; height:100px; margin: 0; right: 0; color: #fff; overflow:hidden}
+		.flex-caption h3{margin-bottom:3px; font-size:18px;}
+		.flex-caption p{font-size:12px;}
+		.flex-direction-nav { height: 100px; width:200px;}
+		.flex-direction-nav li a {width: 100px; height: 100px;}
+		.flex-direction-nav li a span{ width: 100px; height: 100px;}
+		.flex-direction-nav li a:hover .thumb{ width: 100px; height: 100px;}
+		
+		#respond textarea{width:95%}
+		
+		/* Services */
+		#services .service_header {text-align:center; padding:10px 0;}
+		#services .service_header .icon{float:none; display:block; margin:0; margin-bottom:10px}
+		#services .item .wrap{padding:0 10px 10px 10px;}
+
+		/* Blog */
+		#homepage_blog .grid_6 .meta{display:none}
+		
+		/* Flickr */
+		.flickr_widget li{float:left;margin:0 10px 10px 0;}
+		.flickr_widget li img{ width:46px; height:46px}
+		
+		/* Price Table */
+		.price-table {font-size:12px}
+		.price-table .price-column .price{ font-size:12px; color:#888; margin-bottom:10px}
+		.price-table .price-column .price .price-value{ font-size:20px; color:#333;}
+		.price-table .price-column .price-content { padding:10px}
+		.price-table .price-column.price-third{ width:184px;}
+		.price-table .price-column.price-fourth{ width:138px;}
+		.price-table .price-column.price-fifth{ width:110px;}
+	}
+
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 769px) {
+	
+		#main{max-width: 480px; width:auto}
+		.wrapper{padding:10px}
+		.page_wrapper{padding:20px 10px;}
+		#header_right{right:10px}
+		#crum{display:none}
+		img.scale{width:100%}
+
+		/* Flexslider */
+		.flexslider img.tiny_image{ display: block}
+		.flexslider img.big_image,
+		.flexslider img.small_image{ display: none}
+		
+		input[type="text"],
+		input[type="password"],
+		input[type="email"],
+		textarea,
+		select{-webkit-transition-duration: 0;-moz-transition-duration: 0;-o-transition-duration: 0;-ms-transition-duration: 0;transition-duration: 0;}
+		
+		/* Header */
+		#search {display:none}
+		#search input.text_input{width:90%;}
+		#search input.text_input:focus{width:90%;}
+
+		/* Navigation */
+		#nav ul.sf-menu{display:none}
+		#nav .select-menu {display: block;}
+		
+		
+		/* Flexslider */
+		.flex-caption{display:none}
+		/* Direction Nav */
+		.flex-direction-nav { height: 0; width:100%; position: absolute; left:0; top:50%; margin-top:-30px; background:none}
+		.flex-direction-nav li a {width: 60px; height: 60px;}
+		.flex-direction-nav li .next {right: 10px;}
+		.flex-direction-nav li .prev {left: 10px;}
+		.flex-direction-nav li a span{width:60px; height:60px}
+		.flex-direction-nav li a .thumb{width:60px; height:60px; display:none}
+
+
+		/* Welcome */
+		#welcome{display:none}
+		
+		/* .block element */
+		#homepage .block{padding:0;}
+		
+		#services .item{margin-bottom:20px;}
+
+		/* Portfolio */
+		#portfolio .thumb_wrapper img.scale{width:100%}
+
+		/* Blog */
+		#homepage_blog .grid_6{padding-bottom:1px;}
+		#homepage_blog .thumb_wrapper { float: left; margin-bottom:0; margin-right:20px; width:48%}
+		.related_post { display:none}
+		
+		/* Partner */
+		#partner .grid_2{margin-bottom:10px}
+		
+		/* List */
+		ul.list_dot{text-align:left}
+		
+		
+		#respond textarea{width:95%}
+		
+		
+		/* Footer & Copyright */
+		#footer .columns{margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid #474747}
+		
+		#copyright .alignleft,
+		#copyright .alignright{float:none; text-align:center; margin-bottom:10px}
+		
+		/* Partner */
+		#partner .grids .grid_2{ float:left; text-align:center; width:25%; margin-right:0px;}
+		#partner .grids .grid_2 img.scale{width:95%}
+		
+		
+		#contact_form textarea, 
+		#respond input[type=text],
+		#respond textarea{width:95%}
+		
+		/* Price Table */
+		.price-table {}
+		.price-table .price-column,
+		.price-table .price-column.featured-price{float: none; margin:0; margin-bottom:10px; display:block; box-shadow: none}
+		.price-table .price-column.price-third,
+		.price-table .price-column.price-fourth,
+		.price-table .price-column.price-fifth{ width:auto}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		#logo{float:none;text-align:center; margin-bottom:10px;}
+		#header {padding:0;}
+		#header .header_inner{padding:0;}
+
+		#header_right{position:static; margin:0;}
+		#header_right .phone{ text-align:center; float:none; }
+		#header .socials{float:none; text-align:center; margin-bottom:10px;}
+		#header .socials a{display:inline-block; margin:0 2px}
+		
+		/* Flexslider */
+		.flex-direction-nav { margin-top:-20px;}
+		.flex-direction-nav li a,
+		.flex-direction-nav li a span {width: 40px; height: 40px;}
+		.flex-direction-nav li .next span{ background-image:url(../images/next_small.png)}
+		.flex-direction-nav li .prev span{ background-image:url(../images/prev_small.png)}
+		.flexslider img.tiny_image{ display: block}
+		.flexslider img.big_image,
+		.flexslider img.small_image{ display: none}
+		
+		/* Service */
+		#services .item{margin-bottom:20px;}
+		
+		/* Portfolio */
+		#portfolio .thumb_wrapper{ float: none; margin-bottom:10px; margin-right:0; width:100%}
+		#portfolio .thumb_wrapper img.scale{width:100%}
+		#portfolio .portfolio_item .portfolio_content_wrapper{padding:10px}
+		
+		.category_menu { float:none;}
+		.category_menu li{ float: none; width:100%; margin-right:0; margin-bottom:10px}
+		.category_menu li a{display:block; text-align:center}
+		
+		/* Blog */
+		#homepage_blog .thumb_wrapper{float: none; margin-bottom:20px; margin-right:0; width:100%}
+		#homepage_blog .thumb_wrapper img.scale{width:100%}
+		
+		/* Partner */
+		#partner .grids .grid_2{ float:left; text-align:center; width:33%; margin-right:0px;}
+		#partner .grids .grid_2 img.scale{width:95%}
+		
+		#contact_form textarea, 
+		#respond input[type=text],
+		#respond textarea{width:95%}
+		
+	}
+	
+	/* Small Mobile Size */
+	@media only screen and (max-width: 320px) {
+		#contact_form textarea, 
+		#respond input[type=text],
+		#respond textarea{width:90%}
+
+	}
+	
+	/* Small Mobile Size */
+	@media only screen and (max-width: 240px) {
+		#logo img{width:100%}
+		#respond textarea{width:90%}
+	}
+
+

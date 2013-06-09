@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP" xml:lang="ja-JP"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="ja" />
+<!--=========== METADATA ============-->
+<title>メガネの和光</title>
+<!--<link rel="shortcut icon" href="/images/favicon.ico" />-->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="copyright" content="Copyright (C) 2010 MEGANE NO WAKO. All Reserved" />
+<script language="JavaScript" type="text/javascript">
+function year() {
+var data = new Date();
+var now_year = data.getFullYear();
+document.write(now_year);
+}
+</script>
+<!--========== /METADATA ============-->
+
+<!--============ IMPORT =============-->
+<link href="css/mainLayout.css" rel="stylesheet" type="text/css" media="all" />
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+   <![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/yuga.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.dropdownPlain.js" charset="utf-8"></script>
+<!--=========== /IMPORT =============-->
+
+<!-- google analytics -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-6026568-23']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- google analytics -->
+</head>
+
+<body id="top">
+
+<div id="container">
+
+<!--============ HEADER =============-->
+
+<div id="header">
+<h1 id="logo"><img src="images/header/logo.jpg" alt="メガネの和光" width="70" height="70" /></h1>
+<div id="header_inner">
+<div id="header_top">
+<p id="logoText">NAGOYA　TOKYO　OSAKA　FUKUOKA　SAPPORO</p><!-- #BeginLibraryItem "/Library/headerMenu.lbi" --><ul id="headerMenu">
+	<li id="home"><a href="http://www.megane-no-wako.co.jp/index.html">HOME</a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/privacy.html">プライバシーポリシー</a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/sitemap.html">サイトマップ</a></li>
+	<li><img src="images/header/tel2.gif" alt="フリーダイヤル：0120-818105" /></li>
+</ul>
+<!-- #EndLibraryItem --><!--header_top--></div><!-- #BeginLibraryItem "/Library/globalNav.lbi" -->
+<ul id="globalNav" class="allbtn dropdown">
+	<li><a href="http://www.megane-no-wako.co.jp/able/index.html"><img src="images/global/menu01.jpg" alt="和光だからできること" width="160" height="40" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/event/index.html"><img src="images/global/menu02.jpg" alt="催事情報" width="86" height="40" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity"><img src="images/global/menu03.jpg" alt="商品情報" width="86" height="40" /></a>
+		<ul class="sub_menu">
+<!--<li><span><a href="../commodity/recommended_items/index.html">今月のおすすめアイテム</a></span></li>-->
+			<li><span><a href="http://www.megane-no-wako.co.jp/commodity/frame/index.html">フレーム</a></span></li>
+			<li><span><a href="http://www.megane-no-wako.co.jp/commodity/lens/index.html">レンズ</a></span></li>
+			<li><span><a href="http://www.megane-no-wako.co.jp/commodity/hearing/index.html">補聴器</a></span></li>
+			<li><span><a href="http://www.megane-no-wako.co.jp/commodity/contact_lens/index.html">コンタクトレンズ</a></span></li>
+		</ul>
+	</li>
+	<li><a href="http://www.megane-no-wako.co.jp/store"><img src="images/global/menu04.jpg" alt="店舗情報" width="86" height="40" /></a>
+		<ul class="sub_menu">
+          <li><span><a href="http://www.megane-no-wako.co.jp/store/index.html">所在地マップ</a></span></li>
+          <li><span><a href="http://www.megane-no-wako.co.jp/store/list.html">店舗一覧</a></span></li>
+		</ul>
+    </li>
+	<li><a href="http://www.megane-no-wako.co.jp/system/index.html"><img src="images/global/menu05.jpg" alt="保証システム・アフターケア" width="106" height="40" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/contact/index.html"><img src="images/global/menu06.jpg" alt="お問い合わせ" width="107" height="40" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/company/index.html"><img src="images/global/menu07.jpg" alt="会社情報" width="86" height="40" /></a>
+		<!--<ul class="sub_menu">
+          <li><span><a href="../company/index.html">会社情報</a></span></li>
+          <li><span><a href="../company/outline.html">会社概要</a></span></li>
+          <li><span><a href="../company/history.html">沿革</a></span></li>
+		</ul>-->
+    </li>
+	<li><a href="http://www.megane-no-wako.co.jp/recruit/index.html"><img src="images/global/menu08.jpg" alt="採用情報" width="86" height="40" /></a></li>
+</ul>
+<!-- #EndLibraryItem --><!--header_inner--></div>
+<!--header--></div>
+
+<div id="mainVisual">
+	<img src="images/top/bg_main.jpg" width="950" height="220" alt="" />
+</div>
+
+<!--=========== /HEADER =============-->
+
+
+<!--============ ALL CONTENTS ==================================================================================================================================-->
+<div id="allContents">
+<div id="allContents_inner">
+
+<!--=========== MAIN-CONTENTS ============-->
+<div id="mainContents">
+
+<div class="centerImg"><a href="http://www.megane-no-wako.co.jp/event/index.html"><img src="images/top/banner.jpg" alt="" width="640" height="100" class="btn"/></a></div>
+
+<h2><img src="images/top/title01.gif" alt="TOPICS" width="69" height="13" /></h2>
+<!--=========== お知らせの更新はここを編集してください ============-->
+<table>
+        <tr>
+	       <th>2013年2月22日</th>
+	       <td><a href="http://wako01.blog.fc2.com/blog-entry-87.html" target="_blank">メガネの和光神戸店が移転グランドオープン。</a></td>
+	</tr>        
+        <tr>
+	       <th>2012年12月18日</th>
+	       <td><a href="http://www.megane-no-wako.co.jp/pdf/121221nenmatunensi.pdf" target="_blank">年末年始の営業日、営業時間のご案内。</a></td>
+	</tr>
+        <tr>
+	       <th>2012年11月25日</th>
+	       <td><a href="http://www.megane-no-wako.co.jp/pdf/121125_charity.pdf" target="_blank">障害をお持ちの方々にメガネを無料で進呈。「オーダーメイドメガネ奉仕会」を開催しました。</a></td>
+	</tr>
+        <tr>
+	       <th>2012年10月12日</th>
+	       <td><a href="http://wako01.blog.fc2.com/blog-entry-47.html" target="_blank">東日本大震災被災地の障害をお持ちの方々に、メガネの支援を致しました。</a></td>
+	</tr>
+        <tr>
+	       <th>2012年6月29日</th>
+	       <td><a href="http://wako01.blog.fc2.com/blog-entry-16.html" target="_blank">メガネの和光丸善店が完成スタート</a></td>
+	</tr>
+        <tr>
+	       <th>2012年6月26日</th>
+	       <td><a href="http://wako01.blog.fc2.com/blog-entry-15.html" target="_blank">メガネの和光名駅店が移転グランドオープン。</a></td>
+	</tr>
+        <tr>
+	       <th>2012年6月12日</th>
+	       <td><a href="http://wako01.blog.fc2.com/blog-entry-8.html" target="_blank">メガネの和光創業の店 丸善メガネサロンが移転。</a></td>
+	</tr>
+        <tr>
+	       <th>2012年3月14日</th>
+	       <td>トヨタ生協店　新装オープン！<br />新装オープンセール開催　3月14日～4月3日</td>
+	</tr>
+　　　　<tr>
+	       <th>2012年2月29日</th>
+	       <td>高槻店（松坂屋メガネサロン）新装オープン！<br />新装オープンセール開催　2月29日～3月20日</td>
+	</tr>
+
+
+</table>
+<!--=========== /お知らせの更新はここを編集してください ============-->
+
+<h2><img src="images/top/title02.gif" alt="確かな技術とホスピタリティ、安心のアフターサービスで快適な視生活をお届けします。" width="604" height="18" /></h2>
+
+<div id="topNavi">
+<dl class="box01">
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able01"><img src="images/top/nav01.jpg" alt="先進のメガネは和光から" width="200" height="37" class="btn" /></a></dt>
+	<dd>いつも新しい技術を取り入れた先進のメガネをお届けします。　</dd>
+</dl>
+<dl class="box01">
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able04"><img src="images/top/nav02.jpg" alt="和光独自の納得保証システム" width="200" height="37" class="btn" /></a></dt>
+	<dd>メガネを快適にご愛用いただくための納得保証システムがあります。</dd>
+</dl>
+<dl class="box03">
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able02"><img src="images/top/nav03.jpg" alt="和光は40歳からのメガネのスペシャリスト" width="200" height="37" class="btn" /></a></dt>
+	<dd>技術と知識、丁寧なコンサルティングで快適な視生活をお届けします。　</dd>
+</dl>
+<dl class="box02">
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able05"><img src="images/top/nav04.jpg" alt="5年間の点検システム" width="200" height="37" class="btn" /></a></dt>
+	<dd>メガネをご購入から5年間、定期的にメガネの無料点検をご案内させていただきます。　</dd>
+</dl>
+<dl class="box02">
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able03"><img src="images/top/nav05.jpg" alt="ファッションアドバイザー" width="200" height="37" class="btn" /></a></dt>
+	<dd>お客様の個性に合わせた魅力的なメガネをご提供します。　</dd>
+</dl>
+<dl>
+	<dt><a href="http://www.megane-no-wako.co.jp/able/index.html#able06"><img src="images/top/nav06.jpg" alt="全国に安心のネットワーク" width="200" height="37" class="btn" /></a></dt>
+	<dd>北海道から福岡まで、都市部を中心に全国に店舗を展開しています。</dd>
+</dl>
+<!--topNavi--></div>
+<!--mainContents--></div>
+<!--=========== /MAIN-CONTENTS ============-->
+
+
+<!--=========== SUB-CONTENTS ============-->
+<div id="subContents"><!-- #BeginLibraryItem "/Library/banner.lbi" --><ul id="banner">
+<li><a href="http://wako01.blog.fc2.com/" target="_blank"><img src="images/nav/baner01.jpg" alt="メガネの和光　情報発信ブログ" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/lens/index.html"><img src="images/nav/baner02.jpg" alt="先進の和光のシニアグラス" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/frame/air.html"><img src="images/nav/baner03.jpg" alt="エアチタニウム" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/frame/eye.html"><img src="images/nav/baner04.jpg" alt="アイメトリクス" width="224" height="74" /></a></li>
+	<li><a href="http://www.g-trance.jp/" target="_blank"><img src="images/nav/baner05.jpg" alt="ジートランス" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/hoya/index.html"><img src="images/nav/baner08.jpg" alt="フルサポートレンズ HOYA TRUST" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/hearing/index.html"><img src="images/nav/baner06.jpg" alt="補聴器" width="224" height="74" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/contact_lens/index.html"><img src="images/nav/baner07.jpg" alt="和光のコンタクトレンズ" width="224" height="74" /></a></li>
+</ul>	
+</ul>
+<ul id="banner01">
+	<li><a href="http://www.megane-no-wako.co.jp/news/news110419.html"><img src="images/nav/baner09.jpg" alt="東日本大震災に対するメガネの和光の支援について" width="224" height="37" /></a></li>
+</ul>	<!-- #EndLibraryItem --><!--subContents--></div>
+<!--=========== /SUB-CONTENTS ============-->
+
+
+
+<!--allContents_inner--></div>
+<!--allContents--></div>
+<!--============ /ALL CONTENTS =========================================================================================================================================================================-->
+<!--container--></div>
+
+
+<!--============ FOOTER =============-->
+
+<div id="footer">
+<div id="footer_wapper">
+<div id="footer_inner"><!-- #BeginLibraryItem "/Library/footerMenu.lbi" --><ul id="footerMenu" class="allbtn">
+	<li><a href="http://www.megane-no-wako.co.jp/able/index.html"><img src="images/footer/menu01.jpg" alt="和光だからできること" width="165" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/event/index.html"><img src="images/footer/menu02.jpg" alt="催事情報" width="77" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/commodity/index.html"><img src="images/footer/menu03.jpg" alt="商品情報" width="84" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/store/index.html"><img src="images/footer/menu04.jpg" alt="店舗情報" width="82" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/system/index.html"><img src="images/footer/menu05.jpg" alt="保証システム・アフターケア" width="106" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/contact/index.html"><img src="images/footer/menu06.jpg" alt="お問い合わせ" width="99" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/company/index.html"><img src="images/footer/menu07.jpg" alt="会社情報" width="84" height="34" /></a></li>
+	<li><a href="http://www.megane-no-wako.co.jp/recruit/index.html"><img src="images/footer/menu08.jpg" alt="採用情報" width="85" height="34" /></a></li>
+</ul>
+<!-- #EndLibraryItem --><div id="footerText">
+<div id="ft_logo"><img src="images/footer/logo.jpg" alt="メガネの和光" width="50" height="50" /></div>
+<p>メガネの和光<br />本社　〒460-0008　名古屋市中区栄三丁目15-4<br />TEL.052-241-0366</p>
+<!--footerText--></div>
+<div id="footerInfo">
+<img src="images/footer/tel2.gif" alt="フリーダイヤル：0120-818105" />
+<p>Copyright (C) <script language="JavaScript" type="text/javascript">
+year();
+</script> MEGANE NO WAKO. All Reserved</p>
+<!--footerInfo--></div>
+<!--footer_inner--></div>
+<!--footer_wapper--></div>
+<!--footer--></div>
+<!--============ /FOOTER =============-->
+
+
+
+</body>
+</html>

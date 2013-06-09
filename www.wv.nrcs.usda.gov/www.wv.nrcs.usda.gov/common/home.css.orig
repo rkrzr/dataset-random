@@ -1,0 +1,52 @@
+/* Homepage Only Styles */
+
+.homeHighlight 
+{ background-color:#f1f1f1 }
+.homeHighlight P
+{ padding-top:0px; margin-top:2px }
+.homeHighlight IMG
+{ margin-right:1px }
+.homeHighlight TD.moreinfo
+{ text-align:right; padding:0px 8px 6px 0px; font:normal 9.5px verdana,arial,helvetica,sans-serif }
+.homeHighlight H1, .homeHighlight H2, .homeHighlight H3
+{ font:bold 15px arial,helvetica,sans-serif; margin:0px; padding:0px }
+
+
+#infobar
+{ width:155px; max-width:155px; border-left:1px solid #666; margin-left:10px; white-space:normal }
+#infobar H1, #infobar H2, #infobar H3
+{ padding:9px 7px; margin:0px; color:#000; font-size:11px; border-bottom:1px solid #fff }
+
+#infobar UL
+{ margin-left:-26px }
+#infobar UL A
+{ margin-bottom:4px }
+#infobar A:link, #infobar A:visited
+{ color:#000; text-decoration:none }
+#infobar A:hover
+{ color:#444; text-decoration:underline }
+
+
+/*/*/
+#infobar H1, #infobar H2, #infobar H3
+{ background-color:#f1f1f1 }
+#infobar UL
+{ margin:0px; padding:6px 0px 10px 0px; border-top:1px solid #e0e0e0 }
+#infobar LI
+{
+	background:url('infobar_arrow.gif') no-repeat top left;
+	margin:0px; font-size:10px; line-height:1.2em;
+	display:list-item; list-style-position:outside; list-style-type:none; padding:0px 0px 4px 16px
+}
+#infobar UL LI
+{ border-bottom:1px solid #e0e0e0; margin:0px 0px 6px 0px; padding:0px 4px 6px 20px }
+/* */
+
+
+/* Printer Output */
+@media print {
+
+	.homeHighlight TD.moreinfo, #infobar
+	{ display:none }
+
+}

@@ -1,0 +1,126 @@
+/* Columns  */
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth { margin-right: 4%; float: left; line-height:21px; margin-bottom:20px; }
+.one_half { 	width: 48%; }
+.one_third { width: 30.6666%; }
+.two_third { width: 65.3332%; }
+.one_fourth { width: 22%;}
+.three_fourth { width: 74%; }
+.last {margin-right:0!important; clear: right; }
+.clearboth{ clear: both; display: block; font-size: 0px; height: 0px; line-height: 0; width: 100%; overflow:hidden; }
+
+/* Dropcap */
+.kt_dropcap { font-size:40px; margin-right:6px; line-height:normal; text-transform: uppercase; float: left; position: relative; color:#888; }
+
+/* Highlight */
+.highlight1 { background:#ffec95; }
+.highlight2 { background:#333; color:#fff; }
+
+/* Video */
+.video-shortcode { margin-bottom:15px; }
+
+/* Tabs */
+.kt-tab-wrapper { overflow: hidden; width: 100%; margin-bottom:15px; padding-bottom:2px }
+.kt-tab-wrapper ul.kt-tabs {padding:0; margin:0;}
+.kt-tab-wrapper ul.kt-tabs li{display:inline; margin-right:5px; list-style-type:none; padding:0!important}
+.kt-tab-wrapper ul.kt-tabs li a { font-size:11px; font-weight:bold; line-height:28px; padding: 0px 15px; background:#f9f9f9 url(../../images/gradient_top.png) repeat-x; display:inline-block;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px;border-top-right-radius: 3px; border:1px solid #ddd; border-bottom: none; text-shadow: 0px 1px 0px #fff; }
+
+.kt-tab-wrapper ul.kt-tabs li.active a{background:#fefefe; margin-bottom:-1px; padding-bottom:1px; color:#333}
+.kt-tab-wrapper .kt-tab-content{padding:15px; overflow:hidden; border:1px solid #ddd; background-color:#fefefe; display:none;-webkit-border-radius: 3px;
+-webkit-border-top-left-radius: 0;
+-moz-border-radius: 3px;
+-moz-border-radius-topleft: 0;
+border-radius: 3px;
+border-top-left-radius: 0; box-shadow: 0px 2px 0px #ddd;}
+
+/* Tooltips */
+span.kt_tooltip{ border-bottom:1px dotted #333; font-weight:bold; display:inline; cursor:pointer}
+
+/* Toggles */
+.kt_toggle {padding:4px 5px; background:#e2e2e2; border:1px solid #ddd;cursor:pointer; margin-bottom:10px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; }
+.kt_toggle:hover{background:#fff;}
+.kt_toggle a{ background: url(images/toggle_plus.png) no-repeat left; text-decoration:none; padding-left:25px; color:#444; font-size:14px; }
+.kt_toggle:hover { background-color:#fff; }
+.kt_toggle.active a{background:url(images/toggle_minus.png) no-repeat left;}
+.kt_toggle_content { display:none; margin-bottom:15px; }
+.kt_toggle_content .block {font-style:italic; line-height:18px; padding:10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background-color:#fff; border:1px solid #ddd;}
+
+/* List */
+.kt_list{margin:0; padding:0;list-style-type: none!important}
+.kt_list li{background-position: center left; background-repeat:no-repeat; list-style-type: none!important; padding:3px 0; padding-left:25px !important; }
+.kt_list.check li{ background-image:url(images/list/check.png);}
+.kt_list.error li{ background-image:url(images/list/error.png);}
+.kt_list.arrow li{ background-image:url(images/list/arrow.png);}
+.kt_list.star li{ background-image:url(images/list/star.png);}
+.kt_list.plus li{ background-image:url(images/list/plus.png);}
+
+.kt_list.black li{ background-image:url(images/list/black.png);}
+.kt_list.blue li{ background-image:url(images/list/blue.png);}
+.kt_list.gold li{ background-image:url(images/list/gold.png);}
+.kt_list.gray li{ background-image:url(images/list/gray.png);}
+.kt_list.green li{ background-image:url(images/list/green.png);}
+.kt_list.orange li{ background-image:url(images/list/orange.png);}
+.kt_list.pink li{ background-image:url(images/list/pink.png);}
+.kt_list.red li{ background-image:url(images/list/red.png);}
+.kt_list.silver li{ background-image:url(images/list/silver.png);}
+
+/* Buttons */
+.button.button-shortcode{margin-right:5px; margin-bottom:5px}
+.button-shortcode span{display:inline-block}
+
+/* Button icons */
+.button-shortcode span.none{}
+.button-shortcode span.download{ background:url(images/download.png) 0 50% no-repeat; padding-left:20px;}
+.button-shortcode span.tick{ background:url(images/tick.png) 0 50% no-repeat; padding-left:20px;}
+.button-shortcode span.alert{ background:url(images/alert.png) 0 50% no-repeat; padding-left:20px;}
+.button-shortcode span.info{ background:url(images/info.png) 0 50% no-repeat; padding-left:20px;}
+.button-shortcode span.note{ background:url(images/note.png) 0 50% no-repeat; padding-left:20px;}
+
+/* Button Colors */
+.button-shortcode.black { background-color:#555; color:#fff; text-shadow:0px 1px 0px #333; box-shadow: 0px 2px 0px #333}
+.button-shortcode.black:hover{background-color:#666; color:#fff;}
+.button-shortcode.black:active{box-shadow: inset 0px 2px 0px #333}
+.button-shortcode.red { background-color: #de4444; color:#fff; text-shadow:0px 1px 0px #b12d2d; box-shadow: 0px 2px 0px #b12d2d}
+.button-shortcode.red:hover {background-color:#e75555; color:#fff}
+.button-shortcode.red:active {box-shadow: inset 0px 2px 0px #b12d2d}
+.button-shortcode.green{background-color: #76ce1d; color:#fff; text-shadow:0px 1px 0px #60aa15; box-shadow: 0px 2px 0px #60aa15}
+.button-shortcode.green:hover{background-color: #84d92d; color:#fff}
+.button-shortcode.green:active{box-shadow: inset 0px 2px 0px #60aa15}
+.button-shortcode.blue{background-color: #3783d5; color:#fff; text-shadow:0px 1px 0px #2b72be; box-shadow: 0px 2px 0px #2b72be}
+.button-shortcode.blue:hover{ background-color:#4b92df; color:#fff;}
+.button-shortcode.blue:active{box-shadow: inset 0px 2px 0px #2b72be}
+.button-shortcode.orange{background-color: #d57637; color:#fff; text-shadow:0px 1px 0px #bb6328;box-shadow: 0px 2px 0px #bb6328}
+.button-shortcode.orange:hover{ background-color:#e18447; color:#fff;}
+.button-shortcode.orange:active{box-shadow: inset 0px 2px 0px #bb6328}
+
+.button-shortcode.light {background-color: #eee; color:#666;}
+
+/* Boxes shortcodes */
+.kt_box{ padding:10px; padding-left:35px; background-position: 10px 50%; background-repeat:no-repeat; border-width:1px 0 1px 0; border-style:solid; margin-bottom:10px;}
+.kt_box.download {background-image:url(images/download.png); background-color:#edfcd5; border-color:#d4ebaf}
+.kt_box.tick {background-image:url(images/tick.png); background-color:#edfcd5; border-color:#d4ebaf}
+.kt_box.note {background-image:url(images/note.png); background-color:#fef6d2; border-color:#efe3ae}
+.kt_box.alert {background-image:url(images/alert.png); background-color:#ffd9c8; border-color:#f8c0c0}
+.kt_box.info {background-image:url(images/info.png); background-color:#e3f3fb; border-color:#c0e5f8}
+
+/* Price Table */
+.price-table{ margin-bottom:20px}
+.price-table .price-column{float:left; display:inline; text-align:center; border:1px solid #e2e2e2; margin-right:-1px}
+.price-table .price-column.price-third{ width:257px;}
+.price-table .price-column.price-fourth{ width:193px;}
+.price-table .price-column.price-fifth{ width:154px;}
+
+.price-table .price-column.featured-price{ margin:-10px 0; margin-right:-1px; padding-bottom:20px; box-shadow: 0px 0px 10px #eee; z-index:1000}
+
+.price-table .price-column .price-header { background:#f9f9f9 url(../images/sep_home.png) bottom repeat-x; margin-bottom:10px; text-shadow:0 1px 0px #fff}
+.price-table .price-column.featured-price .price-header {background-color: #8aaaba;}
+.price-table .price-column .price-header h4{ color:#333; padding:15px 0 20px 0; margin-bottom:0; text-align:center;}
+.price-table .price-column.featured-price .price-header h4{color:#fff; text-shadow:0 1px 0px #7494a5}
+
+.price-table .price-column .price{ font-size:14px; color:#888; margin-bottom:10px}
+.price-table .price-column .price .price-value{ font-size:24px; color:#333;}
+
+.price-table .price-column .price-content { padding:20px}
+.price-table .price-column .price-content ul{margin:0; margin-bottom:20px; padding:0}
+.price-table .price-column .price-content ul li{padding:10px 0; margin:0; border-bottom:1px solid #e2e2e2;}
+.price-table .price-column .price-content ul li:hover{color:#999}
+

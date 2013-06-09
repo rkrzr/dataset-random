@@ -1,0 +1,39 @@
+/*
+Template Name: PhotoProwess
+File: Gallery CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+.gallery{
+	display:block;
+	width:100%;
+	margin-bottom:30px;
+	}
+
+.gallery ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+.gallery li{
+	float:left;
+	margin:0 0 10px 10px;
+	}
+
+.gallery li a img{
+	width:174px;
+	height:150px;
+	padding:4px;
+	border:1px solid #D8D9DE;
+	}
+
+.gallery li a:hover img{
+	border-color:#669999;
+	}
+
+.gallery li.first{
+	margin-left:0;
+	}

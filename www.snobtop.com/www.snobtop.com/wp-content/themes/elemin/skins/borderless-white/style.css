@@ -1,0 +1,20 @@
+/*  
+Skin Name: Borderless White
+Version: 1.0
+Description: Skin for Elemin
+*/
+
+body {
+	background: #fff;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	background: none;
+	border: none;
+}
+#pagewrap:before, #pagewrap:after {
+	display: none;
+}

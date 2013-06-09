@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Hostel TelmoTango</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 789px;
+	height: 160px;
+	z-index: 1;
+	left: -1px;
+	top: 480px;
+	background-color:transparent;
+	background-color:none;
+	
+}
+#appDiv2 a {
+	padding:0 0 0 0;
+	float:none;
+	text-transform:none;
+	width:auto;
+	font-size:12px;
+	text-decoration:none;
+}
+#apDiv2 {
+	position: absolute;
+	width: 789px;
+	height: 60px;
+	z-index: 1;
+	top: 675px;
+	background-color:transparent;
+	background-color:none;
+	text-align:center;
+	color:#003366;
+	font-weight:bold;
+	
+}
+</style>
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="css/ie6.css">
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="css/ie7.css">
+<![endif]-->
+
+<meta name="keywords" content="Telmotango Hostel Suites Hostel in Buenos Aires Barrio San Telmo Suites para Juventud Estudiantes Turistas Backpackers Lecciones de Tango Shows Hostel Hotel Sudamerica Gaucho Vacaciones latino america hostal albergue juvenil alojamiento posada mochilero vacaciones turismo viajes travel motel telmotango albergue estudiantil soccer futbol sociales buena atmosfera buen ambiente ambiente amistoso hostel barato en Centro de la ciudad Dormitorio actividades fiestas hospedaje Inn Juventud albergue para la juventud pension Clases de español cursos profesores desayunos descuentos grupos extranjeros">
+
+<meta name="description" content="TELMOTANGO es el Hostel donde todo está pensado para que tu estadía sea divertida y segura.
+Ubicado en pleno centro de la Ciudad de Buenos Aires, en el casco histórico de San Telmo, siendo una casona de 130 años de antiguedad totalmente restaurado con su gran cupula vidriada, una de las únicas de San Telmo, imperdible de conocerla.
+Te ofrecemos un nivel de Bed-Breakfast a un precio económico de Hostel juvenil con información, actividades, servicios y excelente atención. Tu espacio para el mejor lugar de encuentro, te esperamos.hostelling, activities, parties, hospedaje, inn, juventud, albergue para la juventud, pension, pention, spanish classes, spanish, spanish courses, spanish teachers, breakfast, discounts, groups, international guests Telmotango Hostel Suites Hostel, aires, buenos, san telmo, suites, youth,lodging, accommodations buenos aires, backpackers, tango lessons, tango shows, Argentina, tourism, lodging, accomodation, hostel, hotel, youth hostel, south americaTelmotango Hostel Suites tiene registro de prestador turístico otorgadopor el Gobierno de la Ciudad de Buenos Aires.">
+</head>
+
+<body>
+
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+   
+            <div id="intro">
+            <a href="es/index.php" class="introSpanish" name="Español">Español</a>
+            <a href="en/index.php" class="introEnglish" name="English">English</a>
+            <div id="apDiv1">
+            <a href="mailto:info@hostelmotango.com" target="_blank" style="background-color:none; background-color:transparent"><img src="images/banner-estudiantes.png" width="789" height="147" /></a></div>
+            
+            </div>
+   <div id="apDiv2">Chacabuco 679 - San Telmo (C.P. 1069) | Buenos Aires Argentina | Tel/Fax (54-11)4361-5808<br />
+e-mail: <a href="mailto:info@hostelmotango.com" target="_blank" style="color:#003366; text-decoration:none">info@hostelmotango.com </a>-<a href="http://www.hostelmotango.com" target="_blank" style="color:#003366; text-decoration:none"> www.hostelmotango.com</a></div>
+   </div>
+<!-- End Wrapper -->
+
+</body>
+</html>
