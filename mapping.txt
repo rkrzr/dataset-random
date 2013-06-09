@@ -75,3 +75,8 @@
 "http://www.powerh2o.net/" : "/opt/dataset2/www.powerh2o.net/www.powerh2o.net/index.html",
 "http://evridges.com/index.html" : "/opt/dataset2/evridges.com/evridges.com/index.html",
 "http://www.bih.at/" : "/opt/dataset2/www.bih.at/www.bih.at/index.html",
+"http://www.bloosem.nl/" : "/opt/dataset2/www.bloosem.nl/www.bloosem.nl/index.html",
+"http://www.citylemon.com/" : "/opt/dataset2/www.citylemon.com/www.citylemon.com/index.html",
+"http://www.cultuurbewust.nl/" : "/opt/dataset2/www.cultuurbewust.nl/www.cultuurbewust.nl/index.html",
+"http://www.dub.uu.nl/" : "/opt/dataset2/www.dub.uu.nl/www.dub.uu.nl/index.html",
+"http://www.nmch.nl/" : "/opt/dataset2/www.nmch.nl/www.nmch.nl/index.html",
