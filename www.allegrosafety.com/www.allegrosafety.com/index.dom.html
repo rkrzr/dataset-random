@@ -1,0 +1,1026 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=ASCII" />
+
+    <script src="sample/jquery-1.8.3.js" type="text/javascript">
+</script>
+    <link href="sample/allegro.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+//&lt;![CDATA[
+    var int;
+    var int2 = 0;
+    function onloadx(dirLNK){
+    int = window.setInterval(function() { clock() }, 4500);
+    var t = setTimeout(function() { $('#redCATtag').show(); $('#redCATinside').children().hide(); $('#redCATinside').animate({ width: 155, padding: 10 }, 500, function() { $('#redCATinside').children().show(); $('#redCATopen').hide(); }); }, 3000)
+    if (dirLNK == "") { } else {
+        newPRODany(dirLNK);
+    }
+    }
+    function clock() {
+    if (!$('#featLIST1').is(":hidden")) {
+        f1();
+    }
+    else if (!$('#featLIST2').is(":hidden")) {
+        f2();
+    }
+    else if (!$('#featLIST3').is(":hidden")) {
+        f3();
+    }
+    else if (!$('#featLIST4').is(":hidden")) {
+        f4();
+    }
+    else if (!$('#featLIST5').is(":hidden")) {
+        f5();
+    }
+    }
+    function f1() {
+    $('#featLIST1').hide();
+    $('#featLIST2').show().fadeOut(0).fadeIn(400);
+    $('#featLIST3').hide();
+    $('#featLIST4').hide();
+    $('#featLIST5').hide();
+    $('#act1').removeClass('actFILL').addClass('actBLANK');
+    $('#act2').removeClass('actBLANK').addClass('actFILL');
+    $('#act3').removeClass('actFILL').addClass('actBLANK');
+    $('#act4').removeClass('actFILL').addClass('actBLANK');
+    $('#act5').removeClass('actFILL').addClass('actBLANK');
+    }
+    function f2() {
+    $('#featLIST1').hide();
+    $('#featLIST2').hide();
+    $('#featLIST3').show().fadeOut(0).fadeIn(400); ;
+    $('#featLIST4').hide();
+    $('#featLIST5').hide();
+    $('#act1').removeClass('actFILL').addClass('actBLANK');
+    $('#act2').removeClass('actFILL').addClass('actBLANK');
+    $('#act3').removeClass('actBLANK').addClass('actFILL');
+    $('#act4').removeClass('actFILL').addClass('actBLANK');
+    $('#act5').removeClass('actFILL').addClass('actBLANK');
+    }
+    function f3() {
+    $('#featLIST1').hide();
+    $('#featLIST2').hide();
+    $('#featLIST3').hide();
+    $('#featLIST4').show().fadeOut(0).fadeIn(400); ;
+    $('#featLIST5').hide();
+    $('#act1').removeClass('actFILL').addClass('actBLANK');
+    $('#act2').removeClass('actFILL').addClass('actBLANK');
+    $('#act3').removeClass('actFILL').addClass('actBLANK');
+    $('#act4').removeClass('actBLANK').addClass('actFILL');
+    $('#act5').removeClass('actFILL').addClass('actBLANK');
+    }
+    function f4() {
+    $('#featLIST1').hide();
+    $('#featLIST2').hide();
+    $('#featLIST3').hide();
+    $('#featLIST4').hide();
+    $('#featLIST5').show().fadeOut(0).fadeIn(400); ;
+    $('#act1').removeClass('actFILL').addClass('actBLANK');
+    $('#act2').removeClass('actFILL').addClass('actBLANK');
+    $('#act3').removeClass('actFILL').addClass('actBLANK');
+    $('#act4').removeClass('actFILL').addClass('actBLANK');
+    $('#act5').removeClass('actBLANK').addClass('actFILL');
+    }
+    function f5() {
+    $('#featLIST1').show().fadeOut(0).fadeIn(400); ;
+    $('#featLIST2').hide();
+    $('#featLIST3').hide();
+    $('#featLIST4').hide();
+    $('#featLIST5').hide();
+    $('#act5').removeClass('actFILL').addClass('actBLANK');
+    $('#act1').removeClass('actBLANK').addClass('actFILL');
+    $('#act2').removeClass('actFILL').addClass('actBLANK');
+    $('#act3').removeClass('actFILL').addClass('actBLANK');
+    $('#act4').removeClass('actFILL').addClass('actBLANK');
+    }
+    function fx(pass) {
+    if (pass == 3) {
+        int = window.clearInterval(int);
+        int2 = 1;
+        $('#actX').removeClass('actPAUSE').addClass('actPLAY');
+
+    } else {
+        if (int2 == 0) {
+            int = window.clearInterval(int);
+            int2 = 1;
+            $('#actX').removeClass('actPAUSE').addClass('actPLAY');
+        } else {
+            onloadx();
+            int2 = 0;
+            $('#actX').removeClass('actPLAY').addClass('actPAUSE');
+        }
+    }
+
+    }
+    function newPROD() {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    window.frames["myIFRAME"].location = "../asp/new_products_list2013.aspx";
+    }
+
+    function newVID() {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    window.frames["myIFRAME"].location = "../asp/video_list_2013.aspx";
+    }
+
+    function newPRODfea(prod) {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    window.frames["myIFRAME"].location = "../asp/product_detail2013.aspx?prodid=" + prod.toString();
+    }
+
+    function newPRODpdf(prod) {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    window.frames["myIFRAME"].location = "../asp/pdf.aspx?prodID=" + prod.toString();
+    }
+
+    function newPRODany(prod) {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    window.frames["myIFRAME"].location = prod.toString();
+    }
+
+    function whatNEW() {
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').hide();
+    $('#newsIFRAME').show();
+    $('#nav_MENU').hide();
+    }
+
+    function navMENUhi() {
+    $('#nav_MENU').show();
+    }
+    function navMENUbye() {
+    $('#nav_MENU').hide();
+    $('#notIFRAME').hide();
+    $('#yesIFRAME').show();
+    $('#newsIFRAME').hide();
+    }
+    //]]&gt;
+    </script>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+      
+    a.menuitemx          {background: url(graphics/interface/grey_gradient2.jpg) repeat-x left bottom;color: white; font: bold 10px Arial; text-decoration: none; padding: 3px 0 0px 10px; position: relative; width: auto; display: block }
+
+    .glossymenu    { margin: 5px 0; padding: 0; border:none; width: 168px; text-align:left; font: italic bold 11px Arial;}
+
+    .glossymenu a.menuCLICK          { cursor:pointer; color: white; font:italic bold 11px Arial; text-decoration: none; padding: 3px 0 3px 10px; position: relative; width: auto; display: block }
+
+    .glossymenu a.menuCLICK:visited, .glossymenu .menuitem:active{
+    color: white;
+    }
+
+    .glossymenu a.menuCLICK .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    }
+
+    .glossymenu a.menuitem:hover{
+    }
+
+    .glossymenu div.submenu { background-color: black; display:none;}
+
+    .glossymenu div.submenu ul{ /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .glossymenu div.submenu ul li { border: none }
+
+    .glossymenu div.submenu ul li a    { color: #A5A5A5; font: bold 10px Arial; text-decoration: none; padding: 1px 0 1px 15px; display: block }
+
+    .glossymenu div.submenu ul li a:hover  { color:#FFFFFF !important; }
+
+
+    #redCATtag    {display:none;}
+    .glossymenuNAV    { margin: 5px 0; padding: 0; border:none; width: 620px; text-align:left; font: italic bold 11px Arial;}
+
+    .glossymenuNAV a.menuCLICK          { cursor:pointer; color: white; font:italic bold 13px Arial; text-decoration: none; padding: 3px 0 3px 10px; position: relative; width: auto; display: block }
+
+    .glossymenuNAV a.menuCLICK:visited, .glossymenuNAV .menuitem:active{
+    color: white;
+    }
+
+    .glossymenuNAV a.menuCLICK .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    }
+
+    .glossymenuNAV a.menuitem:hover{ 
+    }
+
+    .glossymenuNAV div.n_submenu { background-color: black; display:block;}
+
+    .glossymenuNAV div.n_submenu ul{ /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .glossymenuNAV div.n_submenu ul li { border: none }
+
+    .glossymenuNAV div.n_submenu ul li a    { color: #FFFFFF; font: bold 10px Arial; text-decoration: none; padding: 1px 0 1px 15px; display: block }
+
+    .glossymenuNAV div.n_submenu ul li a:hover  { color: #3366cc; color: #6A6A6A  }
+    /*]]&gt;*/
+    </style>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    .botmenu {
+    color:White;
+    }
+    .style1 {color: #CC0000}
+
+    /*]]&gt;*/
+    </style>
+    <script type="text/javascript">
+//&lt;![CDATA[
+    function menuOPEN(id) {
+        var menOpen = "#menudiv";
+        var menCol = new Array("","#007DC3", "#936FB1", "#B1005D", "#F6A01A", "#0067B1", "#EF3E42", "#EF3E42", "#54B848", "#00A0AF");
+        $('div.submenu:visible').slideUp(300);
+        menOpen2 = menOpen + id;
+        $(menOpen2).slideDown(300);
+
+        var menPage = "/asp/subcategory_list2013.aspx?categoryName=" + id;
+        myiframe = window.frames["myIFRAME"];
+        myiframe.location.replace(menPage);
+        var menHD = "#menuhd" + id;
+        
+        $('.glossymenu a.menuCLICK').css("color", "#FFFFFF");
+        $(menHD).css("color", menCol[id]);
+
+        $('.glossymenu div.submenu ul li a').css('color', '#A5A5A5');
+        navMENUbye();
+    }
+
+    function menuOPEN2(id) {
+        var menOpen = "#menudiv";
+        menOpen2 = menOpen + id
+        if ($(menOpen2).is(":visible")) {
+        } else {
+
+            var menCol = new Array("", "#007DC3", "#936FB1", "#B1005D", "#F6A01A", "#0067B1", "#EF3E42", "#EF3E42", "#54B848", "#00A0AF");
+            $('div.submenu:visible').slideUp(300);
+            menOpen2 = menOpen + id;
+            $(menOpen2).slideDown(300);
+
+            var menHD = "#menuhd" + id;
+
+            $('.glossymenu a.menuCLICK').css("color", "#FFFFFF");
+            $(menHD).css("color", menCol[id]);
+
+            $('.glossymenu div.submenu ul li a').css('color', '#A5A5A5');
+        }
+        navMENUbye();
+    }
+
+    //]]&gt;
+    </script>
+    <script src="http://awesomeness/builder/builder.js" type="text/javascript">
+</script>
+    <script src="http://awesomeness/builder/js/jquery.js" type="text/javascript">
+</script>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+    .highlight {box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px red !important;}
+        *[data-block] {outline: 1px solid blue !important; box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px blue !important;}    
+    /*]]&gt;*/
+    </style>
+    <link href="http://awesomeness/builder/css/ui-lightness/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
+    <title></title>
+  </head>
+  <body onload="onloadx('');" class="">
+    <center class="">
+      <div class="nums">
+        <p class="numsTXT">
+          USA&#160;&#160;800.622.3530&#160;&#160;&#160;&#195;&#162;&#226;&#8218;&#172;&#194;&#162;&#160;&#160;&#160;INTERNATIONAL&#160;&#160;864.846.8740&#160;&#160;&#160;&#195;&#162;&#226;&#8218;&#172;&#194;&#162;&#160;&#160;&#160;FOLLOW US&#160;&#160;&#160;&#160;<a href="https://www.facebook.com/AllegroIndustries" target="_blank"><img src="sample/Facebook_icon_18px.png" alt="" border="none" class="findus" /></a>&#160;&#160;<a href="https://twitter.com/intent/user?screen_name=allegroind" target="_blank"><img src="sample/Twitter_icon_18px.png" alt="" border="none" class="findus" /></a>&#160;&#160;<a href="http://www.youtube.com/user/AllegroIndustries" target="_blank"><img src="sample/YouTube_icon_18x49px.png" alt="" border="none" class="findus" /></a>
+        </p>
+      </div>
+      <div class="navDIV">
+        <table class="navDIV">
+          <tbody class="">
+            <tr class="">
+              <td class="">
+                <div class="navDIVinner" onclick="javascript:window.location.href='../index.aspx';">
+                  &#160;
+                </div>
+              </td>
+              <td class="">
+                <div class="navSPAN" onclick="navMENUhi();">
+                  PRODUCTS
+                </div>
+                <div id="nav_MENU" onclick="$('#nav_MENU').hide();" class="glossymenuNAV">
+                  <div class="navCLS">
+                    <span class="navCLSspan" onclick="$('#nav_MENU').hide();">X</span>
+                  </div>
+                  <table class="navMENUtbl">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <a name="n_menuhd1" onclick="menuOPEN(1);" title="RESPIRATORS" target="myIFRAME" class="menuCLICK" id="n_menuhd1">RESPIRATORS</a>
+                          <div id="n_menudiv1" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=11" target="myIFRAME" onclick="menuOPEN(1);" title="Accessories">Accessories</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=8" target="myIFRAME" onclick="menuOPEN(1);" title="Air Sources, HP">Air Sources HP</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=3" target="myIFRAME" onclick="menuOPEN(1);" title="Ambient Air Pumps">Ambient Air Pumps</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=10" target="myIFRAME" onclick="menuOPEN(1);" title="Cleaning">Cleaning</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=9" target="myIFRAME" onclick="menuOPEN(1);" title="Fit Testing">Fit Testing</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=7" target="myIFRAME" onclick="menuOPEN(1);" title="Helmets - Blasting">Helmets - Blasting</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=40" target="myIFRAME" onclick="menuOPEN(1);" title="Blasting Systems">&#160;&#160;&#160;&#160;&#160;&#160;Blasting Systems</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=39" target="myIFRAME" onclick="menuOPEN(1);" title="Helmets - Welding">Helmets - Welding</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=41" target="myIFRAME" onclick="menuOPEN(1);" title="Welding Systems">&#160;&#160;&#160;&#160;&#160;&#160;Welding Systems</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=1" target="myIFRAME" onclick="menuOPEN(1);" title="Hoods">Hoods</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=2" target="myIFRAME" onclick="menuOPEN(1);" title="Hood Systems">&#160;&#160;&#160;&#160;&#160;&#160;Hood Systems</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=6" target="myIFRAME" onclick="menuOPEN(1);" title="Masks">Masks</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=4" target="myIFRAME" onclick="menuOPEN(1);" title="Mask Systems">&#160;&#160;&#160;&#160;&#160;&#160;Mask Systems</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=42" target="myIFRAME" onclick="menuOPEN(1);" title="Shields">Shields</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=5" target="myIFRAME" onclick="menuOPEN(1);" title="Shield Systems">&#160;&#160;&#160;&#160;&#160;&#160;Shield Systems</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=12" target="myIFRAME" onclick="menuOPEN(1);" title="Storage and Carry Bags">Storage and Carry Bags</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                        <td>
+                          <a name="n_menuhd4" onclick="menuOPEN(4);" title="BLOWERS" target="myIFRAME" class="menuCLICK" id="n_menuhd4">BLOWERS</a>
+                          <div id="n_menudiv4" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=21" target="myIFRAME" onclick="menuOPEN(4);" title="Accessories">Accessories</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=17" target="myIFRAME" onclick="menuOPEN(4);" title="Air Bags">Air Bags</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=18" target="myIFRAME" onclick="menuOPEN(4);" title="Axial">Axial</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=36" target="myIFRAME" onclick="menuOPEN(4);" title="Blower Selection">Blower Selection</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=22" target="myIFRAME" onclick="menuOPEN(4);" title="Carpet">Carpet</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=19" target="myIFRAME" onclick="menuOPEN(4);" title="Centrifugal">Centrifugal</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=23" target="myIFRAME" onclick="menuOPEN(4);" title="Ducting">Ducting</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=38" target="myIFRAME" onclick="menuOPEN(4);" title="Manhole Ventilation Passthru (MVP)">Manhole Ventilation Passthru (MVP)</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=37" target="myIFRAME" onclick="menuOPEN(4);" title="Pneumatic (Jet Fans)">Pneumatic (Jet Fans)</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=24" target="myIFRAME" onclick="menuOPEN(4);" title="Ventilation Information">Ventilation Information</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=20" target="myIFRAME" onclick="menuOPEN(4);" title="Venturi">Venturi</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd5" onclick="menuOPEN(5);" title="CONFINED SPACE" target="myIFRAME" class="menuCLICK" id="n_menuhd5">CONFINED SPACE</a>
+                          <div id="n_menudiv5" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=26" target="myIFRAME" onclick="menuOPEN(5);" title="Accessories">Accessories</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=43" target="myIFRAME" onclick="menuOPEN(5);" title="Manhole Products">Manhole Products</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=44" target="myIFRAME" onclick="menuOPEN(5);" title="Pumps">Pumps</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=25" target="myIFRAME" onclick="menuOPEN(5);" title="Work Tents and Heaters">Work Tents and Heaters</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                        <td>
+                          <a name="n_menuhd2" onclick="menuOPEN(2);" title="AED STORAGE" target="myIFRAME" class="menuCLICK" id="n_menuhd2">AED STORAGE</a>
+                          <div id="n_menudiv2" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=14" target="myIFRAME" onclick="menuOPEN(2);" title="Defribillator Storage">Defribillator Storage</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd3" onclick="menuOPEN(3);" title="SAMPLING PRODUCTS" target="myIFRAME" class="menuCLICK" id="n_menuhd3">SAMPLING PRODUCTS</a>
+                          <div id="n_menudiv3" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=15" target="myIFRAME" onclick="menuOPEN(3);" title="Cassettes">Cassettes</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=16" target="myIFRAME" onclick="menuOPEN(3);" title="Pumps">Pumps</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd6" onclick="menuOPEN(6);" title="ERGONOMICS" target="myIFRAME" class="menuCLICK" id="n_menuhd6">ERGONOMICS</a>
+                          <div id="n_menudiv6" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=27" target="myIFRAME" onclick="menuOPEN(6);" title="Back Support">Back Support</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=28" target="myIFRAME" onclick="menuOPEN(6);" title="Wrist &amp; Elbow Support">Wrist &amp; Elbow Support</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd7" onclick="menuOPEN(7);" title="KNEE PROTECTION" target="myIFRAME" class="menuCLICK" id="n_menuhd7">KNEE PROTECTION</a>
+                          <div id="n_menudiv7" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=29" target="myIFRAME" onclick="menuOPEN(7);" title="Specialized Industrial Pads">Specialized Industrial Pads</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=30" target="myIFRAME" onclick="menuOPEN(7);" title="Specialty Pads">Specialty Pads</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd8" onclick="menuOPEN(8);" title="SEASONAL CLIMATE CONTROL" target="myIFRAME" class="menuCLICK" id="n_menuhd8">SEASONAL CLIMATE CONTROL</a>
+                          <div id="n_menudiv8" class="n_submenu">
+                            <ul>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=31" target="myIFRAME" onclick="menuOPEN(8);" title="Cooling Products">Cooling Products</a>
+                              </li>
+                              <li>
+                                <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=45" target="myIFRAME" onclick="menuOPEN(8);" title="Hardhat Accessories">Hardhat Accessories</a>
+                              </li>
+                            </ul>
+                          </div><a name="n_menuhd9" onclick="menuOPEN(9);" title="LENS CARE" target="myIFRAME" class="menuCLICK" id="n_menuhd9">LENS CARE</a>
+                          <div id="n_menudiv9" class="n_submenu"></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+              <td class="">
+                <div class="navSPAN" onclick="newPROD();navMENUbye();">
+                  NEW PRODUCTS
+                </div>
+              </td>
+              <td>
+                <div class="navSPAN highlight" onclick="newVID();navMENUbye();">
+                  VIDEO SUPPORT
+                </div>
+              </td>
+              <td>
+                <div class="navSPAN" onclick="whatNEW();">
+                  NEWS
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="searchBAR">
+        <form name="searchform" class="" method="post" action="http://www.allegrosafety.com/asp/full_search2013.aspx" id="searchform" target="myIFRAME">
+          <span class="searchSpan"><input class="" name="find" placeholder="Search" type="search" id="find" /><input type="submit" onclick="$('#notIFRAME').hide();$('#yesIFRAME').show();" value="" id="searchSubmit" /></span>
+        </form>
+      </div>
+      <div class="newBOD">
+        <div id="notIFRAME" class="">
+          <div style="display: block;" id="redCATtag">
+            <div style="width: 155px; padding: 10px;" id="redCATinside" class="">
+              <span style="display: inline;">INTERACTIVE CATALOG</span>
+              <p style="display: block;">
+                <a href="http://www.allegrosafety.com/docs/catalog/catalog.html" target="_new"><img src="graphics/interface/catalog.png" alt="" border="0" /></a>
+              </p>
+              <p style="display: block;"></p>
+              <div style="display: block;" class="navCLS">
+                <span class="navCLSspan" onclick="$('#redCATinside').animate({width:4,'padding-left':0,'padding-right':0},500,function(){$('#redCATinside').hide();});$('#redCATinside').children().hide();">CLOSE</span>
+              </div>
+            </div>
+          </div>
+          <div class="activeBUBBLE">
+            <table class="active">
+              <tbody>
+                <tr>
+                  <td class="pausebut">
+                    <div id="actX" onclick="fx();" class="actPAUSE">
+                      &#160;
+                    </div>
+                  </td>
+                  <td>
+                    <div id="act1" onclick="f5();fx(3);" class="actFILL">
+                      &#160;
+                    </div>
+                  </td>
+                  <td>
+                    <div id="act2" onclick="f1();fx(3);" class="actBLANK">
+                      &#160;
+                    </div>
+                  </td>
+                  <td>
+                    <div id="act3" onclick="f2();fx(3);" class="actBLANK">
+                      &#160;
+                    </div>
+                  </td>
+                  <td>
+                    <div id="act4" onclick="f3();fx(3);" class="actBLANK">
+                      &#160;
+                    </div>
+                  </td>
+                  <td>
+                    <div id="act5" onclick="f4();fx(3);" class="actBLANK">
+                      &#160;
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style="display: block;" id="featLIST1" onclick="newPRODfea(416);" class="">
+            <div class="feat1">
+              <span class="feat">BREAKTHROUGH<br />
+              PROTECTION</span>
+            </div>
+            <div class="feat2">
+              <span class="feat">THE NEW NOVA 3 BLASTING HELMET</span>
+            </div>
+            <div class="feat3">
+              <span class="feat">LEARN MORE&#160;&gt;</span>
+            </div><img src="sample/Allegro_hp_feature_1_940x320.jpg" alt="" style="margin-top:10px;cursor:pointer;" class="" />
+          </div>
+          <div style="display: none;" id="featLIST2" onclick="newPRODfea(411);">
+            <div class="feat1">
+              <span class="feat">EFFICIENT AND<br />
+              COST EFFECTIVE</span>
+            </div>
+            <div class="feat2">
+              <span class="feat">THE DELUXE SUPPLIED AIR SHIELD<br />
+              AND WELDING HELMET</span>
+            </div>
+            <div class="feat3">
+              <span class="feat">LEARN MORE&#160;&gt;</span>
+            </div><img src="sample/Allegro_hp_feature_2_940x320.jpg" alt="" style="margin-top:10px;cursor:pointer;" class="" />
+          </div>
+          <div style="display: none;" id="featLIST3" onclick="newPRODfea(402);" class="">
+            <div class="feat1">
+              <span class="feat">EXPLOSION-PROOF<br />
+              VENTILATION</span>
+            </div>
+            <div class="feat2">
+              <span class="feat">THE 12&#195;&#162;&#226;&#8218;&#172;&#194; EXPLOSION PROOF PLASTIC<br />
+              AXIAL BLOWER WITH CANISTER</span>
+            </div>
+            <div class="feat3">
+              <span class="feat">LEARN MORE&#160;&gt;</span>
+            </div><img src="sample/Allegro_hp_feature_3_940x320.jpg" alt="" style="margin-top:10px;cursor:pointer;" class="" />
+          </div>
+          <div style="display: none;" id="featLIST4" onclick="newPRODfea(405);" class="">
+            <div class="feat1">
+              <span class="feat">ALL-YOU-NEED<br />
+              VENTILATION<br />
+              SYSTEM</span>
+            </div>
+            <div class="feat2">
+              <span class="feat">THE 12&#195;&#162;&#226;&#8218;&#172;&#194; PLASTIC BLOWER SYSTEM</span>
+            </div>
+            <div class="feat3">
+              <span class="feat">LEARN MORE&#160;&gt;</span>
+            </div><img src="sample/Allegro_hp_feature_4_940x320.jpg" style="margin-top:10px;cursor:pointer;" alt="" class="" />
+          </div>
+          <div style="display: none;" id="featLIST5" onclick="newPRODfea(413);" class="">
+            <div class="feat1">
+              <span class="feat">ALL-IN-ONE<br />
+              PROTECTION</span>
+            </div>
+            <div class="feat2">
+              <span class="feat">THE DELUXE SUPPLIED<br />
+              AIR SHIELD / HELMET SYSTEM</span>
+            </div>
+            <div class="feat3">
+              <span class="feat">LEARN MORE&#160;&gt;</span>
+            </div><img src="sample/Allegro_hp_feature_5_940x320.jpg" alt="" style="margin-top:10px;cursor:pointer;" class="" />
+          </div>
+          <hr class="newHR" />
+          <table class="panel4">
+            <tbody class="">
+              <tr class="">
+                <td class="">
+                  <div class="panel4box" onclick="menuOPEN(4);">
+                    <img src="sample/Allegro_hp_bottom_box1.jpg" alt="" class="" />
+                    <div class="panel4text">
+                      <p class="panel4P" onclick="menuOPEN(4);">
+                        BLOWERS &gt;
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td class="">
+                  <div class="panel4box" onclick="menuOPEN(1);">
+                    <img src="sample/Allegro_hp_bottom_box2.jpg" alt="" class="" />
+                    <div class="panel4text">
+                      <p class="panel4P" onclick="menuOPEN(1);">
+                        RESPIRATORS &gt;
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="panel4box" onclick="newPROD();navMENUbye();">
+                    <img src="sample/Allegro_hp_bottom_box3.jpg" alt="" class="" />
+                    <div class="panel4text" onclick="newPROD();navMENUbye();">
+                      <p class="panel4P">
+                        FEATURED PRODUCTS &gt;
+                      </p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="panel4box" onclick="newPRODpdf('Allegro_SC Move_PR');">
+                    <img src="sample/Allegro_hp_bottom_box4.jpg" alt="" />
+                    <div class="panel4text">
+                      <p class="panel4P" onclick="newPRODpdf('Allegro_SC Move_PR');">
+                        MANUFACTURING &gt;
+                      </p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr class="newHR" />
+          <div class="foot26">
+            ALLEGRO CELEBRATES 26 YEARS OF EXCELLENCE IN SAFETY
+          </div>
+        </div>
+        <div id="yesIFRAME">
+          <table>
+            <tbody>
+              <tr>
+                <td valign="top">
+                  <div class="menuDIV">
+                    <div class="glossymenu">
+                      <a href="http://www.allegrosafety.com/index.aspx" target="_top" id="menuhd0" name="menuhd0" class="menuCLICK">HOME</a> <a name="menuhd1" onclick="menuOPEN(1);" title="RESPIRATORS" target="myIFRAME" class="menuCLICK" id="menuhd1">RESPIRATORS</a>
+                      <div id="menudiv1" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=11" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Accessories">Accessories</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=8" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Air Sources, HP">Air Sources HP</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=3" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Ambient Air Pumps">Ambient Air Pumps</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=10" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Cleaning">Cleaning</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=9" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Fit Testing">Fit Testing</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=7" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Helmets - Blasting">Helmets - Blasting</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=40" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Blasting Systems">&#160;&#160;&#160;&#160;&#160;&#160;Blasting Systems</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=39" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Helmets - Welding">Helmets - Welding</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=41" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Welding Systems">&#160;&#160;&#160;&#160;&#160;&#160;Welding Systems</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=1" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Hoods">Hoods</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=2" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Hood Systems">&#160;&#160;&#160;&#160;&#160;&#160;Hood Systems</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=6" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Masks">Masks</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=4" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Mask Systems">&#160;&#160;&#160;&#160;&#160;&#160;Mask Systems</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=42" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Shields">Shields</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=5" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Shield Systems">&#160;&#160;&#160;&#160;&#160;&#160;Shield Systems</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=12" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Storage and Carry Bags">Storage and Carry Bags</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd4" onclick="menuOPEN(4);" title="BLOWERS" target="myIFRAME" class="menuCLICK" id="menuhd4">BLOWERS</a>
+                      <div id="menudiv4" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=21" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Accessories">Accessories</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=17" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Air Bags">Air Bags</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=18" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Axial">Axial</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=36" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Blower Selection">Blower Selection</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=22" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Carpet">Carpet</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=19" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Centrifugal">Centrifugal</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=23" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Ducting">Ducting</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=38" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Manhole Ventilation Passthru (MVP)">Manhole Ventilation Passthru (MVP)</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=37" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Pneumatic (Jet Fans)">Pneumatic (Jet Fans)</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=24" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Ventilation Information">Ventilation Information</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=20" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Venturi">Venturi</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd5" onclick="menuOPEN(5);" title="CONFINED SPACE" target="myIFRAME" class="menuCLICK" id="menuhd5">CONFINED SPACE</a>
+                      <div id="menudiv5" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=26" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Accessories">Accessories</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=43" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Manhole Products">Manhole Products</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=44" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Pumps">Pumps</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=25" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Work Tents and Heaters">Work Tents and Heaters</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd2" onclick="menuOPEN(2);" title="AED STORAGE" target="myIFRAME" class="menuCLICK" id="menuhd2">AED STORAGE</a>
+                      <div id="menudiv2" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=14" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Defribillator Storage">Defribillator Storage</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd3" onclick="menuOPEN(3);" title="SAMPLING PRODUCTS" target="myIFRAME" class="menuCLICK" id="menuhd3">SAMPLING PRODUCTS</a>
+                      <div id="menudiv3" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=15" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Cassettes">Cassettes</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=16" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Pumps">Pumps</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd6" onclick="menuOPEN(6);" title="ERGONOMICS" target="myIFRAME" class="menuCLICK" id="menuhd6">ERGONOMICS</a>
+                      <div id="menudiv6" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=27" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Back Support">Back Support</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=28" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Wrist &amp; Elbow Support">Wrist &amp; Elbow Support</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd7" onclick="menuOPEN(7);" title="KNEE PROTECTION" target="myIFRAME" class="menuCLICK" id="menuhd7">KNEE PROTECTION</a>
+                      <div id="menudiv7" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=29" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Specialized Industrial Pads">Specialized Industrial Pads</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=30" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Specialty Pads">Specialty Pads</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd8" onclick="menuOPEN(8);" title="SEASONAL CLIMATE CONTROL" target="myIFRAME" class="menuCLICK" id="menuhd8">SEASONAL CLIMATE CONTROL</a>
+                      <div id="menudiv8" class="submenu">
+                        <ul>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=31" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Cooling Products">Cooling Products</a>
+                          </li>
+                          <li>
+                            <a href="http://www.allegrosafety.com/asp/products_list2013.aspx?prodID=45" target="myIFRAME" onclick="$('.glossymenu div.submenu ul li a').css('color','#A5A5A5');$(this).css('color','#FFFFFF');navMENUbye();" title="Hardhat Accessories">Hardhat Accessories</a>
+                          </li>
+                        </ul>
+                      </div><a name="menuhd9" onclick="menuOPEN(9);" title="LENS CARE" target="myIFRAME" class="menuCLICK" id="menuhd9">LENS CARE</a>
+                      <div id="menudiv9" class="submenu"></div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <iframe src="html/comingsoon.html" style="overflow:auto;" name="myIFRAME" id="myIFRAME"></iframe>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="newsIFRAME">
+          <table class="newsTBL">
+            <tbody>
+              <tr>
+                <td class="c1">
+                  <div class="latNEW">
+                    LATEST NEWS
+                  </div>
+                  <div class="latNEW2">
+                    WELDING &amp; BLASTING
+                  </div>
+                  <div class="latNEW3">
+                    Allegro Industries expands into the Welding &amp; Blasting markets with several new helmet designs, complete systems and accessories. Reliable, durable and designed to reduce worker fatigue, these products are built to last in rugged environments.
+                  </div>
+                  <div class="latNEWlnk">
+                    <a href="http://www.allegrosafety.com/asp/pdf.aspx?prodID=Allegro_Welding_Helmets_PR_100312" target="_new" class="newLNK">PRESS RELEASE &gt;</a>
+                  </div><img src="graphics/news/news1.jpg" alt="" />
+                </td>
+                <td class="c2">
+                  <div class="new1">
+                    <span class="newIMG"><a href="http://www.allegrosafety.com/index.aspx?prodid=388"><img src="graphics/news/news_sm1.jpg" alt="" border="none" /></a></span><span class="newTXT">Supplied Air Shield And Welding Helmet</span>
+                  </div>
+                  <hr class="newsHR" />
+                  <div class="new1">
+                    <span class="newIMG"><a href="http://www.allegrosafety.com/index.aspx?prodid=410"><img src="graphics/news/news_sm2.jpg" alt="" border="none" /></a></span><span class="newTXT">Deluxe Supplied Air Shield and Welding Helmet (Blue)</span>
+                  </div>
+                  <hr class="newsHR" />
+                  <div class="new1">
+                    <span class="newIMG"><a href="http://www.allegrosafety.com/index.aspx?prodid=411"><img src="graphics/news/news_sm3.jpg" alt="" border="none" /></a></span><span class="newTXT">Deluxe Supplied Air Shield and Welding Helmet (Big)</span>
+                  </div>
+                  <hr class="newsHR" />
+                  <div class="new1">
+                    <span class="newIMG"><a href="http://www.allegrosafety.com/index.aspx?prodid=416"><img src="graphics/news/news_sm4.jpg" alt="" border="none" /></a></span><span class="newTXT">Allegro NOVA 3&#195;&#8218;&#194;&#174; Blasting Helmet</span>
+                  </div>
+                  <hr class="newsHR" />
+                  <div class="new1">
+                    <span class="newIMG"><a href="http://www.allegrosafety.com/index.aspx?prodid=314"><img src="graphics/news/news_sm5.jpg" alt="" border="none" /></a></span><span class="newTXT">Allegro NOVA 2000&#195;&#162;&#226;&#8364;&#382;&#194;&#162; Helmet</span>
+                  </div>
+                </td>
+                <td class="c3">
+                  <div class="new2">
+                    <span class="newTXT2">OUR NEW 2013 CATALOG</span><span class="newIMG2"><a href="http://www.allegrosafety.com/docs/catalog/catalog.html" target="_new"><img src="graphics/news/catalog.jpg" alt="" border="none" /></a></span>
+                  </div>
+                  <hr class="newsHR" />
+                  <div class="new3">
+                    <span class="newTXT2">OUR NEW<br />
+                    50,000 SQ. FT FACILITY IN SC</span><span class="newIMG2"><img src="graphics/news/allegro_entrance.jpg" alt="" /></span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="botFOOT">
+        <table class="botFOOT">
+          <tbody class="">
+            <tr class="">
+              <td class="botFOOTlist" onclick="newPRODany('../html/about_us.html');" title="About Allegro">
+                ABOUT ALLEGRO
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../html/faq_contents.html');" title="FAQ">
+                FAQ
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../asp/msds_list.aspx');" title="MSDS Listing">
+                MSDS LISTING
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../html/site_map.html');" title="Site Map">
+                SITE MAP
+              </td>
+              <td rowspan="4" class="copyRIGHT">
+                COPYRIGHT 2013 ALLEGRO INDUSTRIES, ALL RIGHTS RESERVED.
+              </td>
+            </tr>
+            <tr class="">
+              <td class="botFOOTlist" onclick="newPRODany('/asp/product_detail2013.aspx?prodID=377');" title="Blower Selector">
+                BLOWER SELECTOR
+              </td>
+              <td class="botFOOTlist">
+                <a title="Interactive Catalog" href="http://www.allegrosafety.com/docs/catalog/catalog.html" class="a_foot" target="_new">INTERACTIVE CATALOG</a>
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../asp/parts_list.aspx');" title="Parts Listing">
+                PARTS LISTING
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../html/warranty/warranty_descp.html');" title="Warranty">
+                WARRANTY
+              </td>
+            </tr>
+            <tr class="">
+              <td class="botFOOTlist" onclick="newPRODany('../html/Contact_us/index_content.html');" title="Contact Us">
+                CONTACT US
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../html/links.html');" title="Links">
+                LINKS
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../asp/lt_request_contents.aspx');" title="Request Catalog">
+                REQUEST CATALOG
+              </td>
+              <td class="botFOOTlist" onclick="newPRODany('../asp/contact.aspx');" title="Warranty Form">
+                WARRANTY FORM
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </center>
+    <div aria-labelledby="ui-id-1" style="outline: 0px none; z-index: 1002; position: absolute; height: auto; width: 300px; top: 166px; left: 773px; display: none;" role="dialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable ui-dialog-buttons" tabindex="-1">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-1" class="ui-dialog-title">New resource</span><a href="#" role="button" class="ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick">close</span></a>
+      </div>
+      <div scrolltop="0" style="display: block; width: auto; min-height: 2px; height: auto;" id="popupDialog" scrollleft="0" class="ui-dialog-content ui-widget-content">
+        <p>
+          <!-- label for="widgetName">Please input a new resource name:</label>            <input type="text" id="widgetName" />            <br /> -->
+        </p>
+        <h3>
+          High-level types
+        </h3><input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Header" id="header4242" /><label for="#header4242">Header</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Footer" id="footer4242" /><label for="#footer4242">Footer</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Content" id="content4242" /><label for="#content4242">Content</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Sidebar" id="sidebar4242" /><label for="#sidebar4242">Sidebar</label><br />
+        <h3>
+          Specific types
+        </h3><input type="radio" name="group1" value="Logo" id="logo4242" /><label for="#logo4242">Logo</label><br />
+        <input type="radio" name="group1" value="Menu" id="menu4242" /><label for="#menu4242">Menu</label><br />
+        <input type="radio" name="group1" value="Title" id="title4242" /><label for="#title4242">Title</label><br />
+        <input type="radio" name="group1" value="LinkList" id="linklist4242" /><label for="#linklist4242">LinkList</label><br />
+        <input type="radio" name="group1" value="Author" id="author4242" /><label for="#author4242">Author</label><br />
+        <input type="radio" name="group1" value="Table" id="table4242" /><label for="#table4242">Table</label><br />
+        <input type="radio" name="group1" value="Comments" id="comments4242" /><label for="#comments4242">Comments</label><br />
+        <input type="radio" name="group1" value="Ad" id="ad4242" /><label for="#ad4242">Ad</label><br />
+        <input type="radio" name="group1" value="Video" id="video4242" /><label for="#video4242">Video</label><br />
+        <input type="radio" name="group1" value="Article" id="article4242" /><label for="#article4242">Article</label><br />
+        <input type="radio" name="group1" value="Image" id="image4242" /><label for="#image4242">Image</label><br />
+        <input type="radio" name="group1" value="Searchbar" id="search4242" /><label for="#search4242">Searchbar</label><br />
+      </div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-n"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-e"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-s"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-w"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-sw"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-ne"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-nw"></div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" aria-disabled="false"><span class="ui-button-text">Cancel</span></button><button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-focus" aria-disabled="false"><span class="ui-button-text">Accept</span></button>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>

@@ -1,0 +1,750 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta content="text/html; charset=us-ascii" http-equiv="Content-Type" />
+    <title>
+      Gammill | Home | Makers of Gammill and Statler Stitcher Longarm Quilting Systems
+    </title>
+    <meta content="Longarm quilting machines,Long arm quilting machines,Longarm,Long arm,Quilting machines,Quilting systems,Professional quilting machines,Professional quilting systems,Quilting business,Computerized quilting machines,Computerized longarm quilting machines,Computerized long arm quilting machines,Quilting machine manufacturers,Longarm quilting systems,Long arm quilting systems,Longarm manufacturers,Long arm manufacturers,American quilting machines,American longarm quilting machines,Hand-guided quilting machines,Nolting,APQS,A-1,Prodigy" name="keywords" />
+    <meta content="Gammill And Statler Stitcher Professional Longarm Computerized Quilting Systems and Machines" name="description" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="scripts/layerslider/css/layerslider.css" type="text/css" rel="stylesheet" />
+    <script src="//js.hubspot.com/analytics/1369665000000/237984.js" type="text/javascript" id="hs-analytics">
+</script>
+    <script async="" type="text/javascript" src="http://www.google-analytics.com/ga.js">
+</script>
+    <script src="scripts/layerslider/jQuery/jquery-1.6.2.min.js" type="text/javascript">
+</script>
+    <script src="scripts/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript">
+</script>
+    <script src="scripts/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript">
+</script>
+    <link href="shadow/shadowbox.css" type="text/css" rel="stylesheet" />
+    <script src="shadow/shadowbox.js" type="text/javascript">
+</script>
+    <script src="https://www.gammill.net/js/jquery.colorbox.js" type="text/javascript">
+</script>
+    <script type="text/javascript">
+//&lt;![CDATA[
+    Shadowbox.init({ language: 'en', players: ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] }); 
+    //]]&gt;
+    </script>
+    <script type="text/javascript">
+//&lt;![CDATA[
+        $(document).ready(function() {
+                        $('#bar').layerSlider({
+
+                            autoStart           : true,
+                            firstLayer          : 1,
+                            twoWaySlideshow     : true,
+                            keybNav             : true,
+                            imgPreload          : true,
+                            navPrevNext         : false,
+                            navStartStop        : true,
+                            navButtons          : true,
+                            skin                : 'lightskin',
+                            skinsPath           : './layerslider/skins/',
+
+                            // you can change this settings separately by layers or sublayers with using html style attribute
+
+                            slideDirection      : 'left',
+                            slideDelay          : 7000,
+                            parallaxIn          : .45,
+                            parallaxOut         : .45,
+                            durationIn          : 1000,
+                            durationOut         : 1000,
+                            easingIn            : 'easeInOutQuint',
+                            easingOut           : 'easeInOutQuint',
+                            delayIn             : 0,
+                            delayOut            : 0
+
+                        });
+                        
+                        $("#green-bar").hide();
+                        $(".menu_items").hide();
+                        
+                        function hoverItem(item, green, roll) {
+                                
+                                $(item).hover(function() {
+                                
+                                // HIDE ALL OTHER
+                                $('.green_bar').hide();
+                                $('.menu_items').hide();
+                                        
+                                });
+                                
+                        }
+                        
+
+                        // HOVER OVER PRODUCTS
+                        $("#products").click(function() {
+                                $("#green-bar").slideDown(300);
+                                return false;
+
+                                
+                        });
+                        
+
+                        $("#store").hover(function() {
+                                //$("#green-bar").slideUp(300);
+                                //$(".menu_items").hide();
+                                //return false;
+                        });
+                        
+                        $("#green-bar").mouseleave(function() {
+                                
+                        //      $("#green-bar").slideUp(300);
+                                
+                        });
+                        
+                        function showMenu(menu) {
+                                if($(menu).siblings(".menu_items").is(":visible")) {
+                                        $(menu).siblings('.menu_items').fadeOut(200).delay(300);
+                                        $(menu).fadeIn(600);
+                                        
+                                } else {
+                                        $(menu).slideDown(600);
+                                }
+                        }
+                        
+                        
+                        $("#sewing").click(function() {
+                                showMenu("#sewing_photos");
+                                return false; 
+
+                        });
+
+    $(document).click(function() { 
+                                $(".menu_items").slideUp(300);
+                                $("#green-bar").slideUp(300);
+    }); 
+
+        /*              
+                        $("#content-bg").click(function(){
+                                $(".menu_items").slideUp(300);
+                                $("#green-bar").slideUp(300);
+                        });
+
+                        $("#content-bg-new").click(function(){
+                                $(".menu_items").slideUp(300);
+                                $("#green-bar").slideUp(300);
+                        });
+
+                        $("#white-wrap").click(function(){
+                                $(".menu_items").slideUp(300);
+                                $("#green-bar").slideUp(300);
+                        });
+        */
+
+
+                        $("#stitching").click(function() {
+                                showMenu("#stitching_photos");
+                                return false; 
+
+                                
+                        });
+                        $("#sitdown").click(function() {
+                                showMenu("#sitdown_photos");
+                                return false; 
+
+                                
+                        });
+                        
+                        $("#opt_three").hover(function() {
+                                showMenu("#option_three");
+                                return false; 
+
+                        });
+                        
+                        $(".menu_items").mouseleave(function() {
+                                //$(this).slideUp(600);
+                        });
+                        
+                        $(".green_detail_box").hide();
+                        
+                        $(".product_dd").hover(function() {
+                                $(this).children(".green_detail_box").slideDown(300);
+                        }, function() {
+                                $(this).children(".green_detail_box").slideUp(300);
+                        });
+                        
+        });
+    //]]&gt;
+    </script>
+    <script type="text/javascript">
+//&lt;![CDATA[
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7528401-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+
+    //]]&gt;
+    </script>
+    <meta content="jME6oaYIh3OIhKbrA17g6UQmiqob-FYnUOPwih0A6xs" name="google-site-verification" />
+    <link href="./layerslider/skins/lightskin/skin.css" type="text/css" rel="stylesheet" />
+    <script src="http://awesomeness/builder/builder.js" type="text/javascript">
+</script>
+    <script src="http://awesomeness/builder/js/jquery.js" type="text/javascript">
+</script>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+    .highlight {box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px red !important;}
+        *[data-block] {outline: 1px solid blue !important; box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px blue !important;}    
+    /*]]&gt;*/
+    </style>
+    <link href="http://awesomeness/builder/css/ui-lightness/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <div class="" id="header-bg">
+      <div id="header" class="">
+        <table cellpadding="2" width="260" align="right" cellspacing="0" border="0">
+          <tbody>
+            <tr>
+              <td width="27" class="">
+                <div id="forum-over-nav" class="">
+                  <a href="https://www.gammill.com/forum/" class="">GQ Talk Forum</a>
+                </div>
+              </td>
+              <td width="27" class="">
+                <div id="special-over-nav">
+                  <a href="https://www.gammill.net/offers.php" class="">Special Offers</a>
+                </div>
+              </td>
+              <td width="27">
+                <div id="news-over-nav">
+                  <a href="https://www.gammill.net/newsletter.php">Newsletter</a>
+                </div>
+              </td>
+              <td width="27">
+                <a href="https://www.gammill.net/contact.php"><img src="images/email.gif" alt="" border="0" /></a>
+              </td>
+              <td width="27">
+                <a href="http://www.facebook.com/gammillquilting" target="_blank"><img src="images/facebook.gif" alt="" border="0" /></a>
+              </td>
+              <td width="27">
+                <a href="http://pinterest.com/gammillquilting/" target="_blank"><img src="images/pinterest.gif" alt="" border="0" /></a>
+              </td>
+              <td width="27">
+                <a href="http://twitter.com/#!/GammillQuilting" target="_blank"><img src="images/twitter.gif" alt="" border="0" /></a>
+              </td>
+              <td width="27">
+                <a href="http://www.youtube.com/gammillvision" target="_blank"><img src="images/youtube.gif" alt="" border="0" /></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="clearer"></div>
+        <div id="nav">
+          <div class="" id="home">
+            <a href="https://www.gammill.net/index.php" class=""><img src="images/logo.gif" alt="" border="0" class="" /></a>
+          </div>
+          <ul class="">
+            <li id="nav-about">
+              <a href="https://www.gammill.net/about.php" class=""><span>About Us</span></a>
+            </li>
+            <li id="nav-relations">
+              <a href="https://www.gammill.net/customer_relations.php" class=""><span>Customer Relations</span></a>
+            </li>
+            <li id="nav-products">
+              <a id="products" href="index.html#" class="" name="products"><span>Products</span></a>
+            </li>
+            <li id="nav-store">
+              <a href="https://store.gammill.net/" name="store" id="store"><span>Store</span></a>
+            </li>
+            <li id="nav-education">
+              <a href="https://www.gammill.net/education.php" class=""><span>Education &amp; Community</span></a>
+            </li>
+            <li id="nav-finance">
+              <a href="https://www.gammill.net/financing.php" class=""><span>Financing</span></a>
+            </li>
+            <li id="nav-shows">
+              <a href="https://www.gammill.net/showdates.php" class=""><span>Shows &amp; Classes</span></a>
+            </li>
+            <li id="nav-dealer">
+              <a href="https://www.gammill.net/meetdealer.php"><span>Dealer Info</span></a>
+            </li>
+          </ul>
+        </div><!-- nav -->
+      </div><!-- header -->
+    </div><!-- header-bg -->
+    <div id="white-wrap">
+      <!-- SUB NAV -->
+      <div style="display: none;" class="green_bar" id="green-bar">
+        <div id="green-container">
+          <ul>
+            <li>
+              <a href="index.html#" name="sewing" id="sewing">Gammill Vision</a>
+            </li>
+            <li class="white-line">
+              <a href="index.html#" name="stitching" id="stitching">Statler Stitcher</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"></div><!-- green-bar -->
+      <div style="display: none;" class="menu_items" id="sewing_photos">
+        <div class="image-menu">
+          <div class="image-menu-container">
+            <div class="product_dd">
+              <a href="https://www.gammill.net/product.php?id=6"><img width="334" alt="" height="258" border="0" src="images/products/30_12_pv.jpg" /></a>
+              <div style="display: none;" class="green_detail_box">
+                <div style="cursor: pointer;" class="green-box-copy" onclick="document.location.href='product.php?id=6';return false;">
+                  <div class="green-box-title">
+                    GAMMILL VISION 30-12
+                  </div>
+                  <p>
+                    Throat Space: 30" wide x 12" high Quilting Area: 24"
+                  </p><a href="https://www.gammill.net/product.php?id=6">Learn More &gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="product_dd">
+              <a href="https://www.gammill.net/product.php?id=4"><img width="334" alt="" height="258" border="0" src="images/products/22_10_v.jpg" /></a>
+              <div style="display: none;" class="green_detail_box">
+                <div style="cursor: pointer;" class="green-box-copy" onclick="document.location.href='product.php?id=4';return false;">
+                  <div class="green-box-title">
+                    GAMMILL VISION 22-10
+                  </div>
+                  <p>
+                    Throat Space: 22" wide x 10" high Quilting Area: 17"
+                  </p><a href="https://www.gammill.net/product.php?id=4">Learn More &gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="product_dd">
+              <a href="https://www.gammill.net/product.php?id=5"><img width="334" alt="" height="258" border="0" src="images/products/26_10_v.jpg" /></a>
+              <div style="display: none;" class="green_detail_box">
+                <div style="cursor: pointer;" class="green-box-copy" onclick="document.location.href='product.php?id=5';return false;">
+                  <div class="green-box-title">
+                    GAMMILL VISION 26-10
+                  </div>
+                  <p>
+                    Throat Space: 26" wide x 10" high Quilting Area: 21"
+                  </p><a href="https://www.gammill.net/product.php?id=5">Learn More &gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="clear">
+              <img src="images/shade_divide.jpg" alt="" />
+            </div>
+            <div class="product_dd">
+              <a href="https://www.gammill.net/product.php?id=3"><img width="334" alt="" height="258" border="0" src="images/products/18_8_v.jpg" /></a>
+              <div style="display: none;" class="green_detail_box">
+                <div style="cursor: pointer;" class="green-box-copy" onclick="document.location.href='product.php?id=3';return false;">
+                  <div class="green-box-title">
+                    GAMMILL VISION 18-8
+                  </div>
+                  <p>
+                    Throat Space: 18" wide x 8" high Quilting Area: 14"
+                  </p><a href="https://www.gammill.net/product.php?id=3">Learn More &gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="product_dd">
+              <a href="https://www.gammill.net/product.php?id=2"><img width="334" alt="" height="258" border="0" src="images/products/18_8_pv_n.jpg" /></a>
+              <div style="display: none;" class="green_detail_box">
+                <div style="cursor: pointer;" class="green-box-copy" onclick="document.location.href='product.php?id=2';return false;">
+                  <div class="green-box-title">
+                    GAMMILL PREMIER 18-8
+                  </div>
+                  <p>
+                    GAMMILL PREMIER 18-8 Throat Space: 18" wide x 8" high Quilting Area: 14"
+                  </p><a href="https://www.gammill.net/product.php?id=2">Learn More &gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="clear">
+              <img src="images/shade_divide.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div><!-- green-bar -->
+      <div style="display: none;" class="menu_items" id="stitching_photos">
+        <div class="image-menu">
+          <div class="image-menu-container">
+            <div class="product_dd">
+              <a href="https://www.gammill.net/statler_18_8.php"><img width="334" alt="" height="258" border="0" src="images/statler_s_18_8.jpg" /></a>
+              <div style="cursor: pointer; display: none;" class="green_detail_box" onclick="document.location.href='statler_18_8.php';return false;">
+                <div class="green-box-copy">
+                  <div class="green-box-title">
+                    Statler Stitcher
+                  </div>
+                  <p>
+                    Statler Stitcher machines are operated by computer software and hardware and are capable of stitching almost any design.
+                  </p><a href="https://www.gammill.net/statler_18_8.php">Learn More &gt;</a>
+                </div><!-- green-box-copy -->
+              </div>
+            </div>
+            <div class="clear">
+              <img src="images/shade_divide.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: none;" class="menu_items" id="option_three">
+        <div class="image-menu">
+          <div class="image-menu-container">
+            <a href="index.html#"><img src="images/stitcher_ph.jpg" alt="" border="0" class="dot-line" /></a> <a href="index.html#"><img src="images/stitcher_ph.jpg" alt="" border="0" class="dot-line" /></a> <img src="images/shade_divide.jpg" alt="" />
+          </div>
+        </div>
+      </div><!-- END SUB NAV -->
+      <div class="" id="barWrap">
+        <div style="position: relative;" id="bar" class="ls-container ls-lightskin">
+          <div style="width: 1200px; height: 308px; overflow: hidden; position: relative;" class="ls-inner">
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; display: block; left: auto; right: 0px; top: 0px; bottom: auto;" class="ls-layer">
+              <img src="images/Gammill_S_Delivery_Background.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer1-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 540px; margin-top: 0px;" class="ls-s1">
+                <div style="width: 536px; height: 180px; background-color: ; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" src="images/GAM_S_Delivery_top_Box.png" />
+                  <div class="greenCopy">
+                    <p style="padding: 0px; margin: 0px; margin-top: 0px; margin-left: -101px; height: 54px;">
+                      <img src="images/GAM_S_Delivery_bt_Box.png" alt="" height="92" />
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="http://www.gammill.com/offers.php"><img width="536px" alt="Learn More!" height="42px" border="0" src="images/GAM_S_Delivery_BottomBox.png" /></a>
+                </div>
+              </div>
+            </div>
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; left: auto; right: 0px; top: 0px; bottom: auto; display: block;" class="ls-layer">
+              <img src="images/Gammill_CS_42_Background.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer2-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 1080px; margin-top: 0px;" class="ls-s2">
+                <div style="width: 536px; height: 180px; background-color: #ffffff; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" class="" src="images/GAM_CS_42_Headline.jpg" />
+                  <div class="greenCopy">
+                    <p style="padding: 0px; margin: 0px; margin-top: -4px; margin-left: -88px; height: 58px;">
+                      <img src="images/GAM_CS_Headline_boxes.jpg" alt="" class="" />
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="https://www.gammill.net/creative_software.php"><img src="images/GAM_CS_42_BottomBox.png" width="536px" alt="Learn More!" border="0" class="" height="42px" /></a>
+                </div>
+              </div>
+            </div>
+            <div style="width: 1200px; height: 308px; overflow: hidden; position: absolute; left: 0px; right: auto; top: 0px; bottom: auto; display: block;" class="ls-layer ls-active">
+              <img src="images/Gammill_Forum_homepageslider.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer3-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 0px; margin-top: 0px;" class="ls-s3">
+                <div style="width: 536px; height: 180px; background-color: ; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" src="images/forum_header_top.jpg" />
+                  <div class="greenCopy">
+                    <p style="padding: 0px; margin: 0px; margin-top: 0px; margin-left: -101px; height: 48px;">
+                      <img src="images/forum_header_bottom.jpg" alt="" height="85" />
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="https://www.gammill.com/forum/"><img width="536px" alt="Learn More!" height="42px" border="0" src="images/click_to_join.jpg" /></a>
+                </div>
+              </div>
+            </div>
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; left: auto; right: 0px; top: 0px; bottom: auto; display: block;" class="ls-layer">
+              <img src="images/Proposed_slider_image.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer4-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 2160px; margin-top: 0px;" class="ls-s4">
+                <a href="https://www.gammill.net/offers.php"><img width="1200px" alt="" height="309px" border="0" src="images/Untitled.png" /></a>
+              </div>
+            </div>
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; left: auto; right: 0px; top: 0px; bottom: auto; display: block;" class="ls-layer">
+              <img src="images/quiltbg2.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer5-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 2700px; margin-top: 0px;" class="ls-s5">
+                <div style="width: 536px; height: 180px; background-color: #994467; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" src="images/realize_red.jpg" />
+                  <div class="greenCopy">
+                    <p>
+                      <span>With our value-priced Vision 18-8, you can have a complete system from the brand that quilters around the globe have trusted for more than 30 years.</span>
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="https://www.youtube.com/v/6JjhQFxydF8&amp;autoplay=1" rel="shadowbox;width=640;height=480;player=swf"><img width="536px" alt="Learn More!" height="42px" border="0" src="images/learn_more_red.jpg" /></a>
+                </div>
+              </div>
+            </div>
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; left: auto; right: 0px; top: 0px; bottom: auto; display: block;" class="ls-layer">
+              <img src="images/quiltbg3.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer6-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 3240px; margin-top: 0px;" class="ls-s6">
+                <div style="width: 536px; height: 180px; background-color: #649b97; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" src="images/realize_blue.jpg" />
+                  <div class="greenCopy">
+                    <p>
+                      <span>Test drive a Gammill&#194;&#174; at one of many upcoming shows!</span>
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="https://www.gammill.net/showdates.php"><img width="536px" alt="Learn More!" height="42px" border="0" src="images/learn_more_blue.jpg" /></a>
+                </div>
+              </div>
+            </div>
+            <div style="width: 0px; height: 308px; overflow: hidden; position: absolute; left: auto; right: 0px; top: 0px; bottom: auto; display: block;" class="ls-layer">
+              <img src="images/quiltbg1.jpg" style="margin-left: -600px; margin-top: -154px;" width="1200px" alt="layer7-background" class="ls-bg" height="309px" />
+              <div style="margin-left: 3780px; margin-top: 0px;" class="ls-s7">
+                <div style="width: 536px; height: 180px; background-color: #9abc30; float:right; margin-top: 60px; margin-left: 560px;">
+                  <img width="536" alt="Relize" height="88px" class="" src="images/realize.jpg" />
+                  <div class="greenCopy">
+                    <p>
+                      <span class="">Owning a Gammill quilting machine can help you tap into your creativity and produce the type of quilts you've always dreamed of.</span>
+                    </p>
+                  </div>
+                  <div class="clear"></div><br />
+                  <a href="https://www.gammill.net/education.php"><img src="images/learn_more.jpg" width="536px" alt="Learn More!" border="0" class="" height="42px" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ls-bottom-nav-wrapper">
+            <a href="#" class="ls-nav-start"></a><span class="ls-bottom-slidebuttons"><a href="#" class=""></a><a href="#" class=""></a><a href="#" class="ls-nav-active"></a><a href="#" class=""></a><a href="#" class=""></a><a href="#" class=""></a><a href="#" class=""></a></span><a href="#" class="ls-nav-stop"></a>
+          </div>
+        </div><!-- bar -->
+      </div>
+    </div><!-- white-wrap -->
+    <div id="content-bg" class="">
+      <div id="content" class="">
+        <div id="column-bg" class="column-push">
+          <div class="" id="column">
+            <a href="https://www.gammill.net/dealer_locator.php"><img src="images/dealer_head.gif" width="239px" alt="" border="0" class="" height="48px" /></a><br />
+            <br />
+            <img width="198px" alt="" height="93px" class="" src="images/dealer_ph.jpg" />
+            <div id="column-copy" class="">
+              <p class="">
+                <span class="">Find your nearest independent authorized dealer and schedule a hands-on demonstration to see the Gammill difference firsthand.</span>
+              </p>
+            </div><!-- column-copy -->
+          </div><!-- column -->
+          <div class="" id="column">
+            <a href="https://www.gammill.net/quilt_machines.php"><img src="images/quilt_head.gif" width="239px" alt="" border="0" class="" height="48px" /></a><br />
+            <br />
+            <img width="198px" alt="" height="93px" class="" src="images/quilt_ph.jpg" />
+            <div id="column-copy" class="">
+              <p class="">
+                <span class="">See which Gammill Vision or Statler Stitcher longarm system is right for you.</span>
+              </p><br />
+              <br />
+            </div><!-- column-copy -->
+          </div><!-- column -->
+          <div class="" id="column">
+            <a href="https://www.gammill.net/showdates.php"><img src="images/supply_head.gif" width="239px" alt="" border="0" class="" height="48px" /></a><br />
+            <br />
+            <img width="198px" alt="" height="93px" class="" src="images/supply_ph.jpg" />
+            <div id="column-copy" class="">
+              <p class="">
+                <span class="">Find a show where you can test drive a machine and see the Gammill difference for yourself.</span>
+              </p>
+            </div><!-- column-copy -->
+          </div><!-- column -->
+          <div class="" id="column">
+            <a href="https://www.gammill.net/contact_about.php"><img src="images/Contact_us_Page_header.jpg" width="239px" alt="" border="0" class="" height="48px" /></a><br />
+            <br />
+            <img width="198px" alt="" height="93px" src="images/ContactUs_Image.jpg" />
+            <div id="column-copy" class="">
+              <p>
+                <strong>We&#226;&#8364;&#8482;d love to hear from you!</strong>
+              </p>
+              <p class="">
+                <span class="">Click to complete our contact form or give us a call at 1-800-659-8224 if you have questions or are interested in one of our products.</span>
+              </p>
+            </div><!-- column-copy -->
+          </div><!-- column -->
+          <div id="clearer"></div>
+          <div id="column">
+            <table cellpadding="0" width="211" cellspacing="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    &#160;
+                  </td>
+                  <td align="right" class="">
+                    <a href="https://www.gammill.net/dealer_locator.php"><img width="123" alt="" height="33" border="0" src="images/learn_more.gif" /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="column">
+            <table cellpadding="0" width="211" cellspacing="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    &#160;
+                  </td>
+                  <td align="right">
+                    <a href="https://www.gammill.net/quilt_machines.php"><img width="123" alt="" height="33" border="0" src="images/learn_more.gif" /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="column">
+            <table cellpadding="0" width="211" cellspacing="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    &#160;
+                  </td>
+                  <td align="right" class="">
+                    <a href="https://www.gammill.net/showdates.php"><img src="images/learn_more.gif" width="123" alt="" border="0" class="" height="33" /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="column">
+            <table cellpadding="0" width="211" cellspacing="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    &#160;
+                  </td>
+                  <td align="right" class="">
+                    <a href="https://www.gammill.net/contact_about.php"><img src="images/learn_more.gif" width="123" alt="" border="0" class="" height="33" /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="clearer"></div>
+        </div><!-- column-bg -->
+        <br />
+        <img src="images/mid_shadow_bar.jpg" alt="" class="" />
+        <div class="" id="lower-section">
+          <div id="lower-vid-left" class="">
+            <img src="images/featured_vid_head.jpg" alt="" class="highlight" />
+            <div id="lower-vid-left-content" class="">
+              <a href="https://www.americanquilter.com/promos/shows_contests/2013_paducah/enter.php" target="_blank" class=""><img src="images/13ky-withbutton.jpg" alt="" width="640" height="487" class="" /></a> <!---<iframe width="560" height="315" src="https://www.youtube.com/embed/6O-lG5mYj78?rel=0" frameborder="0" allowfullscreen></iframe>=-->
+            </div><!-- lower-vid-left-content -->
+          </div><!-- lower-vid-left -->
+          <div class="" id="lower-vid-right">
+            <a href="https://store.gammill.net/"><img src="images/supply_store_head2.jpg" width="239px" alt="" border="0" class="" height="48px" /></a><br />
+            <br />
+            <div id="lower-vid-right-box" class="">
+              <img width="198px" alt="" height="93px" class="" src="images/supply_store_ind.jpg" />
+              <div id="column-copy">
+                <p class="">
+                  <span class="">Gammill carries the most popular brands of supplies for your longarm quilting machine needs.</span>
+                </p>
+              </div><br />
+              <br />
+              <a href="https://store.gammill.net/"><img class="" src="images/learn_more.gif" width="123" align="right" border="0" alt="" height="33" /></a>
+            </div><br />
+            <br />
+            <img width="238" alt="" height="55" class="" src="images/industry_part_head.jpg" /><br />
+            <br />
+            <div id="industry-sub" class="">
+              <a href="http://www.thequiltshow.com/" target="_blank" class="">TheQuiltShow.com</a>
+            </div>
+            <div id="industry-sub" class="">
+              <a href="http://www.qnntv.com/videoscategory/quilt-out-loud/" target="_blank" class="">QNNtv.com Quilt Out Loud</a>
+            </div>
+            <div id="industry-sub" class="">
+              <a href="http://www.thequiltingschool.com" target="_blank" class="">TheQuiltingSchool.com</a>
+            </div>
+            <div id="industry-sub">
+              <a href="http://www.FinanceYourGammill.com" target="_blank">FinanceYourGammill.com</a>
+            </div><!-- lower-vid-right-box -->
+            <!---<br /><br /><br />
+<br /><br /><br />
+<br /><br /><br />=-->
+          </div><!-- lower-vid-right -->
+        </div>
+        <div id="clearer"></div>
+        <div id="footer" class="">
+          <table width="933" cellpadding="0" border="0" align="center" cellspacing="0" class="">
+            <tbody class="">
+              <tr class="">
+                <td width="205" align="right">
+                  <img src="../www.gammill.com/images/footer_logo.jpg" alt="" />
+                </td>
+                <td width="728" align="left" class="">
+                  &#194;&#169; 2012 Gammill, Inc. All Rights Reserved. Corporate Headquarters - 1452 Gibson Street, West Plains, MO 65775 1-800-659-8224 <a href="https://www.gammill.net/dealer_login.php">Dealer Login&gt;</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- footer -->
+        <!-- Start of Async HubSpot Analytics Code -->
+        <script type="text/javascript">
+//&lt;![CDATA[
+        (function(d,s,i,r) {
+            if (d.getElementById(i)){return;}
+            var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+            n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/237984.js';
+            e.parentNode.insertBefore(n, e);
+        })(document,"script","hs-analytics",300000);
+        //]]&gt;
+        </script> <!-- End of Async HubSpot Analytics Code -->
+      </div><!-- content-bg -->
+    </div><!-- content -->
+    <div id="sb-container">
+      <div id="sb-overlay"></div>
+      <div id="sb-wrapper">
+        <div id="sb-title">
+          <div id="sb-title-inner"></div>
+        </div>
+        <div id="sb-wrapper-inner">
+          <div id="sb-body">
+            <div id="sb-body-inner"></div>
+            <div id="sb-loading">
+              <div id="sb-loading-inner">
+                <span>loading</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sb-info">
+          <div id="sb-info-inner">
+            <div id="sb-counter"></div>
+            <div id="sb-nav">
+              <a title="Close" id="sb-nav-close" onclick="Shadowbox.close()" name="sb-nav-close"></a><a title="Next" id="sb-nav-next" onclick="Shadowbox.next()" name="sb-nav-next"></a><a title="Play" id="sb-nav-play" onclick="Shadowbox.play()" name="sb-nav-play"></a><a title="Pause" id="sb-nav-pause" onclick="Shadowbox.pause()" name="sb-nav-pause"></a><a title="Previous" id="sb-nav-previous" onclick="Shadowbox.previous()" name="sb-nav-previous"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div aria-labelledby="ui-id-1" style="outline: 0px none; z-index: 1002; position: relative; height: auto; width: 300px; top: -1249px; left: 767px; display: none;" role="dialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable ui-dialog-buttons" tabindex="-1">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-1" class="ui-dialog-title">New resource</span><a href="#" role="button" class="ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick">close</span></a>
+      </div>
+      <div scrolltop="0" style="display: block; width: auto; min-height: 2px; height: auto;" id="popupDialog" scrollleft="0" class="ui-dialog-content ui-widget-content">
+        <p>
+          <!-- label for="widgetName">Please input a new resource name:</label>            <input type="text" id="widgetName" />            <br /> -->
+        </p>
+        <h3>
+          High-level types
+        </h3><input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Header" id="header4242" /><label for="#header4242">Header</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Footer" id="footer4242" /><label for="#footer4242">Footer</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Content" id="content4242" /><label for="#content4242">Content</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Sidebar" id="sidebar4242" /><label for="#sidebar4242">Sidebar</label><br />
+        <h3>
+          Specific types
+        </h3><input type="radio" name="group1" value="Logo" id="logo4242" /><label for="#logo4242">Logo</label><br />
+        <input type="radio" name="group1" value="Menu" id="menu4242" /><label for="#menu4242">Menu</label><br />
+        <input type="radio" name="group1" value="Title" id="title4242" /><label for="#title4242">Title</label><br />
+        <input type="radio" name="group1" value="LinkList" id="linklist4242" /><label for="#linklist4242">LinkList</label><br />
+        <input type="radio" name="group1" value="Author" id="author4242" /><label for="#author4242">Author</label><br />
+        <input type="radio" name="group1" value="Table" id="table4242" /><label for="#table4242">Table</label><br />
+        <input type="radio" name="group1" value="Comments" id="comments4242" /><label for="#comments4242">Comments</label><br />
+        <input type="radio" name="group1" value="Ad" id="ad4242" /><label for="#ad4242">Ad</label><br />
+        <input type="radio" name="group1" value="Video" id="video4242" /><label for="#video4242">Video</label><br />
+        <input type="radio" name="group1" value="Article" id="article4242" /><label for="#article4242">Article</label><br />
+        <input type="radio" name="group1" value="Image" id="image4242" /><label for="#image4242">Image</label><br />
+        <input type="radio" name="group1" value="Searchbar" id="search4242" /><label for="#search4242">Searchbar</label><br />
+      </div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-n"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-e"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-s"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-w"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-sw"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-ne"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-nw"></div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" aria-disabled="false"><span class="ui-button-text">Cancel</span></button><button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-focus" aria-disabled="false"><span class="ui-button-text">Accept</span></button>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
